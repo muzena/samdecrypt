@@ -1,0 +1,37 @@
+#!/bin/sh
+#set -x
+set -e 
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+#touch ~/.decrypt_userdata
+
+# Fetching configuration from debconf
+db_get samdecrypt/user
+REC=$RET
+
+db_get samdecrypt/tvip
+TVIP=$RET
+
+db_get samdecrypt/path
+PATH=$RET
+
+
+#mkdir /usr/share/samdecrypt
+#touch /usr/share/samdecrypt/.decrypt_userdata
+
+# Making user data file
+#target=${/usr/share/samdecrypt/.decrypt_userdata}
+echo 'usb="'$REC'"
+tvip="'$TVIP'"
+path="'$PATH'"' > /usr/share/samdecrypt/.decrypt_userdata
+
+#exit 0
+#cd /usr/share/samdecrypt/
+#bash samadduser.sh
+
+
+#dpkg-reconfigure samdecrypt
+
+

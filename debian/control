@@ -1,0 +1,11 @@
+Source: samdecrypt
+Section: video
+Priority: optional
+Maintainer: gogo <trebelnik2@gmail.com>
+Standards-Version: 3.6.2
+Build-Depends: debhelper (>> 4), cdbs, autoconf
+
+Package: samdecrypt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a small decrypting software

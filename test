@@ -1,0 +1,62 @@
+#!/bin/bash
+#set -x
+####################################################################################
+
+#echo "Checking and creating if it need user data file."
+#FILE=~/.decrypt_userdata
+#if [ -f $FILE ]; then
+#   echo "File '$FILE' exists"
+#else
+#   echo 'usb="sda1"
+#tvip="ENTER_YOUR_TV_IP"' > ~/.decrypt_userdata
+#fi
+echo "Selecting TV ip adress and recording devices."
+usb=""
+tvip=""
+path=""
+#target="/usr/share/samdecrypt/.decrypt_userdata"
+M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
+[ -e /usr/share/samdecrypt/.decrypt_userdata ] && source /usr/share/samdecrypt/.decrypt_userdata
+[ -z $usb ] && exit 1
+[ -z $tvip ] && exit 1
+[ -z $path ] && exit 1
+
+####################################################################################
+function put_tools
+{
+ftp -in $tvip <<EOF
+lcd tools
+cd /mtd_rwcommon/
+binary
+put samyGOso
+put libPVRdumpkeys.so
+quit
+EOF
+}
+function check_files
+{
+ftp -in $tvip <<EOF
+ls /mtd_rwcommon/libPVRdumpkeys.so
+quit
+EOF
+}
+echo "Checking tools..."
+check_files
+echo "Tools checked."
+#echo "Dumping keys..."
+#echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
+#echo "Waiting for TV to dumpkeys..."
+
+#if [ $( grep -c "${USER}:.*:1000:1000:.*,,,:/home/${USER}:/bin/bash" /etc/passwd ) == 1 ] \
+if [ $( grep -c "/libPVRdumpkeys.so" /mtd_rwcommon/libPVRdumpkeys.so ) == 1 ] \
+
+echo "Checking and creating if it need user data file."
+FILE=check_files
+if [ -f $FILE ]; then
+   echo "File '$FILE' exists"
+else
+   echo "File dosen't exists"
+   /usr/share/samdecrypt/samadduser.sh
+fi
+
+sleep 3
