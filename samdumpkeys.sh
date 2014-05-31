@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+#set -x  debug
 
 ####################################################################################
 
@@ -24,7 +26,7 @@ tvip=""
 function put_tools
 {
 ftp -in $tvip <<EOF
-lcd tools
+lcd /usr/share/samdecrypt/tools
 cd /mtd_rwcommon/
 binary
 put samyGOso
@@ -32,11 +34,21 @@ put libPVRdumpkeys.so
 quit
 EOF
 }
+function fix_permission
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+chmod 755 /mtd_rwcommon/samyGOso
+exit
+EOF
+}
 echo "Uploading tools..."
 put_tools
 echo "Tools uploaded."
+echo "Fix permission..."
+fix_permission
 echo "Dumping keys..."
-echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
+echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP || pidof exeSBB\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
 echo "Waiting for TV to dumpkeys..."
 echo "#######################################"
 echo "###                                 ###"
