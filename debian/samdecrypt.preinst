@@ -3,6 +3,6 @@
 set -e 
 
 echo "Delete old samdecrypt directory and user data file."
-rm -r samdecrypt
+rm -r /usr/share/samdecrypt
 
 exit 0
