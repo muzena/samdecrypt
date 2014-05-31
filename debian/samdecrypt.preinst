@@ -1,0 +1,8 @@
+#!/bin/sh
+#set -x
+set -e 
+
+echo "Delete old samdecrypt directory and user data file."
+rm -r samdecrypt
+
+exit 0

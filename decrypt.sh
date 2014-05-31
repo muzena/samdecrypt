@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-#set -x  debug
+#set -e
+#set -x  #debug
 
 ####################################################################################
 
@@ -43,6 +43,23 @@ chmod 755 /mtd_rwcommon/samyGOso
 exit
 EOF
 }
+function del_tools
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+rm /mtd_rwcommon/samyGOso
+rm /mtd_rwcommon/libPVRdumpkeys.so
+exit
+EOF
+}
+function del_tempfiles
+{
+cd $path
+rm -r infs
+rm *.srf
+rm *.key <<EOF
+EOF
+}
 function get_file
 {
 ftp -in $tvip <<EOF
@@ -72,6 +89,12 @@ function get_pvr_title
 #	make
 #fi
 #cd ..
+
+#################################################################################################
+echo "Deleting previously downloaded file if exist."
+del_tempfiles
+#################################################################################################
+
 echo "Getting PVR list."
 infs=`echo "ls /dtv/usb/$usb/CONTENTS/*.inf" | nc  -t -i 1 $tvip 23 | grep -o "/dtv/usb/$usb/CONTENTS/2.*inf" | grep -o "2.*inf"`
 echo "Downloading PVR info files."
@@ -133,15 +156,17 @@ then
 #	decrypt ~/"$pvr.srf" ~/"$pvr_title.ts" ~/"$pvr.key"
 	decrypt $path/"$pvr.srf" $path/"$pvr_title.ts" $path/"$pvr.key"
 	echo "Decoding of \"$pvr_title\" is finished..."
-        chown $USER:$USER *.ts
-#	echo "$pvr_title"
+	del_tempfiles
 	echo "\"$pvr_title\"   video file are located in   $path."
-	rm "$pvr.srf"
-	rm "$pvr.key"
+#       chown $USER:$USER *.ts
+#	echo "$pvr_title"
+#	rm "$pvr.srf"
+#	rm "$pvr.key"
 fi
-rm ./infs/*
-rmdir ./infs/
+echo "Deleting tools from TV."
+del_tools
+#rm ./infs/*
+#rmdir ./infs/
 	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
 	#echo "Downloading PVR files."
-
 sleep 15 #(sleep 15 seconds)

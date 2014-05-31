@@ -42,6 +42,15 @@ chmod 755 /mtd_rwcommon/samyGOso
 exit
 EOF
 }
+function del_tools
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+rm /mtd_rwcommon/samyGOso
+rm /mtd_rwcommon/libPVRdumpkeys.so
+exit
+EOF
+}
 echo "Uploading tools..."
 put_tools
 echo "Tools uploaded."
@@ -50,6 +59,8 @@ fix_permission
 echo "Dumping keys..."
 echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP || pidof exeSBB\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
 echo "Waiting for TV to dumpkeys..."
+echo "Deleting tools from TV."
+del_tools
 echo "#######################################"
 echo "###                                 ###"
 echo "###   Video keys are generated...   ###"
