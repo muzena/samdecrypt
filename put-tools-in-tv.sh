@@ -1,5 +1,7 @@
 #!/bin/bash
-set -x
+set -e
+#set -x  debug
+
 ####################################################################################
 
 #echo "Checking and creating if it need user data file."
@@ -34,11 +36,21 @@ put libPVRdumpkeys.so
 quit
 EOF
 }
+function fix_permission
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+chmod 755 /mtd_rwcommon/samyGOso
+exit
+EOF
+}
 echo "Uploading tools..."
 put_tools
 echo "Tools uploaded."
+echo "Fix permission..."
+fix_permission
 #echo "Dumping keys..."
-#echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
+#echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP || pidof exeSBB\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
 #echo "Waiting for TV to dumpkeys..."
 
 sleep 3
