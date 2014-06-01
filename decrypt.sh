@@ -16,6 +16,7 @@ echo "Selecting TV ip adress and recording devices."
 usb=""
 tvip=""
 path=""
+sec="20"
 #target="/usr/share/samdecrypt/.decrypt_userdata"
 #M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
 [ -e /usr/share/samdecrypt/.decrypt_userdata ] && source /usr/share/samdecrypt/.decrypt_userdata
@@ -33,6 +34,15 @@ binary
 put samyGOso
 put libPVRdumpkeys.so
 quit
+EOF
+}
+function count_time
+{
+seconds=$sec; date1=$((`date +%s` + $seconds)); 
+while [ "$date1" -ne `date +%s` ]; do 
+#  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%H:%M:%S)\r"; 
+  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%S)\r"; 
+done <<EOF
 EOF
 }
 function fix_permission
@@ -169,5 +179,8 @@ del_tools
 #rmdir ./infs/
 	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
 	#echo "Downloading PVR files."
-echo "Exiting Samdecrypt..."
-sleep 15 #(sleep 15 seconds)
+echo ""
+echo "All job is done "
+echo "Exiting Samdecrypt for "
+count_time
+#sleep 2 #(sleep 15 seconds)
