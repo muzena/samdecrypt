@@ -169,4 +169,5 @@ del_tools
 #rmdir ./infs/
 	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
 	#echo "Downloading PVR files."
+echo "Exiting Samdecrypt..."
 sleep 15 #(sleep 15 seconds)
