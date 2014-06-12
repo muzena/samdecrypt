@@ -2,7 +2,12 @@
 #set -x
 set -e 
 
-echo "Delete old samdecrypt directory and user data file."
-rm -r /usr/share/samdecrypt
+FILE=/usr/share/samdecrypt/.decrypt_userdata
+if [ -f $FILE ]; then
+   echo "Delete old samdecrypt directory and user data file."
+   rm -r /usr/share/samdecrypt
+else
+   echo "File '$FILE' do not exists"
+fi
 
 exit 0
