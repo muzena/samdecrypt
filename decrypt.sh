@@ -137,7 +137,12 @@ echo "All PVR info files downloaded."
 echo "Select PVR recording to download."
 #menu_cmd="$menu_cmd $menu_list"
 #$menu_cmd
-choice=$(dialog --menu "Select recording to download:" 25 80 25 "${menu_list[@]}" 2>&1 >/dev/tty)
+#choice=$(dialog --menu "Select recording to download:" 25 80 25 "${menu_list[@]}" 2>&1 >/dev/tty)
+choice=$(zenity \
+    --list \
+    --column "Select" \
+    --column "recordings" \
+    "${menu_list[@]}") \
 clear
 if [ "$choice" ]
 then
