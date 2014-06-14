@@ -7,5 +7,5 @@ Build-Depends: debhelper (>> 4), cdbs, autoconf
 
 Package: samdecrypt
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, zenity
 Description: a small decrypting software
