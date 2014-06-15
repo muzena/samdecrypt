@@ -8,4 +8,5 @@ Build-Depends: debhelper (>> 4), cdbs, autoconf
 Package: samdecrypt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, zenity
-Description: a small decrypting software
+Description: Small decrypting software
+ Small tools for generating keys and decoding Samsung TV Recordings
