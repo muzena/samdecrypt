@@ -143,6 +143,7 @@ choice=$(zenity \
     --column "Select" \
     --column "recordings" \
     "${menu_list[@]}") \
+
 clear
 if [ "$choice" ]
 then
