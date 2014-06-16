@@ -42,7 +42,6 @@ install: build
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
-	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/applications
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/aes.o $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
@@ -50,23 +49,11 @@ install: build
 	cp -r $(CURDIR)/drmdecrypt $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/decrypt.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/samdumpkeys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
-	cp -r $(CURDIR)/samremovekeys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/put-tools-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
-	cp -r $(CURDIR)/remove-tools-from-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
-	cp -r $(CURDIR)/list.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
-	cp -r $(CURDIR)/samdecrypt-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/Samdecrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/applications
-	cp -r $(CURDIR)/decrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
-	cp -r $(CURDIR)/generate-keys.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
-	cp -r $(CURDIR)/remove-keys.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
-	cp -r $(CURDIR)/put-tools-in-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
-	cp -r $(CURDIR)/remove-tools-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
-	cp -r $(CURDIR)/title-list.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
-	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
-	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 
 override_dh_shlibdeps:
 
@@ -99,9 +86,7 @@ binary-arch: build install
 	dh_link /usr/share/samdecrypt/drmdecrypt /usr/bin/decrypt
 	dh_link /usr/share/samdecrypt/decrypt.sh /usr/bin/samdecrypt
 	dh_link /usr/share/samdecrypt/samdumpkeys.sh /usr/bin/samdumpkeys
-	dh_link /usr/share/samdecrypt/samremovekeys.sh /usr/bin/samremovekeys
 	dh_link /usr/share/samdecrypt/put-tools-in-tv.sh /usr/bin/samtvtools
-	dh_link /usr/share/samdecrypt/samdecrypt-gui /usr/bin/samdecrypt-gui
 #	override_dh_strip debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
 	dh_strip --exclude=libPVRdumpkeys.so
 	dh_compress 
