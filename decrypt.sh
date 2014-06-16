@@ -1,6 +1,6 @@
 #!/bin/bash
 #set -e
-#set -x  #debug
+set -x  #debug
 
 ####################################################################################
 
@@ -25,7 +25,7 @@ sec="20"
 [ -z $path ] && exit 1
 ####################################################################################
 
-function put_tools
+function put_tools()
 {
 ftp -in $tvip <<EOF
 lcd /usr/share/samdecrypt/tools
@@ -36,16 +36,16 @@ put libPVRdumpkeys.so
 quit
 EOF
 }
-function count_time
+function count_time()
 {
 seconds=$sec; date1=$((`date +%s` + $seconds)); 
 while [ "$date1" -ne `date +%s` ]; do 
 #  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%H:%M:%S)\r"; 
-  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%S)\r"; 
+  echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%S)\r";
 done <<EOF
 EOF
 }
-function fix_permission
+function fix_permission()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
@@ -53,7 +53,7 @@ chmod 755 /mtd_rwcommon/samyGOso
 exit
 EOF
 }
-function del_tools
+function del_tools()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
@@ -62,7 +62,7 @@ rm /mtd_rwcommon/libPVRdumpkeys.so
 exit
 EOF
 }
-function del_tempfiles
+function del_tempfiles()
 {
 cd $path
 rm -r infs
@@ -70,7 +70,7 @@ rm *.srf
 rm *.key <<EOF
 EOF
 }
-function get_file
+function get_file()
 {
 ftp -in $tvip <<EOF
 cd /dtv/usb/$usb/CONTENTS/
@@ -79,7 +79,7 @@ get $1
 quit
 EOF
 }
-function get_pvr_title
+function get_pvr_title()
 {
 	if [ ! -f "$1" ]
 	then
@@ -89,6 +89,37 @@ function get_pvr_title
 
 	python -c  "f=open('$1','r');f.seek(0xff);print f.read(0x100).rstrip('\x00');"
 }
+function download_file()
+{
+wget "ftp://$tvip/dtv/usb/$usb/CONTENTS/$pvr.srf" -O $path/"$pvr.srf" 2>&1 | \
+sed -u 's/^[a-zA-Z\-].*//; s/.* \{1,2\}\([0-9]\{1,3\}\)%.*/\1\n#Downloading... \1%/; s/^20[0-9][0-9].*/#Done./' | \
+yad \
+   --progress \
+   --percentage=0 \
+   --title="Samdecrypt" dialog \
+   --window-icon="/usr/share/pixmaps/samdecrypt.png" \
+   --text="Downloading encrypted recording files..." \
+   --auto-close --auto-kill \ <<EOF
+EOF
+}
+function decrypts_file()
+{
+2>&1 | \
+sed -u 's/^[a-zA-Z\-].*//; s/.* \{1,2\}\([0-9]\{1,3\}\)%.*/\1\n#decrypt... \1%/; s/^20[0-9][0-9].*/#decrypted OK!./' | \
+yad \
+   --progress \
+   --percentage=0 \
+   --title="Download" dialog \
+   --window-icon="/usr/share/pixmaps/samdecrypt.png" \
+   --text="Downloading encrypted recording files..." \
+   --auto-close --auto-kill \ <<EOF
+EOF
+}
+
+#function wget()
+#{
+#tail -f /home/goran/Snimke/wgetlog
+#}
 #echo "Checking if drmdecrypt is already compiled."
 #cd tools
 #if [ -f "drmdecrypt" ]
@@ -104,10 +135,13 @@ function get_pvr_title
 echo "Deleting previously downloaded file if exist."
 del_tempfiles
 #################################################################################################
-
+function decrypt_video()
+{
 echo "Getting PVR list."
 infs=`echo "ls /dtv/usb/$usb/CONTENTS/*.inf" | nc  -t -i 1 $tvip 23 | grep -o "/dtv/usb/$usb/CONTENTS/2.*inf" | grep -o "2.*inf"`
 echo "Downloading PVR info files."
+
+# && notify-send test "`tail /home/goran/Snimke/wgetlog`"
 #mkdir ~/infs 2> /dev/null
 mkdir $path/infs 2> /dev/null
 #cd ~/infs
@@ -135,14 +169,25 @@ done
 cd ..
 echo "All PVR info files downloaded."
 echo "Select PVR recording to download."
+notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Select PVR recording to download from Samsung TV..."
 #menu_cmd="$menu_cmd $menu_list"
 #$menu_cmd
 #choice=$(dialog --menu "Select recording to download:" 25 80 25 "${menu_list[@]}" 2>&1 >/dev/tty)
 choice=$(zenity \
+    --title="Samdecrypt" \
+    --window-icon="/usr/share/pixmaps/samdecrypt.png" \
+    --text="Select encrypted recordings for download and decrypt" \
     --list \
     --column "Select" \
     --column "recordings" \
     "${menu_list[@]}") \
+#choice=$(yad \
+#    --title="" --text="Samdecrypt"  \
+#    --image="/usr/share/pixmaps/samdecrypt.png" \
+#    --list \
+#    --column="Select:NUM" \
+#    --column "recordings:TEXT" \
+#    "${menu_list[@]}") \
 
 clear
 if [ "$choice" ]
@@ -158,23 +203,39 @@ then
 	echo "Fix permission..."
 	fix_permission
 	echo "Dumping keys..."
+	notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Generating key files..."
 	echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP || pidof exeSBB\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
 	echo "Waiting for TV to dumpkeys..."
 	sleep 3
 	echo "Downloadng PVR file titled: \"$pvr_title\"."
+#	tail -n0 -f /home/goran/Snimke/wgetlog | while read line; do notify-send "System Message" "$line"; done
+	notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Downloadng PVR file titled: \"$pvr_title\". from Samsung TV..."
 	get_file "$pvr.key"
 	#get_file "$pvr.srf"
 	#use wget to have nice progress bar :)
 #	wget "ftp://$tvip/dtv/usb/$usb/CONTENTS/$pvr.srf" -O ~/"$pvr.srf"
-	wget "ftp://$tvip/dtv/usb/$usb/CONTENTS/$pvr.srf" -O $path/"$pvr.srf"
+	wget "ftp://$tvip/dtv/usb/$usb/CONTENTS/$pvr.srf" -O $path/"$pvr.srf" 2>&1 | \
+sed -u 's/^[a-zA-Z\-].*//; s/.* \{1,2\}\([0-9]\{1,3\}\)%.*/\1\n#Downloading... \1%/; s/^20[0-9][0-9].*/#Done./' | \
+yad \
+   --progress \
+   --percentage=0 \
+   --title="Samdecrypt" dialog \
+   --window-icon="/usr/share/pixmaps/samdecrypt.png" \
+   --text="Downloading encrypted recording files..." \
+   --auto-close --auto-kill \
+   --button="Quit:1" \
+
 	echo "Starting file decryption..."
+	echo "Starting file decryption..."
+	notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Starting decryption of file: \"$pvr_title\"."
 #	echo "Your decoded video files are located in your Home folder."
 #	decrypt ~/"$pvr.srf" ~/"$pvr_title.ts" ~/"$pvr.key"
 	decrypt $path/"$pvr.srf" $path/"$pvr_title.ts" $path/"$pvr.key"
 	echo "Decoding of \"$pvr_title\" is finished..."
+	notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoding of file: \"$pvr_title\"  is finished."
 	del_tempfiles
-	echo "\"$pvr_title\"   video file are located in   $path."
-#       chown $USER:$USER *.ts
+	echo "Decoded video file   \"$pvr_title\"   are located in   $path."
+        chown $USER:$USER *.ts
 #	echo "$pvr_title"
 #	rm "$pvr.srf"
 #	rm "$pvr.key"
@@ -185,8 +246,26 @@ del_tools
 #rmdir ./infs/
 	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
 	#echo "Downloading PVR files."
+notify-send --app-name="Samdecrypt" --expire-time="6000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoded video file   \"$pvr_title\"   are located in   $path."
 echo ""
 echo "All job is done "
-echo "Exiting Samdecrypt for "
-count_time
-#sleep 2 #(sleep 15 seconds)
+
+yad \
+  --title="Samdecrypt" \
+  --window-icon="/usr/share/pixmaps/samdecrypt.png" \
+  --width=260 \
+  --height=90 \
+  --text="Decoded file \"$pvr_title\" is located in $path" \
+  --text-align="center" \
+  --button="Quit:1" \
+ <<EOF
+EOF
+}
+
+decrypt_video
+#echo "Exiting Samdecrypt for "
+#count_time
+#alias alert_helper='history|tail -n1|sed -e "s/^\s*[0-9]\+\s*//" -e "s/;\s*alert$//"'
+#alias alert='notify-send -i /usr/share/icons/gnome/32x32/apps/gnome-terminal.png "[$?] $(alert_helper)"'
+#sleep 20; alert
+sleep 2 #(sleep 15 seconds)

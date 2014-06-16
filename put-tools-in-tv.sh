@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-#set -x  debug
+#set -e
+set -x  debug
 
 ####################################################################################
 
@@ -24,8 +24,9 @@ M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
 [ -z $path ] && exit 1
 
 ####################################################################################
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Starting coping decoding tools..."
 
-function put_tools
+function put_tools()
 {
 ftp -in $tvip <<EOF
 lcd /usr/share/samdecrypt/tools
@@ -36,7 +37,7 @@ put libPVRdumpkeys.so
 quit
 EOF
 }
-function fix_permission
+function fix_permission()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
@@ -44,11 +45,19 @@ chmod 755 /mtd_rwcommon/samyGOso
 exit
 EOF
 }
+function copy_tools()
+{
 echo "Uploading tools..."
 put_tools
 echo "Tools uploaded."
 echo "Fix permission..."
 fix_permission
+ <<EOF
+EOF
+}
+
+copy_tools
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Coping decoding tools finished"
 #echo "Dumping keys..."
 #echo "/mtd_rwcommon/samyGOso -p \`pidof exeTV || pidof exeDSP || pidof exeSBB\` -l /mtd_rwcommon/libPVRdumpkeys.so" | nc  -t -i 1 $tvip 23 
 #echo "Waiting for TV to dumpkeys..."
