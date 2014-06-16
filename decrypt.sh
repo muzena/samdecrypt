@@ -102,7 +102,7 @@ yad \
    --auto-close --auto-kill \ <<EOF
 EOF
 }
-function decrypt_file()
+function decrypts_file()
 {
 2>&1 | \
 sed -u 's/^[a-zA-Z\-].*//; s/.* \{1,2\}\([0-9]\{1,3\}\)%.*/\1\n#decrypt... \1%/; s/^20[0-9][0-9].*/#decrypted OK!./' | \
@@ -135,7 +135,8 @@ EOF
 echo "Deleting previously downloaded file if exist."
 del_tempfiles
 #################################################################################################
-
+function decrypt_video()
+{
 echo "Getting PVR list."
 infs=`echo "ls /dtv/usb/$usb/CONTENTS/*.inf" | nc  -t -i 1 $tvip 23 | grep -o "/dtv/usb/$usb/CONTENTS/2.*inf" | grep -o "2.*inf"`
 echo "Downloading PVR info files."
@@ -257,7 +258,11 @@ yad \
   --text="Decoded file \"$pvr_title\" is located in $path" \
   --text-align="center" \
   --button="Quit:1" \
+ <<EOF
+EOF
+}
 
+decrypt_video
 #echo "Exiting Samdecrypt for "
 #count_time
 #alias alert_helper='history|tail -n1|sed -e "s/^\s*[0-9]\+\s*//" -e "s/;\s*alert$//"'
