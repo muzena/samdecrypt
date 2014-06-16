@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Remove key files
+Comment=Remove key files from recording device
+GenericName=Remove key
+Exec=/usr/share/samdecrypt/samremovekeys.sh del
+Icon=gtk-add
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=AudioVideo;Video;
+StartupWMClass=Samdecrypt
