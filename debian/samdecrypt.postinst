@@ -17,6 +17,8 @@ TVIP=$RET
 db_get samdecrypt/path
 PATH=$RET
 
+db_get samdecrypt/widgetpath
+WIDGETPATH=$RET
 
 #mkdir /usr/share/samdecrypt
 #touch /usr/share/samdecrypt/.decrypt_userdata
@@ -25,8 +27,8 @@ PATH=$RET
 #target=${/usr/share/samdecrypt/.decrypt_userdata}
 echo 'usb="'$REC'"
 tvip="'$TVIP'"
-path="'$PATH'"' > /usr/share/samdecrypt/.decrypt_userdata
-
+path="'$PATH'"
+widgetpath="'$WIDGETPATH'"' > /usr/share/samdecrypt/.decrypt_userdata
 #exit 0
 #cd /usr/share/samdecrypt/
 #bash samadduser.sh

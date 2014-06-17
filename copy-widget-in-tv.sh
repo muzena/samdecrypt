@@ -18,11 +18,12 @@ tvip=""
 path=""
 widgetpath=""
 #target="/usr/share/samdecrypt/.decrypt_userdata"
-M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
+#M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
 [ -e /usr/share/samdecrypt/.decrypt_userdata ] && source /usr/share/samdecrypt/.decrypt_userdata
 [ -z $usb ] && exit 1
 [ -z $tvip ] && exit 1
 [ -z $path ] && exit 1
+[ -z $widgetpath ] && exit 1
 
 ####################################################################################
 notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Uploading widget to Samsung TV..."
@@ -35,9 +36,8 @@ lcd /usr/share/samdecrypt/tools
 cd /mtd_rwcommon/widgets/user/
 binary
 put widget
-lcd $path
-put *.zip
-put 
+lcd $widgetpath
+put *.zip 
 quit
 EOF
 }
