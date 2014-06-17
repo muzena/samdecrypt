@@ -12,7 +12,7 @@ set -e
 #   echo 'usb="sda1"
 #tvip="ENTER_YOUR_TV_IP"' > ~/.decrypt_userdata
 #fi
-echo "Selecting TV ip adress and recording devices."
+echo "Selecting TV ip address and recording devices."
 usb=""
 tvip=""
 #target="/usr/share/samdecrypt/.decrypt_userdata"
@@ -22,7 +22,7 @@ tvip=""
 [ -z $tvip ] && exit 1
 
 ####################################################################################
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "****.key files are generating"
+# notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "****.key files are generating"
 
 function put_tools()
 {
@@ -67,10 +67,20 @@ EOF
 }
 
 generate_keys
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "****.key files are generated"
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "*.key files are generated on recording device"
 echo "Waiting for TV to dumpkeys..."
 echo "Deleting tools from TV."
 del_tools
+
+yad \
+  --title="Samdecrypt" \
+  --window-icon="/usr/share/pixmaps/samdecrypt-24.png" \
+  --width=260 \
+  --height=90 \
+  --text="*.key files are generated on recording device" \
+  --text-align="center" \
+  --button="Close:1" \
+
 echo "#######################################"
 echo "###                                 ###"
 echo "###   Video keys are generated...   ###"

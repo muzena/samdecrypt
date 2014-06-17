@@ -190,8 +190,9 @@ choice=$(yad \
     --list \
     --column="#:NUM" \
     --column "File title:TEXT" \
-    "${menu_list[@]}") \
     --no-click \
+    "${menu_list[@]}") \
+
 
 clear
 if [ "$choice" ]
