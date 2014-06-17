@@ -1,0 +1,17 @@
+#!/bin/bash
+#set -e
+set -x  debug
+# Read name from widget zip archive, make folder with archive name, extracting and removing archive
+  
+for full_filename in *zip; do
+  extension="${full_filename##*.}"
+  filename="${full_filename%.*}"
+  mkdir -p "$filename"
+  cp "$filename".zip "$filename"
+  cd "$filename"
+  unzip *.zip
+  rm "$filename"*.zip
+  cd ..
+  rm "$filename"*.zip
+done
+
