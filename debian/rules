@@ -55,6 +55,9 @@ install: build
 	cp -r $(CURDIR)/remove-tools-from-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/list.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/copy-widget-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/remove-widget-from-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/list-widget-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samconfigure $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/samdecrypt-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
@@ -67,6 +70,9 @@ install: build
 	cp -r $(CURDIR)/remove-tools-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	cp -r $(CURDIR)/title-list.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	cp -r $(CURDIR)/add-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/samconfigure.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/remove-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/list-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
@@ -106,6 +112,9 @@ binary-arch: build install
 	dh_link /usr/share/samdecrypt/put-tools-in-tv.sh /usr/bin/samtvtools
 	dh_link /usr/share/samdecrypt/samdecrypt-gui /usr/bin/samdecrypt-gui
 	dh_link /usr/share/samdecrypt/copy-widget-in-tv.sh /usr/bin/addwidget
+	dh_link /usr/share/samdecrypt/samconfigure /usr/bin/samconfigure
+	dh_link /usr/share/samdecrypt/remove-widget-from-tv.sh /usr/bin/removewidget
+	dh_link /usr/share/samdecrypt/list-widget-in-tv.sh /usr/bin/listwidget
 #	override_dh_strip debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
 	dh_strip --exclude=libPVRdumpkeys.so
 	dh_compress 

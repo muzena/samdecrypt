@@ -28,48 +28,76 @@ widgetpath=""
 ####################################################################################
 # notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Uploading widget to Samsung TV..."
 
-
-choice=$(ls $widgetpath |  zenity \
-				--title="Samdecrypt" \
-				--window-icon="/usr/share/pixmaps/samdecrypt.png" \
-				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
-				--list \
-				--width=300 \
-				--height=300 \
-				--column "Select widget") \
-
-function put_widget()
-{
-ftp -in $tvip <<EOF
-lcd /usr/share/samdecrypt/tools
-cd /mtd_rwcommon/widgets/user/
-binary
-put widget
-lcd $widgetpath
-put $choice 
-quit
-EOF
-}
-function copy_widget()
+function list_widget()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
-chmod 755 /mtd_rwcommon/widgets/user/widget
 cd /mtd_rwcommon/widgets/user/
-sh widget
-rm widget
+ls > list.txt
+exit
+EOF
+}
+function get_widgetlist()
+{
+ftp -in $tvip <<EOF
+lcd $widgetpath
+cd /mtd_rwcommon/widgets/user/
+binary
+get list.txt
+quit
+EOF
+}
+function remove_widgetlist()
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+cd /mtd_rwcommon/widgets/user/
+rm list.txt
+exit
+EOF
+}
+function remove_widgetlist()
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+cd /mtd_rwcommon/widgets/user/
+rm list.txt
+exit
+EOF
+}
+function remove_widget()
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+cd /mtd_rwcommon/widgets/user/
+rm -r $choice
 exit
 EOF
 }
 
+#Genetate widget list
+list_widget
+#Download widget list to computer
+get_widgetlist
+# Remove widget list from TV
+remove_widgetlist
+
+choice=$(cat $widgetpath/list.txt |  zenity \
+				--title="Samdecrypt" \
+				--window-icon="/usr/share/pixmaps/samdecrypt.png" \
+				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
+				--list \
+				--column "Select widget") \
+
 if [ "$choice" ]
 then
-	put_widget
-	copy_widget
+	remove_widget
 fi
+# Remove widget list from computer
+rm $widgetpath/list.txt
 
 wait
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget are uploaded to Samsung TV"
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget are removed from Samsung TV"
 
 yad \
   --title="Samdecrypt" \

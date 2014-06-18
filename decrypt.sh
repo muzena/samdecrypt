@@ -231,6 +231,11 @@ yad \
 #	echo "Your decoded video files are located in your Home folder."
 #	decrypt ~/"$pvr.srf" ~/"$pvr_title.ts" ~/"$pvr.key"
 	decrypt $path/"$pvr.srf" $path/"$pvr_title.ts" $path/"$pvr.key"
+
+
+#  ffmpeg -vcodec copy -acodec copy -i "$SourceFile" "$Directory/$OutputFilename" 2>&1 | zenity --width 500 --title "$WindowTitle | $MessageProgressTitle" --text "$MessageProgress" --progress --pulsate --auto-close
+
+
 	echo "Decoding of \"$pvr_title\" is finished..."
 	notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoding of file: \"$pvr_title\"  is finished."
 	del_tempfiles
