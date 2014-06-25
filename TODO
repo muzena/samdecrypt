@@ -1,11 +1,97 @@
-Function for change settings IPTV, recording device, recording path
-
-checking if TV is connectable
-
-Widgets - remove widget list
+widget folder on tv:     nemo ftp://user@192.168.5.6/mtd_down/widgets
 
 
+
+
+WIDGET  after operation of uploading remove temp files from comp is canceled 
+
+close up dialog
+
+temp file  id set to be hidden  eg.   list.txt  >>>>   .list.txt
+
+
+
+
+play video files list
+decode from computer
+another backup remove widget location
+
+xdg-open ftp://user@192.168.5.6/mtd_down/widgets
+
+multiple selection
+
+remove recording from recording device
+
+
+wget "ftp://$tvip/dtv/usb/$usb/CONTENTS/*.key"
+
+Zenity >>>  yad
+
+
+rtmp tools
+
+help dialog
+
+#######################################################################
+
+Backing up and uploading TV settings before reset TV to factory F6500
+channel_list_UE46F6500_1201.scm uncompress 
+http://wiki.samygo.tv/index.php5/Samsung_channel_list_format
+
+########################################################################
+
+Automatically restart TV
+
+
+
+Resize windows
+
+Checking if TV is connectable function - automatically discover TV
+
+Gui for configuring sam decrypt - remove root - add separate dialog
+
+tail decryption progress dialog
+
+multiple selection
+
+TEEEEEEEST NOW SAMDECRYPT
 File for generate debs
+Clean code
+ICONS
 
-Gui for configure samdecrypt
+localization
+
+
+FUNCTIONS:
+
+1) Decrypting video: 1. Decrypt recordings
+                     2. Generate key files
+                     3. Download key files
+                     4. Remove key files
+                     5. View title list
+
+2) Widgets: 1. Add widget
+            2. Backup widget
+            3. Remove widget
+            4. Widget list
+
+3) Tools: 1. Add tools
+          2. Remove tools
+          3. Reboot TV
+
+4) Samdecrypt settings
+
+
+                 
+                      ----------Decrypting: desktopfiles1 folder
+                     /          
+                    /
+                   /
+                  /
+samdecrypt-gui    --------------Widget:  desktopfiles2 folder
+                  \
+                   \
+                    \ ----------tools:   desktopfiles3 folder
+                     \
+                      ----------Settings:
 

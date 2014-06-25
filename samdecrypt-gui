@@ -1,15 +1,75 @@
 #!/bin/bash
+#set -e
+set -x  debug
+
+####################################################################################
+
+#echo "Checking and creating if it need user data file."
+#FILE=~/.decrypt_userdata
+#if [ -f $FILE ]; then
+#   echo "File '$FILE' exists"
+#else
+#   echo 'usb="sda1"
+#tvip="ENTER_YOUR_TV_IP"' > ~/.decrypt_userdata
+#fi
+echo "Selecting TV ip address and recording devices."
+usb=""
+tvip=""
+path=""
+#target="/usr/share/samdecrypt/.decrypt_userdata"
+M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
+[ -e /usr/share/samdecrypt/.decrypt_userdata ] && source /usr/share/samdecrypt/.decrypt_userdata
+[ -z $usb ] && exit 1
+[ -z $tvip ] && exit 1
+[ -z $path ] && exit 1
+
+####################################################################################
+
+#Test Samsung TV network connection
+
+#/usr/share/samdecrypt/ping-tv-test
+
+if
+ping -c 3 "$tvip" > $path/ping.txt | grep pipe $path/ping.txt
+wait
+then
+  echo "Samsung TV isn't available IPTV in settings"
+  /usr/share/samdecrypt/ping-tv-test
+
+else
+  echo "Samsung TV available"
+fi
+wait
+
+rm $path/ping.txt
+#SAM_RUN=`yad \
+#           --class="Samdecrypt" \
+#           --name="Samdecrypt" \
+#           --window-icon="/usr/share/pixmaps/samdecrypt-84.png" \
+#           --icons \
+#           --item-width="84" \
+#           --read-dir="/usr/share/samdecrypt/desktopfiles" \
+#           --width="400" \
+#           --height="100" \
+#           --borders=10 \
+#           --title="Samdecrypt" \
+#           --text="\n<b>Double click</b> on icon to start action:" \
+#           --button="Close:1"` \
 
 SAM_RUN=`yad \
            --class="Samdecrypt" \
            --name="Samdecrypt" \
            --window-icon="/usr/share/pixmaps/samdecrypt-84.png" \
+	   --single-click \
            --icons \
            --item-width="84" \
            --read-dir="/usr/share/samdecrypt/desktopfiles" \
-           --width="350" \
-           --height="450" \
+           --width="450" \
+           --height="230" \
            --borders=10 \
            --title="Samdecrypt" \
-           --text="\n<b>Double click</b> on icon to start action:" \
+           --text="\n<b>Click</b> on icon to start action:" \
            --button="Close:1"` \
+
+exit
+

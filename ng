@@ -1,0 +1,18 @@
+#!/bin/bash
+set -x
+
+ls /usr/share/samdecrypt/desktopfiles1/ | yad \
+--center \
+--list \
+--no-headers \
+--class="Y-PPA-Manager" \
+--name="Y PPA Manager" \
+--window-icon="/usr/share/icons/hicolor/128x128/apps/y-ppa-manager.png" \
+--column="Update release name in working PPAs" \
+--width=350 \
+--height=270 \
+--title="Advanced - Y PPA Manager" \
+--button="Close:1" \
+--button="gtk-ok:0" \
+
+#/usr/share/samdecrypt/desktopfiles1

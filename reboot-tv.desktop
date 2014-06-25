@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
-Name=Samdecrypt settings
-Comment=Configure Samdecrypt
-GenericName=Set Samdecrypt options
-Exec=samconfigure
+Name=Reboot TV
+Comment=Reboot Samsung TV
+GenericName=Reboot your TV
+Exec=/usr/share/samdecrypt/reboot-tv
 Icon=gtk-add
-Terminal=true
+Terminal=false
 X-MultipleArgs=false
 Type=Application
 Categories=AudioVideo;Video;

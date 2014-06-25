@@ -1,6 +1,6 @@
 #!/bin/bash
 #set -e
-set -x  #debug
+set -x  debug
 
 ####################################################################################
 
@@ -132,7 +132,7 @@ EOF
 #cd ..
 
 #################################################################################################
-echo "Deleting previously downloaded file if exist."
+echo "Deleting previously downloaded temp file if exist."
 del_tempfiles
 #################################################################################################
 function list_video()
@@ -193,22 +193,8 @@ choice=$(yad \
     --no-click \
     "${menu_list[@]}") \
 
-
-clear
-if [ "$choice" ]
-then
-	choice=$[choice - 1]
-	#echo $choice
-	pvr="${pvr_list[$choice]}"
-	#echo "$pvr"
-	pvr_title=`get_pvr_title "./infs/$pvr.inf"`
-fi
 echo "Deleting tools from TV."
 del_tools
-#rm ./infs/*
-#rmdir ./infs/
-	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
-	#echo "Downloading PVR files."
 notify-send --app-name="Samdecrypt" --expire-time="6000" --icon="/usr/share/pixmaps/samdecrypt.png" "Title list of recorded files closed"
 echo ""
 echo "All job is done "
@@ -216,10 +202,9 @@ echo "All job is done "
 EOF
 }
 
+echo "Titlelist."
 list_video
-#echo "Exiting Samdecrypt for "
-#count_time
-#alias alert_helper='history|tail -n1|sed -e "s/^\s*[0-9]\+\s*//" -e "s/;\s*alert$//"'
-#alias alert='notify-send -i /usr/share/icons/gnome/32x32/apps/gnome-terminal.png "[$?] $(alert_helper)"'
-#sleep 20; alert
-sleep 2 #(sleep 15 seconds)
+echo "Deleting tenp file."
+del_tempfiles
+
+exit

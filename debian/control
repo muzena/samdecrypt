@@ -7,6 +7,8 @@ Build-Depends: debhelper (>> 4), cdbs, autoconf
 
 Package: samdecrypt
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, zenity, yad
-Description: Small decrypting software
- Small tools for generating keys and decoding Samsung TV Recordings
+Depends: ${shlibs:Depends}, ${misc:Depends}, zenity, yad, wget, netcat-traditional | netcat
+Description: Tools for Samsung TV
+ Small tools for generating keys, decoding recordings,
+ uploading to TV or downloading from TV widgets,
+ removing widgets from TV and few options more.

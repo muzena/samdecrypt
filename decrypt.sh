@@ -1,6 +1,7 @@
 #!/bin/bash
 #set -e
-set -x  #debug
+set -x  debug
+
 
 ####################################################################################
 
@@ -178,8 +179,8 @@ choice=$(zenity \
     --window-icon="/usr/share/pixmaps/samdecrypt.png" \
     --text="Select encrypted recordings for download and decrypt" \
     --list \
-    --column "Select" \
-    --column "recordings" \
+    --column "#" \
+    --column="Recorded files" \
     "${menu_list[@]}") \
 #choice=$(yad \
 #    --title="" --text="Samdecrypt"  \
@@ -221,7 +222,7 @@ yad \
    --percentage=0 \
    --title="Samdecrypt" dialog \
    --window-icon="/usr/share/pixmaps/samdecrypt.png" \
-   --text="Downloading encrypted recording files..." \
+   --text="Downloading \"$pvr_title\" video file for decrypting..." \
    --auto-close --auto-kill \
    --button="Quit:1" \
 
@@ -231,29 +232,37 @@ yad \
 #	echo "Your decoded video files are located in your Home folder."
 #	decrypt ~/"$pvr.srf" ~/"$pvr_title.ts" ~/"$pvr.key"
 	decrypt $path/"$pvr.srf" $path/"$pvr_title.ts" $path/"$pvr.key"
-
+#              find $HOME -name '*.ps' | yad --progress --pulsate
 
 #  ffmpeg -vcodec copy -acodec copy -i "$SourceFile" "$Directory/$OutputFilename" 2>&1 | zenity --width 500 --title "$WindowTitle | $MessageProgressTitle" --text "$MessageProgress" --progress --pulsate --auto-close
-
-
 	echo "Decoding of \"$pvr_title\" is finished..."
 	notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoding of file: \"$pvr_title\"  is finished."
-	del_tempfiles
+#	del_tempfiles
 	echo "Decoded video file   \"$pvr_title\"   are located in   $path."
         chown $USER:$USER *.ts
 #	echo "$pvr_title"
 #	rm "$pvr.srf"
 #	rm "$pvr.key"
 fi
+ <<EOF
+EOF
+}
+
 echo "Deleting tools from TV."
 del_tools
-#rm ./infs/*
-#rmdir ./infs/
-	#multi_get="get 20140206111003.inf\r\nget 20140209191510.inf"
+echo "Decrypting videos."
+decrypt_video
+echo "Deleting temp files from ."
+del_tempfiles
+
+
 	#echo "Downloading PVR files."
-notify-send --app-name="Samdecrypt" --expire-time="6000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoded video file   \"$pvr_title\"   are located in   $path."
+notify-send --app-name="Samdecrypt" --expire-time="6000" --icon="/usr/share/pixmaps/samdecrypt.png" "Decoded video file   \"$pvr_title\"   is located in   $path."
 echo ""
 echo "All job is done "
+
+playvideo="xdg-open $path/\"$pvr_title\".ts"
+videofolder="xdg-open $path"
 
 yad \
   --title="Samdecrypt" \
@@ -262,12 +271,11 @@ yad \
   --height=90 \
   --text="Decoded file \"$pvr_title\" is located in $path" \
   --text-align="center" \
+  --buttons-layout=edge \
+  --button="Open video folder:$videofolder" \
+  --button="Play decoded video:$playvideo" \
   --button="Quit:1" \
- <<EOF
-EOF
-}
 
-decrypt_video
 #echo "Exiting Samdecrypt for "
 #count_time
 #alias alert_helper='history|tail -n1|sed -e "s/^\s*[0-9]\+\s*//" -e "s/;\s*alert$//"'

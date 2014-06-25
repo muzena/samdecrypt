@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-#set -x  debug
+#set -e
+set -x  debug
 
 ####################################################################################
 
@@ -15,15 +15,21 @@ set -e
 echo "Selecting TV ip address and recording devices."
 usb=""
 tvip=""
+path=""
+widgetpath=""
 #target="/usr/share/samdecrypt/.decrypt_userdata"
 #M_OPTS="$PERM,usb=${USER},tvip=${PASSWD},codepage=cp1250,iocharset=utf8"
 [ -e /usr/share/samdecrypt/.decrypt_userdata ] && source /usr/share/samdecrypt/.decrypt_userdata
 [ -z $usb ] && exit 1
 [ -z $tvip ] && exit 1
+[ -z $path ] && exit 1
+[ -z $widgetpath ] && exit 1
 
 ####################################################################################
 # notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "****.key files are generating"
 
+function generate_keyfiles()
+{
 function put_tools()
 {
 ftp -in $tvip <<EOF
@@ -67,10 +73,14 @@ EOF
 }
 
 generate_keys
+
 notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "*.key files are generated on recording device"
 echo "Waiting for TV to dumpkeys..."
 echo "Deleting tools from TV."
 del_tools
+}
+
+generate_keyfiles
 
 yad \
   --title="Samdecrypt" \

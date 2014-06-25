@@ -29,7 +29,7 @@ widgetpath=""
 # notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Uploading widget to Samsung TV..."
 
 
-choice=$(cd $widgetpath && ls *zip |  zenity \
+choice=$(cd $path && ls *.ts |  zenity \
 				--title="Samdecrypt" \
 				--window-icon="/usr/share/pixmaps/samdecrypt.png" \
 				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
@@ -62,21 +62,24 @@ exit
 EOF
 }
 
-if [ "$choice" ]
-then
-	put_widget
-	copy_widget
-fi
+pvr_title=$choice
+# playvideo="xdg-open $path/\"$pvr_title\".ts"
+#playvideo=`xdg-open $path/\"$pvr_title\"`
+
+xdg-open $path/\"$pvr_title\"
+
+#$playvideo
+
 
 wait
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget \"$choice\" is uploaded to Samsung TV"
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget is uploaded to Samsung TV"
 
 yad \
   --title="Samdecrypt" \
   --window-icon="/usr/share/pixmaps/samdecrypt-24.png" \
   --width=260 \
   --height=90 \
-  --text="Widget \"$choice\" is uploaded to Samsung TV" \
+  --text="Widget are uploaded to Samsung TV" \
   --text-align="center" \
   --button="Close:1" \
 

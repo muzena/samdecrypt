@@ -2,6 +2,7 @@
 #set -e
 set -x  debug
 
+
 ####################################################################################
 
 #echo "Checking and creating if it need user data file."
@@ -53,34 +54,42 @@ nc  -t -i 1 $tvip 23 <<EOF
 cd ..
 cd /mtd_rwcommon/widgets/user/
 rm list.txt
+rm makezip
+rm $choicewidget.tar
 exit
 EOF
 }
-function remove_widgetlist()
+function put_makezip()
 {
-nc  -t -i 1 $tvip 23 <<EOF
-cd ..
+ftp -in $tvip <<EOF
+lcd $widgetpath
 cd /mtd_rwcommon/widgets/user/
-rm list.txt
-exit
+binary
+put makezip
+quit
 EOF
 }
-function remove_widget()
+function execute_makezip()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
+chmod 755 /mtd_rwcommon/widgets/user/makezip
 cd /mtd_rwcommon/widgets/user/
-rm -r $choice
+sh makezip
 exit
 EOF
 }
 
+
+#rm makezip
 #Genetate widget list
 list_widget
 #Download widget list to computer
 get_widgetlist
 # Remove widget list from TV
-remove_widgetlist
+#remove_widgetlist
+
+
 
 choice=$(cat $widgetpath/list.txt |  zenity \
 				--title="Samdecrypt" \
@@ -91,22 +100,82 @@ choice=$(cat $widgetpath/list.txt |  zenity \
 
 if [ "$choice" ]
 then
-	remove_widget
+echo $choice > $path/choice.txt
 fi
-# Remove widget list from computer
-rm $widgetpath/list.txt
 
 wait
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget \"$choice\" is removed from Samsung TV"
+
+# make makezip files for putting into tv
+function makezip_file()
+{
+choicewidget=$(awk 'BEGIN {FS="|" } { print $1 }' $path/choice.txt)
+echo '#!/bin/bash' > $widgetpath/makezip
+echo '#set -e' >> $widgetpath/makezip
+echo 'set -x  #debug' >> $widgetpath/makezip
+echo '' >> $widgetpath/makezip
+echo tar cvf $choicewidget.tar $choicewidget >> $widgetpath/makezip
+#echo 'done' >> $widgetpath/makezip
+}
+
+function get_widget()
+{
+ftp -in $tvip <<EOF
+lcd $widgetpath
+cd /mtd_rwcommon/widgets/user/
+binary
+get $choicewidget.tar 
+lcd 
+quit
+EOF
+}
+
+function make_widget()
+{
+cd $widgetpath
+rm list.txt
+tar -xvf $choicewidget.tar
+cd $choicewidget
+zip -r $choicewidget.zip ./
+cp $choicewidget.zip $widgetpath
+cd ..
+rm -r $choicewidget
+rm $choicewidget.tar
+rm makezip
+cd ..
+cd $path
+rm choice.txt
+}
+
+
+
+# making script for archiving widget in TV
+makezip_file
+# put script in TV
+put_makezip
+# making widget archive in TV
+execute_makezip
+# downloading widget archive from TV in widget path on computer
+get_widget
+# unpacking widget tar archive and making zip
+make_widget
+#remove files from TV
+
+remove_widgetlist
+
+
+wait
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Widget \"$choicewidget\" is stored in \"$widgetpath\""
 
 yad \
   --title="Samdecrypt" \
   --window-icon="/usr/share/pixmaps/samdecrypt-24.png" \
   --width=260 \
   --height=90 \
-  --text="Widget \"$choice\" is removed from Samsung TV" \
+  --text="Widget \"$choicewidget\" is stored in \"$widgetpath\"" \
   --text-align="center" \
   --button="Close:1" \
+
+
 
 sleep 3
 
