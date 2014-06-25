@@ -1,3 +1,6 @@
 Samdecrypt
 ==========
-Small tools for generating keys and decoding Samsung TV Recordings
+Tools for Samsung TV
+ Small tools for generating keys, decoding recordings,
+ uploading to TV or downloading from TV widgets,
+ removing widgets from TV and few options more.
