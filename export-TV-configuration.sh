@@ -58,6 +58,7 @@ lcd $path/tv-config
 cd /mtd_rwarea
 binary
 get FineTune_Digital
+get LNBSettingsDataBase.dat
 get map-AirA
 get map-AirD
 get map-CableD

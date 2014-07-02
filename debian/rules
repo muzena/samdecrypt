@@ -36,7 +36,7 @@ install: build
 	dh_prep -k 
 	dh_installdirs
 	# Make directories
-	mkdir -p $(CURDIR)/debian/samdecrypt
+	mkdir -p $(CURDIR)/debian/samdecrypt                                                # make folders
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/bin
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share
@@ -73,6 +73,8 @@ install: build
 	cp -r $(CURDIR)/settings-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/widget-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/export-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/import-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools           # Copy tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
@@ -92,8 +94,9 @@ install: build
 	cp -r $(CURDIR)/23list-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
 	cp -r $(CURDIR)/10put-tools-in-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3     # Copy desktop3 files
 	cp -r $(CURDIR)/11remove-tools-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
-	cp -r $(CURDIR)/reboot-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
-	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
+	cp -r $(CURDIR)/1export-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/2import-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps       # png icons
 	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 

@@ -85,9 +85,17 @@ remove_widgetlist
 choice=$(cat $widgetpath/list.txt |  zenity \
 				--title="Samdecrypt" \
 				--window-icon="/usr/share/pixmaps/samdecrypt.png" \
+				--width=300 \
+				--height=300 \
 				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
 				--list \
 				--column "Select widget") \
+
+if [ $? = 1 ];
+then
+rm $widgetpath/list.txt
+exit
+fi
 
 if [ "$choice" ]
 then

@@ -109,7 +109,6 @@ yad \
   --button="Close:1" \
 
 
-
 sleep 3
 
 

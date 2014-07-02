@@ -6,6 +6,7 @@ conf1="gksu samsettingsgui"
 conf2="xterm samconfigure"
 conf3="/usr/share/samdecrypt/reboot-tv"
 
+
 yad --info \
     --title="Samdecrypt warning" \
     --width=300 \

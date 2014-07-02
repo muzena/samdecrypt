@@ -38,14 +38,37 @@ ls -d * > list.txt
 exit
 EOF
 }
-function remove_widgetlist()
+function remove_tvconfig()
 {
 nc  -t -i 1 $tvip 23 <<EOF
 cd ..
-cd /mtd_rwcommon/widgets/user/
-rm list.txt
-rm makezip
-rm $choicewidget.tar
+cd /mtd_rwarea
+rm FineTune_Digital
+rm FineTune_Digitalb
+rm LNBSettingsDataBase.dat
+rm LNBSettingsDataBase.datb
+rm map-AirA
+rm map-AirAb
+rm map-AirD
+rm map-AirDb
+rm map-CableD
+rm map-CableDb
+rm map-ChKey
+rm map-ChKeyb
+rm PackageDataBase.dat
+rm PackageDataBase.datb
+rm RadioMap
+rm RadioMapb
+rm SatDataBase.dat
+rm SatDataBase.datb
+rm ServiceProviders
+rm ServiceProvidersb
+rm TransponderDataBase.dat
+rm TransponderDataBase.datb
+rm TSIDList
+rm TSIDListb
+rm UserTransponderDataBase.dat
+rm UserTransponderDataBase.datb
 exit
 EOF
 }
@@ -58,6 +81,7 @@ lcd $path/tv-config
 cd /mtd_rwarea
 binary
 put FineTune_Digital
+put LNBSettingsDataBase.dat
 put map-AirA
 put map-AirD
 put map-CableD
@@ -82,6 +106,8 @@ unzip tv-config.scm
 
 mkdir $path/tv-config
 
+# remove tvconfig from TV
+remove_tvconfig
 # make zip archive for config files
 unpack_scmconfig
 # get config files from TV
@@ -89,7 +115,8 @@ put_tvconfig
 # Remove tmp files
 rm -r $path/tv-config
 wait
-notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Samsung TV configuration is imported to TV"
+
+notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Samsung TV configuration is imported to TV, to take effect reboot TV!"
 
 videofolder="xdg-open $path"
 conf3="/usr/share/samdecrypt/reboot-tv"
@@ -99,9 +126,9 @@ yad \
   --window-icon="/usr/share/pixmaps/samdecrypt-24.png" \
   --width=260 \
   --height=90 \
-  --text="Samsung TV configuration is imported to TV" \
+  --text="Samsung TV configuration is imported to TV, to take effect reboot TV!" \
   --text-align="center" \
-  --button="Open configuration folder:$videofolder" \
+  --buttons-layout=edge \
   --button="Reboot TV:$conf3" \
   --button="Close:1" \
 

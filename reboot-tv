@@ -27,6 +27,7 @@ sec="20"
 [ -z $path ] && exit 1
 ####################################################################################
 
+notify=`notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Samsung TV will reboot"`
 
 echo "Restarting Samsung TV"
 
@@ -40,6 +41,6 @@ EOF
 
 reboot_tv
 
-notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Samsung TV will reboot"
+$notify
 
 exit

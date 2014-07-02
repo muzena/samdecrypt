@@ -35,8 +35,12 @@ choice=$(cd $widgetpath && ls *zip |  zenity \
 				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
 				--list \
 				--width=300 \
-				--height=300 \
+				--height=350 \
 				--column "Select widget") \
+
+if [ $? = 1 ];
+then exit
+fi
 
 function put_widget()
 {

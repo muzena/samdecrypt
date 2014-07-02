@@ -190,6 +190,12 @@ choice=$(zenity \
 #    --column "recordings:TEXT" \
 #    "${menu_list[@]}") \
 
+if [ $? = 1 ];
+then
+del_tempfiles
+exit
+fi
+
 clear
 if [ "$choice" ]
 then

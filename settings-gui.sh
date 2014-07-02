@@ -37,7 +37,6 @@ widgetpath=""
 
 
 
-
 frmdata=$(yad \
 	--title "Samdecrypt settings" \
 	--text="<b>Change required settings</b>" \
@@ -63,6 +62,7 @@ echo usb=\"$frmaddr\" > /usr/share/samdecrypt/.decrypt_userdata
 echo tvip=\"$frmname\" >> /usr/share/samdecrypt/.decrypt_userdata
 echo path=\"$frmpath\" >> /usr/share/samdecrypt/.decrypt_userdata
 echo widgetpath=\"$frmwipath\" >> /usr/share/samdecrypt/.decrypt_userdata
+
 
 notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "Samdecrypt is configured"
 
