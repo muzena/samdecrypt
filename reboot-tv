@@ -34,7 +34,7 @@ echo "Restarting Samsung TV"
 function reboot_tv()
 {
 nc  -t -i 1 $tvip 23 <<EOF
-reboot
+micom reboot
 exit
 EOF
 }

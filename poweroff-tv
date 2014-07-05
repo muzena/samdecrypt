@@ -34,7 +34,7 @@ echo "Shutting down Samsung TV"
 function poweroff_tv()
 {
 nc  -t -i 1 $tvip 23 <<EOF
-poweroff
+micom shutdown
 exit
 EOF
 }

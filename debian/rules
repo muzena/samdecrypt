@@ -54,6 +54,9 @@ install: build
 	cp -r $(CURDIR)/backup-widget.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/copy-widget-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/decrypt.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt-shut-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt-shut-tv-shut-comp.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypting-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/decrypt-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/download-keys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/list.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
@@ -73,8 +76,11 @@ install: build
 	cp -r $(CURDIR)/settings-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/widget-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/widget-gui-add.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/copy-widget-in-tv-from-web.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/export-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/import-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/poweroff-tv $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools           # Copy tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools

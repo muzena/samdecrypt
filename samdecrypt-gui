@@ -56,6 +56,13 @@ rm $path/ping.txt
 #           --text="\n<b>Double click</b> on icon to start action:" \
 #           --button="Close:1"` \
 
+echo "Make widget directory if doesn't exist."
+mkdir $widgetpath
+mkdir $path
+
+widgetfolder="xdg-open $widgetpath"
+videofolder="xdg-open $path"
+
 SAM_RUN=`yad \
            --class="Samdecrypt" \
            --name="Samdecrypt" \
@@ -69,6 +76,9 @@ SAM_RUN=`yad \
            --borders=10 \
            --title="Samdecrypt" \
            --text="\n<b>Click</b> on icon to start action:" \
+	   --buttons-layout=edge \
+           --button="Recordings folder:$videofolder" \
+           --button="Widget folder:$widgetfolder" \
            --button="Close:1"` \
 
 exit
