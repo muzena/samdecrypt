@@ -174,9 +174,9 @@ notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixm
 choice=$(zenity \
     --title="Samdecrypt" \
     --window-icon="/usr/share/pixmaps/samdecrypt.png" \
-    --text="Select encrypted recordings for download and decrypt" \
+    --text="Title list of recorded videos on recording device" \
     --list \
-    --column "Select" \
+    --column "#" \
     --column "recordings" \
     "${menu_list[@]}") \
 

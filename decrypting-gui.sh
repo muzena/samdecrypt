@@ -36,7 +36,7 @@ videofolder="xdg-open $path"
 conf1="/usr/share/samdecrypt/decrypt.sh"
 conf2="/usr/share/samdecrypt/decrypt-shut-tv.sh"
 conf3="/usr/share/samdecrypt/decrypt-shut-tv-shut-comp.sh"
-conf4="/usr/share/samdecrypt/reboot-tv"
+conf4="/usr/share/samdecrypt/list.sh"
 
 yad --info \
     --title="Widgets" \
@@ -45,6 +45,7 @@ yad --info \
     --button="Decrypt video:$conf1" \
     --button="Decrypt, poweroff TV:$conf2" \
     --button="Decrypt, poweroff TV and PC:$conf3" \
+    --button="Titlelist of recorded files:$conf4" \
     --kill-parent="1" \
 
 exit
