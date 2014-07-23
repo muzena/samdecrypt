@@ -81,6 +81,12 @@ install: build
 	cp -r $(CURDIR)/export-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/import-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/poweroff-tv $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/widget-backup-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-shel $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-startstop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-filemanager $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/terminal-acess.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools           # Copy tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
@@ -102,6 +108,8 @@ install: build
 	cp -r $(CURDIR)/11remove-tools-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
 	cp -r $(CURDIR)/1export-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
 	cp -r $(CURDIR)/2import-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/11web-acess.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/12terminal-access.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
 	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps       # png icons
 	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps

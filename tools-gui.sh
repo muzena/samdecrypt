@@ -36,7 +36,7 @@ SAM_RUN=`yad \
            --icons \
            --item-width="84" \
            --read-dir="/usr/share/samdecrypt/desktopfiles3" \
-           --width="450" \
+           --width="600" \
            --height="230" \
            --borders=10 \
            --title="Samdecrypt" \

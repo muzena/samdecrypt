@@ -77,8 +77,7 @@ SAM_RUN=`yad \
            --title="Samdecrypt" \
            --text="\n<b>Click</b> on icon to start action:" \
 	   --buttons-layout=edge \
-           --button="Recordings folder:$videofolder" \
-           --button="Widget folder:$widgetfolder" \
+           --button="Help:$videofolder" \
            --button="Close:1"` \
 
 exit
