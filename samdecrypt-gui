@@ -62,7 +62,7 @@ mkdir $path
 
 widgetfolder="xdg-open $widgetpath"
 videofolder="xdg-open $path"
-
+help="/usr/share/samdecrypt/sam-help.sh"
 SAM_RUN=`yad \
            --class="Samdecrypt" \
            --name="Samdecrypt" \
@@ -77,7 +77,7 @@ SAM_RUN=`yad \
            --title="Samdecrypt" \
            --text="\n<b>Click</b> on icon to start action:" \
 	   --buttons-layout=edge \
-           --button="Help:$videofolder" \
+           --button="Help:$help" \
            --button="Close:1"` \
 
 exit
