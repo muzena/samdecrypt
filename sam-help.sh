@@ -27,7 +27,7 @@ sec="20"
 
 help_dialog()
 {
-	yad --center --class="Samdecrypt" --name="Samdecrypt" --window-icon="/usr/share/pixmaps/samdecrypt.png" --title="Samdecrypt help" --width="1150" --height="400" --text-info  --wrap --filename="/usr/share/samdecrypt/samdecrypt_help" --button="Close:1"
+	yad --center --class="Samdecrypt" --name="Samdecrypt" --window-icon="/usr/share/pixmaps/samdecrypt.png" --title="Samdecrypt help" --width="1025" --height="400" --text-info  --wrap --filename="/usr/share/samdecrypt/samdecrypt_help" --button="Close:1"
 
 	exit
 
