@@ -73,16 +73,25 @@ cd ..
 chmod 755 /mtd_rwcommon/widgets/user/widget
 cd /mtd_rwcommon/widgets/user/
 sh widget
+wait
 rm widget
 exit
 EOF
 }
-
 function download_widget()
 {
 cd $path
 wget https://github.com/muzena/samdecrypt/blob/widgets/widgets/$choice?raw=true
 mv $choice?raw=true $choice
+}
+function remove_widgetfile()
+{
+nc  -t -i 1 $tvip 23 <<EOF
+cd ..
+cd /mtd_rwcommon/widgets/user/
+rm widget
+exit
+EOF
 }
 
 if [ "$choice" ]
@@ -93,6 +102,9 @@ then
 fi
 
 wait
+
+# Remove widget file from TV
+remove_widgetfile
 
 cd $path
 rm $choice
