@@ -1,0 +1,80 @@
+#!/mnt/bin/busybox sh
+#
+# © Copyright 1996-2013, SamyGO
+#
+#
+. /dtv/SGO.env
+
+stop_bootloop()
+{
+# emergency skript exit to prevent boot loop
+      for USB in ${1:- \
+         /dtv/usb/sd* } ; do
+         echo "checking $USB"
+         sleep 1
+         if [ -e $USB/STOP_TELNET ]; then
+            "STOP_TELNET found. Script exit..."
+            exit 1
+         fi
+      done
+}
+
+case $1 in 
+	start)
+	stop_bootloop # in testing phase. Just for protection.
+#antishell, mount, console unlock, authuld exception, printk restrictions:
+	insmod $MOD_DIR/kernel/drivers/pty/SRS_module.ko >> $LOGFILE 2>&1
+	sync; sleep 1
+		echo " " >> $LOGFILE 2>&1
+		echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+		echo "lsmod after insmod SRS_module.ko:" >> $LOGFILE 2>&1
+		echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+			lsmod   >> $LOGFILE 2>&1
+		echo " " >> $LOGFILE 2>&1
+
+#modules with dynamic addressing by bugficks:
+	insmod $MOD_DIR/kernel/drivers/pty/ptys.ko >> $LOGFILE 2>&1 # alternative to pty.ko and devpts.ko from bugficks. Automatic mount of /dev/pts
+	sync; sleep 2
+
+# true telnet
+	echo "export PS1='root@tv:\w \$ '" >> /mtd_rwarea/profile
+	echo -e "ENV=/dtv/.ashrc\nexport ENV\n" >> /mtd_rwarea/profile
+	echo "PS1='root@tv:\w \$ '" >> /mtd_rwarea/profile
+	echo -e "ENV=/dtv/.ashrc\nexport ENV\n" >> /mtd_rwarea/profile
+	/bin/mount -o bind "$SYSROOT/bin/sh" /bin/sh
+	export HOME=/mnt/
+	export PS1='root@tv:\w \$ '
+	$SYSROOT/bin/busybox2 telnetd -p 23 -l $SYSROOT/bin/sh &  >> $LOGFILE 2>&1$SYSROOT/bin/busybox2 telnetd -p 23 -l $SYSROOT/bin/ash &  >> $LOGFILE 2>&1
+	sync
+
+#### E/F series: bind option is prohibited, you have to load proper mount.ko to use mount --bind.
+	#mount our profile over original /etc/profile if mount.ko is loaded and mount issue fixed:
+	$SYSROOT/bin/busybox mount -o bind /mtd_rwarea/profile /etc/profile || echo "can not mount profile!" && dmesg | tail >> $LOGFILE 2>&1
+
+# mount our passwd file over original one (/bin/sh changed to /mnt/bin/sh )
+	ln -s /mnt/bin/ /dtv/bin
+	   if [ ! -e /mtd_rwarea/passwd ]; then
+	             echo "root:saJvQKUdIxRW2:0:0:SamyGO secured Root:$HOME:/bin/sh" > /mtd_rwarea/passwd
+	     fi
+	$SYSROOT/bin/busybox mount -o bind /mtd_rwarea/passwd /etc/passwd || echo "can not mount passwd" && dmesg | tail  >> $LOGFILE 2>&1
+		echo " " >> $LOGFILE 2>&1
+		echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+		echo "checking mount --bind:"  >> $LOGFILE 2>&1
+		echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+	$SYSROOT/bin/busybox mount | grep "etc"  >> $LOGFILE 2>&1
+                echo " " >> $LOGFILE 2>&1
+                echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+                echo "dmesg -c:"  >> $LOGFILE 2>&1
+                echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+			dmesg -c >> $LOGFILE 2>&1
+                echo "++++++++++++++++++++++++++++++++++" >> $LOGFILE 2>&1
+	;;
+	stop)
+	;;
+	status)
+	;;
+	*)
+	echo "Usage: $0 {start|stop|status}" 1>&2
+	exit 0
+	;;
+esac
