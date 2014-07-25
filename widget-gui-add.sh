@@ -41,7 +41,7 @@ conf3="/usr/share/samdecrypt/reboot-tv"
 yad --info \
     --title="Widgets" \
     --width=300 \
-    --text="Add widget, manual from <b>computer or web source</b>" \
+    --text="Add widget, manual from <b>computer</b> or <b>web source</b>" \
     --button="Add widget from PC:$conf1" \
     --button="Add widget from web:$conf2" \
     --button="Reboot TV:$conf3" \

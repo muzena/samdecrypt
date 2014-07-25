@@ -37,11 +37,11 @@ conf4="/usr/share/samdecrypt/reboot-tv"
 yad --info \
     --title="Samdecrypt warning" \
     --width=300 \
-    --text="Select web interface access.    For <b>Web shell</b> name is: <b>user</b>: password is: <b>pass</b>" \
+    --text="Select web interface access.
+    \nFor <b>Web shell</b> name is: <b>user</b>: password is: <b>pass</b>" \
     --button="Start stop scripts:$conf1" \
     --button="Web shell:$conf2" \
     --button="File manager:$conf3" \
-    --button="Reboot TV:$conf4" \
     --button="Close settings:1" \
     --kill-parent="1" \
 

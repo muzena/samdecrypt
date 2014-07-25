@@ -87,7 +87,8 @@ choice=$(cat $widgetpath/list.txt |  zenity \
 				--window-icon="/usr/share/pixmaps/samdecrypt.png" \
 				--width=300 \
 				--height=300 \
-				--text="\n<b>WARNING:</b> Select widget and then click \n<b>OK</b>. \n<b>Clicking on selected item don't work</b>" \
+				--text="\n<b>WARNING:</b> Select widget and then click <b>OK</b>. 
+				\n<b>Clicking on selected item don't work!</b>" \
 				--list \
 				--column "Select widget") \
 

@@ -40,7 +40,9 @@ conf3="/usr/share/samdecrypt/reboot-tv"
 yad --info \
     --title="Widgets" \
     --width=300 \
-    --text="Add widget, manual from <b>computer or web source</b>" \
+    --text="Backup widget added manual by <b>user</b>, or installed by <b>widget hub</b>
+    For more info visit:
+    http://wiki.samygo.tv/index.php5/How_To_Set_Your_Country_Code_In_Smart_Hub" \
     --button="Backup user widgets:$conf1" \
     --button="Backup hub widgets:$conf2" \
     --button="Reboot TV:$conf3" \

@@ -35,7 +35,9 @@ conf4="xterm -e 'ssh root@$tvip'"
 yad --info \
     --title="Samdecrypt warning" \
     --width=300 \
-    --text="Terminal access, <b>ftp, netcat, telnet</b>. For <b>ssh</b> password is: <b>SamyGO</b> . <b>To enable ssh access read help!</b>" \
+    --text="Terminal access, <b>ftp, netcat, telnet, ssh</b>.
+    \n<b>To enable ssh access read help!</b> 
+    \nFor <b>ssh</b> password is: <b>SamyGO</b>" \
     --button="ftp:$conf1" \
     --button="netcat:$conf2" \
     --button="telnet:$conf3" \
