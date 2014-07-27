@@ -211,8 +211,6 @@ nc  -t -i 1 $tvip 23 <<EOF
 cd ..
 cd /dtv/usb/$usb/
 rm -R SPMdecrypt
-cd /mtd_rwcommon/
-rm -R SPMdecrypt
 exit
 EOF
 }
