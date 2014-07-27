@@ -33,12 +33,15 @@ widgetpath=""
 function download_list()
 {
 cd $path
-wget https://github.com/muzena/samdecrypt/blob/widgets/widgets/list.txt?raw=true
-mv list.txt?raw=true list.txt
+wget https://raw.githubusercontent.com/muzena/samdecrypt/widgets/widgets/list.txt
+}
+function rm_list()
+{
+cd $path
+rm list.txt
 }
 
 download_list
-
 wait
 
 choice=$(cat $path/list.txt |  zenity \
@@ -52,7 +55,9 @@ choice=$(cat $path/list.txt |  zenity \
 				--column "Select widget") \
 
 if [ $? = 1 ];
-then exit
+then
+rm_list
+exit
 fi
 
 function put_widget()
@@ -82,7 +87,9 @@ EOF
 function download_widget()
 {
 cd $path
+#wget https://github.com/muzena/samdecrypt/raw/widgets/widgets/$choice.zip
 wget https://github.com/muzena/samdecrypt/blob/widgets/widgets/$choice?raw=true
+#wget https://github.com/muzena/samdecrypt/blob/widgets/widgets/NStreamLmodFSeri.zip?raw=true
 mv $choice?raw=true $choice
 }
 function remove_widgetfile()

@@ -29,21 +29,20 @@ widgetpath=""
 
 ####################################################################################
 #echo "Make widget directory if doesn't exist."
-#mkdir $widgetpath
+mkdir $widgetpath
 
-#widgetfolder="xdg-open $widgetpath"
+widgetfolder="xdg-open $widgetpath"
 
 conf1="/usr/share/samdecrypt/copy-widget-in-tv.sh"
 conf2="/usr/share/samdecrypt/copy-widget-in-tv-from-web.sh"
 conf3="/usr/share/samdecrypt/reboot-tv"
-conf3="/usr/share/samdecrypt/reboot-tv"
 
 yad --info \
-    --title="Widgets" \
+    --title="Add widgets" \
     --width=300 \
     --text="Add widget, manual from <b>computer</b> or <b>web source</b>" \
-    --button="Add widget from PC:$conf1" \
-    --button="Add widget from web:$conf2" \
+    --button="Widget from PC:$conf1" \
+    --button="Widget from web:$conf2" \
     --button="Reboot TV:$conf3" \
     --button="Close:1" \
     --kill-parent="1" \

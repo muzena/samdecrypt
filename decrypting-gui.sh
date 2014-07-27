@@ -37,15 +37,16 @@ conf1="/usr/share/samdecrypt/decrypt.sh"
 conf2="/usr/share/samdecrypt/decrypt-shut-tv.sh"
 conf3="/usr/share/samdecrypt/decrypt-shut-tv-shut-comp.sh"
 conf4="/usr/share/samdecrypt/list.sh"
+conf5="/usr/share/samdecrypt/decrypt-shut-comp.sh"
 
 yad --info \
-    --title="Widgets" \
+    --title="Decrypt video recordings" \
     --width=300 \
     --text="<b>Click</b> on selected button to take action" \
     --button="Decrypt video:$conf1" \
     --button="Decrypt, poweroff TV:$conf2" \
+    --button="Decrypt, poweroff PC:$conf5" \
     --button="Decrypt, poweroff TV and PC:$conf3" \
-    --button="Titlelist of recorded files:$conf4" \
     --kill-parent="1" \
 
 exit

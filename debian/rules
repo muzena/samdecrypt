@@ -42,6 +42,7 @@ install: build
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
 	mkdir -p $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
@@ -87,12 +88,15 @@ install: build
 	cp -r $(CURDIR)/web-interface-startstop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/web-interface-filemanager $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/terminal-acess.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
-	cp -r $(CURDIR)/download-hub-widgets.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/download-decrypt-hub-widgets.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/sam-help.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/samdecrypt_help $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Help file
 	cp -r $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools           # Copy tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	cp -r $(CURDIR)/tools/tools1/decryptwidget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	cp -r $(CURDIR)/tools/tools1/libSPMdecrypt.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	cp -r $(CURDIR)/tools/tools1/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
 	cp -r $(CURDIR)/Samdecrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/applications                # Copy shortcut files
 	cp -r $(CURDIR)/1decrypt-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles   # Copy desktop files
 	cp -r $(CURDIR)/2widget-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
@@ -119,8 +123,9 @@ install: build
 
 override_dh_shlibdeps:
 
-#override_dh_strip:
-#	debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
+override_dh_strip:
+	debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
+	debian/drmdecrypt/usr/share/drmdecrypt/tools/tools1/libSPMdecrypt.so
 
 # Build architecture-independent files here.
 binary-indep: build install
@@ -159,7 +164,8 @@ binary-arch: build install
 	dh_link /usr/share/samdecrypt/settings-gui.sh /usr/bin/samsettingsgui
 	dh_link /usr/share/samdecrypt/download-keys.sh /usr/bin/samdownloadkeys
 #	override_dh_strip debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
-	dh_strip --exclude=libPVRdumpkeys.so
+#	dh_strip --exclude=libPVRdumpkeys.so
+#	dh_strip --exclude=libSPMdecrypt.so
 	dh_compress 
 	dh_fixperms
 #	dh_perl
