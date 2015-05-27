@@ -147,7 +147,7 @@ remove_tmppc
 enable_sshscript
 wait
 #   Reboot TV
-reboot_tv
+#reboot_tv
 
 notify-send --app-name="Samdecrypt" --expire-time="3000" --icon="/usr/share/pixmaps/samdecrypt.png" "ssh connection fixed"
 
