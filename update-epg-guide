@@ -147,6 +147,7 @@ EOF
 function upload_togit()
 {
 cd samdecrypt
+git add -A
 git commit -m update
 git push origin libepg
 cd .. <<EOF
