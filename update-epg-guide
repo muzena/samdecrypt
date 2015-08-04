@@ -130,13 +130,45 @@ cp guide-test.xml ./pharser/guide.xml
 rm guide-test.xml
 cd pharser
 python pharser.py
-rm guide.xml <<EOF
+rm guide.xml
+cd .. <<EOF
+EOF
+}
+function git_clone()
+{
+git clone https://github.com/muzena/samdecrypt.git
+cd samdecrypt
+git status
+git checkout libepg
+git status
+cd .. <<EOF
+EOF
+}
+function upload_togit()
+{
+cd samdecrypt
+git commit -m update
+git push origin libepg
+cd .. <<EOF
 EOF
 }
 
+
+
+
 update_grabber
-
-
+wait $!
+git_clone
+wait $!
+rm ./samdecrypt/pharser/libEPG.config
+wait $!
+cp ./pharser/libEPG.config ./samdecrypt/pharser/libEPG.config
+wait $!
+upload_togit
+wait $!
+chmod a+rw -R samdecrypt
+wait $!
+rm -R samdecrypt
 
 
 
