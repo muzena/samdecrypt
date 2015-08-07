@@ -1,12 +1,14 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 7.8.2015. 15:53:01
+[  Debug ] job started at 7.8.2015. 15:59:01
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
-[  Debug ] loading timezone data
-[  Debug ] embedded timezones source: WebGrab_Plus.TimezonesData.txt
 [  Debug ]    skipped 
 [  Info  ] 
+[  Debug ] loading timezone data
+[  Debug ] embedded timezones source: WebGrab_Plus.TimezonesData.txt
+[  Debug ] 
+[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
 [  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
 [  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
@@ -15,59 +17,88 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ~/Snimke/grabber/guide.xml - found
-[  Debug ] 
-[  Info  ] channel (xmltv_id=N1) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
+[  Error ] corrupt Xmltv input file - ~/Snimke/grabber/guide.xml
+[  Error ] unexpected end of file. Current depth is 3 file:///home/goran/samdecrypt/wg++/~/Snimke/grabber/guide.xml Line 71932, position 776.
+[  Info  ] input file ~/Snimke/grabber/guide.xml is not a proper xmltv file 
+[  Info  ] try another file or run again without input file
+[  Info  ] job finished, see log file for instructions
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Travel Channel) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
+[  Debug ] 
+[  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
 [  Debug ] 
-[  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
+[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Cartoon Network) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Debug ] 0 superfluous shows removed
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Nickelodeon) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
-[  Info  ] 
-[  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
-[  Info  ] update mode - set per individual channel
-[  Info  ] 
-[  Info  ] 
-[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped show without a title at 13.8.2015. 15:00:00
+[  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Cartoon Network) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Nickelodeon) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
-[  Info  ] SK 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           99
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        99
+[  Info  ] DISNEY CHANNEL
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 395
+[  Info  ]      total after update        395
 [  Debug ] 
-[  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
+[  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
+[  Error ] no shows in indexpage!
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
+[  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 15:50:00 title = Bilo jednom... Planet Zemlja
+[  Info  ]       Replaces ----- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 15:55:00 title = Bilo jednom... Planet Zemlja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 16:20:00 title = Crtalica
+[  Info  ]       Replaces ----- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 15:55:00 title = Bilo jednom... Planet Zemlja
+[  Info  ]       Replaces ----- start = 7.8.2015. 15:55:00 stop = 7.8.2015. 16:20:00 title = RollBots
 [  Debug ]    skipped 
 [  Info  ] 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 3) site -- PORT.HR -- mode incremental
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sportska televizija) site -- PORT.HR -- mode incremental
