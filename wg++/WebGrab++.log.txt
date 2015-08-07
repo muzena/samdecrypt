@@ -1,329 +1,70 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 7.8.2015. 20:08:01
+[  Debug ] job started at 7.8.2015. 20:10:01
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
 [  Debug ] embedded timezones source: WebGrab_Plus.TimezonesData.txt
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 11:44:00 stop = 9.8.2015. 12:41:00 title = Hoteli iz pakla
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:15:00 stop = 9.8.2015. 11:45:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:45:00 stop = 9.8.2015. 12:40:00 title = Hoteli iz pakla
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 12:41:00 stop = 9.8.2015. 13:33:00 title = Najskuplji dizajneri interijera
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
 [  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
 [  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 13:33:00 stop = 9.8.2015. 15:19:00 title = Sudar na slijepo
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
-[  Info  ]       Replaces ----- start = 9.8.2015. 13:35:00 stop = 9.8.2015. 15:25:00 title = Sudar na slijepo
 [  Debug ] 
 [  Debug ] running  on: Unix 3.19.0.21
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ~/Snimke/grabber/guide.xml - found
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 15:19:00 stop = 9.8.2015. 16:12:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 9.8.2015. 13:35:00 stop = 9.8.2015. 15:25:00 title = Sudar na slijepo
-[  Info  ]       Replaces ----- start = 9.8.2015. 15:25:00 stop = 9.8.2015. 16:20:00 title = Wonderland
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 16:12:00 stop = 9.8.2015. 17:04:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 9.8.2015. 15:25:00 stop = 9.8.2015. 16:20:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 9.8.2015. 16:20:00 stop = 9.8.2015. 17:20:00 title = Wonderland
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 17:04:00 stop = 9.8.2015. 17:25:00 title = Bivši
-[  Info  ]       Replaces ----- start = 9.8.2015. 16:20:00 stop = 9.8.2015. 17:20:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 9.8.2015. 17:20:00 stop = 9.8.2015. 17:45:00 title = Sretno rastavljeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 17:25:00 stop = 9.8.2015. 17:48:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 17:20:00 stop = 9.8.2015. 17:45:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 17:45:00 stop = 9.8.2015. 18:15:00 title = Sretno rastavljeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 17:48:00 stop = 9.8.2015. 18:12:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 17:45:00 stop = 9.8.2015. 18:15:00 title = Sretno rastavljeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 18:12:00 stop = 9.8.2015. 19:06:00 title = Vraške sluškinje
-[  Info  ]       Replaces ----- start = 9.8.2015. 17:45:00 stop = 9.8.2015. 18:15:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 18:15:00 stop = 9.8.2015. 19:10:00 title = Vraške sluškinje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 19:06:00 stop = 9.8.2015. 19:58:00 title = Vraške sluškinje
-[  Info  ]       Replaces ----- start = 9.8.2015. 18:15:00 stop = 9.8.2015. 19:10:00 title = Vraške sluškinje
-[  Info  ]       Replaces ----- start = 9.8.2015. 19:10:00 stop = 9.8.2015. 20:05:00 title = Vraške sluškinje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 19:58:00 stop = 9.8.2015. 22:01:00 title = Partnerica
-[  Info  ]       Replaces ----- start = 9.8.2015. 19:10:00 stop = 9.8.2015. 20:05:00 title = Vraške sluškinje
-[  Info  ]       Replaces ----- start = 9.8.2015. 20:05:00 stop = 9.8.2015. 22:15:00 title = Partnerica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 22:01:00 stop = 9.8.2015. 23:00:00 title = Salem
-[  Info  ]       Replaces ----- start = 9.8.2015. 20:05:00 stop = 9.8.2015. 22:15:00 title = Partnerica
-[  Info  ]       Replaces ----- start = 9.8.2015. 22:15:00 stop = 9.8.2015. 23:20:00 title = Salem
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 23:00:00 stop = 9.8.2015. 23:26:00 title = Cristela
-[  Info  ]       Replaces ----- start = 9.8.2015. 22:15:00 stop = 9.8.2015. 23:20:00 title = Salem
-[  Info  ]       Replaces ----- start = 9.8.2015. 23:20:00 stop = 9.8.2015. 23:50:00 title = Cristela
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 23:26:00 stop = 9.8.2015. 23:52:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 23:20:00 stop = 9.8.2015. 23:50:00 title = Cristela
-[  Info  ]       Replaces ----- start = 9.8.2015. 23:50:00 stop = 10.8.2015. 0:15:00 title = Sretno rastavljeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 23:52:00 stop = 10.8.2015. 0:14:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 9.8.2015. 23:50:00 stop = 10.8.2015. 0:15:00 title = Sretno rastavljeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 0:14:00 stop = 10.8.2015. 1:02:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 9.8.2015. 23:50:00 stop = 10.8.2015. 0:15:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 10.8.2015. 0:15:00 stop = 10.8.2015. 0:45:00 title = Sretno rastavljeni
-[  Info  ]       Replaces ----- start = 10.8.2015. 0:45:00 stop = 10.8.2015. 1:35:00 title = Ružna Betty
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 1:02:00 stop = 10.8.2015. 1:53:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 0:45:00 stop = 10.8.2015. 1:35:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 1:35:00 stop = 10.8.2015. 2:20:00 title = Ružna Betty
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 1:53:00 stop = 10.8.2015. 2:38:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 1:35:00 stop = 10.8.2015. 2:20:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 2:20:00 stop = 10.8.2015. 3:05:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 2:38:00 stop = 10.8.2015. 3:23:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 2:20:00 stop = 10.8.2015. 3:05:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 3:05:00 stop = 10.8.2015. 3:50:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 3:23:00 stop = 10.8.2015. 4:08:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 3:05:00 stop = 10.8.2015. 3:50:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 3:50:00 stop = 10.8.2015. 4:35:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 4:08:00 stop = 10.8.2015. 4:54:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 3:50:00 stop = 10.8.2015. 4:35:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 4:35:00 stop = 10.8.2015. 5:20:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 4:54:00 stop = 10.8.2015. 5:40:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 4:35:00 stop = 10.8.2015. 5:20:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 5:20:00 stop = 10.8.2015. 6:00:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 5:40:00 stop = 10.8.2015. 6:01:00 title = Bivši
-[  Info  ]       Replaces ----- start = 10.8.2015. 5:20:00 stop = 10.8.2015. 6:00:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 6:00:00 stop = 10.8.2015. 6:20:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 6:01:00 stop = 10.8.2015. 6:23:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 10.8.2015. 6:00:00 stop = 10.8.2015. 6:20:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 10.8.2015. 6:20:00 stop = 10.8.2015. 7:10:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 6:23:00 stop = 10.8.2015. 7:10:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 10.8.2015. 6:20:00 stop = 10.8.2015. 7:10:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 7:35:00 stop = 10.8.2015. 8:01:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 7:35:00 stop = 10.8.2015. 8:00:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 8:00:00 stop = 10.8.2015. 8:50:00 title = Budi frajer
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 8:01:00 stop = 10.8.2015. 8:54:00 title = Budi frajer
-[  Info  ]       Replaces ----- start = 10.8.2015. 8:00:00 stop = 10.8.2015. 8:50:00 title = Budi frajer
-[  Info  ]       Replaces ----- start = 10.8.2015. 8:50:00 stop = 10.8.2015. 9:45:00 title = Jamieva kuhinja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 8:54:00 stop = 10.8.2015. 9:48:00 title = Jamieva kuhinja
-[  Info  ]       Replaces ----- start = 10.8.2015. 8:50:00 stop = 10.8.2015. 9:45:00 title = Jamieva kuhinja
-[  Info  ]       Replaces ----- start = 10.8.2015. 9:45:00 stop = 10.8.2015. 10:10:00 title = Bebin tata
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 9:48:00 stop = 10.8.2015. 10:12:00 title = Bebin tata
-[  Info  ]       Replaces ----- start = 10.8.2015. 9:45:00 stop = 10.8.2015. 10:10:00 title = Bebin tata
-[  Info  ]       Replaces ----- start = 10.8.2015. 10:10:00 stop = 10.8.2015. 10:40:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 10:12:00 stop = 10.8.2015. 10:40:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 10.8.2015. 10:10:00 stop = 10.8.2015. 10:40:00 title = Ludnica u Clevelandu
-[  Debug ] 0 superfluous shows removed
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 10:40:00 stop = 10.8.2015. 11:27:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 10:40:00 stop = 10.8.2015. 11:30:00 title = Ružna Betty
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 11:27:00 stop = 10.8.2015. 13:14:00 title = Sudar na slijepo
-[  Info  ]       Replaces ----- start = 10.8.2015. 10:40:00 stop = 10.8.2015. 11:30:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 11:30:00 stop = 10.8.2015. 13:20:00 title = Sudar na slijepo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 13:14:00 stop = 10.8.2015. 13:35:00 title = Pravila igre
-[  Info  ]       Replaces ----- start = 10.8.2015. 11:30:00 stop = 10.8.2015. 13:20:00 title = Sudar na slijepo
-[  Info  ]       Replaces ----- start = 10.8.2015. 13:20:00 stop = 10.8.2015. 14:15:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 13:35:00 stop = 10.8.2015. 14:28:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 10.8.2015. 13:20:00 stop = 10.8.2015. 14:15:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 10.8.2015. 14:15:00 stop = 10.8.2015. 14:40:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 14:28:00 stop = 10.8.2015. 14:52:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 14:15:00 stop = 10.8.2015. 14:40:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 14:40:00 stop = 10.8.2015. 15:10:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 14:52:00 stop = 10.8.2015. 15:18:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 14:40:00 stop = 10.8.2015. 15:10:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 10.8.2015. 15:10:00 stop = 10.8.2015. 15:45:00 title = Seks i grad
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 15:18:00 stop = 10.8.2015. 15:52:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 10.8.2015. 15:10:00 stop = 10.8.2015. 15:45:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 10.8.2015. 15:45:00 stop = 10.8.2015. 16:15:00 title = Mlađa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 15:52:00 stop = 10.8.2015. 16:21:00 title = Mlađa
-[  Info  ]       Replaces ----- start = 10.8.2015. 15:45:00 stop = 10.8.2015. 16:15:00 title = Mlađa
-[  Info  ]       Replaces ----- start = 10.8.2015. 16:15:00 stop = 10.8.2015. 17:15:00 title = Budi frajer
+[  Debug ]    skipped 
+[  Info  ] 
+[  Error ] corrupt Xmltv input file - ~/Snimke/grabber/guide.xml
+[  Error ] expected ';' (3B) but found 'EOF' (FFFFFFFF) file:///home/goran/samdecrypt/wg++/~/Snimke/grabber/guide.xml Line 13940, position 3.
+[  Info  ] input file ~/Snimke/grabber/guide.xml is not a proper xmltv file 
+[  Info  ] try another file or run again without input file
+[  Info  ] job finished, see log file for instructions
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Travel Channel) site -- PORT.HR -- mode incremental
+[  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
 [  Error ] giving up writing to ~/Snimke/grabber/guide.xml
 [  Error ] channel not updated!!
 [  Error ]      unable to write to ~/Snimke/grabber/guide.xml
 [  Error ]      file in use by other process? corrupt?
 [  Error ]      channel update not saved
 [  Debug ] 
-[  Info  ] channel (xmltv_id=VH1 Europe) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 16:21:00 stop = 10.8.2015. 17:19:00 title = Budi frajer
-[  Info  ]       Replaces ----- start = 10.8.2015. 16:15:00 stop = 10.8.2015. 17:15:00 title = Budi frajer
-[  Info  ]       Replaces ----- start = 10.8.2015. 17:15:00 stop = 10.8.2015. 17:40:00 title = Bebin tata
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 17:19:00 stop = 10.8.2015. 17:45:00 title = Bebin tata
-[  Info  ]       Replaces ----- start = 10.8.2015. 17:15:00 stop = 10.8.2015. 17:40:00 title = Bebin tata
-[  Info  ]       Replaces ----- start = 10.8.2015. 17:40:00 stop = 10.8.2015. 18:10:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 17:45:00 stop = 10.8.2015. 18:10:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 10.8.2015. 17:40:00 stop = 10.8.2015. 18:10:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 18:10:00 stop = 10.8.2015. 19:03:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 18:10:00 stop = 10.8.2015. 19:05:00 title = Ružna Betty
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 19:03:00 stop = 10.8.2015. 19:58:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 10.8.2015. 18:10:00 stop = 10.8.2015. 19:05:00 title = Ružna Betty
-[  Info  ]       Replaces ----- start = 10.8.2015. 19:05:00 stop = 10.8.2015. 20:00:00 title = Privatna praksa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 19:58:00 stop = 10.8.2015. 20:53:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 19:05:00 stop = 10.8.2015. 20:00:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 10.8.2015. 20:00:00 stop = 10.8.2015. 20:55:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 20:53:00 stop = 10.8.2015. 21:52:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 10.8.2015. 20:00:00 stop = 10.8.2015. 20:55:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 20:55:00 stop = 10.8.2015. 21:50:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 10.8.2015. 21:50:00 stop = 10.8.2015. 22:45:00 title = Djevica Jane
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 21:52:00 stop = 10.8.2015. 22:45:00 title = Djevica Jane
-[  Info  ]       Replaces ----- start = 10.8.2015. 21:50:00 stop = 10.8.2015. 22:45:00 title = Djevica Jane
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 23:20:00 stop = 10.8.2015. 23:52:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 10.8.2015. 23:20:00 stop = 10.8.2015. 23:55:00 title = Seks i grad
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10.8.2015. 23:52:00 stop = 11.8.2015. 0:40:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 10.8.2015. 23:20:00 stop = 10.8.2015. 23:55:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 10.8.2015. 23:55:00 stop = 11.8.2015. 0:50:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11.8.2015. 0:40:00 stop = 11.8.2015. 1:31:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 10.8.2015. 23:55:00 stop = 11.8.2015. 0:50:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 11.8.2015. 0:50:00 stop = 11.8.2015. 1:45:00 title = Privatna praksa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11.8.2015. 1:31:00 stop = 11.8.2015. 2:24:00 title = Jamieva kuhinja
-[  Info  ]       Replaces ----- start = 11.8.2015. 0:50:00 stop = 11.8.2015. 1:45:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 11.8.2015. 1:45:00 stop = 11.8.2015. 2:35:00 title = Jamieva kuhinja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11.8.2015. 2:24:00 stop = 11.8.2015. 2:54:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 11.8.2015. 1:45:00 stop = 11.8.2015. 2:35:00 title = Jamieva kuhinja
-[  Info  ]       Replaces ----- start = 11.8.2015. 2:35:00 stop = 11.8.2015. 3:05:00 title = Seks i grad
-[  Debug ]    skipped 
-[  Info  ] 
-[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
-[  Warn  ] file in use by an other process!
-[  Warn  ] will retry for 30 seconds
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 11.8.2015. 2:54:00 stop = 11.8.2015. 3:24:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 11.8.2015. 2:35:00 stop = 11.8.2015. 3:05:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 11.8.2015. 3:05:00 stop = 11.8.2015. 3:35:00 title = Seks i grad
-[  Debug ]    skipped 
-[  Info  ] 
-[  Info  ] 
-[  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
-[  Info  ] update mode - set per individual channel
-[  Info  ] 
-[  Info  ] 
-[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Universal Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:20:00 stop = 7.8.2015. 15:20:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:20:00 stop = 7.8.2015. 16:20:00 title = Rođeni policajci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:20:00 stop = 7.8.2015. 16:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:20:00 stop = 7.8.2015. 16:20:00 title = Rođeni policajci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 18:20:00 stop = 7.8.2015. 20:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:20:00 stop = 7.8.2015. 19:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:20:00 stop = 7.8.2015. 20:20:00 title = Doyleova republika
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
+[  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Discovery Channel) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 7.8.2015. 14:25:00 stop = 7.8.2015. 15:20:00 title = Otok s Bearom Gryllsom
 [  Info  ]       Replaces ----- start = 7.8.2015. 14:25:00 stop = 7.8.2015. 16:15:00 title = Otok s Bearom Gryllsom
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
 [  Debug ] 
-[  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
+[  Info  ] channel (xmltv_id=Cartoon Network) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 7.8.2015. 15:20:00 stop = 7.8.2015. 16:15:00 title = Bear Grylls: Do krajnjih granica
@@ -335,305 +76,44 @@
 [  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Čarolija znanosti
 [  Debug ]    skipped 
 [  Info  ] 
+[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
+[  Warn  ] file in use by an other process!
+[  Warn  ] will retry for 30 seconds
+[  Debug ]    skipped 
+[  Info  ] 
 [  Debug ] 
-[  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
+[  Info  ] channel (xmltv_id=Nickelodeon) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Warn  ] cannot access ~/Snimke/grabber/guide.xml
 [  Warn  ] file in use by an other process!
 [  Warn  ] will retry for 30 seconds
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
 [  Error ] giving up writing to ~/Snimke/grabber/guide.xml
 [  Error ] channel not updated!!
 [  Error ]      unable to write to ~/Snimke/grabber/guide.xml
 [  Error ]      file in use by other process? corrupt?
 [  Error ]      channel update not saved
 [  Debug ] 
-[  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
+[  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:31:00 stop = 7.8.2015. 15:00:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:31:00 stop = 7.8.2015. 16:01:00 title = Ulični genij
+[  Info  ]       show with ---- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 15:55:00 title = Crtalica
+[  Info  ]       Replaces ----- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 16:20:00 title = Crtalica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 16:01:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:31:00 stop = 7.8.2015. 16:01:00 title = Ulični genij
+[  Info  ]       show with ---- start = 7.8.2015. 15:55:00 stop = 7.8.2015. 16:20:00 title = RollBots
+[  Info  ]       Replaces ----- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 16:20:00 title = Crtalica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:02:00 stop = 7.8.2015. 21:01:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:02:00 stop = 7.8.2015. 19:55:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:55:00 stop = 7.8.2015. 21:01:00 title = Zlato iz hladnih mora
-[  Debug ]    skipped 
-[  Info  ] 
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
-[  Debug ] 
-[  Debug ] 5633 shows in 40 channels
-[  Debug ] 16 updated shows
-[  Debug ] 833 new shows added
-[  Info  ] 
-[  Info  ] 
-[  Info  ] job finished at 7.8.2015. 20:08:17 done in 315 seconds
-[  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Viasat History) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:40:00 stop = 7.8.2015. 15:35:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:40:00 stop = 7.8.2015. 16:30:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:35:00 stop = 7.8.2015. 16:30:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:40:00 stop = 7.8.2015. 16:30:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:05:00 stop = 7.8.2015. 21:00:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:05:00 stop = 7.8.2015. 20:00:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:00:00 title = Povijest kršćanstva
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 3) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 15:30:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 16:25:00 title = Kraljevi akvarija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:30:00 stop = 7.8.2015. 16:25:00 title = Austin Stevens: Gospodar zmija
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 16:25:00 title = Kraljevi akvarija
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 4) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:10:00 stop = 7.8.2015. 21:00:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:10:00 stop = 7.8.2015. 20:05:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:05:00 stop = 7.8.2015. 21:00:00 title = Kraljica lavova
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:50:00 stop = 7.8.2015. 15:15:00 title = Veliko na prodaji
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:50:00 stop = 7.8.2015. 16:05:00 title = Veliko na prodaji
-[  Debug ]    skipped 
-[  Info  ] 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:15:00 stop = 7.8.2015. 16:05:00 title = Engineered
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:50:00 stop = 7.8.2015. 16:05:00 title = Veliko na prodaji
-[  Debug ] 
-[  Info  ] channel (xmltv_id=NOVA TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:15:00 stop = 7.8.2015. 20:10:00 title = Ne činite ovo kod kuće
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:15:00 stop = 7.8.2015. 19:40:00 title = Ne činite ovo kod kuće
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:40:00 stop = 7.8.2015. 20:10:00 title = Ne činite ovo kod kuće
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Travel Channel) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=RTL TELEVIZIJA) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Doma TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:45:00 stop = 7.8.2015. 15:45:00 title = Čudesni svijet ratnih strojeva
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:45:00 stop = 7.8.2015. 16:00:00 title = Čudesni svijet ratnih strojeva
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:45:00 stop = 7.8.2015. 16:00:00 title = Rondo shop
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:45:00 stop = 7.8.2015. 16:00:00 title = Čudesni svijet ratnih strojeva
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:45:00 stop = 7.8.2015. 20:30:00 title = Bctv
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:45:00 stop = 7.8.2015. 20:00:00 title = Bctv
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Šašavo odbrojavanje
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=RTL 2) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=RTL Plus) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:29:00 stop = 7.8.2015. 14:30:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:29:00 stop = 7.8.2015. 15:59:00 title = Pregled programa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:30:00 stop = 7.8.2015. 15:59:00 title = Zoom
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:29:00 stop = 7.8.2015. 15:59:00 title = Pregled programa
-[  Debug ] 
-[  Info  ] channel (xmltv_id=CineStar Action&Thriller) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:30:00 stop = 7.8.2015. 20:59:00 title = Glazbena zona
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:30:00 stop = 7.8.2015. 20:05:00 title = Glazbena zona
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:05:00 stop = 7.8.2015. 20:59:00 title = Bujica Velimira Bujanca
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=CineStar TV) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=TV 1000 Balkan) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
-[  Debug ] 
-[  Info  ] channel (xmltv_id=CMC) site -- PORT.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Fox TV) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Fox Life) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:11:00 stop = 7.8.2015. 15:45:00 title = Seks i grad
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:11:00 stop = 7.8.2015. 16:08:00 title = Seks i grad
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:45:00 stop = 7.8.2015. 16:08:00 title = Mlađa
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:11:00 stop = 7.8.2015. 16:08:00 title = Seks i grad
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:06:00 stop = 7.8.2015. 20:53:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:06:00 stop = 7.8.2015. 19:59:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:59:00 stop = 7.8.2015. 20:53:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 5:19:00 stop = 9.8.2015. 6:01:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 9.8.2015. 5:19:00 stop = 9.8.2015. 6:00:00 title = Privatna praksa
-[  Info  ]       Replaces ----- start = 9.8.2015. 6:00:00 stop = 9.8.2015. 6:25:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 6:01:00 stop = 9.8.2015. 6:26:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 6:00:00 stop = 9.8.2015. 6:25:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 6:25:00 stop = 9.8.2015. 6:50:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 6:26:00 stop = 9.8.2015. 6:50:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 6:25:00 stop = 9.8.2015. 6:50:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 6:50:00 stop = 9.8.2015. 7:16:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 6:50:00 stop = 9.8.2015. 7:15:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 7:15:00 stop = 9.8.2015. 7:40:00 title = Ukrasi moj dom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 7:16:00 stop = 9.8.2015. 7:41:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 7:15:00 stop = 9.8.2015. 7:40:00 title = Ukrasi moj dom
-[  Info  ]       Replaces ----- start = 9.8.2015. 7:40:00 stop = 9.8.2015. 8:30:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 7:41:00 stop = 9.8.2015. 8:29:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 9.8.2015. 7:40:00 stop = 9.8.2015. 8:30:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 8:29:00 stop = 9.8.2015. 9:24:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 9.8.2015. 7:40:00 stop = 9.8.2015. 8:30:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 9.8.2015. 8:30:00 stop = 9.8.2015. 9:25:00 title = Kako izgledam?
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 9:24:00 stop = 9.8.2015. 9:47:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 8:30:00 stop = 9.8.2015. 9:25:00 title = Kako izgledam?
-[  Info  ]       Replaces ----- start = 9.8.2015. 9:25:00 stop = 9.8.2015. 9:50:00 title = Ludnica u Clevelandu
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 9:47:00 stop = 9.8.2015. 10:13:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 9:25:00 stop = 9.8.2015. 9:50:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 9:50:00 stop = 9.8.2015. 10:15:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 10:13:00 stop = 9.8.2015. 10:36:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 9:50:00 stop = 9.8.2015. 10:15:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 10:15:00 stop = 9.8.2015. 10:45:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 10:36:00 stop = 9.8.2015. 11:00:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 10:15:00 stop = 9.8.2015. 10:45:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 10:45:00 stop = 9.8.2015. 11:15:00 title = Ludnica u Clevelandu
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Sportska televizija) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 11:00:00 stop = 9.8.2015. 11:23:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 10:45:00 stop = 9.8.2015. 11:15:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:15:00 stop = 9.8.2015. 11:45:00 title = Ludnica u Clevelandu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 11:23:00 stop = 9.8.2015. 11:44:00 title = Bivši
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:15:00 stop = 9.8.2015. 11:45:00 title = Ludnica u Clevelandu
-[  Debug ]    skipped 
-[  Info  ] 
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 11:44:00 stop = 9.8.2015. 12:41:00 title = Hoteli iz pakla
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:15:00 stop = 9.8.2015. 11:45:00 title = Ludnica u Clevelandu
-[  Info  ]       Replaces ----- start = 9.8.2015. 11:45:00 stop = 9.8.2015. 12:40:00 title = Hoteli iz pakla
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Cartoon Network) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 12:41:00 stop = 9.8.2015. 13:33:00 title = Najskuplji dizajneri interijera
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
+[  Info  ]       show with ---- start = 7.8.2015. 19:50:00 stop = 7.8.2015. 20:30:00 title = Baka priča najljepše priče
+[  Info  ]       Replaces ----- start = 7.8.2015. 19:50:00 stop = 7.8.2015. 20:00:00 title = Baka priča najljepše priče
+[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Rođena zvijezda
 [  Debug ]    skipped 
 [  Info  ] 
 [  Warn  ] cannot access ~/Snimke/grabber/guide.xml
 [  Warn  ] file in use by an other process!
 [  Warn  ] will retry for 30 seconds
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 9.8.2015. 13:33:00 stop = 9.8.2015. 15:19:00 title = Sudar na slijepo
-[  Info  ]       Replaces ----- start = 9.8.2015. 12:40:00 stop = 9.8.2015. 13:35:00 title = Najskuplji dizajneri interijera
-[  Info  ]       Replaces ----- start = 9.8.2015. 13:35:00 stop = 9.8.2015. 15:25:00 title = Sudar na slijepo
