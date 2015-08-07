@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 7.8.2015. 13:39:56
+[  Debug ] job started at 7.8.2015. 13:45:46
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/Javno/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -27,6 +27,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:17:00 stop = 7.8.2015. 12:41:00 title = Hughove čarolije s 3 sastojka
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:17:00 stop = 7.8.2015. 13:37:00 title = Hughove čarolije s 3 sastojka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:41:00 stop = 7.8.2015. 15:05:00 title = Istrage gospođice Fisher
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:17:00 stop = 7.8.2015. 13:37:00 title = Hughove čarolije s 3 sastojka
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:37:00 stop = 7.8.2015. 15:05:00 title = Recept za ubojstvo
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -35,11 +44,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 4) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:15:00 stop = 7.8.2015. 13:55:00 title = Manjinski Mozaik
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:13:00 stop = 7.8.2015. 13:30:00 title = Vrijeme EU - danas
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 13:55:00 title = Generacija Y
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -48,27 +52,38 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL TELEVIZIJA) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 12:40:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 13:40:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:40:00 stop = 7.8.2015. 14:35:00 title = Hitna služba
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 13:40:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 14:35:00 title = Četiri vjenčanja
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Doma TV) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 12:45:00 title = Prave ljubavi
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 13:40:00 title = Prave ljubavi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 13:55:00 title = Naša mala klinika
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 13:40:00 title = Prave ljubavi
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 13:55:00 title = TV izlog
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL 2) site -- PORT.HR -- mode incremental
+[  Warn  ] error downloading page: The request timed out
+[  Warn  ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Plus) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 12:40:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 13:30:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:40:00 stop = 7.8.2015. 14:20:00 title = Mjenjačnica
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 13:30:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 14:20:00 title = Mjenjačnica
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -81,18 +96,32 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TV 1000 Balkan) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 10:00:00 stop = 7.8.2015. 12:00:00 title = Kućni odgoj
+[  Info  ]       Replaces ----- start = 7.8.2015. 10:00:00 stop = 7.8.2015. 13:40:00 title = Kućni odgoj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 15:20:00 title = Bolna sućut
+[  Info  ]       Replaces ----- start = 7.8.2015. 10:00:00 stop = 7.8.2015. 13:40:00 title = Kućni odgoj
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 15:20:00 title = Nešto o Adamu
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox TV) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:20:00 title = Castle
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:45:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 13:20:00 stop = 7.8.2015. 14:15:00 title = Milleri
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:45:00 title = Castle
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:45:00 stop = 7.8.2015. 14:15:00 title = Milleri
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox Life) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:21:00 stop = 7.8.2015. 13:11:00 title = Žeđ za životom
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:21:00 stop = 7.8.2015. 13:32:00 title = Žeđ za životom
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -101,28 +130,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Discovery Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 11:40:00 stop = 7.8.2015. 12:35:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:40:00 stop = 7.8.2015. 13:30:00 title = Trgovci automobilima
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:35:00 stop = 7.8.2015. 14:25:00 title = Preživi to!
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:40:00 stop = 7.8.2015. 13:30:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 14:25:00 title = Preživljavanje udvoje
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 11:58:00 stop = 7.8.2015. 13:05:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:58:00 stop = 7.8.2015. 13:29:00 title = Aerodrom u Dubaiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:05:00 stop = 7.8.2015. 14:07:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:58:00 stop = 7.8.2015. 13:29:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:29:00 stop = 7.8.2015. 14:07:00 title = Hakiranje sustava
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -131,10 +142,28 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 11:50:00 stop = 7.8.2015. 12:45:00 title = Austin Stevens: Gospodar zmija
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:50:00 stop = 7.8.2015. 13:40:00 title = Austin Stevens: Gospodar zmija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 14:35:00 title = Čovjek za velike ribe
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:50:00 stop = 7.8.2015. 13:40:00 title = Austin Stevens: Gospodar zmija
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 14:35:00 title = Dečki za krokodile
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 12:50:00 title = Sloboda na dva kotača: Azija
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:40:00 title = Sloboda na dva kotača: Azija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:50:00 stop = 7.8.2015. 14:25:00 title = Zašto se ruše zrakoplovi?
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:40:00 title = Sloboda na dva kotača: Azija
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 14:25:00 title = Kraljevi drva
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -143,6 +172,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 13:00:00 stop = 7.8.2015. 13:15:00 title = Rondo shop
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:00:00 stop = 7.8.2015. 13:45:00 title = Rondo shop
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 13:15:00 stop = 7.8.2015. 14:00:00 title = Ikone
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:00:00 stop = 7.8.2015. 13:45:00 title = Rondo shop
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:45:00 stop = 7.8.2015. 14:00:00 title = Rondo shop
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -151,15 +189,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:30:00 stop = 7.8.2015. 13:00:00 title = Mirovinski odrezak
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:30:00 stop = 7.8.2015. 13:30:00 title = Mirovinski odrezak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:00:00 stop = 7.8.2015. 13:59:00 title = Zeleni grad
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:30:00 stop = 7.8.2015. 13:30:00 title = Mirovinski odrezak
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 13:59:00 title = S druge strane
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -194,15 +223,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:50:00 stop = 7.8.2015. 13:05:00 title = Anđeli i prijatelji
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:50:00 stop = 7.8.2015. 13:30:00 title = Anđeli i prijatelji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:05:00 stop = 7.8.2015. 13:55:00 title = Johnny Test
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:50:00 stop = 7.8.2015. 13:30:00 title = Anđeli i prijatelji
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 13:55:00 title = Tenkai vitezovi
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -211,15 +231,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Eurosport) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:33:00 stop = 7.8.2015. 13:04:00 title = Skijaški skokovi - Ljetni Grand Prix
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:33:00 stop = 7.8.2015. 13:33:00 title = Skijaški skokovi - Ljetni Grand Prix
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:04:00 stop = 7.8.2015. 14:18:00 title = Nogomet - Europska liga
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:33:00 stop = 7.8.2015. 13:33:00 title = Skijaški skokovi - Ljetni Grand Prix
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:33:00 stop = 7.8.2015. 14:18:00 title = Biciklizam
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -254,19 +265,6 @@
 [  Info  ]      total after update        122
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 12:10:00 title = 3 From 1
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 13:30:00 title = 3 From 1
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:10:00 stop = 7.8.2015. 13:30:00 title = Top 20
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 13:30:00 title = 3 From 1
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 14:00:00 title = 3 From 1
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 13:40:00 title = 3 From 1
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:40:00 stop = 7.8.2015. 14:00:00 title = Cribs
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -283,9 +281,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 5665 shows in 40 channels
-[  Debug ] 23 updated shows
+[  Debug ] 20 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 7.8.2015. 13:41:29 done in 93 seconds
+[  Info  ] job finished at 7.8.2015. 13:47:44 done in 118 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
