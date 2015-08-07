@@ -158,7 +158,7 @@ EOF
 
 
 
-#update_grabber
+update_grabber
 wait $!
 #git_clone
 #wait $!
@@ -172,6 +172,3 @@ cd ..
 #chmod a+rw -R samdecrypt
 wait $!
 #rm -R samdecrypt
-
-
-
