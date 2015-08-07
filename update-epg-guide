@@ -130,6 +130,7 @@ cp guide-test.xml ./pharser/guide.xml
 rm guide-test.xml
 cd pharser
 python pharser.py
+wait $!
 rm guide.xml
 cd .. <<EOF
 EOF
@@ -146,7 +147,7 @@ EOF
 }
 function upload_togit()
 {
-cd samdecrypt
+#cd samdecrypt
 git add -A
 git commit -m update
 git push origin libepg
@@ -157,19 +158,20 @@ EOF
 
 
 
-update_grabber
+#update_grabber
 wait $!
-git_clone
-wait $!
-rm ./samdecrypt/pharser/libEPG.config
-wait $!
-cp ./pharser/libEPG.config ./samdecrypt/pharser/libEPG.config
-wait $!
+#git_clone
+#wait $!
+#rm ./pharser/libEPG.config
+#wait $!
+#cp ./pharser/libEPG.config ./samdecrypt/pharser/libEPG.config
+#wait $!
 upload_togit
 wait $!
-chmod a+rw -R samdecrypt
+cd ..
+#chmod a+rw -R samdecrypt
 wait $!
-rm -R samdecrypt
+#rm -R samdecrypt
 
 
 

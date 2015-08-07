@@ -1,12 +1,12 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 4.8.2015. 22:30:43
+[  Debug ] job started at 7.8.2015. 13:15:50
 [  Debug ] 
-[  Debug ] reading config file: /home/goran/Snimke/grabber/wg++/WebGrab++.config.xml
+[  Debug ] reading config file: /home/goran/Javno/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
 [  Debug ] embedded timezones source: WebGrab_Plus.TimezonesData.txt
-[  Debug ] found: /home/goran/Snimke/grabber/wg++/port.hr.ini -- Revision 12
-[  Debug ] found: /home/goran/Snimke/grabber/wg++/bnet.hr.ini -- Revision 0
+[  Debug ] found: /home/goran/Javno/samdecrypt/wg++/port.hr.ini -- Revision 12
+[  Debug ] found: /home/goran/Javno/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
 [  Debug ] 
 [  Debug ] running  on: Unix 3.19.0.21
@@ -25,345 +25,547 @@
 [  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:04:00 stop = 4.8.2015. 20:55:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:04:00 stop = 4.8.2015. 21:51:00 title = Godina Oluje
+[  Info  ]       show with ---- start = 9.8.2015. 6:33:00 stop = 9.8.2015. 7:33:00 title = Lijepom našom
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:33:00 stop = 9.8.2015. 7:32:00 title = Lijepom našom
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:32:00 stop = 9.8.2015. 7:45:00 title = TV kalendar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:55:00 stop = 5.8.2015. 4:19:00 title = Zagreb: Dan pobjede - 20 godina
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:04:00 stop = 4.8.2015. 21:51:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:51:00 stop = 4.8.2015. 22:47:00 title = Nova prilika
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:47:00 stop = 4.8.2015. 23:07:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:07:00 stop = 4.8.2015. 23:11:00 title = Sport
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:11:00 stop = 4.8.2015. 23:18:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:18:00 stop = 5.8.2015. 0:36:00 title = Bračne svađe
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:36:00 stop = 5.8.2015. 1:22:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:22:00 stop = 5.8.2015. 2:54:00 title = Tko nađe, njegovo je
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:54:00 stop = 5.8.2015. 4:19:00 title = Dok me nije bilo
+[  Info  ]       show with ---- start = 9.8.2015. 7:33:00 stop = 9.8.2015. 7:43:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:32:00 stop = 9.8.2015. 7:45:00 title = TV kalendar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:57:00 stop = 5.8.2015. 22:47:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:57:00 stop = 5.8.2015. 20:00:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:00:00 stop = 5.8.2015. 20:00:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:00:00 stop = 5.8.2015. 20:58:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:58:00 stop = 5.8.2015. 21:59:00 title = Velika obitelj
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:59:00 stop = 5.8.2015. 22:52:00 title = Nova prilika
+[  Info  ]       show with ---- start = 9.8.2015. 7:43:00 stop = 9.8.2015. 8:16:00 title = Koncert
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:32:00 stop = 9.8.2015. 7:45:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:45:00 stop = 9.8.2015. 8:20:00 title = Koncert
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 22:47:00 stop = 5.8.2015. 23:07:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:59:00 stop = 5.8.2015. 22:52:00 title = Nova prilika
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:52:00 stop = 5.8.2015. 23:12:00 title = Dnevnik
+[  Info  ]       show with ---- start = 9.8.2015. 8:24:00 stop = 9.8.2015. 9:54:00 title = Pokrajnja ulica
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:20:00 stop = 9.8.2015. 8:27:00 title = Iz povijesti Alke: Alka i pobjednici
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:27:00 stop = 9.8.2015. 9:55:00 title = Pokrajnja ulica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:07:00 stop = 5.8.2015. 23:11:00 title = Sport
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:52:00 stop = 5.8.2015. 23:12:00 title = Dnevnik
+[  Info  ]       show with ---- start = 9.8.2015. 9:54:00 stop = 9.8.2015. 11:25:00 title = Vino u krvi
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:27:00 stop = 9.8.2015. 9:55:00 title = Pokrajnja ulica
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:55:00 stop = 9.8.2015. 11:30:00 title = Vino u krvi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:11:00 stop = 5.8.2015. 23:18:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:52:00 stop = 5.8.2015. 23:12:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:12:00 stop = 5.8.2015. 23:17:00 title = Sport
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:17:00 stop = 5.8.2015. 23:24:00 title = Vrijeme
+[  Info  ]       show with ---- start = 9.8.2015. 11:25:00 stop = 9.8.2015. 11:40:00 title = Hrvatska kulturna baština
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:55:00 stop = 9.8.2015. 11:30:00 title = Vino u krvi
+[  Info  ]       Replaces ----- start = 9.8.2015. 11:30:00 stop = 9.8.2015. 11:45:00 title = Hrvatska kulturna baština
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:18:00 stop = 6.8.2015. 0:36:00 title = Bračne svađe
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:17:00 stop = 5.8.2015. 23:24:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:24:00 stop = 6.8.2015. 1:43:00 title = Za vječnu slavu
+[  Info  ]       show with ---- start = 9.8.2015. 11:44:00 stop = 9.8.2015. 12:00:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 9.8.2015. 11:30:00 stop = 9.8.2015. 11:45:00 title = Hrvatska kulturna baština
+[  Info  ]       Replaces ----- start = 9.8.2015. 11:45:00 stop = 9.8.2015. 11:48:00 title = Iz povijesti Alke: Državnici na Alci
+[  Info  ]       Replaces ----- start = 9.8.2015. 11:48:00 stop = 9.8.2015. 12:00:00 title = TV kalendar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:36:00 stop = 6.8.2015. 1:22:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:24:00 stop = 6.8.2015. 1:43:00 title = Za vječnu slavu
+[  Info  ]       show with ---- start = 9.8.2015. 12:18:00 stop = 9.8.2015. 12:27:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:18:00 stop = 9.8.2015. 12:30:00 title = Vrijeme
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:22:00 stop = 6.8.2015. 2:54:00 title = Tko nađe, njegovo je
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:24:00 stop = 6.8.2015. 1:43:00 title = Za vječnu slavu
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:43:00 stop = 6.8.2015. 2:38:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:38:00 stop = 6.8.2015. 4:23:00 title = 24 sata Le Mansa
+[  Info  ]       show with ---- start = 9.8.2015. 12:27:00 stop = 9.8.2015. 13:17:00 title = Plodovi zemlje
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:18:00 stop = 9.8.2015. 12:30:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:30:00 stop = 9.8.2015. 13:25:00 title = Plodovi zemlje
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 2:54:00 stop = 6.8.2015. 4:23:00 title = Dok me nije bilo
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:38:00 stop = 6.8.2015. 4:23:00 title = 24 sata Le Mansa
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:00:00 title = Godina Oluje
-[  Info  ]       Added before - start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:58:00 title = Godina Oluje
+[  Info  ]       show with ---- start = 9.8.2015. 13:26:00 stop = 9.8.2015. 14:00:00 title = More
+[  Info  ]       Replaces ----- start = 9.8.2015. 13:25:00 stop = 9.8.2015. 14:00:00 title = More
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:58:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:58:00 title = Godina Oluje
+[  Info  ]       show with ---- start = 9.8.2015. 14:00:00 stop = 9.8.2015. 15:04:00 title = Nedjeljom u 2
+[  Info  ]       Replaces ----- start = 9.8.2015. 14:00:00 stop = 9.8.2015. 15:05:00 title = Nedjeljom u 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:58:00 stop = 6.8.2015. 21:59:00 title = Velika obitelj
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:58:00 stop = 6.8.2015. 21:56:00 title = Velika obitelj
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:56:00 stop = 6.8.2015. 22:49:00 title = Nova prilika
+[  Info  ]       show with ---- start = 9.8.2015. 15:04:00 stop = 9.8.2015. 15:29:00 title = Mir i dobro
+[  Info  ]       Replaces ----- start = 9.8.2015. 14:00:00 stop = 9.8.2015. 15:05:00 title = Nedjeljom u 2
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:05:00 stop = 9.8.2015. 16:00:00 title = Mir i dobro
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:59:00 stop = 6.8.2015. 22:52:00 title = Nova prilika
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:56:00 stop = 6.8.2015. 22:49:00 title = Nova prilika
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:49:00 stop = 6.8.2015. 23:09:00 title = Dnevnik
+[  Info  ]       show with ---- start = 9.8.2015. 15:29:00 stop = 9.8.2015. 16:02:00 title = Tokio Light
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:05:00 stop = 9.8.2015. 16:00:00 title = Mir i dobro
+[  Info  ]       Replaces ----- start = 9.8.2015. 16:00:00 stop = 9.8.2015. 17:44:00 title = Krilce ili batak
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:52:00 stop = 6.8.2015. 23:12:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:49:00 stop = 6.8.2015. 23:09:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:09:00 stop = 6.8.2015. 23:13:00 title = Sport
+[  Info  ]       show with ---- start = 9.8.2015. 16:02:00 stop = 9.8.2015. 17:47:00 title = Krilce ili batak
+[  Info  ]       Replaces ----- start = 9.8.2015. 16:00:00 stop = 9.8.2015. 17:44:00 title = Krilce ili batak
+[  Info  ]       Replaces ----- start = 9.8.2015. 17:44:00 stop = 9.8.2015. 19:00:00 title = The Voice - Najljepši glas Hrvatske
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:12:00 stop = 6.8.2015. 23:17:00 title = Sport
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:09:00 stop = 6.8.2015. 23:13:00 title = Sport
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:13:00 stop = 6.8.2015. 23:18:00 title = Vrijeme
+[  Info  ]       show with ---- start = 9.8.2015. 17:47:00 stop = 9.8.2015. 19:00:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]       Replaces ----- start = 9.8.2015. 17:44:00 stop = 9.8.2015. 19:00:00 title = The Voice - Najljepši glas Hrvatske
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:17:00 stop = 6.8.2015. 23:24:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:13:00 stop = 6.8.2015. 23:18:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:18:00 stop = 7.8.2015. 0:43:00 title = Dvojnik
+[  Info  ]       show with ---- start = 9.8.2015. 19:55:00 stop = 9.8.2015. 20:04:00 title = Loto 6/45
+[  Info  ]       Replaces ----- start = 9.8.2015. 19:55:00 stop = 9.8.2015. 20:05:00 title = Loto 6/45
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:24:00 stop = 7.8.2015. 1:43:00 title = Za vječnu slavu
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:18:00 stop = 7.8.2015. 0:43:00 title = Dvojnik
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:43:00 stop = 7.8.2015. 1:38:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:38:00 stop = 7.8.2015. 3:33:00 title = U znaku kozoroga
+[  Info  ]       show with ---- start = 9.8.2015. 20:04:00 stop = 9.8.2015. 21:12:00 title = Naše malo misto
+[  Info  ]       Replaces ----- start = 9.8.2015. 19:55:00 stop = 9.8.2015. 20:05:00 title = Loto 6/45
+[  Info  ]       Replaces ----- start = 9.8.2015. 20:05:00 stop = 9.8.2015. 21:15:00 title = Naše malo misto
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:43:00 stop = 7.8.2015. 2:38:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:38:00 stop = 7.8.2015. 3:33:00 title = U znaku kozoroga
+[  Info  ]       show with ---- start = 9.8.2015. 21:12:00 stop = 9.8.2015. 21:59:00 title = Počivali u miru
+[  Info  ]       Replaces ----- start = 9.8.2015. 20:05:00 stop = 9.8.2015. 21:15:00 title = Naše malo misto
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:15:00 stop = 9.8.2015. 22:10:00 title = Počivali u miru
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:38:00 stop = 7.8.2015. 4:58:00 title = 24 sata Le Mansa
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:38:00 stop = 7.8.2015. 3:33:00 title = U znaku kozoroga
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:33:00 stop = 7.8.2015. 4:58:00 title = Knjižara krimića
+[  Info  ]       show with ---- start = 9.8.2015. 21:59:00 stop = 9.8.2015. 22:14:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:15:00 stop = 9.8.2015. 22:10:00 title = Počivali u miru
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:10:00 stop = 9.8.2015. 22:20:00 title = Dnevnik
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:58:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:57:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:57:00 stop = 7.8.2015. 22:55:00 title = Rocky 2
+[  Info  ]       show with ---- start = 9.8.2015. 22:14:00 stop = 9.8.2015. 22:18:00 title = Sport
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:10:00 stop = 9.8.2015. 22:20:00 title = Dnevnik
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:58:00 stop = 7.8.2015. 21:56:00 title = Velika obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:57:00 stop = 7.8.2015. 22:55:00 title = Rocky 2
+[  Info  ]       show with ---- start = 9.8.2015. 22:18:00 stop = 9.8.2015. 22:23:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:10:00 stop = 9.8.2015. 22:20:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:20:00 stop = 9.8.2015. 22:23:00 title = Sport
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:56:00 stop = 7.8.2015. 22:49:00 title = Nova prilika
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:57:00 stop = 7.8.2015. 22:55:00 title = Rocky 2
+[  Info  ]       show with ---- start = 9.8.2015. 22:23:00 stop = 9.8.2015. 23:44:00 title = Springsteen i ja
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:23:00 stop = 9.8.2015. 22:30:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:30:00 stop = 9.8.2015. 23:55:00 title = Springsteen i ja
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:49:00 stop = 7.8.2015. 23:09:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:57:00 stop = 7.8.2015. 22:55:00 title = Rocky 2
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:15:00 title = Dnevnik
+[  Info  ]       show with ---- start = 9.8.2015. 23:44:00 stop = 10.8.2015. 1:15:00 title = Vino u krvi
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:30:00 stop = 9.8.2015. 23:55:00 title = Springsteen i ja
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:55:00 stop = 10.8.2015. 1:30:00 title = Vino u krvi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:09:00 stop = 7.8.2015. 23:13:00 title = Sport
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:15:00 title = Dnevnik
+[  Info  ]       show with ---- start = 10.8.2015. 1:15:00 stop = 10.8.2015. 2:41:00 title = Pokrajnja ulica
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:55:00 stop = 10.8.2015. 1:30:00 title = Vino u krvi
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:30:00 stop = 10.8.2015. 2:55:00 title = Pokrajnja ulica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:13:00 stop = 7.8.2015. 23:18:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:15:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:15:00 stop = 7.8.2015. 23:19:00 title = Sport
+[  Info  ]       show with ---- start = 10.8.2015. 2:41:00 stop = 10.8.2015. 3:41:00 title = Nedjeljom u 2
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:30:00 stop = 10.8.2015. 2:55:00 title = Pokrajnja ulica
+[  Info  ]       Replaces ----- start = 10.8.2015. 2:55:00 stop = 10.8.2015. 3:55:00 title = Nedjeljom u 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:18:00 stop = 8.8.2015. 0:43:00 title = Dvojnik
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:15:00 stop = 7.8.2015. 23:19:00 title = Sport
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:19:00 stop = 7.8.2015. 23:26:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:26:00 stop = 8.8.2015. 0:20:00 title = Ray Donovan
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:20:00 stop = 8.8.2015. 1:12:00 title = Ray Donovan
+[  Info  ]       show with ---- start = 10.8.2015. 3:41:00 stop = 10.8.2015. 4:06:00 title = Eko zona
+[  Info  ]       Replaces ----- start = 10.8.2015. 2:55:00 stop = 10.8.2015. 3:55:00 title = Nedjeljom u 2
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:55:00 stop = 10.8.2015. 4:55:00 title = Reprizni program
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:43:00 stop = 8.8.2015. 1:38:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:20:00 stop = 8.8.2015. 1:12:00 title = Ray Donovan
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:12:00 stop = 8.8.2015. 2:07:00 title = Godina Oluje
+[  Info  ]       show with ---- start = 10.8.2015. 4:06:00 stop = 10.8.2015. 4:08:00 title = Skica za portret
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:55:00 stop = 10.8.2015. 4:55:00 title = Reprizni program
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:38:00 stop = 8.8.2015. 3:33:00 title = U znaku kozoroga
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:12:00 stop = 8.8.2015. 2:07:00 title = Godina Oluje
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:07:00 stop = 8.8.2015. 3:32:00 title = Veselo ljetovanje
+[  Info  ]       show with ---- start = 10.8.2015. 4:08:00 stop = 10.8.2015. 4:23:00 title = Hrvatska kulturna baština
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:55:00 stop = 10.8.2015. 4:55:00 title = Reprizni program
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 4:23:00 stop = 10.8.2015. 4:55:00 title = Tokio Light
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:55:00 stop = 10.8.2015. 4:55:00 title = Reprizni program
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 4:45:00 stop = 9.8.2015. 6:05:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 9.8.2015. 4:45:00 stop = 9.8.2015. 5:25:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 9.8.2015. 5:25:00 stop = 9.8.2015. 6:00:00 title = More
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:00:00 stop = 9.8.2015. 6:01:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:01:00 stop = 9.8.2015. 6:10:00 title = TV vrtić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:05:00 stop = 9.8.2015. 6:06:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:01:00 stop = 9.8.2015. 6:10:00 title = TV vrtić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:06:00 stop = 9.8.2015. 6:16:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:01:00 stop = 9.8.2015. 6:10:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:10:00 stop = 9.8.2015. 6:11:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:11:00 stop = 9.8.2015. 6:21:00 title = Moomini
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:16:00 stop = 9.8.2015. 6:26:00 title = Moomini
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:11:00 stop = 9.8.2015. 6:21:00 title = Moomini
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:21:00 stop = 9.8.2015. 6:22:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:22:00 stop = 9.8.2015. 6:29:00 title = Mouk
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:26:00 stop = 9.8.2015. 6:27:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:22:00 stop = 9.8.2015. 6:29:00 title = Mouk
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:27:00 stop = 9.8.2015. 6:38:00 title = Mouk
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:22:00 stop = 9.8.2015. 6:29:00 title = Mouk
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:29:00 stop = 9.8.2015. 6:30:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:30:00 stop = 9.8.2015. 6:35:00 title = Tomica i prijatelji
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:35:00 stop = 9.8.2015. 6:42:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:38:00 stop = 9.8.2015. 6:50:00 title = Tomica i prijatelji
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:35:00 stop = 9.8.2015. 6:42:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:42:00 stop = 9.8.2015. 7:07:00 title = Grimmove bajke
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 6:50:00 stop = 9.8.2015. 7:13:00 title = Grimmove bajke
+[  Info  ]       Replaces ----- start = 9.8.2015. 6:42:00 stop = 9.8.2015. 7:07:00 title = Grimmove bajke
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:07:00 stop = 9.8.2015. 7:08:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:08:00 stop = 9.8.2015. 7:18:00 title = TV vrtić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:13:00 stop = 9.8.2015. 7:15:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:08:00 stop = 9.8.2015. 7:18:00 title = TV vrtić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:15:00 stop = 9.8.2015. 7:28:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:08:00 stop = 9.8.2015. 7:18:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:18:00 stop = 9.8.2015. 7:19:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:19:00 stop = 9.8.2015. 7:29:00 title = Vatrogasac Sam
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:28:00 stop = 9.8.2015. 7:38:00 title = Vatrogasac Sam
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:19:00 stop = 9.8.2015. 7:29:00 title = Vatrogasac Sam
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:29:00 stop = 9.8.2015. 7:30:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:30:00 stop = 9.8.2015. 7:40:00 title = Moj mali poni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:38:00 stop = 9.8.2015. 7:41:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:30:00 stop = 9.8.2015. 7:40:00 title = Moj mali poni
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:40:00 stop = 9.8.2015. 7:41:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:41:00 stop = 9.8.2015. 7:53:00 title = Moj mali poni
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:41:00 stop = 9.8.2015. 7:45:00 title = Danica
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:45:00 stop = 9.8.2015. 7:46:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:46:00 stop = 9.8.2015. 7:49:00 title = Tigrasta patka
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:49:00 stop = 9.8.2015. 7:50:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:50:00 stop = 9.8.2015. 7:59:00 title = Tobijin putujući cirkus
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:53:00 stop = 9.8.2015. 7:55:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:50:00 stop = 9.8.2015. 7:59:00 title = Tobijin putujući cirkus
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 7:55:00 stop = 9.8.2015. 8:01:00 title = Danica
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:50:00 stop = 9.8.2015. 7:59:00 title = Tobijin putujući cirkus
+[  Info  ]       Replaces ----- start = 9.8.2015. 7:59:00 stop = 9.8.2015. 8:00:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:10:00 title = Zvonko u Zemlji igračaka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:01:00 stop = 9.8.2015. 8:05:00 title = Tigrasta patka
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:10:00 title = Zvonko u Zemlji igračaka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:05:00 stop = 9.8.2015. 8:16:00 title = Tobijin putujući cirkus
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:10:00 title = Zvonko u Zemlji igračaka
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:10:00 stop = 9.8.2015. 8:11:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:11:00 stop = 9.8.2015. 8:26:00 title = Tajni dnevnik patke Matilde
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:16:00 stop = 9.8.2015. 8:17:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:11:00 stop = 9.8.2015. 8:26:00 title = Tajni dnevnik patke Matilde
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:17:00 stop = 9.8.2015. 8:29:00 title = Zvonko u Zemlji igračaka
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:11:00 stop = 9.8.2015. 8:26:00 title = Tajni dnevnik patke Matilde
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:26:00 stop = 9.8.2015. 8:30:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:29:00 stop = 9.8.2015. 8:41:00 title = Tajni dnevnik patke Matilde
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:26:00 stop = 9.8.2015. 8:30:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:30:00 stop = 9.8.2015. 8:53:00 title = Gladijatorska akademija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:41:00 stop = 9.8.2015. 8:44:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:30:00 stop = 9.8.2015. 8:53:00 title = Gladijatorska akademija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 8:44:00 stop = 9.8.2015. 9:08:00 title = Gladijatorska akademija
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:30:00 stop = 9.8.2015. 8:53:00 title = Gladijatorska akademija
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:53:00 stop = 9.8.2015. 9:00:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:00:00 stop = 9.8.2015. 9:25:00 title = Kronike Matta Hattera
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 9:08:00 stop = 9.8.2015. 9:12:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:00:00 stop = 9.8.2015. 9:25:00 title = Kronike Matta Hattera
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 9:12:00 stop = 9.8.2015. 9:34:00 title = Kronike Matta Hattera
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:00:00 stop = 9.8.2015. 9:25:00 title = Kronike Matta Hattera
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:25:00 stop = 9.8.2015. 9:50:00 title = Pipi Duga Čarapa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 9:34:00 stop = 9.8.2015. 9:58:00 title = Pipi Duga Čarapa
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:25:00 stop = 9.8.2015. 9:50:00 title = Pipi Duga Čarapa
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:50:00 stop = 9.8.2015. 10:25:00 title = Martin Misterija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 9:58:00 stop = 9.8.2015. 10:23:00 title = Martin Misterija
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:50:00 stop = 9.8.2015. 10:25:00 title = Martin Misterija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 10:23:00 stop = 9.8.2015. 10:48:00 title = Pozitivno
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:50:00 stop = 9.8.2015. 10:25:00 title = Martin Misterija
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:25:00 stop = 9.8.2015. 10:50:00 title = Pozitivno
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 10:48:00 stop = 9.8.2015. 10:59:00 title = Biblija
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:25:00 stop = 9.8.2015. 10:50:00 title = Pozitivno
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:50:00 stop = 9.8.2015. 11:00:00 title = Biblija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 10:59:00 stop = 9.8.2015. 12:02:00 title = Misa
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:50:00 stop = 9.8.2015. 11:00:00 title = Biblija
+[  Info  ]       Replaces ----- start = 9.8.2015. 11:00:00 stop = 9.8.2015. 12:00:00 title = Misa
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:00:00 stop = 9.8.2015. 13:00:00 title = Raj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 12:02:00 stop = 9.8.2015. 12:56:00 title = Raj
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:00:00 stop = 9.8.2015. 13:00:00 title = Raj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 12:56:00 stop = 9.8.2015. 13:30:00 title = 41. Dječja Vučkovića alka
+[  Info  ]       Replaces ----- start = 9.8.2015. 12:00:00 stop = 9.8.2015. 13:00:00 title = Raj
+[  Info  ]       Replaces ----- start = 9.8.2015. 13:00:00 stop = 9.8.2015. 13:25:00 title = 41. Dječja Vučkovića alka
+[  Info  ]       Replaces ----- start = 9.8.2015. 13:25:00 stop = 9.8.2015. 15:00:00 title = Umorstva u Midsomeru
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 13:30:00 stop = 9.8.2015. 15:02:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 9.8.2015. 13:25:00 stop = 9.8.2015. 15:00:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:00:00 stop = 9.8.2015. 15:40:00 title = 300. Sinjska Alka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 15:02:00 stop = 9.8.2015. 15:30:00 title = Jelovnici izgubljenog vremena
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:00:00 stop = 9.8.2015. 15:40:00 title = 300. Sinjska Alka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 15:30:00 stop = 9.8.2015. 15:40:00 title = 300. Sinjska Alka
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:00:00 stop = 9.8.2015. 15:40:00 title = 300. Sinjska Alka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 19:43:00 stop = 9.8.2015. 20:11:00 title = Čunčara - 42. dječja alka
+[  Info  ]       Replaces ----- start = 9.8.2015. 19:43:00 stop = 9.8.2015. 20:00:00 title = Čunčara - 42. dječja alka
+[  Info  ]       Replaces ----- start = 9.8.2015. 20:00:00 stop = 9.8.2015. 21:30:00 title = Pjevaj moju pjesmu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 20:11:00 stop = 9.8.2015. 21:39:00 title = Pjevaj moju pjesmu
+[  Info  ]       Replaces ----- start = 9.8.2015. 20:00:00 stop = 9.8.2015. 21:30:00 title = Pjevaj moju pjesmu
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:30:00 stop = 9.8.2015. 21:35:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:35:00 stop = 9.8.2015. 22:30:00 title = Utrke deva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 21:39:00 stop = 9.8.2015. 21:45:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:35:00 stop = 9.8.2015. 22:30:00 title = Utrke deva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 21:45:00 stop = 9.8.2015. 22:42:00 title = Utrke deva
+[  Info  ]       Replaces ----- start = 9.8.2015. 21:35:00 stop = 9.8.2015. 22:30:00 title = Utrke deva
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:30:00 stop = 10.8.2015. 0:00:00 title = Osumnjičeni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 22:42:00 stop = 10.8.2015. 0:26:00 title = Osumnjičeni
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:30:00 stop = 10.8.2015. 0:00:00 title = Osumnjičeni
+[  Info  ]       Replaces ----- start = 10.8.2015. 0:00:00 stop = 10.8.2015. 0:45:00 title = Vladarica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 0:26:00 stop = 10.8.2015. 1:06:00 title = Vladarica
+[  Info  ]       Replaces ----- start = 10.8.2015. 0:00:00 stop = 10.8.2015. 0:45:00 title = Vladarica
+[  Info  ]       Replaces ----- start = 10.8.2015. 0:45:00 stop = 10.8.2015. 1:30:00 title = Vladarica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 1:06:00 stop = 10.8.2015. 1:46:00 title = Vladarica
+[  Info  ]       Replaces ----- start = 10.8.2015. 0:45:00 stop = 10.8.2015. 1:30:00 title = Vladarica
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:30:00 stop = 10.8.2015. 4:33:00 title = Noćni glazbeni program
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 1:46:00 stop = 10.8.2015. 4:33:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:30:00 stop = 10.8.2015. 4:33:00 title = Noćni glazbeni program
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 3) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:04:00 stop = 4.8.2015. 21:39:00 title = Pljačka državne kovnice
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:04:00 stop = 4.8.2015. 21:55:00 title = Pljačka državne kovnice
+[  Info  ]       show with ---- start = 8.8.2015. 8:00:00 stop = 8.8.2015. 8:49:00 title = Bonanza
+[  Info  ]       Replaces ----- start = 8.8.2015. 8:00:00 stop = 8.8.2015. 8:50:00 title = Bonanza
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 22:04:00 stop = 5.8.2015. 4:06:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:04:00 stop = 4.8.2015. 22:14:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:14:00 stop = 4.8.2015. 22:44:00 title = Direkt
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:44:00 stop = 4.8.2015. 23:38:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:38:00 stop = 5.8.2015. 1:16:00 title = Bijeg iz zatvora
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:16:00 stop = 5.8.2015. 1:27:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:27:00 stop = 5.8.2015. 1:51:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:51:00 stop = 5.8.2015. 2:34:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:34:00 stop = 5.8.2015. 2:50:00 title = Mentalni sklop / mentor - sljedbenik: Alem Korkut - Ivan Kožarić (6/10)
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:50:00 stop = 5.8.2015. 4:06:00 title = Vrijeme je za jazz
+[  Info  ]       show with ---- start = 8.8.2015. 8:49:00 stop = 8.8.2015. 9:18:00 title = Trikultura
+[  Info  ]       Replaces ----- start = 8.8.2015. 8:00:00 stop = 8.8.2015. 8:50:00 title = Bonanza
+[  Info  ]       Replaces ----- start = 8.8.2015. 8:50:00 stop = 8.8.2015. 9:20:00 title = Trikultura
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 18:55:00 stop = 5.8.2015. 22:44:00 title = Koncert
-[  Info  ]       Replaces ----- start = 5.8.2015. 18:55:00 stop = 5.8.2015. 19:59:00 title = Koncert
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:59:00 stop = 5.8.2015. 21:19:00 title = Veliki trenutak
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:19:00 stop = 5.8.2015. 21:44:00 title = Mentalni sklop / mentor - sljedbenik: (7/10)
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:44:00 stop = 5.8.2015. 21:54:00 title = Prekid programa zbog čitanja - Irena Lukšić: Noći u bijelom satenu
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:54:00 stop = 5.8.2015. 22:06:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:06:00 stop = 5.8.2015. 22:35:00 title = Direkt
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:35:00 stop = 5.8.2015. 23:25:00 title = Duhovi
+[  Info  ]       show with ---- start = 8.8.2015. 9:18:00 stop = 8.8.2015. 10:38:00 title = Stanar
+[  Info  ]       Replaces ----- start = 8.8.2015. 8:50:00 stop = 8.8.2015. 9:20:00 title = Trikultura
+[  Info  ]       Replaces ----- start = 8.8.2015. 9:20:00 stop = 8.8.2015. 10:40:00 title = Stanar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 22:44:00 stop = 5.8.2015. 23:38:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:35:00 stop = 5.8.2015. 23:25:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:25:00 stop = 6.8.2015. 1:20:00 title = Sestre Marije Magdalene
+[  Info  ]       show with ---- start = 8.8.2015. 11:39:00 stop = 8.8.2015. 11:54:00 title = San za bolje sutra
+[  Info  ]       Replaces ----- start = 8.8.2015. 10:40:00 stop = 8.8.2015. 11:40:00 title = Ekološke varalice
+[  Info  ]       Replaces ----- start = 8.8.2015. 11:40:00 stop = 8.8.2015. 11:55:00 title = San za bolje sutra
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:38:00 stop = 6.8.2015. 1:16:00 title = Bijeg iz zatvora
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:25:00 stop = 6.8.2015. 1:20:00 title = Sestre Marije Magdalene
+[  Info  ]       show with ---- start = 8.8.2015. 11:54:00 stop = 8.8.2015. 12:24:00 title = Majstori svirači
+[  Info  ]       Replaces ----- start = 8.8.2015. 11:40:00 stop = 8.8.2015. 11:55:00 title = San za bolje sutra
+[  Info  ]       Replaces ----- start = 8.8.2015. 11:55:00 stop = 8.8.2015. 12:25:00 title = Majstori svirači
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:16:00 stop = 6.8.2015. 1:27:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:25:00 stop = 6.8.2015. 1:20:00 title = Sestre Marije Magdalene
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:20:00 stop = 6.8.2015. 1:30:00 title = TV kalendar
+[  Info  ]       show with ---- start = 8.8.2015. 12:24:00 stop = 8.8.2015. 13:19:00 title = Hrvatsko vodeno blago
+[  Info  ]       Replaces ----- start = 8.8.2015. 11:55:00 stop = 8.8.2015. 12:25:00 title = Majstori svirači
+[  Info  ]       Replaces ----- start = 8.8.2015. 12:25:00 stop = 8.8.2015. 13:20:00 title = Hrvatsko vodeno blago
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:27:00 stop = 6.8.2015. 1:51:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:20:00 stop = 6.8.2015. 1:30:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:30:00 stop = 6.8.2015. 1:56:00 title = Zona sumraka
+[  Info  ]       show with ---- start = 8.8.2015. 13:19:00 stop = 8.8.2015. 14:19:00 title = Oluja nad olujama
+[  Info  ]       Replaces ----- start = 8.8.2015. 12:25:00 stop = 8.8.2015. 13:20:00 title = Hrvatsko vodeno blago
+[  Info  ]       Replaces ----- start = 8.8.2015. 13:20:00 stop = 8.8.2015. 14:20:00 title = Oluja nad olujama
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:51:00 stop = 6.8.2015. 2:34:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:30:00 stop = 6.8.2015. 1:56:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:56:00 stop = 6.8.2015. 2:44:00 title = Na rubu znanosti
+[  Info  ]       show with ---- start = 8.8.2015. 14:19:00 stop = 8.8.2015. 16:09:00 title = Zlatne godine
+[  Info  ]       Replaces ----- start = 8.8.2015. 13:20:00 stop = 8.8.2015. 14:20:00 title = Oluja nad olujama
+[  Info  ]       Replaces ----- start = 8.8.2015. 14:20:00 stop = 8.8.2015. 16:10:00 title = Zlatne godine
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 2:50:00 stop = 6.8.2015. 4:07:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:44:00 stop = 6.8.2015. 3:09:00 title = Mentalni sklop / mentor - sljedbenik: (7/10)
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:09:00 stop = 6.8.2015. 4:07:00 title = Koncert
+[  Info  ]       show with ---- start = 8.8.2015. 16:09:00 stop = 8.8.2015. 17:00:00 title = Živjeti u velegradu
+[  Info  ]       Replaces ----- start = 8.8.2015. 14:20:00 stop = 8.8.2015. 16:10:00 title = Zlatne godine
+[  Info  ]       Replaces ----- start = 8.8.2015. 16:10:00 stop = 8.8.2015. 17:00:00 title = Živjeti u velegradu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 18:55:00 stop = 6.8.2015. 19:59:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 6.8.2015. 18:55:00 stop = 6.8.2015. 20:00:00 title = Vrijeme je za jazz
+[  Info  ]       show with ---- start = 8.8.2015. 17:00:00 stop = 8.8.2015. 18:29:00 title = Detektiv XXL: Crno i bijelo
+[  Info  ]       Replaces ----- start = 8.8.2015. 17:00:00 stop = 8.8.2015. 18:45:00 title = Detektiv XXL: Crno i bijelo
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 19:59:00 stop = 6.8.2015. 21:19:00 title = Veliki trenutak
-[  Info  ]       Replaces ----- start = 6.8.2015. 18:55:00 stop = 6.8.2015. 20:00:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 21:45:00 title = Vlakom prema slavi
+[  Info  ]       show with ---- start = 8.8.2015. 18:29:00 stop = 8.8.2015. 18:45:00 title = Hrvatska kulturna baština
+[  Info  ]       Replaces ----- start = 8.8.2015. 17:00:00 stop = 8.8.2015. 18:45:00 title = Detektiv XXL: Crno i bijelo
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:54:00 stop = 6.8.2015. 22:06:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:45:00 stop = 6.8.2015. 22:05:00 title = Mentalni sklop / mentor - sljedbenik: (8/10)
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:05:00 stop = 6.8.2015. 22:15:00 title = Prekid programa zbog čitanja - Zvonimir Mrkonjić: Knjiga mijena
+[  Info  ]       show with ---- start = 8.8.2015. 21:05:00 stop = 8.8.2015. 22:26:00 title = Nebo sateliti
+[  Info  ]       Replaces ----- start = 8.8.2015. 21:05:00 stop = 8.8.2015. 22:25:00 title = Nebo sateliti
+[  Info  ]       Replaces ----- start = 8.8.2015. 22:25:00 stop = 8.8.2015. 22:35:00 title = Carpe diem
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:06:00 stop = 6.8.2015. 22:35:00 title = Direkt
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:05:00 stop = 6.8.2015. 22:15:00 title = Prekid programa zbog čitanja - Zvonimir Mrkonjić: Knjiga mijena
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:15:00 stop = 6.8.2015. 22:25:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:25:00 stop = 6.8.2015. 22:55:00 title = Direkt
+[  Info  ]       show with ---- start = 8.8.2015. 22:26:00 stop = 8.8.2015. 22:37:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 8.8.2015. 22:25:00 stop = 8.8.2015. 22:35:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 8.8.2015. 22:35:00 stop = 8.8.2015. 23:05:00 title = Generacija Y
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:35:00 stop = 6.8.2015. 23:25:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:25:00 stop = 6.8.2015. 22:55:00 title = Direkt
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:55:00 stop = 6.8.2015. 23:48:00 title = Duhovi
+[  Info  ]       show with ---- start = 8.8.2015. 22:37:00 stop = 8.8.2015. 23:05:00 title = Generacija Y
+[  Info  ]       Replaces ----- start = 8.8.2015. 22:35:00 stop = 8.8.2015. 23:05:00 title = Generacija Y
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:25:00 stop = 7.8.2015. 1:20:00 title = Sestre Marije Magdalene
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:55:00 stop = 6.8.2015. 23:48:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:48:00 stop = 7.8.2015. 1:38:00 title = Ćelija 211
+[  Info  ]       show with ---- start = 8.8.2015. 23:35:00 stop = 9.8.2015. 0:56:00 title = Romska glazba boli
+[  Info  ]       Replaces ----- start = 8.8.2015. 23:35:00 stop = 9.8.2015. 0:55:00 title = Romska glazba boli
+[  Info  ]       Replaces ----- start = 9.8.2015. 0:55:00 stop = 9.8.2015. 1:05:00 title = TV kalendar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:20:00 stop = 7.8.2015. 1:30:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:48:00 stop = 7.8.2015. 1:38:00 title = Ćelija 211
+[  Info  ]       show with ---- start = 9.8.2015. 0:56:00 stop = 9.8.2015. 1:07:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 9.8.2015. 0:55:00 stop = 9.8.2015. 1:05:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 9.8.2015. 1:05:00 stop = 9.8.2015. 2:25:00 title = Stanar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:30:00 stop = 7.8.2015. 1:56:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:48:00 stop = 7.8.2015. 1:38:00 title = Ćelija 211
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:38:00 stop = 7.8.2015. 1:48:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:48:00 stop = 7.8.2015. 2:13:00 title = Zona sumraka
+[  Info  ]       show with ---- start = 9.8.2015. 1:07:00 stop = 9.8.2015. 2:28:00 title = Stanar
+[  Info  ]       Replaces ----- start = 9.8.2015. 1:05:00 stop = 9.8.2015. 2:25:00 title = Stanar
+[  Info  ]       Replaces ----- start = 9.8.2015. 2:25:00 stop = 9.8.2015. 6:30:00 title = Koncert
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:56:00 stop = 7.8.2015. 2:44:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:48:00 stop = 7.8.2015. 2:13:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:13:00 stop = 7.8.2015. 3:04:00 title = Na rubu znanosti
+[  Info  ]       show with ---- start = 9.8.2015. 2:28:00 stop = 9.8.2015. 6:30:00 title = Koncert
+[  Info  ]       Replaces ----- start = 9.8.2015. 2:25:00 stop = 9.8.2015. 6:30:00 title = Koncert
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:09:00 stop = 7.8.2015. 20:00:00 title = Koncert
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:04:00 stop = 7.8.2015. 3:23:00 title = Mentalni sklop / mentor - sljedbenik: (8/10)
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:23:00 stop = 7.8.2015. 4:28:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:28:00 stop = 7.8.2015. 6:50:00 title = Duddy leti visoko
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:50:00 stop = 7.8.2015. 7:15:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:15:00 stop = 7.8.2015. 8:00:00 title = Treći element
-[  Info  ]       Replaces ----- start = 7.8.2015. 8:00:00 stop = 7.8.2015. 8:50:00 title = Bonanza
-[  Info  ]       Replaces ----- start = 7.8.2015. 8:50:00 stop = 7.8.2015. 9:15:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 7.8.2015. 9:15:00 stop = 7.8.2015. 9:45:00 title = Rijeke Hrvatske
-[  Info  ]       Replaces ----- start = 7.8.2015. 9:45:00 stop = 7.8.2015. 11:40:00 title = Proces
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:40:00 stop = 7.8.2015. 12:35:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:35:00 stop = 7.8.2015. 13:25:00 title = Treća povijest
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:25:00 stop = 7.8.2015. 14:10:00 title = Srdačno vaši
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:10:00 stop = 7.8.2015. 15:00:00 title = Perry Mason
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 15:30:00 title = Sedam vrhova
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:30:00 stop = 7.8.2015. 15:55:00 title = Boemska kuhinja Chrisa Saleema
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:55:00 stop = 7.8.2015. 16:15:00 title = Šahovski komentar: Cvitan - Martinović
-[  Info  ]       Replaces ----- start = 7.8.2015. 16:15:00 stop = 7.8.2015. 17:15:00 title = Borgen - sjedište moći
-[  Info  ]       Replaces ----- start = 7.8.2015. 17:15:00 stop = 7.8.2015. 18:00:00 title = Na obalama Irske
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:00:00 stop = 7.8.2015. 18:50:00 title = Bonanza
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:50:00 stop = 7.8.2015. 19:00:00 title = Knjiga ili život
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:00:00 stop = 7.8.2015. 20:00:00 title = Koncert
+[  Info  ]       show with ---- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:50:00 title = Živjeti u velegradu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:55:00 title = Živjeti u velegradu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:45:00 title = Vlakom prema slavi
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:50:00 title = Zlatne godine
+[  Info  ]       show with ---- start = 9.8.2015. 8:50:00 stop = 9.8.2015. 9:35:00 title = Intervju tjedna
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:00:00 stop = 9.8.2015. 8:55:00 title = Živjeti u velegradu
+[  Info  ]       Replaces ----- start = 9.8.2015. 8:55:00 stop = 9.8.2015. 9:35:00 title = Intervju tjedna
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:15:00 stop = 7.8.2015. 22:25:00 title = Strip u Hrvatskoj
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:50:00 stop = 7.8.2015. 22:50:00 title = Ekološke varalice
+[  Info  ]       show with ---- start = 9.8.2015. 9:35:00 stop = 9.8.2015. 10:02:00 title = Kroz tvoje oči
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:35:00 stop = 9.8.2015. 10:00:00 title = Kroz tvoje oči
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:00:00 stop = 9.8.2015. 11:20:00 title = Milijun
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:25:00 stop = 7.8.2015. 22:55:00 title = Direkt
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:50:00 stop = 7.8.2015. 22:50:00 title = Ekološke varalice
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:50:00 stop = 7.8.2015. 23:00:00 title = Carpe diem
+[  Info  ]       show with ---- start = 9.8.2015. 10:02:00 stop = 9.8.2015. 11:20:00 title = Milijun
+[  Info  ]       Replaces ----- start = 9.8.2015. 10:00:00 stop = 9.8.2015. 11:20:00 title = Milijun
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:48:00 title = Duhovi
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:50:00 stop = 7.8.2015. 23:00:00 title = Carpe diem
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:40:00 title = Mučenice
+[  Info  ]       show with ---- start = 9.8.2015. 15:55:00 stop = 9.8.2015. 16:58:00 title = Antologija Dramskog programa: Punom parom
+[  Info  ]       Replaces ----- start = 9.8.2015. 15:55:00 stop = 9.8.2015. 16:57:00 title = Antologija Dramskog programa: Punom parom
+[  Info  ]       Replaces ----- start = 9.8.2015. 16:57:00 stop = 9.8.2015. 17:00:00 title = Iz povijesti Alke: Alkarske žene
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:48:00 stop = 8.8.2015. 1:38:00 title = Ćelija 211
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:40:00 title = Mučenice
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:40:00 stop = 8.8.2015. 0:50:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:45:00 title = Na rubu znanosti
+[  Info  ]       show with ---- start = 9.8.2015. 17:00:00 stop = 9.8.2015. 18:32:00 title = Doc
+[  Info  ]       Replaces ----- start = 9.8.2015. 17:00:00 stop = 9.8.2015. 18:38:00 title = Doc
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:38:00 stop = 8.8.2015. 1:48:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:45:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:45:00 title = Koncert
+[  Info  ]       show with ---- start = 9.8.2015. 18:35:00 stop = 9.8.2015. 18:43:00 title = Knjiga ili život
+[  Info  ]       Replaces ----- start = 9.8.2015. 17:00:00 stop = 9.8.2015. 18:38:00 title = Doc
+[  Info  ]       Replaces ----- start = 9.8.2015. 18:38:00 stop = 9.8.2015. 18:40:00 title = Iz povijesti Alke: Alka u popularnoj kulturi
+[  Info  ]       Replaces ----- start = 9.8.2015. 18:40:00 stop = 9.8.2015. 18:50:00 title = Knjiga ili život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:48:00 stop = 8.8.2015. 2:13:00 title = Zona sumraka
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:45:00 title = Koncert
+[  Info  ]       show with ---- start = 9.8.2015. 18:46:00 stop = 9.8.2015. 19:52:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 9.8.2015. 18:40:00 stop = 9.8.2015. 18:50:00 title = Knjiga ili život
+[  Info  ]       Replaces ----- start = 9.8.2015. 18:50:00 stop = 9.8.2015. 18:52:00 title = Iz povijesti Alke: Alka na filmu
+[  Info  ]       Replaces ----- start = 9.8.2015. 18:52:00 stop = 9.8.2015. 19:57:00 title = Vrijeme je za jazz
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:13:00 stop = 8.8.2015. 3:04:00 title = Na rubu znanosti
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:45:00 title = Koncert
+[  Info  ]       show with ---- start = 9.8.2015. 20:00:00 stop = 9.8.2015. 21:17:00 title = Zvijezda u prašini
+[  Info  ]       Replaces ----- start = 9.8.2015. 20:00:00 stop = 9.8.2015. 21:20:00 title = Zvijezda u prašini
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 22:15:00 stop = 9.8.2015. 23:18:00 title = Večer s Joolsom Hollandom
+[  Info  ]       Replaces ----- start = 9.8.2015. 22:15:00 stop = 9.8.2015. 23:20:00 title = Večer s Joolsom Hollandom
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 23:25:00 stop = 9.8.2015. 23:36:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:25:00 stop = 9.8.2015. 23:35:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:35:00 stop = 9.8.2015. 23:55:00 title = Klasici narodu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 23:36:00 stop = 9.8.2015. 23:57:00 title = Klasici narodu
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:35:00 stop = 9.8.2015. 23:55:00 title = Klasici narodu
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:55:00 stop = 10.8.2015. 1:40:00 title = Tri majmuna
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 9.8.2015. 23:57:00 stop = 10.8.2015. 1:43:00 title = Tri majmuna
+[  Info  ]       Replaces ----- start = 9.8.2015. 23:55:00 stop = 10.8.2015. 1:40:00 title = Tri majmuna
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:40:00 stop = 10.8.2015. 1:50:00 title = TV kalendar
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 1:43:00 stop = 10.8.2015. 1:52:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:40:00 stop = 10.8.2015. 1:50:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:50:00 stop = 10.8.2015. 2:20:00 title = Glazbeni specijal
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 1:52:00 stop = 10.8.2015. 2:22:00 title = Glazbeni specijal
+[  Info  ]       Replaces ----- start = 10.8.2015. 1:50:00 stop = 10.8.2015. 2:20:00 title = Glazbeni specijal
+[  Info  ]       Replaces ----- start = 10.8.2015. 2:20:00 stop = 10.8.2015. 3:25:00 title = Vrijeme je za jazz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 2:22:00 stop = 10.8.2015. 3:30:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 10.8.2015. 2:20:00 stop = 10.8.2015. 3:25:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:25:00 stop = 10.8.2015. 4:45:00 title = Milijun
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 3:30:00 stop = 10.8.2015. 4:50:00 title = Milijun
+[  Info  ]       Replaces ----- start = 10.8.2015. 3:25:00 stop = 10.8.2015. 4:45:00 title = Milijun
+[  Info  ]       Replaces ----- start = 10.8.2015. 4:45:00 stop = 10.8.2015. 6:50:00 title = Ljubavna afera
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 10.8.2015. 4:50:00 stop = 10.8.2015. 6:50:00 title = Ljubavna afera
+[  Info  ]       Replaces ----- start = 10.8.2015. 4:45:00 stop = 10.8.2015. 6:50:00 title = Ljubavna afera
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 4) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:17:00 stop = 4.8.2015. 20:21:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:17:00 stop = 5.8.2015. 4:00:00 title = Vijesti
+[  Info  ]       show with ---- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 12:50:00 title = City Folk
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:25:00 stop = 7.8.2015. 13:00:00 title = City Folk
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:21:00 stop = 4.8.2015. 22:00:00 title = Zagreb: Dan pobjede - 20 godina
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:17:00 stop = 5.8.2015. 4:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 22:00:00 stop = 5.8.2015. 4:00:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:17:00 stop = 5.8.2015. 4:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:00:00 stop = 5.8.2015. 23:00:00 title = Dnevnik 2 - uz znakovni jezik
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:00:00 stop = 5.8.2015. 22:00:00 title = Dnevnik 2 - uz znakovni jezik
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:00:00 stop = 5.8.2015. 22:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:10:00 stop = 5.8.2015. 23:00:00 title = Plivanje - Svjetsko prvenstvo
+[  Info  ]       show with ---- start = 9.8.2015. 9:11:00 stop = 9.8.2015. 9:18:00 title = Vijesti iz kulture
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:11:00 stop = 9.8.2015. 9:15:00 title = Bez komentara
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:15:00 stop = 9.8.2015. 9:16:00 title = Vrijeme RH - danas
+[  Info  ]       Replaces ----- start = 9.8.2015. 9:16:00 stop = 9.8.2015. 9:19:00 title = Bez komentara
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -372,1038 +574,115 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL TELEVIZIJA) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 21:15:00 title = Kolo sreće
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 22:15:00 title = Kolo sreće
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:15:00 stop = 4.8.2015. 22:55:00 title = Shopping kraljica
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 22:15:00 title = Kolo sreće
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:15:00 stop = 4.8.2015. 22:55:00 title = RTL Direkt
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Doma TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 21:30:00 title = Navy CIS
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 22:15:00 title = Navy CIS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:30:00 stop = 4.8.2015. 23:00:00 title = Djevojke na zadatku
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 22:15:00 title = Navy CIS
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:15:00 stop = 4.8.2015. 23:00:00 title = Arrow
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL 2) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 21:35:00 title = CSI: Miami
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 21:55:00 title = CSI: Miami
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:35:00 stop = 4.8.2015. 21:55:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:40:00 stop = 4.8.2015. 21:55:00 title = CSI: Miami
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:55:00 stop = 4.8.2015. 22:35:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:55:00 stop = 4.8.2015. 22:15:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:15:00 stop = 4.8.2015. 22:35:00 title = Kako sam upoznao vašu majku
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Plus) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:55:00 stop = 4.8.2015. 21:50:00 title = Nadreality show
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:55:00 stop = 4.8.2015. 22:30:00 title = Nadreality show
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:50:00 stop = 4.8.2015. 23:15:00 title = Ellen
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:55:00 stop = 4.8.2015. 22:30:00 title = Nadreality show
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:30:00 stop = 4.8.2015. 23:15:00 title = Lovci na nekretnine
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CineStar Action&Thriller) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 19:40:00 stop = 4.8.2015. 20:00:00 title = Priče sa snimanja: Izvan/sebe
-[  Info  ]       Replaces ----- start = 4.8.2015. 19:40:00 stop = 4.8.2015. 22:15:00 title = Priče sa snimanja: Izvan/sebe
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 23:29:00 title = Kockar
-[  Info  ]       Replaces ----- start = 4.8.2015. 19:40:00 stop = 4.8.2015. 22:15:00 title = Priče sa snimanja: Izvan/sebe
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:15:00 stop = 4.8.2015. 23:29:00 title = Camelot
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CineStar TV) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 11:16:00 stop = 7.8.2015. 12:50:00 title = (Miranda)
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:16:00 stop = 7.8.2015. 13:01:00 title = (Miranda)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:50:00 stop = 7.8.2015. 15:01:00 title = Filmske vijesti
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:16:00 stop = 7.8.2015. 13:01:00 title = (Miranda)
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:01:00 stop = 7.8.2015. 15:01:00 title = Dvostruka nevolja
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TV 1000 Balkan) site -- PORT.HR -- mode incremental
-[  Error ] No suitable time structure found to merge the indexpage pages!!
-[  Error ] Unable to update Channel, try again later
-[  Debug ] Unsorted startimes in index page sections:
-[  Debug ] Indexpage section 0
-[  Error ] unable to update channel TV 1000 Balkan
-[  Error ] see log file for details
-[  Error ] Exception.Message: Array index is out of range.
-[  Error ] Exception.StackTrace:   at WebGrab.Scrub.MergeIndex (System.Collections.Generic.Dictionary`2 ShowsPerIndexpage, WebGrab.SiteIni ScrubStrings) [0x00000] in <filename unknown>:0 
-  at WebGrab.Scrub.SplitIndex (System.String index, WebGrab.SiteIni ScrubStrings) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.UpdateChannel (System.String strIndex, WebGrab.ChannelToUpdate Chan, WebGrab.XmlTarget xTarget) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+[  Debug ]    skipped 
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:31:00 stop = 4.8.2015. 20:59:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:31:00 stop = 4.8.2015. 21:54:00 title = Bijes pod kontrolom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:59:00 stop = 5.8.2015. 4:04:00 title = Castle
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:31:00 stop = 4.8.2015. 21:54:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:54:00 stop = 4.8.2015. 22:50:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:50:00 stop = 4.8.2015. 23:39:00 title = Kosti
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:39:00 stop = 5.8.2015. 0:02:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:02:00 stop = 5.8.2015. 0:53:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:53:00 stop = 5.8.2015. 1:41:00 title = Virus
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:41:00 stop = 5.8.2015. 2:29:00 title = Castle
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:29:00 stop = 5.8.2015. 3:15:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:15:00 stop = 5.8.2015. 4:04:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:40:00 stop = 5.8.2015. 22:50:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:40:00 stop = 5.8.2015. 20:05:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:05:00 stop = 5.8.2015. 20:33:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:33:00 stop = 5.8.2015. 20:59:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:59:00 stop = 5.8.2015. 21:55:00 title = Castle
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:55:00 stop = 5.8.2015. 22:50:00 title = Tiranin
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 22:50:00 stop = 5.8.2015. 23:39:00 title = Kosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:50:00 stop = 5.8.2015. 23:44:00 title = Kosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:39:00 stop = 6.8.2015. 0:02:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:50:00 stop = 5.8.2015. 23:44:00 title = Kosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:44:00 stop = 6.8.2015. 0:31:00 title = Živi mrtvaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:02:00 stop = 6.8.2015. 0:53:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:44:00 stop = 6.8.2015. 0:31:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:31:00 stop = 6.8.2015. 0:56:00 title = Obiteljski čovjek
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:53:00 stop = 6.8.2015. 1:41:00 title = Virus
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:31:00 stop = 6.8.2015. 0:56:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:56:00 stop = 6.8.2015. 1:45:00 title = Virus
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:41:00 stop = 6.8.2015. 2:29:00 title = Castle
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:56:00 stop = 6.8.2015. 1:45:00 title = Virus
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:45:00 stop = 6.8.2015. 2:30:00 title = Castle
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 2:29:00 stop = 6.8.2015. 3:15:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:45:00 stop = 6.8.2015. 2:30:00 title = Castle
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:30:00 stop = 6.8.2015. 3:14:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:14:00 stop = 6.8.2015. 4:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:15:00 stop = 6.8.2015. 4:00:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:14:00 stop = 6.8.2015. 4:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:05:00 stop = 6.8.2015. 20:33:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:05:00 stop = 6.8.2015. 20:32:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:32:00 stop = 6.8.2015. 20:57:00 title = Bijes pod kontrolom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:33:00 stop = 6.8.2015. 20:59:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:32:00 stop = 6.8.2015. 20:57:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:57:00 stop = 6.8.2015. 21:49:00 title = Castle
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:59:00 stop = 6.8.2015. 21:55:00 title = Castle
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:57:00 stop = 6.8.2015. 21:49:00 title = Castle
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:49:00 stop = 6.8.2015. 22:15:00 title = Milleri
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:55:00 stop = 6.8.2015. 22:50:00 title = Tiranin
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:49:00 stop = 6.8.2015. 22:15:00 title = Milleri
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:15:00 stop = 6.8.2015. 22:39:00 title = Milleri
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:39:00 stop = 6.8.2015. 23:00:00 title = Moderna obitelj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:50:00 stop = 6.8.2015. 23:44:00 title = Kosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:39:00 stop = 6.8.2015. 23:00:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:00:00 stop = 6.8.2015. 23:50:00 title = Kosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:44:00 stop = 7.8.2015. 0:31:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:00:00 stop = 6.8.2015. 23:50:00 title = Kosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:50:00 stop = 7.8.2015. 0:58:00 title = Živi mrtvaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:31:00 stop = 7.8.2015. 0:56:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:50:00 stop = 7.8.2015. 0:58:00 title = Živi mrtvaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:56:00 stop = 7.8.2015. 1:45:00 title = Virus
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:50:00 stop = 7.8.2015. 0:58:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:58:00 stop = 7.8.2015. 1:45:00 title = Virus
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:45:00 stop = 7.8.2015. 2:30:00 title = Castle
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:45:00 stop = 7.8.2015. 2:27:00 title = Castle
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:27:00 stop = 7.8.2015. 3:29:00 title = Živi mrtvaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:30:00 stop = 7.8.2015. 3:14:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:27:00 stop = 7.8.2015. 3:29:00 title = Živi mrtvaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:14:00 stop = 7.8.2015. 4:11:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:27:00 stop = 7.8.2015. 3:29:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 4:11:00 stop = 7.8.2015. 4:53:00 title = Virus
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 4:53:00 stop = 7.8.2015. 5:15:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 5:15:00 stop = 7.8.2015. 5:38:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 5:38:00 stop = 7.8.2015. 6:00:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 6:00:00 stop = 7.8.2015. 6:25:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 6:25:00 stop = 7.8.2015. 7:10:00 title = Kosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 7:10:00 stop = 7.8.2015. 8:00:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 8:00:00 stop = 7.8.2015. 8:25:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 8:25:00 stop = 7.8.2015. 8:50:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 8:50:00 stop = 7.8.2015. 9:15:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 9:15:00 stop = 7.8.2015. 9:40:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 9:40:00 stop = 7.8.2015. 10:35:00 title = Nečujno
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 10:35:00 stop = 7.8.2015. 11:25:00 title = Kosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 11:25:00 stop = 7.8.2015. 11:55:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 11:55:00 stop = 7.8.2015. 12:20:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:20:00 title = Castle
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:20:00 stop = 7.8.2015. 13:45:00 title = Milleri
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 13:45:00 stop = 7.8.2015. 14:15:00 title = Milleri
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:15:00 stop = 7.8.2015. 14:40:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:40:00 stop = 7.8.2015. 15:10:00 title = Futurama
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:10:00 stop = 7.8.2015. 16:05:00 title = Castle
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 16:05:00 stop = 7.8.2015. 17:05:00 title = Nečujno
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 17:05:00 stop = 7.8.2015. 18:00:00 title = Kosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 18:00:00 stop = 7.8.2015. 18:30:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 18:30:00 stop = 7.8.2015. 19:00:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:00:00 stop = 7.8.2015. 19:30:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:30:00 stop = 7.8.2015. 20:05:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:29:00 stop = 7.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Bijes pod kontrolom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:05:00 stop = 7.8.2015. 20:32:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:30:00 stop = 7.8.2015. 20:55:00 title = Bijes pod kontrolom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:32:00 stop = 7.8.2015. 20:57:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:30:00 stop = 7.8.2015. 20:55:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:55:00 stop = 7.8.2015. 22:31:00 title = Kći moga šefa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:57:00 stop = 7.8.2015. 21:49:00 title = Castle
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:55:00 stop = 7.8.2015. 22:31:00 title = Kći moga šefa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:49:00 stop = 7.8.2015. 22:15:00 title = Milleri
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:55:00 stop = 7.8.2015. 22:31:00 title = Kći moga šefa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:15:00 stop = 7.8.2015. 22:39:00 title = Milleri
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:55:00 stop = 7.8.2015. 22:31:00 title = Kći moga šefa
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:31:00 stop = 7.8.2015. 22:55:00 title = Moderna obitelj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:39:00 stop = 7.8.2015. 23:00:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:31:00 stop = 7.8.2015. 22:55:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:50:00 title = Kosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:00:00 stop = 7.8.2015. 23:50:00 title = Kosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:55:00 stop = 7.8.2015. 23:50:00 title = Kosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:50:00 stop = 8.8.2015. 0:58:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:50:00 stop = 8.8.2015. 0:50:00 title = Sanjiva dolina
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:50:00 title = Virus
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:58:00 stop = 8.8.2015. 1:45:00 title = Virus
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:50:00 title = Virus
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:27:00 title = Castle
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:50:00 title = Virus
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:50:00 stop = 8.8.2015. 2:35:00 title = Castle
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:27:00 stop = 8.8.2015. 3:29:00 title = Živi mrtvaci
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:50:00 stop = 8.8.2015. 2:35:00 title = Castle
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:35:00 stop = 8.8.2015. 3:20:00 title = Sanjiva dolina
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:20:00 stop = 8.8.2015. 4:11:00 title = Dosjei X
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 3:29:00 stop = 8.8.2015. 20:00:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:20:00 stop = 8.8.2015. 4:11:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 8.8.2015. 4:11:00 stop = 8.8.2015. 4:53:00 title = Virus
-[  Info  ]       Replaces ----- start = 8.8.2015. 4:53:00 stop = 8.8.2015. 5:15:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 8.8.2015. 5:15:00 stop = 8.8.2015. 5:38:00 title = Obiteljski čovjek
-[  Info  ]       Replaces ----- start = 8.8.2015. 5:38:00 stop = 8.8.2015. 6:00:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 8.8.2015. 6:00:00 stop = 8.8.2015. 6:25:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 8.8.2015. 6:25:00 stop = 8.8.2015. 7:10:00 title = Kosti
-[  Info  ]       Replaces ----- start = 8.8.2015. 7:10:00 stop = 8.8.2015. 8:00:00 title = Dosjei X
-[  Info  ]       Replaces ----- start = 8.8.2015. 8:00:00 stop = 8.8.2015. 8:25:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 8.8.2015. 8:25:00 stop = 8.8.2015. 8:50:00 title = Malcolm u sredini
-[  Info  ]       Replaces ----- start = 8.8.2015. 8:50:00 stop = 8.8.2015. 9:15:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 8.8.2015. 9:15:00 stop = 8.8.2015. 9:40:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 8.8.2015. 9:40:00 stop = 8.8.2015. 10:35:00 title = Nečujno
-[  Info  ]       Replaces ----- start = 8.8.2015. 10:35:00 stop = 8.8.2015. 11:25:00 title = Kosti
-[  Info  ]       Replaces ----- start = 8.8.2015. 11:25:00 stop = 8.8.2015. 11:55:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 8.8.2015. 11:55:00 stop = 8.8.2015. 12:20:00 title = Bijes pod kontrolom
-[  Info  ]       Replaces ----- start = 8.8.2015. 12:20:00 stop = 8.8.2015. 13:20:00 title = Castle
-[  Info  ]       Replaces ----- start = 8.8.2015. 13:20:00 stop = 8.8.2015. 13:45:00 title = Milleri
-[  Info  ]       Replaces ----- start = 8.8.2015. 13:45:00 stop = 8.8.2015. 14:15:00 title = Milleri
-[  Info  ]       Replaces ----- start = 8.8.2015. 14:15:00 stop = 8.8.2015. 14:40:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 8.8.2015. 14:40:00 stop = 8.8.2015. 15:10:00 title = Futurama
-[  Info  ]       Replaces ----- start = 8.8.2015. 15:10:00 stop = 8.8.2015. 16:05:00 title = Castle
-[  Info  ]       Replaces ----- start = 8.8.2015. 16:05:00 stop = 8.8.2015. 17:05:00 title = Nečujno
-[  Info  ]       Replaces ----- start = 8.8.2015. 17:05:00 stop = 8.8.2015. 18:00:00 title = Kosti
-[  Info  ]       Replaces ----- start = 8.8.2015. 18:00:00 stop = 8.8.2015. 18:30:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 8.8.2015. 18:30:00 stop = 8.8.2015. 19:00:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 8.8.2015. 19:00:00 stop = 8.8.2015. 19:30:00 title = Simpsoni
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox Life) site -- PORT.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 11:29:00 stop = 7.8.2015. 12:21:00 title = Wonderland
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:29:00 stop = 7.8.2015. 13:11:00 title = Wonderland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 12:21:00 stop = 7.8.2015. 13:32:00 title = Žeđ za životom
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:29:00 stop = 7.8.2015. 13:11:00 title = Wonderland
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:11:00 stop = 7.8.2015. 13:32:00 title = Pravila igre
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Universal Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 21:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 22:20:00 title = Cura na tajnom zadatku
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:20:00 stop = 5.8.2015. 4:15:00 title = Plavci novaci
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:20:00 stop = 4.8.2015. 22:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:20:00 stop = 4.8.2015. 23:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:20:00 stop = 5.8.2015. 0:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:20:00 stop = 5.8.2015. 2:20:00 title = Araknopotres
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:20:00 stop = 5.8.2015. 3:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:20:00 stop = 5.8.2015. 4:15:00 title = Dobra žena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:20:00 stop = 5.8.2015. 23:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:20:00 stop = 5.8.2015. 20:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:20:00 stop = 5.8.2015. 21:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:20:00 stop = 5.8.2015. 23:20:00 title = Napad troglave psine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:20:00 stop = 6.8.2015. 0:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:20:00 stop = 6.8.2015. 0:20:00 title = Plavci novaci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:20:00 stop = 6.8.2015. 2:20:00 title = Araknopotres
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:20:00 stop = 6.8.2015. 2:20:00 title = Vampirska nacija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:20:00 stop = 6.8.2015. 20:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:20:00 stop = 6.8.2015. 4:15:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 6.8.2015. 4:15:00 stop = 6.8.2015. 5:10:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 6.8.2015. 5:10:00 stop = 6.8.2015. 6:20:00 title = Haven
-[  Info  ]       Replaces ----- start = 6.8.2015. 6:20:00 stop = 6.8.2015. 7:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 6.8.2015. 7:20:00 stop = 6.8.2015. 8:20:00 title = Haven
-[  Info  ]       Replaces ----- start = 6.8.2015. 8:20:00 stop = 6.8.2015. 9:20:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 6.8.2015. 9:20:00 stop = 6.8.2015. 10:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 6.8.2015. 10:20:00 stop = 6.8.2015. 12:20:00 title = Bigfoot
-[  Info  ]       Replaces ----- start = 6.8.2015. 12:20:00 stop = 6.8.2015. 13:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 6.8.2015. 13:20:00 stop = 6.8.2015. 14:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 6.8.2015. 14:20:00 stop = 6.8.2015. 15:20:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 6.8.2015. 15:20:00 stop = 6.8.2015. 16:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 6.8.2015. 16:20:00 stop = 6.8.2015. 18:20:00 title = Beethoven
-[  Info  ]       Replaces ----- start = 6.8.2015. 18:20:00 stop = 6.8.2015. 19:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 6.8.2015. 19:20:00 stop = 6.8.2015. 20:20:00 title = Doyleova republika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:20:00 stop = 6.8.2015. 23:20:00 title = Napad troglave psine
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:20:00 stop = 6.8.2015. 23:20:00 title = Thor: Božji malj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:20:00 stop = 7.8.2015. 0:20:00 title = Plavci novaci
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:20:00 stop = 7.8.2015. 0:20:00 title = Hawaii Five-0
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:20:00 stop = 7.8.2015. 2:20:00 title = Vampirska nacija
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:20:00 stop = 7.8.2015. 1:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:20:00 stop = 7.8.2015. 3:20:00 title = Slavljenica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:20:00 stop = 7.8.2015. 3:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:20:00 stop = 7.8.2015. 3:20:00 title = Slavljenica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:20:00 stop = 7.8.2015. 20:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:20:00 stop = 7.8.2015. 4:15:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:15:00 stop = 7.8.2015. 5:10:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 7.8.2015. 5:10:00 stop = 7.8.2015. 6:20:00 title = Haven
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:20:00 stop = 7.8.2015. 7:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:20:00 stop = 7.8.2015. 8:20:00 title = Haven
-[  Info  ]       Replaces ----- start = 7.8.2015. 8:20:00 stop = 7.8.2015. 9:20:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 7.8.2015. 9:20:00 stop = 7.8.2015. 10:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 7.8.2015. 10:20:00 stop = 7.8.2015. 12:20:00 title = Beethoven
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:20:00 stop = 7.8.2015. 13:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:20:00 stop = 7.8.2015. 14:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:20:00 stop = 7.8.2015. 15:20:00 title = Rođeni policajci
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:20:00 stop = 7.8.2015. 16:20:00 title = Dobra žena
-[  Info  ]       Replaces ----- start = 7.8.2015. 16:20:00 stop = 7.8.2015. 18:20:00 title = Bowfinger - kralj Hollywooda
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:20:00 stop = 7.8.2015. 19:20:00 title = Dijagnoza zločina
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:20:00 stop = 7.8.2015. 20:20:00 title = Doyleova republika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:20:00 stop = 7.8.2015. 21:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:20:00 stop = 7.8.2015. 21:20:00 title = Doyleova republika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:20:00 stop = 7.8.2015. 23:20:00 title = Thor: Božji malj
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:20:00 stop = 7.8.2015. 22:20:00 title = Doyleova republika
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:20:00 stop = 7.8.2015. 23:20:00 title = Doyleova republika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:20:00 stop = 8.8.2015. 0:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:20:00 stop = 8.8.2015. 1:20:00 title = Thor: Božji malj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:20:00 stop = 8.8.2015. 1:20:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:20:00 stop = 8.8.2015. 1:20:00 title = Thor: Božji malj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:20:00 stop = 8.8.2015. 3:20:00 title = Slavljenica
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:20:00 stop = 8.8.2015. 3:20:00 title = Vampirska nacija
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Discovery Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 21:00:00 title = Viski iz Apalačije
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 22:00:00 title = Viski iz Apalačije
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:00:00 stop = 5.8.2015. 4:20:00 title = Amiška mafija
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 22:00:00 title = Viski iz Apalačije
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:00:00 stop = 4.8.2015. 23:00:00 title = Ljudi iz aljaške divljine
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:00:00 stop = 5.8.2015. 0:00:00 title = Debeli i žestoki: Kad zagrme motori
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:00:00 stop = 5.8.2015. 0:55:00 title = Odmetnici s ulice
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:55:00 stop = 5.8.2015. 1:50:00 title = Trenutci užasa
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:50:00 stop = 5.8.2015. 2:40:00 title = Viski iz Apalačije
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:40:00 stop = 5.8.2015. 3:30:00 title = Amiška mafija
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:30:00 stop = 5.8.2015. 4:20:00 title = Ljudi iz aljaške divljine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:30:00 stop = 5.8.2015. 23:00:00 title = Kako se proizvode...
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:30:00 stop = 5.8.2015. 20:00:00 title = Kako se proizvode...
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:00:00 stop = 5.8.2015. 21:00:00 title = Golemi divovski mačevi
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:00:00 stop = 5.8.2015. 22:00:00 title = Luđački bazeni
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:00:00 stop = 5.8.2015. 23:00:00 title = Kralj bazena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:00:00 stop = 6.8.2015. 0:00:00 title = Debeli i žestoki: Kad zagrme motori
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:00:00 stop = 6.8.2015. 0:00:00 title = Zlato Beringova mora
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:00:00 stop = 6.8.2015. 0:55:00 title = Odmetnici s ulice
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:00:00 stop = 6.8.2015. 0:55:00 title = Aljaska: Krajnja granica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:55:00 stop = 6.8.2015. 1:50:00 title = Trenutci užasa
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:55:00 stop = 6.8.2015. 1:50:00 title = Živi smo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:50:00 stop = 6.8.2015. 2:40:00 title = Viski iz Apalačije
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:50:00 stop = 6.8.2015. 2:40:00 title = Golemi divovski mačevi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 2:40:00 stop = 6.8.2015. 3:30:00 title = Amiška mafija
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:40:00 stop = 6.8.2015. 3:30:00 title = Luđački bazeni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:30:00 stop = 6.8.2015. 4:20:00 title = Ljudi iz aljaške divljine
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:30:00 stop = 6.8.2015. 4:20:00 title = Kralj bazena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 21:00:00 title = Golemi divovski mačevi
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:30:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:30:00 stop = 6.8.2015. 21:00:00 title = (Storage Hunters UK)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:00:00 stop = 6.8.2015. 22:00:00 title = Luđački bazeni
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:00:00 stop = 6.8.2015. 21:30:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:30:00 stop = 6.8.2015. 22:00:00 title = Lovci na dražbe
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:00:00 stop = 6.8.2015. 23:00:00 title = Kralj bazena
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:00:00 stop = 6.8.2015. 23:00:00 title = Zbog ljubavi prema automobilima
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:00:00 stop = 7.8.2015. 0:00:00 title = Zlato Beringova mora
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:00:00 stop = 7.8.2015. 0:00:00 title = Nestašna garaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:00:00 stop = 7.8.2015. 0:55:00 title = Aljaska: Krajnja granica
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:00:00 stop = 7.8.2015. 0:55:00 title = Trgovci automobilima
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:55:00 stop = 7.8.2015. 1:50:00 title = Živi smo
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:55:00 stop = 7.8.2015. 1:50:00 title = Trgovci automobilima
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:50:00 stop = 7.8.2015. 2:40:00 title = Golemi divovski mačevi
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:50:00 stop = 7.8.2015. 2:15:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:15:00 stop = 7.8.2015. 2:40:00 title = (Storage Hunters UK)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:40:00 stop = 7.8.2015. 3:30:00 title = Luđački bazeni
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:40:00 stop = 7.8.2015. 3:05:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:05:00 stop = 7.8.2015. 3:30:00 title = Lovci na dražbe
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:30:00 stop = 7.8.2015. 4:20:00 title = Kralj bazena
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:30:00 stop = 7.8.2015. 4:20:00 title = Zbog ljubavi prema automobilima
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Čarolija znanosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:30:00 stop = 7.8.2015. 21:00:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:30:00 stop = 7.8.2015. 21:00:00 title = Čarolija znanosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 21:30:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 22:00:00 title = Pazi! Eksplozija!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:30:00 stop = 7.8.2015. 22:00:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 22:00:00 title = Pazi! Eksplozija!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:00:00 stop = 7.8.2015. 23:00:00 title = Zbog ljubavi prema automobilima
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:00:00 stop = 7.8.2015. 22:30:00 title = Kad nas automobili ne slušaju
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:30:00 stop = 7.8.2015. 23:00:00 title = Kad nas automobili ne slušaju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:00:00 title = Nestašna garaža
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:00:00 title = Najgori svjetski...
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:00:00 stop = 8.8.2015. 0:55:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:00:00 stop = 8.8.2015. 0:55:00 title = Upozorili smo vas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:55:00 stop = 8.8.2015. 1:50:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:55:00 stop = 8.8.2015. 1:50:00 title = Divljanje!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:50:00 stop = 8.8.2015. 2:15:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:50:00 stop = 8.8.2015. 2:15:00 title = Čarolija znanosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:15:00 stop = 8.8.2015. 2:40:00 title = (Storage Hunters UK)
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:15:00 stop = 8.8.2015. 2:40:00 title = Čarolija znanosti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:40:00 stop = 8.8.2015. 3:05:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:40:00 stop = 8.8.2015. 3:30:00 title = Pazi! Eksplozija!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 3:05:00 stop = 8.8.2015. 3:30:00 title = Lovci na dražbe
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:40:00 stop = 8.8.2015. 3:30:00 title = Pazi! Eksplozija!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 3:30:00 stop = 8.8.2015. 20:00:00 title = Zbog ljubavi prema automobilima
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:30:00 stop = 8.8.2015. 3:55:00 title = Kad nas automobili ne slušaju
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 21:05:00 title = Spas u zabiti
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 21:59:00 title = Spas u zabiti
+[  Info  ]       show with ---- start = 7.8.2015. 11:06:00 stop = 7.8.2015. 11:58:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:06:00 stop = 7.8.2015. 13:05:00 title = Istrage zrakoplovnih nesreća
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:05:00 stop = 5.8.2015. 4:09:00 title = Nadzor
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 21:59:00 title = Spas u zabiti
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:59:00 stop = 4.8.2015. 22:55:00 title = Spas u zabiti
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:55:00 stop = 4.8.2015. 23:50:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:50:00 stop = 5.8.2015. 0:38:00 title = Nadzor
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:38:00 stop = 5.8.2015. 1:02:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:02:00 stop = 5.8.2015. 1:52:00 title = Spas u zabiti
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:52:00 stop = 5.8.2015. 2:41:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:41:00 stop = 5.8.2015. 3:04:00 title = Znanost glupog
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:04:00 stop = 5.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:25:00 stop = 5.8.2015. 3:48:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:48:00 stop = 5.8.2015. 4:09:00 title = Ulični genij
+[  Info  ]       show with ---- start = 7.8.2015. 11:58:00 stop = 7.8.2015. 13:29:00 title = Aerodrom u Dubaiju
+[  Info  ]       Replaces ----- start = 7.8.2015. 11:06:00 stop = 7.8.2015. 13:05:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:05:00 stop = 7.8.2015. 13:29:00 title = Hakiranje sustava
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:30:00 stop = 5.8.2015. 22:55:00 title = Šira slika s Kalom Pennom
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:30:00 stop = 5.8.2015. 20:05:00 title = Šira slika s Kalom Pennom
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:05:00 stop = 5.8.2015. 20:30:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:30:00 stop = 5.8.2015. 21:00:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:00:00 stop = 5.8.2015. 22:05:00 title = Susret s Plutonom
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:05:00 stop = 5.8.2015. 22:30:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:30:00 stop = 5.8.2015. 23:00:00 title = Dešifriranje opasnosti
+[  Info  ]       show with ---- start = 10.8.2015. 22:55:00 stop = 10.8.2015. 23:57:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 10.8.2015. 22:55:00 stop = 11.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 22:55:00 stop = 5.8.2015. 23:50:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:30:00 stop = 5.8.2015. 23:00:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:00:00 stop = 6.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       show with ---- start = 10.8.2015. 23:57:00 stop = 11.8.2015. 0:49:00 title = Opaka tuna
+[  Info  ]       Replaces ----- start = 10.8.2015. 22:55:00 stop = 11.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 11.8.2015. 0:00:00 stop = 11.8.2015. 0:50:00 title = Opaka tuna
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:50:00 stop = 6.8.2015. 0:38:00 title = Nadzor
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:00:00 stop = 6.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:00:00 stop = 6.8.2015. 0:50:00 title = Susret s Plutonom
+[  Info  ]       show with ---- start = 11.8.2015. 0:49:00 stop = 11.8.2015. 1:47:00 title = Zlato iz hladnih mora
+[  Info  ]       Replaces ----- start = 11.8.2015. 0:00:00 stop = 11.8.2015. 0:50:00 title = Opaka tuna
+[  Info  ]       Replaces ----- start = 11.8.2015. 0:50:00 stop = 11.8.2015. 1:45:00 title = Zlato iz hladnih mora
+[  Info  ]       Replaces ----- start = 11.8.2015. 1:45:00 stop = 11.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:38:00 stop = 6.8.2015. 1:02:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:00:00 stop = 6.8.2015. 0:50:00 title = Susret s Plutonom
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:50:00 stop = 6.8.2015. 1:20:00 title = Dešifriranje opasnosti
+[  Info  ]       show with ---- start = 11.8.2015. 1:47:00 stop = 11.8.2015. 2:41:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 11.8.2015. 1:45:00 stop = 11.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 11.8.2015. 2:25:00 stop = 11.8.2015. 2:40:00 title = Najnevjerojatnije fotografije National Geographica
+[  Info  ]       Replaces ----- start = 11.8.2015. 2:40:00 stop = 11.8.2015. 3:00:00 title = Hakiranje sustava
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:02:00 stop = 6.8.2015. 1:52:00 title = Spas u zabiti
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:50:00 stop = 6.8.2015. 1:20:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:20:00 stop = 6.8.2015. 1:45:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:45:00 stop = 6.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       show with ---- start = 11.8.2015. 2:41:00 stop = 11.8.2015. 3:03:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 11.8.2015. 2:40:00 stop = 11.8.2015. 3:00:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 11.8.2015. 3:00:00 stop = 11.8.2015. 3:25:00 title = Hakiranje sustava
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:52:00 stop = 6.8.2015. 2:41:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:45:00 stop = 6.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:25:00 stop = 6.8.2015. 2:40:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:40:00 stop = 6.8.2015. 3:00:00 title = Hakiranje sustava
+[  Info  ]       show with ---- start = 11.8.2015. 3:03:00 stop = 11.8.2015. 3:25:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 11.8.2015. 3:00:00 stop = 11.8.2015. 3:25:00 title = Hakiranje sustava
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 2:41:00 stop = 6.8.2015. 3:04:00 title = Znanost glupog
-[  Info  ]       Replaces ----- start = 6.8.2015. 2:40:00 stop = 6.8.2015. 3:00:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:00:00 stop = 6.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:04:00 stop = 6.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:00:00 stop = 6.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:25:00 stop = 6.8.2015. 3:48:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:25:00 stop = 6.8.2015. 3:45:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:45:00 stop = 6.8.2015. 4:10:00 title = Ulični genij
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:48:00 stop = 6.8.2015. 20:05:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:45:00 stop = 6.8.2015. 4:10:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 4:10:00 stop = 6.8.2015. 4:30:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 4:30:00 stop = 6.8.2015. 4:55:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 4:55:00 stop = 6.8.2015. 5:15:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 6.8.2015. 5:15:00 stop = 6.8.2015. 5:35:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 5:35:00 stop = 6.8.2015. 6:00:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 6.8.2015. 6:00:00 stop = 6.8.2015. 6:22:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 6:22:00 stop = 6.8.2015. 6:45:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 6.8.2015. 6:45:00 stop = 6.8.2015. 7:08:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 6.8.2015. 7:08:00 stop = 6.8.2015. 7:55:00 title = Prljavo bogatstvo
-[  Info  ]       Replaces ----- start = 6.8.2015. 7:55:00 stop = 6.8.2015. 8:55:00 title = Prljavo bogatstvo
-[  Info  ]       Replaces ----- start = 6.8.2015. 8:55:00 stop = 6.8.2015. 9:45:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 6.8.2015. 9:45:00 stop = 6.8.2015. 10:40:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 6.8.2015. 10:40:00 stop = 6.8.2015. 11:06:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 6.8.2015. 11:06:00 stop = 6.8.2015. 12:01:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 6.8.2015. 12:01:00 stop = 6.8.2015. 13:06:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 6.8.2015. 13:06:00 stop = 6.8.2015. 13:31:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 13:31:00 stop = 6.8.2015. 14:03:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 6.8.2015. 14:03:00 stop = 6.8.2015. 14:28:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 14:28:00 stop = 6.8.2015. 14:53:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 14:53:00 stop = 6.8.2015. 15:16:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 6.8.2015. 15:16:00 stop = 6.8.2015. 16:09:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 6.8.2015. 16:09:00 stop = 6.8.2015. 17:05:00 title = Auto SOS
-[  Info  ]       Replaces ----- start = 6.8.2015. 17:05:00 stop = 6.8.2015. 18:02:00 title = Auto SOS
-[  Info  ]       Replaces ----- start = 6.8.2015. 18:02:00 stop = 6.8.2015. 19:05:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 6.8.2015. 19:05:00 stop = 6.8.2015. 20:02:00 title = Zatočeni u inozemstvu
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:02:00 stop = 6.8.2015. 21:00:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:05:00 stop = 6.8.2015. 20:30:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:02:00 stop = 6.8.2015. 21:00:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:30:00 stop = 6.8.2015. 21:00:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:02:00 stop = 6.8.2015. 21:00:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:00:00 stop = 6.8.2015. 22:05:00 title = Susret s Plutonom
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:00:00 stop = 6.8.2015. 21:57:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:57:00 stop = 6.8.2015. 22:54:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:05:00 stop = 6.8.2015. 22:30:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:57:00 stop = 6.8.2015. 22:54:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 22:30:00 stop = 6.8.2015. 23:00:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:57:00 stop = 6.8.2015. 22:54:00 title = Droge
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:54:00 stop = 6.8.2015. 23:55:00 title = Autocesta kroz pakao: SAD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:00:00 stop = 7.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 6.8.2015. 22:54:00 stop = 6.8.2015. 23:55:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:55:00 stop = 7.8.2015. 0:49:00 title = Aerodrom u Dubaiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:00:00 stop = 7.8.2015. 0:50:00 title = Susret s Plutonom
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:55:00 stop = 7.8.2015. 0:49:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:49:00 stop = 7.8.2015. 1:46:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:50:00 stop = 7.8.2015. 1:20:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:49:00 stop = 7.8.2015. 1:46:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:20:00 stop = 7.8.2015. 1:45:00 title = Dešifriranje opasnosti
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:49:00 stop = 7.8.2015. 1:46:00 title = Droge
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:45:00 stop = 7.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:49:00 stop = 7.8.2015. 1:46:00 title = Droge
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:46:00 stop = 7.8.2015. 2:42:00 title = Autocesta kroz pakao: SAD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:25:00 stop = 7.8.2015. 2:40:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:46:00 stop = 7.8.2015. 2:42:00 title = Autocesta kroz pakao: SAD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:40:00 stop = 7.8.2015. 3:00:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:46:00 stop = 7.8.2015. 2:42:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:42:00 stop = 7.8.2015. 3:04:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:00:00 stop = 7.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:42:00 stop = 7.8.2015. 3:04:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:04:00 stop = 7.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:25:00 stop = 7.8.2015. 3:45:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:25:00 stop = 7.8.2015. 3:48:00 title = Brain Games
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:45:00 stop = 7.8.2015. 20:02:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:25:00 stop = 7.8.2015. 3:48:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:48:00 stop = 7.8.2015. 4:09:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:09:00 stop = 7.8.2015. 4:31:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:31:00 stop = 7.8.2015. 4:53:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:53:00 stop = 7.8.2015. 5:15:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 7.8.2015. 5:15:00 stop = 7.8.2015. 5:37:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 5:37:00 stop = 7.8.2015. 6:00:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:00:00 stop = 7.8.2015. 6:20:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:20:00 stop = 7.8.2015. 6:45:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:45:00 stop = 7.8.2015. 7:05:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:05:00 stop = 7.8.2015. 7:55:00 title = Prljavo bogatstvo
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:55:00 stop = 7.8.2015. 8:50:00 title = Prljavo bogatstvo
-[  Info  ]       Replaces ----- start = 7.8.2015. 8:50:00 stop = 7.8.2015. 9:45:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 7.8.2015. 9:45:00 stop = 7.8.2015. 10:40:00 title = Zlato iz hladnih mora
-[  Info  ]       Replaces ----- start = 7.8.2015. 10:40:00 stop = 7.8.2015. 11:05:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:05:00 stop = 7.8.2015. 12:00:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:00:00 stop = 7.8.2015. 13:05:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:05:00 stop = 7.8.2015. 13:30:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:30:00 stop = 7.8.2015. 14:05:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:05:00 stop = 7.8.2015. 14:30:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:30:00 stop = 7.8.2015. 15:00:00 title = Ulični genij
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:00:00 stop = 7.8.2015. 16:00:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 7.8.2015. 16:00:00 stop = 7.8.2015. 17:00:00 title = Auto SOS
-[  Info  ]       Replaces ----- start = 7.8.2015. 17:00:00 stop = 7.8.2015. 18:00:00 title = Auto SOS
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:00:00 stop = 7.8.2015. 19:00:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:00:00 stop = 7.8.2015. 20:00:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:00:00 title = Zlato iz hladnih mora
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:02:00 stop = 7.8.2015. 21:00:00 title = Droge
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:00:00 title = Zlato iz hladnih mora
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 21:57:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 22:00:00 title = Brvnarska groznica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:57:00 stop = 7.8.2015. 22:54:00 title = Droge
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 22:00:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:00:00 stop = 7.8.2015. 23:00:00 title = Zlato iz hladnih mora
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:54:00 stop = 7.8.2015. 23:55:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:00:00 stop = 7.8.2015. 23:00:00 title = Zlato iz hladnih mora
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:55:00 stop = 8.8.2015. 0:49:00 title = Aerodrom u Dubaiju
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:00:00 stop = 8.8.2015. 0:00:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:00:00 stop = 8.8.2015. 0:50:00 title = Brvnarska groznica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 0:49:00 stop = 8.8.2015. 1:46:00 title = Droge
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:00:00 stop = 8.8.2015. 0:50:00 title = Brvnarska groznica
-[  Info  ]       Replaces ----- start = 8.8.2015. 0:50:00 stop = 8.8.2015. 1:45:00 title = Zlato iz hladnih mora
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 1:46:00 stop = 8.8.2015. 2:42:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 8.8.2015. 1:45:00 stop = 8.8.2015. 2:25:00 title = Autocesta kroz pakao: SAD
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:25:00 stop = 8.8.2015. 2:40:00 title = Najnevjerojatnije fotografije National Geographica
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:40:00 stop = 8.8.2015. 3:00:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:42:00 stop = 8.8.2015. 3:04:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:40:00 stop = 8.8.2015. 3:00:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:00:00 stop = 8.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 3:04:00 stop = 8.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:00:00 stop = 8.8.2015. 3:25:00 title = Hakiranje sustava
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 3:25:00 stop = 8.8.2015. 3:48:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 8.8.2015. 3:25:00 stop = 8.8.2015. 3:45:00 title = Brain Games
+[  Info  ]       show with ---- start = 11.8.2015. 3:25:00 stop = 11.8.2015. 3:47:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 11.8.2015. 3:25:00 stop = 11.8.2015. 3:45:00 title = Brain Games
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Viasat History) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 21:00:00 title = Skrivena povijest: zaboravljene fotografije 1. svjetskoga rata
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 22:00:00 title = Skrivena povijest: zaboravljene fotografije 1. svjetskoga rata
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:00:00 stop = 5.8.2015. 4:00:00 title = Dugotrajna sjena
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:00:00 stop = 4.8.2015. 22:00:00 title = Skrivena povijest: zaboravljene fotografije 1. svjetskoga rata
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:00:00 stop = 4.8.2015. 23:00:00 title = Povijest kršćanstva
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:00:00 stop = 4.8.2015. 23:55:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 4.8.2015. 23:55:00 stop = 5.8.2015. 0:40:00 title = Istražitelji zrakoplovnih nesreća 2. svjetskoga rata
-[  Info  ]       Replaces ----- start = 5.8.2015. 0:40:00 stop = 5.8.2015. 1:35:00 title = Istrebljenje - Uništenje europskih Židova
-[  Info  ]       Replaces ----- start = 5.8.2015. 1:35:00 stop = 5.8.2015. 2:25:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 5.8.2015. 2:25:00 stop = 5.8.2015. 3:15:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 5.8.2015. 3:15:00 stop = 5.8.2015. 4:00:00 title = Muzejske tajne
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:05:00 stop = 5.8.2015. 23:00:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:05:00 stop = 5.8.2015. 20:00:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:00:00 stop = 5.8.2015. 20:55:00 title = Misija X
-[  Info  ]       Replaces ----- start = 5.8.2015. 20:55:00 stop = 5.8.2015. 21:50:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 5.8.2015. 21:50:00 stop = 5.8.2015. 22:40:00 title = Najkrvavija britanska dinastija
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:40:00 stop = 5.8.2015. 23:35:00 title = Lovci na mitove
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:00:00 stop = 5.8.2015. 23:55:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:40:00 stop = 5.8.2015. 23:35:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:35:00 stop = 6.8.2015. 0:30:00 title = Borački klub: povijest nasilja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 23:55:00 stop = 6.8.2015. 0:40:00 title = Istražitelji zrakoplovnih nesreća 2. svjetskoga rata
-[  Info  ]       Replaces ----- start = 5.8.2015. 23:35:00 stop = 6.8.2015. 0:30:00 title = Borački klub: povijest nasilja
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:30:00 stop = 6.8.2015. 1:30:00 title = Istrebljenje - Uništenje europskih Židova
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 0:40:00 stop = 6.8.2015. 1:35:00 title = Istrebljenje - Uništenje europskih Židova
-[  Info  ]       Replaces ----- start = 6.8.2015. 0:30:00 stop = 6.8.2015. 1:30:00 title = Istrebljenje - Uništenje europskih Židova
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:30:00 stop = 6.8.2015. 2:25:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 1:35:00 stop = 6.8.2015. 2:25:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 6.8.2015. 1:30:00 stop = 6.8.2015. 2:25:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 3:15:00 stop = 6.8.2015. 20:00:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 6.8.2015. 3:15:00 stop = 6.8.2015. 4:05:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 6.8.2015. 4:05:00 stop = 6.8.2015. 5:10:00 title = Tajne dvorca
-[  Info  ]       Replaces ----- start = 6.8.2015. 5:10:00 stop = 6.8.2015. 6:00:00 title = Najkrvavija britanska dinastija
-[  Info  ]       Replaces ----- start = 6.8.2015. 6:00:00 stop = 6.8.2015. 7:00:00 title = Od istoka do zapada: Putovanja od središta Zemlje
-[  Info  ]       Replaces ----- start = 6.8.2015. 7:00:00 stop = 6.8.2015. 7:50:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 6.8.2015. 7:50:00 stop = 6.8.2015. 8:45:00 title = Tihi rat: podmorske bitke
-[  Info  ]       Replaces ----- start = 6.8.2015. 8:45:00 stop = 6.8.2015. 9:40:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 6.8.2015. 9:40:00 stop = 6.8.2015. 10:05:00 title = Vrijeme koje je promijenilo svijet
-[  Info  ]       Replaces ----- start = 6.8.2015. 10:05:00 stop = 6.8.2015. 10:50:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 6.8.2015. 10:50:00 stop = 6.8.2015. 11:50:00 title = Majke, ubojice i ljubavnice: Carice drevnog Rima
-[  Info  ]       Replaces ----- start = 6.8.2015. 11:50:00 stop = 6.8.2015. 12:40:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 6.8.2015. 12:40:00 stop = 6.8.2015. 13:45:00 title = Tajne dvorca
-[  Info  ]       Replaces ----- start = 6.8.2015. 13:45:00 stop = 6.8.2015. 14:40:00 title = Misija X
-[  Info  ]       Replaces ----- start = 6.8.2015. 14:40:00 stop = 6.8.2015. 15:30:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 6.8.2015. 15:30:00 stop = 6.8.2015. 16:20:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 6.8.2015. 16:20:00 stop = 6.8.2015. 17:05:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 6.8.2015. 17:05:00 stop = 6.8.2015. 18:10:00 title = Majke, ubojice i ljubavnice: Carice drevnog Rima
-[  Info  ]       Replaces ----- start = 6.8.2015. 18:10:00 stop = 6.8.2015. 19:05:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 6.8.2015. 19:05:00 stop = 6.8.2015. 20:00:00 title = Lovci na mitove
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:55:00 title = Misija X
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:00:00 stop = 6.8.2015. 20:55:00 title = Gandhi - stvaranje Mahatme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 20:55:00 stop = 6.8.2015. 21:50:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 6.8.2015. 20:55:00 stop = 6.8.2015. 21:50:00 title = Tajne u prašini
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 21:50:00 stop = 6.8.2015. 22:40:00 title = Najkrvavija britanska dinastija
-[  Info  ]       Replaces ----- start = 6.8.2015. 21:50:00 stop = 6.8.2015. 22:40:00 title = Muzejske tajne
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 6.8.2015. 23:35:00 stop = 7.8.2015. 0:30:00 title = Borački klub: povijest nasilja
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:35:00 stop = 7.8.2015. 0:35:00 title = Velike strašne bitke
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 0:30:00 stop = 7.8.2015. 1:30:00 title = Istrebljenje - Uništenje europskih Židova
-[  Info  ]       Replaces ----- start = 6.8.2015. 23:35:00 stop = 7.8.2015. 0:35:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 7.8.2015. 0:35:00 stop = 7.8.2015. 1:25:00 title = Zabranjena povijest
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:25:00 stop = 7.8.2015. 2:20:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 1:30:00 stop = 7.8.2015. 2:25:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 1:25:00 stop = 7.8.2015. 2:20:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:20:00 stop = 7.8.2015. 3:15:00 title = Otkrivanje vremena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 2:25:00 stop = 7.8.2015. 3:15:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 7.8.2015. 2:20:00 stop = 7.8.2015. 3:15:00 title = Otkrivanje vremena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 3:15:00 stop = 7.8.2015. 20:00:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 3:15:00 stop = 7.8.2015. 4:05:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 4:05:00 stop = 7.8.2015. 5:10:00 title = Tajne dvorca
-[  Info  ]       Replaces ----- start = 7.8.2015. 5:10:00 stop = 7.8.2015. 6:00:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 6:00:00 stop = 7.8.2015. 7:05:00 title = Od istoka do zapada: Putovanja od središta Zemlje
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:05:00 stop = 7.8.2015. 7:55:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 7.8.2015. 7:55:00 stop = 7.8.2015. 8:45:00 title = Zabranjena povijest
-[  Info  ]       Replaces ----- start = 7.8.2015. 8:45:00 stop = 7.8.2015. 9:40:00 title = Misija X
-[  Info  ]       Replaces ----- start = 7.8.2015. 9:40:00 stop = 7.8.2015. 10:05:00 title = Vrijeme koje je promijenilo svijet
-[  Info  ]       Replaces ----- start = 7.8.2015. 10:05:00 stop = 7.8.2015. 10:55:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 10:55:00 stop = 7.8.2015. 11:50:00 title = Koptske mumije iz Antinopolisa
-[  Info  ]       Replaces ----- start = 7.8.2015. 11:50:00 stop = 7.8.2015. 12:45:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 13:50:00 title = Tajne dvorca
-[  Info  ]       Replaces ----- start = 7.8.2015. 13:50:00 stop = 7.8.2015. 14:40:00 title = Potpuna priča o Koloseju
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:40:00 stop = 7.8.2015. 15:35:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 15:35:00 stop = 7.8.2015. 16:30:00 title = Potraga za Aleksandrovim izgubljenim svijetom
-[  Info  ]       Replaces ----- start = 7.8.2015. 16:30:00 stop = 7.8.2015. 17:15:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 17:15:00 stop = 7.8.2015. 18:10:00 title = Koptske mumije iz Antinopolisa
-[  Info  ]       Replaces ----- start = 7.8.2015. 18:10:00 stop = 7.8.2015. 19:05:00 title = Misija X
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:05:00 stop = 7.8.2015. 20:00:00 title = Lovci na mitove
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:55:00 title = Gandhi - stvaranje Mahatme
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:00:00 title = Povijest kršćanstva
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 20:55:00 stop = 7.8.2015. 21:50:00 title = Tajne u prašini
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 21:00:00 title = Povijest kršćanstva
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:00:00 stop = 7.8.2015. 21:50:00 title = Istražitelji zrakoplovnih nesreća 2. svjetskoga rata
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 21:50:00 stop = 7.8.2015. 22:40:00 title = Muzejske tajne
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:50:00 stop = 7.8.2015. 22:50:00 title = Skrivena povijest: zaboravljene fotografije 1. svjetskoga rata
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 22:40:00 stop = 7.8.2015. 23:35:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 7.8.2015. 21:50:00 stop = 7.8.2015. 22:50:00 title = Skrivena povijest: zaboravljene fotografije 1. svjetskoga rata
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:50:00 stop = 7.8.2015. 23:40:00 title = Lovci na mitove
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 23:35:00 stop = 8.8.2015. 0:35:00 title = Velike strašne bitke
-[  Info  ]       Replaces ----- start = 7.8.2015. 22:50:00 stop = 7.8.2015. 23:40:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 7.8.2015. 23:40:00 stop = 8.8.2015. 0:35:00 title = Tajne operacije
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 8.8.2015. 2:20:00 stop = 8.8.2015. 3:15:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 8.8.2015. 2:20:00 stop = 8.8.2015. 3:15:00 title = Potraga za Aleksandrovim izgubljenim svijetom
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -1422,8 +701,13 @@
 [  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:05:00 stop = 4.8.2015. 22:00:00 title = Ljetni đir
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:00:00 stop = 4.8.2015. 22:00:00 title = Napokon drukčiji studij Aspira
+[  Info  ]       show with ---- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 13:00:00 title = Bctv
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 13:15:00 title = Bctv
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 7.8.2015. 13:00:00 stop = 7.8.2015. 13:45:00 title = Rondo shop
+[  Info  ]       Replaces ----- start = 7.8.2015. 12:45:00 stop = 7.8.2015. 13:15:00 title = Bctv
+[  Info  ]       Replaces ----- start = 7.8.2015. 13:15:00 stop = 7.8.2015. 13:45:00 title = Ikone
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -1432,15 +716,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 20:59:00 stop = 4.8.2015. 21:00:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:59:00 stop = 4.8.2015. 22:30:00 title = Pregled programa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:00:00 stop = 4.8.2015. 23:00:00 title = Zoom
-[  Info  ]       Replaces ----- start = 4.8.2015. 20:59:00 stop = 4.8.2015. 22:30:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:30:00 stop = 4.8.2015. 23:00:00 title = Zeleni grad
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -1466,8 +741,8 @@
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
 [  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 394
-[  Info  ]      total after update        394
+[  Info  ]      unchanged shows inspected 395
+[  Info  ]      total after update        395
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
 [  Error ] no shows in indexpage!
@@ -1491,34 +766,36 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
-[  Debug ]    skipped show without a title at 4.8.2015. 8:30:00
-[  Debug ]    skipped show without a title at 4.8.2015. 15:45:00
-[  Debug ]    skipped show without a title at 5.8.2015. 10:30:00
-[  Debug ]    skipped show without a title at 5.8.2015. 12:15:00
+[  Debug ]    skipped show without a title at 13.8.2015. 15:00:00
+[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] SK 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           99
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        99
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
-[  Debug ]    skipped show without a title at 4.8.2015. 10:00:00
-[  Debug ]    skipped show without a title at 5.8.2015. 19:15:00
-[  Debug ]    skipped show without a title at 7.8.2015. 3:45:00
-[  Debug ]    skipped show without a title at 9.8.2015. 10:45:00
+[  Debug ]    skipped show without a title at 7.8.2015. 4:15:00
+[  Debug ]    skipped show without a title at 10.8.2015. 10:45:00
+[  Debug ]    skipped show without a title at 11.8.2015. 20:45:00
+[  Debug ]    skipped show without a title at 12.8.2015. 11:45:00
+[  Debug ]    skipped show without a title at 12.8.2015. 20:45:00
+[  Debug ]    skipped show without a title at 12.8.2015. 23:15:00
+[  Debug ]    skipped show without a title at 13.8.2015. 11:45:00
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 110
-[  Info  ]      total after update        110
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           122
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        122
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:30:00 stop = 4.8.2015. 21:50:00 title = Viva la Bam
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:30:00 stop = 4.8.2015. 22:20:00 title = Viva la Bam
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:50:00 stop = 4.8.2015. 22:40:00 title = Viva la Bam
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:30:00 stop = 4.8.2015. 22:20:00 title = Viva la Bam
-[  Info  ]       Replaces ----- start = 4.8.2015. 22:20:00 stop = 4.8.2015. 22:40:00 title = Viva la Bam
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -1527,39 +804,17 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CMC) site -- PORT.HR -- mode incremental
-[  Error ] No suitable time structure found to merge the indexpage pages!!
-[  Error ] Unable to update Channel, try again later
-[  Debug ] Unsorted startimes in index page sections:
-[  Debug ] Indexpage section 0
-[  Error ] unable to update channel CMC
-[  Error ] see log file for details
-[  Error ] Exception.Message: Array index is out of range.
-[  Error ] Exception.StackTrace:   at WebGrab.Scrub.MergeIndex (System.Collections.Generic.Dictionary`2 ShowsPerIndexpage, WebGrab.SiteIni ScrubStrings) [0x00000] in <filename unknown>:0 
-  at WebGrab.Scrub.SplitIndex (System.String index, WebGrab.SiteIni ScrubStrings) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.UpdateChannel (System.String strIndex, WebGrab.ChannelToUpdate Chan, WebGrab.XmlTarget xTarget) [0x00000] in <filename unknown>:0 
-  at WebGrab.Program.Main (System.String[] args) [0x00000] in <filename unknown>:0 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=N1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 21:45:00 stop = 4.8.2015. 22:00:00 title = Scena & Info biz
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:45:00 stop = 5.8.2015. 4:00:00 title = Scena & Info biz
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 4.8.2015. 22:00:00 stop = 5.8.2015. 4:00:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 4.8.2015. 21:45:00 stop = 5.8.2015. 4:00:00 title = Scena & Info biz
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 5.8.2015. 19:45:00 stop = 5.8.2015. 23:00:00 title = N1 Produkcija
-[  Info  ]       Replaces ----- start = 5.8.2015. 19:45:00 stop = 5.8.2015. 22:30:00 title = N1 Produkcija
-[  Info  ]       Replaces ----- start = 5.8.2015. 22:30:00 stop = 5.8.2015. 23:00:00 title = CNN Prime Time slot
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5612 shows in 40 channels
-[  Debug ] 273 updated shows
-[  Debug ] 257 new shows added
+[  Info  ] channel (xmltv_id=N1) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Debug ] 5665 shows in 40 channels
+[  Debug ] 163 updated shows
+[  Debug ] 221 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 4.8.2015. 22:34:16 done in 212 seconds
+[  Info  ] job finished at 7.8.2015. 13:18:02 done in 132 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
