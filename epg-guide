@@ -15,3 +15,9 @@ EOF
 
 
 git_clone
+wait $!
+cd ..
+wait $!
+chmod a+rw -R samdecrypt
+wait $!
+rm -R samdecrypt
