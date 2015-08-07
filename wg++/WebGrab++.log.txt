@@ -1,10 +1,21 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 7.8.2015. 20:12:01
+[  Debug ] job started at 7.8.2015. 20:16:01
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ]    skipped 
+[  Info  ] 
 [  Debug ] loading timezone data
 [  Debug ] embedded timezones source: WebGrab_Plus.TimezonesData.txt
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Universal Channel) site -- PORT.HR -- mode incremental
 [  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
 [  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
@@ -15,60 +26,17 @@
 [  Debug ] xmltv input file - ~/Snimke/grabber/guide.xml - found
 [  Debug ]    skipped 
 [  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Discovery Channel) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
-[  Warn  ] file in use by an other process!
-[  Warn  ] will retry for 30 seconds
 [  Debug ] 
 [  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Viasat History) site -- PORT.HR -- mode incremental
-[  Debug ] 0 superfluous shows removed
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:15:00 stop = 7.8.2015. 19:40:00 title = Ne činite ovo kod kuće
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:15:00 stop = 7.8.2015. 20:10:00 title = Ne činite ovo kod kuće
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:40:00 stop = 7.8.2015. 21:00:00 title = Ne činite ovo kod kuće
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:15:00 stop = 7.8.2015. 20:10:00 title = Ne činite ovo kod kuće
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:10:00 stop = 7.8.2015. 21:00:00 title = Kraljevi drva
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Travel Channel) site -- PORT.HR -- mode incremental
-[  Debug ]    skipped 
-[  Info  ] 
 [  Warn  ] cannot access ~/Snimke/grabber/guide.xml
 [  Warn  ] file in use by an other process!
 [  Warn  ] will retry for 30 seconds
-[  Info  ] 
-[  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
-[  Info  ] update mode - set per individual channel
-[  Info  ] 
-[  Info  ] 
-[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
 [  Error ] giving up writing to ~/Snimke/grabber/guide.xml
 [  Error ] channel not updated!!
 [  Error ]      unable to write to ~/Snimke/grabber/guide.xml
@@ -78,19 +46,16 @@
 [  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
+[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
+[  Warn  ] file in use by an other process!
+[  Warn  ] will retry for 30 seconds
+[  Debug ] 0 superfluous shows removed
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 15:55:00 title = Crtalica
 [  Info  ]       Replaces ----- start = 7.8.2015. 15:50:00 stop = 7.8.2015. 16:20:00 title = Crtalica
-[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
-[  Error ] channel not updated!!
-[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
-[  Error ]      file in use by other process? corrupt?
-[  Error ]      channel update not saved
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 7.8.2015. 15:55:00 stop = 7.8.2015. 16:20:00 title = RollBots
@@ -100,6 +65,8 @@
 [  Info  ]       show with ---- start = 7.8.2015. 19:50:00 stop = 7.8.2015. 20:30:00 title = Baka priča najljepše priče
 [  Info  ]       Replaces ----- start = 7.8.2015. 19:50:00 stop = 7.8.2015. 20:00:00 title = Baka priča najljepše priče
 [  Info  ]       Replaces ----- start = 7.8.2015. 20:00:00 stop = 7.8.2015. 20:30:00 title = Rođena zvijezda
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Viasat History) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Warn  ] cannot access ~/Snimke/grabber/guide.xml
@@ -107,48 +74,140 @@
 [  Warn  ] will retry for 30 seconds
 [  Debug ]    skipped 
 [  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
+[  Debug ] 
+[  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
+[  Info  ] 
+[  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
+[  Info  ] update mode - set per individual channel
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
+[  Debug ] 
+[  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Travel Channel) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped show without a title at 7.8.2015. 4:15:00
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 15:30:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 16:25:00 title = Kraljevi akvarija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 15:30:00 stop = 7.8.2015. 16:25:00 title = Austin Stevens: Gospodar zmija
-[  Info  ]       Replaces ----- start = 7.8.2015. 14:35:00 stop = 7.8.2015. 16:25:00 title = Kraljevi akvarija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 7.8.2015. 19:10:00 stop = 7.8.2015. 21:00:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 19:10:00 stop = 7.8.2015. 20:05:00 title = Kraljevi akvarija
-[  Info  ]       Replaces ----- start = 7.8.2015. 20:05:00 stop = 7.8.2015. 21:00:00 title = Kraljica lavova
+[  Info  ] channel (xmltv_id=TV 1000 Balkan) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
+[  Debug ] 
+[  Info  ] channel (xmltv_id=VH1 Europe) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Warn  ] cannot access ~/Snimke/grabber/guide.xml
 [  Warn  ] file in use by an other process!
 [  Warn  ] will retry for 30 seconds
-[  Debug ]    skipped 
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 3) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
+[  Debug ]    skipped show without a title at 10.8.2015. 10:45:00
 [  Debug ] 
-[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
+[  Info  ] channel (xmltv_id=Jabuka TV) site -- PORT.HR -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
+[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
+[  Warn  ] file in use by an other process!
+[  Warn  ] will retry for 30 seconds
+[  Debug ]    skipped show without a title at 11.8.2015. 20:45:00
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ]    skipped show without a title at 12.8.2015. 11:45:00
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 4) site -- PORT.HR -- mode incremental
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped show without a title at 12.8.2015. 20:45:00
+[  Debug ]    skipped show without a title at 12.8.2015. 23:15:00
+[  Debug ]    skipped show without a title at 13.8.2015. 11:45:00
 [  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] SK 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           122
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        122
+[  Warn  ] cannot access ~/Snimke/grabber/guide.xml
+[  Warn  ] file in use by an other process!
+[  Warn  ] will retry for 30 seconds
+[  Debug ]    skipped show without a title at 13.8.2015. 15:00:00
+[  Debug ]    skipped 
+[  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] SK 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           99
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        99
+[  Debug ]    skipped 
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
+[  Debug ] 
+[  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped show without a title at 7.8.2015. 4:15:00
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
+[  Debug ] 
+[  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
+[  Error ] giving up writing to ~/Snimke/grabber/guide.xml
+[  Error ] channel not updated!!
+[  Error ]      unable to write to ~/Snimke/grabber/guide.xml
+[  Error ]      file in use by other process? corrupt?
+[  Error ]      channel update not saved
+[  Debug ] 
+[  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NOVA TV) site -- PORT.HR -- mode incremental
 [  Error ] giving up writing to ~/Snimke/grabber/guide.xml
@@ -157,4 +216,6 @@
 [  Error ]      file in use by other process? corrupt?
 [  Error ]      channel update not saved
 [  Debug ] 
-[  Info  ] channel (xmltv_id=Eurosport 2) site -- PORT.HR -- mode incremental
+[  Info  ] channel (xmltv_id=Sportska televizija) site -- PORT.HR -- mode incremental
+[  Debug ]    skipped 
+[  Info  ] 
