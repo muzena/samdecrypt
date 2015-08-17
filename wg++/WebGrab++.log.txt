@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 17.8.2015. 0:00:15
+[  Debug ] job started at 17.8.2015. 4:00:16
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1260 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -23,8 +23,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -139,10 +137,8 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           15
-[  Info  ]      unchanged shows inspected 347
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 362
 [  Info  ]      total after update        363
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
@@ -198,9 +194,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 5857 shows in 40 channels
-[  Debug ] 11 updated shows
-[  Debug ] 1248 new shows added
+[  Debug ] 0 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 17.8.2015. 0:06:54 done in 398 seconds
+[  Info  ] job finished at 17.8.2015. 4:01:42 done in 85 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
