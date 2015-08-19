@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.25 -- Jan van Straaten
 [  Debug ] -------------------------------------------------------------------------------
-[  Debug ] job started at 19.8.2015. 0:00:19
+[  Debug ] job started at 19.8.2015. 4:00:20
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1325 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -23,11 +23,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.8.2015. 19:50:00 stop = 21.8.2015. 20:00:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.8.2015. 19:50:00 stop = 21.8.2015. 19:57:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.8.2015. 19:57:00 stop = 21.8.2015. 20:00:00 title = Vrijeme
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -142,10 +137,8 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           15
-[  Info  ]      unchanged shows inspected 345
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 360
 [  Info  ]      total after update        361
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
@@ -175,19 +168,37 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 1
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           18
 [  Info  ]      unchanged shows inspected 66
-[  Info  ]      total after update        67
+[  Info  ]      total after update        85
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
 [  Debug ]    skipped show without a title at 19.8.2015. 3:30:00
 [  Debug ]    skipped show without a title at 20.8.2015. 6:45:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23.8.2015. 0:00:00 stop = 23.8.2015. 1:30:00 title = Ekstremni svijet sporta (31)
+[  Info  ]       Replaces ----- start = 22.8.2015. 23:45:00 stop = 23.8.2015. 1:30:00 title = Championship: Leeds - Sheffield Wednesday
 [  Debug ]    skipped show without a title at 23.8.2015. 5:00:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23.8.2015. 20:15:00 stop = 23.8.2015. 22:00:00 title = Portugalska liga: Arouca - Benfica LIVE
+[  Info  ]       Replaces ----- start = 23.8.2015. 20:15:00 stop = 23.8.2015. 22:15:00 title = Portugalska liga: Arouca - Benfica LIVE
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23.8.2015. 22:00:00 stop = 24.8.2015. 2:15:00 title =  - 
+[  Info  ]       Replaces ----- start = 23.8.2015. 20:15:00 stop = 23.8.2015. 22:15:00 title = Portugalska liga: Arouca - Benfica LIVE
+[  Info  ]       Replaces ----- start = 23.8.2015. 22:15:00 stop = 23.8.2015. 22:30:00 title = Na današnji dan
+[  Info  ]       Replaces ----- start = 23.8.2015. 22:30:00 stop = 24.8.2015. 2:15:00 title =  - 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 102
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     4
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 98
 [  Info  ]      total after update        103
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
@@ -199,79 +210,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CMC) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 1:00:00 stop = 22.8.2015. 7:00:00 title = CMC Noć
-[  Info  ]       Replaces ----- start = 22.8.2015. 1:00:00 stop = 22.8.2015. 1:30:00 title = Rap & Hip Hop
-[  Info  ]       Replaces ----- start = 22.8.2015. 1:30:00 stop = 22.8.2015. 2:00:00 title = Urbano
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:00:00 stop = 22.8.2015. 2:30:00 title = Love
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 7:00:00 stop = 22.8.2015. 7:50:00 title = Dobro jutro
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 7:50:00 stop = 22.8.2015. 9:00:00 title = Dječja top lista
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 9:00:00 stop = 22.8.2015. 10:00:00 title = Libar
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 10:00:00 stop = 22.8.2015. 10:40:00 title = Top 30
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 10:40:00 stop = 22.8.2015. 11:00:00 title = CMC Mix
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 11:00:00 stop = 22.8.2015. 11:30:00 title = Strana vs. Domaća
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 11:30:00 stop = 22.8.2015. 12:00:00 title = Rock
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 12:00:00 stop = 22.8.2015. 14:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 14:00:00 stop = 22.8.2015. 14:40:00 title = Top 10
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 14:40:00 stop = 22.8.2015. 16:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 16:00:00 stop = 22.8.2015. 17:00:00 title = Klapa vs. Tambura
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 18:00:00 stop = 22.8.2015. 19:00:00 title = CMC Love Weekend
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 19:00:00 stop = 22.8.2015. 20:00:00 title = CMC Hitovi tjedna
-[  Info  ]       Replaces ----- start = 22.8.2015. 2:30:00 stop = 22.8.2015. 20:00:00 title = CMC Noć
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 20:00:00 stop = 22.8.2015. 21:00:00 title = CMC Tulum
-[  Info  ]       Replaces ----- start = 22.8.2015. 20:00:00 stop = 23.8.2015. 0:00:00 title = SMS Jukebox
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.8.2015. 21:00:00 stop = 23.8.2015. 1:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 22.8.2015. 20:00:00 stop = 23.8.2015. 0:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 23.8.2015. 0:00:00 stop = 23.8.2015. 1:00:00 title = CMC Hitovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 23.8.2015. 1:00:00 stop = 23.8.2015. 2:00:00 title = Strana vs. Domaća
-[  Info  ]       Replaces ----- start = 23.8.2015. 1:00:00 stop = 23.8.2015. 1:30:00 title = CMC Mix
-[  Info  ]       Replaces ----- start = 23.8.2015. 1:30:00 stop = 23.8.2015. 2:00:00 title = Gold
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -279,10 +217,10 @@
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5729 shows in 40 channels
-[  Debug ] 19 updated shows
-[  Debug ] 1131 new shows added
+[  Debug ] 5747 shows in 40 channels
+[  Debug ] 4 updated shows
+[  Debug ] 18 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 19.8.2015. 0:06:18 done in 359 seconds
+[  Info  ] job finished at 19.8.2015. 4:01:47 done in 87 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
