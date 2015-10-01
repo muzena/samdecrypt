@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.26 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 1.10.2015. 0:00:32
+[  Debug ] job started at 1.10.2015. 4:00:32
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1372 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -137,10 +137,8 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           15
-[  Info  ]      unchanged shows inspected 346
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 361
 [  Info  ]      total after update        362
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
@@ -168,18 +166,35 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           5
-[  Info  ]      unchanged shows inspected 90
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 95
 [  Info  ]      total after update        96
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 1.10.2015. 11:30:00 stop = 1.10.2015. 14:30:00 title = NFL: Detroit - Denver
+[  Info  ]       Replaces ----- start = 1.10.2015. 11:00:00 stop = 1.10.2015. 12:00:00 title = Svijet sporta magazin
+[  Info  ]       Replaces ----- start = 1.10.2015. 12:00:00 stop = 1.10.2015. 14:30:00 title = Euroleague USA: Emporio Armani - Maccabi LIVE
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 1.10.2015. 14:30:00 stop = 1.10.2015. 16:30:00 title = KHL: Medveščak - Neftekhimik
+[  Info  ]       Replaces ----- start = 1.10.2015. 14:30:00 stop = 1.10.2015. 16:45:00 title = KHL: Medveščak - Neftehimik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 1.10.2015. 16:30:00 stop = 1.10.2015. 16:45:00 title = KHL Ice Week
+[  Info  ]       Replaces ----- start = 1.10.2015. 14:30:00 stop = 1.10.2015. 16:45:00 title = KHL: Medveščak - Neftehimik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 2.10.2015. 10:15:00 stop = 2.10.2015. 12:00:00 title = Euroleague USA: Maccabi - Emporio Armani
+[  Info  ]       Replaces ----- start = 2.10.2015. 10:15:00 stop = 2.10.2015. 12:00:00 title = Rugby World Cup: Wales - Fiji
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 74
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     5
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 69
 [  Info  ]      total after update        75
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
@@ -199,9 +214,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 5674 shows in 40 channels
-[  Debug ] 0 updated shows
-[  Debug ] 1174 new shows added
+[  Debug ] 5 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 1.10.2015. 0:07:29 done in 417 seconds
+[  Info  ] job finished at 1.10.2015. 4:02:03 done in 90 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
