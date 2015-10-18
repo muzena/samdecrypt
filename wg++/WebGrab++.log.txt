@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 18.10.2015. 0:00:41
+[  Debug ] job started at 18.10.2015. 4:00:46
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1279 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -55,8 +55,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Plus) site -- PORT.HR -- mode incremental
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -139,10 +137,8 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           15
-[  Info  ]      unchanged shows inspected 343
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 358
 [  Info  ]      total after update        359
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
@@ -159,76 +155,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Eurosport) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 19:00:00 stop = 18.10.2015. 19:05:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:00:00 stop = 18.10.2015. 19:45:00 title = Supersport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 19:05:00 stop = 18.10.2015. 20:10:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:00:00 stop = 18.10.2015. 19:45:00 title = Supersport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:45:00 stop = 18.10.2015. 19:50:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:50:00 stop = 18.10.2015. 20:45:00 title = Konjički šport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 20:10:00 stop = 18.10.2015. 20:25:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:50:00 stop = 18.10.2015. 20:45:00 title = Konjički šport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 20:25:00 stop = 18.10.2015. 20:30:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:50:00 stop = 18.10.2015. 20:45:00 title = Konjički šport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 20:30:00 stop = 18.10.2015. 21:00:00 title = Superbike
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:50:00 stop = 18.10.2015. 20:45:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 20:45:00 stop = 18.10.2015. 20:55:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 18.10.2015. 20:55:00 stop = 18.10.2015. 21:00:00 title = Konjički šport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 22:00:00 stop = 18.10.2015. 22:45:00 title = Supersport
-[  Info  ]       Replaces ----- start = 18.10.2015. 22:00:00 stop = 18.10.2015. 22:15:00 title = Motosportovi
-[  Info  ]       Replaces ----- start = 18.10.2015. 22:15:00 stop = 18.10.2015. 23:00:00 title = Nogomet - MLS
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 22:45:00 stop = 18.10.2015. 23:00:00 title = Motosportovi
-[  Info  ]       Replaces ----- start = 18.10.2015. 22:15:00 stop = 18.10.2015. 23:00:00 title = Nogomet - MLS
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Eurosport 2) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 12:30:00 stop = 18.10.2015. 12:45:00 title = WATTS
-[  Info  ]       Replaces ----- start = 18.10.2015. 12:30:00 stop = 18.10.2015. 13:00:00 title = World Series by Renault
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 12:45:00 stop = 18.10.2015. 13:30:00 title = Automobilizam
-[  Info  ]       Replaces ----- start = 18.10.2015. 12:30:00 stop = 18.10.2015. 13:00:00 title = World Series by Renault
-[  Info  ]       Replaces ----- start = 18.10.2015. 13:00:00 stop = 18.10.2015. 13:45:00 title = Automobilizam
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 13:30:00 stop = 18.10.2015. 14:15:00 title = Superbike
-[  Info  ]       Replaces ----- start = 18.10.2015. 13:00:00 stop = 18.10.2015. 13:45:00 title = Automobilizam
-[  Info  ]       Replaces ----- start = 18.10.2015. 13:45:00 stop = 18.10.2015. 14:15:00 title = Superbike
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 19:30:00 stop = 18.10.2015. 20:45:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:30:00 stop = 18.10.2015. 21:00:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 20:45:00 stop = 18.10.2015. 23:00:00 title = Nogomet - Svjetsko prvenstvo U17
-[  Info  ]       Replaces ----- start = 18.10.2015. 19:30:00 stop = 18.10.2015. 21:00:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]       Replaces ----- start = 18.10.2015. 21:00:00 stop = 18.10.2015. 21:30:00 title = WATTS
-[  Info  ]       Replaces ----- start = 18.10.2015. 21:30:00 stop = 18.10.2015. 23:45:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 23:00:00 stop = 18.10.2015. 23:30:00 title = Superbike
-[  Info  ]       Replaces ----- start = 18.10.2015. 21:30:00 stop = 18.10.2015. 23:45:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.10.2015. 23:30:00 stop = 19.10.2015. 0:00:00 title = WATTS
-[  Info  ]       Replaces ----- start = 18.10.2015. 21:30:00 stop = 18.10.2015. 23:45:00 title = Biciklizam na pisti - Europsko prvenstvo
-[  Info  ]       Replaces ----- start = 18.10.2015. 23:45:00 stop = 19.10.2015. 0:00:00 title = WATTS
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -244,10 +174,8 @@
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           5
-[  Info  ]      unchanged shows inspected 105
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 110
 [  Info  ]      total after update        111
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
@@ -267,9 +195,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 5807 shows in 40 channels
-[  Debug ] 14 updated shows
-[  Debug ] 1326 new shows added
+[  Debug ] 0 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 18.10.2015. 0:08:19 done in 457 seconds
+[  Info  ] job finished at 18.10.2015. 4:02:16 done in 89 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
