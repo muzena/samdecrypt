@@ -1,6 +1,6 @@
 ﻿[  Debug ] WebGrab+Plus/w MDB & REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten 
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 20.10.2015. 0:00:37
+[  Debug ] job started at 20.10.2015. 4:00:37
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1306 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -139,17 +139,19 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 1 of 4 times for 7 seconds before re-try.
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 2 of 4 times for 14 seconds before re-try.
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 3 of 4 times for 21 seconds before re-try.
-[  Warn  ] error downloading page: The request timed out
-[  Warn  ] pausing 4 of 4 times for 28 seconds before re-try.
-[  Error ] no index page data received from DISNEY CHANNEL
-[  Error ] unable to update channel, try again later
-[  Info  ] existing guide data restored!
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151020004000 +0200
+[  Debug ] starting with show : Wolfblood at local time 20.10.2015 00:40
+[  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
+      unvalid start at 25.10.2015. 3:10:00 and stop at 25.10.2015. 3:35:00
+[  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] DISNEY CHANNEL
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           15
+[  Info  ]      unchanged shows inspected 340
+[  Info  ]      total after update        355
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
 [  Error ] no shows in indexpage!
@@ -173,107 +175,119 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20151020013000 +0200
-[  Debug ] starting with show : Nizozemska liga – Pregled at local time 20.10.2015 01:30
 [  Debug ]    skipped show without a title at 21.10.2015. 8:30:00
 [  Debug ]    skipped show without a title at 21.10.2015. 14:00:00
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20151025031000 +0100
+[  Debug ] starting with show : Moto GP Malaysia: Moto 3 - Warm Up LIVE at local time 25.10.2015 03:10
 [  Debug ]    skipped a show scheduled in the DayLight Saving Time transition period
       unvalid start at 25.10.2015. 3:10:00 and stop at 25.10.2015. 3:40:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 3:40:00 stop = 25.10.2015. 4:00:00 title = Moto GP Malaysia: Moto GP - Warm Up LIVE
-[  Info  ]       Replaces ----- start = 25.10.2015. 3:40:00 stop = 25.10.2015. 4:00:00 title = Moto GP Malaysia: Moto GP - Warm Up LIVE
+[  Info  ]       Replaces ----- start = 25.10.2015. 2:40:00 stop = 25.10.2015. 3:00:00 title = Moto GP Malaysia: Moto GP - Warm Up LIVE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 8:00:00 stop = 25.10.2015. 9:15:00 title = Moto GP Malaysia: Moto GP - trka LIVE
-[  Info  ]       Replaces ----- start = 25.10.2015. 8:00:00 stop = 25.10.2015. 9:15:00 title = Moto GP Malaysia: Moto GP - trka LIVE
+[  Info  ]       Replaces ----- start = 25.10.2015. 7:00:00 stop = 25.10.2015. 8:15:00 title = Moto GP Malaysia: Moto GP - trka LIVE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 9:15:00 stop = 25.10.2015. 11:00:00 title = Premier League: Arsenal – Everton
-[  Info  ]       Replaces ----- start = 25.10.2015. 9:15:00 stop = 25.10.2015. 11:00:00 title = Premier League: Arsenal – Everton
+[  Info  ]       Replaces ----- start = 25.10.2015. 8:15:00 stop = 25.10.2015. 10:00:00 title = Premier League: Arsenal – Everton
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 11:00:00 stop = 25.10.2015. 11:45:00 title = Euroleague - Pregled
-[  Info  ]       Replaces ----- start = 25.10.2015. 11:00:00 stop = 25.10.2015. 11:45:00 title = Euroleague - Pregled
+[  Info  ]       Replaces ----- start = 25.10.2015. 10:00:00 stop = 25.10.2015. 10:45:00 title = Euroleague - Pregled
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 12:30:00 stop = 25.10.2015. 13:00:00 title = PL - Classic: Manchester City – Manchester United 1993/94
-[  Info  ]       Replaces ----- start = 25.10.2015. 12:30:00 stop = 25.10.2015. 13:00:00 title = PL - Classic: Manchester City – Manchester United 1993/94
+[  Info  ]       Replaces ----- start = 25.10.2015. 11:30:00 stop = 25.10.2015. 12:00:00 title = PL - Classic: Manchester City – Manchester United 1993/94
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 13:00:00 stop = 25.10.2015. 15:05:00 title = Premier League: Sunderland - Newcastle LIVE
-[  Info  ]       Replaces ----- start = 25.10.2015. 13:00:00 stop = 25.10.2015. 15:05:00 title = Premier League: Sunderland - Newcastle LIVE
+[  Info  ]       Replaces ----- start = 25.10.2015. 12:00:00 stop = 25.10.2015. 14:05:00 title = Premier League: Sunderland - Newcastle LIVE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 15:05:00 stop = 25.10.2015. 17:15:00 title = Premier League: Manchester United - Manchester City LIVE
-[  Info  ]       Replaces ----- start = 25.10.2015. 15:05:00 stop = 25.10.2015. 17:15:00 title = Premier League: Manchester United - Manchester City LIVE
+[  Info  ]       Replaces ----- start = 25.10.2015. 14:05:00 stop = 25.10.2015. 16:15:00 title = Premier League: Manchester United - Manchester City LIVE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 21:30:00 stop = 26.10.2015. 0:15:00 title = Moto GP Malaysia: Moto GP – trka
-[  Info  ]       Replaces ----- start = 25.10.2015. 21:30:00 stop = 26.10.2015. 0:15:00 title = Moto GP Malaysia: Moto GP – trka
+[  Info  ]       Replaces ----- start = 25.10.2015. 20:30:00 stop = 25.10.2015. 23:15:00 title = Moto GP Malaysia: Moto GP – trka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26.10.2015. 0:15:00 stop = 26.10.2015. 1:30:00 title = Portugalska liga: Benfica - Sporting
+[  Info  ]       Replaces ----- start = 25.10.2015. 23:15:00 stop = 26.10.2015. 0:30:00 title = Portugalska liga: Benfica - Sporting
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 1
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     18
-[  Info  ]      new shows added           1
+[  Info  ]      changed shows updated     19
+[  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 91
 [  Info  ]      total after update        111
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after starttime 20151020031500 +0200
+[  Debug ] starting with show :  -  at local time 20.10.2015 03:15
 [  Debug ]    skipped show without a title at 21.10.2015. 6:00:00
 [  Debug ]    skipped show without a title at 21.10.2015. 11:00:00
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20151025041500 +0100
-[  Debug ] starting with show : Njemačka košarka: Giessen - Alba at local time 25.10.2015 04:15
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 2:30:00 stop = 25.10.2015. 4:15:00 title = Njemačka košarka: Giessen - Alba
-[  Info  ]       Replaces ----- start = 25.10.2015. 2:30:00 stop = 25.10.2015. 3:15:00 title = Njemačka košarka: Giessen - Alba
+[  Info  ]       Replaces ----- start = 25.10.2015. 2:30:00 stop = 25.10.2015. 4:15:00 title = Njemačka košarka: Giessen - Alba
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 4:15:00 stop = 25.10.2015. 6:00:00 title = ATP 500 Vienna 1/2 finale
-[  Info  ]       Replaces ----- start = 25.10.2015. 3:15:00 stop = 25.10.2015. 5:00:00 title = ATP 500 Vienna 1/2 finale
+[  Info  ]       Replaces ----- start = 25.10.2015. 4:15:00 stop = 25.10.2015. 6:00:00 title = ATP 500 Vienna 1/2 finale
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 6:00:00 stop = 25.10.2015. 7:30:00 title = ATP 500 Vienna 1/2 finale
-[  Info  ]       Replaces ----- start = 25.10.2015. 5:00:00 stop = 25.10.2015. 6:30:00 title = ATP 500 Vienna 1/2 finale
+[  Info  ]       Replaces ----- start = 25.10.2015. 6:00:00 stop = 25.10.2015. 7:30:00 title = ATP 500 Vienna 1/2 finale
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 7:30:00 stop = 25.10.2015. 9:15:00 title =  - 
-[  Info  ]       Replaces ----- start = 25.10.2015. 6:30:00 stop = 25.10.2015. 8:15:00 title =  - 
+[  Info  ]       Replaces ----- start = 25.10.2015. 7:30:00 stop = 25.10.2015. 9:15:00 title =  - 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 9:15:00 stop = 25.10.2015. 11:00:00 title = Premier League: Stoke - Watford
-[  Info  ]       Replaces ----- start = 25.10.2015. 8:15:00 stop = 25.10.2015. 10:00:00 title = Premier League: Stoke - Watford
+[  Info  ]       Replaces ----- start = 25.10.2015. 9:15:00 stop = 25.10.2015. 11:00:00 title = Premier League: Stoke - Watford
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 11:00:00 stop = 25.10.2015. 12:00:00 title = Trans World Sport
-[  Info  ]       Replaces ----- start = 25.10.2015. 10:00:00 stop = 25.10.2015. 11:00:00 title = Trans World Sport
+[  Info  ]       Replaces ----- start = 25.10.2015. 11:00:00 stop = 25.10.2015. 12:00:00 title = Trans World Sport
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 14:00:00 stop = 25.10.2015. 15:05:00 title = Moto GP Malaysia: Moto GP - trka
-[  Info  ]       Replaces ----- start = 25.10.2015. 13:00:00 stop = 25.10.2015. 14:05:00 title = Moto GP Malaysia: Moto GP - trka
+[  Info  ]       Replaces ----- start = 25.10.2015. 14:00:00 stop = 25.10.2015. 15:05:00 title = Moto GP Malaysia: Moto GP - trka
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 17:00:00 stop = 25.10.2015. 18:15:00 title = Moto GP Malaysia: Moto 2 - trka
-[  Info  ]       Replaces ----- start = 25.10.2015. 16:00:00 stop = 25.10.2015. 17:15:00 title = Moto GP Malaysia: Moto 2 - trka
+[  Info  ]       Replaces ----- start = 25.10.2015. 17:00:00 stop = 25.10.2015. 18:15:00 title = Moto GP Malaysia: Moto 2 - trka
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 18:15:00 stop = 25.10.2015. 20:15:00 title =  - 
-[  Info  ]       Replaces ----- start = 25.10.2015. 17:15:00 stop = 25.10.2015. 19:15:00 title =  - 
+[  Info  ]       Replaces ----- start = 25.10.2015. 18:15:00 stop = 25.10.2015. 20:15:00 title =  - 
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 25.10.2015. 20:15:00 stop = 25.10.2015. 20:30:00 title = Na današnji dan
-[  Info  ]       Replaces ----- start = 25.10.2015. 19:15:00 stop = 25.10.2015. 19:30:00 title = Na današnji dan
+[  Info  ]       Replaces ----- start = 25.10.2015. 20:15:00 stop = 25.10.2015. 20:30:00 title = Na današnji dan
 [  Debug ]    skipped show without a title at 25.10.2015. 21:30:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26.10.2015. 0:15:00 stop = 26.10.2015. 2:00:00 title = Rugby World Cup - 1/2 finale 2
+[  Info  ]       Replaces ----- start = 26.10.2015. 0:15:00 stop = 26.10.2015. 2:00:00 title = Rugby World Cup - 1/2 finale 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26.10.2015. 2:00:00 stop = 26.10.2015. 3:45:00 title = ATP Vienna FINALE
+[  Info  ]       Replaces ----- start = 26.10.2015. 2:00:00 stop = 26.10.2015. 3:45:00 title = ATP Vienna FINALE
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     13
-[  Info  ]      new shows added           2
+[  Info  ]      changed shows updated     15
+[  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 91
 [  Info  ]      total after update        107
 [  Debug ] 
@@ -293,10 +307,10 @@
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5937 shows in 40 channels
-[  Debug ] 31 updated shows
-[  Debug ] 1229 new shows added
+[  Debug ] 5952 shows in 40 channels
+[  Debug ] 34 updated shows
+[  Debug ] 15 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 20.10.2015. 0:09:51 done in 554 seconds
+[  Info  ] job finished at 20.10.2015. 4:02:08 done in 91 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
