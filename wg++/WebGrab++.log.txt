@@ -1,6 +1,6 @@
 ﻿[  Debug ]   WebGrab+Plus/w MDB & REX Postprocess -- version V1.56.3 -- Jan van Straaten   
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 1.11.2015. 20:02:26
+[  Debug ] job started at 2.11.2015. 0:00:43
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -13,7 +13,7 @@
 [  Debug ] environment: 4.0.30319.17020
 [  Debug ] mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 0 superfluous shows removed
+[  Debug ] 1218 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -23,624 +23,82 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:06:00 stop = 1.11.2015. 15:41:00 title = Labirint
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:06:00 stop = 1.11.2015. 16:00:00 title = Labirint
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:41:00 stop = 1.11.2015. 16:00:00 title = Mir i dobro
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:06:00 stop = 1.11.2015. 16:00:00 title = Labirint
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 16:00:00 stop = 1.11.2015. 17:40:00 title = Misa
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:00:00 stop = 1.11.2015. 17:41:00 title = Misa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:40:00 stop = 1.11.2015. 17:57:00 title = Fotografija u Hrvatskoj
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:00:00 stop = 1.11.2015. 17:41:00 title = Misa
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:41:00 stop = 1.11.2015. 17:58:00 title = Fotografija u Hrvatskoj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:57:00 stop = 1.11.2015. 19:00:00 title = Maestro
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:41:00 stop = 1.11.2015. 17:58:00 title = Fotografija u Hrvatskoj
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:58:00 stop = 1.11.2015. 18:59:00 title = Maestro
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:59:00 stop = 1.11.2015. 19:51:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 19:52:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:59:00 stop = 1.11.2015. 19:51:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:51:00 stop = 1.11.2015. 19:54:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:52:00 stop = 1.11.2015. 20:03:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:51:00 stop = 1.11.2015. 19:54:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:54:00 stop = 1.11.2015. 20:04:00 title = Loto 6/45
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 20:03:00 stop = 1.11.2015. 22:04:00 title = Most na kraju svijeta
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:54:00 stop = 1.11.2015. 20:04:00 title = Loto 6/45
-[  Info  ]       Replaces ----- start = 1.11.2015. 20:04:00 stop = 1.11.2015. 22:05:00 title = Most na kraju svijeta
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 22:04:00 stop = 1.11.2015. 22:58:00 title = Da sam ja netko
-[  Info  ]       Replaces ----- start = 1.11.2015. 20:04:00 stop = 1.11.2015. 22:05:00 title = Most na kraju svijeta
-[  Info  ]       Replaces ----- start = 1.11.2015. 22:05:00 stop = 1.11.2015. 22:59:00 title = Da sam ja netko
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 22:58:00 stop = 1.11.2015. 23:33:00 title = Nemoj nikome reći
-[  Info  ]       Replaces ----- start = 1.11.2015. 22:05:00 stop = 1.11.2015. 22:59:00 title = Da sam ja netko
-[  Info  ]       Replaces ----- start = 1.11.2015. 22:59:00 stop = 1.11.2015. 23:34:00 title = Nemoj nikome reći
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 23:33:00 stop = 1.11.2015. 23:43:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 1.11.2015. 22:59:00 stop = 1.11.2015. 23:34:00 title = Nemoj nikome reći
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:34:00 stop = 1.11.2015. 23:44:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 23:43:00 stop = 1.11.2015. 23:52:00 title = Sport
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:34:00 stop = 1.11.2015. 23:44:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:44:00 stop = 1.11.2015. 23:53:00 title = Sport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 23:52:00 stop = 1.11.2015. 23:57:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:44:00 stop = 1.11.2015. 23:53:00 title = Sport
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:53:00 stop = 1.11.2015. 23:58:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 23:57:00 stop = 2.11.2015. 1:01:00 title = Nedjeljom u dva
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:53:00 stop = 1.11.2015. 23:58:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:58:00 stop = 2.11.2015. 0:59:00 title = Nedjeljom u dva
-[  Info  ]       Replaces ----- start = 2.11.2015. 0:59:00 stop = 2.11.2015. 1:34:00 title = Ekonomija &TD
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 1:01:00 stop = 2.11.2015. 1:35:00 title = Ekonomija &TD
-[  Info  ]       Replaces ----- start = 2.11.2015. 0:59:00 stop = 2.11.2015. 1:34:00 title = Ekonomija &TD
-[  Info  ]       Replaces ----- start = 2.11.2015. 1:34:00 stop = 2.11.2015. 3:16:00 title = Veličanstvena opsesija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 1:35:00 stop = 2.11.2015. 3:17:00 title = Veličanstvena opsesija
-[  Info  ]       Replaces ----- start = 2.11.2015. 1:34:00 stop = 2.11.2015. 3:16:00 title = Veličanstvena opsesija
-[  Info  ]       Replaces ----- start = 2.11.2015. 3:16:00 stop = 2.11.2015. 4:26:00 title = Društvena mreža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 3:17:00 stop = 2.11.2015. 4:26:00 title = Društvena mreža
-[  Info  ]       Replaces ----- start = 2.11.2015. 3:16:00 stop = 2.11.2015. 4:26:00 title = Društvena mreža
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 2) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 13:12:00 stop = 1.11.2015. 14:18:00 title = Dobar, bolji, najbolji... britanski slastičar
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:12:00 stop = 1.11.2015. 16:00:00 title = Dobar, bolji, najbolji... britanski slastičar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:18:00 stop = 1.11.2015. 16:00:00 title = Abelov teren
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:12:00 stop = 1.11.2015. 16:00:00 title = Dobar, bolji, najbolji... britanski slastičar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:26:00 stop = 1.11.2015. 20:14:00 title = Poirot
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:26:00 stop = 1.11.2015. 19:09:00 title = Poirot
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:09:00 stop = 1.11.2015. 20:14:00 title = Koncert
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 3) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:59:00 stop = 1.11.2015. 15:29:00 title = Ekološko stanovanje
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:59:00 stop = 1.11.2015. 16:50:00 title = Ekološko stanovanje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:29:00 stop = 1.11.2015. 16:50:00 title = Hajdučka vremena
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:59:00 stop = 1.11.2015. 16:50:00 title = Ekološko stanovanje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:01:00 stop = 1.11.2015. 20:00:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:01:00 stop = 1.11.2015. 19:45:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:45:00 stop = 1.11.2015. 20:00:00 title = Fotografija u Hrvatskoj
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=HRT 4) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 15:04:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 15:05:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:30:00 stop = 1.11.2015. 16:00:00 title = More
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 16:00:00 title = Govornica tjedna: Svjetski dan veganstva
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 16:00:00 stop = 1.11.2015. 16:12:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:00:00 stop = 1.11.2015. 16:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:10:00 stop = 1.11.2015. 16:34:00 title = Znanstveni krugovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 16:12:00 stop = 1.11.2015. 16:37:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:10:00 stop = 1.11.2015. 16:34:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:34:00 stop = 1.11.2015. 16:39:00 title = Dokumentarna reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:00:00 stop = 1.11.2015. 17:12:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:00:00 stop = 1.11.2015. 17:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:10:00 stop = 1.11.2015. 17:25:00 title = DW: Shift
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:12:00 stop = 1.11.2015. 17:25:00 title = DW: Shift
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:10:00 stop = 1.11.2015. 17:25:00 title = DW: Shift
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:25:00 stop = 1.11.2015. 18:10:00 title = Rukomet - Liga prvaka (ž)
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:25:00 stop = 1.11.2015. 18:00:00 title = Rukomet - Liga prvaka (ž)
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:00:00 stop = 1.11.2015. 18:10:00 title = Vijesti uz hrvatski znakovni jezik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:20:00 stop = 1.11.2015. 19:00:00 title = Rukomet - Liga prvaka (ž)
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:10:00 stop = 1.11.2015. 19:00:00 title = Rukomet - Liga prvaka (ž)
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=NOVA TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 12:10:00 stop = 1.11.2015. 14:05:00 title = Djevojke iz St. Triniana
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:10:00 stop = 1.11.2015. 16:10:00 title = Djevojke iz St. Triniana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:05:00 stop = 1.11.2015. 16:10:00 title = Veza bez obveza
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:10:00 stop = 1.11.2015. 16:10:00 title = Djevojke iz St. Triniana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:10:00 stop = 1.11.2015. 20:10:00 title = Otmica Metroa 123
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:10:00 stop = 1.11.2015. 19:15:00 title = Otmica Metroa 123
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:15:00 stop = 1.11.2015. 20:10:00 title = Dnevnik Nove TV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 5:55:00 stop = 2.11.2015. 6:45:00 title = Dnevnik Nove TV
-[  Info  ]       Replaces ----- start = 2.11.2015. 5:55:00 stop = 2.11.2015. 6:20:00 title = Dnevnik Nove TV
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:20:00 stop = 2.11.2015. 6:25:00 title = Najbolje godine
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:25:00 stop = 2.11.2015. 6:40:00 title = Pčelica Maja
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:40:00 stop = 2.11.2015. 8:25:00 title = IN magazin
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 6:45:00 stop = 2.11.2015. 6:55:00 title = Pčelica Maja
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:40:00 stop = 2.11.2015. 8:25:00 title = IN magazin
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 6:55:00 stop = 2.11.2015. 8:45:00 title = IN magazin
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:40:00 stop = 2.11.2015. 8:25:00 title = IN magazin
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:25:00 stop = 2.11.2015. 8:40:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:40:00 stop = 2.11.2015. 9:55:00 title = Nad lipom 35
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 8:45:00 stop = 2.11.2015. 9:00:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:40:00 stop = 2.11.2015. 9:55:00 title = Nad lipom 35
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 9:00:00 stop = 2.11.2015. 10:10:00 title = Nad lipom 35
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:40:00 stop = 2.11.2015. 9:55:00 title = Nad lipom 35
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:55:00 stop = 2.11.2015. 10:10:00 title = TV izlog
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:10:00 stop = 2.11.2015. 10:25:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:10:00 stop = 2.11.2015. 10:40:00 title = Mike i Molly
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:25:00 stop = 2.11.2015. 10:55:00 title = Mike i Molly
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:10:00 stop = 2.11.2015. 10:40:00 title = Mike i Molly
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:40:00 stop = 2.11.2015. 11:10:00 title = Mike i Molly
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:55:00 stop = 2.11.2015. 11:15:00 title = Mike i Molly
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:40:00 stop = 2.11.2015. 11:10:00 title = Mike i Molly
-[  Info  ]       Replaces ----- start = 2.11.2015. 11:10:00 stop = 2.11.2015. 11:40:00 title = Dadilja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 11:15:00 stop = 2.11.2015. 11:45:00 title = Dadilja
-[  Info  ]       Replaces ----- start = 2.11.2015. 11:10:00 stop = 2.11.2015. 11:40:00 title = Dadilja
-[  Info  ]       Replaces ----- start = 2.11.2015. 11:40:00 stop = 2.11.2015. 12:10:00 title = Dadilja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 11:45:00 stop = 2.11.2015. 12:15:00 title = Dadilja
-[  Info  ]       Replaces ----- start = 2.11.2015. 11:40:00 stop = 2.11.2015. 12:10:00 title = Dadilja
-[  Info  ]       Replaces ----- start = 2.11.2015. 12:10:00 stop = 2.11.2015. 13:50:00 title = Farma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 12:15:00 stop = 2.11.2015. 13:50:00 title = Farma
-[  Info  ]       Replaces ----- start = 2.11.2015. 12:10:00 stop = 2.11.2015. 13:50:00 title = Farma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 13:50:00 stop = 2.11.2015. 15:15:00 title = Farma
-[  Info  ]       Replaces ----- start = 2.11.2015. 13:50:00 stop = 2.11.2015. 15:10:00 title = Farma
-[  Info  ]       Replaces ----- start = 2.11.2015. 15:10:00 stop = 2.11.2015. 16:05:00 title = Kud puklo da puklo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 15:15:00 stop = 2.11.2015. 16:10:00 title = Kud puklo da puklo
-[  Info  ]       Replaces ----- start = 2.11.2015. 15:10:00 stop = 2.11.2015. 16:05:00 title = Kud puklo da puklo
-[  Info  ]       Replaces ----- start = 2.11.2015. 16:05:00 stop = 2.11.2015. 17:00:00 title = Lud, zbunjen, normalan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 16:10:00 stop = 2.11.2015. 17:00:00 title = Lud, zbunjen, normalan
-[  Info  ]       Replaces ----- start = 2.11.2015. 16:05:00 stop = 2.11.2015. 17:00:00 title = Lud, zbunjen, normalan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 17:30:00 stop = 2.11.2015. 18:20:00 title = IN magazin
-[  Info  ]       Replaces ----- start = 2.11.2015. 17:30:00 stop = 2.11.2015. 18:15:00 title = IN magazin
-[  Info  ]       Replaces ----- start = 2.11.2015. 18:15:00 stop = 2.11.2015. 19:15:00 title = Najbolje godine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 18:20:00 stop = 2.11.2015. 19:15:00 title = Najbolje godine
-[  Info  ]       Replaces ----- start = 2.11.2015. 18:15:00 stop = 2.11.2015. 19:15:00 title = Najbolje godine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 20:15:00 stop = 2.11.2015. 21:25:00 title = Farma
-[  Info  ]       Replaces ----- start = 2.11.2015. 20:15:00 stop = 2.11.2015. 21:30:00 title = Farma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 21:25:00 stop = 2.11.2015. 22:20:00 title = Kud puklo da puklo
-[  Info  ]       Replaces ----- start = 2.11.2015. 20:15:00 stop = 2.11.2015. 21:30:00 title = Farma
-[  Info  ]       Replaces ----- start = 2.11.2015. 21:30:00 stop = 2.11.2015. 22:25:00 title = Kud puklo da puklo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 22:20:00 stop = 2.11.2015. 23:05:00 title = Lud, zbunjen, normalan
-[  Info  ]       Replaces ----- start = 2.11.2015. 21:30:00 stop = 2.11.2015. 22:25:00 title = Kud puklo da puklo
-[  Info  ]       Replaces ----- start = 2.11.2015. 22:25:00 stop = 2.11.2015. 23:10:00 title = Lud, zbunjen, normalan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 23:05:00 stop = 2.11.2015. 23:25:00 title = Vijesti Nove TV
-[  Info  ]       Replaces ----- start = 2.11.2015. 22:25:00 stop = 2.11.2015. 23:10:00 title = Lud, zbunjen, normalan
-[  Info  ]       Replaces ----- start = 2.11.2015. 23:10:00 stop = 2.11.2015. 23:35:00 title = Vijesti Nove TV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 23:25:00 stop = 3.11.2015. 1:15:00 title = Snajper 4
-[  Info  ]       Replaces ----- start = 2.11.2015. 23:10:00 stop = 2.11.2015. 23:35:00 title = Vijesti Nove TV
-[  Info  ]       Replaces ----- start = 2.11.2015. 23:35:00 stop = 3.11.2015. 1:30:00 title = Snajper 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 3.11.2015. 1:15:00 stop = 3.11.2015. 2:50:00 title = Za sve je kriva svekrva
-[  Info  ]       Replaces ----- start = 2.11.2015. 23:35:00 stop = 3.11.2015. 1:30:00 title = Snajper 4
-[  Info  ]       Replaces ----- start = 3.11.2015. 1:30:00 stop = 3.11.2015. 3:20:00 title = Za sve je kriva svekrva
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 3.11.2015. 2:50:00 stop = 3.11.2015. 3:35:00 title = Djevojka iz Jerseyja
-[  Info  ]       Replaces ----- start = 3.11.2015. 1:30:00 stop = 3.11.2015. 3:20:00 title = Za sve je kriva svekrva
-[  Info  ]       Replaces ----- start = 3.11.2015. 3:20:00 stop = 3.11.2015. 4:05:00 title = Djevojka iz Jerseyja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 3.11.2015. 3:35:00 stop = 3.11.2015. 5:30:00 title = Astro savjetnik
-[  Info  ]       Replaces ----- start = 3.11.2015. 3:20:00 stop = 3.11.2015. 4:05:00 title = Djevojka iz Jerseyja
-[  Info  ]       Replaces ----- start = 3.11.2015. 4:05:00 stop = 3.11.2015. 5:05:00 title = Astro savjetnik
-[  Info  ]       Replaces ----- start = 3.11.2015. 5:05:00 stop = 3.11.2015. 5:30:00 title = Kraj programa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 3.11.2015. 5:30:00 stop = 3.11.2015. 5:35:00 title = Dnevnik Nove TV
-[  Info  ]       Replaces ----- start = 3.11.2015. 5:30:00 stop = 3.11.2015. 6:20:00 title = Dnevnik Nove TV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 3.11.2015. 5:35:00 stop = 3.11.2015. 6:20:00 title = Kraj programa
-[  Info  ]       Replaces ----- start = 3.11.2015. 5:30:00 stop = 3.11.2015. 6:20:00 title = Dnevnik Nove TV
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL TELEVIZIJA) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 13:10:00 stop = 1.11.2015. 15:00:00 title = Pazi, lopta!
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:10:00 stop = 1.11.2015. 16:30:00 title = Pazi, lopta!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 16:30:00 title = Zvjezdice
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:10:00 stop = 1.11.2015. 16:30:00 title = Pazi, lopta!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:10:00 stop = 1.11.2015. 20:05:00 title = RTL Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:10:00 stop = 1.11.2015. 19:15:00 title = RTL Vrijeme
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:15:00 stop = 1.11.2015. 20:05:00 title = Galileo
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Doma TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 15:50:00 title = Frikovi
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 16:35:00 title = Frikovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:50:00 stop = 1.11.2015. 16:35:00 title = Frikovi
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 16:35:00 title = Frikovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:25:00 stop = 1.11.2015. 20:00:00 title = Castle
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:25:00 stop = 1.11.2015. 18:10:00 title = Castle
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:10:00 stop = 1.11.2015. 20:00:00 title = Dadilja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 4:10:00 stop = 2.11.2015. 6:00:00 title = Kraj programa
-[  Info  ]       Replaces ----- start = 2.11.2015. 4:10:00 stop = 2.11.2015. 5:15:00 title = Kraj programa
-[  Info  ]       Replaces ----- start = 2.11.2015. 5:15:00 stop = 2.11.2015. 6:05:00 title = Naša mala klinika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 6:00:00 stop = 2.11.2015. 6:50:00 title = Naša mala klinika
-[  Info  ]       Replaces ----- start = 2.11.2015. 5:15:00 stop = 2.11.2015. 6:05:00 title = Naša mala klinika
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:05:00 stop = 2.11.2015. 6:30:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:30:00 stop = 2.11.2015. 7:00:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 6:50:00 stop = 2.11.2015. 7:15:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 6:30:00 stop = 2.11.2015. 7:00:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 7:00:00 stop = 2.11.2015. 7:45:00 title = Tom i Jerry priče
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 7:15:00 stop = 2.11.2015. 7:35:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 7:00:00 stop = 2.11.2015. 7:45:00 title = Tom i Jerry priče
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 7:35:00 stop = 2.11.2015. 8:20:00 title = Tom i Jerry priče
-[  Info  ]       Replaces ----- start = 2.11.2015. 7:00:00 stop = 2.11.2015. 7:45:00 title = Tom i Jerry priče
-[  Info  ]       Replaces ----- start = 2.11.2015. 7:45:00 stop = 2.11.2015. 8:15:00 title = Zekoslav Mrkva
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:15:00 stop = 2.11.2015. 9:10:00 title = Naša mala klinika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 8:20:00 stop = 2.11.2015. 8:45:00 title = Zekoslav Mrkva
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:15:00 stop = 2.11.2015. 9:10:00 title = Naša mala klinika
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 8:45:00 stop = 2.11.2015. 9:30:00 title = Naša mala klinika
-[  Info  ]       Replaces ----- start = 2.11.2015. 8:15:00 stop = 2.11.2015. 9:10:00 title = Naša mala klinika
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:10:00 stop = 2.11.2015. 9:25:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:25:00 stop = 2.11.2015. 9:50:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 9:30:00 stop = 2.11.2015. 9:45:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:25:00 stop = 2.11.2015. 9:50:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 9:45:00 stop = 2.11.2015. 10:10:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:25:00 stop = 2.11.2015. 9:50:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:50:00 stop = 2.11.2015. 10:15:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:10:00 stop = 2.11.2015. 10:39:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 9:50:00 stop = 2.11.2015. 10:15:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:15:00 stop = 2.11.2015. 10:30:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:30:00 stop = 2.11.2015. 11:00:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:39:00 stop = 2.11.2015. 10:40:00 title = Princ iz Bel-Aira
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:30:00 stop = 2.11.2015. 11:00:00 title = Princ iz Bel-Aira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 10:40:00 stop = 2.11.2015. 11:00:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 2.11.2015. 10:30:00 stop = 2.11.2015. 11:00:00 title = Princ iz Bel-Aira
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL 2) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 15:50:00 title = Top.HR
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:15:00 title = Top.HR
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:50:00 stop = 1.11.2015. 16:10:00 title = Milijunaši iz močvare
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:15:00 title = Top.HR
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 16:10:00 stop = 1.11.2015. 17:15:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:15:00 title = Top.HR
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:15:00 stop = 1.11.2015. 17:15:00 title = Moderna čuda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:15:00 stop = 1.11.2015. 18:05:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:15:00 stop = 1.11.2015. 18:10:00 title = Moderna čuda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:05:00 stop = 1.11.2015. 20:00:00 title = Mayday: Tajna crne kutije
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:15:00 stop = 1.11.2015. 18:10:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:10:00 stop = 1.11.2015. 19:00:00 title = Mayday: Tajna crne kutije
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = Kraljevi leda: Smrtonosne ceste
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Plus) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:35:00 stop = 1.11.2015. 15:50:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:35:00 stop = 1.11.2015. 16:35:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:50:00 stop = 1.11.2015. 16:35:00 title = Ellen
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:35:00 stop = 1.11.2015. 16:35:00 title = TV prodaja
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CineStar Action&Thriller) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:06:00 stop = 1.11.2015. 14:30:00 title = Priče sa snimanja: Bus 657
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:06:00 stop = 1.11.2015. 16:08:00 title = Priče sa snimanja: Bus 657
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:30:00 stop = 1.11.2015. 16:08:00 title = Oko
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:06:00 stop = 1.11.2015. 16:08:00 title = Priče sa snimanja: Bus 657
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 16:30:00 stop = 1.11.2015. 20:15:00 title = Zavjera Ešalon
-[  Info  ]       Replaces ----- start = 1.11.2015. 16:30:00 stop = 1.11.2015. 18:30:00 title = Zavjera Ešalon
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:30:00 stop = 1.11.2015. 20:15:00 title = Otkucaj smrti
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CineStar TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:38:00 stop = 1.11.2015. 14:59:00 title = Filmske vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:38:00 stop = 1.11.2015. 17:29:00 title = Filmske vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:59:00 stop = 1.11.2015. 17:29:00 title = Prkos
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:38:00 stop = 1.11.2015. 17:29:00 title = Filmske vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:26:00 stop = 1.11.2015. 21:30:00 title = Filmske vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:26:00 stop = 1.11.2015. 19:45:00 title = Filmske vijesti
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:45:00 stop = 1.11.2015. 21:30:00 title = Zabranjeno kraljevstvo
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=TV 1000 Balkan) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 13:45:00 stop = 1.11.2015. 15:40:00 title = Rocky 2
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:45:00 stop = 1.11.2015. 17:20:00 title = Rocky 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:40:00 stop = 1.11.2015. 17:20:00 title = Rocky 3
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:45:00 stop = 1.11.2015. 17:20:00 title = Rocky 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:20:00 stop = 1.11.2015. 20:30:00 title = Rocky 4
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:20:00 stop = 1.11.2015. 18:50:00 title = Rocky 4
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:50:00 stop = 1.11.2015. 20:30:00 title = Valovi smrti
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox TV) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 15:32:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 17:22:00 title = Simpsoni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:32:00 stop = 1.11.2015. 17:22:00 title = Jurski park 3
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 17:22:00 title = Simpsoni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:13:00 stop = 1.11.2015. 21:37:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:13:00 stop = 1.11.2015. 19:39:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:39:00 stop = 1.11.2015. 21:37:00 title = Iznenadna smrt
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Fox Life) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 13:05:00 stop = 1.11.2015. 15:28:00 title = Kate i Leopold
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:05:00 stop = 1.11.2015. 16:01:00 title = Kate i Leopold
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:28:00 stop = 1.11.2015. 16:01:00 title = Veliko R
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:05:00 stop = 1.11.2015. 16:01:00 title = Kate i Leopold
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:02:00 stop = 1.11.2015. 20:02:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:02:00 stop = 1.11.2015. 19:04:00 title = Wonderland
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:04:00 stop = 1.11.2015. 20:02:00 title = Ljubavnice
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Universal Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 15:00:00 title = Knjižničari
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:00:00 title = Knjižničari
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 16:00:00 title = Knjižničari
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:00:00 title = Knjižničari
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:00:00 stop = 1.11.2015. 20:00:00 title = Knjižničari
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:00:00 stop = 1.11.2015. 19:00:00 title = Knjižničari
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = Knjižničari
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Discovery Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:25:00 stop = 1.11.2015. 15:20:00 title = Turbo skupljači
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:25:00 stop = 1.11.2015. 16:15:00 title = Turbo skupljači
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:20:00 stop = 1.11.2015. 16:15:00 title = Carstvo auto otpada
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:25:00 stop = 1.11.2015. 16:15:00 title = Turbo skupljači
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:05:00 stop = 1.11.2015. 20:00:00 title = Brzi i glasni
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:05:00 stop = 1.11.2015. 19:00:00 title = Brzi i glasni
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = Otok s Bearom Gryllsom
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=National Geographic Channel) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 13:59:00 stop = 1.11.2015. 14:56:00 title = Plovni put Yukona
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:59:00 stop = 1.11.2015. 15:59:00 title = Plovni put Yukona
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:56:00 stop = 1.11.2015. 15:59:00 title = Prljavo bogatstvo
-[  Info  ]       Replaces ----- start = 1.11.2015. 13:59:00 stop = 1.11.2015. 15:59:00 title = Plovni put Yukona
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:01:00 stop = 1.11.2015. 20:00:00 title = Unutar Drugog svjetskog rata
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:01:00 stop = 1.11.2015. 19:01:00 title = Unutar Drugog svjetskog rata
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:01:00 stop = 1.11.2015. 20:00:00 title = Predaja
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Viasat History) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 15:50:00 title = Skriveni ubojice edvardijanskoga doma
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:35:00 title = Skriveni ubojice edvardijanskoga doma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:50:00 stop = 1.11.2015. 16:35:00 title = Znameniti špijuni
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:35:00 title = Skriveni ubojice edvardijanskoga doma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 17:30:00 stop = 1.11.2015. 20:00:00 title = Otkriveni spomenici
-[  Info  ]       Replaces ----- start = 1.11.2015. 17:30:00 stop = 1.11.2015. 19:00:00 title = Otkriveni spomenici
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = Izgradnja drevnoga grada
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Animal Planet) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:35:00 stop = 1.11.2015. 15:30:00 title = Najdivljiji otoci
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:35:00 stop = 1.11.2015. 16:25:00 title = Najdivljiji otoci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:30:00 stop = 1.11.2015. 16:25:00 title = Zoltan, čovjek-vuk
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:35:00 stop = 1.11.2015. 16:25:00 title = Najdivljiji otoci
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:15:00 stop = 1.11.2015. 20:05:00 title = Zoltan, čovjek-vuk
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:15:00 stop = 1.11.2015. 19:10:00 title = Zoltan, čovjek-vuk
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:10:00 stop = 1.11.2015. 20:05:00 title = Zoltan, čovjek-vuk
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Viasat Explore) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 15:40:00 title = Engineered
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:05:00 title = Engineered
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:40:00 stop = 1.11.2015. 16:05:00 title = Opaki izumi
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:05:00 title = Engineered
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:55:00 stop = 1.11.2015. 20:05:00 title = Veliko na prodaji
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:55:00 stop = 1.11.2015. 19:20:00 title = Veliko na prodaji
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:20:00 stop = 1.11.2015. 20:05:00 title = Pakleni ulov
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -649,20 +107,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MrežaZG) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 15:00:00 title = Top Shop
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:30:00 title = Top Shop
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 16:30:00 title = Dečko, dama i Ana
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:45:00 stop = 1.11.2015. 16:30:00 title = Top Shop
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:15:00 stop = 1.11.2015. 20:00:00 title = Miris zemlje
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:15:00 stop = 1.11.2015. 19:45:00 title = Miris zemlje
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:45:00 stop = 1.11.2015. 19:45:00 title = Bctv
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:45:00 stop = 1.11.2015. 20:00:00 title = Bctv
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -671,20 +115,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Z1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 15:15:00 title = Zagrebački leksikon
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:00:00 stop = 1.11.2015. 17:29:00 title = Zagrebački leksikon
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:29:00 stop = 1.11.2015. 20:00:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:29:00 stop = 1.11.2015. 19:30:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:30:00 stop = 1.11.2015. 20:00:00 title = Autoservis
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
@@ -696,172 +130,57 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Nickelodeon) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:25:00 stop = 1.11.2015. 15:55:00 title = Najotkačeniji roditelji
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:25:00 stop = 1.11.2015. 16:20:00 title = Najotkačeniji roditelji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:55:00 stop = 1.11.2015. 16:20:00 title = iCarly
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:25:00 stop = 1.11.2015. 16:20:00 title = Najotkačeniji roditelji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:50:00 stop = 1.11.2015. 20:30:00 title = (Henry Danger)
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:50:00 stop = 1.11.2015. 19:15:00 title = (Henry Danger)
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:15:00 stop = 1.11.2015. 20:30:00 title = (The Thundermans)
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
-[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] DISNEY CHANNEL
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           15
+[  Info  ]      unchanged shows inspected 337
+[  Info  ]      total after update        353
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
 [  Error ] no shows in indexpage!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:20:00 stop = 1.11.2015. 15:45:00 title = Slugterra
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:20:00 stop = 1.11.2015. 16:05:00 title = Slugterra
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:45:00 stop = 1.11.2015. 16:05:00 title = Spužva Bob Skockani
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:20:00 stop = 1.11.2015. 16:05:00 title = Slugterra
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:30:00 stop = 2.11.2015. 7:00:00 title = Sveznalica Rosie
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:30:00 stop = 1.11.2015. 19:40:00 title = Sveznalica Rosie
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:40:00 stop = 2.11.2015. 7:00:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=RTL Kockica) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:55:00 stop = 1.11.2015. 15:10:00 title = Svjetska blaga
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:55:00 stop = 1.11.2015. 16:00:00 title = Svjetska blaga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:10:00 stop = 1.11.2015. 16:00:00 title = Bilo jednom... Planet Zemlja
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:55:00 stop = 1.11.2015. 16:00:00 title = Svjetska blaga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:49:00 stop = 1.11.2015. 20:05:00 title = Crtež dana
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:49:00 stop = 1.11.2015. 19:55:00 title = Crtež dana
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:55:00 stop = 1.11.2015. 20:05:00 title = Baka priča najljepše priče
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 20:05:00 stop = 1.11.2015. 21:50:00 title = Bebin odlazak u grad
-[  Info  ]       Replaces ----- start = 1.11.2015. 20:05:00 stop = 1.11.2015. 21:45:00 title = Bebin odlazak u grad
-[  Info  ]       Replaces ----- start = 1.11.2015. 21:45:00 stop = 1.11.2015. 23:25:00 title = Dunston u hotelu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 21:50:00 stop = 1.11.2015. 23:15:00 title = Dunston u hotelu
-[  Info  ]       Replaces ----- start = 1.11.2015. 21:45:00 stop = 1.11.2015. 23:25:00 title = Dunston u hotelu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 23:15:00 stop = 2.11.2015. 0:15:00 title = Nova
-[  Info  ]       Replaces ----- start = 1.11.2015. 21:45:00 stop = 1.11.2015. 23:25:00 title = Dunston u hotelu
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:25:00 stop = 2.11.2015. 0:25:00 title = Nova
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 0:15:00 stop = 2.11.2015. 1:25:00 title = Top lista dječje televizije
-[  Info  ]       Replaces ----- start = 1.11.2015. 23:25:00 stop = 2.11.2015. 0:25:00 title = Nova
-[  Info  ]       Replaces ----- start = 2.11.2015. 0:25:00 stop = 2.11.2015. 1:30:00 title = Top lista dječje televizije
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 1:25:00 stop = 2.11.2015. 1:55:00 title = Hitovi dječje televizije
-[  Info  ]       Replaces ----- start = 2.11.2015. 0:25:00 stop = 2.11.2015. 1:30:00 title = Top lista dječje televizije
-[  Info  ]       Replaces ----- start = 2.11.2015. 1:30:00 stop = 2.11.2015. 2:00:00 title = Hitovi dječje televizije
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 2.11.2015. 1:55:00 stop = 2.11.2015. 5:25:00 title = Kraj programa
-[  Info  ]       Replaces ----- start = 2.11.2015. 1:30:00 stop = 2.11.2015. 2:00:00 title = Hitovi dječje televizije
-[  Info  ]       Replaces ----- start = 2.11.2015. 2:00:00 stop = 2.11.2015. 5:25:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Sportska televizija) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 12:35:00 stop = 1.11.2015. 14:00:00 title = Rukomet - SEHA liga
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:35:00 stop = 1.11.2015. 16:00:00 title = Rukomet - SEHA liga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:00:00 title = Džudo
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:35:00 stop = 1.11.2015. 16:00:00 title = Rukomet - SEHA liga
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Eurosport) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 12:22:00 stop = 1.11.2015. 15:33:00 title = Snooker
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:22:00 stop = 1.11.2015. 18:03:00 title = Snooker
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:33:00 stop = 1.11.2015. 18:03:00 title = Maraton
-[  Info  ]       Replaces ----- start = 1.11.2015. 12:22:00 stop = 1.11.2015. 18:03:00 title = Snooker
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:17:00 stop = 1.11.2015. 20:35:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:17:00 stop = 1.11.2015. 19:26:00 title = Konjički šport
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:26:00 stop = 1.11.2015. 20:35:00 title = Nogomet - MLS
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Eurosport 2) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:17:00 stop = 1.11.2015. 15:20:00 title = Nogomet - Svjetsko prvenstvo U17
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:17:00 stop = 1.11.2015. 17:26:00 title = Nogomet - Svjetsko prvenstvo U17
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:20:00 stop = 1.11.2015. 17:26:00 title = Nogomet - Bundesliga
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:17:00 stop = 1.11.2015. 17:26:00 title = Nogomet - Svjetsko prvenstvo U17
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:29:00 stop = 1.11.2015. 22:00:00 title = WATTS
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:29:00 stop = 1.11.2015. 19:45:00 title = WATTS
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:45:00 stop = 1.11.2015. 22:00:00 title = Nogomet - Svjetsko prvenstvo U17
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 1) site -- BNET.HR -- mode incremental
 [  Debug ]    skipped show without a title at 3.11.2015. 8:00:00
-[  Debug ]    skipped 
 [  Info  ] 
-[  Info  ]    Summary for update of 
-[  Info  ] SK 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 103
-[  Info  ]      total after update        104
 [  Debug ] 
 [  Info  ] channel (xmltv_id=SK 3) site -- BNET.HR -- mode incremental
-[  Debug ]    skipped show without a title at 1.11.2015. 22:45:00
 [  Debug ]    skipped show without a title at 2.11.2015. 11:00:00
 [  Debug ]    skipped show without a title at 4.11.2015. 0:30:00
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 133
-[  Info  ]      total after update        134
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           4
+[  Info  ]      unchanged shows inspected 114
+[  Info  ]      total after update        119
 [  Debug ] 
 [  Info  ] channel (xmltv_id=MTV Hrvatska) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 15:50:00 title = (MTV Europe Music Awards 2015)
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:40:00 title = (MTV Europe Music Awards 2015)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:50:00 stop = 1.11.2015. 16:40:00 title = (House of Food)
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:40:00 title = (MTV Europe Music Awards 2015)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:40:00 stop = 1.11.2015. 20:20:00 title = 3 From 1
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:40:00 stop = 1.11.2015. 19:50:00 title = 3 From 1
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:50:00 stop = 1.11.2015. 20:20:00 title = Faking It 2
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -870,43 +189,17 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CMC) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 14:40:00 title = Top 10
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:00:00 title = Top 10
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 14:40:00 stop = 1.11.2015. 16:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 1.11.2015. 14:00:00 stop = 1.11.2015. 16:00:00 title = Top 10
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 18:00:00 stop = 1.11.2015. 20:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 1.11.2015. 18:00:00 stop = 1.11.2015. 19:00:00 title = SMS Jukebox
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = Balade
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=N1) site -- PORT.HR -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 15:30:00 title = Neobične Kulture
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 16:00:00 title = Neobične Kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 15:30:00 stop = 1.11.2015. 16:00:00 title = Movie Top 10
-[  Info  ]       Replaces ----- start = 1.11.2015. 15:05:00 stop = 1.11.2015. 16:00:00 title = Neobične Kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 20:00:00 title = N1 Info - Intervju N1 na 1
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:00:00 stop = 1.11.2015. 19:35:00 title = N1 Info - Intervju N1 na 1
-[  Info  ]       Replaces ----- start = 1.11.2015. 19:35:00 stop = 1.11.2015. 20:00:00 title = Dobro u ljudima
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5832 shows in 40 channels
-[  Debug ] 177 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 5910 shows in 40 channels
+[  Debug ] 0 updated shows
+[  Debug ] 1296 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 1.11.2015. 20:05:28 done in 182 seconds
+[  Info  ] job finished at 2.11.2015. 0:08:13 done in 450 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
