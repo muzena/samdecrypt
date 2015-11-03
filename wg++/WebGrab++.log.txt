@@ -1,6 +1,6 @@
 ﻿[  Debug ]   WebGrab+Plus/w MDB & REX Postprocess -- version V1.56.3 -- Jan van Straaten   
 [  Debug ] --------------------------------------------------------------------------------
-[  Debug ] job started at 3.11.2015. 4:00:44
+[  Debug ] job started at 3.11.2015. 8:00:44
 [  Debug ] 
 [  Debug ] reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] loading timezone data
@@ -119,6 +119,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=24 SATA TV) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=CNN International Europe) site -- PORT.HR -- mode incremental
@@ -134,12 +135,15 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel (xmltv_id=DISNEY CHANNEL) site -- BNET.HR -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           43
 [  Info  ]      unchanged shows inspected 353
-[  Info  ]      total after update        353
+[  Info  ]      total after update        396
 [  Debug ] 
 [  Info  ] channel (xmltv_id=Mini TV) site -- PORT.HR -- mode incremental
 [  Error ] no shows in indexpage!
@@ -187,10 +191,10 @@
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5884 shows in 40 channels
+[  Debug ] 5949 shows in 40 channels
 [  Debug ] 0 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 65 new shows added
 [  Info  ] 
 [  Info  ] 
-[  Info  ] job finished at 3.11.2015. 4:02:56 done in 131 seconds
+[  Info  ] job finished at 3.11.2015. 8:02:56 done in 131 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
