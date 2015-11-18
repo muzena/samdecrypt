@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[  Debug ] Job started at 18.11.2015. 20:01:30
+[  Debug ] Job started at 19.11.2015. 0:00:50
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.19.0.21
 [  Debug ] Environment: 4.0.30319.17020
@@ -24,7 +24,8 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
 [  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 0 superfluous shows removed
+[  Debug ] 1332 superfluous shows removed
+[  Debug ] removed a show that is not in time increasing order in HRT 3 starting after 21.11.2015. 20:00:00
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -36,1297 +37,552 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] (   0/40  ) PORT.HR -- chan. (xmltv_id=HRT 1) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:05:00 stop = 18.11.2015. 9:39:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:05:00 stop = 18.11.2015. 9:31:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:31:00 stop = 18.11.2015. 13:00:00 title = Skica za portret
+[  Info  ]       show with ---- start = 22.11.2015. 3:35:00 stop = 22.11.2015. 4:20:00 title = Veterani mira
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:39:00 stop = 18.11.2015. 13:01:00 title = Obljetnica stradanja Vukovara i Škabrnje
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:31:00 stop = 18.11.2015. 13:00:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 14:47:00 title = Misa: Vukovar - Dan sjećanja
+[  Info  ]       show with ---- start = 22.11.2015. 4:20:00 stop = 22.11.2015. 5:05:00 title = Prizma
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 13:01:00 stop = 18.11.2015. 14:31:00 title = Misa: Vukovar - Dan sjećanja
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 14:47:00 title = Misa: Vukovar - Dan sjećanja
+[  Info  ]       show with ---- start = 22.11.2015. 5:05:00 stop = 22.11.2015. 5:57:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:31:00 stop = 18.11.2015. 15:25:00 title = Crno-bijeli svijet
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 14:47:00 title = Misa: Vukovar - Dan sjećanja
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:47:00 stop = 18.11.2015. 15:02:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:02:00 stop = 18.11.2015. 15:05:00 title = Sport
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:05:00 stop = 18.11.2015. 15:11:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:11:00 stop = 18.11.2015. 16:01:00 title = Crno-bijeli svijet
+[  Info  ]       show with ---- start = 22.11.2015. 5:57:00 stop = 22.11.2015. 6:10:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:25:00 stop = 18.11.2015. 15:54:00 title = Tugovanje
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:11:00 stop = 18.11.2015. 16:01:00 title = Crno-bijeli svijet
+[  Info  ]       show with ---- start = 22.11.2015. 6:10:00 stop = 22.11.2015. 6:55:00 title = Koncert
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:54:00 stop = 18.11.2015. 16:50:00 title = Pogledi: Mjesto sjećanja Vukovar
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:11:00 stop = 18.11.2015. 16:01:00 title = Crno-bijeli svijet
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:01:00 stop = 18.11.2015. 16:57:00 title = Pogledi: Mjesto sjećanja Vukovar
+[  Info  ]       show with ---- start = 22.11.2015. 6:55:00 stop = 22.11.2015. 7:45:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:50:00 stop = 18.11.2015. 17:37:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:01:00 stop = 18.11.2015. 16:57:00 title = Pogledi: Mjesto sjećanja Vukovar
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:57:00 stop = 18.11.2015. 17:39:00 title = Hrvatska uživo
+[  Info  ]       show with ---- start = 22.11.2015. 7:45:00 stop = 22.11.2015. 9:30:00 title = Saboter
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:37:00 stop = 18.11.2015. 18:09:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:57:00 stop = 18.11.2015. 17:39:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:39:00 stop = 18.11.2015. 18:09:00 title = Život je lijep
+[  Info  ]       show with ---- start = 22.11.2015. 9:30:00 stop = 22.11.2015. 10:00:00 title = Pozitivno
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:09:00 stop = 18.11.2015. 19:51:00 title = Potjera
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:09:00 stop = 18.11.2015. 19:00:00 title = Potjera
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:00:00 stop = 18.11.2015. 19:51:00 title = Dnevnik
+[  Info  ]       show with ---- start = 22.11.2015. 10:00:00 stop = 22.11.2015. 11:00:00 title = Misa
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:55:00 stop = 18.11.2015. 20:04:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:55:00 stop = 18.11.2015. 20:03:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 18.11.2015. 20:03:00 stop = 18.11.2015. 21:49:00 title = Broj 55
+[  Info  ]       show with ---- start = 22.11.2015. 11:00:00 stop = 22.11.2015. 11:45:00 title = Biblija
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 20:04:00 stop = 18.11.2015. 21:49:00 title = Broj 55
-[  Info  ]       Replaces ----- start = 18.11.2015. 20:03:00 stop = 18.11.2015. 21:49:00 title = Broj 55
+[  Info  ]       show with ---- start = 22.11.2015. 11:45:00 stop = 22.11.2015. 12:00:00 title = TV kalendar
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 23:52:00 stop = 19.11.2015. 0:39:00 title = Skrivena Venecija - Obnova i očuvanje
-[  Info  ]       Replaces ----- start = 18.11.2015. 23:52:00 stop = 19.11.2015. 0:40:00 title = Skrivena Venecija - Obnova i očuvanje
+[  Info  ]       show with ---- start = 22.11.2015. 12:00:00 stop = 22.11.2015. 12:15:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 0:39:00 stop = 19.11.2015. 1:31:00 title = Psihološki pristup
-[  Info  ]       Replaces ----- start = 18.11.2015. 23:52:00 stop = 19.11.2015. 0:40:00 title = Skrivena Venecija - Obnova i očuvanje
-[  Info  ]       Replaces ----- start = 19.11.2015. 0:40:00 stop = 19.11.2015. 1:31:00 title = Psihološki pristup
+[  Info  ]       show with ---- start = 22.11.2015. 12:15:00 stop = 22.11.2015. 12:18:00 title = Sport
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 2:19:00 stop = 19.11.2015. 2:46:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 19.11.2015. 2:19:00 stop = 19.11.2015. 2:44:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 19.11.2015. 2:44:00 stop = 19.11.2015. 3:33:00 title = Mjesto sjećanja Vukovar
+[  Info  ]       show with ---- start = 22.11.2015. 12:18:00 stop = 22.11.2015. 12:30:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 2:46:00 stop = 19.11.2015. 3:35:00 title = Mjesto sjećanja Vukovar
-[  Info  ]       Replaces ----- start = 19.11.2015. 2:44:00 stop = 19.11.2015. 3:33:00 title = Mjesto sjećanja Vukovar
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:33:00 stop = 19.11.2015. 3:49:00 title = Skica za portret
+[  Info  ]       show with ---- start = 22.11.2015. 12:30:00 stop = 22.11.2015. 13:25:00 title = Plodovi zemlje
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 3:35:00 stop = 19.11.2015. 3:51:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:33:00 stop = 19.11.2015. 3:49:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:49:00 stop = 19.11.2015. 4:04:00 title = Fotografija u Hrvatskoj
+[  Info  ]       show with ---- start = 22.11.2015. 13:25:00 stop = 22.11.2015. 14:00:00 title = More
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 3:51:00 stop = 19.11.2015. 4:06:00 title = Fotografija u Hrvatskoj
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:49:00 stop = 19.11.2015. 4:04:00 title = Fotografija u Hrvatskoj
-[  Info  ]       Replaces ----- start = 19.11.2015. 4:04:00 stop = 19.11.2015. 5:50:00 title = Osuda
+[  Info  ]       show with ---- start = 22.11.2015. 14:00:00 stop = 22.11.2015. 15:05:00 title = Nedjeljom u dva
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 4:06:00 stop = 19.11.2015. 5:51:00 title = Osuda
-[  Info  ]       Replaces ----- start = 19.11.2015. 4:04:00 stop = 19.11.2015. 5:50:00 title = Osuda
-[  Info  ]       Replaces ----- start = 19.11.2015. 5:50:00 stop = 19.11.2015. 6:41:00 title = Dnevnik
+[  Info  ]       show with ---- start = 22.11.2015. 15:05:00 stop = 22.11.2015. 15:55:00 title = Labirint
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 5:51:00 stop = 19.11.2015. 6:41:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 19.11.2015. 5:50:00 stop = 19.11.2015. 6:41:00 title = Dnevnik
+[  Info  ]       show with ---- start = 22.11.2015. 15:55:00 stop = 22.11.2015. 16:25:00 title = Mir i dobro
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 5:43:00 stop = 20.11.2015. 6:39:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 5:43:00 stop = 20.11.2015. 6:42:00 title = Dnevnik
+[  Info  ]       show with ---- start = 22.11.2015. 16:25:00 stop = 22.11.2015. 17:20:00 title = Mušketiri
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 6:39:00 stop = 20.11.2015. 6:55:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 20.11.2015. 5:43:00 stop = 20.11.2015. 6:42:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:42:00 stop = 20.11.2015. 6:55:00 title = TV kalendar
+[  Info  ]       show with ---- start = 22.11.2015. 19:00:00 stop = 22.11.2015. 19:52:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 9:05:00 stop = 20.11.2015. 9:32:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:05:00 stop = 20.11.2015. 9:30:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:30:00 stop = 20.11.2015. 10:20:00 title = Gorski liječnik
+[  Info  ]       show with ---- start = 22.11.2015. 19:52:00 stop = 22.11.2015. 19:55:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 9:32:00 stop = 20.11.2015. 10:20:00 title = Gorski liječnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:30:00 stop = 20.11.2015. 10:20:00 title = Gorski liječnik
+[  Info  ]       show with ---- start = 22.11.2015. 19:55:00 stop = 22.11.2015. 20:05:00 title = Loto 6/45
+[  Info  ]       Replaces ----- start = 22.11.2015. 3:38:00 stop = 22.11.2015. 20:05:00 title = Normalan život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 10:20:00 stop = 20.11.2015. 11:00:00 title = Skrivena Venecija - Obnova i očuvanje
-[  Info  ]       Replaces ----- start = 20.11.2015. 10:20:00 stop = 20.11.2015. 11:10:00 title = Skrivena Venecija - Obnova i očuvanje
+[  Info  ]       show with ---- start = 22.11.2015. 20:05:00 stop = 22.11.2015. 21:45:00 title = Simon Čudotvorac
+[  Info  ]       Replaces ----- start = 22.11.2015. 20:05:00 stop = 22.11.2015. 22:15:00 title = Pisac iz sjene
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:00:00 stop = 20.11.2015. 11:39:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 20.11.2015. 10:20:00 stop = 20.11.2015. 11:10:00 title = Skrivena Venecija - Obnova i očuvanje
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 11:42:00 title = Riječ i život
+[  Info  ]       show with ---- start = 22.11.2015. 21:45:00 stop = 22.11.2015. 22:40:00 title = Da sam ja netko
+[  Info  ]       Replaces ----- start = 22.11.2015. 20:05:00 stop = 22.11.2015. 22:15:00 title = Pisac iz sjene
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:15:00 stop = 22.11.2015. 22:27:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:27:00 stop = 22.11.2015. 22:32:00 title = Sport
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:32:00 stop = 22.11.2015. 22:35:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:39:00 stop = 20.11.2015. 12:00:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 11:42:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:42:00 stop = 20.11.2015. 12:00:00 title = TV kalendar
+[  Info  ]       show with ---- start = 22.11.2015. 22:40:00 stop = 22.11.2015. 23:15:00 title = Nemoj nikome reći
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 12:18:00 stop = 20.11.2015. 12:26:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:18:00 stop = 20.11.2015. 12:23:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:23:00 stop = 20.11.2015. 13:10:00 title = Dragocjeni biser
+[  Info  ]       show with ---- start = 22.11.2015. 23:15:00 stop = 22.11.2015. 23:27:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 12:26:00 stop = 20.11.2015. 13:17:00 title = Dragocjeni biser
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:23:00 stop = 20.11.2015. 13:10:00 title = Dragocjeni biser
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:10:00 stop = 20.11.2015. 14:00:00 title = Kod doktora
+[  Info  ]       show with ---- start = 22.11.2015. 23:27:00 stop = 22.11.2015. 23:32:00 title = Sport
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:17:00 stop = 20.11.2015. 14:00:00 title = Kod doktora
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:10:00 stop = 20.11.2015. 14:00:00 title = Kod doktora
+[  Info  ]       show with ---- start = 22.11.2015. 23:32:00 stop = 22.11.2015. 23:40:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 14:00:00 stop = 20.11.2015. 14:44:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:00:00 stop = 20.11.2015. 14:45:00 title = Normalan život
+[  Info  ]       show with ---- start = 22.11.2015. 23:40:00 stop = 23.11.2015. 0:40:00 title = Nedjeljom u dva
+[  Info  ]       Replaces ----- start = 22.11.2015. 22:35:00 stop = 23.11.2015. 0:20:00 title = Carstvo ubojica
+[  Info  ]       Replaces ----- start = 23.11.2015. 0:20:00 stop = 23.11.2015. 1:10:00 title = Crna lista
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 14:44:00 stop = 20.11.2015. 15:14:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:00:00 stop = 20.11.2015. 14:45:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:45:00 stop = 20.11.2015. 15:15:00 title = Znanstveni krugovi
+[  Info  ]       show with ---- start = 23.11.2015. 0:40:00 stop = 23.11.2015. 1:15:00 title = Ekonomija &TD
+[  Info  ]       Replaces ----- start = 23.11.2015. 0:20:00 stop = 23.11.2015. 1:10:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 23.11.2015. 1:10:00 stop = 23.11.2015. 2:20:00 title = Šerif iz Dodge Cityja
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 15:14:00 stop = 20.11.2015. 16:01:00 title = Crno-bijeli svijet
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:45:00 stop = 20.11.2015. 15:15:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 20.11.2015. 15:15:00 stop = 20.11.2015. 16:00:00 title = Crno-bijeli svijet
-[  Info  ]       Replaces ----- start = 20.11.2015. 16:00:00 stop = 20.11.2015. 16:53:00 title = Najduži dan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 16:01:00 stop = 20.11.2015. 16:52:00 title = Najduži dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 16:00:00 stop = 20.11.2015. 16:53:00 title = Najduži dan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 16:52:00 stop = 20.11.2015. 17:40:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 20.11.2015. 16:00:00 stop = 20.11.2015. 16:53:00 title = Najduži dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 16:53:00 stop = 20.11.2015. 17:40:00 title = Hrvatska uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 17:40:00 stop = 20.11.2015. 18:13:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 20.11.2015. 17:40:00 stop = 20.11.2015. 18:10:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 20.11.2015. 18:10:00 stop = 20.11.2015. 18:30:00 title = Manjinski Mozaik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 18:13:00 stop = 20.11.2015. 18:30:00 title = Manjinski Mozaik
-[  Info  ]       Replaces ----- start = 20.11.2015. 18:10:00 stop = 20.11.2015. 18:30:00 title = Manjinski Mozaik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 19:57:00 stop = 20.11.2015. 20:04:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 19:57:00 stop = 20.11.2015. 20:05:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 20:04:00 stop = 20.11.2015. 21:43:00 title = Povratak ubojice mekog srca
-[  Info  ]       Replaces ----- start = 20.11.2015. 19:57:00 stop = 20.11.2015. 20:05:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 20:05:00 stop = 20.11.2015. 21:45:00 title = Povratak ubojice mekog srca
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 21:43:00 stop = 20.11.2015. 22:28:00 title = Uvijek kontra
-[  Info  ]       Replaces ----- start = 20.11.2015. 20:05:00 stop = 20.11.2015. 21:45:00 title = Povratak ubojice mekog srca
-[  Info  ]       Replaces ----- start = 20.11.2015. 21:45:00 stop = 20.11.2015. 22:35:00 title = Uvijek kontra
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:28:00 stop = 20.11.2015. 22:43:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 21:45:00 stop = 20.11.2015. 22:35:00 title = Uvijek kontra
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:35:00 stop = 20.11.2015. 22:50:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:43:00 stop = 20.11.2015. 22:47:00 title = Sport
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:35:00 stop = 20.11.2015. 22:50:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:47:00 stop = 20.11.2015. 22:50:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:35:00 stop = 20.11.2015. 22:50:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:50:00 stop = 20.11.2015. 22:59:00 title = Eurojackpot
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:50:00 stop = 20.11.2015. 22:53:00 title = Sport
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:53:00 stop = 20.11.2015. 22:55:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:55:00 stop = 20.11.2015. 23:45:00 title = Crna lista
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:59:00 stop = 20.11.2015. 23:46:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:55:00 stop = 20.11.2015. 23:45:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 20.11.2015. 23:45:00 stop = 21.11.2015. 1:55:00 title = Odabrani
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 23:46:00 stop = 21.11.2015. 1:54:00 title = Odabrani
-[  Info  ]       Replaces ----- start = 20.11.2015. 23:45:00 stop = 21.11.2015. 1:55:00 title = Odabrani
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 1:54:00 stop = 21.11.2015. 2:35:00 title = Kod doktora
-[  Info  ]       Replaces ----- start = 20.11.2015. 23:45:00 stop = 21.11.2015. 1:55:00 title = Odabrani
-[  Info  ]       Replaces ----- start = 21.11.2015. 1:55:00 stop = 21.11.2015. 3:00:00 title = Kod doktora
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 2:35:00 stop = 21.11.2015. 3:01:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 21.11.2015. 1:55:00 stop = 21.11.2015. 3:00:00 title = Kod doktora
-[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:03:00 title = Život je lijep
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 3:01:00 stop = 21.11.2015. 3:33:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:03:00 title = Život je lijep
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 3:33:00 stop = 21.11.2015. 3:37:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:03:00 title = Život je lijep
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 3:37:00 stop = 21.11.2015. 4:37:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:03:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:03:00 stop = 21.11.2015. 4:33:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:33:00 stop = 21.11.2015. 5:03:00 title = Potrošački kod
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 4:37:00 stop = 21.11.2015. 5:07:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:33:00 stop = 21.11.2015. 5:03:00 title = Potrošački kod
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:03:00 stop = 21.11.2015. 5:48:00 title = Dragocjeni biser
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 5:07:00 stop = 21.11.2015. 5:35:00 title = Potrošački kod
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:03:00 stop = 21.11.2015. 5:48:00 title = Dragocjeni biser
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 5:35:00 stop = 21.11.2015. 6:22:00 title = Dragocjeni biser
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:03:00 stop = 21.11.2015. 5:48:00 title = Dragocjeni biser
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:48:00 stop = 21.11.2015. 7:19:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:22:00 stop = 21.11.2015. 7:11:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:48:00 stop = 21.11.2015. 7:19:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:11:00 stop = 21.11.2015. 7:22:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:48:00 stop = 21.11.2015. 7:19:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:19:00 stop = 21.11.2015. 7:32:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:22:00 stop = 21.11.2015. 8:11:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:19:00 stop = 21.11.2015. 7:32:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:32:00 stop = 21.11.2015. 8:20:00 title = Crna lista
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 8:11:00 stop = 21.11.2015. 9:23:00 title = Šerif iz Dodge Cityja
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:32:00 stop = 21.11.2015. 8:20:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:20:00 stop = 21.11.2015. 9:30:00 title = Šerif iz Dodge Cityja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 9:23:00 stop = 21.11.2015. 9:57:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:20:00 stop = 21.11.2015. 9:30:00 title = Šerif iz Dodge Cityja
-[  Info  ]       Replaces ----- start = 21.11.2015. 9:30:00 stop = 21.11.2015. 10:00:00 title = Duhovni izazovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 9:57:00 stop = 21.11.2015. 10:42:00 title = Prizma
-[  Info  ]       Replaces ----- start = 21.11.2015. 9:30:00 stop = 21.11.2015. 10:00:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 21.11.2015. 10:00:00 stop = 21.11.2015. 10:45:00 title = Prizma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 10:42:00 stop = 21.11.2015. 11:00:00 title = Hrvatska kulturna baština
-[  Info  ]       Replaces ----- start = 21.11.2015. 10:00:00 stop = 21.11.2015. 10:45:00 title = Prizma
-[  Info  ]       Replaces ----- start = 21.11.2015. 10:45:00 stop = 21.11.2015. 11:00:00 title = Hrvatska kulturna baština
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 11:00:00 stop = 21.11.2015. 11:40:00 title = Uvijek kontra
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:00:00 stop = 21.11.2015. 11:42:00 title = Uvijek kontra
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 11:40:00 stop = 21.11.2015. 12:00:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:00:00 stop = 21.11.2015. 11:42:00 title = Uvijek kontra
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:42:00 stop = 21.11.2015. 12:00:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 12:18:00 stop = 21.11.2015. 12:24:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:18:00 stop = 21.11.2015. 12:25:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 12:24:00 stop = 21.11.2015. 13:09:00 title = Veterani mira
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:18:00 stop = 21.11.2015. 12:25:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:25:00 stop = 21.11.2015. 13:10:00 title = Veterani mira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 13:09:00 stop = 21.11.2015. 13:16:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:25:00 stop = 21.11.2015. 13:10:00 title = Veterani mira
-[  Info  ]       Replaces ----- start = 21.11.2015. 13:10:00 stop = 21.11.2015. 14:15:00 title = Apokalipsa: Prvi svjetski rat
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 13:16:00 stop = 21.11.2015. 14:18:00 title = Apokalipsa: Prvi svjetski rat
-[  Info  ]       Replaces ----- start = 21.11.2015. 13:10:00 stop = 21.11.2015. 14:15:00 title = Apokalipsa: Prvi svjetski rat
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:15:00 stop = 21.11.2015. 15:25:00 title = Top Gear
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 14:18:00 stop = 21.11.2015. 15:21:00 title = Top Gear
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:15:00 stop = 21.11.2015. 15:25:00 title = Top Gear
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 15:21:00 stop = 21.11.2015. 16:00:00 title = Ni krivi ni dužni
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:15:00 stop = 21.11.2015. 15:25:00 title = Top Gear
-[  Info  ]       Replaces ----- start = 21.11.2015. 15:25:00 stop = 21.11.2015. 16:00:00 title = Ni krivi ni dužni
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 17:38:00 title = Povratak ubojice mekog srca
-[  Info  ]       Replaces ----- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 17:40:00 title = Povratak ubojice mekog srca
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 17:38:00 stop = 21.11.2015. 19:00:00 title = Lijepom našom
-[  Info  ]       Replaces ----- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 17:40:00 title = Povratak ubojice mekog srca
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:40:00 stop = 21.11.2015. 19:00:00 title = Lijepom našom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 19:00:00 stop = 21.11.2015. 19:51:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:00:00 stop = 21.11.2015. 19:52:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 19:51:00 stop = 21.11.2015. 19:55:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:00:00 stop = 21.11.2015. 19:52:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:52:00 stop = 21.11.2015. 19:55:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 19:55:00 stop = 21.11.2015. 20:04:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 20:04:00 stop = 21.11.2015. 22:13:00 title = Pisac iz sjene
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:13:00 stop = 21.11.2015. 22:23:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:23:00 stop = 21.11.2015. 22:29:00 title = Sport
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:29:00 stop = 21.11.2015. 22:39:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:39:00 stop = 22.11.2015. 0:26:00 title = Carstvo ubojica
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 0:26:00 stop = 22.11.2015. 1:11:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 1:11:00 stop = 22.11.2015. 2:21:00 title = Šerif iz Dodge Cityja
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 2:21:00 stop = 22.11.2015. 2:22:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 2:22:00 stop = 22.11.2015. 2:50:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 21.11.2015. 19:55:00 stop = 22.11.2015. 2:35:00 title = Loto 7/39
-[  Info  ]       Replaces ----- start = 22.11.2015. 2:35:00 stop = 22.11.2015. 3:33:00 title = Vita jela, zelen bor
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 2:50:00 stop = 22.11.2015. 3:05:00 title = Hrvatska kulturna baština
-[  Info  ]       Replaces ----- start = 22.11.2015. 2:35:00 stop = 22.11.2015. 3:33:00 title = Vita jela, zelen bor
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 22.11.2015. 3:05:00 stop = 22.11.2015. 3:35:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 22.11.2015. 2:35:00 stop = 22.11.2015. 3:33:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 22.11.2015. 3:33:00 stop = 22.11.2015. 3:38:00 title = Reprizni program
+[  Info  ]       show with ---- start = 23.11.2015. 1:15:00 stop = 23.11.2015. 3:00:00 title = Saboter
+[  Info  ]       Replaces ----- start = 23.11.2015. 1:10:00 stop = 23.11.2015. 2:20:00 title = Šerif iz Dodge Cityja
+[  Info  ]       Replaces ----- start = 23.11.2015. 2:20:00 stop = 23.11.2015. 3:13:00 title = Reprizni program
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/40  ) PORT.HR -- chan. (xmltv_id=HRT 2) -- mode incremental
-[  Error ] no shows in indexpage!
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 6:01:00 stop = 18.11.2015. 6:03:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:01:00 stop = 18.11.2015. 6:02:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:02:00 stop = 18.11.2015. 6:11:00 title = Moomini
+[  Info  ]       show with ---- start = 19.11.2015. 19:37:00 stop = 19.11.2015. 20:15:00 title = Bitange i princeze
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 6:03:00 stop = 18.11.2015. 6:11:00 title = Moomini
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:02:00 stop = 18.11.2015. 6:11:00 title = Moomini
+[  Info  ]       show with ---- start = 19.11.2015. 20:15:00 stop = 19.11.2015. 21:02:00 title = Život na Arktičkom krugu
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 6:40:00 stop = 18.11.2015. 6:42:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:40:00 stop = 18.11.2015. 6:41:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:41:00 stop = 18.11.2015. 6:53:00 title = Zvonko
+[  Info  ]       show with ---- start = 19.11.2015. 21:02:00 stop = 19.11.2015. 21:09:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 6:42:00 stop = 18.11.2015. 6:53:00 title = Zvonko
-[  Info  ]       Replaces ----- start = 18.11.2015. 6:41:00 stop = 18.11.2015. 6:53:00 title = Zvonko
+[  Info  ]       show with ---- start = 19.11.2015. 21:09:00 stop = 19.11.2015. 23:11:00 title = Uljez
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:06:00 stop = 18.11.2015. 7:08:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:06:00 stop = 18.11.2015. 7:07:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:07:00 stop = 18.11.2015. 7:15:00 title = I to je to
+[  Info  ]       show with ---- start = 19.11.2015. 23:11:00 stop = 19.11.2015. 23:56:00 title = CSI: Las Vegas
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:08:00 stop = 18.11.2015. 7:16:00 title = I to je to
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:07:00 stop = 18.11.2015. 7:15:00 title = I to je to
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:15:00 stop = 18.11.2015. 7:21:00 title = Danica
+[  Info  ]       show with ---- start = 19.11.2015. 23:56:00 stop = 20.11.2015. 0:38:00 title = Zakon i red: Odjel za žrtve
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:16:00 stop = 18.11.2015. 7:22:00 title = Danica
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:15:00 stop = 18.11.2015. 7:21:00 title = Danica
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:21:00 stop = 18.11.2015. 7:33:00 title = TV vrtić
+[  Info  ]       show with ---- start = 20.11.2015. 0:38:00 stop = 20.11.2015. 1:20:00 title = Skladište 13
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:22:00 stop = 18.11.2015. 7:33:00 title = TV vrtić
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:21:00 stop = 18.11.2015. 7:33:00 title = TV vrtić
+[  Info  ]       show with ---- start = 20.11.2015. 1:20:00 stop = 20.11.2015. 2:44:00 title = Obiteljske igre na škotski način
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:33:00 stop = 18.11.2015. 7:35:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:33:00 stop = 18.11.2015. 7:34:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:34:00 stop = 18.11.2015. 8:00:00 title = Hello Kitty i prijatelji
+[  Info  ]       show with ---- start = 20.11.2015. 2:44:00 stop = 20.11.2015. 5:52:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:37:00 stop = 20.11.2015. 5:52:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 7:35:00 stop = 18.11.2015. 8:01:00 title = Hello Kitty i prijatelji
-[  Info  ]       Replaces ----- start = 18.11.2015. 7:34:00 stop = 18.11.2015. 8:00:00 title = Hello Kitty i prijatelji
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:00:00 stop = 18.11.2015. 8:14:00 title = Tajni dnevnik patke Matilde
+[  Info  ]       show with ---- start = 20.11.2015. 19:25:00 stop = 20.11.2015. 20:05:00 title = Bitange i princeze
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:01:00 stop = 18.11.2015. 8:15:00 title = Tajni dnevnik patke Matilde
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:00:00 stop = 18.11.2015. 8:14:00 title = Tajni dnevnik patke Matilde
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:14:00 stop = 18.11.2015. 8:21:00 title = Pssst... priča!
+[  Info  ]       show with ---- start = 20.11.2015. 20:05:00 stop = 20.11.2015. 21:51:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:15:00 stop = 18.11.2015. 8:21:00 title = Pssst... priča!
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:14:00 stop = 18.11.2015. 8:21:00 title = Pssst... priča!
+[  Info  ]       show with ---- start = 20.11.2015. 21:51:00 stop = 20.11.2015. 21:59:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:21:00 stop = 18.11.2015. 8:23:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:21:00 stop = 18.11.2015. 8:22:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:22:00 stop = 18.11.2015. 8:34:00 title = Moj mali poni
+[  Info  ]       show with ---- start = 20.11.2015. 21:59:00 stop = 20.11.2015. 23:38:00 title = Lewis
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:23:00 stop = 18.11.2015. 8:35:00 title = Moj mali poni
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:22:00 stop = 18.11.2015. 8:34:00 title = Moj mali poni
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:34:00 stop = 18.11.2015. 8:36:00 title = Juhuhu
+[  Info  ]       show with ---- start = 20.11.2015. 23:38:00 stop = 21.11.2015. 0:40:00 title = Nestanak
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:35:00 stop = 18.11.2015. 8:37:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:34:00 stop = 18.11.2015. 8:36:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:36:00 stop = 18.11.2015. 8:44:00 title = Fungi
+[  Info  ]       show with ---- start = 21.11.2015. 0:40:00 stop = 21.11.2015. 1:39:00 title = Sinovi anarhije
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:37:00 stop = 18.11.2015. 8:45:00 title = Fungi
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:36:00 stop = 18.11.2015. 8:44:00 title = Fungi
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:44:00 stop = 18.11.2015. 8:54:00 title = Vedranovi velikani
+[  Info  ]       show with ---- start = 21.11.2015. 1:39:00 stop = 21.11.2015. 3:08:00 title = Hongkonška veza
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:45:00 stop = 18.11.2015. 8:55:00 title = Vedranovi velikani
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:44:00 stop = 18.11.2015. 8:54:00 title = Vedranovi velikani
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:54:00 stop = 18.11.2015. 9:04:00 title = Edo i Medo
+[  Info  ]       show with ---- start = 21.11.2015. 3:08:00 stop = 21.11.2015. 5:02:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:25:00 stop = 21.11.2015. 5:02:00 title = Bitange i princeze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 9:05:00 title = Edo i Medo
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:54:00 stop = 18.11.2015. 9:04:00 title = Edo i Medo
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:04:00 stop = 18.11.2015. 9:09:00 title = Nestašne životinje
+[  Info  ]       show with ---- start = 21.11.2015. 7:14:00 stop = 21.11.2015. 7:41:00 title = Vlak dinosaura
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:14:00 stop = 21.11.2015. 7:20:00 title = Danica
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:20:00 stop = 21.11.2015. 7:21:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:21:00 stop = 21.11.2015. 7:41:00 title = Vlak dinosaura
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:10:00 stop = 18.11.2015. 9:25:00 title = Andyjeve divlje pustolovine
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:09:00 stop = 18.11.2015. 9:24:00 title = Andyjeve divlje pustolovine
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:24:00 stop = 18.11.2015. 9:33:00 title = Vidrić
+[  Info  ]       show with ---- start = 21.11.2015. 7:41:00 stop = 21.11.2015. 7:52:00 title = Mali crveni traktor
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:41:00 stop = 21.11.2015. 7:42:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:42:00 stop = 21.11.2015. 7:56:00 title = Mali crveni traktor
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:25:00 stop = 18.11.2015. 9:34:00 title = Vidrić
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:24:00 stop = 18.11.2015. 9:33:00 title = Vidrić
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:33:00 stop = 18.11.2015. 9:59:00 title = David Attenborough: Čuda prirode
+[  Info  ]       show with ---- start = 21.11.2015. 7:52:00 stop = 21.11.2015. 7:53:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:42:00 stop = 21.11.2015. 7:56:00 title = Mali crveni traktor
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:34:00 stop = 18.11.2015. 9:59:00 title = David Attenborough: Čuda prirode
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:33:00 stop = 18.11.2015. 9:59:00 title = David Attenborough: Čuda prirode
+[  Info  ]       show with ---- start = 21.11.2015. 7:53:00 stop = 21.11.2015. 8:17:00 title = Pčelica Maja
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:42:00 stop = 21.11.2015. 7:56:00 title = Mali crveni traktor
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:56:00 stop = 21.11.2015. 7:57:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:57:00 stop = 21.11.2015. 8:18:00 title = Pčelica Maja
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:59:00 stop = 18.11.2015. 10:46:00 title = Phil Spencer: Tajni agent za nekretnine
-[  Info  ]       Replaces ----- start = 18.11.2015. 9:59:00 stop = 18.11.2015. 10:45:00 title = Phil Spencer: Tajni agent za nekretnine
-[  Info  ]       Replaces ----- start = 18.11.2015. 10:45:00 stop = 18.11.2015. 11:31:00 title = Heartland
+[  Info  ]       show with ---- start = 21.11.2015. 8:17:00 stop = 21.11.2015. 8:27:00 title = Mali roboti
+[  Info  ]       Replaces ----- start = 21.11.2015. 7:57:00 stop = 21.11.2015. 8:18:00 title = Pčelica Maja
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:18:00 stop = 21.11.2015. 8:19:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:19:00 stop = 21.11.2015. 8:29:00 title = Mali roboti
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 10:46:00 stop = 18.11.2015. 11:32:00 title = Heartland
-[  Info  ]       Replaces ----- start = 18.11.2015. 10:45:00 stop = 18.11.2015. 11:31:00 title = Heartland
-[  Info  ]       Replaces ----- start = 18.11.2015. 11:31:00 stop = 18.11.2015. 12:25:00 title = Čarolija
+[  Info  ]       show with ---- start = 21.11.2015. 8:31:00 stop = 21.11.2015. 8:41:00 title = Profesor Baltazar
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:30:00 stop = 21.11.2015. 8:35:00 title = Lein kutak: Jaje...ili kako odvojiti žutanjak
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:35:00 stop = 21.11.2015. 8:36:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:36:00 stop = 21.11.2015. 8:47:00 title = Profesor Baltazar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 11:32:00 stop = 18.11.2015. 12:26:00 title = Čarolija
-[  Info  ]       Replaces ----- start = 18.11.2015. 11:31:00 stop = 18.11.2015. 12:25:00 title = Čarolija
-[  Info  ]       Replaces ----- start = 18.11.2015. 12:25:00 stop = 18.11.2015. 12:49:00 title = Novi Zeland s Nadiom Lim
+[  Info  ]       show with ---- start = 21.11.2015. 8:41:00 stop = 21.11.2015. 8:46:00 title = Ninin kutak
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:36:00 stop = 21.11.2015. 8:47:00 title = Profesor Baltazar
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 12:26:00 stop = 18.11.2015. 12:49:00 title = Novi Zeland s Nadiom Lim
-[  Info  ]       Replaces ----- start = 18.11.2015. 12:25:00 stop = 18.11.2015. 12:49:00 title = Novi Zeland s Nadiom Lim
+[  Info  ]       show with ---- start = 21.11.2015. 8:46:00 stop = 21.11.2015. 8:53:00 title = Sara i patka
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:36:00 stop = 21.11.2015. 8:47:00 title = Profesor Baltazar
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:47:00 stop = 21.11.2015. 8:48:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:48:00 stop = 21.11.2015. 8:53:00 title = Ninin kutak
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 12:49:00 stop = 18.11.2015. 13:45:00 title = Posljednji tango u Halifaxu
-[  Info  ]       Replaces ----- start = 18.11.2015. 12:49:00 stop = 18.11.2015. 15:12:00 title = Posljednji tango u Halifaxu
+[  Info  ]       show with ---- start = 21.11.2015. 8:53:00 stop = 21.11.2015. 8:55:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:53:00 stop = 21.11.2015. 8:54:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:54:00 stop = 21.11.2015. 9:05:00 title = Sara i patka
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 13:45:00 stop = 18.11.2015. 15:13:00 title = Ubojiti tornado
-[  Info  ]       Replaces ----- start = 18.11.2015. 12:49:00 stop = 18.11.2015. 15:12:00 title = Posljednji tango u Halifaxu
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:12:00 stop = 18.11.2015. 16:00:00 title = Mijenjam dom
+[  Info  ]       show with ---- start = 21.11.2015. 8:55:00 stop = 21.11.2015. 9:04:00 title = Laboratorij na kraju svemira
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:54:00 stop = 21.11.2015. 9:05:00 title = Sara i patka
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:13:00 stop = 18.11.2015. 16:00:00 title = Mijenjam dom
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:12:00 stop = 18.11.2015. 16:00:00 title = Mijenjam dom
+[  Info  ]       show with ---- start = 21.11.2015. 9:04:00 stop = 21.11.2015. 9:23:00 title = Čarobna ploča
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:54:00 stop = 21.11.2015. 9:05:00 title = Sara i patka
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:05:00 stop = 21.11.2015. 9:06:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:06:00 stop = 21.11.2015. 9:15:00 title = Laboratorij na kraju svemira
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:15:00 stop = 21.11.2015. 9:16:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:16:00 stop = 21.11.2015. 9:29:00 title = Čarobna ploča
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:43:00 stop = 18.11.2015. 18:04:00 title = Stipe u gostima
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:43:00 stop = 18.11.2015. 17:16:00 title = Stipe u gostima
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:16:00 stop = 18.11.2015. 18:05:00 title = Kruške i jabuke
+[  Info  ]       show with ---- start = 21.11.2015. 9:23:00 stop = 21.11.2015. 9:57:00 title = Babybonus
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:16:00 stop = 21.11.2015. 9:29:00 title = Čarobna ploča
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:29:00 stop = 21.11.2015. 9:35:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:35:00 stop = 21.11.2015. 10:10:00 title = Babybonus
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:04:00 stop = 18.11.2015. 18:35:00 title = Zavirimo u tuđi dom
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:16:00 stop = 18.11.2015. 18:05:00 title = Kruške i jabuke
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:05:00 stop = 18.11.2015. 18:35:00 title = Zavirimo u tuđi dom
+[  Info  ]       show with ---- start = 21.11.2015. 9:57:00 stop = 21.11.2015. 11:42:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:35:00 stop = 21.11.2015. 10:10:00 title = Babybonus
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:10:00 stop = 21.11.2015. 11:45:00 title = Umorstva u Midsomeru
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:59:00 stop = 18.11.2015. 19:29:00 title = Velikani sporta
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:59:00 stop = 18.11.2015. 19:28:00 title = Velikani sporta
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:28:00 stop = 19.11.2015. 6:01:00 title = Bitange i princeze
+[  Info  ]       show with ---- start = 21.11.2015. 11:42:00 stop = 21.11.2015. 12:36:00 title = Trilogija o bečkom Ringu
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:10:00 stop = 21.11.2015. 11:45:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:45:00 stop = 21.11.2015. 12:40:00 title = Trilogija o bečkom Ringu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:29:00 stop = 19.11.2015. 6:01:00 title = Bitange i princeze
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:28:00 stop = 19.11.2015. 6:01:00 title = Bitange i princeze
+[  Info  ]       show with ---- start = 21.11.2015. 12:36:00 stop = 21.11.2015. 13:04:00 title = Neodoljive slastice Rachel Allen
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:45:00 stop = 21.11.2015. 12:40:00 title = Trilogija o bečkom Ringu
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:40:00 stop = 21.11.2015. 13:10:00 title = Neodoljive slastice Rachel Allen
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:01:00 stop = 21.11.2015. 6:06:00 title = Tonko Bonko
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:01:00 stop = 21.11.2015. 6:12:00 title = Moomini
+[  Info  ]       show with ---- start = 21.11.2015. 13:04:00 stop = 21.11.2015. 14:03:00 title = Italijo, ljubavi moja
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:40:00 stop = 21.11.2015. 13:10:00 title = Neodoljive slastice Rachel Allen
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:10:00 stop = 21.11.2015. 14:10:00 title = Italijo, ljubavi moja
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:10:00 stop = 21.11.2015. 6:32:00 title = Dvorac igračaka
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:01:00 stop = 21.11.2015. 6:12:00 title = Moomini
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:12:00 stop = 21.11.2015. 6:13:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:13:00 stop = 21.11.2015. 6:39:00 title = Dvorac igračaka
+[  Info  ]       show with ---- start = 21.11.2015. 14:03:00 stop = 21.11.2015. 15:26:00 title = Banneri ponovno na okupu
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:10:00 stop = 21.11.2015. 14:10:00 title = Italijo, ljubavi moja
+[  Info  ]       Replaces ----- start = 21.11.2015. 14:10:00 stop = 21.11.2015. 15:35:00 title = Banneri ponovno na okupu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:32:00 stop = 21.11.2015. 6:33:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:13:00 stop = 21.11.2015. 6:39:00 title = Dvorac igračaka
+[  Info  ]       show with ---- start = 21.11.2015. 15:26:00 stop = 21.11.2015. 16:05:00 title = Jednostavna jela Rachel Allen
+[  Info  ]       Replaces ----- start = 21.11.2015. 14:10:00 stop = 21.11.2015. 15:35:00 title = Banneri ponovno na okupu
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:35:00 stop = 21.11.2015. 16:05:00 title = Jednostavna jela Rachel Allen
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:33:00 stop = 21.11.2015. 6:43:00 title = Tobijin putujući cirkus
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:13:00 stop = 21.11.2015. 6:39:00 title = Dvorac igračaka
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:39:00 stop = 21.11.2015. 6:40:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:40:00 stop = 21.11.2015. 6:50:00 title = Tobijin putujući cirkus
+[  Info  ]       show with ---- start = 21.11.2015. 17:00:00 stop = 21.11.2015. 17:32:00 title = Emocije - sluge i gospodari
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:00:00 stop = 21.11.2015. 17:30:00 title = Moć boja
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:30:00 stop = 21.11.2015. 18:25:00 title = Mapp i Lucia
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:43:00 stop = 21.11.2015. 6:45:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:40:00 stop = 21.11.2015. 6:50:00 title = Tobijin putujući cirkus
+[  Info  ]       show with ---- start = 21.11.2015. 17:32:00 stop = 21.11.2015. 18:26:00 title = Mapp i Lucia
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:30:00 stop = 21.11.2015. 18:25:00 title = Mapp i Lucia
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:25:00 stop = 21.11.2015. 18:55:00 title = Kuhajmo kao Heston
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:45:00 stop = 21.11.2015. 6:56:00 title = Tomica i prijatelji
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:40:00 stop = 21.11.2015. 6:50:00 title = Tobijin putujući cirkus
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:50:00 stop = 21.11.2015. 6:51:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:51:00 stop = 21.11.2015. 7:04:00 title = Tomica i prijatelji
+[  Info  ]       show with ---- start = 21.11.2015. 18:26:00 stop = 21.11.2015. 18:55:00 title = Kuhajmo kao Heston
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:25:00 stop = 21.11.2015. 18:55:00 title = Kuhajmo kao Heston
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:56:00 stop = 21.11.2015. 6:58:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:51:00 stop = 21.11.2015. 7:04:00 title = Tomica i prijatelji
+[  Info  ]       show with ---- start = 21.11.2015. 18:55:00 stop = 21.11.2015. 20:34:00 title = Rukomet - Liga prvaka
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:55:00 stop = 21.11.2015. 20:30:00 title = Rukomet - Liga prvaka
+[  Info  ]       Replaces ----- start = 21.11.2015. 20:30:00 stop = 21.11.2015. 21:45:00 title = Derren Brown: Velika krađa umjetnina
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:58:00 stop = 21.11.2015. 7:07:00 title = I to je to
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:51:00 stop = 21.11.2015. 7:04:00 title = Tomica i prijatelji
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:04:00 stop = 21.11.2015. 7:05:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:05:00 stop = 21.11.2015. 7:13:00 title = I to je to
+[  Info  ]       show with ---- start = 21.11.2015. 20:34:00 stop = 21.11.2015. 21:46:00 title = Derren Brown: Velika krađa umjetnina
+[  Info  ]       Replaces ----- start = 21.11.2015. 20:30:00 stop = 21.11.2015. 21:45:00 title = Derren Brown: Velika krađa umjetnina
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:45:00 stop = 21.11.2015. 21:55:00 title = Vrijeme
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:07:00 stop = 21.11.2015. 7:12:00 title = Danica
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:05:00 stop = 21.11.2015. 7:13:00 title = I to je to
+[  Info  ]       show with ---- start = 21.11.2015. 21:46:00 stop = 21.11.2015. 21:53:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:45:00 stop = 21.11.2015. 21:55:00 title = Vrijeme
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:12:00 stop = 21.11.2015. 7:14:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:05:00 stop = 21.11.2015. 7:13:00 title = I to je to
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:13:00 stop = 21.11.2015. 7:14:00 title = Juhuhu
-[  Debug ]    skipped : no value for starttime
-[  Debug ]    skipped show without a title at 21.11.2015. 7:12:00
+[  Info  ]       show with ---- start = 21.11.2015. 21:53:00 stop = 21.11.2015. 22:45:00 title = Graham Norton i gosti
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:45:00 stop = 21.11.2015. 21:55:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:55:00 stop = 21.11.2015. 22:45:00 title = Graham Norton i gosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 22:45:00 stop = 21.11.2015. 23:50:00 title = Pripravnik
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:45:00 stop = 21.11.2015. 23:45:00 title = Pripravnik
+[  Info  ]       Replaces ----- start = 21.11.2015. 23:45:00 stop = 22.11.2015. 0:40:00 title = Carstvo poroka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 23:50:00 stop = 22.11.2015. 0:46:00 title = Carstvo poroka
+[  Info  ]       Replaces ----- start = 21.11.2015. 23:45:00 stop = 22.11.2015. 0:40:00 title = Carstvo poroka
+[  Info  ]       Replaces ----- start = 22.11.2015. 0:40:00 stop = 22.11.2015. 2:05:00 title = Banneri ponovno na okupu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22.11.2015. 0:46:00 stop = 22.11.2015. 2:07:00 title = Banneri ponovno na okupu
+[  Info  ]       Replaces ----- start = 22.11.2015. 0:40:00 stop = 22.11.2015. 2:05:00 title = Banneri ponovno na okupu
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/40  ) PORT.HR -- chan. (xmltv_id=HRT 3) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 9:45:00 title = Portret gospođe Yuki
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 10:22:00 title = Portret gospođe Yuki
+[  Info  ]       show with ---- start = 21.11.2015. 1:50:00 stop = 21.11.2015. 6:15:00 title = Koncert
+[  Info  ]       Replaces ----- start = 21.11.2015. 1:50:00 stop = 21.11.2015. 6:10:00 title = Koncert
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:10:00 stop = 21.11.2015. 7:00:00 title = Srdačno vaši
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:45:00 stop = 18.11.2015. 10:22:00 title = Nazovi 112
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 10:22:00 title = Portret gospođe Yuki
+[  Info  ]       show with ---- start = 21.11.2015. 6:15:00 stop = 21.11.2015. 7:00:00 title = Srdačno vaši
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:10:00 stop = 21.11.2015. 7:00:00 title = Srdačno vaši
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:26:00 stop = 18.11.2015. 17:01:00 title = David Attenborough: Čuda prirode
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:26:00 stop = 18.11.2015. 14:50:00 title = David Attenborough: Čuda prirode
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:50:00 stop = 18.11.2015. 17:01:00 title = Prošlost
+[  Info  ]       show with ---- start = 21.11.2015. 9:20:00 stop = 21.11.2015. 9:57:00 title = Nazovi 112
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:20:00 stop = 21.11.2015. 9:57:00 title = Dokumentarna serija - domaća
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 1:17:00 stop = 20.11.2015. 6:15:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 20.11.2015. 1:17:00 stop = 20.11.2015. 6:10:00 title = Vrijeme je za jazz
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:10:00 stop = 20.11.2015. 7:00:00 title = Srdačno vaši
+[  Info  ]       show with ---- start = 21.11.2015. 11:40:00 stop = 21.11.2015. 12:00:00 title = Kokice
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:40:00 stop = 21.11.2015. 11:55:00 title = Krila nade, izraelski dokumentarni film za djecu
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:55:00 stop = 21.11.2015. 12:15:00 title = Kokice
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 6:15:00 stop = 20.11.2015. 7:00:00 title = Srdačno vaši
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:10:00 stop = 20.11.2015. 7:00:00 title = Srdačno vaši
+[  Info  ]       show with ---- start = 21.11.2015. 12:00:00 stop = 21.11.2015. 12:50:00 title = ni DA ni NE
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:55:00 stop = 21.11.2015. 12:15:00 title = Kokice
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:15:00 stop = 21.11.2015. 13:05:00 title = ni DA ni NE
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 8:20:00 stop = 20.11.2015. 10:05:00 title = Protivnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 8:20:00 stop = 20.11.2015. 10:10:00 title = Protivnik
+[  Info  ]       show with ---- start = 21.11.2015. 12:50:00 stop = 21.11.2015. 13:20:00 title = Majstori svirači
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:15:00 stop = 21.11.2015. 13:05:00 title = ni DA ni NE
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:05:00 stop = 21.11.2015. 13:35:00 title = Majstori svirači
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 14:30:00 stop = 20.11.2015. 15:05:00 title = Ljudi koji mijenjaju vrijeme
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:30:00 stop = 20.11.2015. 15:05:00 title = Dokumentarna emisija
+[  Info  ]       show with ---- start = 21.11.2015. 13:20:00 stop = 21.11.2015. 14:05:00 title = Vukovarski Poliptih
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:05:00 stop = 21.11.2015. 13:35:00 title = Majstori svirači
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:35:00 stop = 21.11.2015. 14:10:00 title = Dokumentarni film - domaći (Domovinski rat)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 16:50:00 stop = 20.11.2015. 17:15:00 title = Od Eritreje do Šašine Grede
-[  Info  ]       Replaces ----- start = 20.11.2015. 16:50:00 stop = 20.11.2015. 17:15:00 title = Dokumentarni film - domaći
+[  Info  ]       show with ---- start = 21.11.2015. 14:05:00 stop = 21.11.2015. 15:20:00 title = Kako zaslužiti kraljevnu
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:35:00 stop = 21.11.2015. 14:10:00 title = Dokumentarni film - domaći (Domovinski rat)
+[  Info  ]       Replaces ----- start = 21.11.2015. 14:10:00 stop = 21.11.2015. 15:25:00 title = Kako zaslužiti kraljevnu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 17:15:00 stop = 20.11.2015. 18:00:00 title = Život na Arktičkom krugu
-[  Info  ]       Replaces ----- start = 20.11.2015. 17:15:00 stop = 20.11.2015. 18:00:00 title = Dokumentarni film - strani
+[  Info  ]       show with ---- start = 21.11.2015. 15:20:00 stop = 21.11.2015. 15:35:00 title = Fotografija u Hrvatskoj
+[  Info  ]       Replaces ----- start = 21.11.2015. 14:10:00 stop = 21.11.2015. 15:25:00 title = Kako zaslužiti kraljevnu
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:25:00 stop = 21.11.2015. 15:40:00 title = Fotografija u Hrvatskoj
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 20:00:00 stop = 20.11.2015. 20:56:00 title = Grad po mjeri čovjeka
-[  Info  ]       Replaces ----- start = 20.11.2015. 20:00:00 stop = 20.11.2015. 20:50:00 title = Dokumentarni film - strani
-[  Info  ]       Replaces ----- start = 20.11.2015. 20:50:00 stop = 20.11.2015. 20:56:00 title = Klasici narodu
+[  Info  ]       show with ---- start = 21.11.2015. 15:35:00 stop = 21.11.2015. 16:35:00 title = Grad po mjeri čovjeka
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:25:00 stop = 21.11.2015. 15:40:00 title = Fotografija u Hrvatskoj
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:40:00 stop = 21.11.2015. 16:30:00 title = Dokumentari film - strani
+[  Info  ]       Replaces ----- start = 21.11.2015. 16:30:00 stop = 21.11.2015. 16:35:00 title = Klasici narodu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 20:56:00 stop = 20.11.2015. 21:01:00 title = Klasici narodu
-[  Info  ]       Replaces ----- start = 20.11.2015. 20:56:00 stop = 20.11.2015. 21:05:00 title = Prekid programa zbog čitanja
+[  Info  ]       show with ---- start = 21.11.2015. 16:35:00 stop = 21.11.2015. 16:40:00 title = Klasici narodu
+[  Info  ]       Replaces ----- start = 21.11.2015. 16:35:00 stop = 21.11.2015. 16:45:00 title = Prekid programa zbog čitanja
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 21:10:00 stop = 20.11.2015. 22:10:00 title = Peti dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 21:05:00 stop = 20.11.2015. 22:05:00 title = Peti dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:05:00 stop = 20.11.2015. 22:15:00 title = Carpe diem
+[  Info  ]       show with ---- start = 21.11.2015. 16:50:00 stop = 21.11.2015. 17:45:00 title = Živjeti u velegradu
+[  Info  ]       Replaces ----- start = 21.11.2015. 16:45:00 stop = 21.11.2015. 17:45:00 title = Živjeti u velegradu
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:10:00 stop = 20.11.2015. 22:20:00 title = Carpe diem
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:05:00 stop = 20.11.2015. 22:15:00 title = Carpe diem
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:15:00 stop = 20.11.2015. 22:30:00 title = Zagrebačke priče 2
+[  Info  ]       show with ---- start = 21.11.2015. 18:50:00 stop = 21.11.2015. 19:36:00 title = Koncert
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:50:00 stop = 21.11.2015. 20:00:00 title = Koncert
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21.11.2015. 20:00:00 stop = 21.11.2015. 20:58:00 title = Antologija dramskog programa: Kuda idu divlje svinje
+[  Info  ]       Added before - start = 21.11.2015. 20:58:00 stop = 21.11.2015. 22:05:00 title = Teatar osobno
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:20:00 stop = 20.11.2015. 22:37:00 title = Zagrebačke priče 2
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:15:00 stop = 20.11.2015. 22:30:00 title = Zagrebačke priče 2
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:30:00 stop = 21.11.2015. 0:05:00 title = Deveti dan
+[  Info  ]       show with ---- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 22:59:00 title = Zagrebačke priče 2
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:10:00 title = Zagrebačke priče 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 22:37:00 stop = 21.11.2015. 0:12:00 title = Deveti dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 22:30:00 stop = 21.11.2015. 0:05:00 title = Deveti dan
-[  Info  ]       Replaces ----- start = 21.11.2015. 0:05:00 stop = 21.11.2015. 1:45:00 title = Posljednji Elvis
+[  Info  ]       show with ---- start = 21.11.2015. 22:59:00 stop = 21.11.2015. 23:05:00 title = Zagreb film festival 2015. - Kronike
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:59:00 stop = 22.11.2015. 1:05:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:10:00 title = Zagrebačke priče 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 0:12:00 stop = 21.11.2015. 1:40:00 title = Posljednji Elvis
-[  Info  ]       Replaces ----- start = 21.11.2015. 0:05:00 stop = 21.11.2015. 1:45:00 title = Posljednji Elvis
+[  Info  ]       show with ---- start = 21.11.2015. 23:05:00 stop = 21.11.2015. 23:15:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:59:00 stop = 22.11.2015. 1:05:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:10:00 title = Zagrebačke priče 2
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 1:40:00 stop = 21.11.2015. 1:50:00 title = Carpe diem
-[  Info  ]       Replaces ----- start = 21.11.2015. 0:05:00 stop = 21.11.2015. 1:45:00 title = Posljednji Elvis
-[  Info  ]       Replaces ----- start = 21.11.2015. 1:45:00 stop = 21.11.2015. 1:55:00 title = Carpe diem
+[  Info  ]       show with ---- start = 21.11.2015. 23:15:00 stop = 22.11.2015. 1:10:00 title = Ponoćna zvona
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:59:00 stop = 22.11.2015. 1:05:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:05:00 stop = 22.11.2015. 1:30:00 title = Posebni dodaci
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 1:50:00 stop = 21.11.2015. 6:10:00 title = Koncert
-[  Info  ]       Replaces ----- start = 21.11.2015. 1:45:00 stop = 21.11.2015. 1:55:00 title = Carpe diem
-[  Info  ]       Replaces ----- start = 21.11.2015. 1:55:00 stop = 21.11.2015. 6:10:00 title = Iz arhiva
+[  Info  ]       show with ---- start = 22.11.2015. 1:10:00 stop = 22.11.2015. 1:35:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:05:00 stop = 22.11.2015. 1:30:00 title = Posebni dodaci
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:30:00 stop = 22.11.2015. 2:35:00 title = Večer s Joolsom Hollandom
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 18:50:00 stop = 21.11.2015. 20:00:00 title = Koncert
-[  Info  ]       Replaces ----- start = 21.11.2015. 18:50:00 stop = 21.11.2015. 20:01:00 title = Koncert
+[  Info  ]       show with ---- start = 22.11.2015. 1:35:00 stop = 22.11.2015. 2:40:00 title = Večer s Joolsom Hollandom
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:30:00 stop = 22.11.2015. 2:35:00 title = Večer s Joolsom Hollandom
+[  Info  ]       Replaces ----- start = 22.11.2015. 2:35:00 stop = 22.11.2015. 2:45:00 title = Carpe diem
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 20:00:00 stop = 21.11.2015. 21:06:00 title = Antologija dramskog programa: Kuda idu divlje svinje
-[  Info  ]       Replaces ----- start = 21.11.2015. 18:50:00 stop = 21.11.2015. 20:01:00 title = Koncert
-[  Info  ]       Replaces ----- start = 21.11.2015. 20:01:00 stop = 21.11.2015. 21:00:00 title = Antologija dramskog programa: Kuda idu divlje svinje
-[  Info  ]       Replaces ----- start = 21.11.2015. 21:00:00 stop = 21.11.2015. 21:08:00 title = Teatar osobno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 21:06:00 stop = 21.11.2015. 21:55:00 title = Klasici narodu
-[  Info  ]       Replaces ----- start = 21.11.2015. 21:00:00 stop = 21.11.2015. 21:08:00 title = Teatar osobno
-[  Info  ]       Replaces ----- start = 21.11.2015. 21:08:00 stop = 21.11.2015. 21:55:00 title = Klasici narodu
-[  Debug ]    skipped negative show time! at 21.11.2015. 21:55:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:10:00 title = Zagrebačke priče 2
-[  Info  ]       Replaces ----- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:00:00 title = Zagrebačke priče 2
-[  Info  ]       Replaces ----- start = 21.11.2015. 23:00:00 stop = 21.11.2015. 23:10:00 title = Posebni dodaci
-[  Debug ]    skipped negative show time! at 21.11.2015. 23:10:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 22:59:00 stop = 22.11.2015. 1:05:00 title = Posebni dodaci
-[  Info  ]       Replaces ----- start = 21.11.2015. 22:46:00 stop = 21.11.2015. 23:00:00 title = Zagrebačke priče 2
-[  Info  ]       Replaces ----- start = 21.11.2015. 23:00:00 stop = 21.11.2015. 23:10:00 title = Posebni dodaci
-[  Info  ]       Replaces ----- start = 21.11.2015. 23:10:00 stop = 22.11.2015. 1:05:00 title = Ponoćna zvona
+[  Info  ]       show with ---- start = 22.11.2015. 2:40:00 stop = 22.11.2015. 2:51:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 22.11.2015. 2:35:00 stop = 22.11.2015. 2:45:00 title = Carpe diem
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/40  ) PORT.HR -- chan. (xmltv_id=HRT 4) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 13:40:00 stop = 18.11.2015. 13:56:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:40:00 stop = 18.11.2015. 13:45:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:45:00 stop = 18.11.2015. 13:50:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:50:00 stop = 18.11.2015. 14:13:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 4:00:00 stop = 22.11.2015. 5:20:00 title = Pogled preko granice - Hrvati u BiH
+[  Info  ]       Replaces ----- start = 22.11.2015. 4:00:00 stop = 22.11.2015. 4:30:00 title = Pogled preko granice - Hrvati u BiH
+[  Info  ]       Replaces ----- start = 22.11.2015. 4:30:00 stop = 22.11.2015. 5:20:00 title = Tripalo
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 13:59:00 stop = 18.11.2015. 14:13:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:50:00 stop = 18.11.2015. 14:13:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 7:05:00 stop = 22.11.2015. 7:50:00 title = Vrijeme RH - danas + Prizma
+[  Info  ]       Replaces ----- start = 22.11.2015. 7:05:00 stop = 22.11.2015. 7:35:00 title = Vrijeme RH - danas + Alpe Dunav Jadran
+[  Info  ]       Replaces ----- start = 22.11.2015. 7:35:00 stop = 22.11.2015. 7:50:00 title = Manjinski Mozaik
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:31:00 stop = 18.11.2015. 14:33:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:31:00 stop = 18.11.2015. 14:35:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 8:05:00 stop = 22.11.2015. 8:50:00 title = Vrijeme RH - danas + Normalan život
+[  Info  ]       Replaces ----- start = 22.11.2015. 8:05:00 stop = 22.11.2015. 8:35:00 title = Vrijeme RH - danas + Potrošački kod
+[  Info  ]       Replaces ----- start = 22.11.2015. 8:35:00 stop = 22.11.2015. 8:50:00 title = DW: Shift
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:33:00 stop = 18.11.2015. 14:38:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:31:00 stop = 18.11.2015. 14:35:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:35:00 stop = 18.11.2015. 14:40:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 9:05:00 stop = 22.11.2015. 9:35:00 title = Vrijeme RH - danas + DW: U dobroj formi
+[  Info  ]       Replaces ----- start = 22.11.2015. 9:05:00 stop = 22.11.2015. 9:35:00 title = Vrijeme RH - danas + Slava i Sveti Jaki
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:38:00 stop = 18.11.2015. 14:57:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:35:00 stop = 18.11.2015. 14:40:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 10:10:00 stop = 22.11.2015. 10:40:00 title = Vrijeme RH - danas + Duhovni izazovi
+[  Info  ]       Replaces ----- start = 22.11.2015. 10:10:00 stop = 22.11.2015. 10:40:00 title = Vrijeme RH - danas + Znanstveni krugovi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:00:00 stop = 18.11.2015. 15:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 10:40:00 stop = 22.11.2015. 10:45:00 title = Vrijeme Europa - danas + Studio 4
+[  Info  ]       Replaces ----- start = 22.11.2015. 10:40:00 stop = 22.11.2015. 11:00:00 title = Vrijeme Europa - danas + Studio 4
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:29:00 stop = 18.11.2015. 15:55:00 title = DW
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 11:10:00 stop = 22.11.2015. 12:00:00 title = Sveto ime Vukovar
+[  Info  ]       Replaces ----- start = 22.11.2015. 11:10:00 stop = 22.11.2015. 11:40:00 title = Paralele
+[  Info  ]       Replaces ----- start = 22.11.2015. 11:40:00 stop = 22.11.2015. 12:00:00 title = Eurograđani
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:00:00 stop = 18.11.2015. 16:40:00 title = Regionalni dnevnik
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 12:15:00 stop = 22.11.2015. 12:50:00 title = Ekonomija &TD
+[  Info  ]       Replaces ----- start = 22.11.2015. 12:15:00 stop = 22.11.2015. 13:00:00 title = Samo kulturno, molim!
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:55:00 stop = 18.11.2015. 16:58:00 title = Poslovne vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 14:00:00 stop = 22.11.2015. 14:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 22.11.2015. 13:55:00 stop = 22.11.2015. 15:30:00 title = Rukomet - Liga prvaka (ž)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:00:00 stop = 18.11.2015. 17:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 14:15:00 stop = 22.11.2015. 14:45:00 title = Indeks
+[  Info  ]       Replaces ----- start = 22.11.2015. 13:55:00 stop = 22.11.2015. 15:30:00 title = Rukomet - Liga prvaka (ž)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:10:00 stop = 18.11.2015. 17:25:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 15:00:00 stop = 22.11.2015. 15:05:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 22.11.2015. 13:55:00 stop = 22.11.2015. 15:30:00 title = Rukomet - Liga prvaka (ž)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:25:00 stop = 18.11.2015. 17:40:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 15:30:00 stop = 22.11.2015. 16:00:00 title = More
+[  Info  ]       Replaces ----- start = 22.11.2015. 15:30:00 stop = 22.11.2015. 16:00:00 title = Slava i sveti jaki
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:40:00 stop = 18.11.2015. 17:55:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 16:10:00 stop = 22.11.2015. 16:35:00 title = Mir i dobro
+[  Info  ]       Replaces ----- start = 22.11.2015. 16:10:00 stop = 22.11.2015. 16:35:00 title = Intervju tjedna
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:10:00 stop = 18.11.2015. 18:25:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 17:10:00 stop = 22.11.2015. 17:40:00 title = Najveći trenuci sporta
+[  Info  ]       Replaces ----- start = 22.11.2015. 17:10:00 stop = 22.11.2015. 17:40:00 title = Magazin rukometne Lige prvaka
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:25:00 stop = 18.11.2015. 18:40:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
+[  Info  ]       show with ---- start = 22.11.2015. 18:10:00 stop = 22.11.2015. 18:40:00 title = Alpe-Dunav-Jadran
+[  Info  ]       Replaces ----- start = 22.11.2015. 18:10:00 stop = 22.11.2015. 18:40:00 title = Potrošački kod
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:40:00 stop = 18.11.2015. 18:55:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 19:51:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 4:00:00 stop = 19.11.2015. 5:20:00 title = Broj 55
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 5:20:00 stop = 19.11.2015. 6:05:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 6:05:00 stop = 19.11.2015. 6:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 6:10:00 stop = 19.11.2015. 6:25:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 6:25:00 stop = 19.11.2015. 6:56:00 title = Svjedok - Sjećanje na Vukovar
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 6:58:00 stop = 19.11.2015. 6:59:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 7:00:00 stop = 19.11.2015. 7:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 7:05:00 stop = 19.11.2015. 7:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 7:30:00 stop = 19.11.2015. 7:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 7:35:00 stop = 19.11.2015. 8:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 8:00:00 stop = 19.11.2015. 8:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 8:05:00 stop = 19.11.2015. 8:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 8:30:00 stop = 19.11.2015. 8:32:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 8:32:00 stop = 19.11.2015. 9:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 9:00:00 stop = 19.11.2015. 9:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 9:05:00 stop = 19.11.2015. 9:15:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 9:15:00 stop = 19.11.2015. 9:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 9:30:00 stop = 19.11.2015. 9:32:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 9:32:00 stop = 19.11.2015. 10:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 10:00:00 stop = 19.11.2015. 10:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 10:10:00 stop = 19.11.2015. 11:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 11:00:00 stop = 19.11.2015. 11:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 11:10:00 stop = 19.11.2015. 12:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 12:00:00 stop = 19.11.2015. 12:30:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 12:30:00 stop = 19.11.2015. 13:00:00 title = Od Ognjene zemlje do Tijuane
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 13:00:00 stop = 19.11.2015. 13:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 13:10:00 stop = 19.11.2015. 13:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 13:30:00 stop = 19.11.2015. 13:32:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 13:32:00 stop = 19.11.2015. 14:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:55:00 stop = 19.11.2015. 13:59:00 title = Eurovijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 14:00:00 stop = 19.11.2015. 14:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 14:05:00 stop = 19.11.2015. 14:10:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 14:15:00 stop = 19.11.2015. 14:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 14:30:00 stop = 19.11.2015. 14:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 14:35:00 stop = 19.11.2015. 14:40:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 19.11.2015. 13:59:00 stop = 19.11.2015. 15:00:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 15:30:00 stop = 19.11.2015. 16:00:00 title = Pogled preko granice - Hrvati u BiH
-[  Info  ]       Replaces ----- start = 19.11.2015. 15:05:00 stop = 19.11.2015. 15:55:00 title = Govornica
-[  Info  ]       Replaces ----- start = 19.11.2015. 15:55:00 stop = 19.11.2015. 16:00:00 title = Bez komentara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 17:00:00 stop = 19.11.2015. 17:07:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 19.11.2015. 17:00:00 stop = 19.11.2015. 17:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 4:00:00 stop = 20.11.2015. 4:45:00 title = Najduži dan
-[  Info  ]       Replaces ----- start = 20.11.2015. 4:00:00 stop = 20.11.2015. 5:20:00 title = Broj 55
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 4:45:00 stop = 20.11.2015. 5:30:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 20.11.2015. 4:00:00 stop = 20.11.2015. 5:20:00 title = Broj 55
-[  Info  ]       Replaces ----- start = 20.11.2015. 5:20:00 stop = 20.11.2015. 6:05:00 title = Otvoreno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 5:30:00 stop = 20.11.2015. 6:00:00 title = Samo kulturno, molim!
-[  Info  ]       Replaces ----- start = 20.11.2015. 5:20:00 stop = 20.11.2015. 6:05:00 title = Otvoreno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 6:00:00 stop = 20.11.2015. 6:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 5:20:00 stop = 20.11.2015. 6:05:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:05:00 stop = 20.11.2015. 6:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 6:25:00 stop = 20.11.2015. 6:57:00 title = Eko zona
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:25:00 stop = 20.11.2015. 6:56:00 title = Svjedok - Sjećanje na Vukovar
-[  Info  ]       Replaces ----- start = 20.11.2015. 6:56:00 stop = 20.11.2015. 6:58:00 title = Bez komentara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 7:05:00 stop = 20.11.2015. 7:10:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 7:05:00 stop = 20.11.2015. 7:30:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 7:10:00 stop = 20.11.2015. 7:15:00 title = Poslovne vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 7:05:00 stop = 20.11.2015. 7:30:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 7:35:00 stop = 20.11.2015. 7:50:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 7:35:00 stop = 20.11.2015. 8:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 7:50:00 stop = 20.11.2015. 8:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 7:35:00 stop = 20.11.2015. 8:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 8:05:00 stop = 20.11.2015. 8:15:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 8:05:00 stop = 20.11.2015. 8:30:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 9:30:00 stop = 20.11.2015. 9:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:30:00 stop = 20.11.2015. 9:32:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:32:00 stop = 20.11.2015. 10:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 9:35:00 stop = 20.11.2015. 10:00:00 title = DW
-[  Info  ]       Replaces ----- start = 20.11.2015. 9:32:00 stop = 20.11.2015. 10:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 10:10:00 stop = 20.11.2015. 11:00:00 title = Dan sjećanja - Velepromet
-[  Info  ]       Replaces ----- start = 20.11.2015. 10:10:00 stop = 20.11.2015. 11:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 11:20:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 12:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:20:00 stop = 20.11.2015. 11:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 12:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:30:00 stop = 20.11.2015. 11:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 12:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 11:55:00 stop = 20.11.2015. 12:00:00 title = Poslovne vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 11:10:00 stop = 20.11.2015. 12:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 12:00:00 stop = 20.11.2015. 12:15:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:00:00 stop = 20.11.2015. 12:30:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 12:15:00 stop = 20.11.2015. 12:20:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:00:00 stop = 20.11.2015. 12:30:00 title = Dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 12:20:00 stop = 20.11.2015. 12:45:00 title = Od Ognjene zemlje do Tijuane
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:00:00 stop = 20.11.2015. 12:30:00 title = Dnevnik
-[  Info  ]       Replaces ----- start = 20.11.2015. 12:30:00 stop = 20.11.2015. 13:00:00 title = Od Ognjene zemlje do Tijuane
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:10:00 stop = 20.11.2015. 13:20:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:10:00 stop = 20.11.2015. 13:30:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:20:00 stop = 20.11.2015. 13:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:10:00 stop = 20.11.2015. 13:30:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:30:00 stop = 20.11.2015. 13:45:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:30:00 stop = 20.11.2015. 13:32:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:32:00 stop = 20.11.2015. 14:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:45:00 stop = 20.11.2015. 13:50:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:32:00 stop = 20.11.2015. 14:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 13:50:00 stop = 20.11.2015. 14:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 13:32:00 stop = 20.11.2015. 14:00:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 14:35:00 stop = 20.11.2015. 14:45:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:35:00 stop = 20.11.2015. 14:40:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:40:00 stop = 20.11.2015. 15:00:00 title = TV student
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 15:30:00 stop = 20.11.2015. 16:00:00 title = Alpe-Dunav-Jadran
-[  Info  ]       Replaces ----- start = 20.11.2015. 15:30:00 stop = 20.11.2015. 16:00:00 title = Pogled preko granice - Hrvati u BiH
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 4:30:00 title = Pogled preko granice - Hrvati u BiH
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 4:45:00 title = Najduži dan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 4:30:00 stop = 21.11.2015. 5:20:00 title = Tripalo
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 4:45:00 title = Najduži dan
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:45:00 stop = 21.11.2015. 5:30:00 title = Otvoreno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 5:20:00 stop = 21.11.2015. 6:00:00 title = Uvijek kontra
-[  Info  ]       Replaces ----- start = 21.11.2015. 4:45:00 stop = 21.11.2015. 5:30:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 21.11.2015. 5:30:00 stop = 21.11.2015. 6:00:00 title = Samo kulturno, molim!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 6:25:00 stop = 21.11.2015. 6:57:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 21.11.2015. 6:25:00 stop = 21.11.2015. 6:57:00 title = Eko zona
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:05:00 stop = 21.11.2015. 7:35:00 title = Vrijeme RH - danas + Alpe Dunav Jadran
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:05:00 stop = 21.11.2015. 7:10:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:10:00 stop = 21.11.2015. 7:15:00 title = Poslovne vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:15:00 stop = 21.11.2015. 7:30:00 title = Skener
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:30:00 stop = 21.11.2015. 7:35:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 7:35:00 stop = 21.11.2015. 7:50:00 title = Manjinski Mozaik
-[  Info  ]       Replaces ----- start = 21.11.2015. 7:35:00 stop = 21.11.2015. 7:50:00 title = Studio 4
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 8:05:00 stop = 21.11.2015. 8:35:00 title = Vrijeme RH - danas + Potrošački kod
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:05:00 stop = 21.11.2015. 8:15:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:15:00 stop = 21.11.2015. 8:45:00 title = U mreži Prvog
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 8:35:00 stop = 21.11.2015. 8:50:00 title = DW: Shift
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:15:00 stop = 21.11.2015. 8:45:00 title = U mreži Prvog
-[  Info  ]       Replaces ----- start = 21.11.2015. 8:45:00 stop = 21.11.2015. 9:00:00 title = Skener
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 9:05:00 stop = 21.11.2015. 9:35:00 title = Vrijeme RH - danas + Slava i Sveti Jaki
-[  Info  ]       Replaces ----- start = 21.11.2015. 9:05:00 stop = 21.11.2015. 9:15:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 9:15:00 stop = 21.11.2015. 9:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 9:30:00 stop = 21.11.2015. 9:35:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 10:10:00 stop = 21.11.2015. 10:40:00 title = Vrijeme RH - danas + Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 21.11.2015. 10:10:00 stop = 21.11.2015. 11:00:00 title = Dan sjećanja - Velepromet
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 10:40:00 stop = 21.11.2015. 11:00:00 title = Vrijeme Europa - danas + Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 10:10:00 stop = 21.11.2015. 11:00:00 title = Dan sjećanja - Velepromet
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 11:10:00 stop = 21.11.2015. 11:40:00 title = Paralele
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:10:00 stop = 21.11.2015. 11:20:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:20:00 stop = 21.11.2015. 11:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:30:00 stop = 21.11.2015. 11:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 11:35:00 stop = 21.11.2015. 11:55:00 title = Naglasak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 12:15:00 stop = 21.11.2015. 13:00:00 title = Samo kulturno, molim!
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:15:00 stop = 21.11.2015. 12:20:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:20:00 stop = 21.11.2015. 12:45:00 title = Od Ognjene zemlje do Tijuane
-[  Info  ]       Replaces ----- start = 21.11.2015. 12:45:00 stop = 21.11.2015. 13:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 13:55:00 stop = 21.11.2015. 15:30:00 title = Rukomet - Liga prvaka (ž)
-[  Info  ]       Replaces ----- start = 21.11.2015. 13:50:00 stop = 21.11.2015. 14:00:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:00:00 stop = 21.11.2015. 14:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:05:00 stop = 21.11.2015. 14:10:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:10:00 stop = 21.11.2015. 14:15:00 title = Vijesti na engleskom jeziku
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:15:00 stop = 21.11.2015. 14:30:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:30:00 stop = 21.11.2015. 14:35:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:35:00 stop = 21.11.2015. 14:45:00 title = Studio 4
-[  Info  ]       Replaces ----- start = 21.11.2015. 14:45:00 stop = 21.11.2015. 15:00:00 title = TV student
-[  Info  ]       Replaces ----- start = 21.11.2015. 15:00:00 stop = 21.11.2015. 15:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 15:05:00 stop = 21.11.2015. 15:30:00 title = Govornica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 15:30:00 stop = 21.11.2015. 16:00:00 title = Slava i sveti jaki
-[  Info  ]       Replaces ----- start = 21.11.2015. 15:30:00 stop = 21.11.2015. 16:00:00 title = Alpe-Dunav-Jadran
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 16:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 16:40:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 16:10:00 stop = 21.11.2015. 16:35:00 title = Intervju tjedna
-[  Info  ]       Replaces ----- start = 21.11.2015. 16:00:00 stop = 21.11.2015. 16:40:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 17:00:00 stop = 21.11.2015. 17:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:00:00 stop = 21.11.2015. 17:07:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:07:00 stop = 21.11.2015. 17:08:00 title = Meteorološki izvještaj
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:08:00 stop = 21.11.2015. 17:10:00 title = Bez komentara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 17:10:00 stop = 21.11.2015. 17:40:00 title = Magazin rukometne Lige prvaka
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:10:00 stop = 21.11.2015. 17:25:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 21.11.2015. 17:25:00 stop = 21.11.2015. 17:40:00 title = Županijska panorama
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 18:10:00 stop = 21.11.2015. 18:40:00 title = Potrošački kod
-[  Info  ]       Replaces ----- start = 21.11.2015. 18:10:00 stop = 21.11.2015. 18:25:00 title = Županijska panorama
-[  Info  ]       Replaces ----- start = 21.11.2015. 18:25:00 stop = 21.11.2015. 18:40:00 title = Županijska panorama
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 21.11.2015. 18:40:00 stop = 21.11.2015. 18:55:00 title = Manjinski Mozaik
-[  Info  ]       Replaces ----- start = 21.11.2015. 18:40:00 stop = 21.11.2015. 18:55:00 title = Županijska panorama
+[  Info  ]       show with ---- start = 22.11.2015. 18:40:00 stop = 22.11.2015. 18:55:00 title = DW: Shift
+[  Info  ]       Replaces ----- start = 22.11.2015. 18:40:00 stop = 22.11.2015. 18:55:00 title = Manjinski Mozaik
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/40  ) PORT.HR -- chan. (xmltv_id=NOVA TV) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:10:00 stop = 18.11.2015. 15:05:00 title = Farma
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:10:00 stop = 18.11.2015. 16:05:00 title = Farma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:05:00 stop = 18.11.2015. 16:05:00 title = Kud puklo da puklo
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:10:00 stop = 18.11.2015. 16:05:00 title = Farma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:20:00 stop = 18.11.2015. 20:15:00 title = Najbolje godine
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:20:00 stop = 18.11.2015. 19:15:00 title = Najbolje godine
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:15:00 stop = 18.11.2015. 20:15:00 title = Dnevnik Nove TV
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/40  ) PORT.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 11:15:00 stop = 18.11.2015. 11:30:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 18.11.2015. 11:15:00 stop = 18.11.2015. 12:30:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 11:30:00 stop = 18.11.2015. 12:30:00 title = Hitna služba
-[  Info  ]       Replaces ----- start = 18.11.2015. 11:15:00 stop = 18.11.2015. 12:30:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:30:00 stop = 18.11.2015. 17:55:00 title = RTL Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:30:00 stop = 18.11.2015. 17:00:00 title = RTL Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:00:00 stop = 18.11.2015. 17:55:00 title = Shopping kraljica
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/40  ) PORT.HR -- chan. (xmltv_id=Doma TV) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:30:00 stop = 18.11.2015. 15:45:00 title = TV izlog
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:30:00 stop = 18.11.2015. 16:30:00 title = TV izlog
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:45:00 stop = 18.11.2015. 16:30:00 title = Djevojke na zadatku
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:30:00 stop = 18.11.2015. 16:30:00 title = TV izlog
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:10:00 stop = 18.11.2015. 20:10:00 title = Mala nevjesta
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:10:00 stop = 18.11.2015. 19:40:00 title = Mala nevjesta
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:40:00 stop = 18.11.2015. 20:10:00 title = Dadilja
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/40  ) PORT.HR -- chan. (xmltv_id=RTL 2) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:45:00 stop = 18.11.2015. 15:10:00 title = K.T. 2
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:45:00 stop = 18.11.2015. 15:55:00 title = K.T. 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:10:00 stop = 18.11.2015. 15:55:00 title = CSI: Miami
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:45:00 stop = 18.11.2015. 15:55:00 title = K.T. 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:45:00 stop = 18.11.2015. 17:10:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:45:00 stop = 18.11.2015. 17:20:00 title = Teorija velikog praska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:10:00 stop = 18.11.2015. 17:45:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:45:00 stop = 18.11.2015. 17:20:00 title = Teorija velikog praska
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:20:00 stop = 18.11.2015. 17:45:00 title = Teorija velikog praska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:10:00 stop = 18.11.2015. 18:30:00 title = Dva i pol muškarca
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:10:00 stop = 18.11.2015. 18:35:00 title = Dva i pol muškarca
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:30:00 stop = 18.11.2015. 18:50:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:10:00 stop = 18.11.2015. 18:35:00 title = Dva i pol muškarca
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:35:00 stop = 18.11.2015. 18:55:00 title = Moderna obitelj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:50:00 stop = 18.11.2015. 20:10:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:35:00 stop = 18.11.2015. 18:55:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:55:00 stop = 18.11.2015. 19:20:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:20:00 stop = 18.11.2015. 20:10:00 title = CSI: Las Vegas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 1:20:00 stop = 19.11.2015. 1:50:00 title = Rat u kući
-[  Info  ]       Replaces ----- start = 19.11.2015. 1:20:00 stop = 19.11.2015. 1:45:00 title = Rat u kući
-[  Info  ]       Replaces ----- start = 19.11.2015. 1:45:00 stop = 19.11.2015. 2:10:00 title = Rat u kući
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 1:50:00 stop = 19.11.2015. 2:10:00 title = Rat u kući
-[  Info  ]       Replaces ----- start = 19.11.2015. 1:45:00 stop = 19.11.2015. 2:10:00 title = Rat u kući
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 2:10:00 stop = 19.11.2015. 2:55:00 title = Krv nije voda
-[  Info  ]       Replaces ----- start = 19.11.2015. 2:10:00 stop = 19.11.2015. 3:00:00 title = Krv nije voda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19.11.2015. 2:55:00 stop = 19.11.2015. 3:15:00 title = K.T. 2
-[  Info  ]       Replaces ----- start = 19.11.2015. 2:10:00 stop = 19.11.2015. 3:00:00 title = Krv nije voda
-[  Info  ]       Replaces ----- start = 19.11.2015. 3:00:00 stop = 19.11.2015. 3:15:00 title = K.T. 2
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/40  ) PORT.HR -- chan. (xmltv_id=RTL Plus) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:00:00 stop = 18.11.2015. 15:45:00 title = Ellen
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:00:00 stop = 18.11.2015. 16:00:00 title = Ellen
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:45:00 stop = 18.11.2015. 16:00:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:00:00 stop = 18.11.2015. 16:00:00 title = Ellen
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:50:00 stop = 18.11.2015. 20:00:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:50:00 stop = 18.11.2015. 19:10:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:10:00 stop = 18.11.2015. 20:00:00 title = Sudnica
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/40  ) PORT.HR -- chan. (xmltv_id=CineStar Action&Thriller) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:12:00 stop = 18.11.2015. 14:30:00 title = Priče sa snimanja...
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:12:00 stop = 18.11.2015. 16:31:00 title = Priče sa snimanja...
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 16:31:00 title = Astronaut farmer
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:12:00 stop = 18.11.2015. 16:31:00 title = Priče sa snimanja...
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:01:00 stop = 18.11.2015. 20:15:00 title = Božić kod Cooperovih
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:01:00 stop = 18.11.2015. 18:16:00 title = Božić kod Cooperovih
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:16:00 stop = 18.11.2015. 20:15:00 title = Prognani
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1335,53 +591,486 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/40  ) PORT.HR -- chan. (xmltv_id=TV 1000 Balkan) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 14:40:00 title = Muza
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 16:30:00 title = Muza
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 16:30:00 title = Tajna mog uspjeha
-[  Info  ]       Replaces ----- start = 18.11.2015. 13:00:00 stop = 18.11.2015. 16:30:00 title = Muza
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 16:30:00 stop = 18.11.2015. 20:30:00 title = Daleki horizonti
-[  Info  ]       Replaces ----- start = 18.11.2015. 16:30:00 stop = 18.11.2015. 18:45:00 title = Daleki horizonti
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:45:00 stop = 18.11.2015. 20:30:00 title = Vječni sjaj nepobjedivog uma
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/40  ) PORT.HR -- chan. (xmltv_id=Fox TV) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 9:25:00 title = Odgoj za početnike
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 9:51:00 title = Odgoj za početnike
+[  Info  ]       show with ---- start = 19.11.2015. 6:00:00 stop = 19.11.2015. 6:22:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:00:00 stop = 19.11.2015. 6:20:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:20:00 stop = 19.11.2015. 7:00:00 title = Castle
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:25:00 stop = 18.11.2015. 9:51:00 title = Odgoj za početnike
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 9:51:00 title = Odgoj za početnike
+[  Info  ]       show with ---- start = 19.11.2015. 6:22:00 stop = 19.11.2015. 7:03:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:20:00 stop = 19.11.2015. 7:00:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 7:00:00 stop = 19.11.2015. 8:00:00 title = 24: Novi dan
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:01:00 stop = 18.11.2015. 16:19:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:01:00 stop = 18.11.2015. 15:27:00 title = Simpsoni
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:27:00 stop = 18.11.2015. 16:19:00 title = Agenti SHIELD-a
+[  Info  ]       show with ---- start = 19.11.2015. 7:03:00 stop = 19.11.2015. 8:00:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 19.11.2015. 7:00:00 stop = 19.11.2015. 8:00:00 title = 24: Novi dan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 8:00:00 stop = 19.11.2015. 8:29:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:00:00 stop = 19.11.2015. 8:25:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:25:00 stop = 19.11.2015. 8:50:00 title = Šaljivi kućni video
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 8:29:00 stop = 19.11.2015. 8:55:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:25:00 stop = 19.11.2015. 8:50:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:50:00 stop = 19.11.2015. 9:20:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 8:55:00 stop = 19.11.2015. 9:24:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:50:00 stop = 19.11.2015. 9:20:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:20:00 stop = 19.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 9:24:00 stop = 19.11.2015. 9:49:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:20:00 stop = 19.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 9:49:00 stop = 19.11.2015. 10:43:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:20:00 stop = 19.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:50:00 stop = 19.11.2015. 10:45:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 10:43:00 stop = 19.11.2015. 11:38:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:50:00 stop = 19.11.2015. 10:45:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19.11.2015. 10:45:00 stop = 19.11.2015. 11:40:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 11:38:00 stop = 19.11.2015. 12:06:00 title = Sirene
+[  Info  ]       Replaces ----- start = 19.11.2015. 10:45:00 stop = 19.11.2015. 11:40:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 11:40:00 stop = 19.11.2015. 12:05:00 title = Sirene
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:05:00 stop = 19.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 12:06:00 stop = 19.11.2015. 12:34:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:05:00 stop = 19.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 12:34:00 stop = 19.11.2015. 13:29:00 title = Kosti
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:05:00 stop = 19.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:35:00 stop = 19.11.2015. 13:30:00 title = Kosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 13:29:00 stop = 19.11.2015. 14:28:00 title = Kosti
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:35:00 stop = 19.11.2015. 13:30:00 title = Kosti
+[  Info  ]       Replaces ----- start = 19.11.2015. 13:30:00 stop = 19.11.2015. 14:30:00 title = Legende
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 14:28:00 stop = 19.11.2015. 14:59:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 13:30:00 stop = 19.11.2015. 14:30:00 title = Legende
+[  Info  ]       Replaces ----- start = 19.11.2015. 14:30:00 stop = 19.11.2015. 15:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 14:59:00 stop = 19.11.2015. 15:24:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 14:30:00 stop = 19.11.2015. 15:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:00:00 stop = 19.11.2015. 15:25:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 15:24:00 stop = 19.11.2015. 16:18:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:00:00 stop = 19.11.2015. 15:25:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:25:00 stop = 19.11.2015. 16:20:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 16:18:00 stop = 19.11.2015. 17:15:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:25:00 stop = 19.11.2015. 16:20:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19.11.2015. 16:20:00 stop = 19.11.2015. 17:15:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 17:15:00 stop = 19.11.2015. 18:11:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 17:15:00 stop = 19.11.2015. 18:10:00 title = Castle
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:10:00 stop = 19.11.2015. 18:40:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 18:11:00 stop = 19.11.2015. 18:42:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:10:00 stop = 19.11.2015. 18:40:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:40:00 stop = 19.11.2015. 19:10:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 18:42:00 stop = 19.11.2015. 19:08:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:40:00 stop = 19.11.2015. 19:10:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 19:08:00 stop = 19.11.2015. 19:37:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:40:00 stop = 19.11.2015. 19:10:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:10:00 stop = 19.11.2015. 19:35:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:35:00 stop = 19.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 19:37:00 stop = 19.11.2015. 20:04:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:35:00 stop = 19.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 20:04:00 stop = 19.11.2015. 20:34:00 title = Sirene
+[  Info  ]       Replaces ----- start = 19.11.2015. 19:35:00 stop = 19.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:05:00 stop = 19.11.2015. 20:30:00 title = Sirene
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:30:00 stop = 19.11.2015. 21:00:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 20:34:00 stop = 19.11.2015. 21:00:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:30:00 stop = 19.11.2015. 21:00:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 22:00:00 stop = 19.11.2015. 22:58:00 title = Imperij
+[  Info  ]       Replaces ----- start = 19.11.2015. 22:00:00 stop = 19.11.2015. 23:00:00 title = Imperij
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 22:58:00 stop = 19.11.2015. 23:58:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 19.11.2015. 22:00:00 stop = 19.11.2015. 23:00:00 title = Imperij
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:00:00 stop = 19.11.2015. 23:55:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:55:00 stop = 20.11.2015. 0:55:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 23:58:00 stop = 20.11.2015. 0:54:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:55:00 stop = 20.11.2015. 0:55:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 0:54:00 stop = 20.11.2015. 1:54:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:55:00 stop = 20.11.2015. 0:55:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 20.11.2015. 0:55:00 stop = 20.11.2015. 1:50:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:50:00 stop = 20.11.2015. 2:15:00 title = Kako i treba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 1:54:00 stop = 20.11.2015. 2:16:00 title = Kako i treba
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:50:00 stop = 20.11.2015. 2:15:00 title = Kako i treba
+[  Info  ]       Replaces ----- start = 20.11.2015. 2:15:00 stop = 20.11.2015. 3:00:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 2:16:00 stop = 20.11.2015. 2:57:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 20.11.2015. 2:15:00 stop = 20.11.2015. 3:00:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 2:57:00 stop = 20.11.2015. 3:37:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 20.11.2015. 2:15:00 stop = 20.11.2015. 3:00:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 20.11.2015. 3:00:00 stop = 20.11.2015. 3:45:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 3:37:00 stop = 20.11.2015. 4:22:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 20.11.2015. 3:00:00 stop = 20.11.2015. 3:45:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 20.11.2015. 3:45:00 stop = 20.11.2015. 4:30:00 title = 24: Novi dan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 4:22:00 stop = 20.11.2015. 5:12:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 20.11.2015. 3:45:00 stop = 20.11.2015. 4:30:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 20.11.2015. 4:30:00 stop = 20.11.2015. 5:15:00 title = Američka horor priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 5:12:00 stop = 20.11.2015. 5:37:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 4:30:00 stop = 20.11.2015. 5:15:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 20.11.2015. 5:15:00 stop = 20.11.2015. 5:40:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 5:37:00 stop = 20.11.2015. 6:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 5:15:00 stop = 20.11.2015. 5:40:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 5:40:00 stop = 20.11.2015. 6:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 6:00:00 stop = 20.11.2015. 6:21:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 20.11.2015. 6:00:00 stop = 20.11.2015. 6:20:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 20.11.2015. 6:20:00 stop = 20.11.2015. 7:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 6:21:00 stop = 20.11.2015. 7:01:00 title = Castle
+[  Info  ]       Replaces ----- start = 20.11.2015. 6:20:00 stop = 20.11.2015. 7:00:00 title = Castle
+[  Info  ]       Replaces ----- start = 20.11.2015. 7:00:00 stop = 20.11.2015. 8:00:00 title = 24: Novi dan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 7:01:00 stop = 20.11.2015. 8:00:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 20.11.2015. 7:00:00 stop = 20.11.2015. 8:00:00 title = 24: Novi dan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 8:00:00 stop = 20.11.2015. 8:28:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 20.11.2015. 8:00:00 stop = 20.11.2015. 8:25:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 20.11.2015. 8:25:00 stop = 20.11.2015. 8:50:00 title = Šaljivi kućni video
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 8:28:00 stop = 20.11.2015. 8:54:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 20.11.2015. 8:25:00 stop = 20.11.2015. 8:50:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 20.11.2015. 8:50:00 stop = 20.11.2015. 9:20:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 8:54:00 stop = 20.11.2015. 9:23:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 8:50:00 stop = 20.11.2015. 9:20:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 9:20:00 stop = 20.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 9:23:00 stop = 20.11.2015. 9:49:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 9:20:00 stop = 20.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 9:49:00 stop = 20.11.2015. 10:45:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 20.11.2015. 9:20:00 stop = 20.11.2015. 9:50:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 9:50:00 stop = 20.11.2015. 10:45:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 11:40:00 stop = 20.11.2015. 12:08:00 title = Sirene
+[  Info  ]       Replaces ----- start = 20.11.2015. 11:40:00 stop = 20.11.2015. 12:05:00 title = Sirene
+[  Info  ]       Replaces ----- start = 20.11.2015. 12:05:00 stop = 20.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 12:08:00 stop = 20.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 20.11.2015. 12:05:00 stop = 20.11.2015. 12:35:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 12:35:00 stop = 20.11.2015. 13:29:00 title = Kosti
+[  Info  ]       Replaces ----- start = 20.11.2015. 12:35:00 stop = 20.11.2015. 13:30:00 title = Kosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 13:29:00 stop = 20.11.2015. 14:26:00 title = Imperij
+[  Info  ]       Replaces ----- start = 20.11.2015. 12:35:00 stop = 20.11.2015. 13:30:00 title = Kosti
+[  Info  ]       Replaces ----- start = 20.11.2015. 13:30:00 stop = 20.11.2015. 14:30:00 title = Imperij
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 14:26:00 stop = 20.11.2015. 14:58:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 13:30:00 stop = 20.11.2015. 14:30:00 title = Imperij
+[  Info  ]       Replaces ----- start = 20.11.2015. 14:30:00 stop = 20.11.2015. 15:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 14:58:00 stop = 20.11.2015. 15:25:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 14:30:00 stop = 20.11.2015. 15:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 15:00:00 stop = 20.11.2015. 15:25:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 17:15:00 stop = 20.11.2015. 18:11:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 20.11.2015. 17:15:00 stop = 20.11.2015. 18:10:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 20.11.2015. 18:10:00 stop = 20.11.2015. 18:40:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 18:11:00 stop = 20.11.2015. 18:39:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 18:10:00 stop = 20.11.2015. 18:40:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 18:39:00 stop = 20.11.2015. 19:07:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 18:10:00 stop = 20.11.2015. 18:40:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 18:40:00 stop = 20.11.2015. 19:10:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 19:07:00 stop = 20.11.2015. 19:36:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 18:40:00 stop = 20.11.2015. 19:10:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:10:00 stop = 20.11.2015. 19:35:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:35:00 stop = 20.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 19:36:00 stop = 20.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20.11.2015. 19:35:00 stop = 20.11.2015. 20:05:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 20:05:00 stop = 20.11.2015. 20:35:00 title = Sirene
+[  Info  ]       Replaces ----- start = 20.11.2015. 20:05:00 stop = 20.11.2015. 20:30:00 title = Sirene
+[  Info  ]       Replaces ----- start = 20.11.2015. 20:30:00 stop = 20.11.2015. 20:55:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 20:35:00 stop = 20.11.2015. 21:00:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 20.11.2015. 20:30:00 stop = 20.11.2015. 20:55:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 20.11.2015. 20:55:00 stop = 20.11.2015. 22:33:00 title = Beethoven
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 21:00:00 stop = 20.11.2015. 22:44:00 title = Beethoven
+[  Info  ]       Replaces ----- start = 20.11.2015. 20:55:00 stop = 20.11.2015. 22:33:00 title = Beethoven
+[  Info  ]       Replaces ----- start = 20.11.2015. 22:33:00 stop = 20.11.2015. 23:00:00 title = Šaljivi kućni video
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 22:44:00 stop = 20.11.2015. 23:10:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 20.11.2015. 22:33:00 stop = 20.11.2015. 23:00:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 20.11.2015. 23:00:00 stop = 20.11.2015. 23:55:00 title = Crna lista
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 23:10:00 stop = 21.11.2015. 0:03:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 20.11.2015. 23:00:00 stop = 20.11.2015. 23:55:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 20.11.2015. 23:55:00 stop = 21.11.2015. 0:55:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 0:03:00 stop = 21.11.2015. 1:02:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 20.11.2015. 23:55:00 stop = 21.11.2015. 0:55:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 21.11.2015. 0:55:00 stop = 21.11.2015. 1:50:00 title = Američka horor priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 1:02:00 stop = 21.11.2015. 2:02:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 21.11.2015. 0:55:00 stop = 21.11.2015. 1:50:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 21.11.2015. 1:50:00 stop = 21.11.2015. 2:15:00 title = Kako i treba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 2:02:00 stop = 21.11.2015. 2:23:00 title = Kako i treba
+[  Info  ]       Replaces ----- start = 21.11.2015. 1:50:00 stop = 21.11.2015. 2:15:00 title = Kako i treba
+[  Info  ]       Replaces ----- start = 21.11.2015. 2:15:00 stop = 21.11.2015. 3:00:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 2:23:00 stop = 21.11.2015. 3:03:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 21.11.2015. 2:15:00 stop = 21.11.2015. 3:00:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 3:45:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 3:03:00 stop = 21.11.2015. 3:44:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 3:45:00 title = Nulti sat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 3:44:00 stop = 21.11.2015. 4:26:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 3:45:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:45:00 stop = 21.11.2015. 4:30:00 title = 24: Novi dan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 4:26:00 stop = 21.11.2015. 5:11:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:45:00 stop = 21.11.2015. 4:30:00 title = 24: Novi dan
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:30:00 stop = 21.11.2015. 5:15:00 title = Američka horor priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 5:11:00 stop = 21.11.2015. 5:37:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:30:00 stop = 21.11.2015. 5:15:00 title = Američka horor priča
+[  Info  ]       Replaces ----- start = 21.11.2015. 5:15:00 stop = 21.11.2015. 5:40:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 5:37:00 stop = 21.11.2015. 6:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 5:15:00 stop = 21.11.2015. 5:40:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 5:40:00 stop = 21.11.2015. 6:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 6:00:00 stop = 21.11.2015. 6:21:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:00:00 stop = 21.11.2015. 6:20:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:20:00 stop = 21.11.2015. 6:40:00 title = Malcolm u sredini
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 6:21:00 stop = 21.11.2015. 6:43:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:20:00 stop = 21.11.2015. 6:40:00 title = Malcolm u sredini
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:40:00 stop = 21.11.2015. 7:35:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 6:43:00 stop = 21.11.2015. 7:35:00 title = Castle
+[  Info  ]       Replaces ----- start = 21.11.2015. 6:40:00 stop = 21.11.2015. 7:35:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 8:30:00 stop = 21.11.2015. 9:25:00 title = Dodir
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:30:00 stop = 21.11.2015. 9:30:00 title = Dodir
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 9:25:00 stop = 21.11.2015. 9:54:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 8:30:00 stop = 21.11.2015. 9:30:00 title = Dodir
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:30:00 stop = 21.11.2015. 9:55:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 9:54:00 stop = 21.11.2015. 10:20:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:30:00 stop = 21.11.2015. 9:55:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:55:00 stop = 21.11.2015. 10:25:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 10:20:00 stop = 21.11.2015. 10:48:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 9:55:00 stop = 21.11.2015. 10:25:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:25:00 stop = 21.11.2015. 10:50:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 10:48:00 stop = 21.11.2015. 11:18:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:25:00 stop = 21.11.2015. 10:50:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:50:00 stop = 21.11.2015. 11:20:00 title = Odgoj za početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 11:18:00 stop = 21.11.2015. 11:48:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 10:50:00 stop = 21.11.2015. 11:20:00 title = Odgoj za početnike
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:20:00 stop = 21.11.2015. 11:50:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 11:48:00 stop = 21.11.2015. 12:46:00 title = Domovina
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:20:00 stop = 21.11.2015. 11:50:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 11:50:00 stop = 21.11.2015. 12:45:00 title = Domovina
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:45:00 stop = 21.11.2015. 13:45:00 title = Navy CIS L. A.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 12:46:00 stop = 21.11.2015. 13:43:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:45:00 stop = 21.11.2015. 13:45:00 title = Navy CIS L. A.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 13:43:00 stop = 21.11.2015. 14:39:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21.11.2015. 12:45:00 stop = 21.11.2015. 13:45:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:45:00 stop = 21.11.2015. 14:40:00 title = Navy CIS L. A.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 14:39:00 stop = 21.11.2015. 15:06:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 13:45:00 stop = 21.11.2015. 14:40:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21.11.2015. 14:40:00 stop = 21.11.2015. 15:05:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:05:00 stop = 21.11.2015. 15:35:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 15:06:00 stop = 21.11.2015. 15:34:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:05:00 stop = 21.11.2015. 15:35:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 15:34:00 stop = 21.11.2015. 17:18:00 title = Beethoven
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:05:00 stop = 21.11.2015. 15:35:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:35:00 stop = 21.11.2015. 17:20:00 title = Beethoven
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 17:18:00 stop = 21.11.2015. 17:44:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 15:35:00 stop = 21.11.2015. 17:20:00 title = Beethoven
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:20:00 stop = 21.11.2015. 17:40:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:40:00 stop = 21.11.2015. 18:10:00 title = Sirene
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 17:44:00 stop = 21.11.2015. 18:08:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:40:00 stop = 21.11.2015. 18:10:00 title = Sirene
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 18:08:00 stop = 21.11.2015. 18:34:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 17:40:00 stop = 21.11.2015. 18:10:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:10:00 stop = 21.11.2015. 18:35:00 title = Sirene
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 18:34:00 stop = 21.11.2015. 19:02:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:10:00 stop = 21.11.2015. 18:35:00 title = Sirene
+[  Info  ]       Replaces ----- start = 21.11.2015. 18:35:00 stop = 21.11.2015. 19:00:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 19:00:00 stop = 21.11.2015. 19:25:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 19:02:00 stop = 21.11.2015. 19:30:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 19:00:00 stop = 21.11.2015. 19:25:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 19:25:00 stop = 21.11.2015. 21:35:00 title = Mamma Mia!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 19:30:00 stop = 21.11.2015. 21:40:00 title = Mamma Mia!
+[  Info  ]       Replaces ----- start = 21.11.2015. 19:25:00 stop = 21.11.2015. 21:35:00 title = Mamma Mia!
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:35:00 stop = 21.11.2015. 22:00:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 21:40:00 stop = 21.11.2015. 22:05:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 21:35:00 stop = 21.11.2015. 22:00:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:00:00 stop = 21.11.2015. 23:00:00 title = Imperij
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 22:05:00 stop = 21.11.2015. 23:01:00 title = Imperij
+[  Info  ]       Replaces ----- start = 21.11.2015. 22:00:00 stop = 21.11.2015. 23:00:00 title = Imperij
+[  Info  ]       Replaces ----- start = 21.11.2015. 23:00:00 stop = 22.11.2015. 0:00:00 title = Živi mrtvaci
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 23:01:00 stop = 21.11.2015. 23:58:00 title = Živi mrtvaci
+[  Info  ]       Replaces ----- start = 21.11.2015. 23:00:00 stop = 22.11.2015. 0:00:00 title = Živi mrtvaci
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 23:58:00 stop = 22.11.2015. 0:56:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21.11.2015. 23:00:00 stop = 22.11.2015. 0:00:00 title = Živi mrtvaci
+[  Info  ]       Replaces ----- start = 22.11.2015. 0:00:00 stop = 22.11.2015. 0:55:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 22.11.2015. 0:55:00 stop = 22.11.2015. 1:50:00 title = Navy CIS L. A.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22.11.2015. 0:56:00 stop = 22.11.2015. 1:55:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 22.11.2015. 0:55:00 stop = 22.11.2015. 1:50:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:50:00 stop = 22.11.2015. 2:50:00 title = Okus krvi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22.11.2015. 1:55:00 stop = 22.11.2015. 2:46:00 title = Okus krvi
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:50:00 stop = 22.11.2015. 2:50:00 title = Okus krvi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22.11.2015. 2:46:00 stop = 22.11.2015. 3:33:00 title = Dodir
+[  Info  ]       Replaces ----- start = 22.11.2015. 1:50:00 stop = 22.11.2015. 2:50:00 title = Okus krvi
+[  Info  ]       Replaces ----- start = 22.11.2015. 2:50:00 stop = 22.11.2015. 3:35:00 title = Dodir
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22.11.2015. 3:33:00 stop = 22.11.2015. 4:19:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 22.11.2015. 2:50:00 stop = 22.11.2015. 3:35:00 title = Dodir
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/40  ) PORT.HR -- chan. (xmltv_id=Fox Life) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 9:20:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 10:20:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:20:00 stop = 18.11.2015. 10:20:00 title = Uvod u anatomiju
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:20:00 stop = 18.11.2015. 10:20:00 title = Uvod u anatomiju
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:00:00 stop = 18.11.2015. 19:58:00 title = Kućanice
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:00:00 stop = 18.11.2015. 18:56:00 title = Kućanice
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:56:00 stop = 18.11.2015. 19:58:00 title = Šaptačica duhovima
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1394,36 +1083,10 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/40  ) PORT.HR -- chan. (xmltv_id=National Geographic Channel) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:00:00 stop = 18.11.2015. 15:01:00 title = Kozmos: Odiseja u prostoru i vremenu
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:00:00 stop = 18.11.2015. 16:02:00 title = Kozmos: Odiseja u prostoru i vremenu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:01:00 stop = 18.11.2015. 16:02:00 title = Istrage zrakoplovnih nesreća
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:00:00 stop = 18.11.2015. 16:02:00 title = Kozmos: Odiseja u prostoru i vremenu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:06:00 stop = 18.11.2015. 20:01:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:06:00 stop = 18.11.2015. 19:34:00 title = Brain Games
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:34:00 stop = 18.11.2015. 20:01:00 title = Brain Games
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/40  ) PORT.HR -- chan. (xmltv_id=Viasat History) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 15:30:00 title = Važnost Delfija
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 16:25:00 title = Važnost Delfija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:30:00 stop = 18.11.2015. 16:25:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 16:25:00 title = Važnost Delfija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:15:00 stop = 18.11.2015. 20:00:00 title = Zabranjena povijest
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:15:00 stop = 18.11.2015. 19:05:00 title = Zabranjena povijest
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:05:00 stop = 18.11.2015. 20:00:00 title = Žene koje su stvarale povijest
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1432,19 +1095,6 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/40  ) PORT.HR -- chan. (xmltv_id=Viasat Explore) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 9:15:00 title = Veliko na prodaji
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 10:05:00 title = Veliko na prodaji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 9:15:00 stop = 18.11.2015. 10:05:00 title = Megaselidbe
-[  Info  ]       Replaces ----- start = 18.11.2015. 8:55:00 stop = 18.11.2015. 10:05:00 title = Veliko na prodaji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:55:00 stop = 18.11.2015. 16:05:00 title = Dekonstrukcija
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:55:00 stop = 18.11.2015. 15:20:00 title = Dekonstrukcija
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:20:00 stop = 18.11.2015. 16:05:00 title = Dozvola za bušenje
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1461,20 +1111,10 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/40  ) PORT.HR -- chan. (xmltv_id=Z1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 15:10:00 title = Zoom Zagreb
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:30:00 stop = 18.11.2015. 15:59:00 title = Zoom Zagreb
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:29:00 stop = 18.11.2015. 20:05:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:29:00 stop = 18.11.2015. 19:30:00 title = Pregled programa
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:30:00 stop = 18.11.2015. 20:05:00 title = Glazbena zona
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/40  ) BNET.HR -- chan. (xmltv_id=24 SATA TV) -- mode incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/40  ) PORT.HR -- chan. (xmltv_id=CNN International Europe) -- mode incremental
@@ -1486,30 +1126,18 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  27/40  ) PORT.HR -- chan. (xmltv_id=Nickelodeon) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:20:00 stop = 18.11.2015. 15:50:00 title = Pingvini s Madagaskara
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:20:00 stop = 18.11.2015. 16:15:00 title = Pingvini s Madagaskara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:50:00 stop = 18.11.2015. 16:15:00 title = Sam & Cat
-[  Info  ]       Replaces ----- start = 18.11.2015. 15:20:00 stop = 18.11.2015. 16:15:00 title = Pingvini s Madagaskara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:20:00 stop = 18.11.2015. 20:15:00 title = (Harvey Beaks)
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:20:00 stop = 18.11.2015. 19:45:00 title = (Harvey Beaks)
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:45:00 stop = 18.11.2015. 20:15:00 title = The Haunted Hathaways
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/40  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 403
-[  Info  ]      total after update        404
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           15
+[  Info  ]      unchanged shows inspected 344
+[  Info  ]      total after update        360
 [  Debug ] 
 [  Info  ] (  29/40  ) PORT.HR -- chan. (xmltv_id=Mini TV) -- mode incremental
 [  Error ] no shows in indexpage!
@@ -1525,52 +1153,185 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  32/40  ) PORT.HR -- chan. (xmltv_id=Eurosport) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 5:02:00 stop = 19.11.2015. 6:29:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 5:00:00 stop = 19.11.2015. 6:25:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:25:00 stop = 19.11.2015. 6:30:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 6:29:00 stop = 19.11.2015. 6:30:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:25:00 stop = 19.11.2015. 6:30:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 6:30:00 stop = 19.11.2015. 6:57:00 title = Football Greatest
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:30:00 stop = 19.11.2015. 6:55:00 title = Football Greatest
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:55:00 stop = 19.11.2015. 7:00:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 6:57:00 stop = 19.11.2015. 6:59:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:55:00 stop = 19.11.2015. 7:00:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 6:59:00 stop = 19.11.2015. 7:36:00 title = WATTS
+[  Info  ]       Replaces ----- start = 19.11.2015. 6:55:00 stop = 19.11.2015. 7:00:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 19.11.2015. 7:00:00 stop = 19.11.2015. 7:30:00 title = WATTS
+[  Info  ]       Replaces ----- start = 19.11.2015. 7:30:00 stop = 19.11.2015. 8:30:00 title = Nordijska kombinacija - Svjetsko prvenstvo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 7:36:00 stop = 19.11.2015. 8:37:00 title = Nordijska kombinacija - Svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 19.11.2015. 7:30:00 stop = 19.11.2015. 8:30:00 title = Nordijska kombinacija - Svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:30:00 stop = 19.11.2015. 9:15:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 8:37:00 stop = 19.11.2015. 9:12:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:30:00 stop = 19.11.2015. 9:15:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 9:12:00 stop = 19.11.2015. 10:05:00 title = World Series by Renault
+[  Info  ]       Replaces ----- start = 19.11.2015. 8:30:00 stop = 19.11.2015. 9:15:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 9:15:00 stop = 19.11.2015. 10:00:00 title = World Series by Renault
+[  Info  ]       Replaces ----- start = 19.11.2015. 10:00:00 stop = 19.11.2015. 11:00:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 10:05:00 stop = 19.11.2015. 11:07:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 10:00:00 stop = 19.11.2015. 11:00:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 11:00:00 stop = 19.11.2015. 11:30:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 11:07:00 stop = 19.11.2015. 11:34:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 11:00:00 stop = 19.11.2015. 11:30:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 11:30:00 stop = 19.11.2015. 12:30:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 11:34:00 stop = 19.11.2015. 12:31:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 19.11.2015. 11:30:00 stop = 19.11.2015. 12:30:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:30:00 stop = 19.11.2015. 13:30:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 12:31:00 stop = 19.11.2015. 13:32:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 19.11.2015. 12:30:00 stop = 19.11.2015. 13:30:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 19.11.2015. 13:30:00 stop = 19.11.2015. 15:00:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 13:32:00 stop = 19.11.2015. 15:01:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 13:30:00 stop = 19.11.2015. 15:00:00 title = Nogomet - Kvalifikacije za EP U21
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:00:00 stop = 19.11.2015. 16:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 15:01:00 stop = 19.11.2015. 16:02:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 19.11.2015. 15:00:00 stop = 19.11.2015. 16:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 19.11.2015. 16:00:00 stop = 19.11.2015. 16:30:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 16:02:00 stop = 19.11.2015. 16:31:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 16:00:00 stop = 19.11.2015. 16:30:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 16:30:00 stop = 19.11.2015. 17:25:00 title = WATTS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 16:31:00 stop = 19.11.2015. 17:25:00 title = WATTS
+[  Info  ]       Replaces ----- start = 19.11.2015. 16:30:00 stop = 19.11.2015. 17:25:00 title = WATTS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 17:25:00 stop = 19.11.2015. 17:29:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 17:25:00 stop = 19.11.2015. 17:30:00 title = Nogomet - FIFA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 17:29:00 stop = 19.11.2015. 18:00:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 17:25:00 stop = 19.11.2015. 17:30:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 17:30:00 stop = 19.11.2015. 18:00:00 title = Nogomet - FIFA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 18:00:00 stop = 19.11.2015. 18:28:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:00:00 stop = 19.11.2015. 18:25:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:25:00 stop = 19.11.2015. 18:30:00 title = Nogomet - FIFA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 18:28:00 stop = 19.11.2015. 18:32:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:25:00 stop = 19.11.2015. 18:30:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:30:00 stop = 19.11.2015. 20:00:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 18:32:00 stop = 19.11.2015. 20:03:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 18:30:00 stop = 19.11.2015. 20:00:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:00:00 stop = 19.11.2015. 20:30:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 20:03:00 stop = 19.11.2015. 20:31:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:00:00 stop = 19.11.2015. 20:30:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:30:00 stop = 19.11.2015. 21:00:00 title = WATTS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 20:31:00 stop = 19.11.2015. 21:01:00 title = WATTS
+[  Info  ]       Replaces ----- start = 19.11.2015. 20:30:00 stop = 19.11.2015. 21:00:00 title = WATTS
+[  Info  ]       Replaces ----- start = 19.11.2015. 21:00:00 stop = 19.11.2015. 23:00:00 title = Borilački sportovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 21:01:00 stop = 19.11.2015. 22:41:00 title = Borilački sportovi
+[  Info  ]       Replaces ----- start = 19.11.2015. 21:00:00 stop = 19.11.2015. 23:00:00 title = Borilački sportovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19.11.2015. 22:41:00 stop = 20.11.2015. 0:11:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 21:00:00 stop = 19.11.2015. 23:00:00 title = Borilački sportovi
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:00:00 stop = 20.11.2015. 0:00:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 20.11.2015. 0:00:00 stop = 20.11.2015. 1:00:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 0:11:00 stop = 20.11.2015. 1:36:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 20.11.2015. 0:00:00 stop = 20.11.2015. 1:00:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:00:00 stop = 20.11.2015. 1:30:00 title = WATTS
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:30:00 stop = 20.11.2015. 3:00:00 title = Borilački sportovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 1:36:00 stop = 20.11.2015. 3:00:00 title = Borilački sportovi
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:30:00 stop = 20.11.2015. 3:00:00 title = Borilački sportovi
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/40  ) PORT.HR -- chan. (xmltv_id=Eurosport 2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:46:00 stop = 18.11.2015. 15:17:00 title = Show košarkaške Eurolige
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:46:00 stop = 18.11.2015. 16:15:00 title = Show košarkaške Eurolige
+[  Info  ]       show with ---- start = 19.11.2015. 4:00:00 stop = 19.11.2015. 5:00:00 title = Nogomet - UEFA Liga prvaka (ž)
+[  Info  ]       Replaces ----- start = 19.11.2015. 3:00:00 stop = 19.11.2015. 5:00:00 title = Nogomet - UEFA Liga prvaka (ž)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:17:00 stop = 18.11.2015. 16:15:00 title = Košarka - Eurokup
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:46:00 stop = 18.11.2015. 16:15:00 title = Show košarkaške Eurolige
+[  Info  ]       show with ---- start = 19.11.2015. 22:30:00 stop = 19.11.2015. 23:15:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 19.11.2015. 22:30:00 stop = 19.11.2015. 23:30:00 title = Skijaški skokovi - Ljetni Grand Prix
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 17:11:00 stop = 18.11.2015. 17:58:00 title = Motosportovi
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:11:00 stop = 18.11.2015. 17:27:00 title = Motosportovi
-[  Info  ]       Replaces ----- start = 18.11.2015. 17:27:00 stop = 18.11.2015. 17:58:00 title = Show košarkaške Eurolige
+[  Info  ]       show with ---- start = 19.11.2015. 23:15:00 stop = 20.11.2015. 0:00:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 19.11.2015. 22:30:00 stop = 19.11.2015. 23:30:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:30:00 stop = 20.11.2015. 0:30:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 0:00:00 stop = 20.11.2015. 1:00:00 title = Skijaški skokovi - Ljetni Grand Prix
+[  Info  ]       Replaces ----- start = 19.11.2015. 23:30:00 stop = 20.11.2015. 0:30:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 20.11.2015. 0:30:00 stop = 20.11.2015. 1:15:00 title = Košarka - Eurokup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20.11.2015. 1:00:00 stop = 20.11.2015. 2:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 20.11.2015. 0:30:00 stop = 20.11.2015. 1:15:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 20.11.2015. 1:15:00 stop = 20.11.2015. 2:00:00 title = Košarka - Eurokup
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/40  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 121
-[  Info  ]      total after update        122
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           3
+[  Info  ]      unchanged shows inspected 107
+[  Info  ]      total after update        111
 [  Debug ] 
 [  Info  ] (  35/40  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 18:15:00 stop = 18.11.2015. 20:00:00 title = Rugby Champions Cup: Northampton - Scarlets
-[  Info  ]       Replaces ----- start = 18.11.2015. 18:15:00 stop = 18.11.2015. 20:00:00 title = Prijateljska utakmica: Germany - Holland
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20.11.2015. 14:45:00 stop = 20.11.2015. 16:30:00 title = Euroleague: Maccabi - CSKA
-[  Info  ]       Replaces ----- start = 20.11.2015. 14:45:00 stop = 20.11.2015. 16:30:00 title = Prijateljska utakmica: Germany - Holland
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     2
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 87
-[  Info  ]      total after update        90
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 72
+[  Info  ]      total after update        73
 [  Debug ] 
 [  Info  ] (  36/40  ) PORT.HR -- chan. (xmltv_id=MTV Hrvatska) -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -1581,19 +1342,6 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  38/40  ) PORT.HR -- chan. (xmltv_id=CMC) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 15:30:00 title = CMC Mix
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 16:00:00 title = CMC Mix
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 15:30:00 stop = 18.11.2015. 16:00:00 title = Portret CMC
-[  Info  ]       Replaces ----- start = 18.11.2015. 14:40:00 stop = 18.11.2015. 16:00:00 title = CMC Mix
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 18.11.2015. 19:00:00 stop = 18.11.2015. 20:00:00 title = CMC Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:00:00 stop = 18.11.2015. 19:10:00 title = CMC Vijesti
-[  Info  ]       Replaces ----- start = 18.11.2015. 19:10:00 stop = 18.11.2015. 20:00:00 title = CMC Hitovi
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1601,10 +1349,10 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5910 shows in 40 channels
-[  Debug ] 363 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 5705 shows in 40 channels
+[  Debug ] 260 updated shows
+[  Debug ] 1090 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] job finished at 18.11.2015. 20:05:19 done in 228 seconds
+[        ] job finished at 19.11.2015. 0:09:29 done in 518 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
