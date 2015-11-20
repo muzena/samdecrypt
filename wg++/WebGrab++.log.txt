@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[  Debug ] Job started at 20.11.2015. 4:00:53
+[  Debug ] Job started at 20.11.2015. 8:00:54
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.19.0.21
 [  Debug ] Environment: 4.0.30319.17020
@@ -50,6 +50,16 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/40  ) PORT.HR -- chan. (xmltv_id=NOVA TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:25:00 title = Astro savjetnik
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:00:00 stop = 21.11.2015. 4:00:00 title = Astro savjetnik
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 4:45:00 title = U rukama mafije
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 4:25:00 stop = 21.11.2015. 5:35:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 4:45:00 title = U rukama mafije
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:45:00 stop = 21.11.2015. 5:35:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -58,6 +68,11 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/40  ) PORT.HR -- chan. (xmltv_id=Doma TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21.11.2015. 3:05:00 stop = 21.11.2015. 5:50:00 title = Trenutak istine
+[  Info  ]       Replaces ----- start = 21.11.2015. 3:05:00 stop = 21.11.2015. 4:00:00 title = Trenutak istine
+[  Info  ]       Replaces ----- start = 21.11.2015. 4:00:00 stop = 21.11.2015. 5:50:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -130,6 +145,7 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/40  ) BNET.HR -- chan. (xmltv_id=24 SATA TV) -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/40  ) PORT.HR -- chan. (xmltv_id=CNN International Europe) -- mode incremental
@@ -145,12 +161,15 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/40  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           43
 [  Info  ]      unchanged shows inspected 359
-[  Info  ]      total after update        360
+[  Info  ]      total after update        403
 [  Debug ] 
 [  Info  ] (  29/40  ) PORT.HR -- chan. (xmltv_id=Mini TV) -- mode incremental
 [  Error ] no shows in indexpage!
@@ -175,12 +194,29 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Debug ] 
 [  Info  ] (  34/40  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode incremental
 [  Debug ]    skipped show without a title at 25.11.2015. 15:30:00
+[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] SK 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           20
+[  Info  ]      unchanged shows inspected 116
+[  Info  ]      total after update        137
 [  Debug ] 
 [  Info  ] (  35/40  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode incremental
 [  Debug ]    skipped show without a title at 23.11.2015. 5:15:00
 [  Debug ]    skipped show without a title at 26.11.2015. 2:15:00
+[  Debug ]    skipped show without a title at 26.11.2015. 12:30:00
+[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of 
+[  Info  ] SK 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           16
+[  Info  ]      unchanged shows inspected 105
+[  Info  ]      total after update        122
 [  Debug ] 
 [  Info  ] (  36/40  ) PORT.HR -- chan. (xmltv_id=MTV Hrvatska) -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -198,10 +234,10 @@ Rev. 07:[14.11.2013] - Francis De Paemeleere
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5742 shows in 40 channels
-[  Debug ] 0 updated shows
-[  Debug ] 52 new shows added
+[  Debug ] 5843 shows in 40 channels
+[  Debug ] 3 updated shows
+[  Debug ] 103 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] job finished at 20.11.2015. 4:03:03 done in 129 seconds
+[        ] job finished at 20.11.2015. 8:03:10 done in 135 seconds
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
