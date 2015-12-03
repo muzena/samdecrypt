@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 03/12/2015 00:01:08
+[        ] Job started at 03/12/2015 12:01:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 3.19.0.21
 [  Debug ] Environment: 4.0.30319.17020
@@ -24,7 +24,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
 [  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1303 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 40 - out of - 40 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -34,34 +34,945 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/40  ) PORT.HR -- chan. (xmltv_id=HRT 1) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:59:00 stop = 03/12/2015 05:47:00 title = Dragocjeni biser
+[  Info  ]       Replaces ----- start = 03/12/2015 03:21:00 stop = 03/12/2015 05:02:00 title = Prijevara
+[  Info  ]       Replaces ----- start = 03/12/2015 05:02:00 stop = 03/12/2015 05:50:00 title = Dragocjeni biser
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:47:00 stop = 03/12/2015 06:36:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 03/12/2015 05:02:00 stop = 03/12/2015 05:50:00 title = Dragocjeni biser
+[  Info  ]       Replaces ----- start = 03/12/2015 05:50:00 stop = 03/12/2015 06:36:00 title = Dnevnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:55:00 stop = 03/12/2015 09:05:00 title = Dobro jutro, Hrvatska
+[  Info  ]       Replaces ----- start = 03/12/2015 06:55:00 stop = 03/12/2015 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]       Replaces ----- start = 03/12/2015 09:00:00 stop = 03/12/2015 09:05:00 title = Vijesti
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/40  ) PORT.HR -- chan. (xmltv_id=HRT 2) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:59:00 stop = 03/12/2015 06:03:00 title = Tonko Bonko
+[  Info  ]       Replaces ----- start = 03/12/2015 02:21:00 stop = 03/12/2015 06:00:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 03/12/2015 06:00:00 stop = 03/12/2015 06:05:00 title = Tonko Bonko
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:06:00 stop = 03/12/2015 06:35:00 title = U vrtu pod zvijezdama
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:09:00 title = Tuc Muc
+[  Info  ]       Replaces ----- start = 03/12/2015 06:09:00 stop = 03/12/2015 06:37:00 title = U vrtu pod zvijezdama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:35:00 stop = 03/12/2015 06:36:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:09:00 stop = 03/12/2015 06:37:00 title = U vrtu pod zvijezdama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:36:00 stop = 03/12/2015 06:48:00 title = Zvonko
+[  Info  ]       Replaces ----- start = 03/12/2015 06:09:00 stop = 03/12/2015 06:37:00 title = U vrtu pod zvijezdama
+[  Info  ]       Replaces ----- start = 03/12/2015 06:37:00 stop = 03/12/2015 06:39:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:39:00 stop = 03/12/2015 06:50:00 title = Zvonko
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:48:00 stop = 03/12/2015 06:50:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:39:00 stop = 03/12/2015 06:50:00 title = Zvonko
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:50:00 stop = 03/12/2015 07:01:00 title = Mouk
+[  Info  ]       Replaces ----- start = 03/12/2015 06:50:00 stop = 03/12/2015 06:51:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:51:00 stop = 03/12/2015 06:58:00 title = Mouk
+[  Info  ]       Replaces ----- start = 03/12/2015 06:58:00 stop = 03/12/2015 06:59:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:59:00 stop = 03/12/2015 07:09:00 title = I to je to
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:01:00 stop = 03/12/2015 07:02:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 06:59:00 stop = 03/12/2015 07:09:00 title = I to je to
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:02:00 stop = 03/12/2015 07:11:00 title = I to je to
+[  Info  ]       Replaces ----- start = 03/12/2015 06:59:00 stop = 03/12/2015 07:09:00 title = I to je to
+[  Info  ]       Replaces ----- start = 03/12/2015 07:09:00 stop = 03/12/2015 07:10:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 07:10:00 stop = 03/12/2015 07:15:00 title = Danica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:11:00 stop = 03/12/2015 07:17:00 title = Danica
+[  Info  ]       Replaces ----- start = 03/12/2015 07:10:00 stop = 03/12/2015 07:15:00 title = Danica
+[  Info  ]       Replaces ----- start = 03/12/2015 07:15:00 stop = 03/12/2015 07:16:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 07:16:00 stop = 03/12/2015 07:25:00 title = TV vrtić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:17:00 stop = 03/12/2015 07:26:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 03/12/2015 07:16:00 stop = 03/12/2015 07:25:00 title = TV vrtić
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 07:31:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:26:00 stop = 03/12/2015 07:29:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 07:31:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:29:00 stop = 03/12/2015 07:55:00 title = Hello Kitty i prijatelji
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 07:31:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 07:31:00 stop = 03/12/2015 07:57:00 title = Hello Kitty i prijatelji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:55:00 stop = 03/12/2015 08:09:00 title = Tajni dnevnik patke Matilde
+[  Info  ]       Replaces ----- start = 03/12/2015 07:31:00 stop = 03/12/2015 07:57:00 title = Hello Kitty i prijatelji
+[  Info  ]       Replaces ----- start = 03/12/2015 07:57:00 stop = 03/12/2015 08:11:00 title = Tajni dnevnik patke Matilde
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:09:00 stop = 03/12/2015 08:16:00 title = Pssst... priča!
+[  Info  ]       Replaces ----- start = 03/12/2015 07:57:00 stop = 03/12/2015 08:11:00 title = Tajni dnevnik patke Matilde
+[  Info  ]       Replaces ----- start = 03/12/2015 08:11:00 stop = 03/12/2015 08:14:00 title = Pssst... priča!
+[  Info  ]       Replaces ----- start = 03/12/2015 08:14:00 stop = 03/12/2015 08:19:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:16:00 stop = 03/12/2015 08:17:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 08:14:00 stop = 03/12/2015 08:19:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:17:00 stop = 03/12/2015 08:26:00 title = Moj mali poni
+[  Info  ]       Replaces ----- start = 03/12/2015 08:14:00 stop = 03/12/2015 08:19:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 03/12/2015 08:19:00 stop = 03/12/2015 08:29:00 title = Moj mali poni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:26:00 stop = 03/12/2015 08:33:00 title = Penelopa
+[  Info  ]       Replaces ----- start = 03/12/2015 08:19:00 stop = 03/12/2015 08:29:00 title = Moj mali poni
+[  Info  ]       Replaces ----- start = 03/12/2015 08:29:00 stop = 03/12/2015 08:35:00 title = Penelopa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:33:00 stop = 03/12/2015 08:43:00 title = Edo i Medo
+[  Info  ]       Replaces ----- start = 03/12/2015 08:29:00 stop = 03/12/2015 08:35:00 title = Penelopa
+[  Info  ]       Replaces ----- start = 03/12/2015 08:35:00 stop = 03/12/2015 08:45:00 title = Edo i Medo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:03:00 stop = 03/12/2015 09:32:00 title = Noćne more iz svijeta prirode
+[  Info  ]       Replaces ----- start = 03/12/2015 08:51:00 stop = 03/12/2015 09:05:00 title = Andyjeve divlje pustolovine
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:32:00 title = Noćne more iz svijeta prirode
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:14:00 stop = 03/12/2015 12:41:00 title = Domaća farmerska jela
+[  Info  ]       Replaces ----- start = 03/12/2015 12:14:00 stop = 03/12/2015 12:42:00 title = Domaća farmerska jela
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:41:00 stop = 03/12/2015 13:39:00 title = Posljednji tango u Halifaxu
+[  Info  ]       Replaces ----- start = 03/12/2015 12:14:00 stop = 03/12/2015 12:42:00 title = Domaća farmerska jela
+[  Info  ]       Replaces ----- start = 03/12/2015 12:42:00 stop = 03/12/2015 13:39:00 title = Posljednji tango u Halifaxu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:30:00 stop = 03/12/2015 18:18:00 title = Kruške i jabuke
+[  Info  ]       Replaces ----- start = 03/12/2015 17:30:00 stop = 03/12/2015 18:19:00 title = Kruške i jabuke
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:18:00 stop = 03/12/2015 18:27:00 title = Male priče o Božiću
+[  Info  ]       Replaces ----- start = 03/12/2015 17:30:00 stop = 03/12/2015 18:19:00 title = Kruške i jabuke
+[  Info  ]       Replaces ----- start = 03/12/2015 18:19:00 stop = 03/12/2015 18:27:00 title = Male priče o Božiću
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:59:00 stop = 03/12/2015 19:24:00 title = Odbrojavanje do Ria
+[  Info  ]       Replaces ----- start = 03/12/2015 18:59:00 stop = 03/12/2015 19:25:00 title = Odbrojavanje do Ria
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:24:00 stop = 03/12/2015 20:03:00 title = Bitange i princeze
+[  Info  ]       Replaces ----- start = 03/12/2015 18:59:00 stop = 03/12/2015 19:25:00 title = Odbrojavanje do Ria
+[  Info  ]       Replaces ----- start = 03/12/2015 19:25:00 stop = 03/12/2015 20:03:00 title = Bitange i princeze
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:03:00 stop = 03/12/2015 20:50:00 title = Život na Arktičkom krugu
+[  Info  ]       Replaces ----- start = 03/12/2015 20:03:00 stop = 03/12/2015 20:51:00 title = Život na Arktičkom krugu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:50:00 stop = 03/12/2015 20:58:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 03/12/2015 20:03:00 stop = 03/12/2015 20:51:00 title = Život na Arktičkom krugu
+[  Info  ]       Replaces ----- start = 03/12/2015 20:51:00 stop = 03/12/2015 20:59:00 title = Vrijeme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:58:00 stop = 03/12/2015 22:41:00 title = Gospođa Henderson vam predstavlja
+[  Info  ]       Replaces ----- start = 03/12/2015 20:51:00 stop = 03/12/2015 20:59:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 03/12/2015 20:59:00 stop = 03/12/2015 22:42:00 title = Gospođa Henderson vam predstavlja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:41:00 stop = 03/12/2015 23:30:00 title = Zakon i red: Zločinačke nakane
+[  Info  ]       Replaces ----- start = 03/12/2015 20:59:00 stop = 03/12/2015 22:42:00 title = Gospođa Henderson vam predstavlja
+[  Info  ]       Replaces ----- start = 03/12/2015 22:42:00 stop = 03/12/2015 23:31:00 title = Zakon i red: Zločinačke nakane
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:30:00 stop = 04/12/2015 00:11:00 title = Pod kupolom
+[  Info  ]       Replaces ----- start = 03/12/2015 22:42:00 stop = 03/12/2015 23:31:00 title = Zakon i red: Zločinačke nakane
+[  Info  ]       Replaces ----- start = 03/12/2015 23:31:00 stop = 04/12/2015 00:12:00 title = Pod kupolom
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:11:00 stop = 04/12/2015 00:53:00 title = Skladište 13
+[  Info  ]       Replaces ----- start = 03/12/2015 23:31:00 stop = 04/12/2015 00:12:00 title = Pod kupolom
+[  Info  ]       Replaces ----- start = 04/12/2015 00:12:00 stop = 04/12/2015 00:53:00 title = Skladište 13
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:53:00 stop = 04/12/2015 02:17:00 title = Ljubav počinje
+[  Info  ]       Replaces ----- start = 04/12/2015 00:53:00 stop = 04/12/2015 02:18:00 title = Ljubav počinje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 02:17:00 stop = 04/12/2015 05:23:00 title = Noćni glazbeni program
+[  Info  ]       Replaces ----- start = 04/12/2015 00:53:00 stop = 04/12/2015 02:18:00 title = Ljubav počinje
+[  Info  ]       Replaces ----- start = 04/12/2015 02:18:00 stop = 04/12/2015 05:23:00 title = Noćni glazbeni program
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/40  ) PORT.HR -- chan. (xmltv_id=HRT 3) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:49:00 stop = 03/12/2015 13:14:00 title = Bolidu me godine
+[  Info  ]       Replaces ----- start = 03/12/2015 12:49:00 stop = 03/12/2015 13:13:00 title = Bolidu me godine
+[  Info  ]       Replaces ----- start = 03/12/2015 13:13:00 stop = 03/12/2015 14:00:00 title = Srdačno vaši
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:14:00 stop = 03/12/2015 14:00:00 title = Srdačno vaši
+[  Info  ]       Replaces ----- start = 03/12/2015 13:13:00 stop = 03/12/2015 14:00:00 title = Srdačno vaši
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:50:00 stop = 03/12/2015 19:37:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 03/12/2015 18:50:00 stop = 03/12/2015 19:36:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 03/12/2015 19:36:00 stop = 03/12/2015 19:59:00 title = Tragovi grada
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:37:00 stop = 03/12/2015 20:00:00 title = Tragovi grada
+[  Info  ]       Replaces ----- start = 03/12/2015 19:36:00 stop = 03/12/2015 19:59:00 title = Tragovi grada
+[  Info  ]       Replaces ----- start = 03/12/2015 19:59:00 stop = 03/12/2015 21:14:00 title = Elektra, ljubavi moja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:00:00 stop = 03/12/2015 21:15:00 title = Elektra, ljubavi moja
+[  Info  ]       Replaces ----- start = 03/12/2015 19:59:00 stop = 03/12/2015 21:14:00 title = Elektra, ljubavi moja
+[  Info  ]       Replaces ----- start = 03/12/2015 21:14:00 stop = 03/12/2015 21:25:00 title = Knjiga ili život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:15:00 stop = 03/12/2015 21:25:00 title = Knjiga ili život
+[  Info  ]       Replaces ----- start = 03/12/2015 21:14:00 stop = 03/12/2015 21:25:00 title = Knjiga ili život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:25:00 stop = 03/12/2015 22:11:00 title = Treći element
+[  Info  ]       Replaces ----- start = 03/12/2015 21:25:00 stop = 03/12/2015 22:10:00 title = Treći element
+[  Info  ]       Replaces ----- start = 03/12/2015 22:10:00 stop = 03/12/2015 22:21:00 title = Carpe diem
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:11:00 stop = 03/12/2015 22:22:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 03/12/2015 22:10:00 stop = 03/12/2015 22:21:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 03/12/2015 22:21:00 stop = 03/12/2015 22:30:00 title = Stand up 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:22:00 stop = 03/12/2015 22:30:00 title = Stand up 3
+[  Info  ]       Replaces ----- start = 03/12/2015 22:21:00 stop = 03/12/2015 22:30:00 title = Stand up 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:30:00 stop = 03/12/2015 23:06:00 title = Larissa - mirna žena
+[  Info  ]       Replaces ----- start = 03/12/2015 22:30:00 stop = 03/12/2015 23:05:00 title = Larissa - mirna žena
+[  Info  ]       Replaces ----- start = 03/12/2015 23:05:00 stop = 03/12/2015 23:15:00 title = Sa(n)jam knjige (ili život) u Istri - kronike (1/10)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:16:00 stop = 04/12/2015 00:09:00 title = Spirala zločina
+[  Info  ]       Replaces ----- start = 03/12/2015 23:15:00 stop = 04/12/2015 00:05:00 title = Spirala zločina
+[  Info  ]       Replaces ----- start = 04/12/2015 00:05:00 stop = 04/12/2015 00:36:00 title = Trikultura
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:09:00 stop = 04/12/2015 00:40:00 title = Trikultura
+[  Info  ]       Replaces ----- start = 04/12/2015 00:05:00 stop = 04/12/2015 00:36:00 title = Trikultura
+[  Info  ]       Replaces ----- start = 04/12/2015 00:36:00 stop = 04/12/2015 01:22:00 title = Nabrijani
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:40:00 stop = 04/12/2015 01:26:00 title = Nabrijani
+[  Info  ]       Replaces ----- start = 04/12/2015 00:36:00 stop = 04/12/2015 01:22:00 title = Nabrijani
+[  Info  ]       Replaces ----- start = 04/12/2015 01:22:00 stop = 04/12/2015 01:33:00 title = Carpe diem
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:26:00 stop = 04/12/2015 01:37:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 04/12/2015 01:22:00 stop = 04/12/2015 01:33:00 title = Carpe diem
+[  Info  ]       Replaces ----- start = 04/12/2015 01:33:00 stop = 04/12/2015 06:15:00 title = Vrijeme je za jazz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:37:00 stop = 04/12/2015 06:15:00 title = Vrijeme je za jazz
+[  Info  ]       Replaces ----- start = 04/12/2015 01:33:00 stop = 04/12/2015 06:15:00 title = Vrijeme je za jazz
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/40  ) PORT.HR -- chan. (xmltv_id=HRT 4) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:00:00 stop = 03/12/2015 04:45:00 title = Za srećom na kraj svijeta
+[  Info  ]       Replaces ----- start = 03/12/2015 03:55:00 stop = 03/12/2015 04:45:00 title = Za srećom na kraj svijeta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:30:00 stop = 03/12/2015 06:05:00 title = Turistička klasa
+[  Info  ]       Replaces ----- start = 03/12/2015 05:30:00 stop = 03/12/2015 06:00:00 title = Turistička klasa
+[  Info  ]       Replaces ----- start = 03/12/2015 06:00:00 stop = 03/12/2015 06:05:00 title = Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:20:00 title = Dnevnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:10:00 stop = 03/12/2015 06:25:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:20:00 title = Dnevnik
+[  Info  ]       Replaces ----- start = 03/12/2015 06:20:00 stop = 03/12/2015 06:56:00 title = Zadarski barkajoli
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:25:00 stop = 03/12/2015 06:56:00 title = Zadarski barkajoli
+[  Info  ]       Replaces ----- start = 03/12/2015 06:20:00 stop = 03/12/2015 06:56:00 title = Zadarski barkajoli
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:30:00 stop = 03/12/2015 07:35:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 07:30:00 stop = 03/12/2015 07:50:00 title = Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:35:00 stop = 03/12/2015 08:00:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 07:30:00 stop = 03/12/2015 07:50:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 07:50:00 stop = 03/12/2015 08:00:00 title = Studio 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:30:00 stop = 03/12/2015 09:32:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 09:30:00 stop = 03/12/2015 09:35:00 title = Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:32:00 stop = 03/12/2015 09:54:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 09:30:00 stop = 03/12/2015 09:35:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 09:35:00 stop = 03/12/2015 10:00:00 title = Studio 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:54:00 stop = 03/12/2015 10:50:00 title = Zasjedanje hrvatskog Sabora
+[  Info  ]       Replaces ----- start = 03/12/2015 09:35:00 stop = 03/12/2015 10:00:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:50:00 title = Zasjedanje hrvatskog Sabora
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:10:00 stop = 03/12/2015 12:00:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:35:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 11:35:00 stop = 03/12/2015 12:00:00 title = Studio 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:30:00 stop = 03/12/2015 12:56:00 title = Raskošna paleta života
+[  Info  ]       Replaces ----- start = 03/12/2015 12:30:00 stop = 03/12/2015 13:00:00 title = Raskošna paleta života
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:30:00 stop = 03/12/2015 13:35:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 13:30:00 stop = 03/12/2015 13:45:00 title = Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:35:00 stop = 03/12/2015 14:00:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 13:30:00 stop = 03/12/2015 13:45:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 13:45:00 stop = 03/12/2015 14:00:00 title = Studio 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:15:00 stop = 03/12/2015 14:30:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 14:30:00 title = Vijesti na engleskom jeziku
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:35:00 stop = 03/12/2015 14:45:00 title = Studio 4
+[  Info  ]       Replaces ----- start = 03/12/2015 14:35:00 stop = 03/12/2015 15:00:00 title = Studio 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:00:00 stop = 03/12/2015 17:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 17:00:00 stop = 03/12/2015 17:07:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 17:07:00 stop = 03/12/2015 17:08:00 title = Meteorološki izvještaj
+[  Info  ]       Replaces ----- start = 03/12/2015 17:08:00 stop = 03/12/2015 17:10:00 title = Bez komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:10:00 stop = 03/12/2015 21:48:00 title = Ekonomija &TD
+[  Info  ]       Replaces ----- start = 03/12/2015 21:10:00 stop = 03/12/2015 21:45:00 title = Ekonomija &TD
+[  Info  ]       Replaces ----- start = 03/12/2015 21:45:00 stop = 03/12/2015 22:00:00 title = DW: Shift
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:48:00 stop = 03/12/2015 22:00:00 title = DW: Shift
+[  Info  ]       Replaces ----- start = 03/12/2015 21:45:00 stop = 03/12/2015 22:00:00 title = DW: Shift
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:00:00 stop = 03/12/2015 22:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 22:00:00 stop = 03/12/2015 22:05:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 03/12/2015 22:05:00 stop = 03/12/2015 23:00:00 title = Plivanje - Europsko prvenstvo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:10:00 stop = 03/12/2015 23:00:00 title = Plivanje - Europsko prvenstvo
+[  Info  ]       Replaces ----- start = 03/12/2015 22:05:00 stop = 03/12/2015 23:00:00 title = Plivanje - Europsko prvenstvo
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/40  ) PORT.HR -- chan. (xmltv_id=NOVA TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:45:00 stop = 03/12/2015 04:50:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 03:45:00 stop = 03/12/2015 04:50:00 title = Astro savjetnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:50:00 stop = 03/12/2015 05:35:00 title = Dnevnik Nove TV
+[  Info  ]       Replaces ----- start = 03/12/2015 04:50:00 stop = 03/12/2015 04:55:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 04:55:00 stop = 03/12/2015 05:35:00 title = Dnevnik Nove TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:00:00 title = Winx Club
+[  Info  ]       Replaces ----- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:05:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:00:00 stop = 03/12/2015 06:15:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:05:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 07:25:00 title = Liga pravde: Kriza na dvije Zemlje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:15:00 stop = 03/12/2015 07:25:00 title = Liga pravde: Kriza na dvije Zemlje
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 07:25:00 title = Liga pravde: Kriza na dvije Zemlje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:25:00 stop = 03/12/2015 08:40:00 title = Najbolje godine
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 07:40:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 07:40:00 stop = 03/12/2015 08:50:00 title = Najbolje godine
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:40:00 stop = 03/12/2015 08:55:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 07:40:00 stop = 03/12/2015 08:50:00 title = Najbolje godine
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:05:00 title = TV izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:55:00 stop = 03/12/2015 09:40:00 title = IN magazin
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:05:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:55:00 title = IN magazin
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:40:00 stop = 03/12/2015 09:55:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:55:00 title = IN magazin
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:10:00 stop = 03/12/2015 12:10:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:40:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 03/12/2015 11:40:00 stop = 03/12/2015 12:10:00 title = Dadilja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:35:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:40:00 title = Farma
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:35:00 stop = 03/12/2015 14:00:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:40:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 13:40:00 stop = 03/12/2015 14:00:00 title = Farma
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:10:00 stop = 03/12/2015 15:05:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 15:10:00 title = Farma
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:05:00 stop = 03/12/2015 16:05:00 title = Kud puklo da puklo
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 15:10:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 15:10:00 stop = 03/12/2015 16:05:00 title = Kud puklo da puklo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:30:00 stop = 03/12/2015 18:20:00 title = IN magazin
+[  Info  ]       Replaces ----- start = 03/12/2015 17:30:00 stop = 03/12/2015 18:15:00 title = IN magazin
+[  Info  ]       Replaces ----- start = 03/12/2015 18:15:00 stop = 03/12/2015 19:15:00 title = Najbolje godine
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:20:00 stop = 03/12/2015 19:15:00 title = Najbolje godine
+[  Info  ]       Replaces ----- start = 03/12/2015 18:15:00 stop = 03/12/2015 19:15:00 title = Najbolje godine
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:15:00 stop = 03/12/2015 21:40:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 20:15:00 stop = 03/12/2015 21:25:00 title = Farma
+[  Info  ]       Replaces ----- start = 03/12/2015 21:25:00 stop = 03/12/2015 22:20:00 title = Kud puklo da puklo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:40:00 stop = 03/12/2015 22:40:00 title = Kud puklo da puklo
+[  Info  ]       Replaces ----- start = 03/12/2015 21:25:00 stop = 03/12/2015 22:20:00 title = Kud puklo da puklo
+[  Info  ]       Replaces ----- start = 03/12/2015 22:20:00 stop = 03/12/2015 23:20:00 title = Provjereno
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:40:00 stop = 03/12/2015 23:30:00 title = Provjereno
+[  Info  ]       Replaces ----- start = 03/12/2015 22:20:00 stop = 03/12/2015 23:20:00 title = Provjereno
+[  Info  ]       Replaces ----- start = 03/12/2015 23:20:00 stop = 03/12/2015 23:45:00 title = Vijesti Nove TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:30:00 stop = 04/12/2015 00:00:00 title = Vijesti Nove TV
+[  Info  ]       Replaces ----- start = 03/12/2015 23:20:00 stop = 03/12/2015 23:45:00 title = Vijesti Nove TV
+[  Info  ]       Replaces ----- start = 03/12/2015 23:45:00 stop = 04/12/2015 01:45:00 title = Zamrznuta istina
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:00:00 stop = 04/12/2015 01:55:00 title = Zamrznuta istina
+[  Info  ]       Replaces ----- start = 03/12/2015 23:45:00 stop = 04/12/2015 01:45:00 title = Zamrznuta istina
+[  Info  ]       Replaces ----- start = 04/12/2015 01:45:00 stop = 04/12/2015 03:20:00 title = Divlja igra 4
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:55:00 stop = 04/12/2015 03:25:00 title = Divlja igra 4
+[  Info  ]       Replaces ----- start = 04/12/2015 01:45:00 stop = 04/12/2015 03:20:00 title = Divlja igra 4
+[  Info  ]       Replaces ----- start = 04/12/2015 03:20:00 stop = 04/12/2015 04:00:00 title = Trinaesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:25:00 stop = 04/12/2015 04:10:00 title = Trinaesti
+[  Info  ]       Replaces ----- start = 04/12/2015 03:20:00 stop = 04/12/2015 04:00:00 title = Trinaesti
+[  Info  ]       Replaces ----- start = 04/12/2015 04:00:00 stop = 04/12/2015 04:45:00 title = Astro savjetnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 04:10:00 stop = 04/12/2015 05:10:00 title = Astro savjetnik
+[  Info  ]       Replaces ----- start = 04/12/2015 04:00:00 stop = 04/12/2015 04:45:00 title = Astro savjetnik
+[  Info  ]       Replaces ----- start = 04/12/2015 04:45:00 stop = 04/12/2015 05:35:00 title = Dnevnik Nove TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 05:10:00 stop = 04/12/2015 05:15:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 04/12/2015 04:45:00 stop = 04/12/2015 05:35:00 title = Dnevnik Nove TV
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 05:15:00 stop = 04/12/2015 05:35:00 title = Dnevnik Nove TV
+[  Info  ]       Replaces ----- start = 04/12/2015 04:45:00 stop = 04/12/2015 05:35:00 title = Dnevnik Nove TV
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/40  ) PORT.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:25:00 stop = 03/12/2015 04:45:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 04:25:00 stop = 03/12/2015 04:55:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:45:00 stop = 03/12/2015 06:00:00 title = RTL Danas
+[  Info  ]       Replaces ----- start = 03/12/2015 04:25:00 stop = 03/12/2015 04:55:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 04:55:00 stop = 03/12/2015 05:35:00 title = RTL Danas
+[  Info  ]       Replaces ----- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:05:00 title = Sve u šest
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:00:00 stop = 03/12/2015 06:25:00 title = Lego Ninjago
+[  Info  ]       Replaces ----- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:05:00 title = Sve u šest
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:35:00 title = Lego Ninjago
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:25:00 stop = 03/12/2015 06:50:00 title = Svemoguća Kim
+[  Info  ]       Replaces ----- start = 03/12/2015 06:05:00 stop = 03/12/2015 06:35:00 title = Lego Ninjago
+[  Info  ]       Replaces ----- start = 03/12/2015 06:35:00 stop = 03/12/2015 07:25:00 title = Svemoguća Kim
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:50:00 stop = 03/12/2015 08:15:00 title = Pet na pet
+[  Info  ]       Replaces ----- start = 03/12/2015 06:35:00 stop = 03/12/2015 07:25:00 title = Svemoguća Kim
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 08:25:00 title = Pet na pet
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:15:00 stop = 03/12/2015 08:30:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 08:25:00 title = Pet na pet
+[  Info  ]       Replaces ----- start = 03/12/2015 08:25:00 stop = 03/12/2015 08:40:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:30:00 stop = 03/12/2015 09:55:00 title = Mijenjam ženu
+[  Info  ]       Replaces ----- start = 03/12/2015 08:25:00 stop = 03/12/2015 08:40:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 08:40:00 stop = 03/12/2015 10:00:00 title = Mijenjam ženu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:55:00 stop = 03/12/2015 10:10:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 08:40:00 stop = 03/12/2015 10:00:00 title = Mijenjam ženu
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:15:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:10:00 stop = 03/12/2015 11:10:00 title = Četiri vjenčanja
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:15:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 10:15:00 stop = 03/12/2015 11:15:00 title = Četiri vjenčanja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:25:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 10:15:00 stop = 03/12/2015 11:15:00 title = Četiri vjenčanja
+[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 11:30:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:25:00 stop = 03/12/2015 12:20:00 title = Hitna služba
+[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 11:30:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:30:00 title = Hitna služba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:20:00 stop = 03/12/2015 13:25:00 title = Chicago u plamenu
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:30:00 title = Hitna služba
+[  Info  ]       Replaces ----- start = 03/12/2015 12:30:00 stop = 03/12/2015 13:25:00 title = Chicago u plamenu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:25:00 stop = 03/12/2015 15:20:00 title = Horvatovi
+[  Info  ]       Replaces ----- start = 03/12/2015 14:25:00 stop = 03/12/2015 15:25:00 title = Horvatovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:20:00 stop = 03/12/2015 16:30:00 title = Big Brother
+[  Info  ]       Replaces ----- start = 03/12/2015 14:25:00 stop = 03/12/2015 15:25:00 title = Horvatovi
+[  Info  ]       Replaces ----- start = 03/12/2015 15:25:00 stop = 03/12/2015 16:30:00 title = Big Brother
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:15:00 stop = 03/12/2015 20:10:00 title = Pet na pet
+[  Info  ]       Replaces ----- start = 03/12/2015 19:15:00 stop = 03/12/2015 20:00:00 title = Pet na pet
+[  Info  ]       Replaces ----- start = 03/12/2015 20:00:00 stop = 03/12/2015 21:10:00 title = Horvatovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:10:00 stop = 03/12/2015 21:10:00 title = Horvatovi
+[  Info  ]       Replaces ----- start = 03/12/2015 20:00:00 stop = 03/12/2015 21:10:00 title = Horvatovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:15:00 stop = 03/12/2015 22:50:00 title = RTL Direkt
+[  Info  ]       Replaces ----- start = 03/12/2015 22:15:00 stop = 03/12/2015 22:45:00 title = RTL Direkt
+[  Info  ]       Replaces ----- start = 03/12/2015 22:45:00 stop = 03/12/2015 23:10:00 title = Big Brother
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:50:00 stop = 03/12/2015 23:15:00 title = Big Brother
+[  Info  ]       Replaces ----- start = 03/12/2015 22:45:00 stop = 03/12/2015 23:10:00 title = Big Brother
+[  Info  ]       Replaces ----- start = 03/12/2015 23:10:00 stop = 03/12/2015 23:20:00 title = Big Brother
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:15:00 stop = 03/12/2015 23:30:00 title = Big Brother
+[  Info  ]       Replaces ----- start = 03/12/2015 23:10:00 stop = 03/12/2015 23:20:00 title = Big Brother
+[  Info  ]       Replaces ----- start = 03/12/2015 23:20:00 stop = 04/12/2015 00:25:00 title = Chicago u plamenu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:30:00 stop = 04/12/2015 00:25:00 title = Chicago u plamenu
+[  Info  ]       Replaces ----- start = 03/12/2015 23:20:00 stop = 04/12/2015 00:25:00 title = Chicago u plamenu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 02:10:00 stop = 04/12/2015 03:00:00 title = CSI: New York
+[  Info  ]       Replaces ----- start = 04/12/2015 02:10:00 stop = 04/12/2015 02:55:00 title = CSI: New York
+[  Info  ]       Replaces ----- start = 04/12/2015 02:55:00 stop = 04/12/2015 03:55:00 title = Astro Show
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:00:00 stop = 04/12/2015 04:40:00 title = Astro Show
+[  Info  ]       Replaces ----- start = 04/12/2015 02:55:00 stop = 04/12/2015 03:55:00 title = Astro Show
+[  Info  ]       Replaces ----- start = 04/12/2015 03:55:00 stop = 04/12/2015 04:40:00 title = RTL Danas
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/40  ) PORT.HR -- chan. (xmltv_id=Doma TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:00:00 stop = 03/12/2015 06:55:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 04:00:00 stop = 03/12/2015 06:40:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 06:40:00 stop = 03/12/2015 07:25:00 title = Naša mala klinika
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:55:00 stop = 03/12/2015 07:35:00 title = Naša mala klinika
+[  Info  ]       Replaces ----- start = 03/12/2015 06:40:00 stop = 03/12/2015 07:25:00 title = Naša mala klinika
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 08:20:00 title = Masterchef Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:35:00 stop = 03/12/2015 08:20:00 title = Masterchef Hrvatska
+[  Info  ]       Replaces ----- start = 03/12/2015 07:25:00 stop = 03/12/2015 08:20:00 title = Masterchef Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:30:00 title = Zekoslav Mrkva
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:35:00 title = Zekoslav Mrkva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:30:00 stop = 03/12/2015 09:45:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:35:00 title = Zekoslav Mrkva
+[  Info  ]       Replaces ----- start = 03/12/2015 09:35:00 stop = 03/12/2015 09:50:00 title = TV izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:45:00 stop = 03/12/2015 10:30:00 title = Naša mala klinika
+[  Info  ]       Replaces ----- start = 03/12/2015 09:35:00 stop = 03/12/2015 09:50:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 09:50:00 stop = 03/12/2015 10:40:00 title = Naša mala klinika
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:30:00 stop = 03/12/2015 10:45:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 09:50:00 stop = 03/12/2015 10:40:00 title = Naša mala klinika
+[  Info  ]       Replaces ----- start = 03/12/2015 10:40:00 stop = 03/12/2015 10:55:00 title = TV izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:45:00 stop = 03/12/2015 11:45:00 title = Masterchef Hrvatska
+[  Info  ]       Replaces ----- start = 03/12/2015 10:40:00 stop = 03/12/2015 10:55:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 10:55:00 stop = 03/12/2015 11:50:00 title = Masterchef Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:45:00 stop = 03/12/2015 12:25:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 10:55:00 stop = 03/12/2015 11:50:00 title = Masterchef Hrvatska
+[  Info  ]       Replaces ----- start = 03/12/2015 11:50:00 stop = 03/12/2015 12:05:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 12:05:00 stop = 03/12/2015 12:30:00 title = Princ iz Bel-Aira
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:25:00 stop = 03/12/2015 12:50:00 title = Princ iz Bel-Aira
+[  Info  ]       Replaces ----- start = 03/12/2015 12:05:00 stop = 03/12/2015 12:30:00 title = Princ iz Bel-Aira
+[  Info  ]       Replaces ----- start = 03/12/2015 12:30:00 stop = 03/12/2015 13:00:00 title = Princ iz Bel-Aira
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:50:00 stop = 03/12/2015 13:05:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 12:30:00 stop = 03/12/2015 13:00:00 title = Princ iz Bel-Aira
+[  Info  ]       Replaces ----- start = 03/12/2015 13:00:00 stop = 03/12/2015 13:15:00 title = TV izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:05:00 stop = 03/12/2015 14:00:00 title = Pravednik
+[  Info  ]       Replaces ----- start = 03/12/2015 13:00:00 stop = 03/12/2015 13:15:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 13:15:00 stop = 03/12/2015 14:10:00 title = Pravednik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:00:00 stop = 03/12/2015 14:55:00 title = Južnjačko srce
+[  Info  ]       Replaces ----- start = 03/12/2015 13:15:00 stop = 03/12/2015 14:10:00 title = Pravednik
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 15:00:00 title = Južnjačko srce
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:55:00 stop = 03/12/2015 15:10:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 15:00:00 title = Južnjačko srce
+[  Info  ]       Replaces ----- start = 03/12/2015 15:00:00 stop = 03/12/2015 15:15:00 title = TV izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:10:00 stop = 03/12/2015 16:05:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 03/12/2015 15:00:00 stop = 03/12/2015 15:15:00 title = TV izlog
+[  Info  ]       Replaces ----- start = 03/12/2015 15:15:00 stop = 03/12/2015 16:10:00 title = Navy CIS New Orleans
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 16:05:00 stop = 03/12/2015 16:50:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 15:15:00 stop = 03/12/2015 16:10:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 03/12/2015 16:10:00 stop = 03/12/2015 16:55:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 16:50:00 stop = 03/12/2015 17:45:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 16:10:00 stop = 03/12/2015 16:55:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 16:55:00 stop = 03/12/2015 17:45:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:45:00 stop = 03/12/2015 18:40:00 title = Divlja mačka
+[  Info  ]       Replaces ----- start = 03/12/2015 17:45:00 stop = 03/12/2015 18:35:00 title = Divlja mačka
+[  Info  ]       Replaces ----- start = 03/12/2015 18:35:00 stop = 03/12/2015 19:00:00 title = Mala nevjesta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:40:00 stop = 03/12/2015 19:05:00 title = Mala nevjesta
+[  Info  ]       Replaces ----- start = 03/12/2015 18:35:00 stop = 03/12/2015 19:00:00 title = Mala nevjesta
+[  Info  ]       Replaces ----- start = 03/12/2015 19:00:00 stop = 03/12/2015 19:25:00 title = Mala nevjesta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:05:00 stop = 03/12/2015 19:30:00 title = Mala nevjesta
+[  Info  ]       Replaces ----- start = 03/12/2015 19:00:00 stop = 03/12/2015 19:25:00 title = Mala nevjesta
+[  Info  ]       Replaces ----- start = 03/12/2015 19:25:00 stop = 03/12/2015 19:55:00 title = Mala nevjesta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:30:00 stop = 03/12/2015 19:55:00 title = Mala nevjesta
+[  Info  ]       Replaces ----- start = 03/12/2015 19:25:00 stop = 03/12/2015 19:55:00 title = Mala nevjesta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:20:00 stop = 03/12/2015 20:50:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 03/12/2015 20:20:00 stop = 03/12/2015 20:45:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 03/12/2015 20:45:00 stop = 03/12/2015 21:35:00 title = Navy CIS New Orleans
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:50:00 stop = 03/12/2015 21:45:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 03/12/2015 20:45:00 stop = 03/12/2015 21:35:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 03/12/2015 21:35:00 stop = 03/12/2015 22:25:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 21:45:00 stop = 03/12/2015 22:35:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 21:35:00 stop = 03/12/2015 22:25:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 22:25:00 stop = 03/12/2015 23:15:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:35:00 stop = 03/12/2015 23:25:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 22:25:00 stop = 03/12/2015 23:15:00 title = Castle
+[  Info  ]       Replaces ----- start = 03/12/2015 23:15:00 stop = 04/12/2015 00:00:00 title = Južnjačko srce
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:25:00 stop = 04/12/2015 00:20:00 title = Južnjačko srce
+[  Info  ]       Replaces ----- start = 03/12/2015 23:15:00 stop = 04/12/2015 00:00:00 title = Južnjačko srce
+[  Info  ]       Replaces ----- start = 04/12/2015 00:00:00 stop = 04/12/2015 00:25:00 title = Dadilja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:20:00 stop = 04/12/2015 00:45:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 04/12/2015 00:00:00 stop = 04/12/2015 00:25:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 04/12/2015 00:25:00 stop = 04/12/2015 00:55:00 title = Dadilja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:45:00 stop = 04/12/2015 01:15:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 04/12/2015 00:25:00 stop = 04/12/2015 00:55:00 title = Dadilja
+[  Info  ]       Replaces ----- start = 04/12/2015 00:55:00 stop = 04/12/2015 01:40:00 title = Navy CIS New Orleans
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:15:00 stop = 04/12/2015 02:00:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 04/12/2015 00:55:00 stop = 04/12/2015 01:40:00 title = Navy CIS New Orleans
+[  Info  ]       Replaces ----- start = 04/12/2015 01:40:00 stop = 04/12/2015 02:25:00 title = Pravednik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 02:00:00 stop = 04/12/2015 02:45:00 title = Pravednik
+[  Info  ]       Replaces ----- start = 04/12/2015 01:40:00 stop = 04/12/2015 02:25:00 title = Pravednik
+[  Info  ]       Replaces ----- start = 04/12/2015 02:25:00 stop = 04/12/2015 03:05:00 title = Slatke male lažljivice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 02:45:00 stop = 04/12/2015 03:20:00 title = Slatke male lažljivice
+[  Info  ]       Replaces ----- start = 04/12/2015 02:25:00 stop = 04/12/2015 03:05:00 title = Slatke male lažljivice
+[  Info  ]       Replaces ----- start = 04/12/2015 03:05:00 stop = 04/12/2015 03:50:00 title = Slatke male lažljivice
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:20:00 stop = 04/12/2015 04:05:00 title = Slatke male lažljivice
+[  Info  ]       Replaces ----- start = 04/12/2015 03:05:00 stop = 04/12/2015 03:50:00 title = Slatke male lažljivice
+[  Info  ]       Replaces ----- start = 04/12/2015 03:50:00 stop = 04/12/2015 06:40:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 04:05:00 stop = 04/12/2015 06:40:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 04/12/2015 03:50:00 stop = 04/12/2015 06:40:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/40  ) PORT.HR -- chan. (xmltv_id=RTL 2) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:25:00 stop = 03/12/2015 05:25:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 04:25:00 stop = 03/12/2015 05:45:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:25:00 stop = 03/12/2015 05:50:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 04:25:00 stop = 03/12/2015 05:45:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 05:45:00 stop = 03/12/2015 06:10:00 title = Zabranjena ljubav
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:50:00 stop = 03/12/2015 06:20:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 05:45:00 stop = 03/12/2015 06:10:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 06:10:00 stop = 03/12/2015 06:40:00 title = Zabranjena ljubav
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:20:00 stop = 03/12/2015 06:45:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 06:10:00 stop = 03/12/2015 06:40:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 06:40:00 stop = 03/12/2015 07:05:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 06:45:00 stop = 03/12/2015 07:15:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 06:40:00 stop = 03/12/2015 07:05:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 07:05:00 stop = 03/12/2015 07:30:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:15:00 stop = 03/12/2015 07:30:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 07:05:00 stop = 03/12/2015 07:30:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:30:00 stop = 03/12/2015 08:20:00 title = Krv nije voda
+[  Info  ]       Replaces ----- start = 03/12/2015 07:30:00 stop = 03/12/2015 07:45:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 07:45:00 stop = 03/12/2015 08:35:00 title = Krv nije voda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:20:00 stop = 03/12/2015 08:35:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 07:45:00 stop = 03/12/2015 08:35:00 title = Krv nije voda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:35:00 stop = 03/12/2015 09:30:00 title = Top.HR
+[  Info  ]       Replaces ----- start = 03/12/2015 08:35:00 stop = 03/12/2015 08:50:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:40:00 title = Top.HR
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:30:00 stop = 03/12/2015 09:45:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:40:00 title = Top.HR
+[  Info  ]       Replaces ----- start = 03/12/2015 09:40:00 stop = 03/12/2015 09:55:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:45:00 stop = 03/12/2015 10:15:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 09:40:00 stop = 03/12/2015 09:55:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 09:55:00 stop = 03/12/2015 10:25:00 title = Zabranjena ljubav
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:15:00 stop = 03/12/2015 10:50:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 09:55:00 stop = 03/12/2015 10:25:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 10:25:00 stop = 03/12/2015 10:55:00 title = Zabranjena ljubav
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:50:00 stop = 03/12/2015 11:00:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 10:25:00 stop = 03/12/2015 10:55:00 title = Zabranjena ljubav
+[  Info  ]       Replaces ----- start = 03/12/2015 10:55:00 stop = 03/12/2015 11:10:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:00:00 stop = 03/12/2015 11:35:00 title = Večera za 5
+[  Info  ]       Replaces ----- start = 03/12/2015 10:55:00 stop = 03/12/2015 11:10:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:40:00 title = Večera za 5
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:35:00 stop = 03/12/2015 12:55:00 title = Večera za 5
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:40:00 title = Večera za 5
+[  Info  ]       Replaces ----- start = 03/12/2015 11:40:00 stop = 03/12/2015 12:10:00 title = Večera za 5
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:05:00 title = Sudnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:55:00 stop = 03/12/2015 13:55:00 title = Krv nije voda
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:05:00 title = Sudnica
+[  Info  ]       Replaces ----- start = 03/12/2015 13:05:00 stop = 03/12/2015 14:00:00 title = Krv nije voda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:55:00 stop = 03/12/2015 14:20:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 13:05:00 stop = 03/12/2015 14:00:00 title = Krv nije voda
+[  Info  ]       Replaces ----- start = 03/12/2015 14:00:00 stop = 03/12/2015 14:30:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:20:00 stop = 03/12/2015 14:50:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 14:00:00 stop = 03/12/2015 14:30:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 14:30:00 stop = 03/12/2015 14:55:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:50:00 stop = 03/12/2015 15:50:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 03/12/2015 14:30:00 stop = 03/12/2015 14:55:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 03/12/2015 14:55:00 stop = 03/12/2015 15:50:00 title = CSI: Miami
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:50:00 stop = 03/12/2015 16:35:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 03/12/2015 15:50:00 stop = 03/12/2015 16:40:00 title = CSI: Miami
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 16:35:00 stop = 03/12/2015 17:00:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 15:50:00 stop = 03/12/2015 16:40:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 03/12/2015 16:40:00 stop = 03/12/2015 17:10:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:00:00 stop = 03/12/2015 17:30:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 16:40:00 stop = 03/12/2015 17:10:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 17:10:00 stop = 03/12/2015 17:40:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:30:00 stop = 03/12/2015 17:55:00 title = Teorija velikog praska
+[  Info  ]       Replaces ----- start = 03/12/2015 17:10:00 stop = 03/12/2015 17:40:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 17:40:00 stop = 03/12/2015 18:05:00 title = Teorija velikog praska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:55:00 stop = 03/12/2015 18:25:00 title = Teorija velikog praska
+[  Info  ]       Replaces ----- start = 03/12/2015 17:40:00 stop = 03/12/2015 18:05:00 title = Teorija velikog praska
+[  Info  ]       Replaces ----- start = 03/12/2015 18:05:00 stop = 03/12/2015 18:30:00 title = Teorija velikog praska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:25:00 stop = 03/12/2015 18:50:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/12/2015 18:05:00 stop = 03/12/2015 18:30:00 title = Teorija velikog praska
+[  Info  ]       Replaces ----- start = 03/12/2015 18:30:00 stop = 03/12/2015 18:55:00 title = Dva i pol muškarca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:50:00 stop = 03/12/2015 19:15:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/12/2015 18:30:00 stop = 03/12/2015 18:55:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/12/2015 18:55:00 stop = 03/12/2015 19:20:00 title = Dva i pol muškarca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:15:00 stop = 03/12/2015 20:05:00 title = Kosti
+[  Info  ]       Replaces ----- start = 03/12/2015 18:55:00 stop = 03/12/2015 19:20:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/12/2015 19:20:00 stop = 03/12/2015 20:10:00 title = Kosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 20:05:00 stop = 03/12/2015 21:05:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 03/12/2015 19:20:00 stop = 03/12/2015 20:10:00 title = Kosti
+[  Info  ]       Replaces ----- start = 03/12/2015 20:10:00 stop = 03/12/2015 21:05:00 title = CSI: Miami
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:00:00 stop = 03/12/2015 22:20:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 22:00:00 stop = 03/12/2015 22:25:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 22:20:00 stop = 03/12/2015 22:50:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 22:00:00 stop = 03/12/2015 22:25:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 03/12/2015 22:25:00 stop = 03/12/2015 22:50:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:30:00 stop = 04/12/2015 01:00:00 title = Svijet prema Jimu
+[  Info  ]       Replaces ----- start = 04/12/2015 00:30:00 stop = 04/12/2015 00:55:00 title = Svijet prema Jimu
+[  Info  ]       Replaces ----- start = 04/12/2015 00:55:00 stop = 04/12/2015 01:20:00 title = Svijet prema Jimu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:00:00 stop = 04/12/2015 01:20:00 title = Svijet prema Jimu
+[  Info  ]       Replaces ----- start = 04/12/2015 00:55:00 stop = 04/12/2015 01:20:00 title = Svijet prema Jimu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 02:10:00 stop = 04/12/2015 03:00:00 title = Krv nije voda
+[  Info  ]       Replaces ----- start = 04/12/2015 02:10:00 stop = 04/12/2015 02:55:00 title = Krv nije voda
+[  Info  ]       Replaces ----- start = 04/12/2015 02:55:00 stop = 04/12/2015 03:15:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:00:00 stop = 04/12/2015 03:25:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 04/12/2015 02:55:00 stop = 04/12/2015 03:15:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 04/12/2015 03:15:00 stop = 04/12/2015 03:35:00 title = K.T. 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:25:00 stop = 04/12/2015 03:50:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 04/12/2015 03:15:00 stop = 04/12/2015 03:35:00 title = K.T. 2
+[  Info  ]       Replaces ----- start = 04/12/2015 03:35:00 stop = 04/12/2015 04:25:00 title = Sudnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 03:50:00 stop = 04/12/2015 04:35:00 title = Sudnica
+[  Info  ]       Replaces ----- start = 04/12/2015 03:35:00 stop = 04/12/2015 04:25:00 title = Sudnica
+[  Info  ]       Replaces ----- start = 04/12/2015 04:25:00 stop = 04/12/2015 06:05:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 04:35:00 stop = 04/12/2015 06:05:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 04/12/2015 04:25:00 stop = 04/12/2015 06:05:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -74,42 +985,248 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/40  ) PORT.HR -- chan. (xmltv_id=CineStar TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:42:00 stop = 03/12/2015 12:43:00 title = Priče sa snimanja...
+[  Info  ]       Replaces ----- start = 03/12/2015 10:42:00 stop = 03/12/2015 11:01:00 title = Priče sa snimanja...
+[  Info  ]       Replaces ----- start = 03/12/2015 11:01:00 stop = 03/12/2015 12:43:00 title = Zig Zag
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/40  ) PORT.HR -- chan. (xmltv_id=TV 1000 Balkan) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:30:00 stop = 03/12/2015 12:45:00 title = Jolki 2
+[  Info  ]       Replaces ----- start = 03/12/2015 09:30:00 stop = 03/12/2015 11:10:00 title = Jolki 2
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 12:45:00 title = Jolki 3
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/40  ) PORT.HR -- chan. (xmltv_id=Fox TV) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:36:00 stop = 03/12/2015 12:25:00 title = Posljednji čovjek na Zemlji
+[  Info  ]       Replaces ----- start = 03/12/2015 11:36:00 stop = 03/12/2015 11:59:00 title = Posljednji čovjek na Zemlji
+[  Info  ]       Replaces ----- start = 03/12/2015 11:59:00 stop = 03/12/2015 12:25:00 title = Moderna obitelj
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/40  ) PORT.HR -- chan. (xmltv_id=Fox Life) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:20:00 stop = 03/12/2015 12:20:00 title = Osveta
+[  Info  ]       Replaces ----- start = 03/12/2015 10:20:00 stop = 03/12/2015 11:19:00 title = Osveta
+[  Info  ]       Replaces ----- start = 03/12/2015 11:19:00 stop = 03/12/2015 12:20:00 title = Kraljevska obitelj
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/40  ) PORT.HR -- chan. (xmltv_id=Universal Channel) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:15:00 stop = 03/12/2015 06:20:00 title = Doyleova republika
+[  Info  ]       Replaces ----- start = 03/12/2015 04:15:00 stop = 03/12/2015 05:10:00 title = Doyleova republika
+[  Info  ]       Replaces ----- start = 03/12/2015 05:10:00 stop = 03/12/2015 06:20:00 title = Rođeni policajci
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/40  ) PORT.HR -- chan. (xmltv_id=Discovery Channel) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:50:00 stop = 03/12/2015 12:35:00 title = Brzi i glasni
+[  Info  ]       Replaces ----- start = 03/12/2015 10:50:00 stop = 03/12/2015 11:40:00 title = Brzi i glasni
+[  Info  ]       Replaces ----- start = 03/12/2015 11:40:00 stop = 03/12/2015 12:35:00 title = Trgovci automobilima
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/40  ) PORT.HR -- chan. (xmltv_id=National Geographic Channel) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:28:00 stop = 03/12/2015 12:07:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 03/12/2015 10:28:00 stop = 03/12/2015 11:14:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 03/12/2015 11:14:00 stop = 03/12/2015 12:07:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 06:00:00 stop = 04/12/2015 06:22:00 title = Šira slika s Kalom Pennom
+[  Info  ]       Replaces ----- start = 04/12/2015 06:00:00 stop = 04/12/2015 06:20:00 title = Šira slika s Kalom Pennom
+[  Info  ]       Replaces ----- start = 04/12/2015 06:20:00 stop = 04/12/2015 06:45:00 title = Brain Games
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 06:22:00 stop = 04/12/2015 06:45:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 06:20:00 stop = 04/12/2015 06:45:00 title = Brain Games
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 06:45:00 stop = 04/12/2015 07:07:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 06:45:00 stop = 04/12/2015 07:10:00 title = Brain Games
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 07:07:00 stop = 04/12/2015 07:56:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 04/12/2015 06:45:00 stop = 04/12/2015 07:10:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 07:10:00 stop = 04/12/2015 08:00:00 title = Autocesta kroz pakao: SAD
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 07:56:00 stop = 04/12/2015 08:47:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 04/12/2015 07:10:00 stop = 04/12/2015 08:00:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 04/12/2015 08:00:00 stop = 04/12/2015 08:50:00 title = Autocesta kroz pakao: SAD
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 08:47:00 stop = 04/12/2015 09:37:00 title = Norveška cestovna služba
+[  Info  ]       Replaces ----- start = 04/12/2015 08:00:00 stop = 04/12/2015 08:50:00 title = Autocesta kroz pakao: SAD
+[  Info  ]       Replaces ----- start = 04/12/2015 08:50:00 stop = 04/12/2015 09:40:00 title = Norveška cestovna služba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 09:37:00 stop = 04/12/2015 10:26:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]       Replaces ----- start = 04/12/2015 08:50:00 stop = 04/12/2015 09:40:00 title = Norveška cestovna služba
+[  Info  ]       Replaces ----- start = 04/12/2015 09:40:00 stop = 04/12/2015 10:30:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 10:26:00 stop = 04/12/2015 11:12:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 04/12/2015 09:40:00 stop = 04/12/2015 10:30:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]       Replaces ----- start = 04/12/2015 10:30:00 stop = 04/12/2015 11:15:00 title = Sekunde do katastrofe
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 11:12:00 stop = 04/12/2015 12:07:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 04/12/2015 10:30:00 stop = 04/12/2015 11:15:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 04/12/2015 11:15:00 stop = 04/12/2015 12:10:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 12:07:00 stop = 04/12/2015 12:57:00 title = Čitači vremena
+[  Info  ]       Replaces ----- start = 04/12/2015 11:15:00 stop = 04/12/2015 12:10:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 04/12/2015 12:10:00 stop = 04/12/2015 13:00:00 title = Živjeti slobodno ili umrijeti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 12:57:00 stop = 04/12/2015 13:23:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 12:10:00 stop = 04/12/2015 13:00:00 title = Živjeti slobodno ili umrijeti
+[  Info  ]       Replaces ----- start = 04/12/2015 13:00:00 stop = 04/12/2015 13:25:00 title = Brain Games
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 13:23:00 stop = 04/12/2015 13:50:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 13:00:00 stop = 04/12/2015 13:25:00 title = Brain Games
+[  Info  ]       Replaces ----- start = 04/12/2015 13:25:00 stop = 04/12/2015 13:50:00 title = Brain Games
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 13:50:00 stop = 04/12/2015 14:48:00 title = (Stephen Hawking's Science of The Future)
+[  Info  ]       Replaces ----- start = 04/12/2015 13:50:00 stop = 04/12/2015 14:40:00 title = (Stephen Hawking's Science of The Future)
+[  Info  ]       Replaces ----- start = 04/12/2015 14:40:00 stop = 04/12/2015 15:10:00 title = Sekunde do katastrofe
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 14:48:00 stop = 04/12/2015 15:17:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 04/12/2015 14:40:00 stop = 04/12/2015 15:10:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 04/12/2015 15:10:00 stop = 04/12/2015 16:05:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 15:17:00 stop = 04/12/2015 16:14:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 04/12/2015 15:10:00 stop = 04/12/2015 16:05:00 title = Istrage zrakoplovnih nesreća
+[  Info  ]       Replaces ----- start = 04/12/2015 16:05:00 stop = 04/12/2015 17:00:00 title = Opaka tuna
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 16:14:00 stop = 04/12/2015 17:07:00 title = Opaka tuna
+[  Info  ]       Replaces ----- start = 04/12/2015 16:05:00 stop = 04/12/2015 17:00:00 title = Opaka tuna
+[  Info  ]       Replaces ----- start = 04/12/2015 17:00:00 stop = 04/12/2015 18:00:00 title = Zlato iz hladnih mora
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 17:07:00 stop = 04/12/2015 18:02:00 title = Zlato iz hladnih mora
+[  Info  ]       Replaces ----- start = 04/12/2015 17:00:00 stop = 04/12/2015 18:00:00 title = Zlato iz hladnih mora
+[  Info  ]       Replaces ----- start = 04/12/2015 18:00:00 stop = 04/12/2015 19:00:00 title = Spas u zabiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 18:02:00 stop = 04/12/2015 19:00:00 title = Spas u zabiti
+[  Info  ]       Replaces ----- start = 04/12/2015 18:00:00 stop = 04/12/2015 19:00:00 title = Spas u zabiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 20:00:00 stop = 04/12/2015 20:58:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]       Replaces ----- start = 04/12/2015 20:00:00 stop = 04/12/2015 21:00:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 20:58:00 stop = 04/12/2015 22:55:00 title = (The Quest For Gold)
+[  Info  ]       Replaces ----- start = 04/12/2015 20:00:00 stop = 04/12/2015 21:00:00 title = Opaka tuna: Sjever protiv Juga
+[  Info  ]       Replaces ----- start = 04/12/2015 21:00:00 stop = 04/12/2015 23:00:00 title = (The Quest For Gold)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 22:55:00 stop = 04/12/2015 23:56:00 title = Čitači vremena
+[  Info  ]       Replaces ----- start = 04/12/2015 21:00:00 stop = 04/12/2015 23:00:00 title = (The Quest For Gold)
+[  Info  ]       Replaces ----- start = 04/12/2015 23:00:00 stop = 04/12/2015 23:55:00 title = Tabu
+[  Info  ]       Replaces ----- start = 04/12/2015 23:55:00 stop = 05/12/2015 01:40:00 title = (The Quest For Gold)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 23:56:00 stop = 05/12/2015 01:40:00 title = (The Quest For Gold)
+[  Info  ]       Replaces ----- start = 04/12/2015 23:55:00 stop = 05/12/2015 01:40:00 title = (The Quest For Gold)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 01:40:00 stop = 05/12/2015 02:25:00 title = Tabu
+[  Info  ]       Replaces ----- start = 05/12/2015 01:40:00 stop = 05/12/2015 02:20:00 title = Tabu
+[  Info  ]       Replaces ----- start = 05/12/2015 02:20:00 stop = 05/12/2015 02:40:00 title = Sekunde do katastrofe
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 02:25:00 stop = 05/12/2015 02:49:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 05/12/2015 02:20:00 stop = 05/12/2015 02:40:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 05/12/2015 02:40:00 stop = 05/12/2015 03:00:00 title = Hakiranje sustava
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 02:49:00 stop = 05/12/2015 03:11:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 02:40:00 stop = 05/12/2015 03:00:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 03:00:00 stop = 05/12/2015 03:25:00 title = Hakiranje sustava
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 03:11:00 stop = 05/12/2015 03:32:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 03:00:00 stop = 05/12/2015 03:25:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 03:25:00 stop = 05/12/2015 03:45:00 title = Je li to istina?
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 03:32:00 stop = 05/12/2015 03:56:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 03:25:00 stop = 05/12/2015 03:45:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 03:45:00 stop = 05/12/2015 04:10:00 title = Je li to istina?
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 03:56:00 stop = 05/12/2015 04:27:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 03:45:00 stop = 05/12/2015 04:10:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 04:10:00 stop = 05/12/2015 04:30:00 title = Hakiranje sustava
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 04:27:00 stop = 05/12/2015 04:48:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 04:10:00 stop = 05/12/2015 04:30:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 04:30:00 stop = 05/12/2015 04:55:00 title = Hakiranje sustava
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 04:48:00 stop = 05/12/2015 05:12:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 04:30:00 stop = 05/12/2015 04:55:00 title = Hakiranje sustava
+[  Info  ]       Replaces ----- start = 05/12/2015 04:55:00 stop = 05/12/2015 05:15:00 title = Je li to istina?
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 05:12:00 stop = 05/12/2015 05:36:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 04:55:00 stop = 05/12/2015 05:15:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 05:15:00 stop = 05/12/2015 05:35:00 title = Je li to istina?
+[  Info  ]       Replaces ----- start = 05/12/2015 05:35:00 stop = 05/12/2015 06:00:00 title = Sekunde do katastrofe
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/12/2015 05:36:00 stop = 05/12/2015 06:00:00 title = Sekunde do katastrofe
+[  Info  ]       Replaces ----- start = 05/12/2015 05:35:00 stop = 05/12/2015 06:00:00 title = Sekunde do katastrofe
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/40  ) PORT.HR -- chan. (xmltv_id=Viasat History) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:25:00 stop = 03/12/2015 12:45:00 title = Vrijeme koje je promijenilo svijet
+[  Info  ]       Replaces ----- start = 03/12/2015 11:25:00 stop = 03/12/2015 11:50:00 title = Vrijeme koje je promijenilo svijet
+[  Info  ]       Replaces ----- start = 03/12/2015 11:50:00 stop = 03/12/2015 12:45:00 title = Otkrivanje vremena
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/40  ) PORT.HR -- chan. (xmltv_id=Animal Planet) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:36:00 stop = 03/12/2015 06:25:00 title = Zov čovjeka divljine
+[  Info  ]       Replaces ----- start = 03/12/2015 05:36:00 stop = 03/12/2015 06:00:00 title = Zov čovjeka divljine
+[  Info  ]       Replaces ----- start = 03/12/2015 06:00:00 stop = 03/12/2015 06:25:00 title = Zov čovjeka divljine
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/40  ) PORT.HR -- chan. (xmltv_id=Viasat Explore) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:00:00 stop = 03/12/2015 06:55:00 title = Obalna straža Floride
+[  Info  ]       Replaces ----- start = 03/12/2015 05:00:00 stop = 03/12/2015 06:10:00 title = Obalna straža Floride
+[  Info  ]       Replaces ----- start = 03/12/2015 06:10:00 stop = 03/12/2015 06:55:00 title = Radionica Graveyard Carz
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -127,10 +1244,16 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/40  ) PORT.HR -- chan. (xmltv_id=Z1) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:29:00 title = Glazbena zona
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:00:00 title = Glazbena zona
+[  Info  ]       Replaces ----- start = 03/12/2015 12:00:00 stop = 03/12/2015 12:29:00 title = Dokumentarni filmovi
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/40  ) BNET.HR -- chan. (xmltv_id=24 SATA TV) -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  26/40  ) PORT.HR -- chan. (xmltv_id=CNN International Europe) -- mode incremental
@@ -143,65 +1266,391 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/40  ) PORT.HR -- chan. (xmltv_id=Nickelodeon) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:45:00 stop = 03/12/2015 06:40:00 title = Dora istražuje
+[  Info  ]       Replaces ----- start = 03/12/2015 05:45:00 stop = 03/12/2015 06:10:00 title = Dora istražuje
+[  Info  ]       Replaces ----- start = 03/12/2015 06:10:00 stop = 03/12/2015 06:40:00 title = Pingvini s Madagaskara
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  29/40  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] DISNEY CHANNEL
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           97
 [  Info  ]      unchanged shows inspected 293
-[  Info  ]      total after update        294
+[  Info  ]      total after update        391
 [  Debug ] 
 [  Info  ] (  30/40  ) PORT.HR -- chan. (xmltv_id=Mini TV) -- mode incremental
 [  Error ] no shows in indexpage!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:00:00 stop = 03/12/2015 07:15:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 07:00:00 stop = 03/12/2015 07:10:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 07:10:00 stop = 03/12/2015 07:40:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:15:00 stop = 03/12/2015 07:40:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 07:10:00 stop = 03/12/2015 07:40:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:40:00 stop = 03/12/2015 07:55:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 07:40:00 stop = 03/12/2015 07:50:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 07:50:00 stop = 03/12/2015 08:10:00 title = Speed Racer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:55:00 stop = 03/12/2015 08:20:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 07:50:00 stop = 03/12/2015 08:10:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 08:10:00 stop = 03/12/2015 08:30:00 title = Ninja kornjače
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:20:00 stop = 03/12/2015 08:40:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 08:10:00 stop = 03/12/2015 08:30:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 08:30:00 stop = 03/12/2015 08:50:00 title = Slugterra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:40:00 stop = 03/12/2015 09:05:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 08:30:00 stop = 03/12/2015 08:50:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:10:00 title = Spužva Bob Skockani
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:05:00 stop = 03/12/2015 09:30:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 08:50:00 stop = 03/12/2015 09:10:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 09:10:00 stop = 03/12/2015 10:00:00 title = Robin Hood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:30:00 stop = 03/12/2015 10:20:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 09:10:00 stop = 03/12/2015 10:00:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:10:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 10:10:00 stop = 03/12/2015 10:40:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:20:00 stop = 03/12/2015 10:35:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 10:10:00 stop = 03/12/2015 10:40:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:35:00 stop = 03/12/2015 11:00:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 10:10:00 stop = 03/12/2015 10:40:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 10:40:00 stop = 03/12/2015 10:50:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 10:50:00 stop = 03/12/2015 11:10:00 title = Speed Racer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:00:00 stop = 03/12/2015 11:15:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 10:50:00 stop = 03/12/2015 11:10:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:30:00 title = Ninja kornjače
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:15:00 stop = 03/12/2015 11:35:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 11:10:00 stop = 03/12/2015 11:30:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 11:50:00 title = Slugterra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:35:00 stop = 03/12/2015 12:25:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 11:50:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 11:50:00 stop = 03/12/2015 12:10:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:00:00 title = Robin Hood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:25:00 stop = 03/12/2015 12:50:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:00:00 title = Robin Hood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:50:00 stop = 03/12/2015 13:40:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 12:10:00 stop = 03/12/2015 13:00:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 13:00:00 stop = 03/12/2015 13:10:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 13:10:00 stop = 03/12/2015 13:40:00 title = Maša i Medvjed
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:40:00 stop = 03/12/2015 13:55:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 13:40:00 stop = 03/12/2015 13:50:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 13:50:00 stop = 03/12/2015 14:10:00 title = Speed Racer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:55:00 stop = 03/12/2015 14:20:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 13:50:00 stop = 03/12/2015 14:10:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 14:30:00 title = Ninja kornjače
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:20:00 stop = 03/12/2015 14:30:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 14:10:00 stop = 03/12/2015 14:30:00 title = Ninja kornjače
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:30:00 stop = 03/12/2015 14:55:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 14:30:00 stop = 03/12/2015 14:50:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 14:50:00 stop = 03/12/2015 15:10:00 title = Spužva Bob Skockani
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:55:00 stop = 03/12/2015 15:20:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 14:50:00 stop = 03/12/2015 15:10:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 15:10:00 stop = 03/12/2015 16:00:00 title = Put oko svijeta za 80 dana
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:20:00 stop = 03/12/2015 15:45:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 15:10:00 stop = 03/12/2015 16:00:00 title = Put oko svijeta za 80 dana
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 15:45:00 stop = 03/12/2015 16:05:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 15:10:00 stop = 03/12/2015 16:00:00 title = Put oko svijeta za 80 dana
+[  Info  ]       Replaces ----- start = 03/12/2015 16:00:00 stop = 03/12/2015 16:10:00 title = Peppa Pig
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 16:05:00 stop = 03/12/2015 17:00:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 16:00:00 stop = 03/12/2015 16:10:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 16:10:00 stop = 03/12/2015 16:40:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 16:40:00 stop = 03/12/2015 16:50:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 16:50:00 stop = 03/12/2015 17:10:00 title = Speed Racer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:00:00 stop = 03/12/2015 17:10:00 title = Peppa Pig
+[  Info  ]       Replaces ----- start = 03/12/2015 16:50:00 stop = 03/12/2015 17:10:00 title = Speed Racer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:10:00 stop = 03/12/2015 17:35:00 title = Maša i Medvjed
+[  Info  ]       Replaces ----- start = 03/12/2015 17:10:00 stop = 03/12/2015 17:30:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 17:30:00 stop = 03/12/2015 17:50:00 title = Slugterra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:35:00 stop = 03/12/2015 17:50:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 17:30:00 stop = 03/12/2015 17:50:00 title = Slugterra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:50:00 stop = 03/12/2015 18:15:00 title = Speed Racer
+[  Info  ]       Replaces ----- start = 03/12/2015 17:50:00 stop = 03/12/2015 18:10:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 18:10:00 stop = 03/12/2015 18:15:00 title = 16 glava za ljudska prava
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:15:00 stop = 03/12/2015 18:40:00 title = Ninja kornjače
+[  Info  ]       Replaces ----- start = 03/12/2015 18:15:00 stop = 03/12/2015 19:10:00 title = Robin Hood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:40:00 stop = 03/12/2015 19:00:00 title = Slugterra
+[  Info  ]       Replaces ----- start = 03/12/2015 18:15:00 stop = 03/12/2015 19:10:00 title = Robin Hood
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:00:00 stop = 03/12/2015 19:25:00 title = Spužva Bob Skockani
+[  Info  ]       Replaces ----- start = 03/12/2015 18:15:00 stop = 03/12/2015 19:10:00 title = Robin Hood
+[  Info  ]       Replaces ----- start = 03/12/2015 19:10:00 stop = 04/12/2015 07:00:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:25:00 stop = 03/12/2015 19:30:00 title = 16 glava za ljudska prava
+[  Info  ]       Replaces ----- start = 03/12/2015 19:10:00 stop = 04/12/2015 07:00:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:30:00 stop = 03/12/2015 19:40:00 title = Sveznalica Rosie
+[  Info  ]       Replaces ----- start = 03/12/2015 19:10:00 stop = 04/12/2015 07:00:00 title = Kraj programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:40:00 stop = 04/12/2015 07:00:00 title = Kraj programa
+[  Info  ]       Replaces ----- start = 03/12/2015 19:10:00 stop = 04/12/2015 07:00:00 title = Kraj programa
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/40  ) PORT.HR -- chan. (xmltv_id=RTL Kockica) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:05:00 stop = 03/12/2015 06:40:00 title = Hitovi dječje televizije
+[  Info  ]       Replaces ----- start = 03/12/2015 05:05:00 stop = 03/12/2015 05:35:00 title = Hitovi dječje televizije
+[  Info  ]       Replaces ----- start = 03/12/2015 05:35:00 stop = 03/12/2015 06:40:00 title = Top lista dječje televizije
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  32/40  ) PORT.HR -- chan. (xmltv_id=Sportska televizija) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/12/2015 11:15:00 stop = 03/12/2015 13:00:00 title = Vaterpolo - Svjetska liga
-[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 13:00:00 title = Vaterpolo - Jadranska liga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/12/2015 23:15:00 stop = 04/12/2015 00:45:00 title = Vaterpolo - Svjetska liga
-[  Info  ]       Replaces ----- start = 03/12/2015 23:15:00 stop = 03/12/2015 23:45:00 title = Svijet automoto nautike
-[  Info  ]       Replaces ----- start = 03/12/2015 23:45:00 stop = 04/12/2015 00:15:00 title = Motorsport.hr
-[  Info  ]       Replaces ----- start = 04/12/2015 00:15:00 stop = 04/12/2015 01:00:00 title = TV automagazin
+[  Info  ]       show with ---- start = 03/12/2015 09:05:00 stop = 03/12/2015 13:00:00 title = Nogomet - HNL
+[  Info  ]       Replaces ----- start = 03/12/2015 09:05:00 stop = 03/12/2015 11:15:00 title = Nogomet - HNL
+[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 13:00:00 title = Vaterpolo - Svjetska liga
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/40  ) PORT.HR -- chan. (xmltv_id=Eurosport) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:13:00 stop = 03/12/2015 04:58:00 title = Skijaško trčanje - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 04:00:00 stop = 03/12/2015 05:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:58:00 stop = 03/12/2015 05:54:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 04:00:00 stop = 03/12/2015 05:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 05:00:00 stop = 03/12/2015 06:00:00 title = Snooker
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:54:00 stop = 03/12/2015 07:32:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 05:00:00 stop = 03/12/2015 06:00:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 06:00:00 stop = 03/12/2015 07:30:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 07:30:00 stop = 03/12/2015 08:30:00 title = Snooker
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 07:32:00 stop = 03/12/2015 08:30:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 07:30:00 stop = 03/12/2015 08:30:00 title = Snooker
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 08:30:00 stop = 03/12/2015 09:02:00 title = FIA Touring Car svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 03/12/2015 08:30:00 stop = 03/12/2015 09:30:00 title = Biatlon - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 09:02:00 stop = 03/12/2015 10:29:00 title = Biatlon - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 08:30:00 stop = 03/12/2015 09:30:00 title = Biatlon - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 09:30:00 stop = 03/12/2015 10:00:00 title = FIA Touring Car svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:30:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:29:00 stop = 03/12/2015 10:31:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 10:30:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 10:30:00 stop = 03/12/2015 10:35:00 title = Nogomet - FIFA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:31:00 stop = 03/12/2015 10:59:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 10:30:00 stop = 03/12/2015 10:35:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 10:35:00 stop = 03/12/2015 11:00:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:59:00 stop = 03/12/2015 11:29:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 10:35:00 stop = 03/12/2015 11:00:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 11:00:00 stop = 03/12/2015 11:30:00 title = Nogomet - FIFA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:29:00 stop = 03/12/2015 12:02:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 11:00:00 stop = 03/12/2015 11:30:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 11:55:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 11:55:00 stop = 03/12/2015 12:00:00 title = Nogomet - FIFA
+[  Info  ]       Replaces ----- start = 03/12/2015 12:00:00 stop = 03/12/2015 13:00:00 title = Biatlon - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:02:00 stop = 03/12/2015 12:57:00 title = Biatlon - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 12:00:00 stop = 03/12/2015 13:00:00 title = Biatlon - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:57:00 stop = 03/12/2015 13:59:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 12:00:00 stop = 03/12/2015 13:00:00 title = Biatlon - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 13:00:00 stop = 03/12/2015 14:00:00 title = Snooker
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 13:59:00 stop = 03/12/2015 17:05:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 13:00:00 stop = 03/12/2015 14:00:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 14:00:00 stop = 03/12/2015 17:00:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 17:00:00 stop = 03/12/2015 19:00:00 title = Biatlon - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:05:00 stop = 03/12/2015 19:00:00 title = Biatlon - Svjetski kup
+[  Info  ]       Replaces ----- start = 03/12/2015 17:00:00 stop = 03/12/2015 19:00:00 title = Biatlon - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 00:30:00 stop = 04/12/2015 01:02:00 title = FIA Touring Car svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 04/12/2015 00:30:00 stop = 04/12/2015 01:00:00 title = FIA Touring Car svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 04/12/2015 01:00:00 stop = 04/12/2015 01:30:00 title = Ronnie O'Sullivan Show
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:02:00 stop = 04/12/2015 01:29:00 title = Ronnie O'Sullivan Show
+[  Info  ]       Replaces ----- start = 04/12/2015 01:00:00 stop = 04/12/2015 01:30:00 title = Ronnie O'Sullivan Show
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:29:00 stop = 04/12/2015 03:00:00 title = Snooker
+[  Info  ]       Replaces ----- start = 04/12/2015 01:00:00 stop = 04/12/2015 01:30:00 title = Ronnie O'Sullivan Show
+[  Info  ]       Replaces ----- start = 04/12/2015 01:30:00 stop = 04/12/2015 03:00:00 title = Snooker
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/40  ) PORT.HR -- chan. (xmltv_id=Eurosport 2) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:30:00 stop = 03/12/2015 04:32:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 03/12/2015 04:30:00 stop = 03/12/2015 04:35:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:32:00 stop = 03/12/2015 04:58:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 04:30:00 stop = 03/12/2015 04:35:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 03/12/2015 04:35:00 stop = 03/12/2015 05:00:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 04:58:00 stop = 03/12/2015 05:30:00 title = Football Greatest
+[  Info  ]       Replaces ----- start = 03/12/2015 04:35:00 stop = 03/12/2015 05:00:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 05:00:00 stop = 03/12/2015 05:25:00 title = Football Greatest
+[  Info  ]       Replaces ----- start = 03/12/2015 05:25:00 stop = 03/12/2015 05:30:00 title = Nogomet - Eurogolovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:30:00 stop = 03/12/2015 05:35:00 title = Nogomet - Eurogolovi
+[  Info  ]       Replaces ----- start = 03/12/2015 05:30:00 stop = 03/12/2015 07:00:00 title = Košarka - Eurokup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 05:35:00 stop = 03/12/2015 07:00:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 03/12/2015 05:30:00 stop = 03/12/2015 07:00:00 title = Košarka - Eurokup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 10:00:00 stop = 03/12/2015 12:13:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 03/12/2015 10:00:00 stop = 03/12/2015 11:15:00 title = Košarka - Eurokup
+[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 12:15:00 title = Nogomet - Bundesliga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 12:13:00 stop = 03/12/2015 12:30:00 title = Motosportovi
+[  Info  ]       Replaces ----- start = 03/12/2015 11:15:00 stop = 03/12/2015 12:15:00 title = Nogomet - Bundesliga
+[  Info  ]       Replaces ----- start = 03/12/2015 12:15:00 stop = 03/12/2015 12:30:00 title = Motosportovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 14:00:00 stop = 03/12/2015 16:58:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 14:00:00 stop = 03/12/2015 17:00:00 title = Snooker
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 16:58:00 stop = 03/12/2015 17:13:00 title = Motosportovi
+[  Info  ]       Replaces ----- start = 03/12/2015 14:00:00 stop = 03/12/2015 17:00:00 title = Snooker
+[  Info  ]       Replaces ----- start = 03/12/2015 17:00:00 stop = 03/12/2015 18:30:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 17:13:00 stop = 03/12/2015 18:30:00 title = Nogomet - MLS
+[  Info  ]       Replaces ----- start = 03/12/2015 17:00:00 stop = 03/12/2015 18:30:00 title = Nogomet - MLS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 18:30:00 stop = 03/12/2015 19:01:00 title = Nogomet - Bundesliga
+[  Info  ]       Replaces ----- start = 03/12/2015 18:30:00 stop = 03/12/2015 19:00:00 title = WATTS
+[  Info  ]       Replaces ----- start = 03/12/2015 19:00:00 stop = 03/12/2015 20:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 19:01:00 stop = 03/12/2015 20:00:00 title = Dizanje utega - Svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 03/12/2015 19:00:00 stop = 03/12/2015 20:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 23:00:00 stop = 04/12/2015 00:00:00 title = Dizanje utega - Svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 03/12/2015 23:00:00 stop = 04/12/2015 00:00:00 title = Skijaški skokovi - Svjetski kup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:30:00 stop = 04/12/2015 01:59:00 title = WATTS
+[  Info  ]       Replaces ----- start = 04/12/2015 01:30:00 stop = 04/12/2015 02:00:00 title = WATTS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/12/2015 01:59:00 stop = 04/12/2015 03:00:00 title = Dizanje utega - Svjetsko prvenstvo
+[  Info  ]       Replaces ----- start = 04/12/2015 01:30:00 stop = 04/12/2015 02:00:00 title = WATTS
+[  Info  ]       Replaces ----- start = 04/12/2015 02:00:00 stop = 04/12/2015 03:00:00 title = Skijaški skokovi - Svjetski kup
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  35/40  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode incremental
 [  Debug ]    skipped show without a title at 07/12/2015 15:00:00
+[  Debug ]    skipped show without a title at 08/12/2015 23:30:00
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 1
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           38
 [  Info  ]      unchanged shows inspected 95
-[  Info  ]      total after update        96
+[  Info  ]      total after update        134
 [  Debug ] 
 [  Info  ] (  36/40  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode incremental
 [  Debug ]    skipped show without a title at 06/12/2015 16:00:00
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of 
 [  Info  ] SK 3
-[  Info  ]      no changes, no update necessary !
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           49
 [  Info  ]      unchanged shows inspected 74
-[  Info  ]      total after update        75
+[  Info  ]      total after update        124
 [  Debug ] 
 [  Info  ] (  37/40  ) PORT.HR -- chan. (xmltv_id=MTV Hrvatska) -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -217,13 +1666,18 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/40  ) PORT.HR -- chan. (xmltv_id=N1) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:05:00 title = CNN Prime Time slot
+[  Info  ]       Replaces ----- start = 03/12/2015 11:30:00 stop = 03/12/2015 12:00:00 title = CNN Prime Time slot
+[  Info  ]       Replaces ----- start = 03/12/2015 12:00:00 stop = 03/12/2015 12:05:00 title = N1 Info
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5425 shows in 40 channels
-[  Debug ] 3 updated shows
-[  Debug ] 1079 new shows added
+[  Debug ] 5612 shows in 40 channels
+[  Debug ] 313 updated shows
+[  Debug ] 215 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 03/12/2015 00:08:41 done in 7m 32s
+[        ] Job finished at 03/12/2015 12:04:30 done in 3m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
