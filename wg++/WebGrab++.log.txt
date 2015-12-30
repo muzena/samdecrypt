@@ -7,22 +7,22 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 30/12/2015 11:29:06
+[        ] Job started at 30/12/2015 12:01:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
-[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/bnet.hr.ini -- Revision 0
+[  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Warn  ] Non-sequential revisions found:
 Rev. 11:[27/11/2014] - Jan van Straaten
         - reverted to the rev 7 url's. Changed timezone, new channel list, corrected small error in presenter, removed firstshow=now
 Rev. 07:[14/11/2013] - Francis De Paemeleere
-[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/port.hr.ini -- Revision 12
+[  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
 [  Debug ] xmltv input file - ../guide.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] 
@@ -324,26 +324,13 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  39/39  ) PORT.HR -- chan. (xmltv_id=N1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/12/2015 07:35:00 stop = 30/12/2015 08:00:00 title = Sport Klub Info
-[  Info  ]       Replaces ----- start = 30/12/2015 07:35:00 stop = 30/12/2015 10:00:00 title = Sport Klub Info
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/12/2015 08:00:00 stop = 30/12/2015 10:00:00 title = N1 Info
-[  Info  ]       Replaces ----- start = 30/12/2015 07:35:00 stop = 30/12/2015 10:00:00 title = Sport Klub Info
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 30/12/2015 11:05:00 stop = 30/12/2015 12:00:00 title = Sport Klub Info
-[  Info  ]       Replaces ----- start = 30/12/2015 11:05:00 stop = 30/12/2015 11:30:00 title = Sport Klub Info
-[  Info  ]       Replaces ----- start = 30/12/2015 11:30:00 stop = 30/12/2015 12:00:00 title = CNN Prime Time slot
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 7316 shows in 39 channels
-[  Debug ] 4 updated shows
+[  Debug ] 2 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 30/12/2015 11:34:07 done in 5m 1s
+[        ] Job finished at 30/12/2015 12:06:06 done in 5m 3s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
