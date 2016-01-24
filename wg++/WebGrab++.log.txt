@@ -7,24 +7,24 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/01/2016 14:52:17
+[        ] Job started at 24/01/2016 16:02:25
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
-[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/bnet.hr.ini -- Revision 0
+[  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Warn  ] Non-sequential revisions found:
 Rev. 11:[27/11/2014] - Jan van Straaten
         - reverted to the rev 7 url's. Changed timezone, new channel list, corrected small error in presenter, removed firstshow=now
 Rev. 07:[14/11/2013] - Francis De Paemeleere
-[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/port.hr.ini -- Revision 12
+[  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
 [  Debug ] xmltv input file - ../guide.xml - found
-[  Debug ] 1286 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 39 - out of - 39 - channels for 11 day(s)
 [  Info  ] update mode - set per individual channel
@@ -34,980 +34,161 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/39  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 00:09:00 stop = 24/01/2016 00:16:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 24/01/2016 00:07:00 stop = 24/01/2016 00:14:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 24/01/2016 00:14:00 stop = 24/01/2016 01:02:00 title = ABBA u slikama, priče fotografa - dokumentarni film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 00:16:00 stop = 24/01/2016 01:03:00 title = ABBA u slikama, priče fotografa - dokumentarni film
-[  Info  ]       Replaces ----- start = 24/01/2016 00:14:00 stop = 24/01/2016 01:02:00 title = ABBA u slikama, priče fotografa - dokumentarni film
-[  Info  ]       Replaces ----- start = 24/01/2016 01:02:00 stop = 24/01/2016 02:12:00 title = Postaja Komanča, američki film - ciklus klasičnog vesterna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 01:03:00 stop = 24/01/2016 02:13:00 title = Postaja Komanča, američki film - ciklus klasičnog vesterna
-[  Info  ]       Replaces ----- start = 24/01/2016 01:02:00 stop = 24/01/2016 02:12:00 title = Postaja Komanča, američki film - ciklus klasičnog vesterna
-[  Info  ]       Replaces ----- start = 24/01/2016 02:12:00 stop = 24/01/2016 03:05:00 title = Top Gear (22B)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 02:13:00 stop = 24/01/2016 03:06:00 title = Top Gear (22B)
-[  Info  ]       Replaces ----- start = 24/01/2016 02:12:00 stop = 24/01/2016 03:05:00 title = Top Gear (22B)
-[  Info  ]       Replaces ----- start = 24/01/2016 03:05:00 stop = 24/01/2016 03:17:00 title = Skica za portret
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 03:06:00 stop = 24/01/2016 03:17:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 24/01/2016 03:05:00 stop = 24/01/2016 03:17:00 title = Skica za portret
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 04:26:00 stop = 24/01/2016 04:57:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 24/01/2016 04:26:00 stop = 24/01/2016 04:56:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 24/01/2016 04:56:00 stop = 24/01/2016 05:41:00 title = Veterani mira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 04:57:00 stop = 24/01/2016 05:40:00 title = Veterani mira
-[  Info  ]       Replaces ----- start = 24/01/2016 04:56:00 stop = 24/01/2016 05:41:00 title = Veterani mira
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:40:00 stop = 24/01/2016 06:25:00 title = Prizma - multinacionalni magazin
-[  Info  ]       Replaces ----- start = 24/01/2016 04:56:00 stop = 24/01/2016 05:41:00 title = Veterani mira
-[  Info  ]       Replaces ----- start = 24/01/2016 05:41:00 stop = 24/01/2016 06:26:00 title = Prizma - multinacionalni magazin
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:25:00 stop = 24/01/2016 07:12:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 24/01/2016 05:41:00 stop = 24/01/2016 06:26:00 title = Prizma - multinacionalni magazin
-[  Info  ]       Replaces ----- start = 24/01/2016 06:26:00 stop = 24/01/2016 07:13:00 title = Dnevnik 2
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     9
-[  Info  ]      new shows added           35
-[  Info  ]      unchanged shows inspected 254
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 298
 [  Info  ]      total after update        299
 [  Debug ] 
 [  Info  ] (   2/39  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:02:00 stop = 24/01/2016 05:55:00 title = Koncert - Vladimir Kočiš Zec, Tvornica, 09.10.2007.(2. dio)
-[  Info  ]       Replaces ----- start = 24/01/2016 04:57:00 stop = 24/01/2016 05:50:00 title = Koncert - Vladimir Kočiš Zec, Tvornica, 09.10.2007.(2. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:30:00 stop = 24/01/2016 06:32:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 06:30:00 stop = 24/01/2016 06:31:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 06:31:00 stop = 24/01/2016 06:41:00 title = Tobijin putujući cirkus, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:32:00 stop = 24/01/2016 06:42:00 title = Tobijin putujući cirkus, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 06:31:00 stop = 24/01/2016 06:41:00 title = Tobijin putujući cirkus, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 06:41:00 stop = 24/01/2016 06:43:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:42:00 stop = 24/01/2016 06:44:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 06:41:00 stop = 24/01/2016 06:43:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 06:43:00 stop = 24/01/2016 06:55:00 title = Zvonko u zemlji igračaka, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:44:00 stop = 24/01/2016 06:56:00 title = Zvonko u zemlji igračaka, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 06:43:00 stop = 24/01/2016 06:55:00 title = Zvonko u zemlji igračaka, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 06:55:00 stop = 24/01/2016 06:57:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:56:00 stop = 24/01/2016 06:57:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 06:55:00 stop = 24/01/2016 06:57:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:06:00 stop = 24/01/2016 07:08:00 title = Pjesmice i brojalice: Iš'o medo u dućan
-[  Info  ]       Replaces ----- start = 24/01/2016 07:05:00 stop = 24/01/2016 07:07:00 title = Pjesmice i brojalice: Iš'o medo u dućan
-[  Info  ]       Replaces ----- start = 24/01/2016 07:07:00 stop = 24/01/2016 07:09:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:08:00 stop = 24/01/2016 07:10:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 07:07:00 stop = 24/01/2016 07:09:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 07:09:00 stop = 24/01/2016 07:37:00 title = Vlak dinosaura, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:38:00 stop = 24/01/2016 07:39:00 title = Pjesmice i brojalice: Bratec Martin
-[  Info  ]       Replaces ----- start = 24/01/2016 07:38:00 stop = 24/01/2016 07:48:00 title = Mali crveni traktor, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:39:00 stop = 24/01/2016 07:49:00 title = Mali crveni traktor, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 07:38:00 stop = 24/01/2016 07:48:00 title = Mali crveni traktor, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 07:48:00 stop = 24/01/2016 07:51:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:49:00 stop = 24/01/2016 07:52:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 07:48:00 stop = 24/01/2016 07:51:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 07:51:00 stop = 24/01/2016 08:15:00 title = Pčelica Maja, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:52:00 stop = 24/01/2016 08:17:00 title = Pčelica Maja, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 07:51:00 stop = 24/01/2016 08:15:00 title = Pčelica Maja, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:15:00 stop = 24/01/2016 08:29:00 title = TV vrtić: Četke
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:17:00 stop = 24/01/2016 08:30:00 title = TV vrtić: Četke
-[  Info  ]       Replaces ----- start = 24/01/2016 08:15:00 stop = 24/01/2016 08:29:00 title = TV vrtić: Četke
-[  Info  ]       Replaces ----- start = 24/01/2016 08:29:00 stop = 24/01/2016 08:39:00 title = Mali roboti, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:30:00 stop = 24/01/2016 08:40:00 title = Mali roboti, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:29:00 stop = 24/01/2016 08:39:00 title = Mali roboti, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:39:00 stop = 24/01/2016 08:41:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:40:00 stop = 24/01/2016 08:42:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 08:39:00 stop = 24/01/2016 08:41:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/01/2016 08:41:00 stop = 24/01/2016 08:48:00 title = Ninin kutak za male: Pauci od kutije za jaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:42:00 stop = 24/01/2016 08:48:00 title = Ninin kutak za male: Pauci od kutije za jaja
-[  Info  ]       Replaces ----- start = 24/01/2016 08:41:00 stop = 24/01/2016 08:48:00 title = Ninin kutak za male: Pauci od kutije za jaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:48:00 stop = 24/01/2016 08:58:00 title = Baltazar, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:48:00 stop = 24/01/2016 08:57:00 title = Baltazar, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:57:00 stop = 24/01/2016 09:05:00 title = Sara i patka, crtana serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:58:00 stop = 24/01/2016 09:06:00 title = Sara i patka, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:57:00 stop = 24/01/2016 09:05:00 title = Sara i patka, crtana serija
-[  Info  ]       Replaces ----- start = 24/01/2016 09:05:00 stop = 24/01/2016 09:12:00 title = Laboratorij na kraju svemira: Kečap
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:06:00 stop = 24/01/2016 09:13:00 title = Laboratorij na kraju svemira: Kečap
-[  Info  ]       Replaces ----- start = 24/01/2016 09:05:00 stop = 24/01/2016 09:12:00 title = Laboratorij na kraju svemira: Kečap
-[  Info  ]       Replaces ----- start = 24/01/2016 09:12:00 stop = 24/01/2016 09:26:00 title = Čarobna ploča: Engleski 14/26
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:13:00 stop = 24/01/2016 09:27:00 title = Čarobna ploča: Engleski 14/26
-[  Info  ]       Replaces ----- start = 24/01/2016 09:12:00 stop = 24/01/2016 09:26:00 title = Čarobna ploča: Engleski 14/26
-[  Info  ]       Replaces ----- start = 24/01/2016 09:26:00 stop = 24/01/2016 09:40:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:27:00 stop = 24/01/2016 09:41:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 09:26:00 stop = 24/01/2016 09:40:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 09:40:00 stop = 24/01/2016 09:58:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:41:00 stop = 24/01/2016 09:58:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 09:40:00 stop = 24/01/2016 09:58:00 title = Andyjeve divlje pustolovine, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:11:00 stop = 24/01/2016 14:15:00 title = Dobar, bolji, najbolji... britanski slastičar (5)
-[  Info  ]       Replaces ----- start = 24/01/2016 13:11:00 stop = 24/01/2016 14:16:00 title = Dobar, bolji, najbolji... britanski slastičar (5)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:15:00 stop = 24/01/2016 15:50:00 title = Milijun novčića, američki film
-[  Info  ]       Replaces ----- start = 24/01/2016 13:11:00 stop = 24/01/2016 14:16:00 title = Dobar, bolji, najbolji... britanski slastičar (5)
-[  Info  ]       Replaces ----- start = 24/01/2016 14:16:00 stop = 24/01/2016 15:50:00 title = Milijun novčića, američki film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:50:00 stop = 24/01/2016 17:21:00 title = Pjevaj moju pjesmu (1) (13/15)
-[  Info  ]       Replaces ----- start = 24/01/2016 15:50:00 stop = 24/01/2016 17:20:00 title = Pjevaj moju pjesmu (1) (13/15)
-[  Info  ]       Replaces ----- start = 24/01/2016 17:20:00 stop = 24/01/2016 18:56:00 title = Poirot (9), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:57:00 stop = 24/01/2016 20:16:00 title = Tamburaši Zdenku Runjiću u čast, snimka koncerta
-[  Info  ]       Replaces ----- start = 24/01/2016 18:56:00 stop = 24/01/2016 20:15:00 title = Tamburaši Zdenku Runjiću u čast, snimka koncerta
-[  Info  ]       Replaces ----- start = 24/01/2016 20:15:00 stop = 24/01/2016 22:09:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:16:00 stop = 24/01/2016 22:10:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]       Replaces ----- start = 24/01/2016 20:15:00 stop = 24/01/2016 22:09:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]       Replaces ----- start = 24/01/2016 22:09:00 stop = 24/01/2016 22:17:00 title = Vrijeme na Drugom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 22:10:00 stop = 24/01/2016 22:17:00 title = Vrijeme na Drugom
-[  Info  ]       Replaces ----- start = 24/01/2016 22:09:00 stop = 24/01/2016 22:17:00 title = Vrijeme na Drugom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 22:17:00 stop = 24/01/2016 23:12:00 title = Svjetski biseri (3): Capri i romantični otoci, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 22:17:00 stop = 24/01/2016 23:11:00 title = Svjetski biseri (3): Capri i romantični otoci, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 23:11:00 stop = 24/01/2016 23:58:00 title = Velečasni Brown (3), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 23:12:00 stop = 24/01/2016 23:59:00 title = Velečasni Brown (3), serija (12)
-[  Info  ]       Replaces ----- start = 24/01/2016 23:11:00 stop = 24/01/2016 23:58:00 title = Velečasni Brown (3), serija (12)
-[  Info  ]       Replaces ----- start = 24/01/2016 23:58:00 stop = 25/01/2016 00:29:00 title = Pa to je fantastično! (3), humoristična serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 23:59:00 stop = 25/01/2016 00:30:00 title = Pa to je fantastično! (3), humoristična serija (12)
-[  Info  ]       Replaces ----- start = 24/01/2016 23:58:00 stop = 25/01/2016 00:29:00 title = Pa to je fantastično! (3), humoristična serija (12)
-[  Info  ]       Replaces ----- start = 25/01/2016 00:29:00 stop = 25/01/2016 00:54:00 title = Elitni klinci (1), serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 00:30:00 stop = 25/01/2016 00:55:00 title = Elitni klinci (1), serija
-[  Info  ]       Replaces ----- start = 25/01/2016 00:29:00 stop = 25/01/2016 00:54:00 title = Elitni klinci (1), serija
-[  Info  ]       Replaces ----- start = 25/01/2016 00:54:00 stop = 25/01/2016 01:19:00 title = Elitni klinci (1), serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 00:55:00 stop = 25/01/2016 01:20:00 title = Elitni klinci (1), serija
-[  Info  ]       Replaces ----- start = 25/01/2016 00:54:00 stop = 25/01/2016 01:19:00 title = Elitni klinci (1), serija
-[  Info  ]       Replaces ----- start = 25/01/2016 01:19:00 stop = 25/01/2016 03:13:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 01:20:00 stop = 25/01/2016 03:14:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]       Replaces ----- start = 25/01/2016 01:19:00 stop = 25/01/2016 03:13:00 title = Kon-Tiki, britansko-norveški film (12)
-[  Info  ]       Replaces ----- start = 25/01/2016 03:13:00 stop = 25/01/2016 05:54:00 title = Noćni glazbeni program - Spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 25/01/2016 05:55:00 stop = 25/01/2016 05:56:00 title = Odjava
-[  Info  ]       Added before - start = 25/01/2016 06:00:00 stop = 25/01/2016 06:01:00 title = Juhuhu
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      missing shows added       1
-[  Info  ]      changed shows updated     39
-[  Info  ]      new shows added           62
-[  Info  ]      unchanged shows inspected 269
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 371
 [  Info  ]      total after update        372
 [  Debug ] 
 [  Info  ] (   3/39  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 01:33:00 stop = 24/01/2016 01:46:00 title = Carpe diem - 30 životnih lekcija: Đurđa Grozaj - 10 minuta (22/30)
-[  Info  ]       Replaces ----- start = 24/01/2016 01:23:00 stop = 24/01/2016 01:35:00 title = Carpe diem - 30 životnih lekcija: Đurđa Grozaj - 10 minuta (22/30)
-[  Info  ]       Replaces ----- start = 24/01/2016 01:35:00 stop = 24/01/2016 02:57:00 title = Stakleni ključ, američki film - Ciklus Film Noir: Alan&Veronica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 01:46:00 stop = 24/01/2016 03:07:00 title = Stakleni ključ, američki film - Ciklus Film Noir: Alan&Veronica
-[  Info  ]       Replaces ----- start = 24/01/2016 01:35:00 stop = 24/01/2016 02:57:00 title = Stakleni ključ, američki film - Ciklus Film Noir: Alan&Veronica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:12:00 stop = 24/01/2016 08:01:00 title = Bitka za Moskvu, sovjetski film (1. dio) - Ciklus Treći spektakl
-[  Info  ]       Replaces ----- start = 24/01/2016 05:12:00 stop = 24/01/2016 08:00:00 title = Bitka za Moskvu, sovjetski film (1. dio) - Ciklus Treći spektakl
-[  Info  ]       Replaces ----- start = 24/01/2016 08:00:00 stop = 24/01/2016 08:59:00 title = Antologija Dramskog programa: Prosjaci i sinovi, dramska serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:01:00 stop = 24/01/2016 09:00:00 title = Antologija Dramskog programa: Prosjaci i sinovi, dramska serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:00:00 stop = 24/01/2016 08:59:00 title = Antologija Dramskog programa: Prosjaci i sinovi, dramska serija
-[  Info  ]       Replaces ----- start = 24/01/2016 08:59:00 stop = 24/01/2016 10:30:00 title = Dobro jutro: Kultura
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:00:00 stop = 24/01/2016 10:32:00 title = Dobro jutro: Kultura
-[  Info  ]       Replaces ----- start = 24/01/2016 08:59:00 stop = 24/01/2016 10:30:00 title = Dobro jutro: Kultura
-[  Info  ]       Replaces ----- start = 24/01/2016 10:30:00 stop = 24/01/2016 11:44:00 title = Trideset i tri, sovjetski film - Ciklus Sovjetska kinoteka: G.Danelija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:32:00 stop = 24/01/2016 11:45:00 title = Trideset i tri, sovjetski film - Ciklus Sovjetska kinoteka: G.Danelija
-[  Info  ]       Replaces ----- start = 24/01/2016 10:30:00 stop = 24/01/2016 11:44:00 title = Trideset i tri, sovjetski film - Ciklus Sovjetska kinoteka: G.Danelija
-[  Info  ]       Replaces ----- start = 24/01/2016 11:44:00 stop = 24/01/2016 12:07:00 title = Graditelj brodova, dokumentarni film (2007.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:09:00 stop = 24/01/2016 13:59:00 title = Dan Dvorane Vatroslava Lisinskog - Francuska noć uz SO HRT-a pod ravnanjem Ive Lipanovića - V. Lisinski, 29.12.2015. (integralna verzija)
-[  Info  ]       Replaces ----- start = 24/01/2016 12:08:00 stop = 24/01/2016 13:58:00 title = Dan Dvorane Vatroslava Lisinskog - Francuska noć uz SO HRT-a pod ravnanjem Ive Lipanovića - V. Lisinski, 29.12.2015. (integralna verzija)
-[  Info  ]       Replaces ----- start = 24/01/2016 13:58:00 stop = 24/01/2016 14:29:00 title = Opera box
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:59:00 stop = 24/01/2016 14:30:00 title = Opera box
-[  Info  ]       Replaces ----- start = 24/01/2016 13:58:00 stop = 24/01/2016 14:29:00 title = Opera box
-[  Info  ]       Replaces ----- start = 24/01/2016 14:29:00 stop = 24/01/2016 15:01:00 title = Okusi Europe - Istra, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:30:00 stop = 24/01/2016 15:02:00 title = Okusi Europe - Istra, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 14:29:00 stop = 24/01/2016 15:01:00 title = Okusi Europe - Istra, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 15:01:00 stop = 24/01/2016 15:29:00 title = Ekološko stanovanje (3), dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:02:00 stop = 24/01/2016 15:30:00 title = Ekološko stanovanje (3), dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 15:01:00 stop = 24/01/2016 15:29:00 title = Ekološko stanovanje (3), dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 15:29:00 stop = 24/01/2016 17:00:00 title = Uživaj život, Jerry - američki film - Ciklus Jerry Lewis (i Dena Martin)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:41:00 stop = 24/01/2016 17:50:00 title = Prekid programa zbog čitanja: Kristian Novak - Obješeni
-[  Info  ]       Replaces ----- start = 24/01/2016 17:40:00 stop = 24/01/2016 17:49:00 title = Prekid programa zbog čitanja: Kristian Novak - Obješeni
-[  Info  ]       Replaces ----- start = 24/01/2016 17:49:00 stop = 24/01/2016 17:56:00 title = Teatar osobno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:50:00 stop = 24/01/2016 17:58:00 title = Teatar osobno
-[  Info  ]       Replaces ----- start = 24/01/2016 17:49:00 stop = 24/01/2016 17:56:00 title = Teatar osobno
-[  Info  ]       Replaces ----- start = 24/01/2016 17:56:00 stop = 24/01/2016 18:51:00 title = In memoriam Nikola Vončina - Antologija Dramskog programa: Tuđinac (2/3), dramska serija (1991.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:58:00 stop = 24/01/2016 18:53:00 title = In memoriam Nikola Vončina - Antologija Dramskog programa: Tuđinac (2/3), dramska serija (1991.)
-[  Info  ]       Replaces ----- start = 24/01/2016 17:56:00 stop = 24/01/2016 18:51:00 title = In memoriam Nikola Vončina - Antologija Dramskog programa: Tuđinac (2/3), dramska serija (1991.)
-[  Info  ]       Replaces ----- start = 24/01/2016 18:51:00 stop = 24/01/2016 19:35:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:53:00 stop = 24/01/2016 19:37:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]       Replaces ----- start = 24/01/2016 18:51:00 stop = 24/01/2016 19:35:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]       Replaces ----- start = 24/01/2016 19:35:00 stop = 24/01/2016 20:00:00 title = Vatroslav Kuliš, dokumentarni film (2003.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:37:00 stop = 24/01/2016 20:02:00 title = Vatroslav Kuliš, dokumentarni film (2003.)
-[  Info  ]       Replaces ----- start = 24/01/2016 19:35:00 stop = 24/01/2016 20:00:00 title = Vatroslav Kuliš, dokumentarni film (2003.)
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 20:22:00 title = -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:02:00 stop = 24/01/2016 20:24:00 title = -
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 20:22:00 title = -
-[  Info  ]       Replaces ----- start = 24/01/2016 20:22:00 stop = 24/01/2016 20:43:00 title = Klasici narodu - Junaci Pavlove ulice - sažetak (15/15)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:24:00 stop = 24/01/2016 20:50:00 title = Klasici narodu - Junaci Pavlove ulice - sažetak (15/15)
-[  Info  ]       Replaces ----- start = 24/01/2016 20:22:00 stop = 24/01/2016 20:43:00 title = Klasici narodu - Junaci Pavlove ulice - sažetak (15/15)
-[  Info  ]       Replaces ----- start = 24/01/2016 20:43:00 stop = 24/01/2016 22:23:00 title = Trag pume, američki igrani film - Ciklus klasičnog vesterna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:50:00 stop = 24/01/2016 22:29:00 title = Trag pume, američki igrani film - Ciklus klasičnog vesterna
-[  Info  ]       Replaces ----- start = 24/01/2016 20:43:00 stop = 24/01/2016 22:23:00 title = Trag pume, američki igrani film - Ciklus klasičnog vesterna
-[  Info  ]       Replaces ----- start = 24/01/2016 22:23:00 stop = 24/01/2016 23:14:00 title = Treća povijest: Benito Mussolini
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 23:23:00 stop = 25/01/2016 00:24:00 title = Koncert Eltona Johna
-[  Info  ]       Replaces ----- start = 24/01/2016 23:14:00 stop = 25/01/2016 00:14:00 title = Koncert Eltona Johna
-[  Info  ]       Replaces ----- start = 25/01/2016 00:14:00 stop = 25/01/2016 00:59:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 00:24:00 stop = 25/01/2016 01:09:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]       Replaces ----- start = 25/01/2016 00:14:00 stop = 25/01/2016 00:59:00 title = Vrijeme je za jazz: Jazz orkestar HRT-a i Edward Palermo: Glazba Franka Zappe (2. dio)
-[  Info  ]       Replaces ----- start = 25/01/2016 00:59:00 stop = 25/01/2016 02:29:00 title = Dobro jutro: Kultura
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 01:09:00 stop = 25/01/2016 02:39:00 title = Dobro jutro: Kultura
-[  Info  ]       Replaces ----- start = 25/01/2016 00:59:00 stop = 25/01/2016 02:29:00 title = Dobro jutro: Kultura
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     26
-[  Info  ]      new shows added           27
-[  Info  ]      unchanged shows inspected 135
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 188
 [  Info  ]      total after update        189
 [  Debug ] 
 [  Info  ] (   4/39  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:56:00 stop = 24/01/2016 07:00:00 title = Japan Video Topics: Sigurnije japanske metode za tjeranje kukaca
-[  Info  ]       Replaces ----- start = 24/01/2016 06:57:00 stop = 24/01/2016 07:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:05:00 stop = 24/01/2016 07:07:00 title = Vrijeme RH - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 07:05:00 stop = 24/01/2016 07:06:00 title = Vrijeme RH - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 07:06:00 stop = 24/01/2016 07:08:00 title = Bez komentara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:07:00 stop = 24/01/2016 07:09:00 title = Vrijeme Europa - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 07:06:00 stop = 24/01/2016 07:08:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 24/01/2016 07:08:00 stop = 24/01/2016 07:09:00 title = Vrijeme Europa - danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:16:00 stop = 24/01/2016 07:19:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 07:16:00 stop = 24/01/2016 07:20:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:19:00 stop = 24/01/2016 07:29:00 title = Iz naše arhive
-[  Info  ]       Replaces ----- start = 24/01/2016 07:16:00 stop = 24/01/2016 07:20:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 07:20:00 stop = 24/01/2016 07:30:00 title = Iz naše arhive
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:29:00 stop = 24/01/2016 08:00:00 title = Regionalni dnevnik
-[  Info  ]       Replaces ----- start = 24/01/2016 07:20:00 stop = 24/01/2016 07:30:00 title = Iz naše arhive
-[  Info  ]       Replaces ----- start = 24/01/2016 07:30:00 stop = 24/01/2016 08:00:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:09:00 stop = 24/01/2016 08:11:00 title = Vrijeme svijet - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 08:09:00 stop = 24/01/2016 08:10:00 title = Vrijeme svijet - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 08:10:00 stop = 24/01/2016 08:55:00 title = Normalan život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:11:00 stop = 24/01/2016 08:50:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 24/01/2016 08:10:00 stop = 24/01/2016 08:55:00 title = Normalan život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:50:00 stop = 24/01/2016 09:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 08:10:00 stop = 24/01/2016 08:55:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 24/01/2016 08:55:00 stop = 24/01/2016 09:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:30:00 stop = 24/01/2016 09:56:00 title = DW: U dobroj formi
-[  Info  ]       Replaces ----- start = 24/01/2016 09:30:00 stop = 24/01/2016 10:00:00 title = DW: U dobroj formi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:56:00 stop = 24/01/2016 10:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 09:30:00 stop = 24/01/2016 10:00:00 title = DW: U dobroj formi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:00:00 stop = 24/01/2016 10:09:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 10:00:00 stop = 24/01/2016 10:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:03:00 stop = 24/01/2016 11:15:00 title = Kitzbühel: Svjetski SKI KUP - slalom (M), prijenos 1. vožnje
-[  Info  ]       Replaces ----- start = 24/01/2016 11:00:00 stop = 24/01/2016 11:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 11:10:00 stop = 24/01/2016 11:15:00 title = Kitzbühel: Svjetski SKI KUP - slalom (M), prijenos 1. vožnje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:30:00 stop = 24/01/2016 11:54:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 24/01/2016 11:30:00 stop = 24/01/2016 11:55:00 title = Znanstveni krugovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:54:00 stop = 24/01/2016 12:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 11:30:00 stop = 24/01/2016 11:55:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 24/01/2016 11:55:00 stop = 24/01/2016 12:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:30:00 stop = 24/01/2016 12:56:00 title = DW: Sutrašnjica danas
-[  Info  ]       Replaces ----- start = 24/01/2016 12:30:00 stop = 24/01/2016 13:00:00 title = DW: Sutrašnjica danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:56:00 stop = 24/01/2016 13:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 12:30:00 stop = 24/01/2016 13:00:00 title = DW: Sutrašnjica danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:03:00 stop = 24/01/2016 14:20:00 title = Kitzbühel: Svjetski SKI KUP - slalom (M), prijenos 2. vožnje
-[  Info  ]       Replaces ----- start = 24/01/2016 14:00:00 stop = 24/01/2016 14:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 14:05:00 stop = 24/01/2016 14:20:00 title = Kitzbühel: Svjetski SKI KUP - slalom (M), prijenos 2. vožnje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:21:00 stop = 24/01/2016 14:23:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 24/01/2016 14:21:00 stop = 24/01/2016 14:24:00 title = Bez komentara
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:23:00 stop = 24/01/2016 14:25:00 title = Vrijeme svijet - danas
-[  Info  ]       Replaces ----- start = 24/01/2016 14:21:00 stop = 24/01/2016 14:24:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 24/01/2016 14:24:00 stop = 24/01/2016 14:25:00 title = Vrijeme svijet - danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:30:00 stop = 24/01/2016 14:55:00 title = Indeks
-[  Info  ]       Replaces ----- start = 24/01/2016 14:30:00 stop = 24/01/2016 15:00:00 title = Indeks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:55:00 stop = 24/01/2016 15:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 14:30:00 stop = 24/01/2016 15:00:00 title = Indeks
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:00:00 stop = 24/01/2016 15:04:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 15:00:00 stop = 24/01/2016 15:05:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:04:00 stop = 24/01/2016 15:30:00 title = Govornica tjedna - Psi pomagači u vrtiću i nastavi
-[  Info  ]       Replaces ----- start = 24/01/2016 15:00:00 stop = 24/01/2016 15:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 15:05:00 stop = 24/01/2016 15:30:00 title = Govornica tjedna - Psi pomagači u vrtiću i nastavi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:10:00 stop = 24/01/2016 16:33:00 title = Maher za tehnologiju (2), dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 16:10:00 stop = 24/01/2016 16:40:00 title = Maher za tehnologiju (2), dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:33:00 stop = 24/01/2016 16:40:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 16:10:00 stop = 24/01/2016 16:40:00 title = Maher za tehnologiju (2), dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:40:00 stop = 24/01/2016 16:51:00 title = DW: Shift
-[  Info  ]       Replaces ----- start = 24/01/2016 16:40:00 stop = 24/01/2016 16:55:00 title = DW: Shift
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:51:00 stop = 24/01/2016 17:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 16:40:00 stop = 24/01/2016 16:55:00 title = DW: Shift
-[  Info  ]       Replaces ----- start = 24/01/2016 16:55:00 stop = 24/01/2016 17:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:00:00 stop = 24/01/2016 17:09:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 17:00:00 stop = 24/01/2016 17:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:09:00 stop = 24/01/2016 17:39:00 title = Turistička klasa
-[  Info  ]       Replaces ----- start = 24/01/2016 17:00:00 stop = 24/01/2016 17:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 24/01/2016 17:10:00 stop = 24/01/2016 17:40:00 title = Turistička klasa
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:39:00 stop = 24/01/2016 18:00:00 title = Druga strana
-[  Info  ]       Replaces ----- start = 24/01/2016 17:10:00 stop = 24/01/2016 17:40:00 title = Turistička klasa
-[  Info  ]       Replaces ----- start = 24/01/2016 17:40:00 stop = 24/01/2016 18:00:00 title = Druga strana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:10:00 stop = 24/01/2016 18:35:00 title = Najveći trenuci sporta, dokumentarna serija
-[  Info  ]       Replaces ----- start = 24/01/2016 18:10:00 stop = 24/01/2016 18:40:00 title = Najveći trenuci sporta, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:35:00 stop = 24/01/2016 18:40:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 24/01/2016 18:10:00 stop = 24/01/2016 18:40:00 title = Najveći trenuci sporta, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:40:00 stop = 24/01/2016 18:54:00 title = TV student
-[  Info  ]       Replaces ----- start = 24/01/2016 18:40:00 stop = 24/01/2016 18:55:00 title = TV student
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:54:00 stop = 24/01/2016 18:55:00 title = Vrijeme RH - sutra
-[  Info  ]       Replaces ----- start = 24/01/2016 18:40:00 stop = 24/01/2016 18:55:00 title = TV student
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:55:00 stop = 24/01/2016 18:59:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 24/01/2016 18:55:00 stop = 24/01/2016 18:56:00 title = Vrijeme RH - sutra
-[  Info  ]       Replaces ----- start = 24/01/2016 18:56:00 stop = 24/01/2016 18:59:00 title = Bez komentara
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     39
-[  Info  ]      new shows added           89
-[  Info  ]      unchanged shows inspected 474
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 602
 [  Info  ]      total after update        603
 [  Debug ] 
 [  Info  ] (   5/39  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:55:00 stop = 24/01/2016 06:00:00 title = Kraj programa
-[  Info  ]       Replaces ----- start = 24/01/2016 05:25:00 stop = 24/01/2016 06:10:00 title = Dnevnik Nove TV
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:00:00 stop = 24/01/2016 06:55:00 title = Dnevnik Nove TV
-[  Info  ]       Replaces ----- start = 24/01/2016 05:25:00 stop = 24/01/2016 06:10:00 title = Dnevnik Nove TV
-[  Info  ]       Replaces ----- start = 24/01/2016 06:10:00 stop = 24/01/2016 06:55:00 title = Nad lipom 35
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/39  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 02:00:00 stop = 24/01/2016 03:05:00 title = Namještaljka (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 02:00:00 stop = 24/01/2016 03:05:00 title = Zasjeda - TV premijera (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 04:05:00 stop = 24/01/2016 04:35:00 title = RTL Danas
-[  Info  ]       Replaces ----- start = 24/01/2016 04:05:00 stop = 24/01/2016 05:05:00 title = RTL Danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 04:35:00 stop = 24/01/2016 04:55:00 title = RTL Danas (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 04:05:00 stop = 24/01/2016 05:05:00 title = RTL Danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 04:55:00 stop = 24/01/2016 05:20:00 title = Legenda o Tarzanu
-[  Info  ]       Replaces ----- start = 24/01/2016 04:05:00 stop = 24/01/2016 05:05:00 title = RTL Danas
-[  Info  ]       Replaces ----- start = 24/01/2016 05:05:00 stop = 24/01/2016 05:25:00 title = RTL Danas (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:20:00 stop = 24/01/2016 06:10:00 title = Lego Ninjago
-[  Info  ]       Replaces ----- start = 24/01/2016 05:05:00 stop = 24/01/2016 05:25:00 title = RTL Danas (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 05:25:00 stop = 24/01/2016 05:55:00 title = Legenda o Tarzanu
-[  Info  ]       Replaces ----- start = 24/01/2016 05:55:00 stop = 24/01/2016 06:45:00 title = Lego Ninjago
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:10:00 stop = 24/01/2016 07:00:00 title = Svemoguća Kim
-[  Info  ]       Replaces ----- start = 24/01/2016 05:55:00 stop = 24/01/2016 06:45:00 title = Lego Ninjago
-[  Info  ]       Replaces ----- start = 24/01/2016 06:45:00 stop = 24/01/2016 07:35:00 title = Svemoguća Kim
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:00:00 stop = 24/01/2016 07:15:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 06:45:00 stop = 24/01/2016 07:35:00 title = Svemoguća Kim
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:15:00 stop = 24/01/2016 08:45:00 title = Mijenjam ženu (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:45:00 stop = 24/01/2016 07:35:00 title = Svemoguća Kim
-[  Info  ]       Replaces ----- start = 24/01/2016 07:35:00 stop = 24/01/2016 07:50:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 07:50:00 stop = 24/01/2016 09:05:00 title = Mijenjam ženu (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:45:00 stop = 24/01/2016 09:00:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 07:50:00 stop = 24/01/2016 09:05:00 title = Mijenjam ženu (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:00:00 stop = 24/01/2016 10:30:00 title = Bitka za Terru - TV premijera
-[  Info  ]       Replaces ----- start = 24/01/2016 07:50:00 stop = 24/01/2016 09:05:00 title = Mijenjam ženu (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 09:05:00 stop = 24/01/2016 09:20:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 09:20:00 stop = 24/01/2016 10:50:00 title = Bitka za Terru - TV premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:30:00 stop = 24/01/2016 10:45:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 09:20:00 stop = 24/01/2016 10:50:00 title = Bitka za Terru - TV premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:45:00 stop = 24/01/2016 13:10:00 title = Heroji - TV premijera
-[  Info  ]       Replaces ----- start = 24/01/2016 09:20:00 stop = 24/01/2016 10:50:00 title = Bitka za Terru - TV premijera
-[  Info  ]       Replaces ----- start = 24/01/2016 10:50:00 stop = 24/01/2016 11:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 11:05:00 stop = 24/01/2016 13:25:00 title = Heroji - TV premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:10:00 stop = 24/01/2016 15:00:00 title = Madison
-[  Info  ]       Replaces ----- start = 24/01/2016 11:05:00 stop = 24/01/2016 13:25:00 title = Heroji - TV premijera
-[  Info  ]       Replaces ----- start = 24/01/2016 13:25:00 stop = 24/01/2016 15:15:00 title = Madison
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:00:00 stop = 24/01/2016 16:30:00 title = Ja, ja i Irena
-[  Info  ]       Replaces ----- start = 24/01/2016 13:25:00 stop = 24/01/2016 15:15:00 title = Madison
-[  Info  ]       Replaces ----- start = 24/01/2016 15:15:00 stop = 24/01/2016 16:30:00 title = Ja, ja i Irena
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:00:00 stop = 24/01/2016 21:35:00 title = Oteta
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 21:40:00 title = Oteta - TV premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 21:35:00 stop = 24/01/2016 23:25:00 title = Red letenja
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 21:40:00 title = Oteta - TV premijera
-[  Info  ]       Replaces ----- start = 24/01/2016 21:40:00 stop = 24/01/2016 23:25:00 title = Red letenja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 23:25:00 stop = 25/01/2016 01:25:00 title = Predator 2
-[  Info  ]       Replaces ----- start = 24/01/2016 23:25:00 stop = 25/01/2016 01:15:00 title = Predator 2
-[  Info  ]       Replaces ----- start = 25/01/2016 01:15:00 stop = 25/01/2016 02:45:00 title = Zasjeda - TV premijera (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 01:25:00 stop = 25/01/2016 02:55:00 title = Zasjeda - TV premijera (R)
-[  Info  ]       Replaces ----- start = 25/01/2016 01:15:00 stop = 25/01/2016 02:45:00 title = Zasjeda - TV premijera (R)
-[  Info  ]       Replaces ----- start = 25/01/2016 02:45:00 stop = 25/01/2016 03:45:00 title = Astro show
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 02:55:00 stop = 25/01/2016 03:55:00 title = Astro show
-[  Info  ]       Replaces ----- start = 25/01/2016 02:45:00 stop = 25/01/2016 03:45:00 title = Astro show
-[  Info  ]       Replaces ----- start = 25/01/2016 03:45:00 stop = 25/01/2016 07:15:00 title = RTL Danas (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/01/2016 03:55:00 stop = 25/01/2016 07:15:00 title = RTL Danas (R)
-[  Info  ]       Replaces ----- start = 25/01/2016 03:45:00 stop = 25/01/2016 07:15:00 title = RTL Danas (R)
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL TELEVIZIJA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     20
-[  Info  ]      new shows added           22
-[  Info  ]      unchanged shows inspected 151
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 193
 [  Info  ]      total after update        194
 [  Debug ] 
 [  Info  ] (   7/39  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/39  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:25:00 stop = 24/01/2016 05:55:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 05:00:00 stop = 24/01/2016 05:30:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 05:30:00 stop = 24/01/2016 06:00:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 05:55:00 stop = 24/01/2016 06:25:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 05:30:00 stop = 24/01/2016 06:00:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:00:00 stop = 24/01/2016 06:30:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:25:00 stop = 24/01/2016 06:55:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:00:00 stop = 24/01/2016 06:30:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:30:00 stop = 24/01/2016 07:00:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:55:00 stop = 24/01/2016 07:25:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:30:00 stop = 24/01/2016 07:00:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 07:00:00 stop = 24/01/2016 07:15:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 07:15:00 stop = 24/01/2016 07:45:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:25:00 stop = 24/01/2016 07:55:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 07:15:00 stop = 24/01/2016 07:45:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 07:45:00 stop = 24/01/2016 08:15:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 07:55:00 stop = 24/01/2016 08:10:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 07:45:00 stop = 24/01/2016 08:15:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:10:00 stop = 24/01/2016 08:40:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 07:45:00 stop = 24/01/2016 08:15:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 08:15:00 stop = 24/01/2016 08:30:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 08:30:00 stop = 24/01/2016 09:00:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:40:00 stop = 24/01/2016 09:10:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 08:30:00 stop = 24/01/2016 09:00:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 09:00:00 stop = 24/01/2016 09:30:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:10:00 stop = 24/01/2016 09:25:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 09:00:00 stop = 24/01/2016 09:30:00 title = Zabranjena ljubav (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:25:00 stop = 24/01/2016 09:55:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 09:00:00 stop = 24/01/2016 09:30:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 09:30:00 stop = 24/01/2016 09:45:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 09:45:00 stop = 24/01/2016 10:40:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:55:00 stop = 24/01/2016 10:25:00 title = Zabranjena ljubav (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 09:45:00 stop = 24/01/2016 10:40:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:25:00 stop = 24/01/2016 10:40:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 09:45:00 stop = 24/01/2016 10:40:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:40:00 stop = 24/01/2016 11:35:00 title = Sudnica (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 10:40:00 stop = 24/01/2016 10:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 10:55:00 stop = 24/01/2016 11:55:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:35:00 stop = 24/01/2016 11:50:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 10:55:00 stop = 24/01/2016 11:55:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:50:00 stop = 24/01/2016 12:40:00 title = Sudnica (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 10:55:00 stop = 24/01/2016 11:55:00 title = Sudnica (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 11:55:00 stop = 24/01/2016 12:55:00 title = Sudnica (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:40:00 stop = 24/01/2016 13:40:00 title = Sudnica (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 11:55:00 stop = 24/01/2016 12:55:00 title = Sudnica (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 12:55:00 stop = 24/01/2016 13:25:00 title = InDizajn s Mirjanom Mikulec
-[  Info  ]       Replaces ----- start = 24/01/2016 13:25:00 stop = 24/01/2016 14:30:00 title = Top.HR
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:40:00 stop = 24/01/2016 14:25:00 title = InDizajn s Mirjanom Mikulec
-[  Info  ]       Replaces ----- start = 24/01/2016 13:25:00 stop = 24/01/2016 14:30:00 title = Top.HR
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:25:00 stop = 24/01/2016 15:10:00 title = Top.HR
-[  Info  ]       Replaces ----- start = 24/01/2016 13:25:00 stop = 24/01/2016 14:30:00 title = Top.HR
-[  Info  ]       Replaces ----- start = 24/01/2016 14:30:00 stop = 24/01/2016 15:25:00 title = Ubojite karaoke
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:10:00 stop = 24/01/2016 16:10:00 title = Ubojite karaoke
-[  Info  ]       Replaces ----- start = 24/01/2016 14:30:00 stop = 24/01/2016 15:25:00 title = Ubojite karaoke
-[  Info  ]       Replaces ----- start = 24/01/2016 15:25:00 stop = 24/01/2016 16:25:00 title = Moderna čuda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:10:00 stop = 24/01/2016 17:10:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 24/01/2016 15:25:00 stop = 24/01/2016 16:25:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 24/01/2016 16:25:00 stop = 24/01/2016 17:20:00 title = Moderna čuda
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:10:00 stop = 24/01/2016 18:00:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 24/01/2016 16:25:00 stop = 24/01/2016 17:20:00 title = Moderna čuda
-[  Info  ]       Replaces ----- start = 24/01/2016 17:20:00 stop = 24/01/2016 17:45:00 title = Bitka za skladište
-[  Info  ]       Replaces ----- start = 24/01/2016 17:45:00 stop = 24/01/2016 18:15:00 title = Bitka za skladište
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:15:00 stop = 24/01/2016 18:25:00 title = Hawaii Five-0
-[  Info  ]       Replaces ----- start = 24/01/2016 18:15:00 stop = 24/01/2016 19:10:00 title = Hawaii Five-0
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     24
-[  Info  ]      new shows added           40
-[  Info  ]      unchanged shows inspected 214
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 278
 [  Info  ]      total after update        280
 [  Debug ] 
 [  Info  ] (   9/39  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:10:00 stop = 24/01/2016 12:25:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 12:05:00 stop = 24/01/2016 12:20:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 12:20:00 stop = 24/01/2016 13:50:00 title = Tri, dva, jedan - kuhaj! (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:25:00 stop = 24/01/2016 13:40:00 title = Tri, dva, jedan - kuhaj! (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 12:20:00 stop = 24/01/2016 13:50:00 title = Tri, dva, jedan - kuhaj! (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:40:00 stop = 24/01/2016 13:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 12:20:00 stop = 24/01/2016 13:50:00 title = Tri, dva, jedan - kuhaj! (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 13:50:00 stop = 24/01/2016 14:05:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:55:00 stop = 24/01/2016 14:40:00 title = Lovci na nekretnine (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 13:50:00 stop = 24/01/2016 14:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 14:05:00 stop = 24/01/2016 14:50:00 title = Lovci na nekretnine (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:40:00 stop = 24/01/2016 14:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 14:05:00 stop = 24/01/2016 14:50:00 title = Lovci na nekretnine (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 14:50:00 stop = 24/01/2016 15:05:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:55:00 stop = 24/01/2016 15:40:00 title = Ellen (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 14:50:00 stop = 24/01/2016 15:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 15:05:00 stop = 24/01/2016 15:50:00 title = Ellen (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:40:00 stop = 24/01/2016 15:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 15:05:00 stop = 24/01/2016 15:50:00 title = Ellen (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 15:50:00 stop = 24/01/2016 16:05:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 15:55:00 stop = 24/01/2016 16:40:00 title = Ellen (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 15:50:00 stop = 24/01/2016 16:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 16:05:00 stop = 24/01/2016 16:50:00 title = Ellen (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:40:00 stop = 24/01/2016 16:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 16:05:00 stop = 24/01/2016 16:50:00 title = Ellen (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 16:50:00 stop = 24/01/2016 17:05:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 16:55:00 stop = 24/01/2016 17:40:00 title = -
-[  Info  ]       Replaces ----- start = 24/01/2016 16:50:00 stop = 24/01/2016 17:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 17:05:00 stop = 24/01/2016 17:50:00 title = -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:40:00 stop = 24/01/2016 17:55:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 17:05:00 stop = 24/01/2016 17:50:00 title = -
-[  Info  ]       Replaces ----- start = 24/01/2016 17:50:00 stop = 24/01/2016 18:05:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:55:00 stop = 24/01/2016 18:50:00 title = Sudnica
-[  Info  ]       Replaces ----- start = 24/01/2016 17:50:00 stop = 24/01/2016 18:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 18:05:00 stop = 24/01/2016 18:55:00 title = Sudnica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:50:00 stop = 24/01/2016 19:05:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 18:05:00 stop = 24/01/2016 18:55:00 title = Sudnica
-[  Info  ]       Replaces ----- start = 24/01/2016 18:55:00 stop = 24/01/2016 19:10:00 title = TV prodaja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:05:00 stop = 24/01/2016 20:00:00 title = Sudnica
-[  Info  ]       Replaces ----- start = 24/01/2016 18:55:00 stop = 24/01/2016 19:10:00 title = TV prodaja
-[  Info  ]       Replaces ----- start = 24/01/2016 19:10:00 stop = 24/01/2016 20:00:00 title = Sudnica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:00:00 stop = 24/01/2016 20:20:00 title = RTL Danas
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 20:40:00 title = RTL Danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:20:00 stop = 24/01/2016 20:40:00 title = Tri, dva, jedan - kuhaj!
-[  Info  ]       Replaces ----- start = 24/01/2016 20:00:00 stop = 24/01/2016 20:40:00 title = RTL Danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 20:40:00 stop = 24/01/2016 21:35:00 title = RTL Vrijeme
-[  Info  ]       Replaces ----- start = 24/01/2016 20:40:00 stop = 24/01/2016 20:45:00 title = RTL Vrijeme
-[  Info  ]       Replaces ----- start = 24/01/2016 20:45:00 stop = 24/01/2016 22:15:00 title = Tri, dva, jedan - kuhaj!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 21:35:00 stop = 24/01/2016 22:15:00 title = Ellen
-[  Info  ]       Replaces ----- start = 24/01/2016 20:45:00 stop = 24/01/2016 22:15:00 title = Tri, dva, jedan - kuhaj!
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 22:15:00 stop = 24/01/2016 23:00:00 title = Ellen
-[  Info  ]       Replaces ----- start = 24/01/2016 22:15:00 stop = 24/01/2016 22:55:00 title = Ellen
-[  Info  ]       Replaces ----- start = 24/01/2016 22:55:00 stop = 24/01/2016 23:35:00 title = Ellen
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 23:00:00 stop = 25/01/2016 11:05:00 title = Lovci na nekretnine
-[  Info  ]       Replaces ----- start = 24/01/2016 22:55:00 stop = 24/01/2016 23:35:00 title = Ellen
-[  Info  ]       Replaces ----- start = 24/01/2016 23:35:00 stop = 25/01/2016 11:05:00 title = Lovci na nekretnine
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL PLUS
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     20
-[  Info  ]      new shows added           24
-[  Info  ]      unchanged shows inspected 122
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 166
 [  Info  ]      total after update        167
 [  Debug ] 
 [  Info  ] (  10/39  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           10
-[  Info  ]      unchanged shows inspected 58
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 68
 [  Info  ]      total after update        69
 [  Debug ] 
 [  Info  ] (  11/39  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           10
-[  Info  ]      unchanged shows inspected 55
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 65
 [  Info  ]      total after update        66
 [  Debug ] 
 [  Info  ] (  12/39  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT TV1000
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           13
-[  Info  ]      unchanged shows inspected 77
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 90
 [  Info  ]      total after update        91
 [  Debug ] 
 [  Info  ] (  13/39  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           36
-[  Info  ]      unchanged shows inspected 231
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 267
 [  Info  ]      total after update        268
 [  Debug ] 
 [  Info  ] (  14/39  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           37
-[  Info  ]      unchanged shows inspected 224
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 261
 [  Info  ]      total after update        262
 [  Debug ] 
 [  Info  ] (  15/39  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       UNIVERSAL CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           17
-[  Info  ]      unchanged shows inspected 115
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 132
 [  Info  ]      total after update        133
 [  Debug ] 
 [  Info  ] (  16/39  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       DISCOVERY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           34
-[  Info  ]      unchanged shows inspected 224
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 258
 [  Info  ]      total after update        259
 [  Debug ] 
 [  Info  ] (  17/39  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           36
-[  Info  ]      unchanged shows inspected 227
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 263
 [  Info  ]      total after update        264
 [  Debug ] 
 [  Info  ] (  18/39  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT HISTORY
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           26
-[  Info  ]      unchanged shows inspected 161
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 187
 [  Info  ]      total after update        188
 [  Debug ] 
 [  Info  ] (  19/39  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       ANIMAL PLANET
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           35
-[  Info  ]      unchanged shows inspected 185
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 220
 [  Info  ]      total after update        221
 [  Debug ] 
 [  Info  ] (  20/39  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT EXPLORER
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           35
-[  Info  ]      unchanged shows inspected 197
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 232
 [  Info  ]      total after update        233
 [  Debug ] 
 [  Info  ] (  21/39  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       TLC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           37
-[  Info  ]      unchanged shows inspected 188
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 225
 [  Info  ]      total after update        226
 [  Debug ] 
 [  Info  ] (  22/39  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode incremental
@@ -1029,148 +210,43 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] (  25/39  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CNN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           59
-[  Info  ]      unchanged shows inspected 220
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 279
 [  Info  ]      total after update        280
 [  Debug ] 
 [  Info  ] (  26/39  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           47
-[  Info  ]      unchanged shows inspected 295
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 342
 [  Info  ]      total after update        343
 [  Debug ] 
 [  Info  ] (  27/39  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       NICKELODEON
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           64
-[  Info  ]      unchanged shows inspected 371
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 435
 [  Info  ]      total after update        436
 [  Debug ] 
 [  Info  ] (  28/39  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           57
-[  Info  ]      unchanged shows inspected 343
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 400
 [  Info  ]      total after update        401
 [  Debug ] 
 [  Info  ] (  29/39  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  30/39  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 00:35:00 stop = 24/01/2016 06:25:00 title = Rođena zvijezda
-[  Info  ]       Replaces ----- start = 24/01/2016 00:25:00 stop = 24/01/2016 00:45:00 title = Mr. Bean
-[  Info  ]       Replaces ----- start = 24/01/2016 00:45:00 stop = 24/01/2016 01:25:00 title = Mr. Bean
-[  Info  ]       Replaces ----- start = 24/01/2016 01:25:00 stop = 24/01/2016 06:20:00 title = Rođena zvijezda
-[  Info  ]       Replaces ----- start = 24/01/2016 06:20:00 stop = 24/01/2016 06:50:00 title = Hitovi dječje televizije (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:25:00 stop = 24/01/2016 06:55:00 title = Hitovi dječje televizije (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:20:00 stop = 24/01/2016 06:50:00 title = Hitovi dječje televizije (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:50:00 stop = 24/01/2016 07:50:00 title = Top lista dječje televizije (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 06:55:00 stop = 24/01/2016 08:00:00 title = Top lista dječje televizije (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 06:50:00 stop = 24/01/2016 07:50:00 title = Top lista dječje televizije (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 07:50:00 stop = 24/01/2016 08:50:00 title = Top lista dječje televizije
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 08:00:00 stop = 24/01/2016 09:05:00 title = Top lista dječje televizije
-[  Info  ]       Replaces ----- start = 24/01/2016 07:50:00 stop = 24/01/2016 08:50:00 title = Top lista dječje televizije
-[  Info  ]       Replaces ----- start = 24/01/2016 08:50:00 stop = 24/01/2016 10:15:00 title = Kockići
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 09:05:00 stop = 24/01/2016 10:20:00 title = Kockići
-[  Info  ]       Replaces ----- start = 24/01/2016 08:50:00 stop = 24/01/2016 10:15:00 title = Kockići
-[  Info  ]       Replaces ----- start = 24/01/2016 10:15:00 stop = 24/01/2016 10:20:00 title = Crtež dana (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:20:00 stop = 24/01/2016 10:25:00 title = Crtež dana (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 10:20:00 stop = 24/01/2016 10:45:00 title = Mickey Mouse Clubhouse (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 10:25:00 stop = 24/01/2016 10:45:00 title = Mickey Mouse Clubhouse (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 10:20:00 stop = 24/01/2016 10:45:00 title = Mickey Mouse Clubhouse (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:10:00 stop = 24/01/2016 11:35:00 title = Phineas i Ferb (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 11:10:00 stop = 24/01/2016 11:30:00 title = Phineas i Ferb (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 11:30:00 stop = 24/01/2016 12:10:00 title = Violetta (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 11:35:00 stop = 24/01/2016 12:20:00 title = Violetta (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 11:30:00 stop = 24/01/2016 12:10:00 title = Violetta (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 12:10:00 stop = 24/01/2016 13:35:00 title = Flicka 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 12:20:00 stop = 24/01/2016 13:45:00 title = Flicka 3
-[  Info  ]       Replaces ----- start = 24/01/2016 12:10:00 stop = 24/01/2016 13:35:00 title = Flicka 3
-[  Info  ]       Replaces ----- start = 24/01/2016 13:35:00 stop = 24/01/2016 14:05:00 title = Pink Panther (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 13:45:00 stop = 24/01/2016 14:05:00 title = Pink Panther (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 13:35:00 stop = 24/01/2016 14:05:00 title = Pink Panther (R)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:30:00 stop = 24/01/2016 14:40:00 title = Vremeplov (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 14:30:00 stop = 24/01/2016 14:35:00 title = Vremeplov (R)
-[  Info  ]       Replaces ----- start = 24/01/2016 14:35:00 stop = 24/01/2016 14:40:00 title = Stari zanati
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:40:00 stop = 24/01/2016 14:45:00 title = Stari zanati
-[  Info  ]       Replaces ----- start = 24/01/2016 14:40:00 stop = 24/01/2016 15:35:00 title = Bilo jednom... znanstvenici
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:45:00 stop = 24/01/2016 15:35:00 title = Bilo jednom... znanstvenici
-[  Info  ]       Replaces ----- start = 24/01/2016 14:40:00 stop = 24/01/2016 15:35:00 title = Bilo jednom... znanstvenici
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 17:50:00 stop = 24/01/2016 18:15:00 title = Phineas i Ferb
-[  Info  ]       Replaces ----- start = 24/01/2016 17:50:00 stop = 24/01/2016 18:10:00 title = Phineas i Ferb
-[  Info  ]       Replaces ----- start = 24/01/2016 18:10:00 stop = 24/01/2016 18:50:00 title = Violetta
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 18:15:00 stop = 24/01/2016 19:00:00 title = Violetta
-[  Info  ]       Replaces ----- start = 24/01/2016 18:10:00 stop = 24/01/2016 18:50:00 title = Violetta
-[  Info  ]       Replaces ----- start = 24/01/2016 18:50:00 stop = 24/01/2016 18:55:00 title = Crtež dana
-[  Info  ]       Replaces ----- start = 24/01/2016 18:55:00 stop = 24/01/2016 19:05:00 title = Baka priča najljepše priče
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:00:00 stop = 24/01/2016 19:05:00 title = Crtež dana
-[  Info  ]       Replaces ----- start = 24/01/2016 18:55:00 stop = 24/01/2016 19:05:00 title = Baka priča najljepše priče
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:05:00 stop = 24/01/2016 19:15:00 title = Baka priča najljepše priče
-[  Info  ]       Replaces ----- start = 24/01/2016 19:05:00 stop = 24/01/2016 19:30:00 title = Mali leteći medvjedi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:15:00 stop = 24/01/2016 19:35:00 title = Mali leteći medvjedi
-[  Info  ]       Replaces ----- start = 24/01/2016 19:05:00 stop = 24/01/2016 19:30:00 title = Mali leteći medvjedi
-[  Info  ]       Replaces ----- start = 24/01/2016 19:30:00 stop = 24/01/2016 19:55:00 title = Pink Panther
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 19:35:00 stop = 24/01/2016 19:55:00 title = Pink Panther
-[  Info  ]       Replaces ----- start = 24/01/2016 19:30:00 stop = 24/01/2016 19:55:00 title = Pink Panther
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     20
-[  Info  ]      new shows added           41
-[  Info  ]      unchanged shows inspected 252
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 313
 [  Info  ]      total after update        313
 [  Debug ] 
 [  Info  ] (  31/39  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode incremental
@@ -1181,10 +257,8 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped show without a title at 29/01/2016 12:10:00
 [  Info  ] 
 [  Info  ]    Summary for update of       SPORTSKA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           4
-[  Info  ]      unchanged shows inspected 113
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 117
 [  Info  ]      total after update        118
 [  Debug ] 
 [  Info  ] (  32/39  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode incremental
@@ -1195,26 +269,18 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       EUROSPORT 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           28
-[  Info  ]      unchanged shows inspected 145
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 173
 [  Info  ]      total after update        174
 [  Debug ] 
 [  Info  ] (  34/39  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 26/01/2016 15:05:00 stop = 26/01/2016 16:00:00 title = Premier League - Pregled
-[  Info  ]       Added before - start = 26/01/2016 16:00:00 stop = 26/01/2016 17:00:00 title = Nizozemska liga – Pregled
 [  Debug ]    skipped show without a title at 27/01/2016 17:45:00
 [  Debug ]    skipped show without a title at 28/01/2016 02:00:00
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 1
-[  Info  ]      missing shows added       1
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           22
-[  Info  ]      unchanged shows inspected 113
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 136
 [  Info  ]      total after update        137
 [  Debug ] 
 [  Info  ] (  35/39  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode incremental
@@ -1226,30 +292,24 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           19
-[  Info  ]      unchanged shows inspected 99
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 118
 [  Info  ]      total after update        119
 [  Debug ] 
 [  Info  ] (  36/39  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       MTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           31
-[  Info  ]      unchanged shows inspected 202
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 233
 [  Info  ]      total after update        234
 [  Debug ] 
 [  Info  ] (  37/39  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VH1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           12
-[  Info  ]      unchanged shows inspected 84
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 96
 [  Info  ]      total after update        97
 [  Debug ] 
 [  Info  ] (  38/39  ) BNET.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode incremental
@@ -1262,16 +322,24 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] (  39/39  ) PORT.HR -- chan. (xmltv_id=N1) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/01/2016 14:00:00 stop = 24/01/2016 15:00:00 title = N1 Info
-[  Info  ]       Replaces ----- start = 24/01/2016 14:00:00 stop = 24/01/2016 14:05:00 title = N1 Info
-[  Info  ]       Replaces ----- start = 24/01/2016 14:05:00 stop = 24/01/2016 15:00:00 title = Pressing
+[  Info  ]       show with ---- start = 24/01/2016 14:00:00 stop = 24/01/2016 14:05:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 24/01/2016 14:00:00 stop = 24/01/2016 15:00:00 title = N1 Info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/01/2016 14:05:00 stop = 24/01/2016 15:00:00 title = Pressing
+[  Info  ]       Replaces ----- start = 24/01/2016 14:00:00 stop = 24/01/2016 15:00:00 title = N1 Info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/01/2016 16:00:00 stop = 24/01/2016 16:30:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 24/01/2016 16:00:00 stop = 24/01/2016 16:05:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 24/01/2016 16:05:00 stop = 24/01/2016 16:30:00 title = BIT TV weekly
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 8570 shows in 39 channels
-[  Debug ] 204 updated shows
-[  Debug ] 1219 new shows added
+[  Debug ] 6 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/01/2016 14:58:46 done in 6m 29s
+[        ] Job finished at 24/01/2016 16:07:41 done in 5m 16s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
