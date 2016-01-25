@@ -243,6 +243,15 @@ sed -i 's/>CROATIAN MUSIC CHANNEL</>C M C</g' guide-test.xml
 # N1
 sed -i 's/"N1">/"N 1">/g' guide-test.xml
 sed -i 's/>N1</>N 1</g' guide-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX HD">/g' guide-test.xml
+sed -i 's/>Fox TV</>FOX HD</g' guide-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska 2">/g' guide-test.xml
+sed -i 's/>Eska TV</>Eska 2</g' guide-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-test.xml
  <<EOF
 EOF
 }
