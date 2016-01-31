@@ -7,25 +7,25 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 31/01/2016 20:02:20
+[        ] Job started at 31/01/2016 20:12:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
-[  Debug ] found: /home/goran/samdecrypt/wg++/mojtv.hr.ini -- Revision 3
-[  Debug ] found: /home/goran/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 5
+[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/mojtv.hr.ini -- Revision 3
+[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 5
 [  Warn  ] Non-sequential revisions found:
 Rev. 11:[27/11/2014] - Jan van Straaten
         - reverted to the rev 7 url's. Changed timezone, new channel list, corrected small error in presenter, removed firstshow=now
 Rev. 07:[14/11/2013] - Francis De Paemeleere
-[  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
-[        ] Job finished at 31/01/2016 20:02:21 done in 0s
+[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/port.hr.ini -- Revision 12
+[        ] Job finished at 31/01/2016 20:12:03 done in 0s
 [Critical] Config syntax exception:
-[Critical]       file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
+[Critical]       file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
 [Critical]    message: 
 [  Error ] error in channel list of the config file!!
 [  Error ]      duplicate xmltv_id value -- Fox Life -- !!
@@ -40,5 +40,5 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Error ]     <channel update="i" site="mojtv.hr" site_id="87/vh1" xmltv_id="VH-1">VH-1</channel>
 [  Error ] duplicate xmltv-id entries will mess-up the xmltv output!
 [  Error ] ---- correct the channel-list to have unique xmltv-id values ---
-[Critical] For detailed info, see log file /home/goran/samdecrypt/wg++/WebGrab++.log.txt
+[Critical] For detailed info, see log file /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.log.txt
 [Critical] Execution stopped
