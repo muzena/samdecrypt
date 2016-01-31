@@ -439,9 +439,9 @@ function update_grabber()
 rm ./pharser/libEPG.config
 rm ./wg++/WebGrab++.config.xml
 #### EPG from Bnet
-#cp ./wg++/WebGrab++.config-bnet.xml ./wg++/WebGrab++.config.xml
+cp ./wg++/WebGrab++.config-bnet.xml ./wg++/WebGrab++.config.xml
 #### EPG from Mojtv
-cp ./wg++/WebGrab++.config-mojtv.xml ./wg++/WebGrab++.config.xml
+#cp ./wg++/WebGrab++.config-mojtv.xml ./wg++/WebGrab++.config.xml
 #### EPG from Port
 # cp ./wg++/WebGrab++.config-port.xml ./wg++/WebGrab++.config.xml
 cd wg++
@@ -449,8 +449,8 @@ mono WebGrab+Plus.exe "$(pwd)"
 wait $!
 cd ..
 ####### Fix channel names
-# fixchannelnames_bnet
-fixchannelnames_mojtv
+fixchannelnames_bnet
+# fixchannelnames_mojtv
 # fixchannelnames_port
 wait $!
 cp guide-test.xml ./pharser/guide.xml
