@@ -7,25 +7,25 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 02/02/2016 16:02:31
+[        ] Job started at 02/02/2016 17:00:56
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/Preuzimanja/samdecrypt/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
-[  Debug ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 0
+[  Debug ] found: /home/goran/Preuzimanja/samdecrypt/samdecrypt/wg++/bnet.hr.ini -- Revision 0
 [  Warn  ] Non-sequential revisions found:
 Rev. 11:[27/11/2014] - Jan van Straaten
         - reverted to the rev 7 url's. Changed timezone, new channel list, corrected small error in presenter, removed firstshow=now
 Rev. 07:[14/11/2013] - Francis De Paemeleere
-[  Debug ] found: /home/goran/samdecrypt/wg++/port.hr.ini -- Revision 12
-[  Debug ] found: /home/goran/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 5
-[  Debug ] found: /home/goran/samdecrypt/wg++/mojtv.hr.ini -- Revision 3
-[  Debug ] xmltv input file - ../guide.xml - found
+[  Debug ] found: /home/goran/Preuzimanja/samdecrypt/samdecrypt/wg++/port.hr.ini -- Revision 12
+[  Debug ] found: /home/goran/Preuzimanja/samdecrypt/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 5
+[  Debug ] found: /home/goran/Preuzimanja/samdecrypt/samdecrypt/wg++/mojtv.hr.ini -- Revision 3
+[  Debug ] xmltv input file - ../guide-main.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 54 - out of - 54 - channels for 11 day(s)
@@ -36,823 +36,40 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/54  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 06:36:00 stop = 03/02/2016 06:55:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 03/02/2016 06:37:00 stop = 03/02/2016 06:55:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 12:15:00 stop = 03/02/2016 12:19:00 title = Sport
-[  Info  ]       Replaces ----- start = 03/02/2016 12:15:00 stop = 03/02/2016 12:18:00 title = Sport
-[  Info  ]       Replaces ----- start = 03/02/2016 12:18:00 stop = 03/02/2016 12:22:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 12:19:00 stop = 03/02/2016 12:23:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 03/02/2016 12:18:00 stop = 03/02/2016 12:22:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 03/02/2016 12:22:00 stop = 03/02/2016 13:15:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 12:23:00 stop = 03/02/2016 13:14:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 12:22:00 stop = 03/02/2016 13:15:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 13:14:00 stop = 03/02/2016 14:00:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 12:22:00 stop = 03/02/2016 13:15:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 13:15:00 stop = 03/02/2016 14:00:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 17:32:00 stop = 03/02/2016 17:36:00 title = HAK - promet info
-[  Info  ]       Replaces ----- start = 03/02/2016 17:32:00 stop = 03/02/2016 17:37:00 title = HAK - promet info
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 17:36:00 stop = 03/02/2016 18:09:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 03/02/2016 17:32:00 stop = 03/02/2016 17:37:00 title = HAK - promet info
-[  Info  ]       Replaces ----- start = 03/02/2016 17:37:00 stop = 03/02/2016 18:10:00 title = Život je lijep
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 18:09:00 stop = 03/02/2016 19:00:00 title = Potjera
-[  Info  ]       Replaces ----- start = 03/02/2016 17:37:00 stop = 03/02/2016 18:10:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 03/02/2016 18:10:00 stop = 03/02/2016 19:00:00 title = Potjera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 20:02:00 stop = 03/02/2016 20:58:00 title = Glasovi promjene, dokumentarni film
-[  Info  ]       Replaces ----- start = 03/02/2016 20:02:00 stop = 03/02/2016 20:56:00 title = Glasovi promjene, dokumentarni film
-[  Info  ]       Replaces ----- start = 03/02/2016 20:56:00 stop = 03/02/2016 21:56:00 title = Kuća od karata (3), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 20:58:00 stop = 03/02/2016 21:57:00 title = Kuća od karata (3), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 20:56:00 stop = 03/02/2016 21:56:00 title = Kuća od karata (3), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 21:56:00 stop = 03/02/2016 22:45:00 title = Otvoreno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 21:57:00 stop = 03/02/2016 22:47:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 03/02/2016 21:56:00 stop = 03/02/2016 22:45:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 03/02/2016 22:45:00 stop = 03/02/2016 23:01:00 title = Dnevnik 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 22:47:00 stop = 03/02/2016 23:02:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 03/02/2016 22:45:00 stop = 03/02/2016 23:01:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 03/02/2016 23:01:00 stop = 03/02/2016 23:05:00 title = Sport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 23:02:00 stop = 03/02/2016 23:06:00 title = Sport
-[  Info  ]       Replaces ----- start = 03/02/2016 23:01:00 stop = 03/02/2016 23:05:00 title = Sport
-[  Info  ]       Replaces ----- start = 03/02/2016 23:05:00 stop = 03/02/2016 23:08:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 23:06:00 stop = 03/02/2016 23:10:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 03/02/2016 23:05:00 stop = 03/02/2016 23:08:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 03/02/2016 23:08:00 stop = 03/02/2016 23:52:00 title = Korzika, biser Mediterana: Zemlja uspomena, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 23:10:00 stop = 03/02/2016 23:56:00 title = Korzika, biser Mediterana: Zemlja uspomena, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 23:08:00 stop = 03/02/2016 23:52:00 title = Korzika, biser Mediterana: Zemlja uspomena, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 23:52:00 stop = 04/02/2016 00:43:00 title = Braquo (3), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 23:56:00 stop = 04/02/2016 00:47:00 title = Braquo (3), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 23:52:00 stop = 04/02/2016 00:43:00 title = Braquo (3), serija (12)
-[  Info  ]       Replaces ----- start = 04/02/2016 00:43:00 stop = 04/02/2016 01:24:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 00:47:00 stop = 04/02/2016 01:28:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 04/02/2016 00:43:00 stop = 04/02/2016 01:24:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 04/02/2016 01:24:00 stop = 04/02/2016 02:06:00 title = Hrvatska uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 01:28:00 stop = 04/02/2016 02:10:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 04/02/2016 01:24:00 stop = 04/02/2016 02:06:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 04/02/2016 02:06:00 stop = 04/02/2016 02:36:00 title = Život je lijep
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 02:10:00 stop = 04/02/2016 02:42:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 04/02/2016 02:06:00 stop = 04/02/2016 02:36:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 04/02/2016 02:36:00 stop = 04/02/2016 02:41:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 04/02/2016 02:41:00 stop = 04/02/2016 03:06:00 title = Vita jela, zelen bor
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 02:42:00 stop = 04/02/2016 02:59:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 04/02/2016 02:41:00 stop = 04/02/2016 03:06:00 title = Vita jela, zelen bor
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 02:59:00 stop = 04/02/2016 03:48:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 04/02/2016 02:41:00 stop = 04/02/2016 03:06:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 04/02/2016 03:06:00 stop = 04/02/2016 03:54:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 03:48:00 stop = 04/02/2016 05:46:00 title = -
-[  Info  ]       Replaces ----- start = 04/02/2016 03:06:00 stop = 04/02/2016 03:54:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 04/02/2016 03:54:00 stop = 04/02/2016 05:53:00 title = -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 05:46:00 stop = 04/02/2016 06:33:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 04/02/2016 03:54:00 stop = 04/02/2016 05:53:00 title = -
-[  Info  ]       Replaces ----- start = 04/02/2016 05:53:00 stop = 04/02/2016 06:38:00 title = Dnevnik 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 06:39:00 stop = 05/02/2016 06:55:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 05/02/2016 06:42:00 stop = 05/02/2016 06:52:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 07:00:00 stop = 05/02/2016 07:07:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 05/02/2016 07:00:00 stop = 05/02/2016 07:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 05/02/2016 07:05:00 stop = 05/02/2016 08:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 07:07:00 stop = 05/02/2016 08:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]       Replaces ----- start = 05/02/2016 07:05:00 stop = 05/02/2016 08:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 08:00:00 stop = 05/02/2016 08:07:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 05/02/2016 08:00:00 stop = 05/02/2016 08:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 05/02/2016 08:05:00 stop = 05/02/2016 09:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 08:07:00 stop = 05/02/2016 09:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]       Replaces ----- start = 05/02/2016 08:05:00 stop = 05/02/2016 09:00:00 title = Dobro jutro, Hrvatska
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 09:34:00 stop = 05/02/2016 10:30:00 title = Velika obitelj (2), serija (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 09:34:00 stop = 05/02/2016 10:25:00 title = Velika obitelj (2), serija (12) (50'50")
-[  Info  ]       Replaces ----- start = 05/02/2016 10:25:00 stop = 05/02/2016 11:13:00 title = Zemlje - ljudi - pustolovine (8): Martha's Vineyard - kamo predsjednici odlaze na odmor, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 10:30:00 stop = 05/02/2016 11:16:00 title = Zemlje - ljudi - pustolovine (8): Martha's Vineyard - kamo predsjednici odlaze na odmor, dokumentarna serija
-[  Info  ]       Replaces ----- start = 05/02/2016 10:25:00 stop = 05/02/2016 11:13:00 title = Zemlje - ljudi - pustolovine (8): Martha's Vineyard - kamo predsjednici odlaze na odmor, dokumentarna serija
-[  Info  ]       Replaces ----- start = 05/02/2016 11:15:00 stop = 05/02/2016 11:45:00 title = Riječ i život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 11:16:00 stop = 05/02/2016 11:47:00 title = Riječ i život: Vjera i ljudski mozak
-[  Info  ]       Replaces ----- start = 05/02/2016 11:15:00 stop = 05/02/2016 11:45:00 title = Riječ i život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 11:47:00 stop = 05/02/2016 12:00:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 05/02/2016 11:47:00 stop = 05/02/2016 11:57:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 12:15:00 stop = 05/02/2016 12:19:00 title = Sport
-[  Info  ]       Replaces ----- start = 05/02/2016 12:15:00 stop = 05/02/2016 12:18:00 title = Sport
-[  Info  ]       Replaces ----- start = 05/02/2016 12:18:00 stop = 05/02/2016 12:20:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 12:19:00 stop = 05/02/2016 12:24:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 05/02/2016 12:18:00 stop = 05/02/2016 12:20:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 05/02/2016 12:20:00 stop = 05/02/2016 13:10:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 12:24:00 stop = 05/02/2016 13:13:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 12:20:00 stop = 05/02/2016 13:10:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 13:13:00 stop = 05/02/2016 13:58:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 13:15:00 stop = 05/02/2016 14:00:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 13:58:00 stop = 05/02/2016 14:44:00 title = Normalan život
-[  Info  ]       Replaces ----- start = 05/02/2016 13:15:00 stop = 05/02/2016 14:00:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 14:00:00 stop = 05/02/2016 14:45:00 title = Normalan život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 15:36:00 stop = 05/02/2016 16:03:00 title = Kuća od karata (3), serija (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 15:10:00 stop = 05/02/2016 16:02:00 title = Kuća od karata (3), serija (12) (51'18")
-[  Info  ]       Replaces ----- start = 05/02/2016 16:02:00 stop = 05/02/2016 16:47:00 title = Najduži dan: Kuhar, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 16:03:00 stop = 05/02/2016 16:50:00 title = Najduži dan: Kuhar, dokumentarna serija
-[  Info  ]       Replaces ----- start = 05/02/2016 16:02:00 stop = 05/02/2016 16:47:00 title = Najduži dan: Kuhar, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 17:32:00 stop = 05/02/2016 17:37:00 title = HAK - promet info
-[  Info  ]       Replaces ----- start = 05/02/2016 17:32:00 stop = 05/02/2016 17:33:00 title = HAK - promet info
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 17:37:00 stop = 05/02/2016 18:11:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 05/02/2016 17:40:00 stop = 05/02/2016 18:10:00 title = Život je lijep
-[  Info  ]       Replaces ----- start = 05/02/2016 18:10:00 stop = 05/02/2016 18:25:00 title = Manjinski mozaik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 18:11:00 stop = 05/02/2016 18:29:00 title = Manjinski mozaik: Žene kosovske doline
-[  Info  ]       Replaces ----- start = 05/02/2016 18:10:00 stop = 05/02/2016 18:25:00 title = Manjinski mozaik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 18:29:00 stop = 05/02/2016 19:00:00 title = Potrošački kod
-[  Info  ]       Replaces ----- start = 05/02/2016 18:30:00 stop = 05/02/2016 18:59:00 title = Potrošački kod
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 19:00:00 stop = 05/02/2016 19:57:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 05/02/2016 19:00:00 stop = 05/02/2016 19:52:00 title = Dnevnik 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 19:57:00 stop = 05/02/2016 20:06:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 05/02/2016 19:57:00 stop = 05/02/2016 20:00:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 05/02/2016 20:05:00 stop = 05/02/2016 21:35:00 title = Odmetnice, francusko-meksičko-američki film (12) (89')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 20:06:00 stop = 05/02/2016 21:40:00 title = Odmetnice, francusko-meksičko-američki film (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 20:05:00 stop = 05/02/2016 21:35:00 title = Odmetnice, francusko-meksičko-američki film (12) (89')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 21:40:00 stop = 05/02/2016 22:26:00 title = Uvijek kontra, talk-show
-[  Info  ]       Replaces ----- start = 05/02/2016 21:40:00 stop = 05/02/2016 22:22:00 title = Uvijek kontra, talk-show
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:26:00 stop = 05/02/2016 22:41:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 05/02/2016 22:27:00 stop = 05/02/2016 22:42:00 title = Dnevnik 3
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:41:00 stop = 05/02/2016 22:45:00 title = Sport
-[  Info  ]       Replaces ----- start = 05/02/2016 22:27:00 stop = 05/02/2016 22:42:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 05/02/2016 22:43:00 stop = 05/02/2016 22:46:00 title = Sport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:45:00 stop = 05/02/2016 22:50:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 05/02/2016 22:43:00 stop = 05/02/2016 22:46:00 title = Sport
-[  Info  ]       Replaces ----- start = 05/02/2016 22:47:00 stop = 05/02/2016 22:49:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:59:00 stop = 05/02/2016 23:24:00 title = Opaki par (1), humoristična serija (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 23:05:00 stop = 05/02/2016 23:55:00 title = Opaki par, strana igrana serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 23:24:00 stop = 06/02/2016 00:52:00 title = Ja, Frankenstein - australsko-američki film (15)
-[  Info  ]       Replaces ----- start = 05/02/2016 23:05:00 stop = 05/02/2016 23:55:00 title = Opaki par, strana igrana serija (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 23:55:00 stop = 06/02/2016 01:25:00 title = I, Frankenstein - australsko-američki film (15) (oko 90')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 00:52:00 stop = 06/02/2016 01:33:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 05/02/2016 23:55:00 stop = 06/02/2016 01:25:00 title = I, Frankenstein - australsko-američki film (15) (oko 90')
-[  Info  ]       Replaces ----- start = 06/02/2016 01:30:00 stop = 06/02/2016 02:11:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 01:33:00 stop = 06/02/2016 02:16:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 06/02/2016 01:30:00 stop = 06/02/2016 02:11:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 06/02/2016 02:11:00 stop = 06/02/2016 02:53:00 title = Hrvatska uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 02:16:00 stop = 06/02/2016 02:41:00 title = Znanstveni krugovi
-[  Info  ]       Replaces ----- start = 06/02/2016 02:11:00 stop = 06/02/2016 02:53:00 title = Hrvatska uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 02:41:00 stop = 06/02/2016 02:56:00 title = Manjinski mozaik: Žene kosovske doline
-[  Info  ]       Replaces ----- start = 06/02/2016 02:11:00 stop = 06/02/2016 02:53:00 title = Hrvatska uživo
-[  Info  ]       Replaces ----- start = 06/02/2016 02:53:00 stop = 06/02/2016 03:04:00 title = Reprizni program
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 02:56:00 stop = 06/02/2016 03:01:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 06/02/2016 02:53:00 stop = 06/02/2016 03:04:00 title = Reprizni program
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 03:01:00 stop = 06/02/2016 03:31:00 title = Riječ i život: Vjera i ljudski mozak
-[  Info  ]       Replaces ----- start = 06/02/2016 02:53:00 stop = 06/02/2016 03:04:00 title = Reprizni program
-[  Info  ]       Replaces ----- start = 06/02/2016 03:04:00 stop = 06/02/2016 03:34:00 title = Riječ i život
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 03:31:00 stop = 06/02/2016 04:19:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 06/02/2016 03:04:00 stop = 06/02/2016 03:34:00 title = Riječ i život
-[  Info  ]       Replaces ----- start = 06/02/2016 03:34:00 stop = 06/02/2016 04:24:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 04:19:00 stop = 06/02/2016 06:02:00 title = Dnevnik čarobne frule, kanadski film
-[  Info  ]       Replaces ----- start = 06/02/2016 03:34:00 stop = 06/02/2016 04:24:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 06/02/2016 04:24:00 stop = 06/02/2016 06:08:00 title = Dnevnik čarobne frule, kanadski film (104')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 06:02:00 stop = 06/02/2016 06:54:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 06/02/2016 04:24:00 stop = 06/02/2016 06:08:00 title = Dnevnik čarobne frule, kanadski film (104')
-[  Info  ]       Replaces ----- start = 06/02/2016 06:08:00 stop = 06/02/2016 07:00:00 title = Dnevnik 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 07:12:00 stop = 06/02/2016 08:00:00 title = Klasika mundi: 40. samoborska glazbena jesen - Večer argentinske glazbe (1. dio) (47'48")
-[  Info  ]       Replaces ----- start = 06/02/2016 07:15:00 stop = 06/02/2016 08:03:00 title = Klasika mundi: 40. samoborska glazbena jesen - Večer argentinske glazbe (1. dio) (47'48")
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 08:02:00 stop = 06/02/2016 09:23:00 title = Pljačkaši, američki film - Kinoteka, ciklus klasičnog vesterna (81')
-[  Info  ]       Replaces ----- start = 06/02/2016 07:15:00 stop = 06/02/2016 08:03:00 title = Klasika mundi: 40. samoborska glazbena jesen - Večer argentinske glazbe (1. dio) (47'48")
-[  Info  ]       Replaces ----- start = 06/02/2016 08:05:00 stop = 06/02/2016 09:30:00 title = Pljačkaši, američki film - Kinoteka, ciklus klasičnog vesterna (81')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 09:25:00 stop = 06/02/2016 09:55:00 title = Duhovni izazovi
-[  Info  ]       Replaces ----- start = 06/02/2016 08:05:00 stop = 06/02/2016 09:30:00 title = Pljačkaši, američki film - Kinoteka, ciklus klasičnog vesterna (81')
-[  Info  ]       Replaces ----- start = 06/02/2016 09:30:00 stop = 06/02/2016 10:00:00 title = Duhovni izazovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 10:44:00 stop = 06/02/2016 10:59:00 title = Kulturna baština: Na Rokovu perivoju
-[  Info  ]       Replaces ----- start = 06/02/2016 10:00:00 stop = 06/02/2016 10:45:00 title = Prizma - multinacionalni magazin
-[  Info  ]       Replaces ----- start = 06/02/2016 10:45:00 stop = 06/02/2016 11:00:00 title = Kulturna baština
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 11:01:00 stop = 06/02/2016 11:43:00 title = Uvijek kontra, talk-show
-[  Info  ]       Replaces ----- start = 06/02/2016 11:00:00 stop = 06/02/2016 11:45:00 title = Uvijek kontra, talk-show
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 11:45:00 stop = 06/02/2016 11:55:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 06/02/2016 11:47:00 stop = 06/02/2016 11:57:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 01:25:00 stop = 07/02/2016 02:46:00 title = Pljačkaši, američki film - Kinoteka, ciklus klasičnog vesterna (81')
-[  Info  ]       Replaces ----- start = 07/02/2016 01:25:00 stop = 07/02/2016 02:50:00 title = Pljačkaši, američki film - Kinoteka, ciklus klasičnog vesterna (81')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 03:38:00 stop = 07/02/2016 04:28:00 title = Baltički križ, dokumentarni film
-[  Info  ]       Replaces ----- start = 07/02/2016 02:50:00 stop = 07/02/2016 03:42:00 title = Top Gear (20) (52'02")
-[  Info  ]       Replaces ----- start = 07/02/2016 03:42:00 stop = 07/02/2016 04:32:00 title = Baltički križ, dokumentarni film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 04:28:00 stop = 07/02/2016 04:43:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 07/02/2016 03:42:00 stop = 07/02/2016 04:32:00 title = Baltički križ, dokumentarni film
-[  Info  ]       Replaces ----- start = 07/02/2016 04:32:00 stop = 07/02/2016 04:43:00 title = Reprizni program
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 06:43:00 stop = 07/02/2016 07:10:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 07/02/2016 06:43:00 stop = 07/02/2016 07:12:00 title = Dnevnik 2
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 07:10:00 stop = 07/02/2016 07:20:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 07/02/2016 06:43:00 stop = 07/02/2016 07:12:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 07/02/2016 07:12:00 stop = 07/02/2016 07:22:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 15:05:00 stop = 07/02/2016 15:47:00 title = Labirint
-[  Info  ]       Replaces ----- start = 07/02/2016 15:05:00 stop = 07/02/2016 15:50:00 title = Labirint
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 20:05:00 stop = 07/02/2016 20:55:00 title = Patrola na cesti, dramska serija
-[  Info  ]       Replaces ----- start = 07/02/2016 20:05:00 stop = 07/02/2016 20:50:00 title = Patrola na cesti, dramska serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 21:00:00 stop = 07/02/2016 22:19:00 title = Gangster te voli, dokumentarni film (78'37")
-[  Info  ]       Replaces ----- start = 07/02/2016 20:55:00 stop = 07/02/2016 22:14:00 title = Gangster te voli, dokumentarni film (78'37")
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 22:24:00 stop = 07/02/2016 23:04:00 title = Samo kulturno, molim
-[  Info  ]       Replaces ----- start = 07/02/2016 22:20:00 stop = 07/02/2016 22:32:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 07/02/2016 22:33:00 stop = 07/02/2016 22:36:00 title = Sport
-[  Info  ]       Replaces ----- start = 07/02/2016 22:37:00 stop = 07/02/2016 22:39:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 07/02/2016 22:44:00 stop = 07/02/2016 23:24:00 title = Samo kulturno, molim
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 23:10:00 stop = 07/02/2016 23:22:00 title = Dnevnik 3
-[  Info  ]       Replaces ----- start = 07/02/2016 22:44:00 stop = 07/02/2016 23:24:00 title = Samo kulturno, molim
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 23:22:00 stop = 07/02/2016 23:25:00 title = Sport
-[  Info  ]       Replaces ----- start = 07/02/2016 22:44:00 stop = 07/02/2016 23:24:00 title = Samo kulturno, molim
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 07/02/2016 23:27:00 stop = 07/02/2016 23:29:00 title = Vrijeme
-[  Info  ]       Added before - start = 07/02/2016 23:30:00 stop = 08/02/2016 00:30:00 title = Poldark, serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 23:35:00 stop = 08/02/2016 00:35:00 title = Poldark, serija (12)
-[  Info  ]       Replaces ----- start = 07/02/2016 23:30:00 stop = 08/02/2016 00:30:00 title = Poldark, serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 00:40:00 stop = 08/02/2016 01:40:00 title = Nedjeljom u dva
-[  Info  ]       Replaces ----- start = 08/02/2016 00:35:00 stop = 08/02/2016 01:35:00 title = Nedjeljom u dva
-[  Info  ]       Replaces ----- start = 08/02/2016 01:35:00 stop = 08/02/2016 02:10:00 title = Ekonomija &td
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 02:17:00 stop = 08/02/2016 03:37:00 title = Viskija napretek, britanski film - Zlatna kinoteka
-[  Info  ]       Replaces ----- start = 08/02/2016 02:10:00 stop = 08/02/2016 03:30:00 title = Viskija napretek, britanski film - Zlatna kinoteka
-[  Info  ]       Replaces ----- start = 08/02/2016 03:30:00 stop = 08/02/2016 03:38:00 title = Reprizni program
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 03:37:00 stop = 08/02/2016 03:38:00 title = Skica za portret
-[  Info  ]       Replaces ----- start = 08/02/2016 03:30:00 stop = 08/02/2016 03:38:00 title = Reprizni program
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 06:40:00 stop = 08/02/2016 06:50:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 08/02/2016 06:42:00 stop = 08/02/2016 06:52:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 09:05:00 stop = 08/02/2016 09:26:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 08/02/2016 09:05:00 stop = 08/02/2016 09:23:00 title = Vita jela, zelen bor
-[  Info  ]       Replaces ----- start = 08/02/2016 09:24:00 stop = 08/02/2016 10:20:00 title = Velika obitelj (2), serija (12) (55'54")
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 09:26:00 stop = 08/02/2016 10:22:00 title = Velika obitelj (2), serija (12) (55'54")
-[  Info  ]       Replaces ----- start = 08/02/2016 09:24:00 stop = 08/02/2016 10:20:00 title = Velika obitelj (2), serija (12) (55'54")
-[  Info  ]       Replaces ----- start = 08/02/2016 10:20:00 stop = 08/02/2016 11:10:00 title = Plodovi zemlje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 10:22:00 stop = 08/02/2016 11:12:00 title = Plodovi zemlje
-[  Info  ]       Replaces ----- start = 08/02/2016 10:20:00 stop = 08/02/2016 11:10:00 title = Plodovi zemlje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 11:14:00 stop = 08/02/2016 11:44:00 title = Treća dob
-[  Info  ]       Replaces ----- start = 08/02/2016 11:15:00 stop = 08/02/2016 11:45:00 title = Treća dob
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 11:44:00 stop = 08/02/2016 11:54:00 title = TV kalendar
-[  Info  ]       Replaces ----- start = 08/02/2016 11:15:00 stop = 08/02/2016 11:45:00 title = Treća dob
-[  Info  ]       Replaces ----- start = 08/02/2016 11:47:00 stop = 08/02/2016 11:57:00 title = TV kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 12:22:00 stop = 08/02/2016 13:12:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]       Replaces ----- start = 08/02/2016 12:20:00 stop = 08/02/2016 13:10:00 title = Dragocjeni biser, telenovela (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 13:17:00 stop = 08/02/2016 13:58:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]       Replaces ----- start = 08/02/2016 13:15:00 stop = 08/02/2016 14:00:00 title = Kod doktora (7), talk-show (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 20:50:00 stop = 08/02/2016 21:38:00 title = Kuća od karata (3), serija (12) (46'02")
-[  Info  ]       Replaces ----- start = 08/02/2016 20:51:00 stop = 08/02/2016 21:39:00 title = Kuća od karata (3), serija (12) (46'02")
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 21:44:00 stop = 08/02/2016 22:29:00 title = Otvoreno
-[  Info  ]       Replaces ----- start = 08/02/2016 21:45:00 stop = 08/02/2016 22:30:00 title = Otvoreno
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 22:50:00 stop = 08/02/2016 22:53:00 title = Sport
-[  Info  ]       Replaces ----- start = 08/02/2016 22:52:00 stop = 08/02/2016 22:55:00 title = Sport
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/02/2016 22:55:00 stop = 08/02/2016 22:57:00 title = Vrijeme
-[  Info  ]       Added before - start = 08/02/2016 22:57:00 stop = 08/02/2016 22:59:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 22:58:00 stop = 08/02/2016 23:48:00 title = Zemlje - ljudi - pustolovine (8): 13 000 kilometara do Aljaske...s Klausom Schererom po američkom sjeveru - Iz Mainea u Sjevernu Dakotu, dokumentarna serija
-[  Info  ]       Replaces ----- start = 08/02/2016 22:57:00 stop = 08/02/2016 22:59:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 08/02/2016 23:00:00 stop = 08/02/2016 23:50:00 title = Zemlje - ljudi - pustolovine (8): 13 000 kilometara do Aljaske...s Klausom Schererom po američkom sjeveru - Iz Mainea u Sjevernu Dakotu, dokumentarna serija
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
-[  Info  ]      missing shows added       2
-[  Info  ]      changed shows updated     104
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 188
-[  Info  ]      total after update        295
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 294
+[  Info  ]      total after update        294
 [  Debug ] 
 [  Info  ] (   2/54  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 09:45:00 stop = 03/02/2016 09:52:00 title = Nestašne životinje, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 09:45:00 stop = 03/02/2016 09:51:00 title = Nestašne životinje, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 09:51:00 stop = 03/02/2016 10:33:00 title = Odmori se zaslužio si (2), humoristična serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 09:52:00 stop = 03/02/2016 10:33:00 title = Odmori se zaslužio si (2), humoristična serija
-[  Info  ]       Replaces ----- start = 03/02/2016 09:51:00 stop = 03/02/2016 10:33:00 title = Odmori se zaslužio si (2), humoristična serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 10:33:00 stop = 03/02/2016 11:25:00 title = Kruške i jabuke
-[  Info  ]       Replaces ----- start = 03/02/2016 10:33:00 stop = 03/02/2016 11:24:00 title = Kruške i jabuke
-[  Info  ]       Replaces ----- start = 03/02/2016 11:24:00 stop = 03/02/2016 12:18:00 title = Čarolija (3), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 11:25:00 stop = 03/02/2016 12:18:00 title = Čarolija (3), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 11:24:00 stop = 03/02/2016 12:18:00 title = Čarolija (3), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 12:18:00 stop = 03/02/2016 12:47:00 title = Svečanost na stolu (2)
-[  Info  ]       Replaces ----- start = 03/02/2016 12:18:00 stop = 03/02/2016 12:46:00 title = Svečanost na stolu (2)
-[  Info  ]       Replaces ----- start = 03/02/2016 12:46:00 stop = 03/02/2016 13:42:00 title = Memoari Sherlocka Holmesa, serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 13:42:00 stop = 03/02/2016 15:10:00 title = Magarac na meniju, njemački film (89')
-[  Info  ]       Replaces ----- start = 03/02/2016 13:42:00 stop = 03/02/2016 15:11:00 title = Magarac na meniju, njemački film (89')
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 15:10:00 stop = 03/02/2016 16:00:00 title = Pokaži mi svoj vrt
-[  Info  ]       Replaces ----- start = 03/02/2016 13:42:00 stop = 03/02/2016 15:11:00 title = Magarac na meniju, njemački film (89')
-[  Info  ]       Replaces ----- start = 03/02/2016 15:11:00 stop = 03/02/2016 16:00:00 title = Pokaži mi svoj vrt
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 16:43:00 stop = 03/02/2016 17:12:00 title = Odbrojavanje do Rija, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 16:43:00 stop = 03/02/2016 17:11:00 title = Odbrojavanje do Rija, dokumentarna serija
-[  Info  ]       Replaces ----- start = 03/02/2016 17:11:00 stop = 03/02/2016 17:49:00 title = Stipe u gostima (6), humoristična serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 17:12:00 stop = 03/02/2016 17:50:00 title = Stipe u gostima (6), humoristična serija
-[  Info  ]       Replaces ----- start = 03/02/2016 17:11:00 stop = 03/02/2016 17:49:00 title = Stipe u gostima (6), humoristična serija
-[  Info  ]       Replaces ----- start = 03/02/2016 17:49:00 stop = 03/02/2016 18:44:00 title = Kruške i jabuke
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 17:50:00 stop = 03/02/2016 18:46:00 title = Kruške i jabuke
-[  Info  ]       Replaces ----- start = 03/02/2016 17:49:00 stop = 03/02/2016 18:44:00 title = Kruške i jabuke
-[  Info  ]       Replaces ----- start = 03/02/2016 18:44:00 stop = 03/02/2016 19:23:00 title = Odmori se zaslužio si (2), humoristična serija (35'50")
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 18:46:00 stop = 03/02/2016 19:26:00 title = Odmori se zaslužio si (2), humoristična serija (35'50")
-[  Info  ]       Replaces ----- start = 03/02/2016 18:44:00 stop = 03/02/2016 19:23:00 title = Odmori se zaslužio si (2), humoristična serija (35'50")
-[  Info  ]       Replaces ----- start = 03/02/2016 19:23:00 stop = 03/02/2016 20:00:00 title = Provodi i sprovodi, humoristična serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 20:02:00 stop = 03/02/2016 20:56:00 title = Treća dob za računalom, dokumentarni film
-[  Info  ]       Replaces ----- start = 03/02/2016 20:00:00 stop = 03/02/2016 20:53:00 title = Treća dob za računalom, dokumentarni film
-[  Info  ]       Replaces ----- start = 03/02/2016 20:53:00 stop = 03/02/2016 21:01:00 title = Vrijeme na Drugom
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 20:56:00 stop = 03/02/2016 21:05:00 title = Vrijeme na Drugom
-[  Info  ]       Replaces ----- start = 03/02/2016 20:53:00 stop = 03/02/2016 21:01:00 title = Vrijeme na Drugom
-[  Info  ]       Replaces ----- start = 03/02/2016 21:01:00 stop = 03/02/2016 23:00:00 title = -
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 21:05:00 stop = 03/02/2016 23:05:00 title = -
-[  Info  ]       Replaces ----- start = 03/02/2016 21:01:00 stop = 03/02/2016 23:00:00 title = -
-[  Info  ]       Replaces ----- start = 03/02/2016 23:00:00 stop = 03/02/2016 23:49:00 title = Zakon i red: UK (5), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 23:05:00 stop = 03/02/2016 23:54:00 title = Zakon i red: UK (5), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 23:00:00 stop = 03/02/2016 23:49:00 title = Zakon i red: UK (5), serija (12)
-[  Info  ]       Replaces ----- start = 03/02/2016 23:49:00 stop = 04/02/2016 00:32:00 title = Zločinački umovi (9), serija (12)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 00:39:00 stop = 04/02/2016 02:07:00 title = Magarac na meniju, njemački film
-[  Info  ]       Replaces ----- start = 04/02/2016 00:32:00 stop = 04/02/2016 02:01:00 title = Magarac na meniju, njemački film
-[  Info  ]       Replaces ----- start = 04/02/2016 02:01:00 stop = 04/02/2016 02:24:00 title = Odbrojavanje do Rija, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 02:07:00 stop = 04/02/2016 02:31:00 title = Odbrojavanje do Rija, dokumentarna serija
-[  Info  ]       Replaces ----- start = 04/02/2016 02:01:00 stop = 04/02/2016 02:24:00 title = Odbrojavanje do Rija, dokumentarna serija
-[  Info  ]       Replaces ----- start = 04/02/2016 02:24:00 stop = 04/02/2016 05:54:00 title = Noćni glazbeni program - Spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 04/02/2016 02:31:00 stop = 04/02/2016 05:54:00 title = Noćni glazbeni program - Spotovi
-[  Info  ]       Replaces ----- start = 04/02/2016 02:24:00 stop = 04/02/2016 05:54:00 title = Noćni glazbeni program - Spotovi
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     21
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 365
-[  Info  ]      total after update        387
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 386
+[  Info  ]      total after update        386
 [  Debug ] 
 [  Info  ] (   3/54  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 06:14:00 stop = 05/02/2016 07:00:00 title = Srdačno vaši: Petar
-[  Info  ]       Replaces ----- start = 05/02/2016 06:15:00 stop = 05/02/2016 07:00:00 title = Srdačno vaši: Petar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 07:00:00 stop = 05/02/2016 07:49:00 title = Bonanza (9), serija
-[  Info  ]       Replaces ----- start = 05/02/2016 07:00:00 stop = 05/02/2016 07:50:00 title = Bonanza (9), serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 08:50:00 stop = 05/02/2016 10:05:00 title = Upoznajući bijeli svijet, ruski film
-[  Info  ]       Replaces ----- start = 05/02/2016 08:50:00 stop = 05/02/2016 10:10:00 title = Upoznajući bijeli svijet, ruski film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 10:05:00 stop = 05/02/2016 10:34:00 title = Toga dana u godini, emisija pučke i predajne kulture (2. dio)
-[  Info  ]       Replaces ----- start = 05/02/2016 08:50:00 stop = 05/02/2016 10:10:00 title = Upoznajući bijeli svijet, ruski film
-[  Info  ]       Replaces ----- start = 05/02/2016 10:10:00 stop = 05/02/2016 10:40:00 title = Toga dana u godini, emisija pučke i predajne kulture (2. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 10:34:00 stop = 05/02/2016 11:05:00 title = Trikultura
-[  Info  ]       Replaces ----- start = 05/02/2016 10:10:00 stop = 05/02/2016 10:40:00 title = Toga dana u godini, emisija pučke i predajne kulture (2. dio)
-[  Info  ]       Replaces ----- start = 05/02/2016 10:40:00 stop = 05/02/2016 11:10:00 title = Trikultura
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 11:14:00 stop = 05/02/2016 12:00:00 title = Treći element: Doping
-[  Info  ]       Replaces ----- start = 05/02/2016 11:10:00 stop = 05/02/2016 11:20:00 title = Knjiga ili život
-[  Info  ]       Replaces ----- start = 05/02/2016 11:20:00 stop = 05/02/2016 12:05:00 title = Treći element
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 12:00:00 stop = 05/02/2016 12:15:00 title = Skica za portret: Siniša Majkus
-[  Info  ]       Replaces ----- start = 05/02/2016 11:20:00 stop = 05/02/2016 12:05:00 title = Treći element
-[  Info  ]       Replaces ----- start = 05/02/2016 12:05:00 stop = 05/02/2016 12:15:00 title = Skica za portret: Siniša Majkus
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 12:15:00 stop = 05/02/2016 13:14:00 title = Vrijeme je za jazz: In memoriam dr. Clare Fischer (1928. - 2012.)
-[  Info  ]       Replaces ----- start = 05/02/2016 12:15:00 stop = 05/02/2016 13:15:00 title = Vrijeme je za jazz: In memoriam dr. Clare Fischer (1928. - 2012.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 13:14:00 stop = 05/02/2016 13:59:00 title = Srdačno vaši: Edo Murtić (1989.)
-[  Info  ]       Replaces ----- start = 05/02/2016 12:15:00 stop = 05/02/2016 13:15:00 title = Vrijeme je za jazz: In memoriam dr. Clare Fischer (1928. - 2012.)
-[  Info  ]       Replaces ----- start = 05/02/2016 13:15:00 stop = 05/02/2016 14:00:00 title = Srdačno vaši: Edo Murtić (1989.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 13:59:00 stop = 05/02/2016 14:59:00 title = Mućke (5B): Žapčevo bogatstvo, humoristična serija
-[  Info  ]       Replaces ----- start = 05/02/2016 13:15:00 stop = 05/02/2016 14:00:00 title = Srdačno vaši: Edo Murtić (1989.)
-[  Info  ]       Replaces ----- start = 05/02/2016 14:00:00 stop = 05/02/2016 15:00:00 title = Mućke (5B): Žapčevo bogatstvo, humoristična serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 15:29:00 stop = 05/02/2016 17:00:00 title = Bijeda, sovjetski film
-[  Info  ]       Replaces ----- start = 05/02/2016 15:00:00 stop = 05/02/2016 15:30:00 title = Priče iz divljine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 05/02/2016 15:30:00 stop = 05/02/2016 17:00:00 title = Bijeda, sovjetski film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 18:50:00 stop = 05/02/2016 19:47:00 title = Nina Badrić "Ljubav za ljubav" - Dom sportova, 14.02.2005. (1. dio)
-[  Info  ]       Replaces ----- start = 05/02/2016 18:50:00 stop = 05/02/2016 19:50:00 title = Nina Badrić "Ljubav za ljubav" - Dom sportova, 14.02.2005. (1. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 20:55:00 stop = 05/02/2016 21:04:00 title = Prekid programa zbog čitanja: Aida Bagić - Znam li ja gdje živim
-[  Info  ]       Replaces ----- start = 05/02/2016 20:55:00 stop = 05/02/2016 21:05:00 title = Prekid programa zbog čitanja:
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 21:04:00 stop = 05/02/2016 22:04:00 title = Peti dan
-[  Info  ]       Replaces ----- start = 05/02/2016 20:55:00 stop = 05/02/2016 21:05:00 title = Prekid programa zbog čitanja:
-[  Info  ]       Replaces ----- start = 05/02/2016 21:05:00 stop = 05/02/2016 22:05:00 title = Peti dan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:04:00 stop = 05/02/2016 22:16:00 title = Carpe diem - 30 životnih lekcija: Josip Braco Pil - Partija karata koja mijenja život (25/30)
-[  Info  ]       Replaces ----- start = 05/02/2016 21:05:00 stop = 05/02/2016 22:05:00 title = Peti dan
-[  Info  ]       Replaces ----- start = 05/02/2016 22:05:00 stop = 05/02/2016 22:15:00 title = Carpe diem - 30 životnih lekcija: (25/30)
-[  Info  ]       Replaces ----- start = 05/02/2016 22:15:00 stop = 05/02/2016 23:55:00 title = Tom na farmi, kanadsko-francuski film (12) - Ciklus Kino Milenij: Xavier Dolan
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 01:56:00 stop = 06/02/2016 02:53:00 title = Nina Badrić "Ljubav za ljubav" - Dom sportova, 14.02.2005. (1. dio)
-[  Info  ]       Replaces ----- start = 06/02/2016 01:55:00 stop = 06/02/2016 02:55:00 title = Nina Badrić "Ljubav za ljubav" - Dom sportova, 14.02.2005. (1. dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 22:00:00 stop = 06/02/2016 23:40:00 title = Mjesta na bini, molim, američki film - Filmski boutique
-[  Info  ]       Replaces ----- start = 06/02/2016 22:00:00 stop = 06/02/2016 23:40:00 title = strani igrani film - Filmski boutique
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 06:50:00 stop = 08/02/2016 08:25:00 title = Huckleberry Finn, sovjetski film
-[  Info  ]       Replaces ----- start = 08/02/2016 07:00:00 stop = 08/02/2016 08:40:00 title = The Stooge, američki film
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 08:25:00 stop = 08/02/2016 08:55:00 title = Opera box
-[  Info  ]       Replaces ----- start = 08/02/2016 07:00:00 stop = 08/02/2016 08:40:00 title = The Stooge, američki film
-[  Info  ]       Replaces ----- start = 08/02/2016 08:40:00 stop = 08/02/2016 09:10:00 title = Opera box
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 08:55:00 stop = 08/02/2016 10:30:00 title = Antologija Dramskog programa: Roko i Cicibela - drama (1978.)
-[  Info  ]       Replaces ----- start = 08/02/2016 08:40:00 stop = 08/02/2016 09:10:00 title = Opera box
-[  Info  ]       Replaces ----- start = 08/02/2016 09:10:00 stop = 08/02/2016 10:45:00 title = Antologija Dramskog programa: Roko i Cicibela - drama (1978.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 10:30:00 stop = 08/02/2016 11:20:00 title = Treća povijest: Raspad SSSR-a
-[  Info  ]       Replaces ----- start = 08/02/2016 09:10:00 stop = 08/02/2016 10:45:00 title = Antologija Dramskog programa: Roko i Cicibela - drama (1978.)
-[  Info  ]       Replaces ----- start = 08/02/2016 10:45:00 stop = 08/02/2016 11:35:00 title = Treća povijest: Raspad SSSR-a
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 11:40:00 stop = 08/02/2016 13:25:00 title = Pavle Dešpalj i David Grigorjan uz SO HRT-a V. Lisinski, 24.04.2008.
-[  Info  ]       Replaces ----- start = 08/02/2016 11:35:00 stop = 08/02/2016 11:55:00 title = -
-[  Info  ]       Replaces ----- start = 08/02/2016 11:55:00 stop = 08/02/2016 13:15:00 title = Koncert klasične glazbe
-[  Info  ]       Replaces ----- start = 08/02/2016 13:15:00 stop = 08/02/2016 14:00:00 title = Srdačno vaši: Ivan Sabolić (1985.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 14:10:00 stop = 08/02/2016 15:30:00 title = Mućke (5B) - božični specijal: Spojevi, humoristična serija
-[  Info  ]       Replaces ----- start = 08/02/2016 14:00:00 stop = 08/02/2016 15:20:00 title = Mućke (5B) - božični specijal: Spojevi, humoristična serija
-[  Info  ]       Replaces ----- start = 08/02/2016 15:20:00 stop = 08/02/2016 15:50:00 title = Priče iz divljine, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 15:30:00 stop = 08/02/2016 16:00:00 title = Priče iz divljine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 08/02/2016 15:20:00 stop = 08/02/2016 15:50:00 title = Priče iz divljine, dokumentarna serija
-[  Info  ]       Replaces ----- start = 08/02/2016 15:50:00 stop = 08/02/2016 17:20:00 title = U sjeni vješala, američki film - Ciklus klasičnog vesterna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/02/2016 17:30:00 stop = 08/02/2016 18:00:00 title = Bernie Ecclestone - Formula 1 i milijarde u poreznim rajevima, dokumentarni film
-[  Info  ]       Replaces ----- start = 08/02/2016 17:20:00 stop = 08/02/2016 18:00:00 title = Dokumentarni film - strani
 [  Debug ]    skipped show without a title at 08/02/2016 18:50:00
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/54  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 12:30:00 stop = 02/02/2016 12:56:00 title = Kroz tvoje oči (2), strana dokumentarna serija
-[  Info  ]       Replaces ----- start = 02/02/2016 12:30:00 stop = 02/02/2016 13:00:00 title = Kroz tvoje oči (2), strana dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 12:56:00 stop = 02/02/2016 13:00:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 02/02/2016 12:30:00 stop = 02/02/2016 13:00:00 title = Kroz tvoje oči (2), strana dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 16:50:00 stop = 02/02/2016 16:56:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 02/02/2016 16:50:00 stop = 02/02/2016 16:55:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 02/02/2016 16:55:00 stop = 02/02/2016 17:00:00 title = Poslovne vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 16:56:00 stop = 02/02/2016 17:00:00 title = Poslovne vijesti
-[  Info  ]       Replaces ----- start = 02/02/2016 16:55:00 stop = 02/02/2016 17:00:00 title = Poslovne vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 20:00:00 stop = 02/02/2016 21:18:00 title = Ponos Hrvatske, snimka
-[  Info  ]       Replaces ----- start = 02/02/2016 20:00:00 stop = 02/02/2016 21:20:00 title = Ponos Hrvatske, snimka
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 21:18:00 stop = 02/02/2016 21:20:00 title = bez komentara
-[  Info  ]       Replaces ----- start = 02/02/2016 20:00:00 stop = 02/02/2016 21:20:00 title = Ponos Hrvatske, snimka
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 22:00:00 stop = 02/02/2016 22:08:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 02/02/2016 22:00:00 stop = 02/02/2016 22:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 22:08:00 stop = 02/02/2016 23:00:00 title = Pogled na Zemlju (5): Norveška, strana dokumentarna serija
-[  Info  ]       Replaces ----- start = 02/02/2016 22:00:00 stop = 02/02/2016 22:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 02/02/2016 22:10:00 stop = 02/02/2016 23:00:00 title = Pogled na Zemlju (5): Norveška, strana dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 23:05:00 stop = 02/02/2016 23:12:00 title = Vijesti iz kulture
-[  Info  ]       Replaces ----- start = 02/02/2016 23:05:00 stop = 02/02/2016 23:15:00 title = Vijesti iz kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 23:12:00 stop = 02/02/2016 23:15:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 02/02/2016 23:05:00 stop = 02/02/2016 23:15:00 title = Vijesti iz kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 15:30:00 stop = 05/02/2016 16:00:00 title = DW: Global 3000
-[  Info  ]       Replaces ----- start = 05/02/2016 15:30:00 stop = 05/02/2016 16:00:00 title = Alpe Dunav Jadran
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 20:50:00 stop = 05/02/2016 20:55:00 title = Sada o nekada
-[  Info  ]       Replaces ----- start = 05/02/2016 20:50:00 stop = 05/02/2016 21:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 20:55:00 stop = 05/02/2016 21:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 05/02/2016 20:50:00 stop = 05/02/2016 21:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 05/02/2016 22:40:00 stop = 06/02/2016 00:55:00 title = Noć velikih borbi, prijenos ili snimka (15)
-[  Info  ]       Replaces ----- start = 05/02/2016 22:40:00 stop = 06/02/2016 00:10:00 title = Noć velikih borbi, prijenos (15)
-[  Info  ]       Replaces ----- start = 06/02/2016 00:10:00 stop = 06/02/2016 00:20:00 title = Vijesti iz kulture
-[  Info  ]       Replaces ----- start = 06/02/2016 00:20:00 stop = 06/02/2016 01:00:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 00:55:00 stop = 06/02/2016 01:00:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 06/02/2016 00:20:00 stop = 06/02/2016 01:00:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 01:00:00 stop = 06/02/2016 01:07:00 title = Vijesti iz kulture
-[  Info  ]       Replaces ----- start = 06/02/2016 01:00:00 stop = 06/02/2016 01:05:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 06/02/2016 01:05:00 stop = 06/02/2016 01:35:00 title = DW: U dobroj formi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 01:07:00 stop = 06/02/2016 01:35:00 title = DW: U dobroj formi
-[  Info  ]       Replaces ----- start = 06/02/2016 01:05:00 stop = 06/02/2016 01:35:00 title = DW: U dobroj formi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 01:35:00 stop = 06/02/2016 02:03:00 title = Govornica
-[  Info  ]       Replaces ----- start = 06/02/2016 01:35:00 stop = 06/02/2016 02:00:00 title = Govornica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 07:09:00 stop = 06/02/2016 07:10:00 title = Vrijeme EU - danas
-[  Info  ]       Replaces ----- start = 06/02/2016 07:09:00 stop = 06/02/2016 07:10:00 title = Vrijeme Europa - danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 09:05:00 stop = 06/02/2016 09:30:00 title = Govornica tjedna
-[  Info  ]       Replaces ----- start = 06/02/2016 09:05:00 stop = 06/02/2016 09:06:00 title = Vrijeme RH - danas
-[  Info  ]       Replaces ----- start = 06/02/2016 09:06:00 stop = 06/02/2016 09:31:00 title = Govornica tjedna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 09:30:00 stop = 06/02/2016 10:00:00 title = DW: Sutrašnjica danas
-[  Info  ]       Replaces ----- start = 06/02/2016 09:06:00 stop = 06/02/2016 09:31:00 title = Govornica tjedna
-[  Info  ]       Replaces ----- start = 06/02/2016 09:31:00 stop = 06/02/2016 10:00:00 title = DW: Sutrašnjica danas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 12:30:00 stop = 06/02/2016 13:00:00 title = Toga dana u godini (2. dio) - emisija pučke i predajne kulture
-[  Info  ]       Replaces ----- start = 06/02/2016 12:30:00 stop = 06/02/2016 13:00:00 title = emisija pučke i predajne kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 14:15:00 stop = 06/02/2016 14:30:00 title = TV student
-[  Info  ]       Replaces ----- start = 06/02/2016 14:15:00 stop = 06/02/2016 14:30:00 title = Iz naše arhive
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 14:30:00 stop = 06/02/2016 14:35:00 title = Reportaža
-[  Info  ]       Replaces ----- start = 06/02/2016 14:30:00 stop = 06/02/2016 15:00:00 title = Intervju tjedna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 14:35:00 stop = 06/02/2016 15:00:00 title = Intervju tjedna
-[  Info  ]       Replaces ----- start = 06/02/2016 14:30:00 stop = 06/02/2016 15:00:00 title = Intervju tjedna
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 15:30:00 stop = 06/02/2016 16:00:00 title = Toga dana u godini (2. dio) - emisija pučke i predajne kulture
-[  Info  ]       Replaces ----- start = 06/02/2016 15:30:00 stop = 06/02/2016 16:00:00 title = emisija pučke i predajne kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 18:10:00 stop = 06/02/2016 19:00:00 title = Košarka, PH: Alkar - Zagreb, prijenos
-[  Info  ]       Replaces ----- start = 06/02/2016 18:10:00 stop = 06/02/2016 18:55:00 title = Košarka, PH: Alkar - Zagreb, prijenos
-[  Info  ]       Replaces ----- start = 06/02/2016 18:55:00 stop = 06/02/2016 18:56:00 title = Vrijeme RH - sutra
-[  Info  ]       Replaces ----- start = 06/02/2016 18:56:00 stop = 06/02/2016 18:59:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 06/02/2016 18:59:00 stop = 06/02/2016 19:00:00 title = Vrijeme svijet - sutra
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 22:50:00 stop = 06/02/2016 23:00:00 title = Reportaže
-[  Info  ]       Replaces ----- start = 06/02/2016 22:40:00 stop = 06/02/2016 22:55:00 title = Manjinski mozaik
-[  Info  ]       Replaces ----- start = 06/02/2016 22:55:00 stop = 06/02/2016 23:00:00 title = Reportaža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 23:05:00 stop = 06/02/2016 23:12:00 title = Vijesti iz kulture
-[  Info  ]       Replaces ----- start = 06/02/2016 23:05:00 stop = 06/02/2016 23:15:00 title = Vijesti iz kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 06/02/2016 23:12:00 stop = 06/02/2016 23:15:00 title = Bez komentara
-[  Info  ]       Replaces ----- start = 06/02/2016 23:05:00 stop = 06/02/2016 23:15:00 title = Vijesti iz kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/02/2016 01:35:00 stop = 07/02/2016 02:03:00 title = Govornica tjedna
-[  Info  ]       Replaces ----- start = 07/02/2016 01:35:00 stop = 07/02/2016 02:00:00 title = Govornica tjedna
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     33
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 601
-[  Info  ]      total after update        635
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 634
+[  Info  ]      total after update        634
 [  Debug ] 
 [  Info  ] (   5/54  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       NOVA TV
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 185
-[  Info  ]      total after update        186
+[  Info  ]      total after update        185
 [  Debug ] 
 [  Info  ] (   6/54  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode incremental
 [  Debug ]    skipped 
@@ -867,7 +84,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       DOMA TV
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 207
-[  Info  ]      total after update        208
+[  Info  ]      total after update        207
 [  Debug ] 
 [  Info  ] (   8/54  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode incremental
 [  Debug ]    skipped 
@@ -875,7 +92,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       RTL2
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 273
-[  Info  ]      total after update        274
+[  Info  ]      total after update        273
 [  Debug ] 
 [  Info  ] (   9/54  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode incremental
 [  Debug ]    skipped 
@@ -883,7 +100,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       RTL PLUS
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 167
-[  Info  ]      total after update        168
+[  Info  ]      total after update        167
 [  Debug ] 
 [  Info  ] (  10/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode incremental
 [  Debug ]    skipped 
@@ -895,7 +112,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       CINESTAR TV
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 69
-[  Info  ]      total after update        70
+[  Info  ]      total after update        69
 [  Debug ] 
 [  Info  ] (  12/54  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode incremental
 [  Debug ]    skipped 
@@ -903,7 +120,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT TV1000
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 90
-[  Info  ]      total after update        91
+[  Info  ]      total after update        90
 [  Debug ] 
 [  Info  ] (  13/54  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode incremental
 [  Debug ]    skipped 
@@ -911,7 +128,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       FOX
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 259
-[  Info  ]      total after update        260
+[  Info  ]      total after update        259
 [  Debug ] 
 [  Info  ] (  14/54  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode incremental
 [  Debug ]    skipped 
@@ -919,7 +136,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       FOX LIFE
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 250
-[  Info  ]      total after update        251
+[  Info  ]      total after update        250
 [  Debug ] 
 [  Info  ] (  15/54  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode incremental
 [  Debug ]    skipped 
@@ -927,7 +144,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       UNIVERSAL CHANNEL
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 130
-[  Info  ]      total after update        131
+[  Info  ]      total after update        130
 [  Debug ] 
 [  Info  ] (  16/54  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode incremental
 [  Debug ]    skipped 
@@ -935,7 +152,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       DISCOVERY CHANNEL
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 239
-[  Info  ]      total after update        240
+[  Info  ]      total after update        239
 [  Debug ] 
 [  Info  ] (  17/54  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode incremental
 [  Debug ]    skipped 
@@ -943,7 +160,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 267
-[  Info  ]      total after update        268
+[  Info  ]      total after update        267
 [  Debug ] 
 [  Info  ] (  18/54  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode incremental
 [  Debug ]    skipped 
@@ -951,7 +168,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT HISTORY
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 185
-[  Info  ]      total after update        186
+[  Info  ]      total after update        185
 [  Debug ] 
 [  Info  ] (  19/54  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode incremental
 [  Debug ]    skipped 
@@ -959,7 +176,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       ANIMAL PLANET
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 212
-[  Info  ]      total after update        213
+[  Info  ]      total after update        212
 [  Debug ] 
 [  Info  ] (  20/54  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode incremental
 [  Debug ]    skipped 
@@ -967,7 +184,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT EXPLORER
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 227
-[  Info  ]      total after update        228
+[  Info  ]      total after update        227
 [  Debug ] 
 [  Info  ] (  21/54  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode incremental
 [  Debug ]    skipped 
@@ -975,14 +192,14 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       TLC
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 228
-[  Info  ]      total after update        229
+[  Info  ]      total after update        228
 [  Debug ] 
 [  Info  ] (  22/54  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       MREŽAZG
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 221
-[  Info  ]      total after update        222
+[  Info  ]      total after update        221
 [  Debug ] 
 [  Info  ] (  23/54  ) PORT.HR -- chan. (xmltv_id=Jabuka TV) -- mode incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
@@ -997,7 +214,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       CNN
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 283
-[  Info  ]      total after update        284
+[  Info  ]      total after update        283
 [  Debug ] 
 [  Info  ] (  26/54  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode incremental
 [  Debug ]    skipped 
@@ -1005,7 +222,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       CARTOON NETWORK
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 347
-[  Info  ]      total after update        348
+[  Info  ]      total after update        347
 [  Debug ] 
 [  Info  ] (  27/54  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode incremental
 [  Debug ]    skipped 
@@ -1013,7 +230,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       NICKELODEON
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 435
-[  Info  ]      total after update        436
+[  Info  ]      total after update        435
 [  Debug ] 
 [  Info  ] (  28/54  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode incremental
 [  Debug ]    skipped 
@@ -1021,7 +238,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       DISNEY CHANNEL
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 405
-[  Info  ]      total after update        406
+[  Info  ]      total after update        405
 [  Debug ] 
 [  Info  ] (  29/54  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode incremental
 [  Info  ] 
@@ -1032,7 +249,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       RTL KOCKICA
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 307
-[  Info  ]      total after update        308
+[  Info  ]      total after update        307
 [  Debug ] 
 [  Info  ] (  31/54  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode incremental
 [  Debug ]    skipped show without a title at 02/02/2016 12:45:00
@@ -1043,7 +260,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       SPORTSKA TV
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 89
-[  Info  ]      total after update        90
+[  Info  ]      total after update        89
 [  Debug ] 
 [  Info  ] (  32/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode incremental
 [  Info  ] 
@@ -1069,7 +286,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       MTV
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 226
-[  Info  ]      total after update        227
+[  Info  ]      total after update        226
 [  Debug ] 
 [  Info  ] (  37/54  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode incremental
 [  Debug ]    skipped 
@@ -1080,39 +297,35 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 90
-[  Info  ]      total after update        91
+[  Info  ]      total after update        90
 [  Debug ] 
 [  Info  ] (  39/54  ) PORT.HR -- chan. (xmltv_id=N1) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 07:35:00 stop = 02/02/2016 08:00:00 title = Sport Klub Info
-[  Info  ]       Replaces ----- start = 02/02/2016 07:35:00 stop = 02/02/2016 10:00:00 title = Sport Klub Info
+[  Info  ]       show with ---- start = 02/02/2016 15:45:00 stop = 02/02/2016 16:00:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 02/02/2016 15:45:00 stop = 02/02/2016 16:15:00 title = N1 Info
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 08:00:00 stop = 02/02/2016 10:00:00 title = Novi Dan
-[  Info  ]       Replaces ----- start = 02/02/2016 07:35:00 stop = 02/02/2016 10:00:00 title = Sport Klub Info
+[  Info  ]       show with ---- start = 02/02/2016 16:00:00 stop = 02/02/2016 16:15:00 title = Sport Klub Info
+[  Info  ]       Replaces ----- start = 02/02/2016 15:45:00 stop = 02/02/2016 16:15:00 title = N1 Info
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:30:00 title = N1 Produkcija
-[  Info  ]       Replaces ----- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:15:00 title = N1 Produkcija
-[  Info  ]       Replaces ----- start = 02/02/2016 15:15:00 stop = 02/02/2016 15:30:00 title = N1 Info
+[  Info  ]       show with ---- start = 02/02/2016 16:15:00 stop = 02/02/2016 16:45:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 02/02/2016 16:15:00 stop = 02/02/2016 16:30:00 title = N1 Info
+[  Info  ]       Replaces ----- start = 02/02/2016 16:30:00 stop = 02/02/2016 16:45:00 title = N1 Produkcija
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/54  ) PORT.HR -- chan. (xmltv_id=Fox TV) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 10:00:00 stop = 02/02/2016 10:51:00 title = Las Vegas
-[  Info  ]       Replaces ----- start = 02/02/2016 10:00:00 stop = 02/02/2016 11:40:00 title = Las Vegas
+[  Info  ]       show with ---- start = 02/02/2016 14:55:00 stop = 02/02/2016 15:20:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 02/02/2016 14:55:00 stop = 02/02/2016 16:15:00 title = Simpsoni
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 10:51:00 stop = 02/02/2016 11:40:00 title = Castle
-[  Info  ]       Replaces ----- start = 02/02/2016 10:00:00 stop = 02/02/2016 11:40:00 title = Las Vegas
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 12:35:00 stop = 02/02/2016 14:25:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 02/02/2016 12:35:00 stop = 02/02/2016 13:30:00 title = Crna lista
-[  Info  ]       Replaces ----- start = 02/02/2016 13:30:00 stop = 02/02/2016 14:25:00 title = Dosjei X
+[  Info  ]       show with ---- start = 02/02/2016 15:20:00 stop = 02/02/2016 17:05:00 title = Nulti sat
+[  Info  ]       Replaces ----- start = 02/02/2016 14:55:00 stop = 02/02/2016 16:15:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 02/02/2016 16:15:00 stop = 02/02/2016 17:05:00 title = Las Vegas
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1121,18 +334,11 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  42/54  ) BNET.HR -- chan. (xmltv_id=RTS 1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 00:35:00 stop = 03/02/2016 02:11:00 title = Mala noćna muzika, domaći film
-[  Info  ]       Replaces ----- start = 03/02/2016 00:35:00 stop = 03/02/2016 02:10:00 title = Mala noćna muzika, domaći film
-[  Info  ]       Replaces ----- start = 03/02/2016 02:10:00 stop = 03/02/2016 02:11:00 title = Muzikanti
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     1
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 246
-[  Info  ]      total after update        248
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 247
+[  Info  ]      total after update        247
 [  Debug ] 
 [  Info  ] (  43/54  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode incremental
 [  Debug ]    skipped show without a title at 03/02/2016 19:45:00
@@ -1140,7 +346,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       RTS 2
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 218
-[  Info  ]      total after update        219
+[  Info  ]      total after update        218
 [  Debug ] 
 [  Info  ] (  44/54  ) MOJTV.HR -- chan. (xmltv_id=AMC) -- mode incremental
 [  Info  ]    forced update : 
@@ -1247,6 +453,10 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 20:05:00 stop = 02/02/2016 21:00:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 02/02/2016 20:05:00 stop = 02/02/2016 21:00:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/02/2016 21:00:00 stop = 02/02/2016 22:50:00 title = Duboko plavo more
+[  Info  ]       Replaces ----- start = 02/02/2016 21:00:00 stop = 02/02/2016 22:50:00 title = Replicant
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 22:50:00 stop = 02/02/2016 23:25:00 title = Vesti (?)
@@ -1255,38 +465,109 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/02/2016 02:40:00 stop = 03/02/2016 03:25:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 03/02/2016 02:40:00 stop = 03/02/2016 03:25:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 09:30:00 stop = 03/02/2016 12:45:00 title = Crtani filmovi (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 05:30:00 stop = 03/02/2016 07:00:00 title = O.C.
+[  Info  ]       Replaces ----- start = 03/02/2016 05:30:00 stop = 03/02/2016 05:50:00 title = O.C.
+[  Info  ]       Replaces ----- start = 03/02/2016 05:50:00 stop = 03/02/2016 07:00:00 title = O.C.
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 09:30:00 stop = 03/02/2016 12:55:00 title = Crtani filmovi (?)
 [  Info  ]       Replaces ----- start = 03/02/2016 09:30:00 stop = 03/02/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 13:00:00 stop = 03/02/2016 14:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 12:45:00 stop = 03/02/2016 13:00:00 title = Top Shop
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 12:55:00 stop = 03/02/2016 13:10:00 title = Top Shop
+[  Info  ]       Replaces ----- start = 03/02/2016 12:45:00 stop = 03/02/2016 13:00:00 title = Top Shop
 [  Info  ]       Replaces ----- start = 03/02/2016 13:00:00 stop = 03/02/2016 14:00:00 title = Galileo (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 16:00:00 stop = 03/02/2016 16:40:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 13:10:00 stop = 03/02/2016 14:10:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 13:00:00 stop = 03/02/2016 14:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 14:00:00 stop = 03/02/2016 14:30:00 title = Dva i pol muškarca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 14:10:00 stop = 03/02/2016 14:35:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/02/2016 14:00:00 stop = 03/02/2016 14:30:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/02/2016 14:30:00 stop = 03/02/2016 15:00:00 title = Dva i pol muškarca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 14:35:00 stop = 03/02/2016 15:05:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/02/2016 14:30:00 stop = 03/02/2016 15:00:00 title = Dva i pol muškarca
+[  Info  ]       Replaces ----- start = 03/02/2016 15:00:00 stop = 03/02/2016 16:00:00 title = Pjevaj, brate!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 15:05:00 stop = 03/02/2016 16:00:00 title = Pjevaj, brate!
+[  Info  ]       Replaces ----- start = 03/02/2016 15:00:00 stop = 03/02/2016 16:00:00 title = Pjevaj, brate!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 16:00:00 stop = 03/02/2016 16:35:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 03/02/2016 16:00:00 stop = 03/02/2016 16:40:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 16:40:00 stop = 03/02/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 16:35:00 stop = 03/02/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 16:00:00 stop = 03/02/2016 16:40:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 03/02/2016 16:40:00 stop = 03/02/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 18:10:00 stop = 03/02/2016 19:00:00 title = Galileo (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 17:50:00 stop = 03/02/2016 18:15:00 title = Teorija velikog praska
+[  Info  ]       Replaces ----- start = 03/02/2016 17:50:00 stop = 03/02/2016 18:10:00 title = Teorija velikog praska
 [  Info  ]       Replaces ----- start = 03/02/2016 18:10:00 stop = 03/02/2016 19:00:00 title = Galileo (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 18:15:00 stop = 03/02/2016 19:15:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 18:10:00 stop = 03/02/2016 19:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 19:00:00 stop = 03/02/2016 20:05:00 title = Pjevaj, brate!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 19:15:00 stop = 03/02/2016 20:05:00 title = Pjevaj, brate!
+[  Info  ]       Replaces ----- start = 03/02/2016 19:00:00 stop = 03/02/2016 20:05:00 title = Pjevaj, brate!
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/02/2016 20:05:00 stop = 03/02/2016 21:00:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 03/02/2016 20:05:00 stop = 03/02/2016 21:00:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 03/02/2016 23:00:00 stop = 03/02/2016 23:45:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 21:00:00 stop = 03/02/2016 22:50:00 title = 16 blokova
+[  Info  ]       Replaces ----- start = 03/02/2016 21:00:00 stop = 03/02/2016 23:00:00 title = 16 blokova
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 22:50:00 stop = 03/02/2016 23:25:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 21:00:00 stop = 03/02/2016 23:00:00 title = 16 blokova
 [  Info  ]       Replaces ----- start = 03/02/2016 23:00:00 stop = 03/02/2016 23:45:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/02/2016 03:05:00 stop = 04/02/2016 03:40:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 03/02/2016 23:25:00 stop = 04/02/2016 01:05:00 title = Ubojstvo i margarite
+[  Info  ]       Replaces ----- start = 03/02/2016 23:00:00 stop = 03/02/2016 23:45:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 23:45:00 stop = 04/02/2016 01:35:00 title = Ubojstvo i margarite
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 01:05:00 stop = 04/02/2016 02:35:00 title = Strava u ulici Brijestova 4: Gospodar snova
+[  Info  ]       Replaces ----- start = 03/02/2016 23:45:00 stop = 04/02/2016 01:35:00 title = Ubojstvo i margarite
+[  Info  ]       Replaces ----- start = 04/02/2016 01:35:00 stop = 04/02/2016 03:05:00 title = Strava u ulici Brijestova 4: Gospodar snova
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 02:35:00 stop = 04/02/2016 03:25:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 04/02/2016 01:35:00 stop = 04/02/2016 03:05:00 title = Strava u ulici Brijestova 4: Gospodar snova
 [  Info  ]       Replaces ----- start = 04/02/2016 03:05:00 stop = 04/02/2016 03:40:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 03:25:00 stop = 04/02/2016 04:05:00 title = Face
+[  Info  ]       Replaces ----- start = 04/02/2016 03:05:00 stop = 04/02/2016 03:40:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 04/02/2016 03:40:00 stop = 04/02/2016 04:25:00 title = Face
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 04:05:00 stop = 04/02/2016 04:45:00 title = Grad otpora
+[  Info  ]       Replaces ----- start = 04/02/2016 03:40:00 stop = 04/02/2016 04:25:00 title = Face
+[  Info  ]       Replaces ----- start = 04/02/2016 04:25:00 stop = 04/02/2016 05:50:00 title = Grad otpora
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 04:45:00 stop = 04/02/2016 05:25:00 title = Grad otpora
+[  Info  ]       Replaces ----- start = 04/02/2016 04:25:00 stop = 04/02/2016 05:50:00 title = Grad otpora
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 05:25:00 stop = 04/02/2016 05:50:00 title = O.C.
+[  Info  ]       Replaces ----- start = 04/02/2016 04:25:00 stop = 04/02/2016 05:50:00 title = Grad otpora
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/02/2016 08:35:00 stop = 04/02/2016 09:00:00 title = Crtani film (?)
@@ -1315,14 +596,40 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 04/02/2016 20:05:00 stop = 04/02/2016 21:00:00 title = Vesti (?)
 [  Info  ]       Replaces ----- start = 04/02/2016 20:05:00 stop = 04/02/2016 21:00:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 04/02/2016 23:10:00 stop = 04/02/2016 23:45:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 21:00:00 stop = 04/02/2016 22:55:00 title = 8 minuta
+[  Info  ]       Replaces ----- start = 04/02/2016 21:00:00 stop = 04/02/2016 23:10:00 title = Duboko modro more
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 22:55:00 stop = 04/02/2016 23:30:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 04/02/2016 21:00:00 stop = 04/02/2016 23:10:00 title = Duboko modro more
 [  Info  ]       Replaces ----- start = 04/02/2016 23:10:00 stop = 04/02/2016 23:45:00 title = Vesti (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 05/02/2016 03:15:00 stop = 05/02/2016 03:50:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 23:30:00 stop = 05/02/2016 02:10:00 title = Velika crvena divizija
+[  Info  ]       Replaces ----- start = 04/02/2016 23:10:00 stop = 04/02/2016 23:45:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 04/02/2016 23:45:00 stop = 05/02/2016 01:45:00 title = Velika crvena divizija
+[  Info  ]       Replaces ----- start = 05/02/2016 01:45:00 stop = 05/02/2016 03:15:00 title = Strava u ulici Brijestova 5: Dijete snova
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 02:10:00 stop = 05/02/2016 03:35:00 title = Strava u ulici Brijestova 5: Dijete snova
+[  Info  ]       Replaces ----- start = 05/02/2016 01:45:00 stop = 05/02/2016 03:15:00 title = Strava u ulici Brijestova 5: Dijete snova
 [  Info  ]       Replaces ----- start = 05/02/2016 03:15:00 stop = 05/02/2016 03:50:00 title = Vesti (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 03:35:00 stop = 05/02/2016 04:25:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 05/02/2016 03:15:00 stop = 05/02/2016 03:50:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 05/02/2016 03:50:00 stop = 05/02/2016 04:35:00 title = Face
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 04:25:00 stop = 05/02/2016 05:05:00 title = Face
+[  Info  ]       Replaces ----- start = 05/02/2016 03:50:00 stop = 05/02/2016 04:35:00 title = Face
+[  Info  ]       Replaces ----- start = 05/02/2016 04:35:00 stop = 05/02/2016 07:00:00 title = Grad otpora
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 05:05:00 stop = 05/02/2016 07:00:00 title = Grad otpora
+[  Info  ]       Replaces ----- start = 05/02/2016 04:35:00 stop = 05/02/2016 07:00:00 title = Grad otpora
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 05/02/2016 09:30:00 stop = 05/02/2016 12:45:00 title = Crtani filmovi (?)
@@ -1379,6 +686,10 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/02/2016 16:35:00 stop = 06/02/2016 17:00:00 title = Sportski pregled (?)
 [  Info  ]       Replaces ----- start = 06/02/2016 16:35:00 stop = 06/02/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 06/02/2016 17:00:00 stop = 06/02/2016 19:10:00 title = Duboko plavo more
+[  Info  ]       Replaces ----- start = 06/02/2016 17:00:00 stop = 06/02/2016 19:10:00 title = Replicant
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/02/2016 19:10:00 stop = 06/02/2016 20:05:00 title = Galileo (?)
@@ -1411,6 +722,10 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 07/02/2016 09:45:00 stop = 07/02/2016 12:00:00 title = Crtani filmovi (?)
 [  Info  ]       Replaces ----- start = 07/02/2016 09:45:00 stop = 07/02/2016 12:00:00 title = Crtani filmovi (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/02/2016 14:00:00 stop = 07/02/2016 16:00:00 title = 8 minuta
+[  Info  ]       Replaces ----- start = 07/02/2016 14:00:00 stop = 07/02/2016 16:00:00 title = Duboko modro more
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 07/02/2016 16:00:00 stop = 07/02/2016 16:35:00 title = Vesti (?)
@@ -1437,38 +752,51 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] (  46/54  ) PORT.HR -- chan. (xmltv_id=Fox Life) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 05:20:00 stop = 02/02/2016 06:02:00 title = Najskuplji dizajneri interijera
-[  Info  ]       Replaces ----- start = 02/02/2016 05:20:00 stop = 02/02/2016 06:25:00 title = Najskuplji dizajneri interijera
+[  Info  ]       show with ---- start = 02/02/2016 13:00:00 stop = 02/02/2016 13:55:00 title = Veze
+[  Info  ]       Replaces ----- start = 02/02/2016 13:00:00 stop = 02/02/2016 14:25:00 title = Veze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 06:02:00 stop = 02/02/2016 06:25:00 title = Deset godina mlađi
-[  Info  ]       Replaces ----- start = 02/02/2016 05:20:00 stop = 02/02/2016 06:25:00 title = Najskuplji dizajneri interijera
+[  Info  ]       show with ---- start = 02/02/2016 13:55:00 stop = 02/02/2016 14:25:00 title = Deset godina mlađi
+[  Info  ]       Replaces ----- start = 02/02/2016 13:00:00 stop = 02/02/2016 14:25:00 title = Veze
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 14:25:00 stop = 02/02/2016 15:30:00 title = Deset godina mlađi
-[  Info  ]       Replaces ----- start = 02/02/2016 14:25:00 stop = 02/02/2016 15:00:00 title = Deset godina mlađi
-[  Info  ]       Replaces ----- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:30:00 title = Cougar Town
+[  Info  ]       show with ---- start = 02/02/2016 15:55:00 stop = 02/02/2016 17:10:00 title = Ne vjeruj susjedi iz stana br. 23
+[  Info  ]       Replaces ----- start = 02/02/2016 15:55:00 stop = 02/02/2016 16:20:00 title = Ne vjeruj susjedi iz stana br. 23
+[  Info  ]       Replaces ----- start = 02/02/2016 16:20:00 stop = 02/02/2016 17:10:00 title = Jednom davno
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  47/54  ) PORT.HR -- chan. (xmltv_id=MTV Hrvatska) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:30:00 title = Time's Up
+[  Info  ]       Replaces ----- start = 02/02/2016 15:00:00 stop = 02/02/2016 16:20:00 title = Time's Up
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/02/2016 15:30:00 stop = 02/02/2016 16:20:00 title = 10 Biggest Hits Right Now
+[  Info  ]       Replaces ----- start = 02/02/2016 15:00:00 stop = 02/02/2016 16:20:00 title = Time's Up
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 02/02/2016 16:20:00 stop = 02/02/2016 17:20:00 title = 3 From 1
+[  Info  ]       Replaces ----- start = 02/02/2016 16:20:00 stop = 02/02/2016 16:30:00 title = 3 From 1
+[  Info  ]       Replaces ----- start = 02/02/2016 16:30:00 stop = 02/02/2016 17:20:00 title = Hollywood Heights
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  48/54  ) PORT.HR -- chan. (xmltv_id=Viasat Nature) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 05:20:00 stop = 02/02/2016 05:50:00 title = Park za sva godišnja doba
-[  Info  ]       Replaces ----- start = 02/02/2016 05:20:00 stop = 02/02/2016 06:20:00 title = Park za sva godišnja doba
+[  Info  ]       show with ---- start = 02/02/2016 10:20:00 stop = 02/02/2016 11:15:00 title = Opsjednuti divljinom
+[  Info  ]       Replaces ----- start = 02/02/2016 10:20:00 stop = 02/02/2016 12:10:00 title = Opsjednuti divljinom
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 05:50:00 stop = 02/02/2016 06:20:00 title = Gepardovi dnevnici
-[  Info  ]       Replaces ----- start = 02/02/2016 05:20:00 stop = 02/02/2016 06:20:00 title = Park za sva godišnja doba
+[  Info  ]       show with ---- start = 02/02/2016 11:15:00 stop = 02/02/2016 12:10:00 title = Zoološki vrt
+[  Info  ]       Replaces ----- start = 02/02/2016 10:20:00 stop = 02/02/2016 12:10:00 title = Opsjednuti divljinom
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 13:00:00 stop = 02/02/2016 14:45:00 title = Nomadi Serengetija
-[  Info  ]       Replaces ----- start = 02/02/2016 13:00:00 stop = 02/02/2016 13:55:00 title = Nomadi Serengetija
-[  Info  ]       Replaces ----- start = 02/02/2016 13:55:00 stop = 02/02/2016 14:45:00 title = Nada za divljinu
+[  Info  ]       show with ---- start = 02/02/2016 14:45:00 stop = 02/02/2016 16:25:00 title = Opsjednuti divljinom
+[  Info  ]       Replaces ----- start = 02/02/2016 14:45:00 stop = 02/02/2016 15:35:00 title = Opsjednuti divljinom
+[  Info  ]       Replaces ----- start = 02/02/2016 15:35:00 stop = 02/02/2016 16:25:00 title = Nomadi Serengetija
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -1476,101 +804,51 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 06:00:00 stop = 02/02/2016 07:00:00 title = Nacionalni dnevnik (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 06:00:00 stop = 02/02/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 06:00:00 stop = 02/02/2016 07:00:00 title = Nacionalni dnevnik (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 07:00:00 stop = 02/02/2016 11:04:00 title = Dobro jutro (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 07:00:00 stop = 02/02/2016 10:45:00 title = DOBRO JUTRO (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 10:45:00 stop = 02/02/2016 11:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Leptirov oblak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 07:00:00 stop = 02/02/2016 11:04:00 title = Dobro jutro (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 11:04:00 stop = 02/02/2016 11:21:00 title = Premijera (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Leptirov oblak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 11:04:00 stop = 02/02/2016 11:21:00 title = Premijera (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 11:21:00 stop = 02/02/2016 12:45:00 title = Ja to tako (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Leptirov oblak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 11:21:00 stop = 02/02/2016 12:45:00 title = Ja to tako (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 12:45:00 stop = 02/02/2016 12:57:00 title = Sve za ljubav (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Leptirov oblak
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 12:45:00 stop = 02/02/2016 12:57:00 title = Sve za ljubav (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 12:57:00 stop = 02/02/2016 15:00:00 title = Prvi Nacionalni dnevnik (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Leptirov oblak
-[  Info  ]       Replaces ----- start = 02/02/2016 13:00:00 stop = 02/02/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 13:20:00 stop = 02/02/2016 14:15:00 title = JA TO TAKO (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 14:15:00 stop = 02/02/2016 15:45:00 title = SVE ZA LJUBAV (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 12:57:00 stop = 02/02/2016 15:00:00 title = Prvi Nacionalni dnevnik (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:30:00 title = Premijera (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 14:15:00 stop = 02/02/2016 15:45:00 title = SVE ZA LJUBAV (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 15:00:00 stop = 02/02/2016 15:30:00 title = Premijera (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 15:30:00 stop = 02/02/2016 16:00:00 title = Nacionalni dnevnik u 16 (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 14:15:00 stop = 02/02/2016 15:45:00 title = SVE ZA LJUBAV (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 15:45:00 stop = 02/02/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 16:00:00 stop = 02/02/2016 16:04:00 title = Mala nevjesta
-[  Info  ]       Replaces ----- start = 02/02/2016 16:00:00 stop = 02/02/2016 16:20:00 title = Mala nevjesta
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 16:04:00 stop = 02/02/2016 16:29:00 title = Mala nevjesta
-[  Info  ]       Replaces ----- start = 02/02/2016 16:00:00 stop = 02/02/2016 16:20:00 title = Mala nevjesta
-[  Info  ]       Replaces ----- start = 02/02/2016 16:20:00 stop = 02/02/2016 17:00:00 title = AJŠEN - ZLATAREVA KĆI (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 15:30:00 stop = 02/02/2016 16:00:00 title = Nacionalni dnevnik u 16 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 16:29:00 stop = 02/02/2016 17:00:00 title = Ajšen Zlatareva kći (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 16:20:00 stop = 02/02/2016 17:00:00 title = AJŠEN - ZLATAREVA KĆI (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 16:29:00 stop = 02/02/2016 17:00:00 title = Ajšen Zlatareva kći (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 02/02/2016 17:00:00 stop = 02/02/2016 18:29:00 title = Bahar (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 17:00:00 stop = 02/02/2016 18:30:00 title = BAHAR (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 18:29:00 stop = 02/02/2016 19:10:00 title = Nacionalni dnevnik u 18:30 (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 17:00:00 stop = 02/02/2016 18:30:00 title = BAHAR (?)
-[  Info  ]       Replaces ----- start = 02/02/2016 18:30:00 stop = 02/02/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 19:10:00 stop = 02/02/2016 20:10:00 title = Elif
-[  Info  ]       Replaces ----- start = 02/02/2016 19:10:00 stop = 02/02/2016 20:00:00 title = Elif
-[  Info  ]       Replaces ----- start = 02/02/2016 20:00:00 stop = 02/02/2016 21:30:00 title = Crna ruža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 20:10:00 stop = 02/02/2016 21:30:00 title = Crna ruža
-[  Info  ]       Replaces ----- start = 02/02/2016 20:00:00 stop = 02/02/2016 21:30:00 title = Crna ruža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 23:30:00 stop = 03/02/2016 01:29:00 title = Lova do krova
-[  Info  ]       Replaces ----- start = 02/02/2016 23:30:00 stop = 03/02/2016 01:30:00 title = Lova do krova
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 01:29:00 stop = 03/02/2016 02:06:00 title = Alo, Alo!
-[  Info  ]       Replaces ----- start = 02/02/2016 23:30:00 stop = 03/02/2016 01:30:00 title = Lova do krova
-[  Info  ]       Replaces ----- start = 03/02/2016 01:30:00 stop = 03/02/2016 02:00:00 title = Alo, Alo!
-[  Info  ]       Replaces ----- start = 03/02/2016 02:00:00 stop = 03/02/2016 02:45:00 title = Kalifornikacija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 02:06:00 stop = 03/02/2016 02:33:00 title = Kalifornikacija
-[  Info  ]       Replaces ----- start = 03/02/2016 02:00:00 stop = 03/02/2016 02:45:00 title = Kalifornikacija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 02/02/2016 17:00:00 stop = 02/02/2016 18:29:00 title = Bahar (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/02/2016 02:33:00 stop = 03/02/2016 02:50:00 title = Premijera (?)
-[  Info  ]       Replaces ----- start = 03/02/2016 02:00:00 stop = 03/02/2016 02:45:00 title = Kalifornikacija
-[  Info  ]       Replaces ----- start = 03/02/2016 02:45:00 stop = 03/02/2016 03:00:00 title = PREMIJERA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 03/02/2016 02:50:00 stop = 03/02/2016 04:42:00 title = Utočište
-[  Info  ]       Replaces ----- start = 03/02/2016 02:45:00 stop = 03/02/2016 03:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 03/02/2016 03:00:00 stop = 03/02/2016 04:45:00 title = Utočište
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 03/02/2016 02:33:00 stop = 03/02/2016 02:50:00 title = Premijera (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/02/2016 04:42:00 stop = 03/02/2016 05:15:00 title = Ajšen Zlatareva kći (?)
-[  Info  ]       Replaces ----- start = 03/02/2016 03:00:00 stop = 03/02/2016 04:45:00 title = Utočište
-[  Info  ]       Replaces ----- start = 03/02/2016 04:45:00 stop = 03/02/2016 05:15:00 title = AJŠEN - ZLATAREVA KĆI (?)
+[  Info  ]       Replaces ----- start = 03/02/2016 04:42:00 stop = 03/02/2016 05:15:00 title = Ajšen Zlatareva kći (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 03/02/2016 06:00:00 stop = 03/02/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
@@ -1799,77 +1077,111 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/54  ) PORT.HR -- chan. (xmltv_id=Arena Sport 1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 05:00:00 stop = 02/02/2016 07:00:00 title = Nogomet - Liga prvaka
-[  Info  ]       Replaces ----- start = 02/02/2016 05:00:00 stop = 02/02/2016 08:30:00 title = Nogomet - Liga prvaka
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 07:00:00 stop = 02/02/2016 08:30:00 title = Vaterpolo - Jadranska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 05:00:00 stop = 02/02/2016 08:30:00 title = Nogomet - Liga prvaka
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 11:00:00 stop = 02/02/2016 15:00:00 title = Tenis - ATP World Tour 250
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 13:00:00 title = Tenis - ATP World Tour 250
-[  Info  ]       Replaces ----- start = 02/02/2016 13:00:00 stop = 02/02/2016 15:00:00 title = Tenis - ATP World Tour 250
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  52/54  ) PORT.HR -- chan. (xmltv_id=Arena Sport 2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 06:00:00 stop = 02/02/2016 08:00:00 title = Hokej na ledu - NHL
-[  Info  ]       Replaces ----- start = 02/02/2016 06:00:00 stop = 02/02/2016 10:00:00 title = Hokej na ledu - NHL
+[  Info  ]       show with ---- start = 02/02/2016 12:00:00 stop = 02/02/2016 14:00:00 title = Ragbi - Aviva Premiership
+[  Info  ]       Replaces ----- start = 02/02/2016 12:00:00 stop = 02/02/2016 16:00:00 title = Ragbi - Aviva Premiership
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 08:00:00 stop = 02/02/2016 10:00:00 title = Nogomet - Brazilska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 06:00:00 stop = 02/02/2016 10:00:00 title = Hokej na ledu - NHL
+[  Info  ]       show with ---- start = 02/02/2016 14:00:00 stop = 02/02/2016 17:30:00 title = Nogomet - Brazilska liga
+[  Info  ]       Replaces ----- start = 02/02/2016 12:00:00 stop = 02/02/2016 16:00:00 title = Ragbi - Aviva Premiership
+[  Info  ]       Replaces ----- start = 02/02/2016 16:00:00 stop = 02/02/2016 17:30:00 title = Rukomet - Liga prvaka (ž)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 11:00:00 stop = 02/02/2016 14:00:00 title = Vaterpolo - Jadranska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 11:00:00 stop = 02/02/2016 12:00:00 title = Vaterpolo - Jadranska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 12:00:00 stop = 02/02/2016 14:00:00 title = Ragbi - Aviva Premiership
+[  Info  ]       show with ---- start = 04/02/2016 10:00:00 stop = 04/02/2016 10:50:00 title = Boks
+[  Info  ]       Replaces ----- start = 04/02/2016 10:00:00 stop = 04/02/2016 11:00:00 title = Boks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 10:50:00 stop = 04/02/2016 12:00:00 title = Vaterpolo - Liga prvaka
+[  Info  ]       Replaces ----- start = 04/02/2016 10:00:00 stop = 04/02/2016 11:00:00 title = Boks
+[  Info  ]       Replaces ----- start = 04/02/2016 11:00:00 stop = 04/02/2016 12:00:00 title = Vaterpolo - Liga prvaka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 18:00:00 stop = 04/02/2016 19:45:00 title = Košarka - ABA liga
+[  Info  ]       Replaces ----- start = 04/02/2016 18:00:00 stop = 04/02/2016 19:30:00 title = Košarka - ABA liga
+[  Info  ]       Replaces ----- start = 04/02/2016 19:30:00 stop = 04/02/2016 20:00:00 title = Sporting Greats
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 19:45:00 stop = 04/02/2016 20:10:00 title = Sporting Greats
+[  Info  ]       Replaces ----- start = 04/02/2016 19:30:00 stop = 04/02/2016 20:00:00 title = Sporting Greats
+[  Info  ]       Replaces ----- start = 04/02/2016 20:00:00 stop = 04/02/2016 22:00:00 title = Hokej na ledu - NHL
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 20:10:00 stop = 04/02/2016 22:00:00 title = Hokej na ledu - NHL
+[  Info  ]       Replaces ----- start = 04/02/2016 20:00:00 stop = 04/02/2016 22:00:00 title = Hokej na ledu - NHL
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 10:00:00 stop = 05/02/2016 10:30:00 title = Boks
+[  Info  ]       Replaces ----- start = 05/02/2016 10:00:00 stop = 05/02/2016 11:00:00 title = Boks
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 10:30:00 stop = 05/02/2016 12:00:00 title = Vaterpolo - Liga prvaka
+[  Info  ]       Replaces ----- start = 05/02/2016 10:00:00 stop = 05/02/2016 11:00:00 title = Boks
+[  Info  ]       Replaces ----- start = 05/02/2016 11:00:00 stop = 05/02/2016 12:00:00 title = Vaterpolo - Liga prvaka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 18:00:00 stop = 05/02/2016 19:30:00 title = Košarka - ABA liga
+[  Info  ]       Replaces ----- start = 05/02/2016 18:00:00 stop = 05/02/2016 20:00:00 title = Košarka - ABA liga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 19:30:00 stop = 05/02/2016 20:00:00 title = Sporting Greats
+[  Info  ]       Replaces ----- start = 05/02/2016 18:00:00 stop = 05/02/2016 20:00:00 title = Košarka - ABA liga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 23:00:00 stop = 06/02/2016 00:10:00 title = Vaterpolo - Jadranska liga
+[  Info  ]       Replaces ----- start = 05/02/2016 23:00:00 stop = 06/02/2016 00:00:00 title = Vaterpolo - Jadranska liga
+[  Info  ]       Replaces ----- start = 06/02/2016 00:00:00 stop = 06/02/2016 02:00:00 title = Ragbi - Aviva Premiership
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 06/02/2016 00:10:00 stop = 06/02/2016 02:00:00 title = Ragbi - Aviva Premiership
+[  Info  ]       Replaces ----- start = 06/02/2016 00:00:00 stop = 06/02/2016 02:00:00 title = Ragbi - Aviva Premiership
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/54  ) PORT.HR -- chan. (xmltv_id=Arena Sport 3) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 05:00:00 stop = 02/02/2016 07:00:00 title = Nogomet - Francuska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 05:00:00 stop = 02/02/2016 09:00:00 title = Nogomet - Francuska liga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 07:00:00 stop = 02/02/2016 09:00:00 title = Nogomet - Talijanska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 05:00:00 stop = 02/02/2016 09:00:00 title = Nogomet - Francuska liga
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 12:00:00 stop = 02/02/2016 15:00:00 title = Nogomet - Tottenham TV
-[  Info  ]       Replaces ----- start = 02/02/2016 12:00:00 stop = 02/02/2016 14:00:00 title = Nogomet - Tottenham TV
-[  Info  ]       Replaces ----- start = 02/02/2016 14:00:00 stop = 02/02/2016 15:00:00 title = Nogometna suparništva
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  54/54  ) PORT.HR -- chan. (xmltv_id=Arena Sport 4) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 10:00:00 stop = 02/02/2016 12:00:00 title = Nogomet - Europska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 10:00:00 stop = 02/02/2016 13:30:00 title = Nogomet - Europska liga
+[  Info  ]       show with ---- start = 03/02/2016 20:25:00 stop = 03/02/2016 20:45:00 title = Košarka - Liga Endesa
+[  Info  ]       Replaces ----- start = 03/02/2016 20:25:00 stop = 03/02/2016 20:40:00 title = Košarka - Liga Endesa
+[  Info  ]       Replaces ----- start = 03/02/2016 20:40:00 stop = 03/02/2016 22:40:00 title = Nogomet - Talijanska liga
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 12:00:00 stop = 02/02/2016 13:30:00 title = Košarka - Liga Endesa
-[  Info  ]       Replaces ----- start = 02/02/2016 10:00:00 stop = 02/02/2016 13:30:00 title = Nogomet - Europska liga
+[  Info  ]       show with ---- start = 03/02/2016 20:45:00 stop = 03/02/2016 22:40:00 title = Nogomet - Talijanska liga
+[  Info  ]       Replaces ----- start = 03/02/2016 20:40:00 stop = 03/02/2016 22:40:00 title = Nogomet - Talijanska liga
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 02/02/2016 14:00:00 stop = 02/02/2016 18:00:00 title = Nogomet - Belgijska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 14:00:00 stop = 02/02/2016 16:00:00 title = Nogomet - Belgijska liga
-[  Info  ]       Replaces ----- start = 02/02/2016 16:00:00 stop = 02/02/2016 18:00:00 title = Nogomet - Europska liga
+[  Info  ]       show with ---- start = 04/02/2016 12:00:00 stop = 04/02/2016 13:45:00 title = Košarka - ABA liga
+[  Info  ]       Replaces ----- start = 04/02/2016 12:00:00 stop = 04/02/2016 13:30:00 title = Košarka - ABA liga
+[  Info  ]       Replaces ----- start = 04/02/2016 13:30:00 stop = 04/02/2016 14:00:00 title = Sporting Greats
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 13:45:00 stop = 04/02/2016 14:10:00 title = Sporting Greats
+[  Info  ]       Replaces ----- start = 04/02/2016 13:30:00 stop = 04/02/2016 14:00:00 title = Sporting Greats
+[  Info  ]       Replaces ----- start = 04/02/2016 14:00:00 stop = 04/02/2016 16:00:00 title = Nogomet - Copa Libertodores
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 04/02/2016 14:10:00 stop = 04/02/2016 16:00:00 title = Nogomet - Copa Libertodores
+[  Info  ]       Replaces ----- start = 04/02/2016 14:00:00 stop = 04/02/2016 16:00:00 title = Nogomet - Copa Libertodores
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 05/02/2016 12:00:00 stop = 05/02/2016 14:00:00 title = Košarka - Liga Endesa
+[  Info  ]       Replaces ----- start = 05/02/2016 12:00:00 stop = 05/02/2016 13:30:00 title = Košarka - Liga Endesa
+[  Info  ]       Replaces ----- start = 05/02/2016 13:30:00 stop = 05/02/2016 14:00:00 title = Football's Greatest Managers
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 10497 shows in 54 channels
-[  Debug ] 371 updated shows
+[  Debug ] 10332 shows in 54 channels
+[  Debug ] 195 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 02/02/2016 16:10:31 done in 8m 0s
+[        ] Job finished at 02/02/2016 17:08:24 done in 7m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
