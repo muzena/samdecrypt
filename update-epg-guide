@@ -898,7 +898,7 @@ cd pharser
 ##### port pharser
 python pharser-mtvprofil.py
 wait $!
-#rm guide-mtvprofil.xml
+rm guide-mtvprofil.xml
 cd .. <<EOF
 EOF
 }
