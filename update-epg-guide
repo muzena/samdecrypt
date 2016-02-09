@@ -590,6 +590,179 @@ sed -i 's/lang="pl/lang="hr/g' guide-mojtv-test.xml
  <<EOF
 EOF
 }
+
+
+
+
+function fixchannelnames_mtvprofil()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-mtvprofil.xml > guide-mtvprofil-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-mtvprofil-test.xml
+# HRT 1
+sed -i 's/"HTV1">/"HRT 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV1</>HRT 1</g' guide-mtvprofil-test.xml
+# HRT 2
+sed -i 's/"HTV2">/"HRT 2">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV2</>HRT 2</g' guide-mtvprofil-test.xml
+# HRT 3
+sed -i 's/"HTV3">/"HRT 3">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV3</>HRT 3</g' guide-mtvprofil-test.xml
+# HRT 4
+sed -i 's/"HTV4">/"HRT 4">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV4</>HRT 4</g' guide-mtvprofil-test.xml
+# RTL TELEVIZIJA
+#sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-mtvprofil-test.xml
+#sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-mtvprofil-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-mtvprofil-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-mtvprofil-test.xml
+# RTL 2
+sed -i 's/"RTL2">/"RTL2">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL2</>RTL2</g' guide-mtvprofil-test.xml
+# RTL Plus
+sed -i 's/"RTL Living">/"RTLpl">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL Living</>RTLpl</g' guide-mtvprofil-test.xml
+# CineStar TV
+sed -i 's/"CineStar A&amp;T">/"CineA">/g' guide-mtvprofil-test.xml
+sed -i 's/>CineStar A&amp;T</>CineA</g' guide-mtvprofil-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar TV">/"Cines">/g' guide-mtvprofil-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-mtvprofil-test.xml
+# TV 1000 Balkan
+sed -i 's/"TV 1000">/"TV100">/g' guide-mtvprofil-test.xml
+sed -i 's/>TV 1000</>TV100</g' guide-mtvprofil-test.xml
+# Fox TV
+#sed -i 's/"FOX">/"Fox">/g' guide-mtvprofil-test.xml
+#sed -i 's/>FOX</>Fox</g' guide-mtvprofil-test.xml
+# Fox Life
+sed -i 's/"FOX Life">/"FoxLi">/g' guide-mtvprofil-test.xml
+sed -i 's/>FOX Life</>FoxLi</g' guide-mtvprofil-test.xml
+# Universal Channel
+sed -i 's/"Universal">/"Unive">/g' guide-mtvprofil-test.xml
+sed -i 's/>Universal</>Unive</g' guide-mtvprofil-test.xml
+# Discovery Channel
+sed -i 's/"Discovery Channel">/"Disco">/g' guide-mtvprofil-test.xml
+sed -i 's/>Discovery Channel</>Disco</g' guide-mtvprofil-test.xml
+# National Geographic Channel
+sed -i 's/"National Geo">/"NatGe">/g' guide-mtvprofil-test.xml
+sed -i 's/>National Geo</>NatGe</g' guide-mtvprofil-test.xml
+# Viasat History
+sed -i 's/"Viasat History">/"Histo">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat History</>Histo</g' guide-mtvprofil-test.xml
+# Animal Planet
+sed -i 's/"Animal Planet">/"Anima">/g' guide-mtvprofil-test.xml
+sed -i 's/>Animal Planet</>Anima</g' guide-mtvprofil-test.xml
+# Viasat Explore
+sed -i 's/"Viasat Explorer">/"Explo">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat Explorer</>Explo</g' guide-mtvprofil-test.xml
+# Travel Channel
+sed -i 's/"Discovery TLC">/"TLC">/g' guide-mtvprofil-test.xml
+sed -i 's/>Discovery TLC</>TLC</g' guide-mtvprofil-test.xml
+# MrežaZG
+sed -i 's/"MrežaZG">/"Mreža">/g' guide-mtvprofil-test.xml
+sed -i 's/>MrežaZG</>Mreža</g' guide-mtvprofil-test.xml
+# Jabuka TV
+sed -i 's/"JabukaTV">/"Jabuk">/g' guide-mtvprofil-test.xml
+sed -i 's/>JabukaTV</>Jabuk</g' guide-mtvprofil-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-mtvprofil-test.xml
+# 24 SATA TV
+sed -i 's/"24 Sata">/"24sat">/g' guide-mtvprofil-test.xml
+sed -i 's/>24 Sata</>24sat</g' guide-mtvprofil-test.xml
+# CNN International Europe
+#sed -i 's/"CNN">/"CNN">/g' guide-mtvprofil-test.xml
+#sed -i 's/>CNN</>CNN</g' guide-mtvprofil-test.xml
+# Cartoon Network
+sed -i 's/"Cartoon Network">/"CN">/g' guide-mtvprofil-test.xml
+sed -i 's/>Cartoon Network</>CN</g' guide-mtvprofil-test.xml
+# TCM - Cartoon Network
+#sed -i 's#"TCM/Cartoon">#"CN">#g' guide-mtvprofil-test.xml
+#sed -i 's#>TCM/Cartoon<#>CN<#g' guide-mtvprofil-test.xml
+# Nickelodeon
+sed -i 's/"Nickelodeon">/"Nicke">/g' guide-mtvprofil-test.xml
+sed -i 's/>Nickelodeon</>Nicke</g' guide-mtvprofil-test.xml
+# DISNEY CHANNEL
+sed -i 's/"Disney">/"Disne">/g' guide-mtvprofil-test.xml
+sed -i 's/>Disney</>Disne</g' guide-mtvprofil-test.xml
+# Mini TV
+sed -i 's/"MiniTV">/"Mini">/g' guide-mtvprofil-test.xml
+sed -i 's/>MiniTV</>Mini</g' guide-mtvprofil-test.xml
+# RTL Kockica
+sed -i 's/"RTL Kockica">/"RTLko">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL Kockica</>RTLko</g' guide-mtvprofil-test.xml
+# Sportska televizija
+#sed -i 's/"SPTV">/"SPTV">/g' guide-mtvprofil-test.xml
+#sed -i 's/>SPTV</>SPTV</g' guide-mtvprofil-test.xml
+# Eurosport
+sed -i 's/"Eurosport">/"Euro1">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eurosport</>Euro1</g' guide-mtvprofil-test.xml
+# Eurosport 2
+sed -i 's/"Eurosport 2">/"Euro2">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eurosport 2</>Euro2</g' guide-mtvprofil-test.xml
+# SK 1
+sed -i 's/"SK1.hr">/"SK1">/g' guide-mtvprofil-test.xml
+sed -i 's/>SK1.hr</>SK1</g' guide-mtvprofil-test.xml
+# SK 3
+#sed -i 's/"SK3.hr">/"SK3">/g' guide-mtvprofil-test.xml
+#sed -i 's/>SK3.hr</>SK3</g' guide-mtvprofil-test.xml
+# MTV Hrvatska
+sed -i 's/"MTV Adria">/"MTV">/g' guide-mtvprofil-test.xml
+sed -i 's/>MTV Adria</>MTV</g' guide-mtvprofil-test.xml
+# VH1 Europe
+sed -i 's/"VH1 Europe">/"VH1">/g' guide-mtvprofil-test.xml
+sed -i 's/>VH1 Europe</>VH1</g' guide-mtvprofil-test.xml
+# CMC
+sed -i 's/"CMC">/"C M C">/g' guide-mtvprofil-test.xml
+sed -i 's/>CMC</>C M C</g' guide-mtvprofil-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>N1</>N 1</g' guide-mtvprofil-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Fox TV</>FOX sr</g' guide-mtvprofil-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS1">/"RTS 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTS1</>RTS 1</g' guide-mtvprofil-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS2">/"RTS 2">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTS2</>RTS 2</g' guide-mtvprofil-test.xml
+# B92 tv online test tv
+sed -i 's/"B92">/"B92 HD">/g' guide-mtvprofil-test.xml
+sed -i 's/>B92</>B92 HD</g' guide-mtvprofil-test.xml
+# FOX Life online test tv
+sed -i 's/"Fox Life">/"FOX Life sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Fox Life</>FOX Life sr</g' guide-mtvprofil-test.xml
+# MTV online test tv
+sed -i 's/"MTV Hrvatska">/"MTV Adria sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>MTV Hrvatska</>MTV Adria sr</g' guide-mtvprofil-test.xml
+# Viasat Nature online test tv
+sed -i 's/"Viasat Nature">/"VIASAT NATURE sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat Nature</>VIASAT NATURE sr</g' guide-mtvprofil-test.xml
+# Pink online test tv
+sed -i 's/"PINK">/"PINK sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>PINK</>PINK sr</g' guide-mtvprofil-test.xml
+# Vh1 online test tv
+sed -i 's/"VH1 Europe">/"VH1 sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>VH1 Europe</>VH1 sr</g' guide-mtvprofil-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska 2">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eska TV</>Eska 2</g' guide-mtvprofil-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-mtvprofil-test.xml
+# Remove unnecessary (?) from title names
+sed -i 's/ (?)//g' guide-mtvprofil-test.xml
+ <<EOF
+EOF
+}
+
+
+
+
+
+
 function update_Main_grabber()
 {
 rm ./pharser/libEPG-main.config
@@ -702,6 +875,34 @@ cd .. <<EOF
 EOF
 }
 
+########## mtvprofil ##################################
+
+function update_mtvprofil_grabber()
+{
+rm ./pharser/libEPG-mtvprofil.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Port
+cp ./wg++/WebGrab++.config-mtvprofil.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names port
+fixchannelnames_mtvprofil
+wait $!
+#### Generate port config file
+cp guide-mtvprofil.xml ./pharser/guide-mtvprofil.xml
+rm guide-mojtv-test.xml
+cd pharser
+# generate port config file
+##### port pharser
+python pharser-mtvprofil.py
+wait $!
+#rm guide-mtvprofil.xml
+cd .. <<EOF
+EOF
+}
+
 
 function git_clone()
 {
@@ -726,15 +927,15 @@ EOF
 
 
 #######  Generate json config files
-update_Main_grabber
+#update_Main_grabber
 wait $!
-update_Bnet_grabber
+#update_Bnet_grabber
 wait $!
-update_Mojtv_grabber
+#update_Mojtv_grabber
 wait $!
-update_Port_grabber
+#update_Port_grabber
 wait $!
-
+update_mtvprofil_grabber
 
 
 ##### Upload to git
