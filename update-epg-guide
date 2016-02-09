@@ -753,7 +753,7 @@ sed -i 's/>Eska TV</>Eska 2</g' guide-mtvprofil-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-mtvprofil-test.xml
 # Remove unnecessary (?) from title names
-sed -i 's/ (?)//g' guide-mtvprofil-test.xml
+#sed -i 's/ (?)//g' guide-mtvprofil-test.xml
  <<EOF
 EOF
 }
