@@ -891,7 +891,7 @@ cd ..
 fixchannelnames_mtvprofil
 wait $!
 #### Generate port config file
-cp guide-mtvprofil.xml ./pharser/guide-mtvprofil.xml
+cp guide-mtvprofil-test.xml ./pharser/guide-mtvprofil.xml
 rm guide-mojtv-test.xml
 cd pharser
 # generate port config file
