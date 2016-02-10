@@ -7,16 +7,16 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 10/02/2016 00:54:53
+[        ] Job started at 10/02/2016 04:02:59
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
-[  Debug ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/m.tvprofil.net.ini -- Revision 4
+[  Debug ] found: /home/goran/samdecrypt/wg++/m.tvprofil.net.ini -- Revision 4
 [  Debug ] xmltv input file - ../guide-mtvprofil.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] 
@@ -1831,6 +1831,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  64/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar Prem. 2) -- mode incremental
+[  Warn  ] error downloading page: The request timed out
+[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Debug ]    suspicious      title in index page  = Streetdance All Stars (12)
 [  Debug ]       differs from title in showdetails = Streetdance All Stars
 [  Info  ]    epg correction : 
@@ -2082,4 +2084,4 @@
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 10/02/2016 00:57:03 done in 2m 9s
+[        ] Job finished at 10/02/2016 04:05:32 done in 2m 32s
