@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 13/02/2016 01:04:16
+[        ] Job started at 13/02/2016 04:29:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
@@ -18,7 +18,33 @@
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] found: /home/goran/samdecrypt/wg++/m.tvprofil.net.ini -- Revision 4
 [  Debug ] xmltv input file - ../guide-mtvprofil.xml - found
-[  Debug ] 2601 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
+[  Debug ] removed 2 overlapping shows in HTV1 starting after 13/02/2016 01:45:00
+[  Debug ] removed 2 overlapping shows in HTV2 starting after 13/02/2016 01:49:00
+[  Debug ] removed 2 overlapping shows in RTL starting after 13/02/2016 02:15:00
+[  Debug ] removed 2 overlapping shows in NOVA TV starting after 13/02/2016 02:55:00
+[  Debug ] removed 2 overlapping shows in HTV3 starting after 13/02/2016 02:25:00
+[  Debug ] removed 2 overlapping shows in HTV4 starting after 13/02/2016 01:00:00
+[  Debug ] removed 2 overlapping shows in RTL2 starting after 13/02/2016 00:35:00
+[  Debug ] removed 2 overlapping shows in Doma TV starting after 13/02/2016 01:45:00
+[  Debug ] removed 2 overlapping shows in SPTV starting after 13/02/2016 01:50:00
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 13/02/2016 00:45:00
+[  Debug ] removed 2 overlapping shows in RTL Living starting after 13/02/2016 01:15:00
+[  Debug ] removed 2 overlapping shows in JabukaTV starting after 13/02/2016 02:15:00
+[  Debug ] removed 2 overlapping shows in MrežaZG starting after 13/02/2016 08:00:00
+[  Debug ] removed 2 overlapping shows in Z1 starting after 13/02/2016 07:00:00
+[  Debug ] removed 2 overlapping shows in E starting after 13/02/2016 01:00:00
+[  Debug ] removed 2 overlapping shows in MTV Adria starting after 13/02/2016 00:30:00
+[  Debug ] removed 2 overlapping shows in CMC starting after 13/02/2016 00:15:00
+[  Debug ] removed 2 overlapping shows in VH1 Europe starting after 13/02/2016 09:00:00
+[  Debug ] removed 2 overlapping shows in RTS1 starting after 13/02/2016 00:11:00
+[  Debug ] removed 2 overlapping shows in RTS2 starting after 13/02/2016 02:17:00
+[  Debug ] removed 2 overlapping shows in B92 starting after 13/02/2016 02:05:00
+[  Debug ] removed 2 overlapping shows in PINK starting after 13/02/2016 01:58:00
+[  Debug ] removed 2 overlapping shows in PINK 2 starting after 13/02/2016 02:24:00
+[  Debug ] removed 2 overlapping shows in RTS SAT starting after 13/02/2016 00:59:00
+[  Debug ] removed 2 overlapping shows in RTS 3 starting after 13/02/2016 00:45:00
+[  Debug ] removed 2 overlapping shows in B92 Info kanal starting after 13/02/2016 00:30:00
 [  Info  ] 
 [  Info  ] update requested for - 94 - out of - 94 - channels for 2 day(s)
 [  Info  ] update mode - set per individual channel
@@ -28,444 +54,1123 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV1) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV1
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV1
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061700 +0200
+[  Debug ] multiple entry of a show at 20160213062700 +0200
+[  Debug ] multiple entry of a show at 20160213072100 +0200
+[  Debug ] multiple entry of a show at 20160213092900 +0200
+[  Debug ] multiple entry of a show at 20160213100300 +0200
+[  Debug ] multiple entry of a show at 20160213104800 +0200
+[  Debug ] multiple entry of a show at 20160213110100 +0200
+[  Debug ] multiple entry of a show at 20160213114300 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213121500 +0200
+[  Debug ] multiple entry of a show at 20160213121900 +0200
+[  Debug ] multiple entry of a show at 20160213122500 +0200
+[  Debug ] multiple entry of a show at 20160213131400 +0200
+[  Debug ] multiple entry of a show at 20160213142000 +0200
+[  Debug ] multiple entry of a show at 20160213151800 +0200
+[  Debug ] multiple entry of a show at 20160213153900 +0200
+[  Debug ] multiple entry of a show at 20160213154300 +0200
+[  Debug ] multiple entry of a show at 20160213155900 +0200
+[  Debug ] multiple entry of a show at 20160213173800 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213195200 +0200
+[  Debug ] multiple entry of a show at 20160213195500 +0200
+[  Debug ] multiple entry of a show at 20160213200300 +0200
+[  Debug ] multiple entry of a show at 20160213213800 +0200
+[  Debug ] multiple entry of a show at 20160213233400 +0200
+[  Debug ] multiple entry of a show at 20160213234600 +0200
+[  Debug ] multiple entry of a show at 20160213235000 +0200
+[  Debug ] multiple entry of a show at 20160213235700 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:08:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV2) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV2
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV2
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213062200 +0200
+[  Debug ] multiple entry of a show at 20160213062400 +0200
+[  Debug ] multiple entry of a show at 20160213063100 +0200
+[  Debug ] multiple entry of a show at 20160213063300 +0200
+[  Debug ] multiple entry of a show at 20160213064300 +0200
+[  Debug ] multiple entry of a show at 20160213064600 +0200
+[  Debug ] multiple entry of a show at 20160213064800 +0200
+[  Debug ] multiple entry of a show at 20160213065900 +0200
+[  Debug ] multiple entry of a show at 20160213070100 +0200
+[  Debug ] multiple entry of a show at 20160213070200 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 07:02:00 stop = 13/02/2016 07:29:00 title = Vlak dinosaura,31. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:02:00 stop = 13/02/2016 07:29:00 title = Vlak dinosaura,31. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:02:00 stop = 13/02/2016 07:29:00 title = Vlak dinosaura,31. (?)
+[  Debug ] multiple entry of a show at 20160213072900 +0200
+[  Debug ] multiple entry of a show at 20160213073100 +0200
+[  Debug ] multiple entry of a show at 20160213073400 +0200
+[  Debug ] multiple entry of a show at 20160213074400 +0200
+[  Debug ] multiple entry of a show at 20160213080600 +0200
+[  Debug ] multiple entry of a show at 20160213080800 +0200
+[  Debug ] multiple entry of a show at 20160213081900 +0200
+[  Debug ] multiple entry of a show at 20160213082800 +0200
+[  Debug ] multiple entry of a show at 20160213083800 +0200
+[  Debug ] multiple entry of a show at 20160213084300 +0200
+[  Debug ] multiple entry of a show at 20160213085300 +0200
+[  Debug ] multiple entry of a show at 20160213085800 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213090700 +0200
+[  Debug ] multiple entry of a show at 20160213091400 +0200
+[  Debug ] multiple entry of a show at 20160213092800 +0200
+[  Debug ] multiple entry of a show at 20160213093000 +0200
+[  Debug ] multiple entry of a show at 20160213095600 +0200
+[  Debug ] multiple entry of a show at 20160213114100 +0200
+[  Debug ] multiple entry of a show at 20160213122700 +0200
+[  Debug ] multiple entry of a show at 20160213123500 +0200
+[  Debug ] multiple entry of a show at 20160213132700 +0200
+[  Debug ] multiple entry of a show at 20160213143400 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213163200 +0200
+[  Debug ] multiple entry of a show at 20160213172200 +0200
+[  Debug ] multiple entry of a show at 20160213172500 +0200
+[  Debug ] multiple entry of a show at 20160213175400 +0200
+[  Debug ] multiple entry of a show at 20160213175700 +0200
+[  Debug ] multiple entry of a show at 20160213182600 +0200
+[  Debug ] multiple entry of a show at 20160213182800 +0200
+[  Debug ] multiple entry of a show at 20160213185900 +0200
+[  Debug ] multiple entry of a show at 20160213194900 +0200
+[  Debug ] multiple entry of a show at 20160213195400 +0200
+[  Debug ] multiple entry of a show at 20160213200400 +0200
+[  Debug ] multiple entry of a show at 20160213214300 +0200
+[  Debug ] multiple entry of a show at 20160213214900 +0200
+[  Debug ] multiple entry of a show at 20160213221600 +0200
+[  Debug ] multiple entry of a show at 20160213230700 +0200
+[  Debug ] multiple entry of a show at 20160213234800 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 04:24:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTL
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTL
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213062500 +0200
+[  Debug ] multiple entry of a show at 20160213065000 +0200
+[  Debug ] multiple entry of a show at 20160213074500 +0200
+[  Debug ] multiple entry of a show at 20160213083000 +0200
+[  Debug ] multiple entry of a show at 20160213084500 +0200
+[  Debug ] multiple entry of a show at 20160213091500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 09:15:00 stop = 13/02/2016 10:45:00 title = Tri, dva, jedan - kuhaj! 3,5. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:15:00 stop = 13/02/2016 10:45:00 title = Tri, dva, jedan - kuhaj! 3,5. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:15:00 stop = 13/02/2016 10:45:00 title = Tri, dva, jedan - kuhaj! 3,5. (?)
+[  Debug ] multiple entry of a show at 20160213104500 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 11:00:00 stop = 13/02/2016 12:25:00 title = Tri, dva, jedan - kuhaj! 3,6. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 11:00:00 stop = 13/02/2016 12:25:00 title = Tri, dva, jedan - kuhaj! 3,6. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 11:00:00 stop = 13/02/2016 12:25:00 title = Tri, dva, jedan - kuhaj! 3,6. (?)
+[  Debug ] multiple entry of a show at 20160213122500 +0200
+[  Debug ] multiple entry of a show at 20160213124000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213133500 +0200
+[  Debug ] multiple entry of a show at 20160213144000 +0200
+[  Debug ]    suspicious      title in index page  = BRZI I ŽESTOKI 5 (12)
+[  Debug ]       differs from title in showdetails = Brzi i žestoki 5
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 14:40:00 stop = 13/02/2016 16:30:00 title = Brzi i žestoki 5
+[  Info  ]       Replaces ----- start = 13/02/2016 14:40:00 stop = 13/02/2016 16:30:00 title = Brzi i žestoki 5
+[  Info  ]       Replaces ----- start = 13/02/2016 14:40:00 stop = 13/02/2016 16:30:00 title = Brzi i žestoki 5
+[  Debug ] multiple entry of a show at 20160213163000 +0200
+[  Debug ] multiple entry of a show at 20160213164000 +0200
+[  Debug ]    suspicious      title in index page  = BRZI I ŽESTOKI 5 (12)
+[  Debug ]       differs from title in showdetails = Brzi i žestoki 5
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 16:40:00 stop = 13/02/2016 17:10:00 title = Brzi i žestoki 5
+[  Info  ]       Replaces ----- start = 13/02/2016 16:40:00 stop = 13/02/2016 17:10:00 title = Brzi i žestoki 5
+[  Info  ]       Replaces ----- start = 13/02/2016 16:40:00 stop = 13/02/2016 17:10:00 title = Brzi i žestoki 5
+[  Debug ] multiple entry of a show at 20160213171000 +0200
+[  Debug ] multiple entry of a show at 20160213175000 +0200
+[  Debug ] multiple entry of a show at 20160213183000 +0200
+[  Debug ] multiple entry of a show at 20160213191000 +0200
+[  Debug ] multiple entry of a show at 20160213191500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 19:15:00 stop = 13/02/2016 20:00:00 title = Galileo 5,39. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 19:15:00 stop = 13/02/2016 20:00:00 title = Galileo 5,39. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 19:15:00 stop = 13/02/2016 20:00:00 title = Galileo 5,39. (?)
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ]    suspicious      title in index page  = BOJNI BROD (12)
+[  Debug ]       differs from title in showdetails = Bojni brod
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:30:00 title = Bojni brod
+[  Info  ]       Replaces ----- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:30:00 title = Bojni brod
+[  Info  ]       Replaces ----- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:30:00 title = Bojni brod
+[  Debug ] multiple entry of a show at 20160213223000 +0200
+[  Debug ]    suspicious      title in index page  = PLAĆENICI 2 (12)
+[  Debug ]       differs from title in showdetails = Plaćenici 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 22:30:00 stop = 14/02/2016 00:15:00 title = Plaćenici 2
+[  Info  ]       Replaces ----- start = 13/02/2016 22:30:00 stop = 14/02/2016 00:15:00 title = Plaćenici 2
+[  Info  ]       Replaces ----- start = 13/02/2016 22:30:00 stop = 14/02/2016 00:15:00 title = Plaćenici 2
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 03:10:00
+[  Debug ]    suspicious      title in index page  = BOJNI BROD (12)
+[  Debug ]       differs from title in showdetails = Bojni brod
+[  Debug ]    suspicious      title in index page  = BOJNI BROD (12)
+[  Debug ]       differs from title in showdetails = Bojni brod
+[  Debug ]    suspicious      title in index page  = ZGODNA ŽENA (12)
+[  Debug ]       differs from title in showdetails = Zgodna žena
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=NOVA TV) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel NOVA TV
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from NOVA TV
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061000 +0200
+[  Debug ] multiple entry of a show at 20160213071000 +0200
+[  Debug ] multiple entry of a show at 20160213072000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 07:20:00 stop = 13/02/2016 07:35:00 title = Vatrogasac Sam (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:20:00 stop = 13/02/2016 07:35:00 title = Vatrogasac Sam (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:20:00 stop = 13/02/2016 07:35:00 title = Vatrogasac Sam (?)
+[  Debug ] multiple entry of a show at 20160213073500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 07:35:00 stop = 13/02/2016 08:00:00 title = Ninja kornjače (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:35:00 stop = 13/02/2016 08:00:00 title = Ninja kornjače (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 07:35:00 stop = 13/02/2016 08:00:00 title = Ninja kornjače (?)
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213082000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 08:20:00 stop = 13/02/2016 08:50:00 title = Dinofroz (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:20:00 stop = 13/02/2016 08:50:00 title = Dinofroz (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:20:00 stop = 13/02/2016 08:50:00 title = Dinofroz (?)
+[  Debug ] multiple entry of a show at 20160213085000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 08:50:00 stop = 13/02/2016 09:15:00 title = B-Daman (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:50:00 stop = 13/02/2016 09:15:00 title = B-Daman (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:50:00 stop = 13/02/2016 09:15:00 title = B-Daman (?)
+[  Debug ] multiple entry of a show at 20160213091500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 09:15:00 stop = 13/02/2016 09:45:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:15:00 stop = 13/02/2016 09:45:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:15:00 stop = 13/02/2016 09:45:00 title = Winx Club (?)
+[  Debug ] multiple entry of a show at 20160213094500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 09:45:00 stop = 13/02/2016 09:50:00 title = Maša i Medvjed (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:45:00 stop = 13/02/2016 09:50:00 title = Maša i Medvjed (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:45:00 stop = 13/02/2016 09:50:00 title = Maša i Medvjed (?)
+[  Debug ] multiple entry of a show at 20160213095000 +0200
+[  Debug ] multiple entry of a show at 20160213102500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 10:25:00 stop = 13/02/2016 12:20:00 title = Kud puklo da puklo (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 10:25:00 stop = 13/02/2016 12:20:00 title = Kud puklo da puklo (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 10:25:00 stop = 13/02/2016 12:20:00 title = Kud puklo da puklo (?)
+[  Debug ] multiple entry of a show at 20160213122000 +0200
+[  Debug ] multiple entry of a show at 20160213141500 +0200
+[  Debug ] multiple entry of a show at 20160213163500 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213171000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 17:10:00 stop = 13/02/2016 18:10:00 title = Stella (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:10:00 stop = 13/02/2016 18:10:00 title = Stella (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:10:00 stop = 13/02/2016 18:10:00 title = Stella (?)
+[  Debug ] multiple entry of a show at 20160213181000 +0200
+[  Debug ] multiple entry of a show at 20160213191500 +0200
+[  Debug ] multiple entry of a show at 20160213201000 +0200
+[  Debug ] multiple entry of a show at 20160213205500 +0200
+[  Debug ] multiple entry of a show at 20160213223000 +0200
+[  Debug ]    suspicious      title in index page  = PRINC (12)
+[  Debug ]       differs from title in showdetails = Princ
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:10:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV3) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV3
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV3
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061400 +0200
+[  Debug ] multiple entry of a show at 20160213065900 +0200
+[  Debug ] multiple entry of a show at 20160213074700 +0200
+[  Debug ] multiple entry of a show at 20160213083800 +0200
+[  Debug ] multiple entry of a show at 20160213084800 +0200
+[  Debug ] multiple entry of a show at 20160213094900 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213111500 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213115000 +0200
+[  Debug ] multiple entry of a show at 20160213124000 +0200
+[  Debug ] multiple entry of a show at 20160213131000 +0200
+[  Debug ] multiple entry of a show at 20160213134900 +0200
+[  Debug ] multiple entry of a show at 20160213135800 +0200
+[  Debug ] multiple entry of a show at 20160213162900 +0200
+[  Debug ] multiple entry of a show at 20160213165600 +0200
+[  Debug ] multiple entry of a show at 20160213170400 +0200
+[  Debug ] multiple entry of a show at 20160213175600 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213194900 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213205700 +0200
+[  Debug ] multiple entry of a show at 20160213210500 +0200
+[  Debug ] multiple entry of a show at 20160213215500 +0200
+[  Debug ] multiple entry of a show at 20160213220900 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 04:13:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV4) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV4
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV4
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060500 +0200
+[  Debug ] multiple entry of a show at 20160213061000 +0200
+[  Debug ] multiple entry of a show at 20160213062500 +0200
+[  Debug ] multiple entry of a show at 20160213065700 +0200
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213070500 +0200
+[  Debug ] multiple entry of a show at 20160213070600 +0200
+[  Debug ] multiple entry of a show at 20160213070900 +0200
+[  Debug ] multiple entry of a show at 20160213071000 +0200
+[  Debug ] multiple entry of a show at 20160213071700 +0200
+[  Debug ] multiple entry of a show at 20160213072000 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213080500 +0200
+[  Debug ] multiple entry of a show at 20160213080600 +0200
+[  Debug ] multiple entry of a show at 20160213080900 +0200
+[  Debug ] multiple entry of a show at 20160213081000 +0200
+[  Debug ] multiple entry of a show at 20160213081500 +0200
+[  Debug ] multiple entry of a show at 20160213085000 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213090500 +0200
+[  Debug ] multiple entry of a show at 20160213090600 +0200
+[  Debug ] multiple entry of a show at 20160213093100 +0200
+[  Debug ] multiple entry of a show at 20160213095800 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213101000 +0200
+[  Debug ] multiple entry of a show at 20160213101100 +0200
+[  Debug ] multiple entry of a show at 20160213102600 +0200
+[  Debug ] multiple entry of a show at 20160213102700 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213111000 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213121500 +0200
+[  Debug ] multiple entry of a show at 20160213123000 +0200
+[  Debug ] multiple entry of a show at 20160213125700 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213131000 +0200
+[  Debug ] multiple entry of a show at 20160213132500 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213140500 +0200
+[  Debug ] multiple entry of a show at 20160213140600 +0200
+[  Debug ] multiple entry of a show at 20160213140900 +0200
+[  Debug ] multiple entry of a show at 20160213141000 +0200
+[  Debug ] multiple entry of a show at 20160213141500 +0200
+[  Debug ] multiple entry of a show at 20160213142500 +0200
+[  Debug ] multiple entry of a show at 20160213143500 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213150500 +0200
+[  Debug ] multiple entry of a show at 20160213153000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213163000 +0200
+[  Debug ] multiple entry of a show at 20160213165500 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213170500 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213180500 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213195200 +0200
+[  Debug ] multiple entry of a show at 20160213195300 +0200
+[  Debug ] multiple entry of a show at 20160213195400 +0200
+[  Debug ] multiple entry of a show at 20160213195500 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213211000 +0200
+[  Debug ] multiple entry of a show at 20160213215500 +0200
+[  Debug ] multiple entry of a show at 20160213220000 +0200
+[  Debug ] multiple entry of a show at 20160213221000 +0200
+[  Debug ] multiple entry of a show at 20160213223700 +0200
+[  Debug ] multiple entry of a show at 20160213224000 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ] multiple entry of a show at 20160213230500 +0200
+[  Debug ] multiple entry of a show at 20160213231500 +0200
+[  Debug ] multiple entry of a show at 20160213234500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:30:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL2) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTL2
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTL2
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061000 +0200
+[  Debug ] multiple entry of a show at 20160213064000 +0200
+[  Debug ] multiple entry of a show at 20160213071000 +0200
+[  Debug ] multiple entry of a show at 20160213072500 +0200
+[  Debug ] multiple entry of a show at 20160213075500 +0200
+[  Debug ] multiple entry of a show at 20160213082500 +0200
+[  Debug ] multiple entry of a show at 20160213084000 +0200
+[  Debug ] multiple entry of a show at 20160213091000 +0200
+[  Debug ] multiple entry of a show at 20160213094000 +0200
+[  Debug ] multiple entry of a show at 20160213095500 +0200
+[  Debug ] multiple entry of a show at 20160213102500 +0200
+[  Debug ] multiple entry of a show at 20160213105500 +0200
+[  Debug ] multiple entry of a show at 20160213111000 +0200
+[  Debug ] multiple entry of a show at 20160213121000 +0200
+[  Debug ] multiple entry of a show at 20160213131000 +0200
+[  Debug ] multiple entry of a show at 20160213141500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 14:15:00 stop = 13/02/2016 14:50:00 title = InDizajn s Mirjanom Mikulec 8,10. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:15:00 stop = 13/02/2016 14:50:00 title = InDizajn s Mirjanom Mikulec 8,10. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:15:00 stop = 13/02/2016 14:50:00 title = InDizajn s Mirjanom Mikulec 8,10. (?)
+[  Debug ] multiple entry of a show at 20160213145000 +0200
+[  Debug ] multiple entry of a show at 20160213152000 +0200
+[  Debug ] multiple entry of a show at 20160213162000 +0200
+[  Debug ] multiple entry of a show at 20160213172000 +0200
+[  Debug ] multiple entry of a show at 20160213174000 +0200
+[  Debug ] multiple entry of a show at 20160213181500 +0200
+[  Debug ] multiple entry of a show at 20160213191000 +0200
+[  Debug ] multiple entry of a show at 20160213200500 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213215000 +0200
+[  Debug ] multiple entry of a show at 20160213224500 +0200
+[  Debug ] multiple entry of a show at 20160213234000 +0200
+[  Debug ]    suspicious      title in index page  = The Show Must Go On (12)
+[  Debug ]       differs from title in showdetails = The Show Must Go On
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:05:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Doma TV) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel Doma TV
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from Doma TV
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213064000 +0200
+[  Debug ] multiple entry of a show at 20160213072000 +0200
+[  Debug ] multiple entry of a show at 20160213074500 +0200
+[  Debug ] multiple entry of a show at 20160213080500 +0200
+[  Debug ] multiple entry of a show at 20160213085500 +0200
+[  Debug ] multiple entry of a show at 20160213091500 +0200
+[  Debug ] multiple entry of a show at 20160213093000 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213101500 +0200
+[  Debug ] multiple entry of a show at 20160213104500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 10:45:00 stop = 13/02/2016 11:20:00 title = Dadilja (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 10:45:00 stop = 13/02/2016 11:20:00 title = Dadilja (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 10:45:00 stop = 13/02/2016 11:20:00 title = Dadilja (?)
+[  Debug ] multiple entry of a show at 20160213112000 +0200
+[  Debug ] multiple entry of a show at 20160213113500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 11:35:00 stop = 13/02/2016 12:00:00 title = Dadilja (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 11:35:00 stop = 13/02/2016 12:00:00 title = Dadilja (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 11:35:00 stop = 13/02/2016 12:00:00 title = Dadilja (?)
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213125000 +0200
+[  Debug ] multiple entry of a show at 20160213130500 +0200
+[  Debug ] multiple entry of a show at 20160213143000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 14:30:00 stop = 13/02/2016 15:15:00 title = Inspektor Rex (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:30:00 stop = 13/02/2016 15:15:00 title = Inspektor Rex (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:30:00 stop = 13/02/2016 15:15:00 title = Inspektor Rex (?)
+[  Debug ] multiple entry of a show at 20160213151500 +0200
+[  Debug ] multiple entry of a show at 20160213153000 +0200
+[  Debug ] multiple entry of a show at 20160213172000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 17:20:00 stop = 13/02/2016 18:10:00 title = Osumnjičeni (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:20:00 stop = 13/02/2016 18:10:00 title = Osumnjičeni (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:20:00 stop = 13/02/2016 18:10:00 title = Osumnjičeni (?)
+[  Debug ] multiple entry of a show at 20160213181000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ]    suspicious      title in index page  = Razotkrivanje (12)
+[  Debug ]       differs from title in showdetails = Razotkrivanje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:15:00 title = Razotkrivanje
+[  Info  ]       Replaces ----- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:15:00 title = Razotkrivanje
+[  Info  ]       Replaces ----- start = 13/02/2016 20:00:00 stop = 13/02/2016 22:15:00 title = Razotkrivanje
+[  Debug ] multiple entry of a show at 20160213221500 +0200
+[  Debug ] multiple entry of a show at 20160213235500 +0200
+[  Debug ]    suspicious      title in index page  = Razotkrivanje (12)
+[  Debug ]       differs from title in showdetails = Razotkrivanje
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:30:00
+[  Debug ]    suspicious      title in index page  = Petak (12)
+[  Debug ]       differs from title in showdetails = Petak
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   9/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=SPTV) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel SPTV
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from SPTV
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213063500 +0200
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213083500 +0200
+[  Debug ] multiple entry of a show at 20160213101500 +0200
+[  Debug ] multiple entry of a show at 20160213111000 +0200
+[  Debug ] multiple entry of a show at 20160213115500 +0200
+[  Debug ] multiple entry of a show at 20160213125500 +0200
+[  Debug ] multiple entry of a show at 20160213134000 +0200
+[  Debug ] multiple entry of a show at 20160213144000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213213000 +0200
+[  Debug ] multiple entry of a show at 20160213220000 +0200
+[  Debug ] multiple entry of a show at 20160213230500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 00:25:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL Kockica) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTL Kockica
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTL Kockica
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060500 +0200
+[  Debug ] multiple entry of a show at 20160213070500 +0200
+[  Debug ] multiple entry of a show at 20160213073500 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213090500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 09:05:00 stop = 13/02/2016 09:30:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:05:00 stop = 13/02/2016 09:30:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:05:00 stop = 13/02/2016 09:30:00 title = Mickey Mouse Clubhouse (?)
+[  Debug ] multiple entry of a show at 20160213093000 +0200
+[  Debug ] multiple entry of a show at 20160213095500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 09:55:00 stop = 13/02/2016 10:15:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:55:00 stop = 13/02/2016 10:15:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 09:55:00 stop = 13/02/2016 10:15:00 title = Doktorica Pliško (?)
+[  Debug ] multiple entry of a show at 20160213101500 +0200
+[  Debug ] multiple entry of a show at 20160213105500 +0200
+[  Debug ] multiple entry of a show at 20160213112000 +0200
+[  Debug ] multiple entry of a show at 20160213114000 +0200
+[  Debug ] multiple entry of a show at 20160213121000 +0200
+[  Debug ] multiple entry of a show at 20160213123500 +0200
+[  Debug ] multiple entry of a show at 20160213125500 +0200
+[  Debug ] multiple entry of a show at 20160213132000 +0200
+[  Debug ] multiple entry of a show at 20160213132500 +0200
+[  Debug ] multiple entry of a show at 20160213144500 +0200
+[  Debug ] multiple entry of a show at 20160213154500 +0200
+[  Debug ] multiple entry of a show at 20160213165000 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 17:00:00 stop = 13/02/2016 17:25:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:00:00 stop = 13/02/2016 17:25:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:00:00 stop = 13/02/2016 17:25:00 title = Mickey Mouse Clubhouse (?)
+[  Debug ] multiple entry of a show at 20160213172500 +0200
+[  Debug ] multiple entry of a show at 20160213175000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 17:50:00 stop = 13/02/2016 18:10:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:50:00 stop = 13/02/2016 18:10:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 17:50:00 stop = 13/02/2016 18:10:00 title = Doktorica Pliško (?)
+[  Debug ] multiple entry of a show at 20160213181000 +0200
+[  Debug ] multiple entry of a show at 20160213185000 +0200
+[  Debug ] multiple entry of a show at 20160213185500 +0200
+[  Debug ] multiple entry of a show at 20160213190500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 19:05:00 stop = 13/02/2016 19:30:00 title = Mali leteći medvjedi (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 19:05:00 stop = 13/02/2016 19:30:00 title = Mali leteći medvjedi (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 19:05:00 stop = 13/02/2016 19:30:00 title = Mali leteći medvjedi (?)
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213195500 +0200
+[  Debug ] multiple entry of a show at 20160213202500 +0200
+[  Debug ] multiple entry of a show at 20160213205500 +0200
+[  Debug ] multiple entry of a show at 20160213221500 +0200
+[  Debug ] multiple entry of a show at 20160213224000 +0200
+[  Debug ] multiple entry of a show at 20160213231500 +0200
+[  Debug ] multiple entry of a show at 20160213234500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 00:35:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL Living) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTL Living
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTL Living
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213103500 +0200
+[  Debug ] multiple entry of a show at 20160213112500 +0200
+[  Debug ] multiple entry of a show at 20160213114000 +0200
+[  Debug ] multiple entry of a show at 20160213124000 +0200
+[  Debug ] multiple entry of a show at 20160213134000 +0200
+[  Debug ] multiple entry of a show at 20160213135500 +0200
+[  Debug ] multiple entry of a show at 20160213144000 +0200
+[  Debug ] multiple entry of a show at 20160213145500 +0200
+[  Debug ]    suspicious      title in index page  = Ellen 12,170.
+[  Debug ]       differs from title in showdetails = Ellen
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 14:55:00 stop = 13/02/2016 15:40:00 title = Ellen
+[  Info  ]       Replaces ----- start = 13/02/2016 14:55:00 stop = 13/02/2016 15:40:00 title = Ellen
+[  Info  ]       Replaces ----- start = 13/02/2016 14:55:00 stop = 13/02/2016 15:40:00 title = Ellen
+[  Debug ] multiple entry of a show at 20160213154000 +0200
+[  Debug ] multiple entry of a show at 20160213155500 +0200
+[  Debug ] multiple entry of a show at 20160213164000 +0200
+[  Debug ] multiple entry of a show at 20160213165500 +0200
+[  Debug ] multiple entry of a show at 20160213174000 +0200
+[  Debug ] multiple entry of a show at 20160213175500 +0200
+[  Debug ] multiple entry of a show at 20160213185000 +0200
+[  Debug ] multiple entry of a show at 20160213190500 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213204000 +0200
+[  Debug ] multiple entry of a show at 20160213204500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 20:45:00 stop = 13/02/2016 22:10:00 title = Tri, dva, jedan - kuhaj! 2,23. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 20:45:00 stop = 13/02/2016 22:10:00 title = Tri, dva, jedan - kuhaj! 2,23. (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 20:45:00 stop = 13/02/2016 22:10:00 title = Tri, dva, jedan - kuhaj! 2,23. (?)
+[  Debug ] multiple entry of a show at 20160213221000 +0200
+[  Debug ] multiple entry of a show at 20160213225500 +0200
+[  Debug ] multiple entry of a show at 20160213233500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 00:20:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=JabukaTV) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel JabukaTV
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from JabukaTV
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213065800 +0200
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 08:00:00 stop = 13/02/2016 10:00:00 title = Dječja TV (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:00:00 stop = 13/02/2016 10:00:00 title = Dječja TV (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 08:00:00 stop = 13/02/2016 10:00:00 title = Dječja TV (?)
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213123000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213143000 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213161500 +0200
+[  Debug ] multiple entry of a show at 20160213164500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 16:45:00 stop = 13/02/2016 17:15:00 title = dom2, uređenje interijera i eksterijera (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:45:00 stop = 13/02/2016 17:15:00 title = dom2, uređenje interijera i eksterijera (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:45:00 stop = 13/02/2016 17:15:00 title = dom2, uređenje interijera i eksterijera (?)
+[  Debug ] multiple entry of a show at 20160213171500 +0200
+[  Debug ] multiple entry of a show at 20160213174500 +0200
+[  Debug ] multiple entry of a show at 20160213184000 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 18:40:00 stop = 13/02/2016 19:00:00 title = Obzori, pogled na likovnu scenu (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 18:40:00 stop = 13/02/2016 19:00:00 title = Obzori, pogled na likovnu scenu (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 18:40:00 stop = 13/02/2016 19:00:00 title = Obzori, pogled na likovnu scenu (?)
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213192800 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 02:15:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  13/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=MrežaZG) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel MrežaZG
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from MrežaZG
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Info  ]    epg correction : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 08:00:00 stop = 13/02/2016 08:05:00 title = Glavom kroz ekran
+[  Info  ]       Added before - start = 13/02/2016 08:05:00 stop = 13/02/2016 08:15:00 title = Mreža danas
+[  Debug ] multiple entry of a show at 20160213080500 +0200
+[  Debug ] multiple entry of a show at 20160213081500 +0200
+[  Debug ] multiple entry of a show at 20160213083000 +0200
+[  Debug ] multiple entry of a show at 20160213084500 +0200
+[  Debug ] multiple entry of a show at 20160213094500 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213101500 +0200
+[  Debug ] multiple entry of a show at 20160213104500 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213111500 +0200
+[  Debug ] multiple entry of a show at 20160213114500 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213121500 +0200
+[  Debug ] multiple entry of a show at 20160213124500 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213131500 +0200
+[  Debug ] multiple entry of a show at 20160213134500 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213143000 +0200
+[  Debug ] multiple entry of a show at 20160213144500 +0200
+[  Debug ] multiple entry of a show at 20160213154500 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213161500 +0200
+[  Debug ] multiple entry of a show at 20160213164500 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213173000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213183000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213205500 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213223000 +0200
+[  Debug ] multiple entry of a show at 20160213225500 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 13/02/2016 23:00:00
+[  Debug ]    suspicious      title in index page  = Poslanici (12)
+[  Debug ]       differs from title in showdetails = Poslanici
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 23:00:00
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  14/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Z1) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel Z1
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from Z1
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213072500 +0200
+[  Debug ] multiple entry of a show at 20160213072600 +0200
+[  Debug ] multiple entry of a show at 20160213082400 +0200
+[  Debug ] multiple entry of a show at 20160213082500 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213094500 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213105900 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213113500 +0200
+[  Debug ] multiple entry of a show at 20160213114500 +0200
+[  Debug ] multiple entry of a show at 20160213115900 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213122900 +0200
+[  Debug ] multiple entry of a show at 20160213123000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213133000 +0200
+[  Debug ] multiple entry of a show at 20160213135900 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213142900 +0200
+[  Debug ] multiple entry of a show at 20160213143000 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213152900 +0200
+[  Debug ] multiple entry of a show at 20160213153000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213162900 +0200
+[  Debug ] multiple entry of a show at 20160213163000 +0200
+[  Debug ] multiple entry of a show at 20160213172900 +0200
+[  Debug ] multiple entry of a show at 20160213173000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213182900 +0200
+[  Debug ] multiple entry of a show at 20160213183000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213192900 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213195500 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213202900 +0200
+[  Debug ] multiple entry of a show at 20160213203000 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ] multiple entry of a show at 20160213233000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 01:45:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=E) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel E
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from E
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213063000 +0200
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213133000 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213220000 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:00:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=MTV Adria) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel MTV Adria
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from MTV Adria
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061000 +0200
+[  Debug ] multiple entry of a show at 20160213071000 +0200
+[  Debug ] multiple entry of a show at 20160213081000 +0200
+[  Debug ] multiple entry of a show at 20160213082000 +0200
+[  Debug ] multiple entry of a show at 20160213085000 +0200
+[  Debug ] multiple entry of a show at 20160213091000 +0200
+[  Debug ] multiple entry of a show at 20160213094000 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213121000 +0200
+[  Debug ] multiple entry of a show at 20160213161000 +0200
+[  Debug ] multiple entry of a show at 20160213163000 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213173000 +0200
+[  Debug ] multiple entry of a show at 20160213175000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213194000 +0200
+[  Debug ] multiple entry of a show at 20160213195000 +0200
+[  Debug ] multiple entry of a show at 20160213202000 +0200
+[  Debug ] multiple entry of a show at 20160213204000 +0200
+[  Debug ] multiple entry of a show at 20160213211000 +0200
+[  Debug ] multiple entry of a show at 20160213213000 +0200
+[  Debug ] multiple entry of a show at 20160213222000 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ] multiple entry of a show at 20160213231000 +0200
+[  Debug ] multiple entry of a show at 20160213234000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 00:10:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  17/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CMC) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel CMC
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from CMC
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213074900 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213091000 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213104000 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213121000 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213144000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213173000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213181000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 01:00:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  18/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=VH1 Europe) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel VH1 Europe
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from VH1 Europe
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 00:00:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  19/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=VH1 classic Europe) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel VH1 classic Europe
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from VH1 classic Europe
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ]    skipped negative show time! at 13/02/2016 07:00:00
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 13/02/2016 07:00:00
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 01:00:00
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS1) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTS1
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTS1
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213060500 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213083000 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213090500 +0200
+[  Debug ] multiple entry of a show at 20160213110500 +0200
+[  Debug ] multiple entry of a show at 20160213111100 +0200
+[  Debug ] multiple entry of a show at 20160213113800 +0200
+[  Debug ] multiple entry of a show at 20160213120500 +0200
+[  Debug ] multiple entry of a show at 20160213121000 +0200
+[  Debug ] multiple entry of a show at 20160213124300 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213131500 +0200
+[  Debug ] multiple entry of a show at 20160213132500 +0200
+[  Debug ] multiple entry of a show at 20160213133300 +0200
+[  Debug ] multiple entry of a show at 20160213135500 +0200
+[  Debug ] multiple entry of a show at 20160213140500 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213151000 +0200
+[  Debug ] multiple entry of a show at 20160213160300 +0200
+[  Debug ] multiple entry of a show at 20160213160800 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 16:08:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (12) (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:08:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (12) (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:08:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (12) (?)
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ]    suspicious      title in index page  = Tvoja, moja i naša (12)
+[  Debug ]       differs from title in showdetails = Tvoja, moja i naša
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 17:00:00 stop = 13/02/2016 18:30:00 title = Tvoja, moja i naša
+[  Info  ]       Replaces ----- start = 13/02/2016 17:00:00 stop = 13/02/2016 18:30:00 title = Tvoja, moja i naša
+[  Info  ]       Replaces ----- start = 13/02/2016 17:00:00 stop = 13/02/2016 18:30:00 title = Tvoja, moja i naša
+[  Debug ] multiple entry of a show at 20160213183000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213192100 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200500 +0200
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 20:05:00 stop = 13/02/2016 20:56:00 title = Na putu za Montevideo
+[  Info  ]       Replaces ----- start = 13/02/2016 20:05:00 stop = 13/02/2016 20:56:00 title = Na putu za Montevideo
+[  Info  ]       Replaces ----- start = 13/02/2016 20:05:00 stop = 13/02/2016 20:56:00 title = Na putu za Montevideo
+[  Debug ] multiple entry of a show at 20160213205600 +0200
+[  Debug ]    suspicious      title in index page  = Klopka (12)
+[  Debug ]       differs from title in showdetails = Klopka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 20:56:00 stop = 13/02/2016 22:45:00 title = Klopka
+[  Info  ]       Replaces ----- start = 13/02/2016 20:56:00 stop = 13/02/2016 22:45:00 title = Klopka
+[  Info  ]       Replaces ----- start = 13/02/2016 20:56:00 stop = 13/02/2016 22:45:00 title = Klopka
+[  Debug ] multiple entry of a show at 20160213224500 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo (12) (?)
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:47:00
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo (12) (?)
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo
+[  Debug ]    suspicious      title in index page  = Ljepotica i zvijer (12)
+[  Debug ]       differs from title in showdetails = Ljepotica i zvijer
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  21/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS2) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTS2
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTS2
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213062100 +0200
+[  Debug ] multiple entry of a show at 20160213064000 +0200
+[  Debug ] multiple entry of a show at 20160213064500 +0200
+[  Debug ] multiple entry of a show at 20160213065400 +0200
+[  Debug ] multiple entry of a show at 20160213070600 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213094900 +0200
+[  Debug ] multiple entry of a show at 20160213100300 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213121300 +0200
+[  Debug ] multiple entry of a show at 20160213124300 +0200
+[  Debug ] multiple entry of a show at 20160213131800 +0200
+[  Debug ] multiple entry of a show at 20160213134300 +0200
+[  Debug ] multiple entry of a show at 20160213142000 +0200
+[  Debug ] multiple entry of a show at 20160213145100 +0200
+[  Debug ] multiple entry of a show at 20160213151600 +0200
+[  Debug ] multiple entry of a show at 20160213160400 +0200
+[  Debug ] multiple entry of a show at 20160213163100 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213171500 +0200
+[  Debug ] multiple entry of a show at 20160213174100 +0200
+[  Debug ] multiple entry of a show at 20160213181000 +0200
+[  Debug ] multiple entry of a show at 20160213182000 +0200
+[  Debug ] multiple entry of a show at 20160213202500 +0200
+[  Debug ] multiple entry of a show at 20160213205000 +0200
+[  Debug ] multiple entry of a show at 20160213230000 +0200
+[  Debug ] multiple entry of a show at 20160213232900 +0200
+[  Debug ] multiple entry of a show at 20160213235500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 04:44:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  22/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=B92) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel B92
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from B92
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213073500 +0200
+[  Debug ] multiple entry of a show at 20160213093500 +0200
+[  Debug ] multiple entry of a show at 20160213095000 +0200
+[  Debug ] multiple entry of a show at 20160213122500 +0200
+[  Debug ] multiple entry of a show at 20160213141000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213163500 +0200
+[  Debug ] multiple entry of a show at 20160213170500 +0200
+[  Debug ] multiple entry of a show at 20160213190500 +0200
+[  Debug ] multiple entry of a show at 20160213200500 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ] multiple entry of a show at 20160213233500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 03:00:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel PINK
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from PINK
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213072100 +0200
+[  Debug ] multiple entry of a show at 20160213075200 +0200
+[  Debug ] multiple entry of a show at 20160213110200 +0200
+[  Debug ] multiple entry of a show at 20160213120300 +0200
+[  Debug ] multiple entry of a show at 20160213140700 +0200
+[  Debug ] multiple entry of a show at 20160213165000 +0200
+[  Debug ] multiple entry of a show at 20160213182900 +0200
+[  Debug ] multiple entry of a show at 20160213190600 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213234300 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:42:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK 2) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel PINK 2
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from PINK 2
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213064900 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 06:49:00 stop = 13/02/2016 07:45:00 title = Elitna Jedinica
+[  Info  ]       Replaces ----- start = 13/02/2016 06:49:00 stop = 13/02/2016 07:45:00 title = Elitna Jedinica
+[  Info  ]       Replaces ----- start = 13/02/2016 06:49:00 stop = 13/02/2016 07:45:00 title = Elitna Jedinica
+[  Debug ] multiple entry of a show at 20160213074500 +0200
+[  Debug ] multiple entry of a show at 20160213080300 +0200
+[  Debug ] multiple entry of a show at 20160213100300 +0200
+[  Debug ] multiple entry of a show at 20160213120200 +0200
+[  Debug ] multiple entry of a show at 20160213124800 +0200
+[  Debug ] multiple entry of a show at 20160213150300 +0200
+[  Debug ]    suspicious      title in index page  = Celebrity (12)
+[  Debug ]       differs from title in showdetails = Celebrity
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 15:03:00 stop = 13/02/2016 17:03:00 title = Celebrity
+[  Info  ]       Replaces ----- start = 13/02/2016 15:03:00 stop = 13/02/2016 17:03:00 title = Celebrity
+[  Info  ]       Replaces ----- start = 13/02/2016 15:03:00 stop = 13/02/2016 17:03:00 title = Celebrity
+[  Debug ] multiple entry of a show at 20160213170300 +0200
+[  Debug ] multiple entry of a show at 20160213200300 +0200
+[  Debug ] multiple entry of a show at 20160213220200 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 04:18:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS SAT) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTS SAT
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTS SAT
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213060500 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213083000 +0200
+[  Debug ] multiple entry of a show at 20160213090000 +0200
+[  Debug ] multiple entry of a show at 20160213090600 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213100500 +0200
+[  Debug ] multiple entry of a show at 20160213110000 +0200
+[  Debug ] multiple entry of a show at 20160213113500 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213120500 +0200
+[  Debug ] multiple entry of a show at 20160213124000 +0200
+[  Debug ] multiple entry of a show at 20160213130000 +0200
+[  Debug ] multiple entry of a show at 20160213131500 +0200
+[  Debug ] multiple entry of a show at 20160213132500 +0200
+[  Debug ] multiple entry of a show at 20160213133000 +0200
+[  Debug ] multiple entry of a show at 20160213140500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 14:05:00 stop = 13/02/2016 15:00:00 title = Vi i Mira Adanja Polak (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:05:00 stop = 13/02/2016 15:00:00 title = Vi i Mira Adanja Polak (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 14:05:00 stop = 13/02/2016 15:00:00 title = Vi i Mira Adanja Polak (?)
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213151000 +0200
+[  Debug ] multiple entry of a show at 20160213155000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213160300 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 13/02/2016 16:03:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:03:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (?)
+[  Info  ]       Replaces ----- start = 13/02/2016 16:03:00 stop = 13/02/2016 17:00:00 title = Na putu za Montevideo (?)
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213183000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200500 +0200
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 13/02/2016 20:05:00 stop = 13/02/2016 21:00:00 title = Na putu za Montevideo
+[  Info  ]       Replaces ----- start = 13/02/2016 20:05:00 stop = 13/02/2016 21:00:00 title = Na putu za Montevideo
+[  Info  ]       Replaces ----- start = 13/02/2016 20:05:00 stop = 13/02/2016 21:00:00 title = Na putu za Montevideo
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213225000 +0200
+[  Debug ] multiple entry of a show at 20160213232000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:47:00
+[  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
+[  Debug ]       differs from title in showdetails = Na putu za Montevideo
+[  Debug ]    suspicious      title in index page  = TV teatar: "Magneti" (12)
+[  Debug ]       differs from title in showdetails = TV teatar: "Magneti"
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  26/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS 3) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTS 3
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTS 3
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213061500 +0200
+[  Debug ] multiple entry of a show at 20160213071500 +0200
+[  Debug ] multiple entry of a show at 20160213073000 +0200
+[  Debug ] multiple entry of a show at 20160213081500 +0200
+[  Debug ] multiple entry of a show at 20160213084500 +0200
+[  Debug ] multiple entry of a show at 20160213092500 +0200
+[  Debug ] multiple entry of a show at 20160213093000 +0200
+[  Debug ] multiple entry of a show at 20160213100000 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213120000 +0200
+[  Debug ] multiple entry of a show at 20160213141500 +0200
+[  Debug ] multiple entry of a show at 20160213151500 +0200
+[  Debug ] multiple entry of a show at 20160213153000 +0200
+[  Debug ] multiple entry of a show at 20160213160000 +0200
+[  Debug ] multiple entry of a show at 20160213161500 +0200
+[  Debug ] multiple entry of a show at 20160213171000 +0200
+[  Debug ] multiple entry of a show at 20160213171500 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213220000 +0200
+[  Debug ] multiple entry of a show at 20160213233000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:00:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  27/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=B92 Info kanal) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel B92 Info kanal
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from B92 Info kanal
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160213060000 +0200
+[  Debug ] multiple entry of a show at 20160213070000 +0200
+[  Debug ] multiple entry of a show at 20160213073000 +0200
+[  Debug ] multiple entry of a show at 20160213080000 +0200
+[  Debug ] multiple entry of a show at 20160213083000 +0200
+[  Debug ] multiple entry of a show at 20160213093000 +0200
+[  Debug ] multiple entry of a show at 20160213103000 +0200
+[  Debug ] multiple entry of a show at 20160213113000 +0200
+[  Debug ] multiple entry of a show at 20160213133000 +0200
+[  Debug ] multiple entry of a show at 20160213140000 +0200
+[  Debug ] multiple entry of a show at 20160213143000 +0200
+[  Debug ] multiple entry of a show at 20160213150000 +0200
+[  Debug ] multiple entry of a show at 20160213153000 +0200
+[  Debug ] multiple entry of a show at 20160213162500 +0200
+[  Debug ] multiple entry of a show at 20160213170000 +0200
+[  Debug ] multiple entry of a show at 20160213173000 +0200
+[  Debug ] multiple entry of a show at 20160213180000 +0200
+[  Debug ] multiple entry of a show at 20160213190000 +0200
+[  Debug ] multiple entry of a show at 20160213193000 +0200
+[  Debug ] multiple entry of a show at 20160213200000 +0200
+[  Debug ] multiple entry of a show at 20160213203000 +0200
+[  Debug ] multiple entry of a show at 20160213210000 +0200
+[  Debug ] multiple entry of a show at 20160213213000 +0200
+[  Debug ] multiple entry of a show at 20160213220000 +0200
+[  Debug ] multiple entry of a show at 20160213223000 +0200
+[  Debug ] multiple entry of a show at 20160213233000 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 14/02/2016 05:30:00
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (  28/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Arena Sport 1.hr) -- mode incremental
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: Error: ConnectFailure (Connection refused)
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 04:00:00
 [  Debug ]    skipped : no value for starttime
@@ -582,6 +1287,14 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  47/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Boomerang) -- mode incremental
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 01:30:00 stop = 14/02/2016 02:10:00 title = The Owl & Co (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 01:30:00 stop = 14/02/2016 02:10:00 title = The Owl & Co (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 04:40:00 stop = 14/02/2016 05:10:00 title = The Owl & Co (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 04:40:00 stop = 14/02/2016 05:10:00 title = The Owl & Co (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:10:00
 [  Debug ]    skipped : no value for starttime
@@ -596,8 +1309,20 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 13/02/2016 12:55:00 stop = 13/02/2016 13:40:00 title = The Amazing World of Gumball (?)
 [  Info  ]       Replaces ----- start = 13/02/2016 12:55:00 stop = 13/02/2016 13:40:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 03:50:00 stop = 14/02/2016 04:20:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 03:50:00 stop = 14/02/2016 04:20:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 04:20:00 stop = 14/02/2016 04:45:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 04:20:00 stop = 14/02/2016 04:45:00 title = The Amazing World of Gumball (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:10:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:55:00 stop = 14/02/2016 13:40:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:55:00 stop = 14/02/2016 13:40:00 title = The Amazing World of Gumball (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -749,6 +1474,134 @@
 [  Info  ]       Replaces ----- start = 13/02/2016 19:50:00 stop = 14/02/2016 06:00:00 title = Pepa prase 3,11. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 13/02/2016 19:50:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:00:00 stop = 14/02/2016 06:12:00 title = Maca Popi,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:00:00 stop = 14/02/2016 06:12:00 title = Maca Popi,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:12:00 stop = 14/02/2016 06:24:00 title = Svemirski trkači,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:12:00 stop = 14/02/2016 06:24:00 title = Svemirski trkači,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:24:00 stop = 14/02/2016 06:42:00 title = Maja,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:24:00 stop = 14/02/2016 06:42:00 title = Maja,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:42:00 stop = 14/02/2016 07:00:00 title = Morske princeze,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:42:00 stop = 14/02/2016 07:00:00 title = Morske princeze,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:00:00 stop = 14/02/2016 07:13:00 title = Rouzin Svet 3,12. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:00:00 stop = 14/02/2016 07:13:00 title = Rouzin Svet 3,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:13:00 stop = 14/02/2016 07:26:00 title = Kejt i Mim-Mim,12. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:13:00 stop = 14/02/2016 07:26:00 title = Kejt i Mim-Mim,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:26:00 stop = 14/02/2016 07:38:00 title = Slonica Ela,43. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:26:00 stop = 14/02/2016 07:38:00 title = Slonica Ela,43. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:50:00 stop = 14/02/2016 08:00:00 title = Porodica svemirskih pasa,12. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:50:00 stop = 14/02/2016 08:00:00 title = Porodica svemirskih pasa,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 09:15:00 stop = 14/02/2016 09:30:00 title = Majmun vidi, majmun radi 2,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 09:15:00 stop = 14/02/2016 09:30:00 title = Majmun vidi, majmun radi 2,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 09:30:00 stop = 14/02/2016 09:45:00 title = Pets klub,27. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 09:30:00 stop = 14/02/2016 09:45:00 title = Pets klub,27. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 09:45:00 stop = 14/02/2016 10:00:00 title = Pets klub,28. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 09:45:00 stop = 14/02/2016 10:00:00 title = Pets klub,28. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 10:00:00 stop = 14/02/2016 10:15:00 title = Jež Alfred na zadatku,27. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 10:00:00 stop = 14/02/2016 10:15:00 title = Jež Alfred na zadatku,27. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 10:15:00 stop = 14/02/2016 10:30:00 title = Jež Alfred na zadatku,28. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 10:15:00 stop = 14/02/2016 10:30:00 title = Jež Alfred na zadatku,28. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 10:30:00 stop = 14/02/2016 11:00:00 title = Četiri i po detektiva,14. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 10:30:00 stop = 14/02/2016 11:00:00 title = Četiri i po detektiva,14. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:00:00 stop = 14/02/2016 11:25:00 title = Zorro The Chronicles,19. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:00:00 stop = 14/02/2016 11:25:00 title = Zorro The Chronicles,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:25:00 stop = 14/02/2016 11:50:00 title = Zorro The Chronicles,20. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:25:00 stop = 14/02/2016 11:50:00 title = Zorro The Chronicles,20. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:00:00 title = Porodica svemirskih pasa,11. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:00:00 title = Porodica svemirskih pasa,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:25:00 stop = 14/02/2016 12:50:00 title = Mia i ja 2,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:25:00 stop = 14/02/2016 12:50:00 title = Mia i ja 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:50:00 stop = 14/02/2016 13:20:00 title = Radoznali Džordž 5,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:50:00 stop = 14/02/2016 13:20:00 title = Radoznali Džordž 5,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:20:00 stop = 14/02/2016 13:50:00 title = Bibi i Tina,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:20:00 stop = 14/02/2016 13:50:00 title = Bibi i Tina,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:50:00 stop = 14/02/2016 14:00:00 title = Pepa prase 3,11. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:50:00 stop = 14/02/2016 14:00:00 title = Pepa prase 3,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 14:50:00 stop = 14/02/2016 15:15:00 title = Mia i ja 2,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 14:50:00 stop = 14/02/2016 15:15:00 title = Mia i ja 2,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 15:15:00 stop = 14/02/2016 15:30:00 title = Jež Alfred na zadatku,44. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 15:15:00 stop = 14/02/2016 15:30:00 title = Jež Alfred na zadatku,44. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 16:00:00 stop = 14/02/2016 16:15:00 title = Majmun vidi, majmun radi 2,20. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 16:00:00 stop = 14/02/2016 16:15:00 title = Majmun vidi, majmun radi 2,20. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 16:15:00 stop = 14/02/2016 16:30:00 title = Šerlok Jak,23. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 16:15:00 stop = 14/02/2016 16:30:00 title = Šerlok Jak,23. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 16:30:00 stop = 14/02/2016 17:00:00 title = Marta - pas koji govori 3,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 16:30:00 stop = 14/02/2016 17:00:00 title = Marta - pas koji govori 3,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:00:00 stop = 14/02/2016 17:30:00 title = Bibi Bloksberg 4,12. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:00:00 stop = 14/02/2016 17:30:00 title = Bibi Bloksberg 4,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:55:00 stop = 14/02/2016 18:20:00 title = Mia i ja 2,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:55:00 stop = 14/02/2016 18:20:00 title = Mia i ja 2,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:20:00 stop = 14/02/2016 18:50:00 title = Radoznali Džordž 5,10. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:20:00 stop = 14/02/2016 18:50:00 title = Radoznali Džordž 5,10. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:50:00 stop = 14/02/2016 19:20:00 title = Bibi i Tina,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:50:00 stop = 14/02/2016 19:20:00 title = Bibi i Tina,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 19:20:00 stop = 14/02/2016 19:50:00 title = Animalija,30. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 19:20:00 stop = 14/02/2016 19:50:00 title = Animalija,30. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 19:50:00 stop = 15/02/2016 06:00:00 title = Pepa prase 3,12. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 19:50:00 stop = 15/02/2016 06:00:00 title = Pepa prase 3,12. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 19:50:00
 [  Info  ] 
@@ -788,6 +1641,38 @@
 [  Info  ]       Replaces ----- start = 13/02/2016 18:05:00 stop = 13/02/2016 18:30:00 title = Spužva Bob Skockani (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 13/02/2016 18:30:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:55:00 stop = 14/02/2016 08:05:00 title = Traktor Tom (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:55:00 stop = 14/02/2016 08:05:00 title = Traktor Tom (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 08:50:00 stop = 14/02/2016 09:15:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 08:50:00 stop = 14/02/2016 09:15:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:35:00 stop = 14/02/2016 11:45:00 title = Traktor Tom (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:35:00 stop = 14/02/2016 11:45:00 title = Traktor Tom (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:30:00 stop = 14/02/2016 12:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:30:00 stop = 14/02/2016 12:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:50:00 stop = 14/02/2016 14:00:00 title = Traktor Tom (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:50:00 stop = 14/02/2016 14:00:00 title = Traktor Tom (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 14:45:00 stop = 14/02/2016 15:10:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 14:45:00 stop = 14/02/2016 15:10:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:30:00 stop = 14/02/2016 17:40:00 title = Traktor Tom (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:30:00 stop = 14/02/2016 17:40:00 title = Traktor Tom (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:25:00 stop = 14/02/2016 18:45:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:25:00 stop = 14/02/2016 18:45:00 title = Spužva Bob Skockani (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 18:45:00
 [  Info  ] 
@@ -817,8 +1702,60 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 13/02/2016 20:35:00 stop = 13/02/2016 20:55:00 title = Spužva Bob Skockani (?)
 [  Info  ]       Replaces ----- start = 13/02/2016 20:35:00 stop = 13/02/2016 20:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 00:50:00 stop = 14/02/2016 01:15:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 00:50:00 stop = 14/02/2016 01:15:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 01:15:00 stop = 14/02/2016 01:35:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 01:15:00 stop = 14/02/2016 01:35:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 01:35:00 stop = 14/02/2016 01:55:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 01:35:00 stop = 14/02/2016 01:55:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 01:55:00 stop = 14/02/2016 02:20:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 01:55:00 stop = 14/02/2016 02:20:00 title = Winx Club (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:55:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:05:00 stop = 14/02/2016 07:30:00 title = Blaze and the Monster Machines (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:05:00 stop = 14/02/2016 07:30:00 title = Blaze and the Monster Machines (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:55:00 stop = 14/02/2016 08:20:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:55:00 stop = 14/02/2016 08:20:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 08:20:00 stop = 14/02/2016 08:45:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 08:20:00 stop = 14/02/2016 08:45:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:20:00 stop = 14/02/2016 13:45:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:20:00 stop = 14/02/2016 13:45:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 16:20:00 stop = 14/02/2016 16:40:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 16:20:00 stop = 14/02/2016 16:40:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:35:00 stop = 14/02/2016 18:00:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:35:00 stop = 14/02/2016 18:00:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 20:35:00 stop = 14/02/2016 20:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 20:35:00 stop = 14/02/2016 20:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 21:50:00 stop = 14/02/2016 22:15:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 21:50:00 stop = 14/02/2016 22:15:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 22:15:00 stop = 14/02/2016 22:40:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 22:15:00 stop = 14/02/2016 22:40:00 title = Big Time Rush (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -839,6 +1776,10 @@
 [  Debug ]    skipped show without a title at 14/02/2016 02:00:00
 [  Debug ]    suspicious      title in index page  = Raj (12)
 [  Debug ]       differs from title in showdetails = Raj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 20:15:00 stop = 14/02/2016 22:00:00 title = Raj
+[  Info  ]       Replaces ----- start = 14/02/2016 20:15:00 stop = 14/02/2016 22:00:00 title = Raj
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -903,10 +1844,86 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 13/02/2016 23:04:00 stop = 13/02/2016 23:58:00 title = Sanjiva dolina 3,9. (?)
 [  Info  ]       Replaces ----- start = 13/02/2016 23:04:00 stop = 13/02/2016 23:58:00 title = Sanjiva dolina 3,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 03:07:00 stop = 14/02/2016 03:49:00 title = Nečujno 4,3. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 03:07:00 stop = 14/02/2016 03:49:00 title = Nečujno 4,3. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 03:49:00 stop = 14/02/2016 04:30:00 title = Nečujno 4,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 03:49:00 stop = 14/02/2016 04:30:00 title = Nečujno 4,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 04:30:00 stop = 14/02/2016 04:52:00 title = Miksologija,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 04:30:00 stop = 14/02/2016 04:52:00 title = Miksologija,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 04:52:00 stop = 14/02/2016 05:14:00 title = Miksologija,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 04:52:00 stop = 14/02/2016 05:14:00 title = Miksologija,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 05:14:00 stop = 14/02/2016 05:36:00 title = Brickleberry,3. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 05:14:00 stop = 14/02/2016 05:36:00 title = Brickleberry,3. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 05:36:00 stop = 14/02/2016 06:00:00 title = Brickleberry,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 05:36:00 stop = 14/02/2016 06:00:00 title = Brickleberry,4. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:36:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 10:55:00 stop = 14/02/2016 11:20:00 title = Futurama,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 10:55:00 stop = 14/02/2016 11:20:00 title = Futurama,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:20:00 stop = 14/02/2016 11:50:00 title = Futurama 2,1. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:20:00 stop = 14/02/2016 11:50:00 title = Futurama 2,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:40:00 title = Sanjiva dolina 3,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:40:00 title = Sanjiva dolina 3,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:40:00 stop = 14/02/2016 13:30:00 title = Nečujno 4,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:40:00 stop = 14/02/2016 13:30:00 title = Nečujno 4,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:30:00 stop = 14/02/2016 14:15:00 title = Nečujno 4,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:30:00 stop = 14/02/2016 14:15:00 title = Nečujno 4,6. (?)
 [  Debug ]    suspicious      title in index page  = Malena (12)
 [  Debug ]       differs from title in showdetails = Malena
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 15:30:00 stop = 14/02/2016 17:15:00 title = Malena
+[  Info  ]       Replaces ----- start = 14/02/2016 15:30:00 stop = 14/02/2016 17:15:00 title = Malena
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:15:00 stop = 14/02/2016 17:40:00 title = Ti si moj porok,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:15:00 stop = 14/02/2016 17:40:00 title = Ti si moj porok,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 17:40:00 stop = 14/02/2016 18:05:00 title = Ti si moj porok,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 17:40:00 stop = 14/02/2016 18:05:00 title = Ti si moj porok,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:05:00 stop = 14/02/2016 18:30:00 title = Ti si moj porok,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:05:00 stop = 14/02/2016 18:30:00 title = Ti si moj porok,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 22:15:00 stop = 14/02/2016 23:05:00 title = Agenti SHIELD-a 3,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 22:15:00 stop = 14/02/2016 23:05:00 title = Agenti SHIELD-a 3,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 23:05:00 stop = 14/02/2016 23:30:00 title = Posljednji čovjek na Zemlji 2,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 23:05:00 stop = 14/02/2016 23:30:00 title = Posljednji čovjek na Zemlji 2,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 23:30:00 stop = 14/02/2016 23:55:00 title = Posljednji čovjek na Zemlji 2,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 23:30:00 stop = 14/02/2016 23:55:00 title = Posljednji čovjek na Zemlji 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 23:55:00 stop = 15/02/2016 00:45:00 title = Dosjei X 10,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 23:55:00 stop = 15/02/2016 00:45:00 title = Dosjei X 10,4. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -981,6 +1998,62 @@
 [  Info  ]       Replaces ----- start = 13/02/2016 22:30:00 stop = 13/02/2016 23:00:00 title = ŽIVOT S FRAN 2,5. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:15:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:02:00 stop = 14/02/2016 06:15:00 title = Kuhanje bez granica 4,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:02:00 stop = 14/02/2016 06:15:00 title = Kuhanje bez granica 4,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:15:00 stop = 14/02/2016 06:25:00 title = Kuhanje bez granica 4,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:15:00 stop = 14/02/2016 06:25:00 title = Kuhanje bez granica 4,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:25:00 stop = 14/02/2016 07:10:00 title = Kako izgledam? 11,15. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:25:00 stop = 14/02/2016 07:10:00 title = Kako izgledam? 11,15. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:10:00 stop = 14/02/2016 08:00:00 title = Kako izgledam? 11,16. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:10:00 stop = 14/02/2016 08:00:00 title = Kako izgledam? 11,16. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 08:00:00 stop = 14/02/2016 08:30:00 title = ŽIVOT S FRAN 2,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 08:00:00 stop = 14/02/2016 08:30:00 title = ŽIVOT S FRAN 2,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 08:30:00 stop = 14/02/2016 08:55:00 title = ŽIVOT S FRAN 2,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 08:30:00 stop = 14/02/2016 08:55:00 title = ŽIVOT S FRAN 2,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 10:35:00 stop = 14/02/2016 11:30:00 title = Wonderland 2,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 10:35:00 stop = 14/02/2016 11:30:00 title = Wonderland 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 14:40:00 stop = 14/02/2016 15:10:00 title = Cristela,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 14:40:00 stop = 14/02/2016 15:10:00 title = Cristela,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 15:10:00 stop = 14/02/2016 15:35:00 title = Cristela,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 15:10:00 stop = 14/02/2016 15:35:00 title = Cristela,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 15:35:00 stop = 14/02/2016 16:25:00 title = Uvod u anatomiju 12,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 15:35:00 stop = 14/02/2016 16:25:00 title = Uvod u anatomiju 12,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:10:00 stop = 14/02/2016 19:05:00 title = Wonderland 2,9. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:10:00 stop = 14/02/2016 19:05:00 title = Wonderland 2,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 21:30:00 stop = 14/02/2016 22:00:00 title = Cristela,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 21:30:00 stop = 14/02/2016 22:00:00 title = Cristela,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 22:00:00 stop = 14/02/2016 22:30:00 title = ŽIVOT S FRAN 2,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 22:00:00 stop = 14/02/2016 22:30:00 title = ŽIVOT S FRAN 2,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 22:30:00 stop = 14/02/2016 23:00:00 title = ŽIVOT S FRAN 2,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 22:30:00 stop = 14/02/2016 23:00:00 title = ŽIVOT S FRAN 2,7. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1049,8 +2122,84 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 13/02/2016 23:45:00 stop = 14/02/2016 00:40:00 title = Backstrom,13. (?)
 [  Info  ]       Replaces ----- start = 13/02/2016 23:45:00 stop = 14/02/2016 00:40:00 title = Backstrom,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 00:40:00 stop = 14/02/2016 01:40:00 title = Ubojstvo s pogledom 3,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 00:40:00 stop = 14/02/2016 01:40:00 title = Ubojstvo s pogledom 3,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 01:40:00 stop = 14/02/2016 02:37:00 title = Četiri žene i sprovod 4,1. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 01:40:00 stop = 14/02/2016 02:37:00 title = Četiri žene i sprovod 4,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 02:37:00 stop = 14/02/2016 04:29:00 title = Inspektor Montalbano 9,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 02:37:00 stop = 14/02/2016 04:29:00 title = Inspektor Montalbano 9,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 04:29:00 stop = 14/02/2016 05:15:00 title = Gradski murjaci,10. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 04:29:00 stop = 14/02/2016 05:15:00 title = Gradski murjaci,10. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 05:15:00 stop = 14/02/2016 06:00:00 title = Zakon i red 17,13. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 05:15:00 stop = 14/02/2016 06:00:00 title = Zakon i red 17,13. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:15:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:00:00 stop = 14/02/2016 06:45:00 title = Tim osvetnika 5,10. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:00:00 stop = 14/02/2016 06:45:00 title = Tim osvetnika 5,10. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:45:00 stop = 14/02/2016 07:35:00 title = Tim osvetnika 5,11. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:45:00 stop = 14/02/2016 07:35:00 title = Tim osvetnika 5,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 07:35:00 stop = 14/02/2016 08:35:00 title = Četiri žene i sprovod 4,2. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 07:35:00 stop = 14/02/2016 08:35:00 title = Četiri žene i sprovod 4,2. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 08:35:00 stop = 14/02/2016 09:35:00 title = Ubojstvo s pogledom 3,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 08:35:00 stop = 14/02/2016 09:35:00 title = Ubojstvo s pogledom 3,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 09:35:00 stop = 14/02/2016 11:50:00 title = Inspektor Montalbano 9,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 09:35:00 stop = 14/02/2016 11:50:00 title = Inspektor Montalbano 9,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:45:00 title = Backstrom,13. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 11:50:00 stop = 14/02/2016 12:45:00 title = Backstrom,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 12:45:00 stop = 14/02/2016 13:40:00 title = Gradski murjaci,11. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 12:45:00 stop = 14/02/2016 13:40:00 title = Gradski murjaci,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 13:40:00 stop = 14/02/2016 14:45:00 title = Odjel za istrage 8,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 13:40:00 stop = 14/02/2016 14:45:00 title = Odjel za istrage 8,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 14:45:00 stop = 14/02/2016 15:40:00 title = U sjeni bande,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 14:45:00 stop = 14/02/2016 15:40:00 title = U sjeni bande,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 15:40:00 stop = 14/02/2016 16:35:00 title = Odstrel 4,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 15:40:00 stop = 14/02/2016 16:35:00 title = Odstrel 4,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 16:35:00 stop = 14/02/2016 17:30:00 title = Kraljevi bijega 2,1. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 16:35:00 stop = 14/02/2016 17:30:00 title = Kraljevi bijega 2,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 21:05:00 stop = 14/02/2016 22:15:00 title = Smrt u raju 4,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 21:05:00 stop = 14/02/2016 22:15:00 title = Smrt u raju 4,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 22:15:00 stop = 14/02/2016 23:10:00 title = Zločinački umovi 11,8. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 22:15:00 stop = 14/02/2016 23:10:00 title = Zločinački umovi 11,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 23:10:00 stop = 15/02/2016 00:05:00 title = Odstrel 4,7. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 23:10:00 stop = 15/02/2016 00:05:00 title = Odstrel 4,7. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1063,6 +2212,14 @@
 [  Info  ]       Replaces ----- start = 13/02/2016 13:59:00 stop = 13/02/2016 15:53:00 title = Luckasti profesor
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 13/02/2016 22:44:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:08:00 stop = 14/02/2016 06:40:00 title = Wilfred 4,5. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:08:00 stop = 14/02/2016 06:40:00 title = Wilfred 4,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 06:40:00 stop = 14/02/2016 07:15:00 title = Wilfred 4,6. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 06:40:00 stop = 14/02/2016 07:15:00 title = Wilfred 4,6. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1084,6 +2241,10 @@
 [  Debug ]    skipped show without a title at 13/02/2016 23:45:00
 [  Debug ]    suspicious      title in index page  = Ubojica pod kontrolom (12)
 [  Debug ]       differs from title in showdetails = Ubojica pod kontrolom
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 10:00:00 stop = 14/02/2016 12:05:00 title = Ubojica pod kontrolom
+[  Info  ]       Replaces ----- start = 14/02/2016 10:00:00 stop = 14/02/2016 12:05:00 title = Ubojica pod kontrolom
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 23:15:00
 [  Info  ] 
@@ -1132,10 +2293,22 @@
 [  Debug ]    skipped show without a title at 14/02/2016 04:05:00
 [  Debug ]    suspicious      title in index page  = Dečko mog života (12)
 [  Debug ]       differs from title in showdetails = Dečko mog života
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 13:10:00 stop = 14/02/2016 15:20:00 title = Dečko mog života
+[  Info  ]       Replaces ----- start = 14/02/2016 13:10:00 stop = 14/02/2016 15:20:00 title = Dečko mog života
 [  Debug ]    suspicious      title in index page  = Osma stranica (12)
 [  Debug ]       differs from title in showdetails = Osma stranica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 15:20:00 stop = 14/02/2016 17:00:00 title = Osma stranica
+[  Info  ]       Replaces ----- start = 14/02/2016 15:20:00 stop = 14/02/2016 17:00:00 title = Osma stranica
 [  Debug ]    suspicious      title in index page  = Crveni pojas (12)
 [  Debug ]       differs from title in showdetails = Crveni pojas
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 14/02/2016 18:50:00 stop = 14/02/2016 20:30:00 title = Crveni pojas
+[  Info  ]       Replaces ----- start = 14/02/2016 18:50:00 stop = 14/02/2016 20:30:00 title = Crveni pojas
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1230,6 +2403,10 @@
 [  Info  ]       Replaces ----- start = 13/02/2016 15:30:00 stop = 13/02/2016 16:20:00 title = Tajni život pasa,4. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 14/02/2016 05:20:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 14/02/2016 18:10:00 stop = 14/02/2016 19:05:00 title = Tajni život pasa,4. (?)
+[  Info  ]       Replaces ----- start = 14/02/2016 18:10:00 stop = 14/02/2016 19:05:00 title = Tajni život pasa,4. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1312,9 +2489,9 @@
 [  Debug ]    skipped show without a title at 
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5048 shows in 94 channels
-[  Debug ] 102 updated shows
-[  Debug ] 1665 new shows added
+[  Debug ] 5094 shows in 94 channels
+[  Debug ] 264 updated shows
+[  Debug ] 788 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 13/02/2016 01:29:48 done in 25m 31s
+[        ] Job finished at 13/02/2016 04:31:50 done in 2m 34s
