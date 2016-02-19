@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 19/02/2016 12:36:48
+[        ] Job started at 19/02/2016 16:37:48
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
@@ -19,6 +19,9 @@
 [  Debug ] found: /home/goran/samdecrypt/wg++/m.tvprofil.net.ini -- Revision 4
 [  Debug ] xmltv input file - ../guide-mtvprofil.xml - found
 [  Debug ] 0 superfluous shows removed
+[  Debug ] removed 2 overlapping shows in HTV1 starting after 19/02/2016 01:41:00
+[  Debug ] removed 2 overlapping shows in HTV2 starting after 19/02/2016 01:39:00
+[  Debug ] removed 2 overlapping shows in RTL starting after 19/02/2016 00:55:00
 [  Info  ] 
 [  Info  ] update requested for - 94 - out of - 94 - channels for 2 day(s)
 [  Info  ] update mode - set per individual channel
@@ -28,76 +31,577 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   1/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV1) -- mode incremental
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV1
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV1
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Debug ] multiple entry of a show at 20160219063600 +0200
+[  Debug ] multiple entry of a show at 20160219065500 +0200
+[  Debug ] multiple entry of a show at 20160219070000 +0200
+[  Debug ] multiple entry of a show at 20160219070700 +0200
+[  Debug ] multiple entry of a show at 20160219090000 +0200
+[  Debug ] multiple entry of a show at 20160219090500 +0200
+[  Debug ] multiple entry of a show at 20160219093100 +0200
+[  Debug ] multiple entry of a show at 20160219102700 +0200
+[  Debug ] multiple entry of a show at 20160219111300 +0200
+[  Debug ] multiple entry of a show at 20160219114400 +0200
+[  Debug ] multiple entry of a show at 20160219120000 +0200
+[  Debug ] multiple entry of a show at 20160219121500 +0200
+[  Debug ] multiple entry of a show at 20160219121900 +0200
+[  Debug ] multiple entry of a show at 20160219122400 +0200
+[  Debug ] multiple entry of a show at 20160219131800 +0200
+[  Debug ] multiple entry of a show at 20160219140000 +0200
+[  Debug ] multiple entry of a show at 20160219144600 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:11:00 stop = 19/02/2016 16:50:00 title = Kuća od karata
+[  Info  ]       Replaces ----- start = 19/02/2016 15:11:00 stop = 19/02/2016 16:03:00 title = Kuća od karata
+[  Info  ]       Replaces ----- start = 19/02/2016 15:11:00 stop = 19/02/2016 16:03:00 title = Kuća od karata
+[  Info  ]       Replaces ----- start = 19/02/2016 16:03:00 stop = 19/02/2016 16:50:00 title = Ono što jesam: Pas de deux
+[  Info  ]       Replaces ----- start = 19/02/2016 16:03:00 stop = 19/02/2016 16:50:00 title = Ono što jesam: Pas de deux
+[  Debug ] multiple entry of a show at 20160219165000 +0200
+[  Debug ] multiple entry of a show at 20160219173200 +0200
+[  Debug ] multiple entry of a show at 20160219173800 +0200
+[  Debug ] multiple entry of a show at 20160219181100 +0200
+[  Debug ] multiple entry of a show at 20160219182900 +0200
+[  Debug ] multiple entry of a show at 20160219190000 +0200
+[  Debug ] multiple entry of a show at 20160219195700 +0200
+[  Debug ] multiple entry of a show at 20160219200700 +0200
+[  Debug ] multiple entry of a show at 20160219215700 +0200
+[  Debug ] multiple entry of a show at 20160219225000 +0200
+[  Debug ] multiple entry of a show at 20160219230100 +0200
+[  Debug ] multiple entry of a show at 20160219231600 +0200
+[  Debug ] multiple entry of a show at 20160219232100 +0200
+[  Debug ] multiple entry of a show at 20160219232500 +0200
+[  Debug ] multiple entry of a show at 20160219235000 +0200
+[  Debug ] multiple entry of a show at 20160220012400 +0200
+[  Debug ] multiple entry of a show at 20160220022000 +0200
+[  Debug ] multiple entry of a show at 20160220030100 +0200
+[  Debug ] multiple entry of a show at 20160220034300 +0200
+[  Debug ] multiple entry of a show at 20160220041600 +0200
+[  Debug ] multiple entry of a show at 20160220043100 +0200
+[  Debug ] multiple entry of a show at 20160220050100 +0200
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 20/02/2016 05:01:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 07:38:00 stop = 20/02/2016 09:13:00 title = Destry ponovno jaše
+[  Info  ]       Replaces ----- start = 20/02/2016 07:01:00 stop = 20/02/2016 07:42:00 title = Klasika mundi: Simfonijski orkestar Praškog konzervatorija pod ravnanjem Jiřija Bělohláveka na 66. Praškom proljeću (2. dio)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:01:00 stop = 20/02/2016 07:42:00 title = Klasika mundi: Simfonijski orkestar Praškog konzervatorija pod ravnanjem Jiřija Bělohláveka na 66. Praškom proljeću (2. dio)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:42:00 stop = 20/02/2016 09:16:00 title = Destry ponovno jaše
+[  Info  ]       Replaces ----- start = 20/02/2016 07:42:00 stop = 20/02/2016 09:16:00 title = Destry ponovno jaše
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 09:47:00 stop = 20/02/2016 10:32:00 title = Prizma
+[  Info  ]       Replaces ----- start = 20/02/2016 09:16:00 stop = 20/02/2016 09:50:00 title = Duhovni izazovi
+[  Info  ]       Replaces ----- start = 20/02/2016 09:16:00 stop = 20/02/2016 09:50:00 title = Duhovni izazovi
+[  Info  ]       Replaces ----- start = 20/02/2016 09:50:00 stop = 20/02/2016 10:35:00 title = Prizma
+[  Info  ]       Replaces ----- start = 20/02/2016 09:50:00 stop = 20/02/2016 10:35:00 title = Prizma
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 10:32:00 stop = 20/02/2016 10:50:00 title = Kulturna baština: Razglednica iz Bjelovara
+[  Info  ]       Replaces ----- start = 20/02/2016 09:50:00 stop = 20/02/2016 10:35:00 title = Prizma
+[  Info  ]       Replaces ----- start = 20/02/2016 09:50:00 stop = 20/02/2016 10:35:00 title = Prizma
+[  Info  ]       Replaces ----- start = 20/02/2016 10:35:00 stop = 20/02/2016 10:52:00 title = Kulturna baština: Razglednica iz Bjelovara
+[  Info  ]       Replaces ----- start = 20/02/2016 10:35:00 stop = 20/02/2016 10:52:00 title = Kulturna baština: Razglednica iz Bjelovara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 10:50:00 stop = 20/02/2016 11:43:00 title = Uvijek kontra
+[  Info  ]       Replaces ----- start = 20/02/2016 10:35:00 stop = 20/02/2016 10:52:00 title = Kulturna baština: Razglednica iz Bjelovara
+[  Info  ]       Replaces ----- start = 20/02/2016 10:35:00 stop = 20/02/2016 10:52:00 title = Kulturna baština: Razglednica iz Bjelovara
+[  Info  ]       Replaces ----- start = 20/02/2016 10:52:00 stop = 20/02/2016 11:45:00 title = Uvijek kontra
+[  Info  ]       Replaces ----- start = 20/02/2016 10:52:00 stop = 20/02/2016 11:45:00 title = Uvijek kontra
+[  Debug ] multiple entry of a show at 20160220120000 +0200
+[  Debug ] multiple entry of a show at 20160220121500 +0200
+[  Debug ] multiple entry of a show at 20160220121900 +0200
+[  Debug ] multiple entry of a show at 20160220122100 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 13:15:00 stop = 20/02/2016 14:18:00 title = Povijest mafije: Veliko suđenje mafiji 1986.
+[  Info  ]       Replaces ----- start = 20/02/2016 13:14:00 stop = 20/02/2016 14:15:00 title = Povijest mafije: Veliko suđenje mafiji 1986.
+[  Info  ]       Replaces ----- start = 20/02/2016 13:14:00 stop = 20/02/2016 14:15:00 title = Povijest mafije: Veliko suđenje mafiji 1986.
+[  Info  ]       Replaces ----- start = 20/02/2016 14:15:00 stop = 20/02/2016 15:12:00 title = Top Gear (20)
+[  Info  ]       Replaces ----- start = 20/02/2016 14:15:00 stop = 20/02/2016 15:12:00 title = Top Gear (20)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 14:18:00 stop = 20/02/2016 15:15:00 title = Top Gear (20)
+[  Info  ]       Replaces ----- start = 20/02/2016 14:15:00 stop = 20/02/2016 15:12:00 title = Top Gear (20)
+[  Info  ]       Replaces ----- start = 20/02/2016 14:15:00 stop = 20/02/2016 15:12:00 title = Top Gear (20)
+[  Info  ]       Replaces ----- start = 20/02/2016 15:12:00 stop = 20/02/2016 15:33:00 title = Imitacije aristokracije
+[  Info  ]       Replaces ----- start = 20/02/2016 15:12:00 stop = 20/02/2016 15:33:00 title = Imitacije aristokracije
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 15:15:00 stop = 20/02/2016 15:36:00 title = Imitacije aristokracije
+[  Info  ]       Replaces ----- start = 20/02/2016 15:12:00 stop = 20/02/2016 15:33:00 title = Imitacije aristokracije
+[  Info  ]       Replaces ----- start = 20/02/2016 15:12:00 stop = 20/02/2016 15:33:00 title = Imitacije aristokracije
+[  Info  ]       Replaces ----- start = 20/02/2016 15:33:00 stop = 20/02/2016 15:36:00 title = HAK - promet info
+[  Info  ]       Replaces ----- start = 20/02/2016 15:33:00 stop = 20/02/2016 15:36:00 title = HAK - promet info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 15:51:00 stop = 20/02/2016 17:39:00 title = Briljantin
+[  Info  ]       Replaces ----- start = 20/02/2016 15:36:00 stop = 20/02/2016 15:52:00 title = Skica za portret
+[  Info  ]       Replaces ----- start = 20/02/2016 15:36:00 stop = 20/02/2016 15:52:00 title = Skica za portret
+[  Info  ]       Replaces ----- start = 20/02/2016 15:52:00 stop = 20/02/2016 17:40:00 title = Briljantin
+[  Info  ]       Replaces ----- start = 20/02/2016 15:52:00 stop = 20/02/2016 17:40:00 title = Briljantin
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 17:39:00 stop = 20/02/2016 19:00:00 title = Lijepom našom: Pregrada (1. dio)
+[  Info  ]       Replaces ----- start = 20/02/2016 15:52:00 stop = 20/02/2016 17:40:00 title = Briljantin
+[  Info  ]       Replaces ----- start = 20/02/2016 15:52:00 stop = 20/02/2016 17:40:00 title = Briljantin
+[  Info  ]       Replaces ----- start = 20/02/2016 17:40:00 stop = 20/02/2016 19:00:00 title = Lijepom našom: Pregrada (1. dio)
+[  Info  ]       Replaces ----- start = 20/02/2016 17:40:00 stop = 20/02/2016 19:00:00 title = Lijepom našom: Pregrada (1. dio)
+[  Debug ] multiple entry of a show at 20160220190000 +0200
+[  Debug ] multiple entry of a show at 20160220195200 +0200
+[  Debug ] multiple entry of a show at 20160220195500 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 20:02:00 stop = 20/02/2016 21:36:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]       Replaces ----- start = 20/02/2016 20:02:00 stop = 20/02/2016 21:41:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]       Replaces ----- start = 20/02/2016 20:02:00 stop = 20/02/2016 21:41:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 21:36:00 stop = 20/02/2016 23:30:00 title = Ubijte glasnika
+[  Info  ]       Replaces ----- start = 20/02/2016 20:02:00 stop = 20/02/2016 21:41:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]       Replaces ----- start = 20/02/2016 20:02:00 stop = 20/02/2016 21:41:00 title = The Voice - Najljepši glas Hrvatske
+[  Info  ]       Replaces ----- start = 20/02/2016 21:41:00 stop = 20/02/2016 23:33:00 title = Ubijte glasnika
+[  Info  ]       Replaces ----- start = 20/02/2016 21:41:00 stop = 20/02/2016 23:33:00 title = Ubijte glasnika
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 23:52:00 stop = 21/02/2016 00:57:00 title = Pink Floyd - Priča o albumu Wish You Were Here
+[  Info  ]       Replaces ----- start = 20/02/2016 23:49:00 stop = 20/02/2016 23:53:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 20/02/2016 23:49:00 stop = 20/02/2016 23:53:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 20/02/2016 23:53:00 stop = 21/02/2016 00:56:00 title = Pink Floyd - Priča o albumu Wish You Were Here
+[  Info  ]       Replaces ----- start = 20/02/2016 23:53:00 stop = 21/02/2016 00:56:00 title = Pink Floyd - Priča o albumu Wish You Were Here
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV2) -- mode incremental
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel HTV2
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from HTV2
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 06:00:00 stop = 19/02/2016 06:28:00 title = U vrtu pod zvijezdama
+[  Info  ]       Replaces ----- start = 19/02/2016 06:00:00 stop = 19/02/2016 06:02:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 19/02/2016 06:00:00 stop = 19/02/2016 06:02:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 19/02/2016 06:02:00 stop = 19/02/2016 06:30:00 title = U vrtu pod zvijezdama
+[  Info  ]       Replaces ----- start = 19/02/2016 06:02:00 stop = 19/02/2016 06:30:00 title = U vrtu pod zvijezdama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 06:30:00 stop = 19/02/2016 06:38:00 title = Hej Dagi
+[  Info  ]       Replaces ----- start = 19/02/2016 06:30:00 stop = 19/02/2016 06:32:00 title = Pjesmice i brojalice: Iš`o medo u dućan
+[  Info  ]       Replaces ----- start = 19/02/2016 06:30:00 stop = 19/02/2016 06:32:00 title = Pjesmice i brojalice: Iš`o medo u dućan
+[  Info  ]       Replaces ----- start = 19/02/2016 06:32:00 stop = 19/02/2016 06:39:00 title = Hej Dagi
+[  Info  ]       Replaces ----- start = 19/02/2016 06:32:00 stop = 19/02/2016 06:39:00 title = Hej Dagi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 06:54:00 stop = 19/02/2016 07:06:00 title = Zoološki prilaz br. 64,7. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 06:54:00 stop = 19/02/2016 06:56:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 19/02/2016 06:54:00 stop = 19/02/2016 06:56:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 19/02/2016 06:56:00 stop = 19/02/2016 07:07:00 title = Zoološki prilaz br. 64,7. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 06:56:00 stop = 19/02/2016 07:07:00 title = Zoološki prilaz br. 64,7. (?)
+[  Debug ] multiple entry of a show at 20160219071100 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 08:31:00 stop = 19/02/2016 08:38:00 title = Pssst... priča! Tibor - paun bez repa
+[  Info  ]       Replaces ----- start = 19/02/2016 08:22:00 stop = 19/02/2016 08:32:00 title = I to je to,12
+[  Info  ]       Replaces ----- start = 19/02/2016 08:22:00 stop = 19/02/2016 08:32:00 title = I to je to,12
+[  Info  ]       Replaces ----- start = 19/02/2016 08:32:00 stop = 19/02/2016 08:38:00 title = Pssst... priča! Tibor - paun bez repa
+[  Info  ]       Replaces ----- start = 19/02/2016 08:32:00 stop = 19/02/2016 08:38:00 title = Pssst... priča! Tibor - paun bez repa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 08:48:00 stop = 19/02/2016 08:59:00 title = Kapetan Clark,31. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:38:00 stop = 19/02/2016 09:00:00 title = Vedranovi velikani: Franka Majić
+[  Info  ]       Replaces ----- start = 19/02/2016 08:38:00 stop = 19/02/2016 09:00:00 title = Vedranovi velikani: Franka Majić
+[  Debug ] multiple entry of a show at 20160219090200 +0200
+[  Debug ] multiple entry of a show at 20160219091700 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/02/2016 09:17:00 stop = 19/02/2016 09:25:00 title = Vidrić,3. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 09:17:00 stop = 19/02/2016 09:25:00 title = Vidrić,3. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 09:17:00 stop = 19/02/2016 09:25:00 title = Vidrić,3. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:47:00 title = David Attenborough: Čuda prirode
+[  Info  ]       Replaces ----- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:48:00 title = David Attenborough: Čuda prirode
+[  Info  ]       Replaces ----- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:48:00 title = David Attenborough: Čuda prirode
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 09:47:00 stop = 19/02/2016 09:52:00 title = Prvi koraci,4. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:48:00 title = David Attenborough: Čuda prirode
+[  Info  ]       Replaces ----- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:48:00 title = David Attenborough: Čuda prirode
+[  Info  ]       Replaces ----- start = 19/02/2016 09:48:00 stop = 19/02/2016 09:52:00 title = Prvi koraci,4. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 09:48:00 stop = 19/02/2016 09:52:00 title = Prvi koraci,4. (?)
+[  Debug ] multiple entry of a show at 20160219095200 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 10:32:00 stop = 19/02/2016 11:21:00 title = Kruške i jabuke (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 10:32:00 stop = 19/02/2016 11:20:00 title = Kruške i jabuke (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 10:32:00 stop = 19/02/2016 11:20:00 title = Kruške i jabuke (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:20:00 stop = 19/02/2016 12:13:00 title = Čarolija 3,35. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:20:00 stop = 19/02/2016 12:13:00 title = Čarolija 3,35. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:21:00 stop = 19/02/2016 12:13:00 title = Čarolija 3,35. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:20:00 stop = 19/02/2016 12:13:00 title = Čarolija 3,35. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:20:00 stop = 19/02/2016 12:13:00 title = Čarolija 3,35. (?)
+[  Debug ] multiple entry of a show at 20160219121300 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:39:00 stop = 19/02/2016 13:39:00 title = Don Matteo
+[  Info  ]       Replaces ----- start = 19/02/2016 12:39:00 stop = 19/02/2016 13:38:00 title = Don Matteo
+[  Info  ]       Replaces ----- start = 19/02/2016 12:39:00 stop = 19/02/2016 13:38:00 title = Don Matteo
+[  Info  ]       Replaces ----- start = 19/02/2016 13:38:00 stop = 19/02/2016 15:09:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 19/02/2016 13:38:00 stop = 19/02/2016 15:09:00 title = Svjedokinja umorstva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:39:00 stop = 19/02/2016 15:09:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 19/02/2016 13:38:00 stop = 19/02/2016 15:09:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 19/02/2016 13:38:00 stop = 19/02/2016 15:09:00 title = Svjedokinja umorstva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:09:00 stop = 19/02/2016 16:45:00 title = George Clarke - Čudesne zamisli
+[  Info  ]       Replaces ----- start = 19/02/2016 15:09:00 stop = 19/02/2016 16:00:00 title = George Clarke - Čudesne zamisli
+[  Info  ]       Replaces ----- start = 19/02/2016 15:09:00 stop = 19/02/2016 16:00:00 title = George Clarke - Čudesne zamisli
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:45:00 title = Regionalni dnevnik
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:45:00 title = Regionalni dnevnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 17:15:00 stop = 19/02/2016 17:51:00 title = Stipe u gostima
+[  Info  ]       Replaces ----- start = 19/02/2016 17:14:00 stop = 19/02/2016 17:49:00 title = Stipe u gostima
+[  Info  ]       Replaces ----- start = 19/02/2016 17:14:00 stop = 19/02/2016 17:49:00 title = Stipe u gostima
+[  Info  ]       Replaces ----- start = 19/02/2016 17:49:00 stop = 19/02/2016 18:46:00 title = Seoska gozba
+[  Info  ]       Replaces ----- start = 19/02/2016 17:49:00 stop = 19/02/2016 18:46:00 title = Seoska gozba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 17:51:00 stop = 19/02/2016 18:48:00 title = Seoska gozba
+[  Info  ]       Replaces ----- start = 19/02/2016 17:49:00 stop = 19/02/2016 18:46:00 title = Seoska gozba
+[  Info  ]       Replaces ----- start = 19/02/2016 17:49:00 stop = 19/02/2016 18:46:00 title = Seoska gozba
+[  Info  ]       Replaces ----- start = 19/02/2016 18:46:00 stop = 19/02/2016 19:28:00 title = Odmori se zaslužio si
+[  Info  ]       Replaces ----- start = 19/02/2016 18:46:00 stop = 19/02/2016 19:28:00 title = Odmori se zaslužio si
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 18:48:00 stop = 19/02/2016 19:30:00 title = Odmori se zaslužio si
+[  Info  ]       Replaces ----- start = 19/02/2016 18:46:00 stop = 19/02/2016 19:28:00 title = Odmori se zaslužio si
+[  Info  ]       Replaces ----- start = 19/02/2016 18:46:00 stop = 19/02/2016 19:28:00 title = Odmori se zaslužio si
+[  Info  ]       Replaces ----- start = 19/02/2016 19:28:00 stop = 19/02/2016 20:04:00 title = Glas naroda
+[  Info  ]       Replaces ----- start = 19/02/2016 19:28:00 stop = 19/02/2016 20:04:00 title = Glas naroda
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 19:30:00 stop = 19/02/2016 20:06:00 title = Glas naroda
+[  Info  ]       Replaces ----- start = 19/02/2016 19:28:00 stop = 19/02/2016 20:04:00 title = Glas naroda
+[  Info  ]       Replaces ----- start = 19/02/2016 19:28:00 stop = 19/02/2016 20:04:00 title = Glas naroda
+[  Info  ]       Replaces ----- start = 19/02/2016 20:04:00 stop = 19/02/2016 21:46:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 19/02/2016 20:04:00 stop = 19/02/2016 21:46:00 title = Umorstva u Midsomeru
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 20:06:00 stop = 19/02/2016 21:49:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 19/02/2016 20:04:00 stop = 19/02/2016 21:46:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 19/02/2016 20:04:00 stop = 19/02/2016 21:46:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 19/02/2016 21:46:00 stop = 19/02/2016 21:54:00 title = Vrijeme na Drugom
+[  Info  ]       Replaces ----- start = 19/02/2016 21:46:00 stop = 19/02/2016 21:54:00 title = Vrijeme na Drugom
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 21:57:00 stop = 19/02/2016 23:33:00 title = Inspektor George Gently
+[  Info  ]       Replaces ----- start = 19/02/2016 21:54:00 stop = 19/02/2016 23:30:00 title = Inspektor George Gently
+[  Info  ]       Replaces ----- start = 19/02/2016 21:54:00 stop = 19/02/2016 23:30:00 title = Inspektor George Gently
+[  Info  ]       Replaces ----- start = 19/02/2016 23:30:00 stop = 20/02/2016 00:31:00 title = Pohlepa
+[  Info  ]       Replaces ----- start = 19/02/2016 23:30:00 stop = 20/02/2016 00:31:00 title = Pohlepa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 23:33:00 stop = 20/02/2016 00:34:00 title = Pohlepa
+[  Info  ]       Replaces ----- start = 19/02/2016 23:30:00 stop = 20/02/2016 00:31:00 title = Pohlepa
+[  Info  ]       Replaces ----- start = 19/02/2016 23:30:00 stop = 20/02/2016 00:31:00 title = Pohlepa
+[  Info  ]       Replaces ----- start = 20/02/2016 00:31:00 stop = 20/02/2016 02:02:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 20/02/2016 00:31:00 stop = 20/02/2016 02:02:00 title = Svjedokinja umorstva
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 00:34:00 stop = 20/02/2016 02:04:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 20/02/2016 00:31:00 stop = 20/02/2016 02:02:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 20/02/2016 00:31:00 stop = 20/02/2016 02:02:00 title = Svjedokinja umorstva
+[  Info  ]       Replaces ----- start = 20/02/2016 02:02:00 stop = 20/02/2016 02:27:00 title = Magazin rukometne lige prvaka,11
+[  Info  ]       Replaces ----- start = 20/02/2016 02:02:00 stop = 20/02/2016 02:27:00 title = Magazin rukometne lige prvaka,11
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 05:02:00 stop = 20/02/2016 06:00:00 title = Noćni glazbeni program - 70 godina Tamburaškog orkestra HRT-a, HNK Zagreb, 23.10.2011.
+[  Info  ]       Replaces ----- start = 20/02/2016 04:46:00 stop = 20/02/2016 06:00:00 title = Noćni glazbeni program - 70 godina Tamburaškog orkestra HRT-a, HNK Zagreb, 23.10.2011.
+[  Info  ]       Replaces ----- start = 20/02/2016 04:46:00 stop = 20/02/2016 06:00:00 title = Noćni glazbeni program - 70 godina Tamburaškog orkestra HRT-a, HNK Zagreb, 23.10.2011.
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 20/02/2016 05:02:00
+[  Debug ] multiple entry of a show at 20160220060000 +0200
+[  Debug ] multiple entry of a show at 20160220060100 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/02/2016 06:01:00 stop = 20/02/2016 06:22:00 title = Dvorac igračaka,9. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 06:01:00 stop = 20/02/2016 06:22:00 title = Dvorac igračaka,9. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 06:01:00 stop = 20/02/2016 06:22:00 title = Dvorac igračaka,9. (?)
+[  Debug ] multiple entry of a show at 20160220062200 +0200
+[  Debug ] multiple entry of a show at 20160220062400 +0200
+[  Debug ] multiple entry of a show at 20160220063100 +0200
+[  Debug ] multiple entry of a show at 20160220063300 +0200
+[  Debug ] multiple entry of a show at 20160220064400 +0200
+[  Debug ] multiple entry of a show at 20160220064600 +0200
+[  Debug ] multiple entry of a show at 20160220064800 +0200
+[  Debug ] multiple entry of a show at 20160220065900 +0200
+[  Debug ] multiple entry of a show at 20160220070000 +0200
+[  Debug ] multiple entry of a show at 20160220070200 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/02/2016 07:02:00 stop = 20/02/2016 07:29:00 title = Vlak dinosaura,35. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:02:00 stop = 20/02/2016 07:29:00 title = Vlak dinosaura,35. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:02:00 stop = 20/02/2016 07:29:00 title = Vlak dinosaura,35. (?)
+[  Debug ] multiple entry of a show at 20160220072900 +0200
+[  Debug ] multiple entry of a show at 20160220073100 +0200
+[  Debug ] multiple entry of a show at 20160220073400 +0200
+[  Debug ] multiple entry of a show at 20160220074400 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/02/2016 07:44:00 stop = 20/02/2016 08:08:00 title = Pčelica Maja,15. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:44:00 stop = 20/02/2016 08:08:00 title = Pčelica Maja,15. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 07:44:00 stop = 20/02/2016 08:08:00 title = Pčelica Maja,15. (?)
+[  Debug ] multiple entry of a show at 20160220080800 +0200
+[  Debug ] multiple entry of a show at 20160220080900 +0200
+[  Debug ] multiple entry of a show at 20160220082100 +0200
+[  Debug ] multiple entry of a show at 20160220083000 +0200
+[  Debug ] multiple entry of a show at 20160220084200 +0200
+[  Debug ] multiple entry of a show at 20160220084700 +0200
+[  Debug ] multiple entry of a show at 20160220085600 +0200
+[  Debug ] multiple entry of a show at 20160220090200 +0200
+[  Debug ] multiple entry of a show at 20160220090400 +0200
+[  Debug ] multiple entry of a show at 20160220091100 +0200
+[  Debug ] multiple entry of a show at 20160220091800 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/02/2016 09:18:00 stop = 20/02/2016 09:33:00 title = Čarobna ploča - Engleski,20. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 09:18:00 stop = 20/02/2016 09:33:00 title = Čarobna ploča - Engleski,20. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 09:18:00 stop = 20/02/2016 09:33:00 title = Čarobna ploča - Engleski,20. (?)
+[  Debug ] multiple entry of a show at 20160220093300 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 10:00:00 stop = 20/02/2016 11:46:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 20/02/2016 10:00:00 stop = 20/02/2016 11:45:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 20/02/2016 10:00:00 stop = 20/02/2016 11:45:00 title = Umorstva u Midsomeru
+[  Info  ]       Replaces ----- start = 20/02/2016 11:45:00 stop = 20/02/2016 12:32:00 title = Roditelji i djeca
+[  Info  ]       Replaces ----- start = 20/02/2016 11:45:00 stop = 20/02/2016 12:32:00 title = Roditelji i djeca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 11:46:00 stop = 20/02/2016 12:33:00 title = Roditelji i djeca
+[  Info  ]       Replaces ----- start = 20/02/2016 11:45:00 stop = 20/02/2016 12:32:00 title = Roditelji i djeca
+[  Info  ]       Replaces ----- start = 20/02/2016 11:45:00 stop = 20/02/2016 12:32:00 title = Roditelji i djeca
+[  Info  ]       Replaces ----- start = 20/02/2016 12:32:00 stop = 20/02/2016 13:25:00 title = Hestonova fantastična jela
+[  Info  ]       Replaces ----- start = 20/02/2016 12:32:00 stop = 20/02/2016 13:25:00 title = Hestonova fantastična jela
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 12:33:00 stop = 20/02/2016 13:26:00 title = Hestonova fantastična jela
+[  Info  ]       Replaces ----- start = 20/02/2016 12:32:00 stop = 20/02/2016 13:25:00 title = Hestonova fantastična jela
+[  Info  ]       Replaces ----- start = 20/02/2016 12:32:00 stop = 20/02/2016 13:25:00 title = Hestonova fantastična jela
+[  Info  ]       Replaces ----- start = 20/02/2016 13:25:00 stop = 20/02/2016 14:31:00 title = Veliki preporod britanskog vrta
+[  Info  ]       Replaces ----- start = 20/02/2016 13:25:00 stop = 20/02/2016 14:31:00 title = Veliki preporod britanskog vrta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 13:26:00 stop = 20/02/2016 14:32:00 title = Veliki preporod britanskog vrta
+[  Info  ]       Replaces ----- start = 20/02/2016 13:25:00 stop = 20/02/2016 14:31:00 title = Veliki preporod britanskog vrta
+[  Info  ]       Replaces ----- start = 20/02/2016 13:25:00 stop = 20/02/2016 14:31:00 title = Veliki preporod britanskog vrta
+[  Info  ]       Replaces ----- start = 20/02/2016 14:31:00 stop = 20/02/2016 16:00:00 title = Savršeni par
+[  Info  ]       Replaces ----- start = 20/02/2016 14:31:00 stop = 20/02/2016 16:00:00 title = Savršeni par
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 14:32:00 stop = 20/02/2016 16:00:00 title = Savršeni par
+[  Info  ]       Replaces ----- start = 20/02/2016 14:31:00 stop = 20/02/2016 16:00:00 title = Savršeni par
+[  Info  ]       Replaces ----- start = 20/02/2016 14:31:00 stop = 20/02/2016 16:00:00 title = Savršeni par
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 16:34:00 stop = 20/02/2016 17:22:00 title = Gospodin Selfridge
+[  Info  ]       Replaces ----- start = 20/02/2016 16:33:00 stop = 20/02/2016 17:24:00 title = Gospodin Selfridge
+[  Info  ]       Replaces ----- start = 20/02/2016 16:33:00 stop = 20/02/2016 17:24:00 title = Gospodin Selfridge
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 17:25:00 stop = 20/02/2016 17:55:00 title = Vrtlarica: Vrtni nametnici
+[  Info  ]       Replaces ----- start = 20/02/2016 17:24:00 stop = 20/02/2016 17:27:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 17:24:00 stop = 20/02/2016 17:27:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 17:27:00 stop = 20/02/2016 17:56:00 title = Vrtlarica: Vrtni nametnici
+[  Info  ]       Replaces ----- start = 20/02/2016 17:27:00 stop = 20/02/2016 17:56:00 title = Vrtlarica: Vrtni nametnici
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 17:57:00 stop = 20/02/2016 18:27:00 title = Slatka kuharica: Rab
+[  Info  ]       Replaces ----- start = 20/02/2016 17:56:00 stop = 20/02/2016 17:59:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 17:56:00 stop = 20/02/2016 17:59:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 17:59:00 stop = 20/02/2016 18:28:00 title = Slatka kuharica: Rab
+[  Info  ]       Replaces ----- start = 20/02/2016 17:59:00 stop = 20/02/2016 18:28:00 title = Slatka kuharica: Rab
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 18:28:00 stop = 20/02/2016 19:00:00 title = Lovac na bilje: Banovina
+[  Info  ]       Replaces ----- start = 20/02/2016 18:28:00 stop = 20/02/2016 18:30:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 18:28:00 stop = 20/02/2016 18:30:00 title = Popodne na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 18:30:00 stop = 20/02/2016 19:00:00 title = Lovac na bilje
+[  Info  ]       Replaces ----- start = 20/02/2016 18:30:00 stop = 20/02/2016 19:00:00 title = Lovac na bilje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 19:00:00 stop = 20/02/2016 21:01:00 title = Korak u život
+[  Info  ]       Replaces ----- start = 20/02/2016 19:00:00 stop = 20/02/2016 21:00:00 title = Korak u život
+[  Info  ]       Replaces ----- start = 20/02/2016 19:00:00 stop = 20/02/2016 21:00:00 title = Korak u život
+[  Info  ]       Replaces ----- start = 20/02/2016 21:00:00 stop = 20/02/2016 21:09:00 title = Vrijeme na Drugom
+[  Info  ]       Replaces ----- start = 20/02/2016 21:00:00 stop = 20/02/2016 21:09:00 title = Vrijeme na Drugom
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 21:10:00 stop = 20/02/2016 22:49:00 title = Dva lica siječnja
+[  Info  ]       Replaces ----- start = 20/02/2016 21:09:00 stop = 20/02/2016 22:45:00 title = Dva lica siječnja
+[  Info  ]       Replaces ----- start = 20/02/2016 21:09:00 stop = 20/02/2016 22:45:00 title = Dva lica siječnja
+[  Info  ]       Replaces ----- start = 20/02/2016 22:45:00 stop = 20/02/2016 23:14:00 title = Maher za tehnologiju
+[  Info  ]       Replaces ----- start = 20/02/2016 22:45:00 stop = 20/02/2016 23:14:00 title = Maher za tehnologiju
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 22:49:00 stop = 20/02/2016 23:18:00 title = Maher za tehnologiju
+[  Info  ]       Replaces ----- start = 20/02/2016 22:45:00 stop = 20/02/2016 23:14:00 title = Maher za tehnologiju
+[  Info  ]       Replaces ----- start = 20/02/2016 22:45:00 stop = 20/02/2016 23:14:00 title = Maher za tehnologiju
+[  Info  ]       Replaces ----- start = 20/02/2016 23:14:00 stop = 21/02/2016 00:01:00 title = Vikinzi
+[  Info  ]       Replaces ----- start = 20/02/2016 23:14:00 stop = 21/02/2016 00:01:00 title = Vikinzi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 23:18:00 stop = 21/02/2016 00:04:00 title = Vikinzi
+[  Info  ]       Replaces ----- start = 20/02/2016 23:14:00 stop = 21/02/2016 00:01:00 title = Vikinzi
+[  Info  ]       Replaces ----- start = 20/02/2016 23:14:00 stop = 21/02/2016 00:01:00 title = Vikinzi
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL) -- mode incremental
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 2 of 4 times for 10 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 3 of 4 times for 15 seconds before re-try.
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 4 of 4 times for 20 seconds before re-try.
-[  Error ] Unable to update channel RTL
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[  Error ] no index page data received from RTL
-[  Error ] unable to update channel, try again later
-[  Info  ] Existing guide data restored!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 06:05:00 stop = 19/02/2016 06:35:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 06:20:00 stop = 19/02/2016 06:50:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 06:20:00 stop = 19/02/2016 06:50:00 title = Sve u šest (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 08:05:00 stop = 19/02/2016 08:55:00 title = Pet na pet 5,4. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:15:00 title = TV prodaja
+[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:15:00 title = TV prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:45:00 title = Hitna služba
+[  Info  ]       Replaces ----- start = 19/02/2016 11:05:00 stop = 19/02/2016 12:05:00 title = Četiri vjenčanja 3,5
+[  Info  ]       Replaces ----- start = 19/02/2016 11:05:00 stop = 19/02/2016 12:05:00 title = Četiri vjenčanja 3,5
+[  Info  ]       Replaces ----- start = 19/02/2016 12:05:00 stop = 19/02/2016 13:00:00 title = Hitna služba
+[  Info  ]       Replaces ----- start = 19/02/2016 12:05:00 stop = 19/02/2016 13:00:00 title = Hitna služba
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:45:00 stop = 19/02/2016 15:10:00 title = Tri, dva, jedan - kuhaj! 3,12. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 13:00:00 stop = 19/02/2016 13:55:00 title = Shopping kraljica 2,54
+[  Info  ]       Replaces ----- start = 19/02/2016 13:00:00 stop = 19/02/2016 13:55:00 title = Shopping kraljica 2,54
+[  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 15:25:00 title = Tri, dva, jedan - kuhaj! 3,12. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 15:25:00 title = Tri, dva, jedan - kuhaj! 3,12. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:10:00 stop = 19/02/2016 16:30:00 title = Andrija i Anđelka
+[  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 15:25:00 title = Tri, dva, jedan - kuhaj! 3,12. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 15:25:00 title = Tri, dva, jedan - kuhaj! 3,12. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 15:25:00 stop = 19/02/2016 15:55:00 title = Andrija i Anđelka
+[  Info  ]       Replaces ----- start = 19/02/2016 15:25:00 stop = 19/02/2016 15:55:00 title = Andrija i Anđelka
+[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:30:00 title = Andrija i Anđelka
+[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:30:00 title = Andrija i Anđelka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 17:55:00 stop = 19/02/2016 18:30:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 17:00:00 stop = 19/02/2016 18:00:00 title = Shopping kraljica 2,55
+[  Info  ]       Replaces ----- start = 19/02/2016 17:00:00 stop = 19/02/2016 18:00:00 title = Shopping kraljica 2,55
+[  Info  ]       Replaces ----- start = 19/02/2016 18:00:00 stop = 19/02/2016 18:30:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 18:00:00 stop = 19/02/2016 18:30:00 title = Sve u šest (?)
+[  Debug ] multiple entry of a show at 20160219183000 +0200
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 19:20:00 stop = 19/02/2016 20:00:00 title = Pet na pet 5,5. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 19:15:00 stop = 19/02/2016 20:00:00 title = Pet na pet 5,5. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 19:15:00 stop = 19/02/2016 20:00:00 title = Pet na pet 5,5. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 20:00:00 stop = 19/02/2016 22:00:00 title = Zvjezdice
+[  Info  ]       Replaces ----- start = 19/02/2016 20:00:00 stop = 19/02/2016 21:55:00 title = Zvjezdice
+[  Info  ]       Replaces ----- start = 19/02/2016 20:00:00 stop = 19/02/2016 21:55:00 title = Zvjezdice
+[  Info  ]       Replaces ----- start = 19/02/2016 21:55:00 stop = 19/02/2016 23:55:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 19/02/2016 21:55:00 stop = 19/02/2016 23:55:00 title = Bez obaveza
+[  Debug ]    suspicious      title in index page  = BEZ OBAVEZA (12)
+[  Debug ]       differs from title in showdetails = Bez obaveza
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 22:00:00 stop = 20/02/2016 00:00:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 19/02/2016 21:55:00 stop = 19/02/2016 23:55:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 19/02/2016 21:55:00 stop = 19/02/2016 23:55:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 19/02/2016 23:55:00 stop = 20/02/2016 01:50:00 title = Američka pita 2
+[  Info  ]       Replaces ----- start = 19/02/2016 23:55:00 stop = 20/02/2016 01:50:00 title = Američka pita 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 00:00:00 stop = 20/02/2016 01:55:00 title = Američka pita 2
+[  Info  ]       Replaces ----- start = 19/02/2016 23:55:00 stop = 20/02/2016 01:50:00 title = Američka pita 2
+[  Info  ]       Replaces ----- start = 19/02/2016 23:55:00 stop = 20/02/2016 01:50:00 title = Američka pita 2
+[  Info  ]       Replaces ----- start = 20/02/2016 01:50:00 stop = 20/02/2016 03:45:00 title = Nepobjedivi 3: Iskupljenje
+[  Info  ]       Replaces ----- start = 20/02/2016 01:50:00 stop = 20/02/2016 03:45:00 title = Nepobjedivi 3: Iskupljenje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 01:55:00 stop = 20/02/2016 03:25:00 title = Nepobjedivi 3: Iskupljenje
+[  Info  ]       Replaces ----- start = 20/02/2016 01:50:00 stop = 20/02/2016 03:45:00 title = Nepobjedivi 3: Iskupljenje
+[  Info  ]       Replaces ----- start = 20/02/2016 01:50:00 stop = 20/02/2016 03:45:00 title = Nepobjedivi 3: Iskupljenje
+[  Debug ]    skipped : no value for starttime
+[  Debug ]    skipped show without a title at 20/02/2016 04:05:00
+[  Debug ] multiple entry of a show at 20160220063500 +0200
+[  Debug ] multiple entry of a show at 20160220070000 +0200
+[  Debug ] multiple entry of a show at 20160220075500 +0200
+[  Debug ] multiple entry of a show at 20160220084500 +0200
+[  Debug ] multiple entry of a show at 20160220090000 +0200
+[  Debug ] multiple entry of a show at 20160220093000 +0200
+[  Debug ] multiple entry of a show at 20160220104500 +0200
+[  Debug ] multiple entry of a show at 20160220110000 +0200
+[  Debug ] multiple entry of a show at 20160220115500 +0200
+[  Debug ] multiple entry of a show at 20160220130000 +0200
+[  Debug ] multiple entry of a show at 20160220131500 +0200
+[  Debug ]    suspicious      title in index page  = VULKAN (12)
+[  Debug ]       differs from title in showdetails = Vulkan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 13:15:00 stop = 20/02/2016 15:05:00 title = Vulkan
+[  Info  ]       Replaces ----- start = 20/02/2016 13:15:00 stop = 20/02/2016 15:05:00 title = Vulkan
+[  Info  ]       Replaces ----- start = 20/02/2016 13:15:00 stop = 20/02/2016 15:05:00 title = Vulkan
+[  Debug ] multiple entry of a show at 20160220150500 +0200
+[  Debug ]    suspicious      title in index page  = BEZ OBAVEZA (12)
+[  Debug ]       differs from title in showdetails = Bez obaveza
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 15:05:00 stop = 20/02/2016 16:30:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 20/02/2016 15:05:00 stop = 20/02/2016 16:30:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 20/02/2016 15:05:00 stop = 20/02/2016 16:30:00 title = Bez obaveza
+[  Debug ] multiple entry of a show at 20160220163000 +0200
+[  Debug ] multiple entry of a show at 20160220164000 +0200
+[  Debug ]    suspicious      title in index page  = BEZ OBAVEZA (12)
+[  Debug ]       differs from title in showdetails = Bez obaveza
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/02/2016 16:40:00 stop = 20/02/2016 17:10:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 20/02/2016 16:40:00 stop = 20/02/2016 17:10:00 title = Bez obaveza
+[  Info  ]       Replaces ----- start = 20/02/2016 16:40:00 stop = 20/02/2016 17:10:00 title = Bez obaveza
+[  Debug ] multiple entry of a show at 20160220171000 +0200
+[  Debug ] multiple entry of a show at 20160220175000 +0200
+[  Debug ] multiple entry of a show at 20160220183000 +0200
+[  Debug ] multiple entry of a show at 20160220191000 +0200
+[  Debug ] multiple entry of a show at 20160220191500 +0200
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/02/2016 19:15:00 stop = 20/02/2016 20:00:00 title = Galileo 5,41. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 19:15:00 stop = 20/02/2016 20:00:00 title = Galileo 5,41. (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 19:15:00 stop = 20/02/2016 20:00:00 title = Galileo 5,41. (?)
+[  Debug ] multiple entry of a show at 20160220200000 +0200
+[  Debug ] multiple entry of a show at 20160220220000 +0200
+[  Debug ] multiple entry of a show at 20160220235500 +0200
+[  Debug ]    skipped : no value for starttime
+[  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=NOVA TV) -- mode incremental
-[  Warn  ] error downloading page: The remote server returned an error: (502) Bad Gateway.
-[  Warn  ] pausing 1 of 4 times for 5 seconds before re-try.
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:50:00 stop = 19/02/2016 08:05:00 title = TV Izlog
-[  Info  ]       Replaces ----- start = 19/02/2016 07:50:00 stop = 19/02/2016 09:20:00 title = TV izlog
+[  Info  ]       show with ---- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:30:00 title = Tuđi život
+[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 13:40:00 title = Tuđi život
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:20:00 title = Zauvijek susjedi
-[  Info  ]       Replaces ----- start = 19/02/2016 07:50:00 stop = 19/02/2016 09:20:00 title = TV izlog
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:25:00 stop = 19/02/2016 13:40:00 title = Tuđi život
-[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:30:00 title = Tuđi život
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:40:00 title = Nad lipom 35
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:40:00 title = Nad lipom 35
+[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 13:40:00 title = Tuđi život
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 13:40:00 stop = 19/02/2016 14:00:00 title = Najbolje godine (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 13:40:00 stop = 19/02/2016 14:00:00 title = Najbolje godine (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:00:00 title = Kud puklo da puklo (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:25:00 stop = 19/02/2016 17:00:00 title = Zauvijek susjedi
+[  Info  ]       Replaces ----- start = 19/02/2016 15:25:00 stop = 19/02/2016 16:00:00 title = Zauvijek susjedi
 [  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:00:00 title = Kud puklo da puklo (?)
 [  Debug ]    suspicious      title in index page  = JA SAM LEGENDA (12)
 [  Debug ]       differs from title in showdetails = Ja sam legenda
@@ -159,23 +663,28 @@
 [  Info  ] (   5/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV3) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:49:00 stop = 19/02/2016 09:05:00 title = Mućke (7B): Proroci u Miamiju
-[  Info  ]       Replaces ----- start = 19/02/2016 07:49:00 stop = 19/02/2016 09:46:00 title = Mućke (7B): Proroci u Miamiju
+[  Info  ]       show with ---- start = 19/02/2016 12:04:00 stop = 19/02/2016 12:15:00 title = Skica za portret: Marina Orlić
+[  Info  ]       Replaces ----- start = 19/02/2016 12:04:00 stop = 19/02/2016 13:16:00 title = Skica za portret: Marina Orlić
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:46:00 title = Stani pa gledaj: Lulajte se ili kako sam tražio humor
-[  Info  ]       Replaces ----- start = 19/02/2016 07:49:00 stop = 19/02/2016 09:46:00 title = Mućke (7B): Proroci u Miamiju
+[  Info  ]       show with ---- start = 19/02/2016 12:15:00 stop = 19/02/2016 13:16:00 title = Vrijeme je za jazz: Boško Petrović - 75. godina (2010.) (1. dio)
+[  Info  ]       Replaces ----- start = 19/02/2016 12:04:00 stop = 19/02/2016 13:16:00 title = Skica za portret: Marina Orlić
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:04:00 stop = 19/02/2016 13:16:00 title = Skica za portret: Marina Orlić
-[  Info  ]       Replaces ----- start = 19/02/2016 12:04:00 stop = 19/02/2016 12:15:00 title = Skica za portret: Marina Orlić
-[  Info  ]       Replaces ----- start = 19/02/2016 12:15:00 stop = 19/02/2016 13:16:00 title = Vrijeme je za jazz: Boško Petrović - 75. godina (2010.) (1. dio)
+[  Info  ]       show with ---- start = 19/02/2016 14:00:00 stop = 19/02/2016 17:15:00 title = Mućke (7B): Proroci u Miamiju
+[  Info  ]       Replaces ----- start = 19/02/2016 14:00:00 stop = 19/02/2016 14:51:00 title = Mućke (7B): Proroci u Miamiju
+[  Info  ]       Replaces ----- start = 19/02/2016 14:51:00 stop = 19/02/2016 17:15:00 title = Hamlet
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 02:54:00
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=HTV4) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:40:00 title = Kriza plaće
+[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:00:00 title = Kriza plaće
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:40:00 title = Regionalni dnevnik
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:00:00
 [  Debug ]    skipped : no value for starttime
@@ -184,8 +693,9 @@
 [  Info  ] (   7/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:30:00 title = Pervanov dnevnik
-[  Info  ]       Replaces ----- start = 19/02/2016 08:45:00 stop = 19/02/2016 09:30:00 title = TV prodaja
+[  Info  ]       show with ---- start = 19/02/2016 14:50:00 stop = 19/02/2016 16:20:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 19/02/2016 14:50:00 stop = 19/02/2016 15:30:00 title = CSI: Miami
+[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:20:00 title = CSI: Miami
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:10:00
 [  Info  ]    forced update : 
@@ -196,22 +706,26 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   8/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Doma TV) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 08:55:00 title = Tom i Jerry priče (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:15:00 title = Tom i Jerry priče (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 08:55:00 title = Tom i Jerry priče (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:50:00 title = Princ iz Bel Aira
-[  Info  ]       Replaces ----- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:20:00 title = Princ iz Bel Aira
-[  Info  ]       Replaces ----- start = 19/02/2016 12:20:00 stop = 19/02/2016 12:50:00 title = Princ iz Bel Aira
+[  Info  ]       show with ---- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:20:00 title = Princ iz Bel Aira
+[  Info  ]       Replaces ----- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:50:00 title = Princ iz Bel Aira
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:20:00 stop = 19/02/2016 12:50:00 title = Princ iz Bel Aira
+[  Info  ]       Replaces ----- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:50:00 title = Princ iz Bel Aira
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 13:30:00 stop = 19/02/2016 13:55:00 title = Cure bez love (12) (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 13:30:00 stop = 19/02/2016 13:55:00 title = Cure bez love (12) (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:45:00 title = Mentalist (12) (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:05:00 stop = 19/02/2016 17:45:00 title = CSI: Cyber (12) (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 15:05:00 stop = 19/02/2016 16:00:00 title = CSI: Cyber (12) (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:45:00 title = Mentalist (12) (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
@@ -253,10 +767,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  10/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL Kockica) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:50:00 stop = 19/02/2016 08:05:00 title = Braća koale
-[  Info  ]       Replaces ----- start = 19/02/2016 07:50:00 stop = 19/02/2016 09:20:00 title = Braća koale
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 09:25:00 stop = 19/02/2016 09:50:00 title = Mickey Mouse Clubhouse (?)
@@ -271,9 +781,8 @@
 [  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 11:55:00 title = Mali leteći medvjedi (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:55:00 stop = 19/02/2016 12:40:00 title = Johnny Test
-[  Info  ]       Replaces ----- start = 19/02/2016 11:55:00 stop = 19/02/2016 12:15:00 title = Johnny Test
-[  Info  ]       Replaces ----- start = 19/02/2016 12:15:00 stop = 19/02/2016 12:40:00 title = Pink Panther
+[  Info  ]       show with ---- start = 19/02/2016 11:55:00 stop = 19/02/2016 12:15:00 title = Johnny Test
+[  Info  ]       Replaces ----- start = 19/02/2016 11:55:00 stop = 19/02/2016 12:40:00 title = Johnny Test
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 17:00:00 stop = 19/02/2016 17:25:00 title = Mickey Mouse Clubhouse (?)
@@ -312,6 +821,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  11/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTL Living) -- mode incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:40:00 title = Mjenjačnica
+[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:40:00 title = TV prodaja
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 01:10:00
 [  Info  ]    forced update : 
@@ -326,14 +839,6 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 07:30:00 stop = 19/02/2016 08:30:00 title = Dječja TV (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 07:30:00 stop = 19/02/2016 08:30:00 title = Dječja TV (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 08:50:00 title = Serbus Zagreb
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:15:00 title = Serbus Zagreb
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:15:00 title = Zagrebancija
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:15:00 title = Serbus Zagreb
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:00:00 title = dom2, uređenje interijera i eksterijera (?)
@@ -362,17 +867,17 @@
 [  Info  ] (  13/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=MrežaZG) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 08:45:00 title = Bctv
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:45:00 title = Bctv
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:15:00 title = Top Shop
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:45:00 title = Top Shop
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:45:00 stop = 19/02/2016 09:45:00 title = Stav
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:45:00 title = Bctv
+[  Info  ]       show with ---- start = 19/02/2016 12:15:00 stop = 19/02/2016 12:45:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:45:00 title = Top Shop
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:45:00 title = Top Shop
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:15:00 title = Top Shop
-[  Info  ]       Replaces ----- start = 19/02/2016 12:15:00 stop = 19/02/2016 12:45:00 title = Vijesti
+[  Info  ]       show with ---- start = 19/02/2016 14:45:00 stop = 19/02/2016 16:00:00 title = Bitno
+[  Info  ]       Replaces ----- start = 19/02/2016 14:45:00 stop = 19/02/2016 15:45:00 title = Bitno
+[  Info  ]       Replaces ----- start = 19/02/2016 15:45:00 stop = 19/02/2016 16:00:00 title = Rondo shop
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 19/02/2016 23:00:00
 [  Debug ]    skipped : no value for starttime
@@ -386,10 +891,10 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  15/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=E) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:00:00 title = Keeping Up With The Kardashians (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 10:00:00 title = Keeping Up With The Kardashians (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:00:00 title = Keeping Up With The Kardashians (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 02:00:00 stop = 20/02/2016 03:00:00 title = Keeping Up With The Kardashians (?)
@@ -400,14 +905,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=MTV Adria) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:20:00 stop = 19/02/2016 08:50:00 title = Awkward
-[  Info  ]       Replaces ----- start = 19/02/2016 08:20:00 stop = 19/02/2016 09:10:00 title = Awkward
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:10:00 title = Awkward
-[  Info  ]       Replaces ----- start = 19/02/2016 08:20:00 stop = 19/02/2016 09:10:00 title = Awkward
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 18:10:00 stop = 19/02/2016 18:40:00 title = Ridiculousness 7,19. (?)
@@ -442,28 +939,23 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS1) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:08:00 title = Posetilac
-[  Info  ]       Replaces ----- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:48:00 title = Posetilac
-[  Debug ]    suspicious      title in index page  = Doktorka sa sela (12)
-[  Debug ]       differs from title in showdetails = Doktorka sa sela (12) (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 09:08:00 stop = 19/02/2016 09:48:00 title = Doktorka sa sela (12) (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:48:00 title = Posetilac
+[  Info  ]       Replaces ----- start = 19/02/2016 09:08:00 stop = 19/02/2016 09:48:00 title = Doktorka sa sela (12) (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 12:45:00 title = Kulturni dnevnik
+[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:45:00 title = Vreme, stanje na putevima
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 12:45:00 stop = 19/02/2016 13:30:00 title = Navy CIS - Los Angeles (16) (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 12:45:00 stop = 19/02/2016 13:30:00 title = Navy CIS - Los Angeles (16) (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:50:00 title = Na putu za Montevideo (12) (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:10:00 stop = 19/02/2016 16:50:00 title = Ovo je Srbija
+[  Info  ]       Replaces ----- start = 19/02/2016 15:10:00 stop = 19/02/2016 15:55:00 title = Ovo je Srbija
 [  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:50:00 title = Na putu za Montevideo (12) (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 18:25:00 stop = 19/02/2016 19:00:00 title = Cena neutralnosti na liniji vatre, Oko
-[  Info  ]       Replaces ----- start = 19/02/2016 18:25:00 stop = 19/02/2016 19:00:00 title = Oko (?)
 [  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
 [  Debug ]       differs from title in showdetails = Na putu za Montevideo
 [  Info  ]    epg correction : 
@@ -484,92 +976,26 @@
 [  Info  ]       Replaces ----- start = 20/02/2016 04:51:00 stop = 20/02/2016 05:00:00 title = Na putu za Montevideo (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:47:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 09:06:00 stop = 20/02/2016 11:05:00 title = Žikina šarenica
-[  Info  ]       Replaces ----- start = 20/02/2016 09:06:00 stop = 20/02/2016 11:00:00 title = Žikina šarenica
-[  Info  ]       Replaces ----- start = 20/02/2016 11:00:00 stop = 20/02/2016 11:05:00 title = Vesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 13:33:00 stop = 20/02/2016 14:00:00 title = Glavom kroz zid: Evropska Unija
-[  Info  ]       Replaces ----- start = 20/02/2016 13:30:00 stop = 20/02/2016 14:00:00 title = Glavom kroz zid: Evropska Unija
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 15:58:00 stop = 20/02/2016 16:55:00 title = Na putu za Montevideo (12) (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 15:58:00 stop = 20/02/2016 16:55:00 title = Na putu za Montevideo (12) (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 19:00:00 stop = 20/02/2016 19:21:00 title = Slagalica
-[  Info  ]       Replaces ----- start = 20/02/2016 19:00:00 stop = 20/02/2016 19:17:00 title = Slagalica
-[  Info  ]       Replaces ----- start = 20/02/2016 19:17:00 stop = 20/02/2016 19:30:00 title = Vreme
 [  Debug ]    suspicious      title in index page  = Na putu za Montevideo (12)
 [  Debug ]       differs from title in showdetails = Na putu za Montevideo
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/02/2016 20:05:00 stop = 20/02/2016 21:10:00 title = Na putu za Montevideo
 [  Info  ]       Replaces ----- start = 20/02/2016 20:05:00 stop = 20/02/2016 21:10:00 title = Na putu za Montevideo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 21:10:00 stop = 20/02/2016 23:15:00 title = Selo gori i tako
-[  Info  ]       Replaces ----- start = 20/02/2016 21:10:00 stop = 20/02/2016 23:10:00 title = Selo gori i tako
-[  Info  ]       Replaces ----- start = 20/02/2016 23:10:00 stop = 20/02/2016 23:15:00 title = Vesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 23:20:00 stop = 21/02/2016 01:04:00 title = Velika španjolska obitelj
-[  Info  ]       Replaces ----- start = 20/02/2016 23:15:00 stop = 21/02/2016 01:00:00 title = Velika španjolska obitelj
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  21/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:49:00 title = Crtani filmovi
-[  Info  ]       Replaces ----- start = 19/02/2016 07:30:00 stop = 19/02/2016 09:49:00 title = Čuveni pisci: Tomas Hardi
+[  Info  ]       show with ---- start = 19/02/2016 12:35:00 stop = 19/02/2016 13:03:00 title = Metropolis
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:03:00 title = SO RTS: Šostakovič - šesta simfonija
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 04:37:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 07:03:00 stop = 20/02/2016 08:00:00 title = Znanje imanje
-[  Info  ]       Replaces ----- start = 20/02/2016 07:00:00 stop = 20/02/2016 08:00:00 title = Znanje imanje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 12:11:00 stop = 20/02/2016 12:40:00 title = Svet zdravlja
-[  Info  ]       Replaces ----- start = 20/02/2016 12:10:00 stop = 20/02/2016 12:40:00 title = Svet zdravlja
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 13:40:00 stop = 20/02/2016 14:14:00 title = Građanin
-[  Info  ]       Replaces ----- start = 20/02/2016 13:40:00 stop = 20/02/2016 14:20:00 title = Građanin
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 14:14:00 stop = 20/02/2016 14:42:00 title = Leti, leti pesmo moja mila
-[  Info  ]       Replaces ----- start = 20/02/2016 13:40:00 stop = 20/02/2016 14:20:00 title = Građanin
-[  Info  ]       Replaces ----- start = 20/02/2016 14:20:00 stop = 20/02/2016 14:35:00 title = Leti, leti pesmo moja mila
-[  Info  ]       Replaces ----- start = 20/02/2016 14:35:00 stop = 20/02/2016 15:00:00 title = Srbija na vezi: prof. dr Dejan Ilić
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 14:42:00 stop = 20/02/2016 15:08:00 title = Srbija na vezi: prof. dr Dejan Ilić
-[  Info  ]       Replaces ----- start = 20/02/2016 14:35:00 stop = 20/02/2016 15:00:00 title = Srbija na vezi: prof. dr Dejan Ilić
-[  Info  ]       Replaces ----- start = 20/02/2016 15:00:00 stop = 20/02/2016 15:50:00 title = Koncert Bojane Stamenov
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 15:08:00 stop = 20/02/2016 16:00:00 title = Koncert Bojane Stamenov
-[  Info  ]       Replaces ----- start = 20/02/2016 15:00:00 stop = 20/02/2016 15:50:00 title = Koncert Bojane Stamenov
-[  Info  ]       Replaces ----- start = 20/02/2016 15:50:00 stop = 20/02/2016 17:00:00 title = Da li je demontaža nuklearnih elektrana nemoguća misija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 19:17:00 stop = 20/02/2016 20:18:00 title = Koncert Amire Medunjanin
-[  Info  ]       Replaces ----- start = 20/02/2016 19:10:00 stop = 20/02/2016 20:10:00 title = Koncert Amire Medunjanin
-[  Info  ]       Replaces ----- start = 20/02/2016 20:10:00 stop = 20/02/2016 20:36:00 title = Naličje savremenog sveta
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 21:07:00 stop = 20/02/2016 22:01:00 title = Muzika u Velikom ratu
-[  Info  ]       Replaces ----- start = 20/02/2016 21:00:00 stop = 20/02/2016 21:55:00 title = Muzika u Velikom ratu
-[  Info  ]       Replaces ----- start = 20/02/2016 21:55:00 stop = 20/02/2016 22:20:00 title = Grozd
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 22:56:00 stop = 20/02/2016 23:49:00 title = Baklofen - čudotvoran lek protiv alkoholizma?
-[  Info  ]       Replaces ----- start = 20/02/2016 22:45:00 stop = 20/02/2016 23:35:00 title = Baklofen - čudotvoran lek protiv alkoholizma?
-[  Info  ]       Replaces ----- start = 20/02/2016 23:35:00 stop = 21/02/2016 00:00:00 title = Trenutak za uživanje u luksuzu
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -583,220 +1009,88 @@
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/02/2016 07:00:00 stop = 19/02/2016 09:00:00 title = Netko poput tebe
-[  Info  ]       Replaces ----- start = 19/02/2016 07:00:00 stop = 19/02/2016 09:30:00 title = Netko poput tebe
+[  Info  ]       Replaces ----- start = 19/02/2016 07:00:00 stop = 19/02/2016 09:00:00 title = Netko poput tebe
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 14:35:00 stop = 19/02/2016 16:00:00 title = Dva i po muškarca
+[  Info  ]       Replaces ----- start = 19/02/2016 14:35:00 stop = 19/02/2016 15:00:00 title = Dva i po muškarca
+[  Info  ]       Replaces ----- start = 19/02/2016 15:00:00 stop = 19/02/2016 16:00:00 title = Big Time Rush
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 03:30:00 stop = 20/02/2016 04:20:00 title = Kardashians (?)
-[  Info  ]       Replaces ----- start = 20/02/2016 03:30:00 stop = 20/02/2016 04:20:00 title = Porodica Kardašijan (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 03:30:00 stop = 20/02/2016 04:20:00 title = Kardashians (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 04:20:00 stop = 20/02/2016 05:05:00 title = Kardashians (?)
-[  Info  ]       Replaces ----- start = 20/02/2016 04:20:00 stop = 20/02/2016 05:05:00 title = Porodica Kardašijan (?)
+[  Info  ]       Replaces ----- start = 20/02/2016 04:20:00 stop = 20/02/2016 05:05:00 title = Kardashians (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 05:05:00 stop = 20/02/2016 06:00:00 title = O.C. (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 05:05:00 stop = 20/02/2016 06:00:00 title = O.C. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:05:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 13:25:00 stop = 20/02/2016 16:00:00 title = Za vječnu slavu
-[  Info  ]       Replaces ----- start = 20/02/2016 13:25:00 stop = 20/02/2016 16:00:00 title = Bitka za slobodu
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 06:53:00 stop = 19/02/2016 07:00:00 title = Nacionalni dnevnik
-[  Info  ]       Replaces ----- start = 19/02/2016 06:53:00 stop = 19/02/2016 11:04:00 title = Nacionalni dnevnik
+[  Info  ]       show with ---- start = 19/02/2016 11:04:00 stop = 19/02/2016 12:06:00 title = Premijera
+[  Info  ]       Replaces ----- start = 19/02/2016 11:04:00 stop = 19/02/2016 13:00:00 title = Premijera
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:00:00 stop = 19/02/2016 11:04:00 title = Dobro jutro
-[  Info  ]       Replaces ----- start = 19/02/2016 06:53:00 stop = 19/02/2016 11:04:00 title = Nacionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:04:00 stop = 19/02/2016 13:00:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 11:04:00 stop = 19/02/2016 11:14:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 11:14:00 stop = 19/02/2016 13:00:00 title = Farma uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 15:32:00 stop = 19/02/2016 15:57:00 title = Nacionalni dnevnik u 16
-[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 15:55:00 title = Nacionalni dnevnik u 16
-[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:17:00 title = Mala nevesta
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 15:57:00 stop = 19/02/2016 16:19:00 title = Mala nevesta
-[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:17:00 title = Mala nevesta
-[  Info  ]       Replaces ----- start = 19/02/2016 16:17:00 stop = 19/02/2016 17:00:00 title = FARMA -pregled dana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:57:00 stop = 19/02/2016 17:02:00 title = Mala nevesta
+[  Info  ]       Replaces ----- start = 19/02/2016 15:57:00 stop = 19/02/2016 16:19:00 title = Mala nevesta
+[  Info  ]       Replaces ----- start = 19/02/2016 16:19:00 stop = 19/02/2016 17:02:00 title = FARMA -pregled dana
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 17:02:00 stop = 19/02/2016 18:31:00 title = Bahar (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 17:00:00 stop = 19/02/2016 18:29:00 title = Bahar (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 18:29:00 stop = 19/02/2016 19:05:00 title = Nacionalni dnevnik u 18:30
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 18:31:00 stop = 19/02/2016 19:07:00 title = Nacionalni dnevnik u 18:30
-[  Info  ]       Replaces ----- start = 19/02/2016 18:29:00 stop = 19/02/2016 19:05:00 title = Nacionalni dnevnik u 18:30
-[  Info  ]       Replaces ----- start = 19/02/2016 19:05:00 stop = 19/02/2016 20:10:00 title = Elif
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 19:07:00 stop = 19/02/2016 20:12:00 title = Elif
-[  Info  ]       Replaces ----- start = 19/02/2016 19:05:00 stop = 19/02/2016 20:10:00 title = Elif
-[  Info  ]       Replaces ----- start = 19/02/2016 20:10:00 stop = 19/02/2016 21:00:00 title = Crna ruža
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 20:12:00 stop = 19/02/2016 21:02:00 title = Crna ruža
-[  Info  ]       Replaces ----- start = 19/02/2016 20:10:00 stop = 19/02/2016 21:00:00 title = Crna ruža
-[  Info  ]       Replaces ----- start = 19/02/2016 21:00:00 stop = 19/02/2016 21:15:00 title = Farma uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 21:17:00 stop = 19/02/2016 23:32:00 title = Pinkove Zvezdice
-[  Info  ]       Replaces ----- start = 19/02/2016 21:15:00 stop = 19/02/2016 23:30:00 title = Pinkove Zvezdice
-[  Info  ]       Replaces ----- start = 19/02/2016 23:30:00 stop = 20/02/2016 02:35:00 title = Farma uživo
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 19/02/2016 17:02:00 stop = 19/02/2016 18:31:00 title = Bahar (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 02:36:00 stop = 20/02/2016 03:03:00 title = Allo! Allo! (?)
-[  Info  ]       Replaces ----- start = 20/02/2016 02:35:00 stop = 20/02/2016 03:02:00 title = Allo! Allo! (?)
-[  Info  ]       Replaces ----- start = 20/02/2016 03:02:00 stop = 20/02/2016 03:29:00 title = Kalifornikacija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 03:03:00 stop = 20/02/2016 03:30:00 title = Kalifornikacija
-[  Info  ]       Replaces ----- start = 20/02/2016 03:02:00 stop = 20/02/2016 03:29:00 title = Kalifornikacija
-[  Info  ]       Replaces ----- start = 20/02/2016 03:29:00 stop = 20/02/2016 03:40:00 title = Premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 03:30:00 stop = 20/02/2016 03:40:00 title = Premijera
-[  Info  ]       Replaces ----- start = 20/02/2016 03:29:00 stop = 20/02/2016 03:40:00 title = Premijera
+[  Info  ]       Replaces ----- start = 20/02/2016 02:36:00 stop = 20/02/2016 03:03:00 title = Allo! Allo! (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:14:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 18:29:00 stop = 20/02/2016 19:06:00 title = Nacionalni dnevnik u 19:30
-[  Info  ]       Replaces ----- start = 20/02/2016 18:29:00 stop = 20/02/2016 19:04:00 title = Nacionalni dnevnik u 19:30
-[  Info  ]       Replaces ----- start = 20/02/2016 19:04:00 stop = 20/02/2016 20:00:00 title = Elif
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 19:06:00 stop = 20/02/2016 20:00:00 title = Elif
-[  Info  ]       Replaces ----- start = 20/02/2016 19:04:00 stop = 20/02/2016 20:00:00 title = Elif
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK 2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:49:00 stop = 19/02/2016 09:03:00 title = City kids
-[  Info  ]       Replaces ----- start = 19/02/2016 08:49:00 stop = 19/02/2016 09:33:00 title = City kids
+[  Info  ]       show with ---- start = 19/02/2016 11:27:00 stop = 19/02/2016 12:24:00 title = Dragulji
+[  Info  ]       Replaces ----- start = 19/02/2016 11:27:00 stop = 19/02/2016 12:42:00 title = Dragulji
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:03:00 stop = 19/02/2016 09:33:00 title = Nautika
-[  Info  ]       Replaces ----- start = 19/02/2016 08:49:00 stop = 19/02/2016 09:33:00 title = City kids
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:27:00 stop = 19/02/2016 12:42:00 title = Dragulji
-[  Info  ]       Replaces ----- start = 19/02/2016 10:03:00 stop = 19/02/2016 12:23:00 title = Dragulji
-[  Info  ]       Replaces ----- start = 19/02/2016 12:23:00 stop = 19/02/2016 12:41:00 title = Fis i Cips
-[  Info  ]       Replaces ----- start = 19/02/2016 12:41:00 stop = 19/02/2016 12:49:00 title = Mali meda Čarli
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:50:00 stop = 19/02/2016 15:06:00 title = Dragulji
-[  Info  ]       Replaces ----- start = 19/02/2016 12:49:00 stop = 19/02/2016 15:09:00 title = Dragulji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 15:06:00 stop = 19/02/2016 15:21:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 12:49:00 stop = 19/02/2016 15:09:00 title = Dragulji
-[  Info  ]       Replaces ----- start = 19/02/2016 15:09:00 stop = 19/02/2016 15:24:00 title = Premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 15:21:00 stop = 19/02/2016 16:04:00 title = Moj Heroj
-[  Info  ]       Replaces ----- start = 19/02/2016 15:09:00 stop = 19/02/2016 15:24:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 15:24:00 stop = 19/02/2016 16:08:00 title = Moj Heroj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 16:04:00 stop = 19/02/2016 16:46:00 title = Manchild
-[  Info  ]       Replaces ----- start = 19/02/2016 15:24:00 stop = 19/02/2016 16:08:00 title = Moj Heroj
-[  Info  ]       Replaces ----- start = 19/02/2016 16:08:00 stop = 19/02/2016 16:51:00 title = Manchild
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 16:46:00 stop = 19/02/2016 17:09:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 16:08:00 stop = 19/02/2016 16:51:00 title = Manchild
-[  Info  ]       Replaces ----- start = 19/02/2016 16:51:00 stop = 19/02/2016 17:15:00 title = Premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 17:09:00 stop = 19/02/2016 17:47:00 title = Vesti Pink World
-[  Info  ]       Replaces ----- start = 19/02/2016 16:51:00 stop = 19/02/2016 17:15:00 title = Premijera
-[  Info  ]       Replaces ----- start = 19/02/2016 17:15:00 stop = 19/02/2016 17:53:00 title = Vesti Pink World
+[  Info  ]       show with ---- start = 19/02/2016 15:21:00 stop = 19/02/2016 16:46:00 title = Moj Heroj
+[  Info  ]       Replaces ----- start = 19/02/2016 15:21:00 stop = 19/02/2016 16:04:00 title = Moj Heroj
+[  Info  ]       Replaces ----- start = 19/02/2016 16:04:00 stop = 19/02/2016 16:46:00 title = Manchild
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 19/02/2016 17:47:00 stop = 19/02/2016 19:07:00 title = Elitna Jedinica
-[  Info  ]       Replaces ----- start = 19/02/2016 17:15:00 stop = 19/02/2016 17:53:00 title = Vesti Pink World
-[  Info  ]       Replaces ----- start = 19/02/2016 17:53:00 stop = 19/02/2016 19:15:00 title = Elitna Jedinica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 19/02/2016 17:47:00 stop = 19/02/2016 19:07:00 title = Elitna Jedinica
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 19:07:00 stop = 19/02/2016 20:06:00 title = Mućke (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 17:53:00 stop = 19/02/2016 19:15:00 title = Elitna Jedinica
-[  Info  ]       Replaces ----- start = 19/02/2016 19:15:00 stop = 19/02/2016 20:15:00 title = Mućke (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 20:06:00 stop = 19/02/2016 22:10:00 title = Pentatlon
-[  Info  ]       Replaces ----- start = 19/02/2016 19:15:00 stop = 19/02/2016 20:15:00 title = Mućke (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 20:15:00 stop = 19/02/2016 22:22:00 title = Pentatlon
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 22:10:00 stop = 20/02/2016 00:32:00 title = Kuhar, lopov, njegova žena i njezin ljubavnik
-[  Info  ]       Replaces ----- start = 19/02/2016 20:15:00 stop = 19/02/2016 22:22:00 title = Pentatlon
-[  Info  ]       Replaces ----- start = 19/02/2016 22:22:00 stop = 20/02/2016 00:46:00 title = Kuhar, lopov, njegova žena i njezin ljubavnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 00:32:00 stop = 20/02/2016 02:16:00 title = Assassins' Code
-[  Info  ]       Replaces ----- start = 19/02/2016 22:22:00 stop = 20/02/2016 00:46:00 title = Kuhar, lopov, njegova žena i njezin ljubavnik
-[  Info  ]       Replaces ----- start = 20/02/2016 00:46:00 stop = 20/02/2016 02:33:00 title = Assassins' Code
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 02:16:00 stop = 20/02/2016 02:45:00 title = Moj Heroj
-[  Info  ]       Replaces ----- start = 20/02/2016 00:46:00 stop = 20/02/2016 02:33:00 title = Assassins' Code
-[  Info  ]       Replaces ----- start = 20/02/2016 02:33:00 stop = 20/02/2016 03:02:00 title = Moj Heroj
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 02:45:00 stop = 20/02/2016 03:18:00 title = Manchild
-[  Info  ]       Replaces ----- start = 20/02/2016 02:33:00 stop = 20/02/2016 03:02:00 title = Moj Heroj
-[  Info  ]       Replaces ----- start = 20/02/2016 03:02:00 stop = 20/02/2016 03:35:00 title = Manchild
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 03:18:00 stop = 20/02/2016 04:57:00 title = Pentatlon
-[  Info  ]       Replaces ----- start = 20/02/2016 03:02:00 stop = 20/02/2016 03:35:00 title = Manchild
-[  Info  ]       Replaces ----- start = 20/02/2016 03:35:00 stop = 20/02/2016 05:17:00 title = Pentatlon
+[  Info  ]       Replaces ----- start = 19/02/2016 19:07:00 stop = 19/02/2016 20:06:00 title = Mućke (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 03:18:00
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 20/02/2016 06:39:00 stop = 20/02/2016 07:38:00 title = Elitna Jedinica
-[  Info  ]       Replaces ----- start = 20/02/2016 07:00:00 stop = 20/02/2016 08:01:00 title = Elitna Jedinica
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 07:38:00 stop = 20/02/2016 08:03:00 title = Premijera
-[  Info  ]       Replaces ----- start = 20/02/2016 07:00:00 stop = 20/02/2016 08:01:00 title = Elitna Jedinica
-[  Info  ]       Replaces ----- start = 20/02/2016 08:01:00 stop = 20/02/2016 08:16:00 title = Premijera
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 20/02/2016 08:03:00 stop = 20/02/2016 10:03:00 title = Tata duh
-[  Info  ]       Replaces ----- start = 20/02/2016 08:01:00 stop = 20/02/2016 08:16:00 title = Premijera
-[  Info  ]       Replaces ----- start = 20/02/2016 08:16:00 stop = 20/02/2016 10:03:00 title = Tata duh
+[  Info  ]       Replaces ----- start = 20/02/2016 06:39:00 stop = 20/02/2016 07:38:00 title = Elitna Jedinica
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=RTS SAT) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:08:00 title = Posetilac 2: Risto Stijović (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:48:00 title = Posetilac 2: Risto Stijović (?)
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 12:50:00 title = Slagalica
+[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:50:00 title = Vreme i stanje na putevima
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:08:00 stop = 19/02/2016 09:48:00 title = Doktorka na selu
-[  Info  ]       Replaces ----- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:48:00 title = Posetilac 2: Risto Stijović (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:50:00 title = Na putu za Montevideo (?)
+[  Info  ]       show with ---- start = 19/02/2016 15:10:00 stop = 19/02/2016 16:50:00 title = Ovo je Srbija
+[  Info  ]       Replaces ----- start = 19/02/2016 15:10:00 stop = 19/02/2016 15:55:00 title = Ovo je Srbija
 [  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:50:00 title = Na putu za Montevideo (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
@@ -887,17 +1181,13 @@
 [  Info  ] (  35/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Eurosport HD) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Cycling
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 10:15:00 title = Cycling
+[  Info  ]       show with ---- start = 19/02/2016 10:15:00 stop = 19/02/2016 11:45:00 title = Alpine Skiing
+[  Info  ]       Replaces ----- start = 19/02/2016 10:15:00 stop = 19/02/2016 13:00:00 title = Alpine Skiing
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 10:15:00 title = Cycling
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 10:15:00 title = Cycling
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:15:00 stop = 19/02/2016 13:00:00 title = Alpine Skiing
-[  Info  ]       Replaces ----- start = 19/02/2016 10:15:00 stop = 19/02/2016 11:45:00 title = Alpine Skiing
-[  Info  ]       Replaces ----- start = 19/02/2016 11:45:00 stop = 19/02/2016 13:00:00 title = Snooker: Welsh Open
+[  Info  ]       show with ---- start = 19/02/2016 11:45:00 stop = 19/02/2016 16:00:00 title = Snooker: Welsh Open
+[  Info  ]       Replaces ----- start = 19/02/2016 10:15:00 stop = 19/02/2016 13:00:00 title = Alpine Skiing
+[  Info  ]       Replaces ----- start = 19/02/2016 13:00:00 stop = 19/02/2016 16:00:00 title = Snooker: Welsh Open
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 01:00:00
 [  Debug ]    skipped : no value for starttime
@@ -979,6 +1269,10 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 09:35:00 stop = 19/02/2016 10:00:00 title = The Owl & Co (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 09:35:00 stop = 19/02/2016 10:00:00 title = The Owl & Co (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:20:00 stop = 19/02/2016 12:45:00 title = Mr. Bean (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:55:00 stop = 19/02/2016 12:45:00 title = Pink Panther and Pals
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 15:55:00 title = Mr. Bean (?)
@@ -1013,6 +1307,11 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:15:00 title = The Amazing World of Gumball (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:15:00 title = The Amazing World of Gumball (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 16:05:00 stop = 19/02/2016 16:55:00 title = Steven Universe
+[  Info  ]       Replaces ----- start = 19/02/2016 16:05:00 stop = 19/02/2016 16:30:00 title = Steven Universe
+[  Info  ]       Replaces ----- start = 19/02/2016 16:30:00 stop = 19/02/2016 16:55:00 title = Angelo Rules
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 16:55:00 stop = 19/02/2016 17:30:00 title = The Amazing World of Gumball (?)
@@ -1045,17 +1344,17 @@
 [  Info  ] (  49/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Disney) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:00:00 title = A.N.T. Farm
-[  Info  ]       Replaces ----- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:25:00 title = A.N.T. Farm
+[  Info  ]       show with ---- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:30:00 title = Disney Mickey Mouse
+[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:55:00 title = Disney Mickey Mouse
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:25:00 title = A.N.T. Farm
-[  Info  ]       Replaces ----- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:25:00 title = A.N.T. Farm
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 12:55:00 title = H2O
+[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:55:00 title = Disney Mickey Mouse
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:55:00 title = Disney Mickey Mouse
-[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:30:00 title = Disney Mickey Mouse
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 12:55:00 title = H2O
+[  Info  ]       show with ---- start = 19/02/2016 15:00:00 stop = 19/02/2016 16:40:00 title = I Love Violetta
+[  Info  ]       Replaces ----- start = 19/02/2016 15:00:00 stop = 19/02/2016 16:38:00 title = I Love Violetta
+[  Info  ]       Replaces ----- start = 19/02/2016 16:38:00 stop = 19/02/2016 16:40:00 title = Descendants Wicked World
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:15:00
 [  Debug ]    skipped : no value for starttime
@@ -1109,14 +1408,14 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:15:00 stop = 19/02/2016 08:30:00 title = Šerlok Jak,27. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 08:15:00 stop = 19/02/2016 08:30:00 title = Šerlok Jak,27. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Marta - pas koji govori 3,9. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:30:00 title = Marta - pas koji govori 3,9. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Marta - pas koji govori 3,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:30:00 title = Čarobnica Lili 2,3. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:30:00 title = Marta - pas koji govori 3,9. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:30:00 title = Čarobnica Lili 2,3. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 10:00:00 stop = 19/02/2016 10:12:00 title = Maca Popi,23. (?)
@@ -1151,9 +1450,12 @@
 [  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:00:00 title = Porodica svemirskih pasa,16. (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:55:00 title = Mia i ja 2,13. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:25:00 title = Mia i ja 2,13. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:55:00 title = Radoznali Džordž 6,4. (?)
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:25:00 title = Mia i ja 2,13. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:55:00 title = Mia i ja 2,13. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:25:00 stop = 19/02/2016 12:55:00 title = Radoznali Džordž 6,4. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:55:00 title = Mia i ja 2,13. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 12:55:00 stop = 19/02/2016 13:25:00 title = Pustolovine sa Braćom Kret 4,1. (?)
@@ -1178,13 +1480,10 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:15:00 title = Majmun vidi, majmun radi 2,25. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:15:00 title = Majmun vidi, majmun radi 2,25. (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:15:00 stop = 19/02/2016 16:30:00 title = Šerlok Jak,28. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:00:00 title = Šerlok Jak,28. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 16:15:00 stop = 19/02/2016 16:30:00 title = Šerlok Jak,28. (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:30:00 stop = 19/02/2016 17:00:00 title = Marta - pas koji govori 3,10. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 16:30:00 stop = 19/02/2016 17:00:00 title = Marta - pas koji govori 3,10. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
@@ -1349,19 +1648,18 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 07:55:00 stop = 19/02/2016 08:05:00 title = Traktor Tom (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 07:55:00 stop = 19/02/2016 08:05:00 title = Traktor Tom (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:15:00 title = Spužva Bob Skockani (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:15:00 title = Grčka mitologija
+[  Info  ]       Replaces ----- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:15:00 title = Spužva Bob Skockani (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 10:55:00 stop = 19/02/2016 11:05:00 title = Traktor Tom (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 11:05:00 title = Traktor Tom (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:00:00 title = Spužva Bob Skockani (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:15:00 title = Spužva Bob Skockani (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 12:15:00 stop = 19/02/2016 13:00:00 title = Zašto se zaljubljujemo
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:15:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:00:00 title = Spužva Bob Skockani (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 13:55:00 stop = 19/02/2016 14:05:00 title = Traktor Tom (?)
@@ -1555,17 +1853,12 @@
 [  Info  ] (  55/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=KlasikTV) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:50:00 stop = 19/02/2016 08:00:00 title = Klizi - puzi
-[  Info  ]       Replaces ----- start = 19/02/2016 07:50:00 stop = 19/02/2016 09:33:00 title = Klizi - puzi
+[  Info  ]       show with ---- start = 19/02/2016 11:43:00 stop = 19/02/2016 12:00:00 title = Nogomet
+[  Info  ]       Replaces ----- start = 19/02/2016 11:43:00 stop = 19/02/2016 13:49:00 title = Nogomet
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:33:00 title = Blokada
-[  Info  ]       Replaces ----- start = 19/02/2016 07:50:00 stop = 19/02/2016 09:33:00 title = Klizi - puzi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:43:00 stop = 19/02/2016 13:49:00 title = Nogomet
-[  Info  ]       Replaces ----- start = 19/02/2016 11:43:00 stop = 19/02/2016 12:00:00 title = Nogomet
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:49:00 title = Major Bauk
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:49:00 title = Major Bauk
+[  Info  ]       Replaces ----- start = 19/02/2016 11:43:00 stop = 19/02/2016 13:49:00 title = Nogomet
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:57:00
 [  Debug ]    skipped : no value for starttime
@@ -1574,8 +1867,13 @@
 [  Info  ] (  56/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=KinoTV) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 10:00:00 title = Divlja Salsa
-[  Info  ]       Replaces ----- start = 19/02/2016 06:01:00 stop = 19/02/2016 10:00:00 title = Narko rat
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 14:00:00 title = Posljednji dani na Marsu
+[  Info  ]       Replaces ----- start = 19/02/2016 10:00:00 stop = 19/02/2016 14:00:00 title = Jedan i pol vitez
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 14:00:00 stop = 19/02/2016 18:00:00 title = Zlato
+[  Info  ]       Replaces ----- start = 19/02/2016 14:00:00 stop = 19/02/2016 16:00:00 title = Zlato
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 18:00:00 title = Gdje je Osama Bin Laden?
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 02:05:00
 [  Debug ]    suspicious      title in index page  = Batler (12)
@@ -1598,14 +1896,10 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 06:00:00 stop = 19/02/2016 06:25:00 title = Futurama 2,2. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 06:00:00 stop = 19/02/2016 06:25:00 title = Futurama 2,2. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 08:25:00 title = Ti si moj porok 2,1. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 08:50:00 title = Ti si moj porok 2,1. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:25:00 stop = 19/02/2016 08:50:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 08:50:00 title = Ti si moj porok 2,1. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 08:25:00 title = Ti si moj porok 2,1. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:10:00 title = Tate,2. (?)
@@ -1620,9 +1914,12 @@
 [  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:10:00 title = Ti si moj porok 2,1. (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:10:00 stop = 19/02/2016 13:30:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 12:35:00 title = Moderna obitelj
-[  Info  ]       Replaces ----- start = 19/02/2016 12:35:00 stop = 19/02/2016 13:30:00 title = Navy CIS
+[  Info  ]       show with ---- start = 19/02/2016 12:10:00 stop = 19/02/2016 12:35:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 13:30:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:35:00 stop = 19/02/2016 13:30:00 title = Navy CIS
+[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 13:30:00 title = Moderna obitelj
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 13:30:00 stop = 19/02/2016 14:25:00 title = Agenti SHIELD-a 3,7. (?)
@@ -1631,9 +1928,10 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 14:55:00 stop = 19/02/2016 15:20:00 title = Tate,3. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 14:55:00 stop = 19/02/2016 15:20:00 title = Tate,3. (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:05:00 title = LAS VEGAS 3,19. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:20:00 stop = 19/02/2016 17:05:00 title = Kosti
+[  Info  ]       Replaces ----- start = 19/02/2016 15:20:00 stop = 19/02/2016 16:15:00 title = Kosti
 [  Info  ]       Replaces ----- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:05:00 title = LAS VEGAS 3,19. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
@@ -1737,19 +2035,22 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:05:00 title = Ne vjeruj susjedi iz stana br. 23,17. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:05:00 title = Ne vjeruj susjedi iz stana br. 23,17. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:05:00 stop = 19/02/2016 08:30:00 title = Cougar Town 6,1. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:20:00 title = Cougar Town 6,1. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 08:30:00 title = Cougar Town 6,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:20:00 title = Jednom davno 3,8. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:20:00 title = Cougar Town 6,1. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:20:00 title = Jednom davno 3,8. (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:55:00 title = ŠKOLA ZA PAROVE
-[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:00:00 title = ŠKOLA ZA PAROVE
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:55:00 title = Ljubavnice 3,12. (?)
+[  Info  ]       show with ---- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:00:00 title = ŠKOLA ZA PAROVE
+[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:55:00 title = ŠKOLA ZA PAROVE
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:55:00 title = Ljubavnice 3,12. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:55:00 title = ŠKOLA ZA PAROVE
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 12:55:00 stop = 19/02/2016 13:50:00 title = Uvod u anatomiju 12,6. (?)
@@ -1766,13 +2067,10 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 15:25:00 stop = 19/02/2016 15:50:00 title = Mladi i gladni 2,16. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 15:25:00 stop = 19/02/2016 15:50:00 title = Mladi i gladni 2,16. (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 15:50:00 stop = 19/02/2016 16:15:00 title = Ne vjeruj susjedi iz stana br. 23,17. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:50:00 stop = 19/02/2016 17:10:00 title = Ne vjeruj susjedi iz stana br. 23,17. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 15:50:00 stop = 19/02/2016 16:15:00 title = Ne vjeruj susjedi iz stana br. 23,17. (?)
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:10:00 title = Jednom davno 3,9. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:10:00 title = Jednom davno 3,9. (?)
 [  Debug ]    suspicious      title in index page  = Muška srca 2 (12)
 [  Debug ]       differs from title in showdetails = Muška srca 2
@@ -1812,11 +2110,11 @@
 [  Info  ]       Replaces ----- start = 20/02/2016 07:10:00 stop = 20/02/2016 08:00:00 title = Kako izgledam? 11,19. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 20/02/2016 08:00:00 stop = 20/02/2016 08:30:00 title = ŽIVOT S FRAN 2,6. (?)
+[  Info  ]       show with ---- start = 20/02/2016 08:00:00 stop = 20/02/2016 08:30:00 title = Život s Fran 2,6. (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 08:00:00 stop = 20/02/2016 08:30:00 title = ŽIVOT S FRAN 2,6. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 20/02/2016 08:30:00 stop = 20/02/2016 08:55:00 title = ŽIVOT S FRAN 2,7. (?)
+[  Info  ]       show with ---- start = 20/02/2016 08:30:00 stop = 20/02/2016 08:55:00 title = Život s Fran 2,7. (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 08:30:00 stop = 20/02/2016 08:55:00 title = ŽIVOT S FRAN 2,7. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
@@ -1860,11 +2158,11 @@
 [  Info  ]       Replaces ----- start = 20/02/2016 21:30:00 stop = 20/02/2016 22:00:00 title = Cristela,10. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 20/02/2016 22:00:00 stop = 20/02/2016 22:30:00 title = ŽIVOT S FRAN 2,8. (?)
+[  Info  ]       show with ---- start = 20/02/2016 22:00:00 stop = 20/02/2016 22:30:00 title = Život s Fran 2,8. (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 22:00:00 stop = 20/02/2016 22:30:00 title = ŽIVOT S FRAN 2,8. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 20/02/2016 22:30:00 stop = 20/02/2016 23:00:00 title = ŽIVOT S FRAN 2,9. (?)
+[  Info  ]       show with ---- start = 20/02/2016 22:30:00 stop = 20/02/2016 23:00:00 title = Život s Fran 2,9. (?)
 [  Info  ]       Replaces ----- start = 20/02/2016 22:30:00 stop = 20/02/2016 23:00:00 title = ŽIVOT S FRAN 2,9. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
@@ -1874,19 +2172,22 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 06:45:00 stop = 19/02/2016 07:40:00 title = Tim osvetnika 5,15. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 06:45:00 stop = 19/02/2016 07:40:00 title = Tim osvetnika 5,15. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:45:00 title = Smrt u raju 2,1. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:50:00 title = Smrt u raju 2,1. (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
+[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:45:00 title = Smrt u raju 2,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 08:45:00 stop = 19/02/2016 09:50:00 title = Novi stari slučajevi 10,4. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:50:00 title = Smrt u raju 2,1. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 08:45:00 stop = 19/02/2016 09:50:00 title = Novi stari slučajevi 10,4. (?)
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:45:00 stop = 19/02/2016 12:49:00 title = Zakon i red 18,1. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 10:45:00 stop = 19/02/2016 11:45:00 title = Zakon i red 18,1. (?)
-[  Info  ]       Replaces ----- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:49:00 title = Rimski forenzičari 2,16. (?)
+[  Info  ]       show with ---- start = 19/02/2016 10:45:00 stop = 19/02/2016 11:45:00 title = Zakon i red 18,1. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 10:45:00 stop = 19/02/2016 12:49:00 title = Zakon i red 18,1. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:45:00 stop = 19/02/2016 12:49:00 title = Rimski forenzičari 2,16. (?)
+[  Info  ]       Replaces ----- start = 19/02/2016 10:45:00 stop = 19/02/2016 12:49:00 title = Zakon i red 18,1. (?)
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 12:49:00 stop = 19/02/2016 13:55:00 title = Zajedno protiv zločina,4. (?)
@@ -1895,6 +2196,11 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 13:55:00 stop = 19/02/2016 14:59:00 title = Novi stari slučajevi 10,5. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 14:59:00 title = Novi stari slučajevi 10,5. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 14:59:00 stop = 19/02/2016 16:50:00 title = Ubojstvo, napisala je
+[  Info  ]       Replaces ----- start = 19/02/2016 14:59:00 stop = 19/02/2016 15:55:00 title = Ubojstvo, napisala je
+[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 16:50:00 title = Monk
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 16:50:00 stop = 19/02/2016 18:00:00 title = Smrt u raju 2,2. (?)
@@ -1975,21 +2281,21 @@
 [  Info  ] (  60/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=FOX Movies) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 06:00:00 stop = 19/02/2016 07:42:00 title = Tri dana
-[  Info  ]       Replaces ----- start = 19/02/2016 06:00:00 stop = 19/02/2016 09:44:00 title = Tri dana
+[  Info  ]       show with ---- start = 19/02/2016 09:44:00 stop = 19/02/2016 11:44:00 title = Brewsterovi milijuni
+[  Info  ]       Replaces ----- start = 19/02/2016 09:44:00 stop = 19/02/2016 12:50:00 title = Brewsterovi milijuni
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:42:00 stop = 19/02/2016 09:44:00 title = 24 krave i nijedan muškarac
-[  Info  ]       Replaces ----- start = 19/02/2016 06:00:00 stop = 19/02/2016 09:44:00 title = Tri dana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:44:00 stop = 19/02/2016 12:50:00 title = Brewsterovi milijuni
-[  Info  ]       Replaces ----- start = 19/02/2016 09:44:00 stop = 19/02/2016 11:44:00 title = Brewsterovi milijuni
-[  Info  ]       Replaces ----- start = 19/02/2016 11:44:00 stop = 19/02/2016 12:50:00 title = Inspektor Rex
+[  Info  ]       show with ---- start = 19/02/2016 11:44:00 stop = 19/02/2016 12:50:00 title = Inspektor Rex
+[  Info  ]       Replaces ----- start = 19/02/2016 09:44:00 stop = 19/02/2016 12:50:00 title = Brewsterovi milijuni
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 12:50:00 stop = 19/02/2016 13:45:00 title = Alias,14. (?)
 [  Info  ]       Replaces ----- start = 19/02/2016 12:50:00 stop = 19/02/2016 13:45:00 title = Alias,14. (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:45:00 stop = 19/02/2016 18:08:00 title = Valovi smrti
+[  Info  ]       Replaces ----- start = 19/02/2016 13:45:00 stop = 19/02/2016 15:55:00 title = Valovi smrti
+[  Info  ]       Replaces ----- start = 19/02/2016 15:55:00 stop = 19/02/2016 18:08:00 title = Luckasti profesor 2: Obitelj Klump
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 20/02/2016 00:50:00 stop = 20/02/2016 01:50:00 title = Alias,15. (?)
@@ -2022,9 +2328,17 @@
 [  Info  ] (  61/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar TV) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:15:00 title = Putovanje uz novčić
-[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 11:05:00 title = Putovanje uz novčić
-[  Info  ]       Replaces ----- start = 19/02/2016 11:05:00 stop = 19/02/2016 13:15:00 title = Plavi udar
+[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 11:05:00 title = Putovanje uz novčić
+[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:15:00 title = Putovanje uz novčić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:05:00 stop = 19/02/2016 13:15:00 title = Plavi udar
+[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:15:00 title = Putovanje uz novčić
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:15:00 stop = 19/02/2016 17:25:00 title = Stanari
+[  Info  ]       Replaces ----- start = 19/02/2016 13:15:00 stop = 19/02/2016 15:05:00 title = Stanari
+[  Info  ]       Replaces ----- start = 19/02/2016 15:05:00 stop = 19/02/2016 17:25:00 title = P.S. Volim te
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 19/02/2016 22:55:00
 [  Debug ]    skipped : no value for starttime
@@ -2034,9 +2348,13 @@
 [  Info  ] (  62/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar A&T) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:00:00 stop = 19/02/2016 14:15:00 title = Otok s blagom 2. dio
-[  Info  ]       Replaces ----- start = 19/02/2016 10:00:00 stop = 19/02/2016 11:50:00 title = Otok s blagom 2. dio
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 14:15:00 title = Kandidat
+[  Info  ]       show with ---- start = 19/02/2016 10:00:00 stop = 19/02/2016 11:50:00 title = Otok s blagom 2. dio
+[  Info  ]       Replaces ----- start = 19/02/2016 10:00:00 stop = 19/02/2016 14:15:00 title = Otok s blagom 2. dio
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 16:00:00 title = Kandidat
+[  Info  ]       Replaces ----- start = 19/02/2016 10:00:00 stop = 19/02/2016 14:15:00 title = Otok s blagom 2. dio
+[  Info  ]       Replaces ----- start = 19/02/2016 14:15:00 stop = 19/02/2016 16:00:00 title = Posljednji egzorcizam
 [  Debug ]    suspicious      title in index page  = Nezakonit ulazak (12)
 [  Debug ]       differs from title in showdetails = Nezakonit ulazak
 [  Info  ]    epg correction : 
@@ -2075,9 +2393,17 @@
 [  Info  ] (  63/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar Prem. 1) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:05:00 stop = 19/02/2016 13:55:00 title = Angelique markiza anđela
-[  Info  ]       Replaces ----- start = 19/02/2016 10:05:00 stop = 19/02/2016 12:15:00 title = Angelique markiza anđela
-[  Info  ]       Replaces ----- start = 19/02/2016 12:15:00 stop = 19/02/2016 13:55:00 title = Snježna kraljica 2
+[  Info  ]       show with ---- start = 19/02/2016 10:05:00 stop = 19/02/2016 12:15:00 title = Angelique markiza anđela
+[  Info  ]       Replaces ----- start = 19/02/2016 10:05:00 stop = 19/02/2016 13:55:00 title = Angelique markiza anđela
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:15:00 stop = 19/02/2016 13:55:00 title = Snježna kraljica 2
+[  Info  ]       Replaces ----- start = 19/02/2016 10:05:00 stop = 19/02/2016 13:55:00 title = Angelique markiza anđela
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:55:00 stop = 19/02/2016 18:00:00 title = Pad Olimpa
+[  Info  ]       Replaces ----- start = 19/02/2016 13:55:00 stop = 19/02/2016 16:10:00 title = Pad Olimpa
+[  Info  ]       Replaces ----- start = 19/02/2016 16:10:00 stop = 19/02/2016 18:00:00 title = Neprijatelj
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 00:15:00
 [  Debug ]    skipped : no value for starttime
@@ -2086,13 +2412,17 @@
 [  Info  ] (  64/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar Prem. 2) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:00:00 stop = 19/02/2016 08:45:00 title = Metallica Through the Never
-[  Info  ]       Replaces ----- start = 19/02/2016 07:00:00 stop = 19/02/2016 11:30:00 title = Metallica Through the Never
+[  Info  ]       show with ---- start = 19/02/2016 08:45:00 stop = 19/02/2016 11:30:00 title = Iscjelitelj
+[  Info  ]       Replaces ----- start = 19/02/2016 08:45:00 stop = 19/02/2016 13:25:00 title = Iscjelitelj
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:45:00 stop = 19/02/2016 13:25:00 title = Iscjelitelj
-[  Info  ]       Replaces ----- start = 19/02/2016 07:00:00 stop = 19/02/2016 11:30:00 title = Metallica Through the Never
-[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 13:25:00 title = Kako živim sada
+[  Info  ]       show with ---- start = 19/02/2016 11:30:00 stop = 19/02/2016 13:25:00 title = Kako živim sada
+[  Info  ]       Replaces ----- start = 19/02/2016 08:45:00 stop = 19/02/2016 13:25:00 title = Iscjelitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 13:25:00 stop = 19/02/2016 17:25:00 title = Parker
+[  Info  ]       Replaces ----- start = 19/02/2016 13:25:00 stop = 19/02/2016 15:35:00 title = Parker
+[  Info  ]       Replaces ----- start = 19/02/2016 15:35:00 stop = 19/02/2016 17:25:00 title = Legenda o Herkulu
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 19/02/2016 23:00:00
 [  Debug ]    skipped : no value for starttime
@@ -2102,9 +2432,12 @@
 [  Info  ] (  65/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=CineStar TV.rs) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:00:00 title = Prošlost u prošlosti
-[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 11:00:00 title = Prošlost u prošlosti
-[  Info  ]       Replaces ----- start = 19/02/2016 11:00:00 stop = 19/02/2016 13:00:00 title = Putovanje uz novčić
+[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 11:00:00 title = Prošlost u prošlosti
+[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:00:00 title = Prošlost u prošlosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 11:00:00 stop = 19/02/2016 13:00:00 title = Putovanje uz novčić
+[  Info  ]       Replaces ----- start = 19/02/2016 09:00:00 stop = 19/02/2016 13:00:00 title = Prošlost u prošlosti
 [  Debug ]    suspicious      title in index page  = Prkos (12)
 [  Debug ]       differs from title in showdetails = Prkos
 [  Info  ]    epg correction : 
@@ -2132,9 +2465,17 @@
 [  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 10:10:00 title = Pakleni val
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:10:00 stop = 19/02/2016 14:10:00 title = Predosjećaj kraja
-[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 12:10:00 title = Predosjećaj kraja
-[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 14:10:00 title = Prevaranti
+[  Info  ]       show with ---- start = 19/02/2016 10:10:00 stop = 19/02/2016 12:10:00 title = Predosjećaj kraja
+[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 14:10:00 title = Predosjećaj kraja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:10:00 stop = 19/02/2016 14:10:00 title = Prevaranti
+[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 14:10:00 title = Predosjećaj kraja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 14:10:00 stop = 19/02/2016 18:00:00 title = Kraj igre
+[  Info  ]       Replaces ----- start = 19/02/2016 14:10:00 stop = 19/02/2016 16:05:00 title = Kraj igre
+[  Info  ]       Replaces ----- start = 19/02/2016 16:05:00 stop = 19/02/2016 18:00:00 title = Resident Evil
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 00:05:00
 [  Debug ]    suspicious      title in index page  = Plavi čelik (12)
@@ -2150,17 +2491,17 @@
 [  Info  ] (  67/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=TV 1000) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 06:25:00 stop = 19/02/2016 08:30:00 title = Lijek za nesanicu
-[  Info  ]       Replaces ----- start = 19/02/2016 06:25:00 stop = 19/02/2016 10:10:00 title = Lijek za nesanicu
+[  Info  ]       show with ---- start = 19/02/2016 10:10:00 stop = 19/02/2016 11:50:00 title = Suze radosnice
+[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 13:15:00 title = Suze radosnice
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 10:10:00 title = Agent Cody Banks 2: Odredište London
-[  Info  ]       Replaces ----- start = 19/02/2016 06:25:00 stop = 19/02/2016 10:10:00 title = Lijek za nesanicu
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:15:00 title = Ultraviolet
+[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 13:15:00 title = Suze radosnice
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:10:00 stop = 19/02/2016 13:15:00 title = Suze radosnice
-[  Info  ]       Replaces ----- start = 19/02/2016 10:10:00 stop = 19/02/2016 11:50:00 title = Suze radosnice
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:15:00 title = Ultraviolet
+[  Info  ]       show with ---- start = 19/02/2016 13:15:00 stop = 19/02/2016 17:05:00 title = Englez koji se popeo na brdo, a sišao s planine
+[  Info  ]       Replaces ----- start = 19/02/2016 13:15:00 stop = 19/02/2016 14:50:00 title = Englez koji se popeo na brdo, a sišao s planine
+[  Info  ]       Replaces ----- start = 19/02/2016 14:50:00 stop = 19/02/2016 17:05:00 title = Lorenzo's Oil
 [  Debug ]    suspicious      title in index page  = Mali glas (12)
 [  Debug ]       differs from title in showdetails = Mali glas
 [  Info  ]    epg correction : 
@@ -2193,17 +2534,12 @@
 [  Info  ] (  68/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=AMC) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:30:00 stop = 19/02/2016 09:00:00 title = SAFARI 3000
-[  Info  ]       Replaces ----- start = 19/02/2016 07:30:00 stop = 19/02/2016 10:35:00 title = SAFARI 3000
+[  Info  ]       show with ---- start = 19/02/2016 10:55:00 stop = 19/02/2016 12:30:00 title = The Perfect Match
+[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 14:10:00 title = The Perfect Match
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 10:35:00 title = Touched
-[  Info  ]       Replaces ----- start = 19/02/2016 07:30:00 stop = 19/02/2016 10:35:00 title = SAFARI 3000
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:55:00 stop = 19/02/2016 14:10:00 title = The Perfect Match
-[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 12:30:00 title = The Perfect Match
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 14:10:00 title = Watch It
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 14:10:00 title = Watch It
+[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 14:10:00 title = The Perfect Match
 [  Debug ]    suspicious      title in index page  = Zmajevi (12)
 [  Debug ]       differs from title in showdetails = Zmajevi
 [  Info  ]    epg correction : 
@@ -2224,17 +2560,17 @@
 [  Info  ] (  69/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Universal) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:20:00 stop = 19/02/2016 08:20:00 title = Plava krv (2010)
-[  Info  ]       Replaces ----- start = 19/02/2016 07:20:00 stop = 19/02/2016 09:20:00 title = Plava krv (2010)
+[  Info  ]       show with ---- start = 19/02/2016 10:20:00 stop = 19/02/2016 12:20:00 title = Beethoven 5
+[  Info  ]       Replaces ----- start = 19/02/2016 10:20:00 stop = 19/02/2016 13:20:00 title = Beethoven 5
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:20:00 stop = 19/02/2016 09:20:00 title = Cura na tajnom zadatku
-[  Info  ]       Replaces ----- start = 19/02/2016 07:20:00 stop = 19/02/2016 09:20:00 title = Plava krv (2010)
+[  Info  ]       show with ---- start = 19/02/2016 12:20:00 stop = 19/02/2016 13:20:00 title = Cura na tajnom zadatku
+[  Info  ]       Replaces ----- start = 19/02/2016 10:20:00 stop = 19/02/2016 13:20:00 title = Beethoven 5
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:20:00 stop = 19/02/2016 13:20:00 title = Beethoven 5
-[  Info  ]       Replaces ----- start = 19/02/2016 10:20:00 stop = 19/02/2016 12:20:00 title = Beethoven 5
-[  Info  ]       Replaces ----- start = 19/02/2016 12:20:00 stop = 19/02/2016 13:20:00 title = Cura na tajnom zadatku
+[  Info  ]       show with ---- start = 19/02/2016 15:20:00 stop = 19/02/2016 18:20:00 title = Frikovi
+[  Info  ]       Replaces ----- start = 19/02/2016 15:20:00 stop = 19/02/2016 16:20:00 title = Frikovi
+[  Info  ]       Replaces ----- start = 19/02/2016 16:20:00 stop = 19/02/2016 18:20:00 title = Supersudarač
 [  Debug ]    suspicious      title in index page  = Braća po krvi (12)
 [  Debug ]       differs from title in showdetails = Braća po krvi
 [  Info  ]    epg correction : 
@@ -2261,17 +2597,17 @@
 [  Info  ] (  70/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Discovery Channel) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:05:00 title = Likvidator
-[  Info  ]       Replaces ----- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:55:00 title = Likvidator
+[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:35:00 title = Trgovci automobilima
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:30:00 title = Trgovci automobilima
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:05:00 stop = 19/02/2016 09:55:00 title = Zlatna groznica
-[  Info  ]       Replaces ----- start = 19/02/2016 08:35:00 stop = 19/02/2016 09:55:00 title = Likvidator
+[  Info  ]       show with ---- start = 19/02/2016 12:35:00 stop = 19/02/2016 13:30:00 title = Buntovnici s ledenog jezera
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:30:00 title = Trgovci automobilima
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:30:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:35:00 title = Trgovci automobilima
-[  Info  ]       Replaces ----- start = 19/02/2016 12:35:00 stop = 19/02/2016 13:30:00 title = Buntovnici s ledenog jezera
+[  Info  ]       show with ---- start = 19/02/2016 15:20:00 stop = 19/02/2016 16:40:00 title = Aljaška željeznica
+[  Info  ]       Replaces ----- start = 19/02/2016 15:20:00 stop = 19/02/2016 16:15:00 title = Aljaška željeznica
+[  Info  ]       Replaces ----- start = 19/02/2016 16:15:00 stop = 19/02/2016 16:40:00 title = Lov na oldtajmere
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:35:00
 [  Debug ]    skipped : no value for starttime
@@ -2280,17 +2616,17 @@
 [  Info  ] (  71/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Discovery Science) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:38:00 stop = 19/02/2016 09:00:00 title = How It's Made
-[  Info  ]       Replaces ----- start = 19/02/2016 08:38:00 stop = 19/02/2016 09:23:00 title = How It's Made
+[  Info  ]       show with ---- start = 19/02/2016 11:38:00 stop = 19/02/2016 12:23:00 title = Weird Or What?
+[  Info  ]       Replaces ----- start = 19/02/2016 11:38:00 stop = 19/02/2016 12:46:00 title = Weird Or What?
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:23:00 title = How It's Made
-[  Info  ]       Replaces ----- start = 19/02/2016 08:38:00 stop = 19/02/2016 09:23:00 title = How It's Made
+[  Info  ]       show with ---- start = 19/02/2016 12:23:00 stop = 19/02/2016 12:46:00 title = How It's Made
+[  Info  ]       Replaces ----- start = 19/02/2016 11:38:00 stop = 19/02/2016 12:46:00 title = Weird Or What?
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:38:00 stop = 19/02/2016 12:46:00 title = Weird Or What?
-[  Info  ]       Replaces ----- start = 19/02/2016 11:38:00 stop = 19/02/2016 12:23:00 title = Weird Or What?
-[  Info  ]       Replaces ----- start = 19/02/2016 12:23:00 stop = 19/02/2016 12:46:00 title = How It's Made
+[  Info  ]       show with ---- start = 19/02/2016 15:31:00 stop = 19/02/2016 17:05:00 title = Unchained Reaction
+[  Info  ]       Replaces ----- start = 19/02/2016 15:31:00 stop = 19/02/2016 16:18:00 title = Unchained Reaction
+[  Info  ]       Replaces ----- start = 19/02/2016 16:18:00 stop = 19/02/2016 17:05:00 title = Mythbusters
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:37:00
 [  Debug ]    skipped : no value for starttime
@@ -2299,17 +2635,17 @@
 [  Info  ] (  72/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Discovery TLC) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:00:00 stop = 19/02/2016 08:30:00 title = Vjenčanica iz snova
-[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:00:00 title = Vjenčanica iz snova
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:30:00 title = Vjenčanica iz snova
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Vjenčanica iz snova
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Vjenčanica iz snova: Djeveruše
-[  Info  ]       Replaces ----- start = 19/02/2016 08:00:00 stop = 19/02/2016 09:00:00 title = Vjenčanica iz snova
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:00:00 title = Vjenčanica iz snova: Djeveruše
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Vjenčanica iz snova
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Vjenčanica iz snova
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:30:00 title = Vjenčanica iz snova
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:00:00 title = Vjenčanica iz snova: Djeveruše
+[  Info  ]       show with ---- start = 19/02/2016 14:00:00 stop = 19/02/2016 16:00:00 title = 90 dana do vjenčanja
+[  Info  ]       Replaces ----- start = 19/02/2016 14:00:00 stop = 19/02/2016 15:00:00 title = 90 dana do vjenčanja
+[  Info  ]       Replaces ----- start = 19/02/2016 15:00:00 stop = 19/02/2016 16:00:00 title = Opsesivno-kompulzivni čistači
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:00:00
 [  Debug ]    skipped : no value for starttime
@@ -2318,17 +2654,17 @@
 [  Info  ] (  73/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Discovery World) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:30:00 title = 100 Miles from Nowhere
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:20:00 title = 100 Miles from Nowhere
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:40:00 title = Bizarre Foods
+[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:30:00 title = Bizarre Foods
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:20:00 title = Bizarre Foods
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:20:00 title = 100 Miles from Nowhere
+[  Info  ]       show with ---- start = 19/02/2016 12:40:00 stop = 19/02/2016 13:30:00 title = Extreme Engineering
+[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:30:00 title = Bizarre Foods
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:30:00 title = Bizarre Foods
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:40:00 title = Bizarre Foods
-[  Info  ]       Replaces ----- start = 19/02/2016 12:40:00 stop = 19/02/2016 13:30:00 title = Extreme Engineering
+[  Info  ]       show with ---- start = 19/02/2016 15:10:00 stop = 19/02/2016 16:50:00 title = Deadliest Catch
+[  Info  ]       Replaces ----- start = 19/02/2016 15:10:00 stop = 19/02/2016 16:00:00 title = Deadliest Catch
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 16:50:00 title = Prehistoric Elephant
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:35:00
 [  Debug ]    skipped : no value for starttime
@@ -2337,17 +2673,17 @@
 [  Info  ] (  74/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Discovery ID) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:40:00 stop = 19/02/2016 08:30:00 title = Fatal Encounters
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:20:00 title = Fatal Encounters
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:40:00 title = I Almost Got Away with It
+[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:05:00 title = I Almost Got Away with It
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:20:00 title = Murder Shift
-[  Info  ]       Replaces ----- start = 19/02/2016 07:40:00 stop = 19/02/2016 09:20:00 title = Fatal Encounters
+[  Info  ]       show with ---- start = 19/02/2016 12:40:00 stop = 19/02/2016 13:05:00 title = California Investigator
+[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:05:00 title = I Almost Got Away with It
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 13:05:00 title = I Almost Got Away with It
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:40:00 title = I Almost Got Away with It
-[  Info  ]       Replaces ----- start = 19/02/2016 12:40:00 stop = 19/02/2016 13:05:00 title = California Investigator
+[  Info  ]       show with ---- start = 19/02/2016 15:35:00 stop = 19/02/2016 17:15:00 title = Murder Shift
+[  Info  ]       Replaces ----- start = 19/02/2016 15:35:00 stop = 19/02/2016 16:25:00 title = Murder Shift
+[  Info  ]       Replaces ----- start = 19/02/2016 16:25:00 stop = 19/02/2016 17:15:00 title = I Almost Got Away with It
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:10:00
 [  Debug ]    skipped : no value for starttime
@@ -2356,17 +2692,12 @@
 [  Info  ] (  75/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Animal Planet) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:15:00 stop = 19/02/2016 08:10:00 title = Dr. Dee
-[  Info  ]       Replaces ----- start = 19/02/2016 07:15:00 stop = 19/02/2016 09:05:00 title = Dr. Dee
+[  Info  ]       show with ---- start = 19/02/2016 10:55:00 stop = 19/02/2016 11:50:00 title = Bondi Vet
+[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 12:45:00 title = Bondi Vet
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:10:00 stop = 19/02/2016 09:05:00 title = Treehouse Masters
-[  Info  ]       Replaces ----- start = 19/02/2016 07:15:00 stop = 19/02/2016 09:05:00 title = Dr. Dee
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 10:55:00 stop = 19/02/2016 12:45:00 title = Bondi Vet
-[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 11:50:00 title = Bondi Vet
-[  Info  ]       Replaces ----- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:45:00 title = Dr. Dee
+[  Info  ]       show with ---- start = 19/02/2016 11:50:00 stop = 19/02/2016 12:45:00 title = Dr. Dee
+[  Info  ]       Replaces ----- start = 19/02/2016 10:55:00 stop = 19/02/2016 12:45:00 title = Bondi Vet
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:36:00
 [  Debug ]    skipped : no value for starttime
@@ -2375,17 +2706,17 @@
 [  Info  ] (  76/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=National Geo) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:55:00 stop = 19/02/2016 08:45:00 title = Apokalipsa: Drugi svjetski rat
-[  Info  ]       Replaces ----- start = 19/02/2016 07:55:00 stop = 19/02/2016 09:35:00 title = Apokalipsa: Drugi svjetski rat
+[  Info  ]       show with ---- start = 19/02/2016 11:10:00 stop = 19/02/2016 12:00:00 title = Istrage zrakoplovnih nesreća 11
+[  Info  ]       Replaces ----- start = 19/02/2016 11:10:00 stop = 19/02/2016 12:50:00 title = Istrage zrakoplovnih nesreća 11
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:45:00 stop = 19/02/2016 09:35:00 title = Velika riba, Teksas
-[  Info  ]       Replaces ----- start = 19/02/2016 07:55:00 stop = 19/02/2016 09:35:00 title = Apokalipsa: Drugi svjetski rat
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:50:00 title = Znanost budućnosti Stephena Hawkinga
+[  Info  ]       Replaces ----- start = 19/02/2016 11:10:00 stop = 19/02/2016 12:50:00 title = Istrage zrakoplovnih nesreća 11
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:10:00 stop = 19/02/2016 12:50:00 title = Istrage zrakoplovnih nesreća 11
-[  Info  ]       Replaces ----- start = 19/02/2016 11:10:00 stop = 19/02/2016 12:00:00 title = Istrage zrakoplovnih nesreća 11
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:50:00 title = Znanost budućnosti Stephena Hawkinga
+[  Info  ]       show with ---- start = 19/02/2016 15:25:00 stop = 19/02/2016 16:45:00 title = Istrage zrakoplovnih nesreća 11
+[  Info  ]       Replaces ----- start = 19/02/2016 15:25:00 stop = 19/02/2016 16:20:00 title = Istrage zrakoplovnih nesreća 11
+[  Info  ]       Replaces ----- start = 19/02/2016 16:20:00 stop = 19/02/2016 16:45:00 title = Sekunde do katastrofe
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:35:00
 [  Debug ]    skipped : no value for starttime
@@ -2394,17 +2725,17 @@
 [  Info  ] (  77/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=National Geo. HD) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:20:00 stop = 19/02/2016 09:10:00 title = Najsmrtonosnije životinje svijeta
-[  Info  ]       Replaces ----- start = 19/02/2016 08:20:00 stop = 19/02/2016 10:00:00 title = Najsmrtonosnije životinje svijeta
+[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:30:00 title = Pecanje čudovišta
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:20:00 title = Pecanje čudovišta
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:10:00 stop = 19/02/2016 10:00:00 title = Autootpad
-[  Info  ]       Replaces ----- start = 19/02/2016 08:20:00 stop = 19/02/2016 10:00:00 title = Najsmrtonosnije životinje svijeta
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:20:00 title = Najsmrtonosnije životinje svijeta
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:20:00 title = Pecanje čudovišta
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:20:00 title = Pecanje čudovišta
-[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:30:00 title = Pecanje čudovišta
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:20:00 title = Najsmrtonosnije životinje svijeta
+[  Info  ]       show with ---- start = 19/02/2016 15:50:00 stop = 19/02/2016 17:30:00 title = Pecanje čudovišta
+[  Info  ]       Replaces ----- start = 19/02/2016 15:50:00 stop = 19/02/2016 16:40:00 title = Pecanje čudovišta
+[  Info  ]       Replaces ----- start = 19/02/2016 16:40:00 stop = 19/02/2016 17:30:00 title = Pripreme za Sudnji dan: Žive pčele
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:35:00
 [  Debug ]    skipped : no value for starttime
@@ -2413,17 +2744,17 @@
 [  Info  ] (  78/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Nat Geo Wild) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:47:00 stop = 19/02/2016 08:34:00 title = Smrtni neprijatelji
-[  Info  ]       Replaces ----- start = 19/02/2016 07:47:00 stop = 19/02/2016 09:22:00 title = Smrtni neprijatelji
+[  Info  ]       show with ---- start = 19/02/2016 11:44:00 stop = 19/02/2016 12:30:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
+[  Info  ]       Replaces ----- start = 19/02/2016 11:44:00 stop = 19/02/2016 13:17:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:34:00 stop = 19/02/2016 09:22:00 title = Pecanje čudovišta
-[  Info  ]       Replaces ----- start = 19/02/2016 07:47:00 stop = 19/02/2016 09:22:00 title = Smrtni neprijatelji
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:17:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
+[  Info  ]       Replaces ----- start = 19/02/2016 11:44:00 stop = 19/02/2016 13:17:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:44:00 stop = 19/02/2016 13:17:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
-[  Info  ]       Replaces ----- start = 19/02/2016 11:44:00 stop = 19/02/2016 12:30:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:17:00 title = Najsmrtonosnije životinje svijeta: Ralje i grijesi
+[  Info  ]       show with ---- start = 19/02/2016 15:37:00 stop = 19/02/2016 17:11:00 title = Smrtni neprijatelji
+[  Info  ]       Replaces ----- start = 19/02/2016 15:37:00 stop = 19/02/2016 16:24:00 title = Smrtni neprijatelji
+[  Info  ]       Replaces ----- start = 19/02/2016 16:24:00 stop = 19/02/2016 17:11:00 title = Pecanje čudovišta
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:16:00
 [  Debug ]    skipped : no value for starttime
@@ -2432,17 +2763,17 @@
 [  Info  ] (  79/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=History Channel) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:05:00 stop = 19/02/2016 08:30:00 title = Špediterski ratovi
-[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:00:00 title = Špediterski ratovi
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:30:00 title = Skladišni ratovi
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Skladišni ratovi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Špediterski ratovi
-[  Info  ]       Replaces ----- start = 19/02/2016 08:05:00 stop = 19/02/2016 09:00:00 title = Špediterski ratovi
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:00:00 title = Skladišni ratovi
+[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Skladišni ratovi
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Skladišni ratovi
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 12:30:00 title = Skladišni ratovi
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:00:00 title = Skladišni ratovi
+[  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 17:00:00 title = Oživljavanje starih auta
+[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:00:00 title = Oživljavanje starih auta
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:00:00 title = Leepu i Pitbull
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:35:00
 [  Debug ]    skipped : no value for starttime
@@ -2451,17 +2782,17 @@
 [  Info  ] (  80/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Viasat History) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 07:55:00 stop = 19/02/2016 08:50:00 title = Lovci na mitove
-[  Info  ]       Replaces ----- start = 19/02/2016 07:55:00 stop = 19/02/2016 09:55:00 title = Lovci na mitove
+[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:30:00 title = Otkrivanje vremena
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:35:00 title = Otkrivanje vremena
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:50:00 stop = 19/02/2016 09:55:00 title = Priča o znanosti
-[  Info  ]       Replaces ----- start = 19/02/2016 07:55:00 stop = 19/02/2016 09:55:00 title = Lovci na mitove
+[  Info  ]       show with ---- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:35:00 title = Farma iz doba Viktorije
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:35:00 title = Otkrivanje vremena
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:35:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:30:00 title = Otkrivanje vremena
-[  Info  ]       Replaces ----- start = 19/02/2016 12:30:00 stop = 19/02/2016 13:35:00 title = Farma iz doba Viktorije
+[  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 17:15:00 title = Lovci na mitove
+[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:25:00 title = Lovci na mitove
+[  Info  ]       Replaces ----- start = 19/02/2016 16:25:00 stop = 19/02/2016 17:15:00 title = Zabranjena povijest
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 05:00:00
 [  Debug ]    skipped : no value for starttime
@@ -2470,17 +2801,17 @@
 [  Info  ] (  81/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Viasat Explorer) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 08:55:00 title = Veliko na prodaji
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:45:00 title = Veliko na prodaji
+[  Info  ]       show with ---- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:10:00 title = Tragači za blagom
+[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:55:00 title = Tragači za blagom
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:55:00 stop = 19/02/2016 09:45:00 title = Megaselidbe
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:45:00 title = Veliko na prodaji
+[  Info  ]       show with ---- start = 19/02/2016 12:10:00 stop = 19/02/2016 12:55:00 title = Kraljevi drva
+[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:55:00 title = Tragači za blagom
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:55:00 title = Tragači za blagom
-[  Info  ]       Replaces ----- start = 19/02/2016 11:25:00 stop = 19/02/2016 12:10:00 title = Tragači za blagom
-[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 12:55:00 title = Kraljevi drva
+[  Info  ]       show with ---- start = 19/02/2016 16:15:00 stop = 19/02/2016 17:10:00 title = Opaki izumi
+[  Info  ]       Replaces ----- start = 19/02/2016 16:15:00 stop = 19/02/2016 16:40:00 title = Opaki izumi
+[  Info  ]       Replaces ----- start = 19/02/2016 16:40:00 stop = 19/02/2016 17:10:00 title = Opaki izumi
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 19/02/2016 23:00:00
 [  Debug ]    skipped : no value for starttime
@@ -2489,17 +2820,17 @@
 [  Info  ] (  82/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Viasat Nature) -- mode incremental
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:10:00 stop = 19/02/2016 09:00:00 title = Harnas -utočište za divlje životinje
-[  Info  ]       Replaces ----- start = 19/02/2016 08:10:00 stop = 19/02/2016 09:25:00 title = Harnas -utočište za divlje životinje
+[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:10:00 title = Bebe iz Zoo vrta
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:05:00 title = Bebe iz Zoo vrta
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 09:25:00 title = Bolnica za male životinje
-[  Info  ]       Replaces ----- start = 19/02/2016 08:10:00 stop = 19/02/2016 09:25:00 title = Harnas -utočište za divlje životinje
+[  Info  ]       show with ---- start = 19/02/2016 12:10:00 stop = 19/02/2016 13:05:00 title = Harnas -utočište za divlje životinje
+[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:05:00 title = Bebe iz Zoo vrta
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:40:00 stop = 19/02/2016 13:05:00 title = Bebe iz Zoo vrta
-[  Info  ]       Replaces ----- start = 19/02/2016 11:40:00 stop = 19/02/2016 12:10:00 title = Bebe iz Zoo vrta
-[  Info  ]       Replaces ----- start = 19/02/2016 12:10:00 stop = 19/02/2016 13:05:00 title = Harnas -utočište za divlje životinje
+[  Info  ]       show with ---- start = 19/02/2016 15:50:00 stop = 19/02/2016 17:15:00 title = Vulkanske odiseje
+[  Info  ]       Replaces ----- start = 19/02/2016 15:50:00 stop = 19/02/2016 16:25:00 title = Vulkanske odiseje
+[  Info  ]       Replaces ----- start = 19/02/2016 16:25:00 stop = 19/02/2016 17:15:00 title = Harnas -utočište za divlje životinje
 [  Info  ]    forced update : 
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 19/02/2016 18:10:00 stop = 19/02/2016 19:00:00 title = Tajni život pasa 2,1. (?)
@@ -2578,14 +2909,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  93/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Al Jazeera Balkans) -- mode incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 08:30:00 stop = 19/02/2016 09:00:00 title = Većina počinje ovdje
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 10:00:00 title = Većina počinje ovdje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 09:00:00 stop = 19/02/2016 10:00:00 title = Reprint Čede Kapora
-[  Info  ]       Replaces ----- start = 19/02/2016 08:30:00 stop = 19/02/2016 10:00:00 title = Većina počinje ovdje
 [  Debug ]    suspicious      title in index page  = Vrhovi Balkana 2
 [  Debug ]       differs from title in showdetails = Vrhovi Balkana
 [  Info  ]    epg correction : 
@@ -2594,9 +2917,17 @@
 [  Info  ]       Replaces ----- start = 19/02/2016 11:00:00 stop = 19/02/2016 11:30:00 title = Vrhovi Balkana
 [  Info  ]    epg correction : 
 [  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 19/02/2016 11:30:00 stop = 19/02/2016 13:00:00 title = Moj život
-[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:00:00 title = Moj život
-[  Info  ]       Replaces ----- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Nedjelja 13.
+[  Info  ]       show with ---- start = 19/02/2016 11:30:00 stop = 19/02/2016 12:00:00 title = Moj život
+[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 13:00:00 title = Moj život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 12:00:00 stop = 19/02/2016 13:00:00 title = Nedjelja 13.
+[  Info  ]       Replaces ----- start = 19/02/2016 11:30:00 stop = 19/02/2016 13:00:00 title = Moj život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/02/2016 15:30:00 stop = 19/02/2016 17:00:00 title = Ljudi i moć
+[  Info  ]       Replaces ----- start = 19/02/2016 15:30:00 stop = 19/02/2016 16:00:00 title = Ljudi i moć
+[  Info  ]       Replaces ----- start = 19/02/2016 16:00:00 stop = 19/02/2016 17:00:00 title = Vijesti u 16.00
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 20/02/2016 02:00:00
 [  Debug ]    suspicious      title in index page  = Vrhovi Balkana 2
@@ -2615,9 +2946,9 @@
 [  Debug ]    skipped show without a title at 
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 5347 shows in 94 channels
-[  Debug ] 611 updated shows
+[  Debug ] 5130 shows in 94 channels
+[  Debug ] 678 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 19/02/2016 12:41:54 done in 5m 6s
+[        ] Job finished at 19/02/2016 16:40:22 done in 2m 33s
