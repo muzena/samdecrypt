@@ -2,6 +2,7 @@
 # Script for EPG grab from WebGrab+Plus  http://www.webgrabplus.com/documentation
 set -x
 
+samdec="$HOME/Snimke/samdecrypt"
 
 function fixchannelnames_main()
 {
@@ -776,16 +777,28 @@ cd ..
 ####### Fix channel names main
 fixchannelnames_main
 wait $!
-#### Generate main config file
+#### Generate bnet config file with python script
 cp guide-main-test.xml ./pharser/guide-main.xml
-rm guide-main-test.xml
 cd pharser
 # generate main config file
 ##### Main pharser
 python pharser-main.py
 wait $!
 rm guide-main.xml
-cd .. <<EOF
+cd ..
+wait $!
+#### Generate main config file with libEPG_xml2josn
+cp guide-main-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
+cd ./libEPG_xml2josn/bin/Release
+rm libEPG-main.config
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-main.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-main-test.xml <<EOF
 EOF
 }
 
@@ -805,16 +818,28 @@ cd ..
 ####### Fix channel names bnet
 fixchannelnames_bnet
 wait $!
-#### Generate bnet config file
+#### Generate bnet config file with python script
 cp guide-bnet-test.xml ./pharser/guide-bnet.xml
-rm guide-bnet-test.xml
 cd pharser
 # generate bnet config file
 ##### Bnet pharser
 python pharser-bnet.py
 wait $!
 rm guide-bnet.xml
-cd .. <<EOF
+cd ..
+wait $!
+#### Generate bnet config file with libEPG_xml2josn
+cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
+cd ./libEPG_xml2josn/bin/Release
+rm libEPG-Bnet.config
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Bnet.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-bnet-test.xml <<EOF
 EOF
 }
 
@@ -835,14 +860,26 @@ fixchannelnames_mojtv
 wait $!
 #### Generate mojtv config file
 cp guide-mojtv-test.xml ./pharser/guide-mojtv.xml
-rm guide-mojtv-test.xml
 cd pharser
 # generate mojtv config file
 ##### mojtv pharser
 python pharser-mojtv.py
 wait $!
 rm guide-mojtv.xml
-cd .. <<EOF
+cd ..
+wait $!
+#### Generate mojtv config file with libEPG_xml2josn
+cp guide-mojtv-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
+cd ./libEPG_xml2josn/bin/Release
+rm libEPG-Mojtv.config
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Mojtv.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-mojtv-test.xml <<EOF
 EOF
 }
 
@@ -864,14 +901,26 @@ fixchannelnames_port
 wait $!
 #### Generate port config file
 cp guide-port-test.xml ./pharser/guide-port.xml
-rm guide-mojtv-test.xml
 cd pharser
 # generate port config file
 ##### port pharser
 python pharser-port.py
 wait $!
 rm guide-port.xml
-cd .. <<EOF
+cd ..
+wait $!
+#### Generate port config file with libEPG_xml2josn
+cp guide-port-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
+cd ./libEPG_xml2josn/bin/Release
+rm libEPG-Port.config
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Port.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-port-test.xml <<EOF
 EOF
 }
 
@@ -881,25 +930,37 @@ function update_mtvprofil_grabber()
 {
 rm ./pharser/libEPG-mtvprofil.config
 rm ./wg++/WebGrab++.config.xml
-#### EPG from Port
+#### EPG from mtvprofil
 cp ./wg++/WebGrab++.config-mtvprofil.xml ./wg++/WebGrab++.config.xml
 cd wg++
 mono WebGrab+Plus.exe "$(pwd)"
 wait $!
 cd ..
-####### Fix channel names port
+####### Fix channel names mtvprofil
 fixchannelnames_mtvprofil
 wait $!
-#### Generate port config file
+#### Generate mtvprofil config file
 cp guide-mtvprofil-test.xml ./pharser/guide-mtvprofil.xml
-rm guide-mojtv-test.xml
 cd pharser
-# generate port config file
-##### port pharser
+# generate mtvprofil config file
+##### mtvprofil pharser
 python pharser-mtvprofil.py
 wait $!
 rm guide-mtvprofil.xml
-cd .. <<EOF
+cd ..
+wait $!
+#### Generate mtvprofil config file with libEPG_xml2josn
+cp guide-mtvprofil-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
+cd ./libEPG_xml2josn/bin/Release
+rm libEPG-mtvprofil.config
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-mtvprofil.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-mtvprofil-test.xml <<EOF
 EOF
 }
 
