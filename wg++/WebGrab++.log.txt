@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 06/03/2016 01:01:33
+[        ] Job started at 06/03/2016 04:31:21
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.4.0.40400
 [  Debug ] Environment: 4.0.30319.17020
@@ -18,7 +18,7 @@
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] found: /home/goran/samdecrypt/wg++/m.tvprofil.net.ini -- Revision 4
 [  Debug ] xmltv input file - ../guide-mtvprofil.xml - found
-[  Debug ] 2441 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [  Info  ] 
 [  Info  ] update requested for - 94 - out of - 94 - channels for 2 day(s)
 [  Info  ] update mode - set per individual channel
@@ -46,8 +46,24 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 07:44:00 stop = 06/03/2016 08:08:00 title = Pčelica Maja,20. (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 07:44:00 stop = 06/03/2016 08:08:00 title = Pčelica Maja,20. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 00:00:00 stop = 07/03/2016 00:25:00 title = Elitni klinci 2,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 00:00:00 stop = 07/03/2016 00:25:00 title = Elitni klinci 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 00:25:00 stop = 07/03/2016 00:50:00 title = Elitni klinci 2,9. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 00:25:00 stop = 07/03/2016 00:50:00 title = Elitni klinci 2,9. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 02:20:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:55:00 stop = 07/03/2016 07:07:00 title = Zoološki prilaz br. 64,18. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:55:00 stop = 07/03/2016 07:07:00 title = Zoološki prilaz br. 64,18. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:43:00 stop = 07/03/2016 09:50:00 title = Prvi koraci,15. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:43:00 stop = 07/03/2016 09:50:00 title = Prvi koraci,15. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -82,8 +98,52 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 22:00:00 stop = 07/03/2016 00:10:00 title = Opstanak
 [  Debug ]    suspicious      title in index page  = LET (12)
 [  Debug ]       differs from title in showdetails = Let
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 00:10:00 stop = 07/03/2016 02:35:00 title = Let
+[  Info  ]       Replaces ----- start = 07/03/2016 00:10:00 stop = 07/03/2016 02:35:00 title = Let
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 03:35:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:05:00 stop = 07/03/2016 07:40:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:05:00 stop = 07/03/2016 07:40:00 title = Sve u šest (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:15:00 stop = 07/03/2016 10:05:00 title = Pet na pet 5,15. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:15:00 stop = 07/03/2016 10:05:00 title = Pet na pet 5,15. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:55:00 stop = 07/03/2016 12:55:00 title = Četiri vjenčanja 4,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:55:00 stop = 07/03/2016 12:55:00 title = Četiri vjenčanja 4,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:50:00 stop = 07/03/2016 14:50:00 title = Shopping kraljica 2,65. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:50:00 stop = 07/03/2016 14:50:00 title = Shopping kraljica 2,65. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:00:00 title = Shopping kraljica 2,66. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:00:00 title = Shopping kraljica 2,66. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:00:00 stop = 07/03/2016 18:30:00 title = Sve u šest (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:00:00 stop = 07/03/2016 18:30:00 title = Sve u šest (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:15:00 stop = 07/03/2016 20:00:00 title = Pet na pet 5,16. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:15:00 stop = 07/03/2016 20:00:00 title = Pet na pet 5,16. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:00:00 stop = 07/03/2016 21:15:00 title = Ljubav je na selu 6,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:00:00 stop = 07/03/2016 21:15:00 title = Ljubav je na selu 6,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 21:15:00 stop = 07/03/2016 22:15:00 title = Tri, dva, jedan - kuhaj! 3,21. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 21:15:00 stop = 07/03/2016 22:15:00 title = Tri, dva, jedan - kuhaj! 3,21. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 22:45:00 stop = 07/03/2016 23:05:00 title = Tri, dva, jedan - kuhaj! 3,21. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 22:45:00 stop = 07/03/2016 23:05:00 title = Tri, dva, jedan - kuhaj! 3,21. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -98,10 +158,34 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 17:50:00 stop = 06/03/2016 19:15:00 title = Lud, zbunjen, normalan (?)
 [  Debug ]    suspicious      title in index page  = CRNO SVITANJE (12)
 [  Debug ]       differs from title in showdetails = Crno svitanje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 01:10:00 stop = 07/03/2016 02:40:00 title = Crno svitanje
+[  Info  ]       Replaces ----- start = 07/03/2016 01:10:00 stop = 07/03/2016 02:40:00 title = Crno svitanje
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:25:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:30:00 stop = 07/03/2016 07:45:00 title = Zauvijek susjedi (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:30:00 stop = 07/03/2016 07:45:00 title = Zauvijek susjedi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:05:00 stop = 07/03/2016 13:15:00 title = Tuđi život (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:05:00 stop = 07/03/2016 13:15:00 title = Tuđi život (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:15:00 stop = 07/03/2016 14:00:00 title = Stella (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:15:00 stop = 07/03/2016 14:00:00 title = Stella (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:05:00 stop = 07/03/2016 17:00:00 title = Kud puklo da puklo (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:05:00 stop = 07/03/2016 17:00:00 title = Kud puklo da puklo (?)
 [  Debug ]    suspicious      title in index page  = Tragovi (12)
 [  Debug ]       differs from title in showdetails = Tragovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 22:15:00 stop = 07/03/2016 23:10:00 title = Tragovi
+[  Info  ]       Replaces ----- start = 07/03/2016 22:15:00 stop = 07/03/2016 23:10:00 title = Tragovi
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -124,6 +208,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 13:30:00 stop = 06/03/2016 14:00:00 title = InDizajn s Mirjanom Mikulec 9,1. (?)
 [  Debug ]    suspicious      title in index page  = Celebrity (12)
 [  Debug ]       differs from title in showdetails = Celebrity
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 03:55:00 stop = 07/03/2016 05:50:00 title = Celebrity
+[  Info  ]       Replaces ----- start = 07/03/2016 03:55:00 stop = 07/03/2016 05:50:00 title = Celebrity
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 03:55:00
 [  Debug ]    skipped : no value for starttime
@@ -152,14 +240,26 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 15:35:00 stop = 06/03/2016 16:25:00 title = Navy CIS (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 03:25:00
-[  Debug ]    suspicious      title in index page  = Osumnjičeni (12)
-[  Debug ]       differs from title in showdetails = Osumnjičeni (12) (?)
-[  Debug ]    suspicious      title in index page  = Navy CIS (12)
-[  Debug ]       differs from title in showdetails = Navy CIS (12) (?)
-[  Debug ]    suspicious      title in index page  = Mentalist (12)
-[  Debug ]       differs from title in showdetails = Mentalist (12) (?)
-[  Debug ]    suspicious      title in index page  = Navy CIS (12)
-[  Debug ]       differs from title in showdetails = Navy CIS (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:55:00 stop = 07/03/2016 09:15:00 title = Tom i Jerry priče (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:55:00 stop = 07/03/2016 09:15:00 title = Tom i Jerry priče (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:25:00 stop = 07/03/2016 16:20:00 title = Osumnjičeni (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:25:00 stop = 07/03/2016 16:20:00 title = Osumnjičeni (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:20:00 stop = 07/03/2016 17:10:00 title = Navy CIS (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:20:00 stop = 07/03/2016 17:10:00 title = Navy CIS (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:10:00 stop = 07/03/2016 18:05:00 title = Mentalist (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:10:00 stop = 07/03/2016 18:05:00 title = Mentalist (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 23:20:00 stop = 08/03/2016 00:10:00 title = Navy CIS (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 23:20:00 stop = 08/03/2016 00:10:00 title = Navy CIS (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -188,6 +288,22 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 17:50:00 stop = 06/03/2016 18:10:00 title = Doktorica Pliško (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:00:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:40:00 stop = 07/03/2016 10:05:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:40:00 stop = 07/03/2016 10:05:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:30:00 stop = 07/03/2016 10:55:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:30:00 stop = 07/03/2016 10:55:00 title = Doktorica Pliško (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:50:00 stop = 07/03/2016 17:15:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:50:00 stop = 07/03/2016 17:15:00 title = Mickey Mouse Clubhouse (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:40:00 stop = 07/03/2016 18:05:00 title = Doktorica Pliško (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:40:00 stop = 07/03/2016 18:05:00 title = Doktorica Pliško (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -202,6 +318,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 20:45:00 stop = 06/03/2016 22:15:00 title = Tri, dva, jedan - kuhaj! 2,30. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 00:35:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:20:00 stop = 07/03/2016 13:50:00 title = Tri, dva, jedan - kuhaj! 2,30. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:20:00 stop = 07/03/2016 13:50:00 title = Tri, dva, jedan - kuhaj! 2,30. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -216,6 +336,14 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 19:00:00 stop = 06/03/2016 19:28:00 title = Serbus Zagreb - tjedni pregled (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 02:15:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:30:00 stop = 07/03/2016 08:30:00 title = Dječja TV (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:30:00 stop = 07/03/2016 08:30:00 title = Dječja TV (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:05:00 title = Dječja TV (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:05:00 title = Dječja TV (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -228,6 +356,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 21:00:00 stop = 06/03/2016 22:40:00 title = Posljednja gozba
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 06/03/2016 23:00:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 14:45:00 stop = 07/03/2016 15:45:00 title = Hakeri (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 14:45:00 stop = 07/03/2016 15:45:00 title = Hakeri (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 22:55:00
 [  Info  ] 
@@ -249,12 +381,28 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 15:00:00 stop = 06/03/2016 16:00:00 title = Keeping Up with the Kardashians (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:00:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:00:00 stop = 07/03/2016 09:30:00 title = Keeping Up with the Kardashians (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:00:00 stop = 07/03/2016 09:30:00 title = Keeping Up with the Kardashians (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:00:00 stop = 07/03/2016 13:30:00 title = Keeping Up with the Kardashians (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:00:00 stop = 07/03/2016 13:30:00 title = Keeping Up with the Kardashians (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:30:00 title = Keeping Up with the Kardashians (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:30:00 title = Keeping Up with the Kardashians (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=MTV Adria) -- mode incremental
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 01:30:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:10:00 stop = 07/03/2016 18:40:00 title = Ridiculousness 6,25. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:10:00 stop = 07/03/2016 18:40:00 title = Ridiculousness 6,25. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -300,20 +448,38 @@
 [  Info  ]  CHANGED show corrected,
 [  Info  ]       show with ---- start = 06/03/2016 23:20:00 stop = 07/03/2016 00:25:00 title = Časna žena
 [  Info  ]       Replaces ----- start = 06/03/2016 23:20:00 stop = 07/03/2016 00:25:00 title = Časna žena
-[  Debug ]    suspicious      title in index page  = Komšije (12)
-[  Debug ]       differs from title in showdetails = Komšije (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 04:56:00 stop = 07/03/2016 05:47:00 title = Komšije (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 04:56:00 stop = 07/03/2016 05:47:00 title = Komšije (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:47:00
-[  Debug ]    suspicious      title in index page  = Navy CIS - Los Angeles (12)
-[  Debug ]       differs from title in showdetails = Navy CIS - Los Angeles (12) (?)
-[  Debug ]    suspicious      title in index page  = Bela lađa (12)
-[  Debug ]       differs from title in showdetails = Bela lađa (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:45:00 stop = 07/03/2016 13:30:00 title = Navy CIS - Los Angeles (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:45:00 stop = 07/03/2016 13:30:00 title = Navy CIS - Los Angeles (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:55:00 stop = 07/03/2016 16:50:00 title = Bela lađa (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:55:00 stop = 07/03/2016 16:50:00 title = Bela lađa (12) (?)
 [  Debug ]    suspicious      title in index page  = TV Zabavnik (12)
 [  Debug ]       differs from title in showdetails = TV Zabavnik
-[  Debug ]    suspicious      title in index page  = Bela lađa (12)
-[  Debug ]       differs from title in showdetails = Bela lađa (12) (?)
-[  Debug ]    suspicious      title in index page  = Navy CIS - Los Angeles (12)
-[  Debug ]       differs from title in showdetails = Navy CIS - Los Angeles (12) (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 16:50:00 stop = 07/03/2016 17:00:00 title = TV Zabavnik
+[  Info  ]       Replaces ----- start = 07/03/2016 16:50:00 stop = 07/03/2016 17:00:00 title = TV Zabavnik
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:25:00 stop = 07/03/2016 19:00:00 title = Oko (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:25:00 stop = 07/03/2016 19:00:00 title = Oko (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:05:00 stop = 07/03/2016 21:00:00 title = Bela lađa (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:05:00 stop = 07/03/2016 21:00:00 title = Bela lađa (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 23:35:00 stop = 08/03/2016 00:20:00 title = Navy CIS - Los Angeles (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 23:35:00 stop = 08/03/2016 00:20:00 title = Navy CIS - Los Angeles (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -326,28 +492,60 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 21:00:00 stop = 06/03/2016 22:10:00 title = Zapamti me
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 03:13:00
-[  Debug ]    suspicious      title in index page  = Vikinzi (12)
-[  Debug ]       differs from title in showdetails = Vikinzi (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:10:00 stop = 07/03/2016 10:40:00 title = Mansarda (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:10:00 stop = 07/03/2016 10:40:00 title = Mansarda (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:17:00 stop = 07/03/2016 18:04:00 title = Vikinzi (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:17:00 stop = 07/03/2016 18:04:00 title = Vikinzi (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  22/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=B92) -- mode incremental
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 02:55:00 stop = 07/03/2016 03:20:00 title = Porodica Kardašijan (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 02:55:00 stop = 07/03/2016 03:20:00 title = Porodica Kardašijan (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:20:00 stop = 07/03/2016 04:30:00 title = Porodica Kardašijan (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:20:00 stop = 07/03/2016 04:30:00 title = Porodica Kardašijan (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 04:30:00
-[  Debug ]    suspicious      title in index page  = Lara Croft Tomb Raider 2: Kolijevka života (12)
-[  Debug ]       differs from title in showdetails = Lara Croft Tomb Raider 2: Kolijevka života
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  23/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK) -- mode incremental
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:14:00 stop = 07/03/2016 03:44:00 title = Allo! Allo! (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:14:00 stop = 07/03/2016 03:44:00 title = Allo! Allo! (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:14:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:29:00 title = Bahar (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:00:00 stop = 07/03/2016 18:29:00 title = Bahar (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=PINK 2) -- mode incremental
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 02:34:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:02:00 stop = 07/03/2016 15:45:00 title = Pozornik (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:02:00 stop = 07/03/2016 15:45:00 title = Pozornik (?)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 17:52:00 stop = 07/03/2016 18:51:00 title = Elitna Jedinica
+[  Info  ]       Replaces ----- start = 07/03/2016 17:52:00 stop = 07/03/2016 18:51:00 title = Elitna Jedinica
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:51:00 stop = 07/03/2016 20:03:00 title = Mućke (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:51:00 stop = 07/03/2016 20:03:00 title = Mućke (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -362,14 +560,20 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 23:20:00 stop = 06/03/2016 23:50:00 title = Dozvolite... (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 23:20:00 stop = 06/03/2016 23:50:00 title = Dozvolite... (?)
-[  Debug ]    suspicious      title in index page  = Komšije (12)
-[  Debug ]       differs from title in showdetails = Komšije (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 04:55:00 stop = 07/03/2016 05:48:00 title = Komšije (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 04:55:00 stop = 07/03/2016 05:48:00 title = Komšije (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:48:00
-[  Debug ]    suspicious      title in index page  = Bela lađa (12)
-[  Debug ]       differs from title in showdetails = Bela lađa (12) (?)
-[  Debug ]    suspicious      title in index page  = Bela lađa (12)
-[  Debug ]       differs from title in showdetails = Bela lađa (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:55:00 stop = 07/03/2016 16:50:00 title = Bela lađa (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:55:00 stop = 07/03/2016 16:50:00 title = Bela lađa (12) (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:05:00 stop = 07/03/2016 21:00:00 title = Bela lađa (12) (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:05:00 stop = 07/03/2016 21:00:00 title = Bela lađa (12) (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -522,8 +726,32 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 18:35:00 stop = 06/03/2016 19:00:00 title = Mr. Bean (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 18:35:00 stop = 06/03/2016 19:00:00 title = Mr. Bean (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 00:45:00 stop = 07/03/2016 01:05:00 title = The Owl & Co (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 00:45:00 stop = 07/03/2016 01:05:00 title = The Owl & Co (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:35:00 stop = 07/03/2016 04:20:00 title = The Owl & Co (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:35:00 stop = 07/03/2016 04:20:00 title = The Owl & Co (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:35:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:25:00 stop = 07/03/2016 07:50:00 title = Mr. Bean (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:25:00 stop = 07/03/2016 07:50:00 title = Mr. Bean (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:35:00 stop = 07/03/2016 10:00:00 title = The Owl & Co (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:35:00 stop = 07/03/2016 10:00:00 title = The Owl & Co (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:20:00 stop = 07/03/2016 12:45:00 title = Mr. Bean (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:20:00 stop = 07/03/2016 12:45:00 title = Mr. Bean (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:30:00 stop = 07/03/2016 15:55:00 title = Mr. Bean (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:30:00 stop = 07/03/2016 15:55:00 title = Mr. Bean (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -540,8 +768,28 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 14:55:00 stop = 06/03/2016 15:40:00 title = The Amazing World of Gumball (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 14:55:00 stop = 06/03/2016 15:40:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:25:00 stop = 07/03/2016 05:10:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:25:00 stop = 07/03/2016 05:10:00 title = The Amazing World of Gumball (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 03:25:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:50:00 stop = 07/03/2016 07:20:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:50:00 stop = 07/03/2016 07:20:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:20:00 stop = 07/03/2016 07:45:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:20:00 stop = 07/03/2016 07:45:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:40:00 stop = 07/03/2016 11:15:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:40:00 stop = 07/03/2016 11:15:00 title = The Amazing World of Gumball (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:55:00 stop = 07/03/2016 20:30:00 title = The Amazing World of Gumball (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:55:00 stop = 07/03/2016 20:30:00 title = The Amazing World of Gumball (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -701,6 +949,166 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 19:50:00 stop = 07/03/2016 06:00:00 title = Pepa Prase 4,7. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 06/03/2016 19:50:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:00:00 stop = 07/03/2016 06:12:00 title = Maca Popi,41. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:00:00 stop = 07/03/2016 06:12:00 title = Maca Popi,41. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:12:00 stop = 07/03/2016 06:24:00 title = Svemirski trkači,41. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:12:00 stop = 07/03/2016 06:24:00 title = Svemirski trkači,41. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:24:00 stop = 07/03/2016 06:42:00 title = Maja,41. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:24:00 stop = 07/03/2016 06:42:00 title = Maja,41. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:42:00 stop = 07/03/2016 07:00:00 title = Morske princeze,41. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:42:00 stop = 07/03/2016 07:00:00 title = Morske princeze,41. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:00:00 stop = 07/03/2016 07:13:00 title = Koni,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:00:00 stop = 07/03/2016 07:13:00 title = Koni,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:13:00 stop = 07/03/2016 07:26:00 title = Kejt i Mim-Mim,35. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:13:00 stop = 07/03/2016 07:26:00 title = Kejt i Mim-Mim,35. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:26:00 stop = 07/03/2016 07:38:00 title = Vitez Majk 2,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:26:00 stop = 07/03/2016 07:38:00 title = Vitez Majk 2,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:38:00 stop = 07/03/2016 07:50:00 title = Čagington 4,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:38:00 stop = 07/03/2016 07:50:00 title = Čagington 4,3. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:50:00 stop = 07/03/2016 08:00:00 title = Porodica svemirskih pasa,34. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:50:00 stop = 07/03/2016 08:00:00 title = Porodica svemirskih pasa,34. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:00:00 stop = 07/03/2016 08:15:00 title = Pogodi koliko te volim,15. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:00:00 stop = 07/03/2016 08:15:00 title = Pogodi koliko te volim,15. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:15:00 stop = 07/03/2016 08:30:00 title = Šerlok Jak,44. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:15:00 stop = 07/03/2016 08:30:00 title = Šerlok Jak,44. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:30:00 stop = 07/03/2016 09:00:00 title = Marsupilami 3,16. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:30:00 stop = 07/03/2016 09:00:00 title = Marsupilami 3,16. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:00:00 stop = 07/03/2016 09:30:00 title = Čarobnica Lili 2,20. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:00:00 stop = 07/03/2016 09:30:00 title = Čarobnica Lili 2,20. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:30:00 stop = 07/03/2016 10:00:00 title = Prodavnica najmanjih ljubimaca 2,14. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:30:00 stop = 07/03/2016 10:00:00 title = Prodavnica najmanjih ljubimaca 2,14. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:00:00 stop = 07/03/2016 10:12:00 title = Maca Popi,40. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:00:00 stop = 07/03/2016 10:12:00 title = Maca Popi,40. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:12:00 stop = 07/03/2016 10:24:00 title = Svemirski trkači,40. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:12:00 stop = 07/03/2016 10:24:00 title = Svemirski trkači,40. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:24:00 stop = 07/03/2016 10:42:00 title = Maja,40. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:24:00 stop = 07/03/2016 10:42:00 title = Maja,40. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:42:00 stop = 07/03/2016 11:00:00 title = Morske princeze,40. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:42:00 stop = 07/03/2016 11:00:00 title = Morske princeze,40. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:00:00 stop = 07/03/2016 11:13:00 title = Koni,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:00:00 stop = 07/03/2016 11:13:00 title = Koni,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:13:00 stop = 07/03/2016 11:26:00 title = Kejt i Mim-Mim,34. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:13:00 stop = 07/03/2016 11:26:00 title = Kejt i Mim-Mim,34. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:26:00 stop = 07/03/2016 11:38:00 title = Vitez Majk 2,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:26:00 stop = 07/03/2016 11:38:00 title = Vitez Majk 2,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:38:00 stop = 07/03/2016 11:50:00 title = Čagington 4,2. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:38:00 stop = 07/03/2016 11:50:00 title = Čagington 4,2. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:50:00 stop = 07/03/2016 12:00:00 title = Porodica svemirskih pasa,33. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:50:00 stop = 07/03/2016 12:00:00 title = Porodica svemirskih pasa,33. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:00:00 stop = 07/03/2016 12:30:00 title = Artur 16,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:00:00 stop = 07/03/2016 12:30:00 title = Artur 16,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:30:00 stop = 07/03/2016 12:55:00 title = Radoznali Džordž 8,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:30:00 stop = 07/03/2016 12:55:00 title = Radoznali Džordž 8,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:55:00 stop = 07/03/2016 13:25:00 title = Pustolovine sa braćom Kret 4,18. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:55:00 stop = 07/03/2016 13:25:00 title = Pustolovine sa braćom Kret 4,18. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:25:00 stop = 07/03/2016 13:50:00 title = Nove avanture Petra Pana,11. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:25:00 stop = 07/03/2016 13:50:00 title = Nove avanture Petra Pana,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:50:00 stop = 07/03/2016 14:00:00 title = Pepa Prase 4,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:50:00 stop = 07/03/2016 14:00:00 title = Pepa Prase 4,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:00:00 stop = 07/03/2016 15:15:00 title = Maja,40. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:00:00 stop = 07/03/2016 15:15:00 title = Maja,40. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:15:00 stop = 07/03/2016 15:30:00 title = Mali džin,14. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:15:00 stop = 07/03/2016 15:30:00 title = Mali džin,14. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:00:00 stop = 07/03/2016 16:15:00 title = Pogodi koliko te volim,16. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:00:00 stop = 07/03/2016 16:15:00 title = Pogodi koliko te volim,16. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:15:00 stop = 07/03/2016 16:30:00 title = Šerlok Jak,45. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:15:00 stop = 07/03/2016 16:30:00 title = Šerlok Jak,45. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:30:00 stop = 07/03/2016 17:00:00 title = Marsupilami 3,17. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:30:00 stop = 07/03/2016 17:00:00 title = Marsupilami 3,17. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:00:00 stop = 07/03/2016 17:30:00 title = Čarobnica Lili 2,21. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:00:00 stop = 07/03/2016 17:30:00 title = Čarobnica Lili 2,21. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:30:00 stop = 07/03/2016 17:55:00 title = Prodavnica najmanjih ljubimaca 2,15. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:30:00 stop = 07/03/2016 17:55:00 title = Prodavnica najmanjih ljubimaca 2,15. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:55:00 stop = 07/03/2016 18:25:00 title = Artur 16,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:55:00 stop = 07/03/2016 18:25:00 title = Artur 16,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:25:00 stop = 07/03/2016 18:50:00 title = Radoznali Džordž 8,6. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:25:00 stop = 07/03/2016 18:50:00 title = Radoznali Džordž 8,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:50:00 stop = 07/03/2016 19:20:00 title = Pustolovine sa braćom Kret 4,19. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:50:00 stop = 07/03/2016 19:20:00 title = Pustolovine sa braćom Kret 4,19. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:20:00 stop = 07/03/2016 19:50:00 title = Nove avanture Petra Pana,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:20:00 stop = 07/03/2016 19:50:00 title = Nove avanture Petra Pana,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:50:00 stop = 08/03/2016 06:00:00 title = Pepa Prase 4,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:50:00 stop = 08/03/2016 06:00:00 title = Pepa Prase 4,8. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 19:50:00
 [  Info  ] 
@@ -716,6 +1124,14 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 18:30:00 stop = 06/03/2016 18:50:00 title = Spužva Bob Skockani (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 06/03/2016 18:50:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 15:00:00 stop = 07/03/2016 15:25:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 15:00:00 stop = 07/03/2016 15:25:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:10:00 stop = 07/03/2016 18:30:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:10:00 stop = 07/03/2016 18:30:00 title = Spužva Bob Skockani (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 18:30:00
 [  Info  ] 
@@ -769,8 +1185,76 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 22:15:00 stop = 06/03/2016 22:40:00 title = Big Time Rush (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 22:15:00 stop = 06/03/2016 22:40:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 00:50:00 stop = 07/03/2016 01:15:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 00:50:00 stop = 07/03/2016 01:15:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 01:15:00 stop = 07/03/2016 01:35:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 01:15:00 stop = 07/03/2016 01:35:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 01:35:00 stop = 07/03/2016 01:55:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 01:35:00 stop = 07/03/2016 01:55:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 01:55:00 stop = 07/03/2016 02:20:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 01:55:00 stop = 07/03/2016 02:20:00 title = Winx Club (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:20:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:35:00 stop = 07/03/2016 06:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:35:00 stop = 07/03/2016 06:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:55:00 stop = 07/03/2016 07:25:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:55:00 stop = 07/03/2016 07:25:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:45:00 stop = 07/03/2016 08:15:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:45:00 stop = 07/03/2016 08:15:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:15:00 stop = 07/03/2016 08:40:00 title = Dora istražuje (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:15:00 stop = 07/03/2016 08:40:00 title = Dora istražuje (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:45:00 stop = 07/03/2016 10:05:00 title = Blaze and the Monster Machines (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:45:00 stop = 07/03/2016 10:05:00 title = Blaze and the Monster Machines (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:45:00 stop = 07/03/2016 11:10:00 title = Dora and Friends (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:45:00 stop = 07/03/2016 11:10:00 title = Dora and Friends (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:10:00 stop = 07/03/2016 11:40:00 title = Winx Club (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:10:00 stop = 07/03/2016 11:40:00 title = Winx Club (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:15:00 stop = 07/03/2016 13:40:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:15:00 stop = 07/03/2016 13:40:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:15:00 stop = 07/03/2016 17:40:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:15:00 stop = 07/03/2016 17:40:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:40:00 stop = 07/03/2016 18:00:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:40:00 stop = 07/03/2016 18:00:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:30:00 stop = 07/03/2016 20:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:30:00 stop = 07/03/2016 20:55:00 title = Spužva Bob Skockani (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 21:50:00 stop = 07/03/2016 22:15:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 21:50:00 stop = 07/03/2016 22:15:00 title = Big Time Rush (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 22:15:00 stop = 07/03/2016 22:40:00 title = Big Time Rush (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 22:15:00 stop = 07/03/2016 22:40:00 title = Big Time Rush (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -849,10 +1333,66 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 23:47:00 stop = 07/03/2016 01:27:00 title = Američki supertalent 8,4. (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 23:47:00 stop = 07/03/2016 01:27:00 title = Američki supertalent 8,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:08:00 stop = 07/03/2016 03:50:00 title = Nečujno 5,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:08:00 stop = 07/03/2016 03:50:00 title = Nečujno 5,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:50:00 stop = 07/03/2016 04:32:00 title = Nečujno 5,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:50:00 stop = 07/03/2016 04:32:00 title = Nečujno 5,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 05:19:00 stop = 07/03/2016 05:39:00 title = Brickleberry 2,11. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 05:19:00 stop = 07/03/2016 05:39:00 title = Brickleberry 2,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 05:39:00 stop = 07/03/2016 06:00:00 title = Brickleberry 2,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 05:39:00 stop = 07/03/2016 06:00:00 title = Brickleberry 2,12. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:39:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:00:00 stop = 07/03/2016 06:24:00 title = Futurama 2,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:00:00 stop = 07/03/2016 06:24:00 title = Futurama 2,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:24:00 stop = 07/03/2016 07:10:00 title = Sanjiva dolina,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:24:00 stop = 07/03/2016 07:10:00 title = Sanjiva dolina,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:00:00 stop = 07/03/2016 08:27:00 title = Ti si moj porok 2,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:00:00 stop = 07/03/2016 08:27:00 title = Ti si moj porok 2,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:51:00 stop = 07/03/2016 09:14:00 title = Tate,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:51:00 stop = 07/03/2016 09:14:00 title = Tate,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:40:00 stop = 07/03/2016 12:10:00 title = Ti si moj porok 2,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:40:00 stop = 07/03/2016 12:10:00 title = Ti si moj porok 2,12. (?)
 [  Debug ]    suspicious      title in index page  = Luckasti profesor (12)
 [  Debug ]       differs from title in showdetails = Luckasti profesor
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 12:36:00 stop = 07/03/2016 14:24:00 title = Luckasti profesor
+[  Info  ]       Replaces ----- start = 07/03/2016 12:36:00 stop = 07/03/2016 14:24:00 title = Luckasti profesor
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 14:53:00 stop = 07/03/2016 15:20:00 title = Tate,14. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 14:53:00 stop = 07/03/2016 15:20:00 title = Tate,14. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:01:00 title = Brickleberry 2,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:01:00 title = Brickleberry 2,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:01:00 stop = 07/03/2016 20:34:00 title = Ti si moj porok 2,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:01:00 stop = 07/03/2016 20:34:00 title = Ti si moj porok 2,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 22:00:00 stop = 07/03/2016 22:55:00 title = ŽIVI MRTVACI 6,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 22:00:00 stop = 07/03/2016 22:55:00 title = ŽIVI MRTVACI 6,12. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -921,8 +1461,76 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 22:30:00 stop = 06/03/2016 23:00:00 title = Bivši 3,6. (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 22:30:00 stop = 06/03/2016 23:00:00 title = Bivši 3,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:35:00 stop = 07/03/2016 04:20:00 title = Žeđ za životom,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:35:00 stop = 07/03/2016 04:20:00 title = Žeđ za životom,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 04:20:00 stop = 07/03/2016 05:05:00 title = Žeđ za životom,6. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 04:20:00 stop = 07/03/2016 05:05:00 title = Žeđ za životom,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 05:05:00 stop = 07/03/2016 05:50:00 title = Žeđ za životom,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 05:05:00 stop = 07/03/2016 05:50:00 title = Žeđ za životom,7. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:05:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:05:00 stop = 07/03/2016 06:50:00 title = Tajne princeze,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:05:00 stop = 07/03/2016 06:50:00 title = Tajne princeze,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 06:50:00 stop = 07/03/2016 07:40:00 title = Kako izgledam? 12,11. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 06:50:00 stop = 07/03/2016 07:40:00 title = Kako izgledam? 12,11. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:40:00 stop = 07/03/2016 08:05:00 title = Sretno rastavljeni 2,9. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:40:00 stop = 07/03/2016 08:05:00 title = Sretno rastavljeni 2,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:05:00 stop = 07/03/2016 08:30:00 title = Cougar Town 6,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:05:00 stop = 07/03/2016 08:30:00 title = Cougar Town 6,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 09:20:00 stop = 07/03/2016 10:10:00 title = Šaptačica duhovima,6. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 09:20:00 stop = 07/03/2016 10:10:00 title = Šaptačica duhovima,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:10:00 stop = 07/03/2016 11:00:00 title = TIJELO JE DOKAZ 3,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:10:00 stop = 07/03/2016 11:00:00 title = TIJELO JE DOKAZ 3,3. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:30:00 stop = 07/03/2016 12:00:00 title = Sretno rastavljeni 2,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:30:00 stop = 07/03/2016 12:00:00 title = Sretno rastavljeni 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:58:00 stop = 07/03/2016 14:55:00 title = Marcelova kvantna kuhinja,1. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:58:00 stop = 07/03/2016 14:55:00 title = Marcelova kvantna kuhinja,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 14:55:00 stop = 07/03/2016 15:20:00 title = Cougar Town 6,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 14:55:00 stop = 07/03/2016 15:20:00 title = Cougar Town 6,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 17:10:00 stop = 07/03/2016 18:05:00 title = Šaptačica duhovima,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 17:10:00 stop = 07/03/2016 18:05:00 title = Šaptačica duhovima,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 18:05:00 stop = 07/03/2016 19:00:00 title = TIJELO JE DOKAZ 3,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 18:05:00 stop = 07/03/2016 19:00:00 title = TIJELO JE DOKAZ 3,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:30:00 stop = 07/03/2016 21:00:00 title = Sretno rastavljeni 2,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:30:00 stop = 07/03/2016 21:00:00 title = Sretno rastavljeni 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 21:00:00 stop = 07/03/2016 22:00:00 title = Žeđ za životom,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 21:00:00 stop = 07/03/2016 22:00:00 title = Žeđ za životom,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 22:00:00 stop = 07/03/2016 22:55:00 title = Veze,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 22:00:00 stop = 07/03/2016 22:55:00 title = Veze,7. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -991,8 +1599,76 @@
 [  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
 [  Info  ]       show with ---- start = 06/03/2016 23:49:00 stop = 07/03/2016 00:44:00 title = Kraljevi bijega 2,7. (?)
 [  Info  ]       Replaces ----- start = 06/03/2016 23:49:00 stop = 07/03/2016 00:44:00 title = Kraljevi bijega 2,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 00:44:00 stop = 07/03/2016 01:36:00 title = Lopovsko obećanje,1. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 00:44:00 stop = 07/03/2016 01:36:00 title = Lopovsko obećanje,1. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 01:36:00 stop = 07/03/2016 02:19:00 title = King 2,2. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 01:36:00 stop = 07/03/2016 02:19:00 title = King 2,2. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 03:50:00 stop = 07/03/2016 04:34:00 title = Odstrel 4,13. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 03:50:00 stop = 07/03/2016 04:34:00 title = Odstrel 4,13. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 04:34:00 stop = 07/03/2016 05:16:00 title = Zakon i red 18,2. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 04:34:00 stop = 07/03/2016 05:16:00 title = Zakon i red 18,2. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 05:16:00 stop = 07/03/2016 06:00:00 title = Zakon i red 18,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 05:16:00 stop = 07/03/2016 06:00:00 title = Zakon i red 18,3. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:16:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 07:35:00 stop = 07/03/2016 08:35:00 title = Smrt u raju 3,4. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 07:35:00 stop = 07/03/2016 08:35:00 title = Smrt u raju 3,4. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 08:35:00 stop = 07/03/2016 09:30:00 title = Četiri žene i sprovod 3,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 08:35:00 stop = 07/03/2016 09:30:00 title = Četiri žene i sprovod 3,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:00:00 stop = 07/03/2016 10:55:00 title = Otac Brown,2. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:00:00 stop = 07/03/2016 10:55:00 title = Otac Brown,2. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 10:55:00 stop = 07/03/2016 11:50:00 title = Zakon i red 18,12. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 10:55:00 stop = 07/03/2016 11:50:00 title = Zakon i red 18,12. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 11:50:00 stop = 07/03/2016 13:00:00 title = Rimski forenzičari 3,7. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 11:50:00 stop = 07/03/2016 13:00:00 title = Rimski forenzičari 3,7. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:00:00 stop = 07/03/2016 13:55:00 title = Odjel za istrage 8,9. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:00:00 stop = 07/03/2016 13:55:00 title = Odjel za istrage 8,9. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:55:00 stop = 07/03/2016 14:55:00 title = Četiri žene i sprovod 3,6. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:55:00 stop = 07/03/2016 14:55:00 title = Četiri žene i sprovod 3,6. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 14:55:00 stop = 07/03/2016 15:55:00 title = Otac Brown,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 14:55:00 stop = 07/03/2016 15:55:00 title = Otac Brown,3. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 16:50:00 stop = 07/03/2016 18:00:00 title = Smrt u raju 3,5. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 16:50:00 stop = 07/03/2016 18:00:00 title = Smrt u raju 3,5. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:50:00 stop = 07/03/2016 22:00:00 title = Rimski forenzičari 3,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:50:00 stop = 07/03/2016 22:00:00 title = Rimski forenzičari 3,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 22:00:00 stop = 07/03/2016 23:00:00 title = Čikaška policija 2,8. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 22:00:00 stop = 07/03/2016 23:00:00 title = Čikaška policija 2,8. (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 23:55:00 stop = 08/03/2016 00:50:00 title = Ubojstvo 3,6. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 23:55:00 stop = 08/03/2016 00:50:00 title = Ubojstvo 3,6. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1005,6 +1681,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 15:17:00 stop = 06/03/2016 17:57:00 title = Čovjek bez lica
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 01:53:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 13:21:00 stop = 07/03/2016 14:19:00 title = Alias 2,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 13:21:00 stop = 07/03/2016 14:19:00 title = Alias 2,3. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1033,6 +1713,10 @@
 [  Debug ]    skipped show without a title at 07/03/2016 00:00:00
 [  Debug ]    suspicious      title in index page  = Zvijer (12)
 [  Debug ]       differs from title in showdetails = Zvijer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 09:50:00 stop = 07/03/2016 11:35:00 title = Zvijer
+[  Info  ]       Replaces ----- start = 07/03/2016 09:50:00 stop = 07/03/2016 11:35:00 title = Zvijer
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1066,8 +1750,16 @@
 [  Debug ]    skipped show without a title at 06/03/2016 23:00:00
 [  Debug ]    suspicious      title in index page  = Astronaut farmer (12)
 [  Debug ]       differs from title in showdetails = Astronaut farmer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 13:00:00 stop = 07/03/2016 14:55:00 title = Astronaut farmer
+[  Info  ]       Replaces ----- start = 07/03/2016 13:00:00 stop = 07/03/2016 14:55:00 title = Astronaut farmer
 [  Debug ]    suspicious      title in index page  = Charlotte Gray (12)
 [  Debug ]       differs from title in showdetails = Charlotte Gray
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 18:50:00 stop = 07/03/2016 21:00:00 title = Charlotte Gray
+[  Info  ]       Replaces ----- start = 07/03/2016 18:50:00 stop = 07/03/2016 21:00:00 title = Charlotte Gray
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 22:45:00
 [  Info  ] 
@@ -1090,10 +1782,22 @@
 [  Debug ]    skipped show without a title at 07/03/2016 04:00:00
 [  Debug ]    suspicious      title in index page  = Hartov rat (12)
 [  Debug ]       differs from title in showdetails = Hartov rat
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 08:00:00 stop = 07/03/2016 10:00:00 title = Hartov rat
+[  Info  ]       Replaces ----- start = 07/03/2016 08:00:00 stop = 07/03/2016 10:00:00 title = Hartov rat
 [  Debug ]    suspicious      title in index page  = Prijateljice pune love (12)
 [  Debug ]       differs from title in showdetails = Prijateljice pune love
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 20:30:00 stop = 07/03/2016 22:00:00 title = Prijateljice pune love
+[  Info  ]       Replaces ----- start = 07/03/2016 20:30:00 stop = 07/03/2016 22:00:00 title = Prijateljice pune love
 [  Debug ]    suspicious      title in index page  = Napokon Polly (12)
 [  Debug ]       differs from title in showdetails = Napokon Polly
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 23:45:00 stop = 08/03/2016 01:30:00 title = Napokon Polly
+[  Info  ]       Replaces ----- start = 07/03/2016 23:45:00 stop = 08/03/2016 01:30:00 title = Napokon Polly
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1104,6 +1808,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 23:35:00 stop = 07/03/2016 00:30:00 title = Night Manager,2. (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:40:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 21:00:00 stop = 07/03/2016 22:00:00 title = Night Manager,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 21:00:00 stop = 07/03/2016 22:00:00 title = Night Manager,3. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1182,6 +1890,10 @@
 [  Info  ] (  80/94  ) M.TVPROFIL.NET -- chan. (xmltv_id=Viasat History) -- mode incremental
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:10:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 12:45:00 stop = 07/03/2016 13:50:00 title = Edvardsko imanje,10. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 12:45:00 stop = 07/03/2016 13:50:00 title = Edvardsko imanje,10. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1202,6 +1914,10 @@
 [  Info  ]       Replaces ----- start = 06/03/2016 21:45:00 stop = 06/03/2016 22:45:00 title = U vodi s krokodilima (?)
 [  Debug ]    skipped : no value for starttime
 [  Debug ]    skipped show without a title at 07/03/2016 05:20:00
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 07/03/2016 20:50:00 stop = 07/03/2016 21:40:00 title = Tajni život pasa 2,3. (?)
+[  Info  ]       Replaces ----- start = 07/03/2016 20:50:00 stop = 07/03/2016 21:40:00 title = Tajni život pasa 2,3. (?)
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1270,6 +1986,10 @@
 [  Debug ]    skipped show without a title at 07/03/2016 02:00:00
 [  Debug ]    suspicious      title in index page  = Vrhovi Balkana 2
 [  Debug ]       differs from title in showdetails = Vrhovi Balkana
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:00:00 title = Vrhovi Balkana
+[  Info  ]       Replaces ----- start = 07/03/2016 19:30:00 stop = 07/03/2016 20:00:00 title = Vrhovi Balkana
 [  Debug ]    skipped : no value for starttime
 [  Info  ] 
 [  Debug ] 
@@ -1281,8 +2001,8 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 5043 shows in 94 channels
-[  Debug ] 147 updated shows
-[  Debug ] 2596 new shows added
+[  Debug ] 333 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 06/03/2016 01:07:20 done in 5m 47s
+[        ] Job finished at 06/03/2016 04:33:54 done in 2m 32s
