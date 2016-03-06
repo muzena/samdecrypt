@@ -152,8 +152,8 @@ sed -i 's/>PINK</>PINK sr</g' guide-main-test.xml
 sed -i 's/"VH-1">/"VH1 sr">/g' guide-main-test.xml
 sed -i 's/>VH-1</>VH1 sr</g' guide-main-test.xml
 # ESKA tv online test tv
-sed -i 's/"Eska TV">/"Eska 2">/g' guide-main-test.xml
-sed -i 's/>Eska TV</>Eska 2</g' guide-main-test.xml
+sed -i 's/"Eska TV">/"Eska">/g' guide-main-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-main-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-main-test.xml
  <<EOF
@@ -423,8 +423,8 @@ sed -i 's/>PINK</>PINK sr</g' guide-bnet-test.xml
 sed -i 's/"VH-1">/"VH1 sr">/g' guide-bnet-test.xml
 sed -i 's/>VH-1</>VH1 sr</g' guide-bnet-test.xml
 # ESKA tv online test tv
-sed -i 's/"Eska TV">/"Eska 2">/g' guide-bnet-test.xml
-sed -i 's/>Eska TV</>Eska 2</g' guide-bnet-test.xml
+sed -i 's/"Eska TV">/"Eska">/g' guide-bnet-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-bnet-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-bnet-test.xml
  <<EOF
@@ -584,8 +584,8 @@ sed -i 's/>PINK</>PINK sr</g' guide-mojtv-test.xml
 sed -i 's/"VH1 Europe">/"VH1 sr">/g' guide-mojtv-test.xml
 sed -i 's/>VH1 Europe</>VH1 sr</g' guide-mojtv-test.xml
 # ESKA tv online test tv
-sed -i 's/"Eska TV">/"Eska 2">/g' guide-mojtv-test.xml
-sed -i 's/>Eska TV</>Eska 2</g' guide-mojtv-test.xml
+sed -i 's/"Eska TV">/"Eska">/g' guide-mojtv-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-mojtv-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-mojtv-test.xml
  <<EOF
@@ -749,8 +749,8 @@ sed -i 's/>PINK</>PINK sr</g' guide-mtvprofil-test.xml
 sed -i 's/"VH1 Europe">/"VH1 sr">/g' guide-mtvprofil-test.xml
 sed -i 's/>VH1 Europe</>VH1 sr</g' guide-mtvprofil-test.xml
 # ESKA tv online test tv
-sed -i 's/"Eska TV">/"Eska 2">/g' guide-mtvprofil-test.xml
-sed -i 's/>Eska TV</>Eska 2</g' guide-mtvprofil-test.xml
+sed -i 's/"Eska TV">/"Eska">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-mtvprofil-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-mtvprofil-test.xml
 # Remove unnecessary (?) from title names
