@@ -791,6 +791,7 @@ wait $!
 cp guide-main-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
 cd ./libEPG_xml2josn/bin/Release
 rm libEPG-main.config
+wait $!
 mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-main.config
@@ -832,6 +833,7 @@ wait $!
 cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
 cd ./libEPG_xml2josn/bin/Release
 rm libEPG-Bnet.config
+wait $!
 mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-Bnet.config
@@ -872,6 +874,7 @@ wait $!
 cp guide-mojtv-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
 cd ./libEPG_xml2josn/bin/Release
 rm libEPG-Mojtv.config
+wait $!
 mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-Mojtv.config
@@ -913,6 +916,7 @@ wait $!
 cp guide-port-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
 cd ./libEPG_xml2josn/bin/Release
 rm libEPG-Port.config
+wait $!
 mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-Port.config
@@ -953,6 +957,7 @@ wait $!
 cp guide-mtvprofil-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
 cd ./libEPG_xml2josn/bin/Release
 rm libEPG-mtvprofil.config
+wait $!
 mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-mtvprofil.config
