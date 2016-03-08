@@ -18,14 +18,14 @@ namespace libEPG_xml2josn
             // Return char and concat substring.
             return char.ToUpper(s[0]) + s.Substring(1);
         }
-       public static string StarEmpty(int l, string star)
+       public static string StarEmpty(double l, string star)
        {
            string s = string.Empty;
            for (int i = 0; i < l; i++)
                s += star;
            return s;
        }
-       public static string Star(int l, string star)
+       public static string Star(double l, string star)
        {
            string s = string.Empty;
            for (int i = 0; i < l; i++)

@@ -341,8 +341,17 @@ namespace libEPG_xml2josn
                         }
                         if (text4 != string.Empty)
                         {
-                            int star = int.Parse(text4.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries)[0]);
-                            int starempty = int.Parse(text4.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries)[1]) - star;
+                            string[] st_t = text4.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
+                            double star = -1;
+                            double.TryParse(st_t[0], out star);
+                            if (star == 0)
+                            {
+                                NumberStyles style = NumberStyles.Number | NumberStyles.AllowCurrencySymbol;
+                                CultureInfo culture = CultureInfo.CreateSpecificCulture("en-GB");
+                                double.TryParse(st_t[0], style, culture, out star);
+                            }
+                            
+                            int starempty = int.Parse(st_t[1]) - (int)star;
                             text4 = Util.Star(star, str_star) + Util.StarEmpty(starempty, str_star_empty);
                             text16 = text16 + text4 + " | ";
                         }

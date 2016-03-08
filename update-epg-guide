@@ -788,8 +788,8 @@ rm guide-main.xml
 cd ..
 wait $!
 #### Generate main config file with libEPG_xml2josn
-cp guide-main-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
-cd ./libEPG_xml2josn/bin/Release
+cp guide-main-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
 rm libEPG-main.config
 wait $!
 mono libEPG_xml2josn.exe
@@ -830,8 +830,8 @@ rm guide-bnet.xml
 cd ..
 wait $!
 #### Generate bnet config file with libEPG_xml2josn
-cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
-cd ./libEPG_xml2josn/bin/Release
+cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
 rm libEPG-Bnet.config
 wait $!
 mono libEPG_xml2josn.exe
@@ -871,8 +871,8 @@ rm guide-mojtv.xml
 cd ..
 wait $!
 #### Generate mojtv config file with libEPG_xml2josn
-cp guide-mojtv-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
-cd ./libEPG_xml2josn/bin/Release
+cp guide-mojtv-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
 rm libEPG-Mojtv.config
 wait $!
 mono libEPG_xml2josn.exe
@@ -913,8 +913,8 @@ rm guide-port.xml
 cd ..
 wait $!
 #### Generate port config file with libEPG_xml2josn
-cp guide-port-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
-cd ./libEPG_xml2josn/bin/Release
+cp guide-port-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
 rm libEPG-Port.config
 wait $!
 mono libEPG_xml2josn.exe
@@ -954,8 +954,8 @@ rm guide-mtvprofil.xml
 cd ..
 wait $!
 #### Generate mtvprofil config file with libEPG_xml2josn
-cp guide-mtvprofil-test.xml ./libEPG_xml2josn/bin/Release/guide.xml
-cd ./libEPG_xml2josn/bin/Release
+cp guide-mtvprofil-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
 rm libEPG-mtvprofil.config
 wait $!
 mono libEPG_xml2josn.exe
