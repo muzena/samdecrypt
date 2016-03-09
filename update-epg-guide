@@ -983,7 +983,7 @@ EOF
 function upload_togit()
 {
 #cd samdecrypt
-sleep 5
+sleep 25
 git add -A
 wait $!
 sleep 5
