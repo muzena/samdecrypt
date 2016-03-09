@@ -998,13 +998,13 @@ EOF
 #######  Generate json config files
 update_Main_grabber
 wait $!
-update_Bnet_grabber
+#update_Bnet_grabber
 wait $!
-update_Mojtv_grabber
+#update_Mojtv_grabber
 wait $!
-update_Port_grabber
+#update_Port_grabber
 wait $!
-update_mtvprofil_grabber
+#update_mtvprofil_grabber
 wait $!
 
 ##### Upload to git
