@@ -34,8 +34,8 @@ sed -i 's/>DOMA TV</>Doma</g' guide-main-test.xml
 #sed -i 's/"RTL2">/"RTL2">/g' guide-main-test.xml
 #sed -i 's/>RTL2</>RTL2</g' guide-main-test.xml
 # RTL Plus
-sed -i 's/"RTL PLUS">/"RTLpl">/g' guide-main-test.xml
-sed -i 's/>RTL PLUS</>RTLpl</g' guide-main-test.xml
+sed -i 's/"RTL PLUS">/"RTLli">/g' guide-main-test.xml
+sed -i 's/>RTL PLUS</>RTLli</g' guide-main-test.xml
 # CineStar TV
 sed -i 's/"CINESTAR ACTION &amp; THRILLER">/"CineA">/g' guide-main-test.xml
 sed -i 's/>CINESTAR ACTION &amp; THRILLER</>CineA</g' guide-main-test.xml
@@ -983,7 +983,7 @@ EOF
 function upload_togit()
 {
 #cd samdecrypt
-sleep 25
+sleep 5
 git add -A
 wait $!
 sleep 5

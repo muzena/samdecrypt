@@ -1,5 +1,5 @@
 ﻿[        ] 
-[        ]             WebGrab+Plus/w MDB & REX Postprocess -- version V1.56.17            
+[        ]             WebGrab+Plus/w MDB & REX Postprocess -- version V1.56.20            
 [        ] 
 [        ]                                 Jan van Straaten                                
 [        ]                              Francis De Paemeleere                              
@@ -7,26 +7,26 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 08/03/2016 18:58:35
+[        ] Job started at 17/03/2016 23:51:08
 [  Debug ] 
-[  Debug ] Running  on: Unix 3.19.0.21
+[  Debug ] Running  on: Unix 4.2.0.30
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 3.2.8 (Debian 3.2.8+dfsg-4ubuntu1.1)
 [  Debug ] 
-[  Debug ] Reading config file: /home/goran/Glazba/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /home/goran/Snimke/grabber/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
 [  Debug ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
-[  Debug ] found: /home/goran/Glazba/samdecrypt/wg++/bnet.hr.ini -- Revision 0
+[  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/bnet.hr.ini -- Revision 00
 [Warning ] Non-sequential revisions found:
 Rev. 11:[27/11/2014] - Jan van Straaten
         - reverted to the rev 7 url's. Changed timezone, new channel list, corrected small error in presenter, removed firstshow=now
 Rev. 07:[14/11/2013] - Francis De Paemeleere
-[  Debug ] found: /home/goran/Glazba/samdecrypt/wg++/port.hr.ini -- Revision 12
-[  Debug ] found: /home/goran/Glazba/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 5
-[  Debug ] found: /home/goran/Glazba/samdecrypt/wg++/mojtv.hr.ini -- Revision 3
-[  Debug ] xmltv input file - /home/goran/Glazba/samdecrypt/wg++/../guide-main.xml - found
-[  Debug ] 435 superfluous shows removed
+[  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/port.hr.ini -- Revision 12
+[  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 05
+[  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/mojtv.hr.ini -- Revision 03
+[  Debug ] xmltv input file - /home/goran/Snimke/grabber/samdecrypt/wg++/../guide-main.xml - found
+[  Debug ] 10256 superfluous shows removed
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -38,12 +38,6 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] (   1/54  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Info  ]    Summary for update of       HTV 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           304
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        304
 [  Debug ] 
 [  Info  ] (   2/54  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
 [  Debug ]    skipped 
@@ -51,16 +45,11 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       HTV 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           407
+[  Info  ]      new shows added           363
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        408
+[  Info  ]      total after update        363
 [  Debug ] 
 [  Info  ] (   3/54  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 01:27:00 stop = 08/03/2016 02:37:00 title = "Ljubi s ljubavlju" - V. Lisinski, 29.11.2011.
-[  Info  ]       Replaces ----- start = 08/03/2016 01:27:00 stop = 08/03/2016 02:38:00 title = "Ljudi s ljubavlju" - V. Lisinski, 29.11.2011.
-[  Info  ]       Replaces ----- start = 08/03/2016 01:27:00 stop = 08/03/2016 02:38:00 title = "Ljudi s ljubavlju" - V. Lisinski, 29.11.2011.
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
@@ -70,31 +59,37 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       HTV 4
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           665
+[  Info  ]      new shows added           720
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        665
+[  Info  ]      total after update        720
 [  Debug ] 
 [  Info  ] (   5/54  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       NOVA TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           182
+[  Info  ]      new shows added           188
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        182
+[  Info  ]      total after update        188
 [  Debug ] 
 [  Info  ] (   6/54  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode Incremental
 [  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL TELEVIZIJA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           198
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        198
 [  Debug ] 
 [  Info  ] (   7/54  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       DOMA TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           227
+[  Info  ]      new shows added           217
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        227
+[  Info  ]      total after update        217
 [  Debug ] 
 [  Info  ] (   8/54  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
 [  Debug ]    skipped 
@@ -107,77 +102,24 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]      total after update        276
 [  Debug ] 
 [  Info  ] (   9/54  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 00:45:00 stop = 08/03/2016 10:20:00 title = -
-[  Info  ]       Replaces ----- start = 08/03/2016 00:45:00 stop = 08/03/2016 10:10:00 title = -
-[  Info  ]       Replaces ----- start = 08/03/2016 00:45:00 stop = 08/03/2016 10:10:00 title = -
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL PLUS
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     1
-[  Info  ]      new shows added           178
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           179
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        180
+[  Info  ]      total after update        179
 [  Debug ] 
 [  Info  ] (  10/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION &amp; THRILLER) -- mode Incremental
-[  Debug ] multiple entry of a show at 20160308080000 +0100
-[  Debug ] multiple entry of a show at 20160308100000 +0100
-[  Debug ] multiple entry of a show at 20160308114500 +0100
-[  Debug ] multiple entry of a show at 20160308135000 +0100
-[  Debug ] multiple entry of a show at 20160308154500 +0100
-[  Debug ] multiple entry of a show at 20160308173500 +0100
-[  Debug ] multiple entry of a show at 20160308200000 +0100
-[  Debug ] multiple entry of a show at 20160308222000 +0100
-[  Debug ] multiple entry of a show at 20160309002500 +0100
-[  Debug ] multiple entry of a show at 20160309022000 +0100
-[  Debug ] multiple entry of a show at 20160309080000 +0100
-[  Debug ] multiple entry of a show at 20160309095000 +0100
-[  Debug ] multiple entry of a show at 20160309113500 +0100
-[  Debug ] multiple entry of a show at 20160309140000 +0100
-[  Debug ] multiple entry of a show at 20160309162000 +0100
-[  Debug ] multiple entry of a show at 20160309181000 +0100
-[  Debug ] multiple entry of a show at 20160309200000 +0100
-[  Debug ] multiple entry of a show at 20160309215000 +0100
-[  Debug ] multiple entry of a show at 20160309233500 +0100
-[  Debug ] multiple entry of a show at 20160310014500 +0100
-[  Debug ] multiple entry of a show at 20160310080000 +0100
-[  Debug ] multiple entry of a show at 20160310100000 +0100
-[  Debug ] multiple entry of a show at 20160310120000 +0100
-[  Debug ] multiple entry of a show at 20160310140000 +0100
-[  Debug ] multiple entry of a show at 20160310155500 +0100
-[  Debug ] multiple entry of a show at 20160310174500 +0100
-[  Debug ] multiple entry of a show at 20160310200000 +0100
-[  Debug ] multiple entry of a show at 20160310214000 +0100
-[  Debug ] multiple entry of a show at 20160310232500 +0100
-[  Debug ] multiple entry of a show at 20160311014000 +0100
-[  Debug ] multiple entry of a show at 20160311080000 +0100
-[  Debug ] multiple entry of a show at 20160311100000 +0100
-[  Debug ] multiple entry of a show at 20160311115000 +0100
-[  Debug ] multiple entry of a show at 20160311140500 +0100
-[  Debug ] multiple entry of a show at 20160311155000 +0100
-[  Debug ] multiple entry of a show at 20160311174000 +0100
-[  Debug ] multiple entry of a show at 20160311200000 +0100
-[  Debug ] multiple entry of a show at 20160311220000 +0100
-[  Debug ] multiple entry of a show at 20160311235500 +0100
-[  Debug ] multiple entry of a show at 20160312013000 +0100
-[  Debug ] multiple entry of a show at 20160312080000 +0100
-[  Debug ] multiple entry of a show at 20160312095000 +0100
-[  Debug ] multiple entry of a show at 20160312114000 +0100
-[  Debug ] multiple entry of a show at 20160312140000 +0100
-[  Debug ] multiple entry of a show at 20160312160000 +0100
-[  Debug ] multiple entry of a show at 20160312180000 +0100
-[  Debug ] multiple entry of a show at 20160312200000 +0100
-[  Debug ] multiple entry of a show at 20160312220000 +0100
 [  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION &amp; THRILLER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           21
-[  Info  ]      unchanged shows inspected 48
-[  Info  ]      total after update        22
+[  Info  ]      new shows added           73
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        73
 [  Debug ] 
 [  Info  ] (  11/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
 [  Debug ]    skipped 
@@ -195,9 +137,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT TV1000
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           89
+[  Info  ]      new shows added           94
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        89
+[  Info  ]      total after update        94
 [  Debug ] 
 [  Info  ] (  13/54  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode Incremental
 [  Debug ]    skipped 
@@ -205,9 +147,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       FOX
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           246
+[  Info  ]      new shows added           247
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        246
+[  Info  ]      total after update        247
 [  Debug ] 
 [  Info  ] (  14/54  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
 [  Debug ]    skipped 
@@ -215,9 +157,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       FOX LIFE
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           230
+[  Info  ]      new shows added           227
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        230
+[  Info  ]      total after update        227
 [  Debug ] 
 [  Info  ] (  15/54  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode Incremental
 [  Debug ]    skipped 
@@ -235,9 +177,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       DISCOVERY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           234
+[  Info  ]      new shows added           233
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        234
+[  Info  ]      total after update        233
 [  Debug ] 
 [  Info  ] (  17/54  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
 [  Debug ]    skipped 
@@ -245,9 +187,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           237
+[  Info  ]      new shows added           235
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        237
+[  Info  ]      total after update        235
 [  Debug ] 
 [  Info  ] (  18/54  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
 [  Debug ]    skipped 
@@ -255,9 +197,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT HISTORY
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           191
+[  Info  ]      new shows added           193
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        191
+[  Info  ]      total after update        193
 [  Debug ] 
 [  Info  ] (  19/54  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode Incremental
 [  Debug ]    skipped 
@@ -265,9 +207,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       ANIMAL PLANET
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           220
+[  Info  ]      new shows added           203
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        220
+[  Info  ]      total after update        203
 [  Debug ] 
 [  Info  ] (  20/54  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode Incremental
 [  Debug ]    skipped 
@@ -275,9 +217,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       VIASAT EXPLORER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           219
+[  Info  ]      new shows added           221
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        219
+[  Info  ]      total after update        221
 [  Debug ] 
 [  Info  ] (  21/54  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode Incremental
 [  Debug ]    skipped 
@@ -290,231 +232,37 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]      total after update        230
 [  Debug ] 
 [  Info  ] (  22/54  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
-[  Debug ] multiple entry of a show at 20160308070000 +0100
-[  Debug ] multiple entry of a show at 20160308080000 +0100
-[  Debug ] multiple entry of a show at 20160308081500 +0100
-[  Debug ] multiple entry of a show at 20160308083000 +0100
-[  Debug ] multiple entry of a show at 20160308093000 +0100
-[  Debug ] multiple entry of a show at 20160308094500 +0100
-[  Debug ] multiple entry of a show at 20160308100000 +0100
-[  Debug ] multiple entry of a show at 20160308103000 +0100
-[  Debug ] multiple entry of a show at 20160308104500 +0100
-[  Debug ] multiple entry of a show at 20160308110000 +0100
-[  Debug ] multiple entry of a show at 20160308114000 +0100
-[  Debug ] multiple entry of a show at 20160308114500 +0100
-[  Debug ] multiple entry of a show at 20160308120000 +0100
-[  Debug ] multiple entry of a show at 20160308121500 +0100
-[  Debug ] multiple entry of a show at 20160308124500 +0100
-[  Debug ] multiple entry of a show at 20160308130000 +0100
-[  Debug ] multiple entry of a show at 20160308131500 +0100
-[  Debug ] multiple entry of a show at 20160308134500 +0100
-[  Debug ] multiple entry of a show at 20160308140000 +0100
-[  Debug ] multiple entry of a show at 20160308143000 +0100
-[  Debug ] multiple entry of a show at 20160308144500 +0100
-[  Debug ] multiple entry of a show at 20160308154500 +0100
-[  Debug ] multiple entry of a show at 20160308160000 +0100
-[  Debug ] multiple entry of a show at 20160308161500 +0100
-[  Debug ] multiple entry of a show at 20160308171500 +0100
-[  Debug ] multiple entry of a show at 20160308173000 +0100
-[  Debug ] multiple entry of a show at 20160308180000 +0100
-[  Debug ] multiple entry of a show at 20160308182500 +0100
-[  Debug ] multiple entry of a show at 20160308183000 +0100
-[  Debug ] multiple entry of a show at 20160308190000 +0100
-[  Debug ] multiple entry of a show at 20160308193000 +0100
-[  Debug ] multiple entry of a show at 20160308200000 +0100
-[  Debug ] multiple entry of a show at 20160308200500 +0100
-[  Debug ] multiple entry of a show at 20160308210000 +0100
-[  Debug ] multiple entry of a show at 20160308211000 +0100
-[  Debug ] multiple entry of a show at 20160308211500 +0100
-[  Debug ] multiple entry of a show at 20160308221500 +0100
-[  Debug ] multiple entry of a show at 20160308224500 +0100
-[  Debug ] multiple entry of a show at 20160308225500 +0100
-[  Debug ] multiple entry of a show at 20160308230000 +0100
-[  Debug ] multiple entry of a show at 20160309020000 +0100
-[  Debug ] multiple entry of a show at 20160309070000 +0100
-[  Debug ] multiple entry of a show at 20160309080000 +0100
-[  Debug ] multiple entry of a show at 20160309080500 +0100
-[  Debug ] multiple entry of a show at 20160309081500 +0100
-[  Debug ] multiple entry of a show at 20160309083000 +0100
-[  Debug ] multiple entry of a show at 20160309084500 +0100
-[  Debug ] multiple entry of a show at 20160309094500 +0100
-[  Debug ] multiple entry of a show at 20160309100000 +0100
-[  Debug ] multiple entry of a show at 20160309101500 +0100
-[  Debug ] multiple entry of a show at 20160309104500 +0100
-[  Debug ] multiple entry of a show at 20160309110000 +0100
-[  Debug ] multiple entry of a show at 20160309111500 +0100
-[  Debug ] multiple entry of a show at 20160309114500 +0100
-[  Debug ] multiple entry of a show at 20160309120000 +0100
-[  Debug ] multiple entry of a show at 20160309121500 +0100
-[  Debug ] multiple entry of a show at 20160309124500 +0100
-[  Debug ] multiple entry of a show at 20160309130000 +0100
-[  Debug ] multiple entry of a show at 20160309131500 +0100
-[  Debug ] multiple entry of a show at 20160309134500 +0100
-[  Debug ] multiple entry of a show at 20160309140000 +0100
-[  Debug ] multiple entry of a show at 20160309143000 +0100
-[  Debug ] multiple entry of a show at 20160309144500 +0100
-[  Debug ] multiple entry of a show at 20160309154500 +0100
-[  Debug ] multiple entry of a show at 20160309160000 +0100
-[  Debug ] multiple entry of a show at 20160309161500 +0100
-[  Debug ] multiple entry of a show at 20160309171500 +0100
-[  Debug ] multiple entry of a show at 20160309173000 +0100
-[  Debug ] multiple entry of a show at 20160309180000 +0100
-[  Debug ] multiple entry of a show at 20160309183000 +0100
-[  Debug ] multiple entry of a show at 20160309190000 +0100
-[  Debug ] multiple entry of a show at 20160309193000 +0100
-[  Debug ] multiple entry of a show at 20160309200000 +0100
-[  Debug ] multiple entry of a show at 20160309200500 +0100
-[  Debug ] multiple entry of a show at 20160309210000 +0100
-[  Debug ] multiple entry of a show at 20160309211000 +0100
-[  Debug ] multiple entry of a show at 20160309211500 +0100
-[  Debug ] multiple entry of a show at 20160309221500 +0100
-[  Debug ] multiple entry of a show at 20160309224500 +0100
-[  Debug ] multiple entry of a show at 20160309225500 +0100
-[  Debug ] multiple entry of a show at 20160309230000 +0100
-[  Debug ] multiple entry of a show at 20160310020000 +0100
-[  Debug ] multiple entry of a show at 20160310070000 +0100
-[  Debug ] multiple entry of a show at 20160310080000 +0100
-[  Debug ] multiple entry of a show at 20160310080500 +0100
-[  Debug ] multiple entry of a show at 20160310081500 +0100
-[  Debug ] multiple entry of a show at 20160310083000 +0100
-[  Debug ] multiple entry of a show at 20160310084500 +0100
-[  Debug ] multiple entry of a show at 20160310094500 +0100
-[  Debug ] multiple entry of a show at 20160310100000 +0100
-[  Debug ] multiple entry of a show at 20160310101500 +0100
-[  Debug ] multiple entry of a show at 20160310104500 +0100
-[  Debug ] multiple entry of a show at 20160310110000 +0100
-[  Debug ] multiple entry of a show at 20160310111500 +0100
-[  Debug ] multiple entry of a show at 20160310114500 +0100
-[  Debug ] multiple entry of a show at 20160310120000 +0100
-[  Debug ] multiple entry of a show at 20160310121500 +0100
-[  Debug ] multiple entry of a show at 20160310124500 +0100
-[  Debug ] multiple entry of a show at 20160310130000 +0100
-[  Debug ] multiple entry of a show at 20160310131500 +0100
-[  Debug ] multiple entry of a show at 20160310134500 +0100
-[  Debug ] multiple entry of a show at 20160310140000 +0100
-[  Debug ] multiple entry of a show at 20160310143000 +0100
-[  Debug ] multiple entry of a show at 20160310144500 +0100
-[  Debug ] multiple entry of a show at 20160310154500 +0100
-[  Debug ] multiple entry of a show at 20160310160000 +0100
-[  Debug ] multiple entry of a show at 20160310161500 +0100
-[  Debug ] multiple entry of a show at 20160310171500 +0100
-[  Debug ] multiple entry of a show at 20160310173000 +0100
-[  Debug ] multiple entry of a show at 20160310180000 +0100
-[  Debug ] multiple entry of a show at 20160310183000 +0100
-[  Debug ] multiple entry of a show at 20160310190000 +0100
-[  Debug ] multiple entry of a show at 20160310193000 +0100
-[  Debug ] multiple entry of a show at 20160310200000 +0100
-[  Debug ] multiple entry of a show at 20160310200500 +0100
-[  Debug ] multiple entry of a show at 20160310210000 +0100
-[  Debug ] multiple entry of a show at 20160310211000 +0100
-[  Debug ] multiple entry of a show at 20160310211500 +0100
-[  Debug ] multiple entry of a show at 20160310221500 +0100
-[  Debug ] multiple entry of a show at 20160310224500 +0100
-[  Debug ] multiple entry of a show at 20160310225500 +0100
-[  Debug ] multiple entry of a show at 20160310230000 +0100
-[  Debug ] multiple entry of a show at 20160311020000 +0100
-[  Debug ] multiple entry of a show at 20160311070000 +0100
-[  Debug ] multiple entry of a show at 20160311080000 +0100
-[  Debug ] multiple entry of a show at 20160311080500 +0100
-[  Debug ] multiple entry of a show at 20160311081500 +0100
-[  Debug ] multiple entry of a show at 20160311083000 +0100
-[  Debug ] multiple entry of a show at 20160311084500 +0100
-[  Debug ] multiple entry of a show at 20160311094500 +0100
-[  Debug ] multiple entry of a show at 20160311100000 +0100
-[  Debug ] multiple entry of a show at 20160311101500 +0100
-[  Debug ] multiple entry of a show at 20160311104500 +0100
-[  Debug ] multiple entry of a show at 20160311110000 +0100
-[  Debug ] multiple entry of a show at 20160311111500 +0100
-[  Debug ] multiple entry of a show at 20160311114500 +0100
-[  Debug ] multiple entry of a show at 20160311120000 +0100
-[  Debug ] multiple entry of a show at 20160311121500 +0100
-[  Debug ] multiple entry of a show at 20160311124500 +0100
-[  Debug ] multiple entry of a show at 20160311130000 +0100
-[  Debug ] multiple entry of a show at 20160311131500 +0100
-[  Debug ] multiple entry of a show at 20160311134500 +0100
-[  Debug ] multiple entry of a show at 20160311140000 +0100
-[  Debug ] multiple entry of a show at 20160311143000 +0100
-[  Debug ] multiple entry of a show at 20160311144500 +0100
-[  Debug ] multiple entry of a show at 20160311154500 +0100
-[  Debug ] multiple entry of a show at 20160311160000 +0100
-[  Debug ] multiple entry of a show at 20160311161500 +0100
-[  Debug ] multiple entry of a show at 20160311171500 +0100
-[  Debug ] multiple entry of a show at 20160311173000 +0100
-[  Debug ] multiple entry of a show at 20160311180000 +0100
-[  Debug ] multiple entry of a show at 20160311183000 +0100
-[  Debug ] multiple entry of a show at 20160311190000 +0100
-[  Debug ] multiple entry of a show at 20160311193000 +0100
-[  Debug ] multiple entry of a show at 20160311200000 +0100
-[  Debug ] multiple entry of a show at 20160311200500 +0100
-[  Debug ] multiple entry of a show at 20160311210000 +0100
-[  Debug ] multiple entry of a show at 20160311211000 +0100
-[  Debug ] multiple entry of a show at 20160311211500 +0100
-[  Debug ] multiple entry of a show at 20160311221500 +0100
-[  Debug ] multiple entry of a show at 20160311224500 +0100
-[  Debug ] multiple entry of a show at 20160311225500 +0100
-[  Debug ] multiple entry of a show at 20160311230000 +0100
-[  Debug ] multiple entry of a show at 20160312020000 +0100
-[  Debug ] multiple entry of a show at 20160312070000 +0100
-[  Debug ] multiple entry of a show at 20160312080000 +0100
-[  Debug ] multiple entry of a show at 20160312080500 +0100
-[  Debug ] multiple entry of a show at 20160312081500 +0100
-[  Debug ] multiple entry of a show at 20160312083000 +0100
-[  Debug ] multiple entry of a show at 20160312084500 +0100
-[  Debug ] multiple entry of a show at 20160312094500 +0100
-[  Debug ] multiple entry of a show at 20160312100000 +0100
-[  Debug ] multiple entry of a show at 20160312101500 +0100
-[  Debug ] multiple entry of a show at 20160312104500 +0100
-[  Debug ] multiple entry of a show at 20160312110000 +0100
-[  Debug ] multiple entry of a show at 20160312111500 +0100
-[  Debug ] multiple entry of a show at 20160312114500 +0100
-[  Debug ] multiple entry of a show at 20160312120000 +0100
-[  Debug ] multiple entry of a show at 20160312121500 +0100
-[  Debug ] multiple entry of a show at 20160312124500 +0100
-[  Debug ] multiple entry of a show at 20160312130000 +0100
-[  Debug ] multiple entry of a show at 20160312131500 +0100
-[  Debug ] multiple entry of a show at 20160312134500 +0100
-[  Debug ] multiple entry of a show at 20160312140000 +0100
-[  Debug ] multiple entry of a show at 20160312143000 +0100
-[  Debug ] multiple entry of a show at 20160312144500 +0100
-[  Debug ] multiple entry of a show at 20160312154500 +0100
-[  Debug ] multiple entry of a show at 20160312160000 +0100
-[  Debug ] multiple entry of a show at 20160312161500 +0100
-[  Debug ] multiple entry of a show at 20160312164500 +0100
-[  Debug ] multiple entry of a show at 20160312170000 +0100
-[  Debug ] multiple entry of a show at 20160312173000 +0100
-[  Debug ] multiple entry of a show at 20160312180000 +0100
-[  Debug ] multiple entry of a show at 20160312183000 +0100
-[  Debug ] multiple entry of a show at 20160312190000 +0100
-[  Debug ] multiple entry of a show at 20160312200000 +0100
-[  Debug ] multiple entry of a show at 20160312202500 +0100
-[  Debug ] multiple entry of a show at 20160312203000 +0100
-[  Debug ] multiple entry of a show at 20160312220000 +0100
-[  Debug ] multiple entry of a show at 20160312225500 +0100
-[  Debug ] multiple entry of a show at 20160312230000 +0100
 [  Info  ] 
 [  Info  ]    Summary for update of       MREŽAZG
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           42
-[  Info  ]      unchanged shows inspected 201
-[  Info  ]      total after update        43
+[  Info  ]      new shows added           153
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        153
 [  Debug ] 
 [  Info  ] (  23/54  ) PORT.HR -- chan. (xmltv_id=Jabuka TV) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
+[Error   ] No suitable time structure found to merge the indexpage pages!!
+[Error   ] Unable to update Channel, try again later
+[  Debug ] Unsorted startimes in index page sections:
+[  Debug ] Indexpage section 0
+[  Debug ] 06:58 07:00 07:30 08:30 08:50 09:15 09:45 10:30 10:45 11:15 11:45 12:15 13:00 13:30 14:00 14:45 15:30 16:00 16:30 17:00 17:30 
+[  Debug ] 17:55 18:15 19:03 19:05 19:30 20:05 22:50 06:58 07:00 07:30 08:30 08:50 09:15 09:45 10:30 10:45 11:15 11:45 12:15 13:00 
+[  Debug ] 13:30 14:00 15:00 15:30 16:00 16:30 17:00 17:30 17:55 18:15 19:03 19:05 19:30 06:58 07:00 08:00 10:00 10:30 12:15 12:45 
+[  Debug ] 13:00 14:00 14:30 15:00 16:00 16:15 16:45 17:15 17:45 18:40 19:00 19:28 19:30 06:58 07:00 08:00 10:00 10:30 13:30 14:30 
+[  Debug ] Indexpage section 1
+[  Debug ] 02:00 02:15 02:17 20:05 21:00 22:50 23:00 02:00 02:15 02:17 20:00 22:50 23:00 02:00 02:15 02:17 20:00 23:00 02:00 02:15 02:17 
+[  Debug ] 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/54  ) BNET.HR -- chan. (xmltv_id=Z1) -- mode Incremental
-[  Debug ]    skipped show without a title at 11/03/2016 09:25:00
+[  Debug ]    skipped show without a title at 18/03/2016 09:25:00
+[  Debug ]    skipped show without a title at 19/03/2016 12:30:00
+[  Debug ]    skipped show without a title at 21/03/2016 11:30:00
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/54  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode Incremental
 [  Info  ] 
-[  Info  ]    Summary for update of       CNN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           288
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        288
 [  Debug ] 
 [  Info  ] (  26/54  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Debug ]    skipped 
@@ -522,9 +270,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       CARTOON NETWORK
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           357
+[  Info  ]      new shows added           347
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        357
+[  Info  ]      total after update        347
 [  Debug ] 
 [  Info  ] (  27/54  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
 [  Debug ]    skipped 
@@ -532,9 +280,9 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       NICKELODEON
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           444
+[  Info  ]      new shows added           424
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        444
+[  Info  ]      total after update        424
 [  Debug ] 
 [  Info  ] (  28/54  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
 [  Debug ]    skipped 
@@ -542,12 +290,18 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       DISNEY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           405
+[  Info  ]      new shows added           393
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        405
+[  Info  ]      total after update        393
 [  Debug ] 
 [  Info  ] (  29/54  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
 [  Info  ] 
+[  Info  ]    Summary for update of       MINI TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           254
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        254
 [  Debug ] 
 [  Info  ] (  30/54  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
 [  Debug ]    skipped 
@@ -555,68 +309,98 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       RTL KOCKICA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           307
+[  Info  ]      new shows added           312
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        307
+[  Info  ]      total after update        312
 [  Debug ] 
 [  Info  ] (  31/54  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped show without a title at 09/03/2016 18:00:00
-[  Debug ]    skipped show without a title at 10/03/2016 12:10:00
-[  Debug ]    skipped show without a title at 11/03/2016 09:35:00
+[  Debug ]    skipped show without a title at 17/03/2016 12:10:00
+[  Debug ]    skipped show without a title at 18/03/2016 10:50:00
+[  Debug ]    skipped show without a title at 19/03/2016 10:15:00
+[  Debug ]    skipped show without a title at 20/03/2016 11:40:00
+[  Debug ]    skipped show without a title at 21/03/2016 11:10:00
+[  Debug ]    skipped show without a title at 23/03/2016 18:00:00
+[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       SPORTSKA TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           128
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        128
 [  Debug ] 
 [  Info  ] (  32/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode Incremental
 [  Debug ]    skipped 
 [  Info  ] 
-[  Info  ]    Summary for update of       EUROSPORT
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           186
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        186
 [  Debug ] 
 [  Info  ] (  33/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT 2) -- mode Incremental
 [  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       EUROSPORT 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           150
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        150
 [  Debug ] 
 [  Info  ] (  34/54  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
+[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       SK 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           120
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        120
 [  Debug ] 
 [  Info  ] (  35/54  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped show without a title at 08/03/2016 16:55:00
-[  Debug ]    skipped show without a title at 08/03/2016 17:50:00
-[  Debug ]    skipped show without a title at 09/03/2016 01:45:00
-[  Debug ]    skipped show without a title at 09/03/2016 09:00:00
-[  Debug ]    skipped show without a title at 09/03/2016 20:15:00
-[  Debug ]    skipped show without a title at 09/03/2016 22:45:00
-[  Debug ]    skipped show without a title at 10/03/2016 01:15:00
-[  Debug ]    skipped show without a title at 10/03/2016 14:00:00
-[  Debug ]    skipped show without a title at 10/03/2016 14:30:00
-[  Debug ]    skipped show without a title at 10/03/2016 17:50:00
-[  Debug ]    skipped show without a title at 11/03/2016 08:50:00
-[  Debug ]    skipped show without a title at 11/03/2016 09:20:00
-[  Debug ]    skipped show without a title at 11/03/2016 17:55:00
-[  Debug ]    skipped show without a title at 11/03/2016 20:30:00
-[  Debug ]    skipped show without a title at 12/03/2016 00:15:00
-[  Debug ]    skipped show without a title at 12/03/2016 07:45:00
-[  Debug ]    skipped show without a title at 12/03/2016 09:30:00
-[  Debug ]    skipped show without a title at 12/03/2016 11:30:00
-[  Debug ]    skipped show without a title at 12/03/2016 13:30:00
-[  Debug ]    skipped show without a title at 12/03/2016 19:30:00
-[  Debug ]    skipped show without a title at 13/03/2016 04:25:00
-[  Debug ]    skipped show without a title at 13/03/2016 06:10:00
-[  Debug ]    skipped show without a title at 13/03/2016 13:45:00
-[  Debug ]    skipped show without a title at 13/03/2016 14:15:00
-[  Debug ]    skipped show without a title at 13/03/2016 18:00:00
-[  Debug ]    skipped show without a title at 13/03/2016 20:15:00
-[  Debug ]    skipped show without a title at 13/03/2016 22:30:00
+[  Debug ]    skipped show without a title at 17/03/2016 06:15:00
+[  Debug ]    skipped show without a title at 17/03/2016 08:30:00
+[  Debug ]    skipped show without a title at 17/03/2016 17:00:00
+[  Debug ]    skipped show without a title at 18/03/2016 08:35:00
+[  Debug ]    skipped show without a title at 18/03/2016 16:00:00
+[  Debug ]    skipped show without a title at 18/03/2016 17:00:00
+[  Debug ]    skipped show without a title at 18/03/2016 17:55:00
+[  Debug ]    skipped show without a title at 18/03/2016 18:55:00
+[  Debug ]    skipped show without a title at 18/03/2016 19:45:00
+[  Debug ]    skipped show without a title at 18/03/2016 20:45:00
+[  Debug ]    skipped show without a title at 18/03/2016 22:40:00
+[  Debug ]    skipped show without a title at 19/03/2016 02:25:00
+[  Debug ]    skipped show without a title at 19/03/2016 07:55:00
+[  Debug ]    skipped show without a title at 19/03/2016 08:25:00
+[  Debug ]    skipped show without a title at 19/03/2016 11:40:00
+[  Debug ]    skipped show without a title at 19/03/2016 13:30:00
+[  Debug ]    skipped show without a title at 19/03/2016 16:00:00
+[  Debug ]    skipped show without a title at 19/03/2016 16:55:00
+[  Debug ]    skipped show without a title at 19/03/2016 17:55:00
+[  Debug ]    skipped show without a title at 19/03/2016 18:35:00
+[  Debug ]    skipped show without a title at 19/03/2016 21:40:00
+[  Debug ]    skipped show without a title at 19/03/2016 21:55:00
+[  Debug ]    skipped show without a title at 20/03/2016 01:50:00
+[  Debug ]    skipped show without a title at 20/03/2016 06:35:00
+[  Debug ]    skipped show without a title at 20/03/2016 16:30:00
+[  Debug ]    skipped show without a title at 20/03/2016 17:20:00
+[  Debug ]    skipped show without a title at 20/03/2016 19:00:00
+[  Debug ]    skipped show without a title at 21/03/2016 03:35:00
+[  Debug ]    skipped show without a title at 21/03/2016 03:50:00
+[  Debug ]    skipped show without a title at 21/03/2016 07:45:00
+[  Debug ]    skipped show without a title at 21/03/2016 20:00:00
+[  Debug ]    skipped show without a title at 22/03/2016 03:50:00
+[  Debug ]    skipped show without a title at 22/03/2016 07:25:00
+[  Debug ]    skipped show without a title at 22/03/2016 10:55:00
+[  Debug ]    skipped show without a title at 22/03/2016 17:00:00
+[  Debug ]    skipped show without a title at 22/03/2016 17:30:00
+[  Debug ]    skipped show without a title at 23/03/2016 11:15:00
+[  Debug ]    skipped show without a title at 23/03/2016 13:30:00
+[  Debug ]    skipped show without a title at 23/03/2016 22:20:00
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 3
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           95
+[  Info  ]      new shows added           104
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        95
+[  Info  ]      total after update        104
 [  Debug ] 
 [  Info  ] (  36/54  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode Incremental
 [  Debug ]    skipped 
@@ -624,25 +408,41 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ]    Summary for update of       MTV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           223
+[  Info  ]      new shows added           219
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        223
+[  Info  ]      total after update        219
 [  Debug ] 
 [  Info  ] (  37/54  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode Incremental
 [  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  38/54  ) BNET.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
+[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           91
+[  Info  ]      new shows added           189
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        91
+[  Info  ]      total after update        189
 [  Debug ] 
 [  Info  ] (  39/54  ) PORT.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
+[Error   ] No suitable time structure found to merge the indexpage pages!!
+[Error   ] Unable to update Channel, try again later
+[  Debug ] Unsorted startimes in index page sections:
+[  Debug ] Indexpage section 0
+[  Debug ] 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:05 07:35 08:00 10:00 10:30 11:00 11:05 11:30 12:00 12:05 12:30 13:00 13:05 
+[  Debug ] 14:00 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:20 17:47 18:00 18:35 18:45 19:00 19:15 19:30 
+[  Debug ] 19:45 20:00 20:55 21:00 22:00 22:30 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:05 07:35 08:00 10:00 10:30 11:00 
+[  Debug ] 11:05 11:30 12:00 12:05 12:30 13:00 13:05 14:00 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:20 
+[  Debug ] 17:47 18:00 18:35 18:45 19:00 19:15 19:30 19:45 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:30 08:00 08:15 08:30 
+[  Debug ] 09:00 11:00 11:35 12:00 12:05 13:00 13:05 13:35 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 
+[  Debug ] 17:00 17:15 17:30 17:45 18:00 18:33 19:30 19:45 04:00 04:12 04:24 04:36 05:00 05:30 06:00 06:30 07:00 07:15 07:30 08:00 
+[  Debug ] 08:30 09:00 11:00 11:35 12:00 12:05 13:00 13:05 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 
+[  Debug ] Indexpage section 1
+[  Debug ] 00:00 00:30 01:00 01:15 01:30 01:45 02:00 02:30 03:00 20:00 20:55 21:00 21:30 21:45 22:00 22:30 23:00 23:30 00:00 00:30 01:00 
+[  Debug ] 01:15 01:30 01:45 02:00 02:30 03:00 20:15 20:45 21:15 21:45 22:00 22:30 22:45 00:30 01:00 01:30 02:00 03:00 20:15 20:45 
+[  Debug ] 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/54  ) PORT.HR -- chan. (xmltv_id=Fox TV) -- mode Incremental
@@ -650,447 +450,73 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  41/54  ) PROGRAMTV.INTERIA.PL -- chan. (xmltv_id=Eska TV) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  42/54  ) BNET.HR -- chan. (xmltv_id=RTS 1) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           285
+[  Info  ]      new shows added           250
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        285
+[  Info  ]      total after update        250
 [  Debug ] 
 [  Info  ] (  43/54  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode Incremental
-[  Debug ]    skipped 
+[  Debug ]    skipped show without a title at 23/03/2016 07:05:00
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           214
+[  Info  ]      new shows added           176
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        214
+[  Info  ]      total after update        176
 [  Debug ] 
 [  Info  ] (  44/54  ) MOJTV.HR -- chan. (xmltv_id=AMC) -- mode Incremental
-[  Debug ] multiple entry of a show at 20160309023500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 02:35:00 stop = 09/03/2016 04:15:00 title = Dobro došli u Los Anđeles (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:35:00 stop = 09/03/2016 04:15:00 title = Dobro došli u Los Anđeles (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:35:00 stop = 09/03/2016 04:15:00 title = Dobro došli u Los Anđeles (?)
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 17/03/2016 differs from 'today'
+[  Debug ] date of first show = 17/03/2016
 [  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  45/54  ) MOJTV.HR -- chan. (xmltv_id=B92) -- mode Incremental
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 06:45:00 stop = 08/03/2016 09:00:00 title = Zasjeda
-[  Info  ]       Added before - start = 08/03/2016 09:30:00 stop = 08/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 09:00:00 stop = 08/03/2016 09:30:00 title = Top Shop
-[  Info  ]       Added before - start = 08/03/2016 09:30:00 stop = 08/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 09:30:00 stop = 08/03/2016 12:50:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 09:30:00 stop = 08/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 09:30:00 stop = 08/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 12:50:00 stop = 08/03/2016 13:50:00 title = Big Time Rush
-[  Info  ]       Added before - start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 13:50:00 stop = 08/03/2016 14:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 14:15:00 stop = 08/03/2016 14:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 14:45:00 stop = 08/03/2016 15:00:00 title = Top Shop
-[  Info  ]       Added before - start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160308150000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 15:00:00 stop = 08/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160308160000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 16:00:00 stop = 08/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:00:00 stop = 08/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:00:00 stop = 08/03/2016 16:35:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160308163500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 16:35:00 stop = 08/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:35:00 stop = 08/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:35:00 stop = 08/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 17:00:00 stop = 08/03/2016 17:30:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 08/03/2016 18:00:00 stop = 08/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 17:30:00 stop = 08/03/2016 18:00:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 08/03/2016 18:00:00 stop = 08/03/2016 19:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160308180000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 18:00:00 stop = 08/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 18:00:00 stop = 08/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 18:00:00 stop = 08/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 19:00:00 stop = 08/03/2016 20:00:00 title = Big Time Rush
-[  Info  ]       Added before - start = 08/03/2016 20:00:00 stop = 08/03/2016 21:00:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160308200000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 20:00:00 stop = 08/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 20:00:00 stop = 08/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 20:00:00 stop = 08/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 21:00:00 stop = 08/03/2016 23:15:00 title = Sedam
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 23:15:00 stop = 08/03/2016 23:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 23:45:00 stop = 09/03/2016 00:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 00:15:00 stop = 09/03/2016 01:40:00 title = Teksaški masakr
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 01:40:00 stop = 09/03/2016 03:20:00 title = Moja sretna zvijezda
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 03:20:00 stop = 09/03/2016 04:10:00 title = Kardashians
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 04:10:00 stop = 09/03/2016 04:50:00 title = Kardashians
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 04:50:00 stop = 09/03/2016 05:35:00 title = O.C.
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 05:35:00 stop = 09/03/2016 06:15:00 title = O.C.
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 06:15:00 stop = 09/03/2016 07:55:00 title = Moja sretna zvijezda
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 07:55:00 stop = 09/03/2016 09:00:00 title = Crtani filmovi (?)
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 09:00:00 stop = 09/03/2016 09:30:00 title = Top Shop
-[  Info  ]       Added before - start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/03/2016 09:30:00 stop = 09/03/2016 12:50:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 09:30:00 stop = 09/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 12:50:00 stop = 09/03/2016 13:50:00 title = Big Time Rush
-[  Info  ]       Added before - start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 13:50:00 stop = 09/03/2016 14:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 14:15:00 stop = 09/03/2016 14:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 14:45:00 stop = 09/03/2016 15:00:00 title = Top Shop
-[  Info  ]       Added before - start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160309150000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 15:00:00 stop = 09/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160309160000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 16:00:00 stop = 09/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 16:00:00 stop = 09/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 16:00:00 stop = 09/03/2016 16:35:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160309163500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 16:35:00 stop = 09/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 16:35:00 stop = 09/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 16:35:00 stop = 09/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 17:00:00 stop = 09/03/2016 17:30:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 18:00:00 stop = 09/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 17:30:00 stop = 09/03/2016 18:00:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 09/03/2016 18:00:00 stop = 09/03/2016 19:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160309180000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 18:00:00 stop = 09/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 18:00:00 stop = 09/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 18:00:00 stop = 09/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 19:00:00 stop = 09/03/2016 20:00:00 title = Big Time Rush
-[  Info  ]       Added before - start = 09/03/2016 20:00:00 stop = 09/03/2016 21:00:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160309200000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 09/03/2016 20:00:00 stop = 09/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 20:00:00 stop = 09/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 20:00:00 stop = 09/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 21:00:00 stop = 09/03/2016 23:05:00 title = Blade 2
-[  Info  ]       Added before - start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 23:05:00 stop = 09/03/2016 23:35:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 23:35:00 stop = 10/03/2016 00:00:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 00:00:00 stop = 10/03/2016 02:05:00 title = Bilježnica
-[  Info  ]       Added before - start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/03/2016 02:05:00 stop = 10/03/2016 03:35:00 title = Surova istina
-[  Info  ]       Replaces ----- start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 10/03/2016 03:35:00 stop = 10/03/2016 04:25:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 03:10:00 stop = 10/03/2016 03:55:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 04:25:00 stop = 10/03/2016 05:15:00 title = Kardashians
-[  Info  ]       Added before - start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 05:15:00 stop = 10/03/2016 06:00:00 title = Kardashians
-[  Info  ]       Added before - start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 06:00:00 stop = 10/03/2016 07:00:00 title = O.C.
-[  Info  ]       Added before - start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 07:00:00 stop = 10/03/2016 09:00:00 title = Bilježnica
-[  Info  ]       Added before - start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 09:00:00 stop = 10/03/2016 09:30:00 title = Top Shop
-[  Info  ]       Added before - start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Debug ] multiple entry of a show at 20160310093000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 09:30:00 stop = 10/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 12:45:00 stop = 10/03/2016 13:45:00 title = Big Time Rush
-[  Info  ]       Added before - start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 13:45:00 stop = 10/03/2016 14:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 14:15:00 stop = 10/03/2016 14:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 14:45:00 stop = 10/03/2016 15:00:00 title = Top Shop
-[  Info  ]       Added before - start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160310150000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 15:00:00 stop = 10/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160310160000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 16:00:00 stop = 10/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 16:00:00 stop = 10/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 16:00:00 stop = 10/03/2016 16:35:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160310163500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 16:35:00 stop = 10/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 16:35:00 stop = 10/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 16:35:00 stop = 10/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 17:00:00 stop = 10/03/2016 17:30:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 18:00:00 stop = 10/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 17:30:00 stop = 10/03/2016 18:00:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 10/03/2016 18:00:00 stop = 10/03/2016 19:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160310180000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 18:00:00 stop = 10/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 18:00:00 stop = 10/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 18:00:00 stop = 10/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 19:00:00 stop = 10/03/2016 20:00:00 title = Big Time Rush
-[  Info  ]       Added before - start = 10/03/2016 20:00:00 stop = 10/03/2016 21:00:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160310200000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 10/03/2016 20:00:00 stop = 10/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 20:00:00 stop = 10/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 10/03/2016 20:00:00 stop = 10/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 21:00:00 stop = 10/03/2016 23:15:00 title = Preko svih granica
-[  Info  ]       Added before - start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 23:15:00 stop = 10/03/2016 23:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 10/03/2016 23:45:00 stop = 11/03/2016 00:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 00:15:00 stop = 11/03/2016 01:55:00 title = Ponoćni vlak smrti
-[  Info  ]       Added before - start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 01:55:00 stop = 11/03/2016 03:55:00 title = Sharkyjev stroj
-[  Info  ]       Added before - start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160311035500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 03:55:00 stop = 11/03/2016 04:20:00 title = Vesti (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 04:20:00 stop = 11/03/2016 05:00:00 title = Kardashians
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 05:00:00 stop = 11/03/2016 05:45:00 title = Kardashians
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 05:45:00 stop = 11/03/2016 06:30:00 title = O.C.
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 06:30:00 stop = 11/03/2016 07:10:00 title = O.C.
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 07:10:00 stop = 11/03/2016 09:00:00 title = Sharkyjev stroj
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 09:00:00 stop = 11/03/2016 09:30:00 title = Top Shop
-[  Info  ]       Added before - start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Debug ] multiple entry of a show at 20160311093000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 09:30:00 stop = 11/03/2016 12:45:00 title = Crtani filmovi (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 12:45:00 stop = 11/03/2016 13:45:00 title = Big Time Rush
-[  Info  ]       Added before - start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 13:45:00 stop = 11/03/2016 14:15:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 14:15:00 stop = 11/03/2016 14:45:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 14:45:00 stop = 11/03/2016 15:00:00 title = Top Shop
-[  Info  ]       Added before - start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160311150000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 15:00:00 stop = 11/03/2016 16:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160311160000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 16:00:00 stop = 11/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 16:00:00 stop = 11/03/2016 16:35:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 16:00:00 stop = 11/03/2016 16:35:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160311163500 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 16:35:00 stop = 11/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 16:35:00 stop = 11/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 16:35:00 stop = 11/03/2016 17:00:00 title = Sportski pregled (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 17:00:00 stop = 11/03/2016 17:30:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 18:00:00 stop = 11/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 17:30:00 stop = 11/03/2016 18:00:00 title = Dva i pol muškarca
-[  Info  ]       Added before - start = 11/03/2016 18:00:00 stop = 11/03/2016 19:00:00 title = Galileo (?)
-[  Debug ] multiple entry of a show at 20160311180000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 18:00:00 stop = 11/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 18:00:00 stop = 11/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 18:00:00 stop = 11/03/2016 19:00:00 title = Galileo (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 11/03/2016 19:00:00 stop = 11/03/2016 20:00:00 title = Big Time Rush
-[  Info  ]       Added before - start = 11/03/2016 20:00:00 stop = 11/03/2016 21:00:00 title = Vesti (?)
-[  Debug ] multiple entry of a show at 20160311200000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 11/03/2016 20:00:00 stop = 11/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 20:00:00 stop = 11/03/2016 21:00:00 title = Vesti (?)
-[  Info  ]       Replaces ----- start = 11/03/2016 20:00:00 stop = 11/03/2016 21:00:00 title = Vesti (?)
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 17/03/2016 differs from 'today'
+[  Debug ] date of first show = 17/03/2016
 [  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  46/54  ) PORT.HR -- chan. (xmltv_id=Fox Life) -- mode Incremental
@@ -1106,117 +532,43 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  49/54  ) MOJTV.HR -- chan. (xmltv_id=PINK) -- mode Incremental
-[  Debug ] multiple entry of a show at 20160308060000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 06:00:00 stop = 08/03/2016 07:00:00 title = Nacionalni dnevnik (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 06:00:00 stop = 08/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 06:00:00 stop = 08/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 07:00:00 stop = 08/03/2016 11:02:00 title = Dobro jutro (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 07:00:00 stop = 08/03/2016 10:45:00 title = DOBRO JUTRO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 10:45:00 stop = 08/03/2016 11:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 07:00:00 stop = 08/03/2016 10:45:00 title = DOBRO JUTRO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 10:45:00 stop = 08/03/2016 11:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 11:02:00 stop = 08/03/2016 11:15:00 title = Premijera (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 11:15:00 stop = 08/03/2016 13:00:00 title = Farma Uživo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 11:00:00 stop = 08/03/2016 13:00:00 title = FARMA – UŽIVO (?)
-[  Debug ] multiple entry of a show at 20160308130000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 13:00:00 stop = 08/03/2016 13:20:00 title = Prvi Nacionalni dnevnik (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:00:00 stop = 08/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:00:00 stop = 08/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 13:20:00 stop = 08/03/2016 15:29:00 title = Farma Uživo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:20:00 stop = 08/03/2016 15:45:00 title = FARMA - UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:20:00 stop = 08/03/2016 15:45:00 title = FARMA - UŽIVO (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 15:29:00 stop = 08/03/2016 16:00:00 title = Nacionalni dnevnik u 16 (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:20:00 stop = 08/03/2016 15:45:00 title = FARMA - UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 15:45:00 stop = 08/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 13:20:00 stop = 08/03/2016 15:45:00 title = FARMA - UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 15:45:00 stop = 08/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
-[  Debug ] multiple entry of a show at 20160308160000 +0100
-[  Info  ]    forced update : 
-[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
-[  Info  ]       show with ---- start = 08/03/2016 16:00:00 stop = 08/03/2016 17:00:00 title = Farma Uživo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:00:00 stop = 08/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 16:00:00 stop = 08/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 17:00:00 stop = 08/03/2016 18:29:00 title = Bahar (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 17:00:00 stop = 08/03/2016 18:30:00 title = BAHAR (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 17:00:00 stop = 08/03/2016 18:30:00 title = BAHAR (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 18:29:00 stop = 08/03/2016 19:05:00 title = Nacionalni dnevnik u 18:30 (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 17:00:00 stop = 08/03/2016 18:30:00 title = BAHAR (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 18:30:00 stop = 08/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 17:00:00 stop = 08/03/2016 18:30:00 title = BAHAR (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 18:30:00 stop = 08/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 19:05:00 stop = 08/03/2016 20:10:00 title = Elif
-[  Info  ]       Replaces ----- start = 08/03/2016 18:30:00 stop = 08/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 18:30:00 stop = 08/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 08/03/2016 20:10:00 stop = 08/03/2016 20:59:00 title = Crna ruža
-[  Info  ]       Added before - start = 08/03/2016 21:00:00 stop = 08/03/2016 21:30:00 title = FARMA – IZBOR SLUGA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 20:59:00 stop = 08/03/2016 22:30:00 title = Farma Vanredno izbacivanje (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 21:00:00 stop = 08/03/2016 21:30:00 title = FARMA – IZBOR SLUGA (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 21:00:00 stop = 08/03/2016 21:30:00 title = FARMA – IZBOR SLUGA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 08/03/2016 22:30:00 stop = 09/03/2016 00:30:00 title = Ami G Show
-[  Info  ]       Replaces ----- start = 08/03/2016 23:30:00 stop = 09/03/2016 02:45:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 23:30:00 stop = 09/03/2016 02:45:00 title = FARMA – UŽIVO (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/03/2016 00:30:00 stop = 09/03/2016 03:09:00 title = Farma Uživo (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 23:30:00 stop = 09/03/2016 02:45:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 08/03/2016 23:30:00 stop = 09/03/2016 02:45:00 title = FARMA – UŽIVO (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/03/2016 03:09:00 stop = 09/03/2016 03:38:00 title = Alo, Alo!
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/03/2016 03:38:00 stop = 09/03/2016 03:50:00 title = Premijera (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 09/03/2016 03:50:00 stop = 09/03/2016 05:21:00 title = Udar slobode
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]       Replaces ----- start = 09/03/2016 02:45:00 stop = 09/03/2016 04:00:00 title = PREMIJERA (?)
-[  Info  ]    epg correction : 
-[  Info  ]  MISSING show added,
-[  Info  ]       show with ---- start = 09/03/2016 05:21:00 stop = 09/03/2016 06:00:00 title = Elif
-[  Info  ]       Added before - start = 09/03/2016 06:00:00 stop = 09/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 17/03/2016 differs from 'today'
+[  Debug ] date of first show = 17/03/2016
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  50/54  ) MOJTV.HR -- chan. (xmltv_id=VH-1) -- mode Incremental
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 17/03/2016 differs from 'today'
+[  Debug ] date of first show = 17/03/2016
 [  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped 
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  51/54  ) PORT.HR -- chan. (xmltv_id=Arena Sport 1) -- mode Incremental
@@ -1235,10 +587,10 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 10275 shows in 54 channels
-[  Debug ] 111 updated shows
-[  Debug ] 10117 new shows added
+[  Debug ] 10065 shows in 54 channels
+[  Debug ] 0 updated shows
+[  Debug ] 10046 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 08/03/2016 19:18:05 done in 19m 30s
+[        ] Job finished at 18/03/2016 00:08:36 done in 17m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
