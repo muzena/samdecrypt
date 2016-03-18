@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 17/03/2016 23:51:08
+[        ] Job started at 18/03/2016 00:54:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.2.0.30
 [  Debug ] Environment: 4.0.30319.17020
@@ -26,7 +26,7 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 05
 [  Info  ] found: /home/goran/Snimke/grabber/samdecrypt/wg++/mojtv.hr.ini -- Revision 03
 [  Debug ] xmltv input file - /home/goran/Snimke/grabber/samdecrypt/wg++/../guide-main.xml - found
-[  Debug ] 10256 superfluous shows removed
+[  Debug ] 1237 superfluous shows removed
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -36,327 +36,908 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Info  ] update requested for - 54 - out of - 54 - channels for 11 day(s)
 [  Debug ] 
 [  Info  ] (   1/54  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       HTV 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           9
+[  Info  ]      unchanged shows inspected 257
+[  Info  ]      total after update        267
 [  Debug ] 
 [  Info  ] (   2/54  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           363
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        363
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 310
+[  Info  ]      total after update        313
 [  Debug ] 
 [  Info  ] (   3/54  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/54  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           720
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        720
+[  Info  ]      new shows added           21
+[  Info  ]      unchanged shows inspected 614
+[  Info  ]      total after update        636
 [  Debug ] 
 [  Info  ] (   5/54  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       NOVA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           188
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        188
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 159
+[  Info  ]      total after update        160
 [  Debug ] 
 [  Info  ] (   6/54  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL TELEVIZIJA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           198
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        198
+[  Info  ]      new shows added           6
+[  Info  ]      unchanged shows inspected 168
+[  Info  ]      total after update        175
 [  Debug ] 
 [  Info  ] (   7/54  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       DOMA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           217
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        217
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 184
+[  Info  ]      total after update        185
 [  Debug ] 
 [  Info  ] (   8/54  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           276
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        276
+[  Info  ]      new shows added           10
+[  Info  ]      unchanged shows inspected 234
+[  Info  ]      total after update        245
 [  Debug ] 
 [  Info  ] (   9/54  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL PLUS
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           179
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        179
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 152
+[  Info  ]      total after update        155
 [  Debug ] 
 [  Info  ] (  10/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION &amp; THRILLER) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION &amp; THRILLER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           73
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        73
+[  Info  ]      new shows added           1
+[  Info  ]      unchanged shows inspected 62
+[  Info  ]      total after update        64
 [  Debug ] 
 [  Info  ] (  11/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           64
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        64
+[  Info  ]      new shows added           1
+[  Info  ]      unchanged shows inspected 55
+[  Info  ]      total after update        57
 [  Debug ] 
 [  Info  ] (  12/54  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT TV1000
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           94
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        94
+[  Info  ]      new shows added           3
+[  Info  ]      unchanged shows inspected 81
+[  Info  ]      total after update        85
 [  Debug ] 
 [  Info  ] (  13/54  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           247
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        247
+[  Info  ]      new shows added           9
+[  Info  ]      unchanged shows inspected 210
+[  Info  ]      total after update        220
 [  Debug ] 
 [  Info  ] (  14/54  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           227
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        227
+[  Info  ]      new shows added           8
+[  Info  ]      unchanged shows inspected 193
+[  Info  ]      total after update        202
 [  Debug ] 
 [  Info  ] (  15/54  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       UNIVERSAL CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           131
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        131
+[  Info  ]      new shows added           4
+[  Info  ]      unchanged shows inspected 112
+[  Info  ]      total after update        117
 [  Debug ] 
 [  Info  ] (  16/54  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       DISCOVERY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           233
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        233
+[  Info  ]      new shows added           8
+[  Info  ]      unchanged shows inspected 199
+[  Info  ]      total after update        208
 [  Debug ] 
 [  Info  ] (  17/54  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           235
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        235
+[  Info  ]      new shows added           12
+[  Info  ]      unchanged shows inspected 201
+[  Info  ]      total after update        214
 [  Debug ] 
 [  Info  ] (  18/54  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT HISTORY
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           193
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        193
+[  Info  ]      new shows added           6
+[  Info  ]      unchanged shows inspected 166
+[  Info  ]      total after update        173
 [  Debug ] 
 [  Info  ] (  19/54  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       ANIMAL PLANET
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           203
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        203
+[  Info  ]      new shows added           7
+[  Info  ]      unchanged shows inspected 175
+[  Info  ]      total after update        183
 [  Debug ] 
 [  Info  ] (  20/54  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT EXPLORER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           221
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        221
+[  Info  ]      new shows added           1
+[  Info  ]      unchanged shows inspected 191
+[  Info  ]      total after update        193
 [  Debug ] 
 [  Info  ] (  21/54  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       TLC
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           230
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        230
+[  Info  ]      new shows added           10
+[  Info  ]      unchanged shows inspected 196
+[  Info  ]      total after update        207
 [  Debug ] 
 [  Info  ] (  22/54  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       MREŽAZG
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           153
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        153
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 120
+[  Info  ]      total after update        121
 [  Debug ] 
 [  Info  ] (  23/54  ) PORT.HR -- chan. (xmltv_id=Jabuka TV) -- mode Incremental
-[Error   ] No suitable time structure found to merge the indexpage pages!!
-[Error   ] Unable to update Channel, try again later
-[  Debug ] Unsorted startimes in index page sections:
-[  Debug ] Indexpage section 0
-[  Debug ] 06:58 07:00 07:30 08:30 08:50 09:15 09:45 10:30 10:45 11:15 11:45 12:15 13:00 13:30 14:00 14:45 15:30 16:00 16:30 17:00 17:30 
-[  Debug ] 17:55 18:15 19:03 19:05 19:30 20:05 22:50 06:58 07:00 07:30 08:30 08:50 09:15 09:45 10:30 10:45 11:15 11:45 12:15 13:00 
-[  Debug ] 13:30 14:00 15:00 15:30 16:00 16:30 17:00 17:30 17:55 18:15 19:03 19:05 19:30 06:58 07:00 08:00 10:00 10:30 12:15 12:45 
-[  Debug ] 13:00 14:00 14:30 15:00 16:00 16:15 16:45 17:15 17:45 18:40 19:00 19:28 19:30 06:58 07:00 08:00 10:00 10:30 13:30 14:30 
-[  Debug ] Indexpage section 1
-[  Debug ] 02:00 02:15 02:17 20:05 21:00 22:50 23:00 02:00 02:15 02:17 20:00 22:50 23:00 02:00 02:15 02:17 20:00 23:00 02:00 02:15 02:17 
-[  Debug ] 
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/54  ) BNET.HR -- chan. (xmltv_id=Z1) -- mode Incremental
 [  Debug ]    skipped show without a title at 18/03/2016 09:25:00
 [  Debug ]    skipped show without a title at 19/03/2016 12:30:00
 [  Debug ]    skipped show without a title at 21/03/2016 11:30:00
-[  Debug ]    skipped 
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  25/54  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  26/54  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           347
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        347
+[  Info  ]      new shows added           11
+[  Info  ]      unchanged shows inspected 296
+[  Info  ]      total after update        308
 [  Debug ] 
 [  Info  ] (  27/54  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       NICKELODEON
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           424
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        424
+[  Info  ]      new shows added           17
+[  Info  ]      unchanged shows inspected 364
+[  Info  ]      total after update        382
 [  Debug ] 
 [  Info  ] (  28/54  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       DISNEY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           393
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        393
+[  Info  ]      new shows added           15
+[  Info  ]      unchanged shows inspected 333
+[  Info  ]      total after update        349
 [  Debug ] 
 [  Info  ] (  29/54  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       MINI TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           254
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        254
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 218
+[  Info  ]      total after update        219
 [  Debug ] 
 [  Info  ] (  30/54  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           312
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        312
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 263
+[  Info  ]      total after update        269
 [  Debug ] 
 [  Info  ] (  31/54  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped show without a title at 17/03/2016 12:10:00
 [  Debug ]    skipped show without a title at 18/03/2016 10:50:00
 [  Debug ]    skipped show without a title at 19/03/2016 10:15:00
 [  Debug ]    skipped show without a title at 20/03/2016 11:40:00
 [  Debug ]    skipped show without a title at 21/03/2016 11:10:00
 [  Debug ]    skipped show without a title at 23/03/2016 18:00:00
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SPORTSKA TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           128
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        128
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 108
+[  Info  ]      total after update        114
 [  Debug ] 
 [  Info  ] (  32/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode Incremental
-[  Debug ]    skipped 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 07:30:00 stop = 18/03/2016 08:30:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 18/03/2016 07:16:00 stop = 18/03/2016 08:07:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 18/03/2016 08:07:00 stop = 18/03/2016 08:18:00 title = WATTS
+[  Info  ]       Replaces ----- start = 18/03/2016 08:18:00 stop = 18/03/2016 08:34:00 title = Biciklizam: #FollowFabian - Episode 1: The last ride
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 10:00:00 stop = 18/03/2016 11:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 18/03/2016 09:50:00 stop = 18/03/2016 11:20:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 12:00:00 stop = 18/03/2016 12:30:00 title = Nogomet: UEFA Champions League DRAW   (live)
+[  Info  ]       Replaces ----- start = 18/03/2016 11:20:00 stop = 18/03/2016 12:45:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 17:00:00 stop = 18/03/2016 18:00:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 18/03/2016 17:00:00 stop = 18/03/2016 17:56:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 18/03/2016 17:56:00 stop = 18/03/2016 18:00:00 title = Vijesti: Eurosport 2 News
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 19:10:00 stop = 18/03/2016 19:15:00 title = FISU Athlete Story
+[  Info  ]       Replaces ----- start = 18/03/2016 19:10:00 stop = 18/03/2016 19:45:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 00:00:00 stop = 19/03/2016 01:00:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 18/03/2016 23:01:00 stop = 19/03/2016 00:04:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 00:04:00 stop = 19/03/2016 01:01:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 07:15:00 stop = 19/03/2016 08:15:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 19/03/2016 06:30:00 stop = 19/03/2016 07:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 07:30:00 stop = 19/03/2016 08:30:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 09:45:00 stop = 19/03/2016 11:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 09:30:00 stop = 19/03/2016 10:00:00 title = MOTORSPORTS: Formula E in Ciudad de Mexico in Mexico
+[  Info  ]       Replaces ----- start = 19/03/2016 10:00:00 stop = 19/03/2016 11:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 11:00:00 stop = 19/03/2016 12:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 13:30:00 stop = 19/03/2016 14:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 13:30:00 stop = 19/03/2016 14:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 14:00:00 stop = 19/03/2016 14:15:00 title = Biciklizam: #FollowFabian - Episode 1: The last ride
+[  Info  ]       Replaces ----- start = 19/03/2016 14:00:00 stop = 19/03/2016 15:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 18:30:00 stop = 19/03/2016 18:35:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 19/03/2016 18:00:00 stop = 19/03/2016 19:05:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 18:35:00 stop = 19/03/2016 19:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 19/03/2016 18:00:00 stop = 19/03/2016 19:05:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 00:00:00 stop = 20/03/2016 01:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 00:00:00 stop = 20/03/2016 01:00:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 04:30:00 stop = 20/03/2016 05:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 03:00:00 stop = 20/03/2016 05:00:00 title = Atletika: World Indoor Championships in Portland, USA (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 05:00:00 stop = 20/03/2016 05:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 07:15:00 stop = 20/03/2016 08:15:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 20/03/2016 07:15:00 stop = 20/03/2016 08:15:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 18:55:00 stop = 20/03/2016 19:00:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 20/03/2016 18:35:00 stop = 20/03/2016 19:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 19:00:00 stop = 20/03/2016 20:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 20/03/2016 19:00:00 stop = 20/03/2016 22:30:00 title = Atletika: World Indoor Championships in Portland, USA (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 23:55:00 stop = 21/03/2016 00:00:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 20/03/2016 23:35:00 stop = 21/03/2016 00:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 01:30:00 stop = 21/03/2016 02:30:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 21/03/2016 01:00:00 stop = 21/03/2016 03:00:00 title = Atletika: World Indoor Championships in Portland, USA (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 05:45:00 stop = 21/03/2016 06:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 21/03/2016 05:30:00 stop = 21/03/2016 06:45:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 12:15:00 stop = 21/03/2016 13:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 21/03/2016 11:45:00 stop = 21/03/2016 12:45:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 21/03/2016 12:45:00 stop = 21/03/2016 13:45:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 13:00:00 stop = 21/03/2016 14:00:00 title = Biciklizam: Milan-Sanremo, Italy
+[  Info  ]       Replaces ----- start = 21/03/2016 12:45:00 stop = 21/03/2016 13:45:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia (live)
+[  Info  ]       Replaces ----- start = 21/03/2016 13:45:00 stop = 21/03/2016 14:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 14:00:00 stop = 21/03/2016 15:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 21/03/2016 13:45:00 stop = 21/03/2016 14:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 21/03/2016 14:30:00 stop = 21/03/2016 15:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 20:10:00 stop = 21/03/2016 21:15:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 21/03/2016 19:00:00 stop = 21/03/2016 20:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 21/03/2016 20:30:00 stop = 21/03/2016 23:00:00 title = Atletika: World Indoor Championships in Portland, USA (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:00:00 stop = 21/03/2016 23:05:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 21/03/2016 23:00:00 stop = 21/03/2016 23:55:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:05:00 stop = 21/03/2016 23:10:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 21/03/2016 23:00:00 stop = 21/03/2016 23:55:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:10:00 stop = 21/03/2016 23:35:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 21/03/2016 23:00:00 stop = 21/03/2016 23:55:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:35:00 stop = 22/03/2016 00:00:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 21/03/2016 23:00:00 stop = 21/03/2016 23:55:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 21/03/2016 23:55:00 stop = 22/03/2016 00:00:00 title = Vijesti: Eurosport 2 News
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 00:05:00 stop = 22/03/2016 01:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 00:00:00 stop = 22/03/2016 01:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 05:00:00 stop = 22/03/2016 06:15:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 04:30:00 stop = 22/03/2016 05:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 05:45:00 stop = 22/03/2016 06:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 06:15:00 stop = 22/03/2016 06:20:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 22/03/2016 05:45:00 stop = 22/03/2016 06:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 06:20:00 stop = 22/03/2016 06:45:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 22/03/2016 05:45:00 stop = 22/03/2016 06:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 06:45:00 stop = 22/03/2016 07:10:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 22/03/2016 06:45:00 stop = 22/03/2016 08:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 08:15:00 stop = 22/03/2016 08:30:00 title = WATTS
+[  Info  ]       Replaces ----- start = 22/03/2016 06:45:00 stop = 22/03/2016 08:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 08:30:00 stop = 22/03/2016 10:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 08:30:00 stop = 22/03/2016 09:30:00 title = FENCING: Grand Prix Series in Budapest, Hungary
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 10:30:00 title = Half Marathon:  in New York, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 11:15:00 stop = 22/03/2016 12:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 22/03/2016 10:30:00 stop = 22/03/2016 11:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 11:30:00 stop = 22/03/2016 12:15:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 12:00:00 stop = 22/03/2016 12:05:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 22/03/2016 11:30:00 stop = 22/03/2016 12:15:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 12:05:00 stop = 22/03/2016 12:30:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 22/03/2016 11:30:00 stop = 22/03/2016 12:15:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 22/03/2016 12:15:00 stop = 22/03/2016 13:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 12:30:00 stop = 22/03/2016 12:55:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 22/03/2016 12:15:00 stop = 22/03/2016 13:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 12:55:00 stop = 22/03/2016 13:00:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 22/03/2016 12:15:00 stop = 22/03/2016 13:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 13:00:00 stop = 22/03/2016 14:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 13:00:00 stop = 22/03/2016 14:00:00 title = Biciklizam: Milan-Sanremo, Italy
+[  Info  ]       Replaces ----- start = 22/03/2016 14:00:00 stop = 22/03/2016 15:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 14:30:00 stop = 22/03/2016 15:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 22/03/2016 14:00:00 stop = 22/03/2016 15:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 17:45:00 stop = 22/03/2016 18:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 22/03/2016 17:45:00 stop = 22/03/2016 18:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 22/03/2016 18:30:00 stop = 22/03/2016 19:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 01:30:00 stop = 23/03/2016 02:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 23/03/2016 01:30:00 stop = 23/03/2016 03:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 08:30:00 stop = 23/03/2016 10:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom
+[  Info  ]       Replaces ----- start = 23/03/2016 08:30:00 stop = 23/03/2016 10:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 10:00:00 stop = 23/03/2016 11:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 10:00:00 stop = 23/03/2016 11:15:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 11:15:00 stop = 23/03/2016 12:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 13:00:00 stop = 23/03/2016 14:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom
+[  Info  ]       Replaces ----- start = 23/03/2016 13:00:00 stop = 23/03/2016 14:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 14:00:00 stop = 23/03/2016 15:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 13:00:00 stop = 23/03/2016 14:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 23/03/2016 14:30:00 stop = 23/03/2016 15:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 17:15:00 stop = 23/03/2016 17:45:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 23/03/2016 17:15:00 stop = 23/03/2016 17:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 23:05:00 stop = 24/03/2016 00:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 23:05:00 stop = 24/03/2016 00:15:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/03/2016 00:00:00 stop = 24/03/2016 01:30:00 title = Nogomet: UEFA Women's Champions League
+[  Info  ]       Replaces ----- start = 23/03/2016 23:05:00 stop = 24/03/2016 00:15:00 title = Biciklizam: Tour of Catalunya
 [  Info  ] 
+[  Info  ]    Summary for update of       EUROSPORT
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     140
+[  Info  ]      new shows added           10
+[  Info  ]      unchanged shows inspected 9
+[  Info  ]      total after update        159
 [  Debug ] 
 [  Info  ] (  33/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT 2) -- mode Incremental
-[  Debug ]    skipped 
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 06:30:00 stop = 18/03/2016 07:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 18/03/2016 06:32:00 stop = 18/03/2016 07:00:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 18/03/2016 07:00:00 stop = 18/03/2016 08:25:00 title = FMX: Night of the Jumps in Berlin, Germany
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 09:30:00 stop = 18/03/2016 10:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 18/03/2016 08:25:00 stop = 18/03/2016 09:45:00 title = Košarka: Eurocup
+[  Info  ]       Replaces ----- start = 18/03/2016 09:45:00 stop = 18/03/2016 11:44:00 title = Skijaški skokovi: World Cup in Planica, Slovenia (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 11:15:00 stop = 18/03/2016 12:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 18/03/2016 09:45:00 stop = 18/03/2016 11:44:00 title = Skijaški skokovi: World Cup in Planica, Slovenia (live)
+[  Info  ]       Replaces ----- start = 18/03/2016 11:44:00 stop = 18/03/2016 12:59:00 title = Košarka: Eurocup
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 12:00:00 stop = 18/03/2016 13:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 18/03/2016 11:44:00 stop = 18/03/2016 12:59:00 title = Košarka: Eurocup
+[  Info  ]       Replaces ----- start = 18/03/2016 12:59:00 stop = 18/03/2016 13:58:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 14:00:00 stop = 18/03/2016 15:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 18/03/2016 13:58:00 stop = 18/03/2016 14:59:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 18/03/2016 14:59:00 stop = 18/03/2016 16:03:00 title = Biciklizam: Nokere Koersen in Flanders, Belgium
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 15:00:00 stop = 18/03/2016 17:00:00 title = Biciklizam: Handzame Classic  , Belgium  (live)
+[  Info  ]       Replaces ----- start = 18/03/2016 14:59:00 stop = 18/03/2016 16:03:00 title = Biciklizam: Nokere Koersen in Flanders, Belgium
+[  Info  ]       Replaces ----- start = 18/03/2016 16:03:00 stop = 18/03/2016 16:29:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 18/03/2016 16:29:00 stop = 18/03/2016 16:45:00 title = WATTS
+[  Info  ]       Replaces ----- start = 18/03/2016 16:45:00 stop = 18/03/2016 17:44:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 17:00:00 stop = 18/03/2016 17:45:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 18/03/2016 16:45:00 stop = 18/03/2016 17:44:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 18/03/2016 17:44:00 stop = 18/03/2016 18:20:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 17:45:00 stop = 18/03/2016 20:00:00 title = Nogomet: Ekstraklasa  , Poland (live)
+[  Info  ]       Replaces ----- start = 18/03/2016 17:44:00 stop = 18/03/2016 18:20:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 18/03/2016 18:20:00 stop = 18/03/2016 18:27:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 18/03/2016 18:27:00 stop = 18/03/2016 19:12:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 18/03/2016 19:12:00 stop = 18/03/2016 19:16:00 title = Nogomet: Worldgoals
+[  Info  ]       Replaces ----- start = 18/03/2016 19:16:00 stop = 18/03/2016 19:47:00 title = Nogomet: Futbol Latino
+[  Info  ]       Replaces ----- start = 18/03/2016 19:47:00 stop = 18/03/2016 20:16:00 title = Nogomet: FIFA Football
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 20:00:00 stop = 18/03/2016 20:30:00 title = Nogomet: Bundesliga Preview
+[  Info  ]       Replaces ----- start = 18/03/2016 19:47:00 stop = 18/03/2016 20:16:00 title = Nogomet: FIFA Football
+[  Info  ]       Replaces ----- start = 18/03/2016 20:16:00 stop = 18/03/2016 20:22:00 title = Nogomet: Worldgoals
+[  Info  ]       Replaces ----- start = 18/03/2016 20:22:00 stop = 18/03/2016 20:50:00 title = WATTS
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 22:25:00 stop = 18/03/2016 22:30:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 18/03/2016 21:59:00 stop = 18/03/2016 23:01:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 23:40:00 stop = 18/03/2016 23:45:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 18/03/2016 23:01:00 stop = 18/03/2016 23:57:00 title = FMX: Night of the Jumps in Berlin, Germany
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 23:45:00 stop = 19/03/2016 00:00:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 18/03/2016 23:01:00 stop = 18/03/2016 23:57:00 title = FMX: Night of the Jumps in Berlin, Germany
+[  Info  ]       Replaces ----- start = 18/03/2016 23:57:00 stop = 19/03/2016 00:03:00 title = Vijesti: Eurosport 2 News
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 03:00:00 stop = 19/03/2016 04:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 03:00:00 stop = 19/03/2016 04:00:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 05:45:00 stop = 19/03/2016 06:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 05:30:00 stop = 19/03/2016 06:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 06:30:00 stop = 19/03/2016 07:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 08:15:00 stop = 19/03/2016 09:15:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 07:30:00 stop = 19/03/2016 08:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 19/03/2016 08:30:00 stop = 19/03/2016 09:30:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 09:15:00 stop = 19/03/2016 10:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 08:30:00 stop = 19/03/2016 09:30:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]       Replaces ----- start = 19/03/2016 09:30:00 stop = 19/03/2016 10:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 10:30:00 stop = 19/03/2016 11:00:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 19/03/2016 10:30:00 stop = 19/03/2016 11:15:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 11:00:00 stop = 19/03/2016 12:00:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 10:30:00 stop = 19/03/2016 11:15:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 19/03/2016 11:15:00 stop = 19/03/2016 12:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 14:00:00 stop = 19/03/2016 14:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 19/03/2016 14:00:00 stop = 19/03/2016 15:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 14:30:00 stop = 19/03/2016 15:15:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 19/03/2016 14:00:00 stop = 19/03/2016 15:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 15:00:00 stop = 19/03/2016 17:00:00 title = Biciklizam: Handzame Classic  , Belgium  (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 15:15:00 stop = 19/03/2016 17:30:00 title = Nogomet: Bundesliga (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 15:00:00 stop = 19/03/2016 17:00:00 title = Biciklizam: Handzame Classic  , Belgium  (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 17:00:00 stop = 19/03/2016 17:45:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 17:30:00 stop = 19/03/2016 18:30:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 19/03/2016 17:00:00 stop = 19/03/2016 17:45:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 19/03/2016 17:45:00 stop = 19/03/2016 20:00:00 title = Nogomet: Ekstraklasa  , Poland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 20:25:00 stop = 19/03/2016 20:30:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 19/03/2016 20:00:00 stop = 19/03/2016 20:30:00 title = Nogomet: Bundesliga Preview
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 20:30:00 stop = 19/03/2016 21:45:00 title = Biciklizam: Milan-Sanremo, Italy
+[  Info  ]       Replaces ----- start = 19/03/2016 20:30:00 stop = 19/03/2016 22:25:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 21:45:00 stop = 19/03/2016 22:00:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 19/03/2016 20:30:00 stop = 19/03/2016 22:25:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 22:00:00 stop = 20/03/2016 00:00:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 20:30:00 stop = 19/03/2016 22:25:00 title = Nogomet: Bundesliga (live)
+[  Info  ]       Replaces ----- start = 19/03/2016 22:25:00 stop = 19/03/2016 22:30:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 19/03/2016 22:30:00 stop = 19/03/2016 23:00:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 19/03/2016 23:00:00 stop = 19/03/2016 23:40:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 19/03/2016 23:40:00 stop = 19/03/2016 23:45:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 19/03/2016 23:45:00 stop = 20/03/2016 00:00:00 title = Nogomet: Major League Soccer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 01:00:00 stop = 20/03/2016 01:05:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 20/03/2016 00:00:00 stop = 20/03/2016 02:00:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 01:05:00 stop = 20/03/2016 02:05:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 20/03/2016 00:00:00 stop = 20/03/2016 02:00:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 02:00:00 stop = 20/03/2016 03:00:00 title = Zimski sportovi: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 06:00:00 stop = 20/03/2016 07:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 05:45:00 stop = 20/03/2016 06:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 06:45:00 stop = 20/03/2016 08:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 07:00:00 stop = 20/03/2016 07:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 20/03/2016 06:45:00 stop = 20/03/2016 08:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 09:00:00 stop = 20/03/2016 09:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 08:15:00 stop = 20/03/2016 09:15:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 20/03/2016 09:15:00 stop = 20/03/2016 10:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 09:30:00 stop = 20/03/2016 10:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 09:15:00 stop = 20/03/2016 10:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 14:15:00 stop = 20/03/2016 15:30:00 title = SNOWBOARD: FIS World Cup in Spindleruv Mlyn, Czech Republic (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 14:00:00 stop = 20/03/2016 14:30:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 20/03/2016 14:30:00 stop = 20/03/2016 15:15:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 20/03/2016 15:15:00 stop = 20/03/2016 17:30:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 15:30:00 stop = 20/03/2016 17:30:00 title = Nogomet: Bundesliga (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 15:15:00 stop = 20/03/2016 17:30:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 19:30:00 stop = 20/03/2016 19:35:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 20/03/2016 18:30:00 stop = 20/03/2016 20:25:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 19:35:00 stop = 20/03/2016 21:30:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 18:30:00 stop = 20/03/2016 20:25:00 title = Nogomet: Bundesliga (live)
+[  Info  ]       Replaces ----- start = 20/03/2016 20:25:00 stop = 20/03/2016 20:30:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 20/03/2016 20:30:00 stop = 20/03/2016 21:45:00 title = Biciklizam: Milan-Sanremo, Italy
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 21:30:00 stop = 20/03/2016 22:00:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 20/03/2016 20:30:00 stop = 20/03/2016 21:45:00 title = Biciklizam: Milan-Sanremo, Italy
+[  Info  ]       Replaces ----- start = 20/03/2016 21:45:00 stop = 20/03/2016 22:00:00 title = Nogomet: Major League Soccer
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 01:05:00 stop = 21/03/2016 02:00:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 21/03/2016 01:05:00 stop = 21/03/2016 02:05:00 title = Nogomet: Bundesliga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 02:00:00 stop = 21/03/2016 03:00:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 21/03/2016 01:05:00 stop = 21/03/2016 02:05:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 21/03/2016 02:05:00 stop = 21/03/2016 02:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 21/03/2016 02:30:00 stop = 21/03/2016 03:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 05:45:00 stop = 21/03/2016 07:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 21/03/2016 05:30:00 stop = 21/03/2016 06:00:00 title = Biatlon: World Cup in Khanty Mansiysk, Russia
+[  Info  ]       Replaces ----- start = 21/03/2016 06:00:00 stop = 21/03/2016 07:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 07:30:00 stop = 21/03/2016 08:30:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 21/03/2016 07:30:00 stop = 21/03/2016 09:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 08:30:00 stop = 21/03/2016 09:30:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]       Replaces ----- start = 21/03/2016 07:30:00 stop = 21/03/2016 09:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 21/03/2016 09:00:00 stop = 21/03/2016 09:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 09:30:00 stop = 21/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 21/03/2016 09:30:00 stop = 21/03/2016 10:30:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 21/03/2016 10:30:00 stop = 21/03/2016 11:00:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]       Replaces ----- start = 21/03/2016 11:00:00 stop = 21/03/2016 12:00:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 11:15:00 stop = 21/03/2016 12:30:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 21/03/2016 11:00:00 stop = 21/03/2016 12:00:00 title = Skijanje: World Cup in St Moritz, Switzerland (live)
+[  Info  ]       Replaces ----- start = 21/03/2016 12:00:00 stop = 21/03/2016 12:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 12:30:00 stop = 21/03/2016 13:30:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]       Replaces ----- start = 21/03/2016 12:00:00 stop = 21/03/2016 12:45:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 21/03/2016 12:45:00 stop = 21/03/2016 14:15:00 title = SNOWBOARD: FIS World Cup in Baqueira Beret, Spain (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 13:30:00 stop = 21/03/2016 15:30:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]       Replaces ----- start = 21/03/2016 12:45:00 stop = 21/03/2016 14:15:00 title = SNOWBOARD: FIS World Cup in Baqueira Beret, Spain (live)
+[  Info  ]       Replaces ----- start = 21/03/2016 14:15:00 stop = 21/03/2016 15:30:00 title = SNOWBOARD: FIS World Cup in Spindleruv Mlyn, Czech Republic (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 17:30:00 stop = 21/03/2016 19:15:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]       Replaces ----- start = 21/03/2016 17:30:00 stop = 21/03/2016 19:30:00 title = Nogomet: Bundesliga (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 19:50:00 stop = 21/03/2016 20:00:00 title = WATTS
+[  Info  ]       Replaces ----- start = 21/03/2016 19:35:00 stop = 21/03/2016 21:30:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:30:00 stop = 22/03/2016 00:30:00 title = FENCING: Grand Prix Series in Budapest, Hungary
+[  Info  ]       Replaces ----- start = 21/03/2016 22:00:00 stop = 22/03/2016 00:00:00 title = Nogomet: Major League Soccer (live)
+[  Info  ]       Replaces ----- start = 22/03/2016 00:00:00 stop = 22/03/2016 01:00:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 00:30:00 stop = 22/03/2016 01:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 22/03/2016 00:00:00 stop = 22/03/2016 01:00:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]       Replaces ----- start = 22/03/2016 01:00:00 stop = 22/03/2016 01:05:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 22/03/2016 01:05:00 stop = 22/03/2016 02:00:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 04:00:00 stop = 22/03/2016 05:00:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 22/03/2016 03:00:00 stop = 22/03/2016 04:45:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 04:45:00 stop = 22/03/2016 05:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 05:00:00 stop = 22/03/2016 06:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 22/03/2016 04:45:00 stop = 22/03/2016 05:45:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 22/03/2016 05:45:00 stop = 22/03/2016 07:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 06:00:00 stop = 22/03/2016 07:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 05:45:00 stop = 22/03/2016 07:00:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 07:00:00 stop = 22/03/2016 07:30:00 title = Skijanje: World Cup in St Moritz, Switzerland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 08:30:00 stop = 22/03/2016 09:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]       Replaces ----- start = 22/03/2016 08:30:00 stop = 22/03/2016 09:30:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 09:30:00 stop = 22/03/2016 09:35:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 09:35:00 stop = 22/03/2016 10:00:00 title = Nogomet: Football Greatest
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 10:00:00 stop = 22/03/2016 10:25:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 10:25:00 stop = 22/03/2016 10:30:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 10:30:00 stop = 22/03/2016 12:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 11:15:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 22/03/2016 11:15:00 stop = 22/03/2016 12:30:00 title = Nogomet: Bundesliga
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 12:00:00 stop = 22/03/2016 13:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 22/03/2016 11:15:00 stop = 22/03/2016 12:30:00 title = Nogomet: Bundesliga
+[  Info  ]       Replaces ----- start = 22/03/2016 12:30:00 stop = 22/03/2016 13:30:00 title = Nogomet: Bundesliga Highlights
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 14:00:00 stop = 22/03/2016 18:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom (live)
+[  Info  ]       Replaces ----- start = 22/03/2016 13:30:00 stop = 22/03/2016 15:30:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]       Replaces ----- start = 22/03/2016 15:30:00 stop = 22/03/2016 17:30:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]       Replaces ----- start = 22/03/2016 17:30:00 stop = 22/03/2016 19:15:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 18:00:00 stop = 22/03/2016 18:30:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 22/03/2016 17:30:00 stop = 22/03/2016 19:15:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 18:30:00 stop = 22/03/2016 19:00:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 22/03/2016 17:30:00 stop = 22/03/2016 19:15:00 title = Nogomet: Ekstraklasa  , Poland
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 20:40:00 stop = 22/03/2016 20:45:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 22/03/2016 20:00:00 stop = 22/03/2016 22:15:00 title = Nogomet: Bundesliga 2 (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 22:15:00 stop = 22/03/2016 23:15:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]       Replaces ----- start = 22/03/2016 22:15:00 stop = 22/03/2016 23:25:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 23:50:00 stop = 23/03/2016 01:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom
+[  Info  ]       Replaces ----- start = 22/03/2016 23:30:00 stop = 23/03/2016 00:30:00 title = FENCING: Grand Prix Series in Budapest, Hungary
+[  Info  ]       Replaces ----- start = 23/03/2016 00:30:00 stop = 23/03/2016 01:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 01:00:00 stop = 23/03/2016 02:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 00:30:00 stop = 23/03/2016 01:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 01:30:00 stop = 23/03/2016 03:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 02:00:00 stop = 23/03/2016 02:05:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 23/03/2016 01:30:00 stop = 23/03/2016 03:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 02:05:00 stop = 23/03/2016 02:30:00 title = Nogomet: Major League Soccer
+[  Info  ]       Replaces ----- start = 23/03/2016 01:30:00 stop = 23/03/2016 03:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 02:30:00 stop = 23/03/2016 02:55:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 23/03/2016 01:30:00 stop = 23/03/2016 03:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 04:00:00 stop = 23/03/2016 04:30:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 23/03/2016 04:00:00 stop = 23/03/2016 05:00:00 title = WINTER SPORTS: Wintersports Today
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 05:30:00 stop = 23/03/2016 07:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom
+[  Info  ]       Replaces ----- start = 23/03/2016 05:00:00 stop = 23/03/2016 06:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 06:00:00 stop = 23/03/2016 07:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 07:00:00 stop = 23/03/2016 07:30:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 23/03/2016 06:00:00 stop = 23/03/2016 07:30:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 08:30:00 stop = 23/03/2016 09:30:00 title = FMX: Night of the Jumps in Stockholm, Sweden
+[  Info  ]       Replaces ----- start = 23/03/2016 08:30:00 stop = 23/03/2016 09:30:00 title = Skijaški skokovi: World Cup in Planica, Slovenia
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 09:30:00 stop = 23/03/2016 11:00:00 title = Košarka: Eurocup
+[  Info  ]       Replaces ----- start = 23/03/2016 09:30:00 stop = 23/03/2016 09:35:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 23/03/2016 09:35:00 stop = 23/03/2016 10:00:00 title = Nogomet: Football Greatest
+[  Info  ]       Replaces ----- start = 23/03/2016 10:00:00 stop = 23/03/2016 10:25:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 23/03/2016 10:25:00 stop = 23/03/2016 10:30:00 title = Nogomet: Eurogoals
+[  Info  ]       Replaces ----- start = 23/03/2016 10:30:00 stop = 23/03/2016 12:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 11:00:00 stop = 23/03/2016 11:30:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 23/03/2016 10:30:00 stop = 23/03/2016 12:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 11:30:00 stop = 23/03/2016 13:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 10:30:00 stop = 23/03/2016 12:00:00 title = Atletika: World Indoor Championships in Portland, USA
+[  Info  ]       Replaces ----- start = 23/03/2016 12:00:00 stop = 23/03/2016 13:00:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 18:00:00 stop = 23/03/2016 19:30:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]       Replaces ----- start = 23/03/2016 18:00:00 stop = 23/03/2016 18:30:00 title = Nogomet: Vive la France
+[  Info  ]       Replaces ----- start = 23/03/2016 18:30:00 stop = 23/03/2016 19:00:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 23/03/2016 19:00:00 stop = 23/03/2016 20:40:00 title = Košarka: Eurocup    (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 19:30:00 stop = 23/03/2016 20:00:00 title = Košarka: The Euroleague Basketball Show
+[  Info  ]       Replaces ----- start = 23/03/2016 19:00:00 stop = 23/03/2016 20:40:00 title = Košarka: Eurocup    (live)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 20:45:00 stop = 23/03/2016 20:50:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 23/03/2016 20:45:00 stop = 23/03/2016 22:15:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 23/03/2016 20:50:00 stop = 23/03/2016 21:45:00 title = Košarka: Eurocup    (live)
+[  Info  ]       Replaces ----- start = 23/03/2016 20:45:00 stop = 23/03/2016 22:15:00 title = Biciklizam: Tour of Catalunya
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/03/2016 00:10:00 stop = 24/03/2016 00:15:00 title = Vijesti: Eurosport 2 News
+[  Info  ]       Replaces ----- start = 23/03/2016 23:50:00 stop = 24/03/2016 01:00:00 title = Snooker: THE PLAYERS Championship in Manchester, United Kingdom
 [  Info  ] 
 [  Info  ]    Summary for update of       EUROSPORT 2
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           150
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      changed shows updated     129
+[  Info  ]      new shows added           11
+[  Info  ]      unchanged shows inspected 10
 [  Info  ]      total after update        150
 [  Debug ] 
 [  Info  ] (  34/54  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           120
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        120
+[  Info  ]      new shows added           1
+[  Info  ]      unchanged shows inspected 103
+[  Info  ]      total after update        105
 [  Debug ] 
 [  Info  ] (  35/54  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped show without a title at 17/03/2016 06:15:00
-[  Debug ]    skipped show without a title at 17/03/2016 08:30:00
-[  Debug ]    skipped show without a title at 17/03/2016 17:00:00
 [  Debug ]    skipped show without a title at 18/03/2016 08:35:00
 [  Debug ]    skipped show without a title at 18/03/2016 16:00:00
 [  Debug ]    skipped show without a title at 18/03/2016 17:00:00
@@ -393,83 +974,473 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped show without a title at 23/03/2016 11:15:00
 [  Debug ]    skipped show without a title at 23/03/2016 13:30:00
 [  Debug ]    skipped show without a title at 23/03/2016 22:20:00
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 3
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           104
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        104
+[  Info  ]      new shows added           3
+[  Info  ]      unchanged shows inspected 86
+[  Info  ]      total after update        90
 [  Debug ] 
 [  Info  ] (  36/54  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       MTV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           219
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        219
+[  Info  ]      new shows added           6
+[  Info  ]      unchanged shows inspected 185
+[  Info  ]      total after update        192
 [  Debug ] 
 [  Info  ] (  37/54  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
+[  Info  ]    Summary for update of       VH1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           4
+[  Info  ]      unchanged shows inspected 81
+[  Info  ]      total after update        86
 [  Debug ] 
 [  Info  ] (  38/54  ) BNET.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
-[  Debug ]    skipped 
 [  Info  ] 
 [  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           189
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        189
+[  Info  ]      new shows added           8
+[  Info  ]      unchanged shows inspected 162
+[  Info  ]      total after update        171
 [  Debug ] 
 [  Info  ] (  39/54  ) PORT.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[Error   ] No suitable time structure found to merge the indexpage pages!!
-[Error   ] Unable to update Channel, try again later
-[  Debug ] Unsorted startimes in index page sections:
-[  Debug ] Indexpage section 0
-[  Debug ] 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:05 07:35 08:00 10:00 10:30 11:00 11:05 11:30 12:00 12:05 12:30 13:00 13:05 
-[  Debug ] 14:00 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:20 17:47 18:00 18:35 18:45 19:00 19:15 19:30 
-[  Debug ] 19:45 20:00 20:55 21:00 22:00 22:30 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:05 07:35 08:00 10:00 10:30 11:00 
-[  Debug ] 11:05 11:30 12:00 12:05 12:30 13:00 13:05 14:00 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:20 
-[  Debug ] 17:47 18:00 18:35 18:45 19:00 19:15 19:30 19:45 04:00 04:30 05:00 05:30 06:00 06:30 06:45 07:00 07:30 08:00 08:15 08:30 
-[  Debug ] 09:00 11:00 11:35 12:00 12:05 13:00 13:05 13:35 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 
-[  Debug ] 17:00 17:15 17:30 17:45 18:00 18:33 19:30 19:45 04:00 04:12 04:24 04:36 05:00 05:30 06:00 06:30 07:00 07:15 07:30 08:00 
-[  Debug ] 08:30 09:00 11:00 11:35 12:00 12:05 13:00 13:05 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 
-[  Debug ] Indexpage section 1
-[  Debug ] 00:00 00:30 01:00 01:15 01:30 01:45 02:00 02:30 03:00 20:00 20:55 21:00 21:30 21:45 22:00 22:30 23:00 23:30 00:00 00:30 01:00 
-[  Debug ] 01:15 01:30 01:45 02:00 02:30 03:00 20:15 20:45 21:15 21:45 22:00 22:30 22:45 00:30 01:00 01:30 02:00 03:00 20:15 20:45 
-[  Debug ] 
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  40/54  ) PORT.HR -- chan. (xmltv_id=Fox TV) -- mode Incremental
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 19:30:00 stop = 18/03/2016 20:00:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 18/03/2016 19:30:00 stop = 18/03/2016 23:50:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 20:00:00 stop = 18/03/2016 20:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 18/03/2016 19:30:00 stop = 18/03/2016 23:50:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 20:30:00 stop = 18/03/2016 21:00:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 18/03/2016 19:30:00 stop = 18/03/2016 23:50:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 21:00:00 stop = 18/03/2016 23:40:00 title = Insider
+[  Info  ]       Replaces ----- start = 18/03/2016 19:30:00 stop = 18/03/2016 23:50:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 18/03/2016 23:40:00 stop = 19/03/2016 00:35:00 title = Castle
+[  Info  ]       Replaces ----- start = 18/03/2016 19:30:00 stop = 18/03/2016 23:50:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 18/03/2016 23:50:00 stop = 19/03/2016 00:43:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 00:35:00 stop = 19/03/2016 01:25:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 18/03/2016 23:50:00 stop = 19/03/2016 00:43:00 title = Castle
+[  Info  ]       Replaces ----- start = 19/03/2016 00:43:00 stop = 19/03/2016 01:34:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 01:25:00 stop = 19/03/2016 01:55:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 19/03/2016 00:43:00 stop = 19/03/2016 01:34:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19/03/2016 01:34:00 stop = 19/03/2016 02:00:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 01:55:00 stop = 19/03/2016 02:40:00 title = Sanjiva dolina
+[  Info  ]       Replaces ----- start = 19/03/2016 01:34:00 stop = 19/03/2016 02:00:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 19/03/2016 02:00:00 stop = 19/03/2016 02:45:00 title = Sanjiva dolina
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 02:40:00 stop = 19/03/2016 03:25:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19/03/2016 02:00:00 stop = 19/03/2016 02:45:00 title = Sanjiva dolina
+[  Info  ]       Replaces ----- start = 19/03/2016 02:45:00 stop = 19/03/2016 03:33:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 03:25:00 stop = 19/03/2016 04:10:00 title = Castle
+[  Info  ]       Replaces ----- start = 19/03/2016 02:45:00 stop = 19/03/2016 03:33:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 04:10:00 stop = 19/03/2016 04:55:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 04:55:00 stop = 19/03/2016 05:20:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 05:20:00 stop = 19/03/2016 05:40:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 05:40:00 stop = 19/03/2016 06:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 06:00:00 stop = 19/03/2016 06:45:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 06:45:00 stop = 19/03/2016 07:30:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 07:30:00 stop = 19/03/2016 08:20:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 08:20:00 stop = 19/03/2016 09:10:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 09:10:00 stop = 19/03/2016 09:35:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 09:35:00 stop = 19/03/2016 10:05:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 10:05:00 stop = 19/03/2016 10:30:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 10:30:00 stop = 19/03/2016 10:55:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 10:55:00 stop = 19/03/2016 11:20:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 11:20:00 stop = 19/03/2016 11:50:00 title = Futurama
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 11:50:00 stop = 19/03/2016 12:40:00 title = Narod protiv O. J.-a Simpsona: Američka kriminalistička priča
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 12:40:00 stop = 19/03/2016 13:35:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 13:35:00 stop = 19/03/2016 14:30:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 14:30:00 stop = 19/03/2016 15:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 15:00:00 stop = 19/03/2016 17:40:00 title = Insider
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 17:40:00 stop = 19/03/2016 18:10:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 18:10:00 stop = 19/03/2016 18:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 18:35:00 stop = 19/03/2016 19:05:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 19:05:00 stop = 19/03/2016 19:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 19:35:00 stop = 19/03/2016 22:00:00 title = Odjednom agent
+[  Info  ]       Replaces ----- start = 19/03/2016 03:33:00 stop = 19/03/2016 20:00:00 title = Castle
+[  Info  ]       Replaces ----- start = 19/03/2016 20:00:00 stop = 19/03/2016 20:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 20:30:00 stop = 19/03/2016 21:00:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 19/03/2016 21:00:00 stop = 19/03/2016 23:40:00 title = Insider
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 22:00:00 stop = 19/03/2016 22:55:00 title = Castle
+[  Info  ]       Replaces ----- start = 19/03/2016 21:00:00 stop = 19/03/2016 23:40:00 title = Insider
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 22:55:00 stop = 19/03/2016 23:50:00 title = Živi mrtvaci
+[  Info  ]       Replaces ----- start = 19/03/2016 21:00:00 stop = 19/03/2016 23:40:00 title = Insider
+[  Info  ]       Replaces ----- start = 19/03/2016 23:40:00 stop = 20/03/2016 00:35:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 19/03/2016 23:50:00 stop = 20/03/2016 01:35:00 title = Američki supertalent
+[  Info  ]       Replaces ----- start = 19/03/2016 23:40:00 stop = 20/03/2016 00:35:00 title = Castle
+[  Info  ]       Replaces ----- start = 20/03/2016 00:35:00 stop = 20/03/2016 01:25:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 20/03/2016 01:25:00 stop = 20/03/2016 01:55:00 title = Brickleberry
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 01:35:00 stop = 20/03/2016 02:20:00 title = Američki supertalent
+[  Info  ]       Replaces ----- start = 20/03/2016 01:25:00 stop = 20/03/2016 01:55:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 20/03/2016 01:55:00 stop = 20/03/2016 02:40:00 title = Sanjiva dolina
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 02:20:00 stop = 20/03/2016 03:05:00 title = Tudori
+[  Info  ]       Replaces ----- start = 20/03/2016 01:55:00 stop = 20/03/2016 02:40:00 title = Sanjiva dolina
+[  Info  ]       Replaces ----- start = 20/03/2016 02:40:00 stop = 20/03/2016 03:25:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 03:05:00 stop = 20/03/2016 03:50:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 02:40:00 stop = 20/03/2016 03:25:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 20/03/2016 03:25:00 stop = 20/03/2016 04:10:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 03:50:00 stop = 20/03/2016 04:35:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 03:25:00 stop = 20/03/2016 04:10:00 title = Castle
+[  Info  ]       Replaces ----- start = 20/03/2016 04:10:00 stop = 20/03/2016 04:55:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 04:35:00 stop = 20/03/2016 05:20:00 title = Tudori
+[  Info  ]       Replaces ----- start = 20/03/2016 04:10:00 stop = 20/03/2016 04:55:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 20/03/2016 04:55:00 stop = 20/03/2016 05:20:00 title = Moderna obitelj
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 05:40:00 stop = 20/03/2016 06:00:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 20/03/2016 05:40:00 stop = 20/03/2016 06:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 11:20:00 stop = 20/03/2016 11:50:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 20/03/2016 11:20:00 stop = 20/03/2016 11:50:00 title = Futurama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 11:50:00 stop = 20/03/2016 12:15:00 title = Seks, droga i rock & roll
+[  Info  ]       Replaces ----- start = 20/03/2016 11:50:00 stop = 20/03/2016 12:40:00 title = Narod protiv O. J.-a Simpsona: Američka kriminalistička priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 12:15:00 stop = 20/03/2016 12:40:00 title = Seks, droga i rock & roll
+[  Info  ]       Replaces ----- start = 20/03/2016 11:50:00 stop = 20/03/2016 12:40:00 title = Narod protiv O. J.-a Simpsona: Američka kriminalistička priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 12:40:00 stop = 20/03/2016 13:30:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 12:40:00 stop = 20/03/2016 13:35:00 title = Nečujno
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 13:30:00 stop = 20/03/2016 14:20:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 12:40:00 stop = 20/03/2016 13:35:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 13:35:00 stop = 20/03/2016 14:30:00 title = Nečujno
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 14:20:00 stop = 20/03/2016 14:45:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20/03/2016 13:35:00 stop = 20/03/2016 14:30:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 20/03/2016 14:30:00 stop = 20/03/2016 15:00:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 14:45:00 stop = 20/03/2016 15:15:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20/03/2016 14:30:00 stop = 20/03/2016 15:00:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 20/03/2016 15:00:00 stop = 20/03/2016 17:40:00 title = Insider
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 15:15:00 stop = 20/03/2016 17:35:00 title = Odjednom agent
+[  Info  ]       Replaces ----- start = 20/03/2016 15:00:00 stop = 20/03/2016 17:40:00 title = Insider
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 17:35:00 stop = 20/03/2016 18:05:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 15:00:00 stop = 20/03/2016 17:40:00 title = Insider
+[  Info  ]       Replaces ----- start = 20/03/2016 17:40:00 stop = 20/03/2016 18:10:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 18:05:00 stop = 20/03/2016 18:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 17:40:00 stop = 20/03/2016 18:10:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 18:10:00 stop = 20/03/2016 18:35:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 19:05:00 stop = 20/03/2016 19:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 19:05:00 stop = 20/03/2016 19:35:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 19:30:00 stop = 20/03/2016 21:00:00 title = Moj dečko iz budućnosti
+[  Info  ]       Replaces ----- start = 20/03/2016 19:05:00 stop = 20/03/2016 19:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 19:35:00 stop = 20/03/2016 22:00:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 21:00:00 stop = 20/03/2016 21:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 19:35:00 stop = 20/03/2016 22:00:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 21:30:00 stop = 20/03/2016 22:00:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 20/03/2016 19:35:00 stop = 20/03/2016 22:00:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 22:00:00 stop = 20/03/2016 22:55:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 20/03/2016 22:00:00 stop = 20/03/2016 22:55:00 title = Castle
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 20/03/2016 22:55:00 stop = 20/03/2016 23:50:00 title = Narod protiv O. J.-a Simpsona: Američka kriminalistička priča
+[  Info  ]       Replaces ----- start = 20/03/2016 22:55:00 stop = 20/03/2016 23:50:00 title = Živi mrtvaci
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 06:00:00 stop = 21/03/2016 06:25:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21/03/2016 06:00:00 stop = 21/03/2016 06:45:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 06:25:00 stop = 21/03/2016 07:10:00 title = Sanjiva dolina
+[  Info  ]       Replaces ----- start = 21/03/2016 06:00:00 stop = 21/03/2016 06:45:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 21/03/2016 06:45:00 stop = 21/03/2016 07:30:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 07:10:00 stop = 21/03/2016 08:00:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 21/03/2016 06:45:00 stop = 21/03/2016 07:30:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 21/03/2016 07:30:00 stop = 21/03/2016 08:20:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 08:00:00 stop = 21/03/2016 08:50:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 21/03/2016 07:30:00 stop = 21/03/2016 08:20:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 21/03/2016 08:20:00 stop = 21/03/2016 09:10:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 08:50:00 stop = 21/03/2016 09:10:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21/03/2016 08:20:00 stop = 21/03/2016 09:10:00 title = Laži mi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 09:35:00 stop = 21/03/2016 10:00:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 09:35:00 stop = 21/03/2016 10:05:00 title = Kako sam upoznao vašu majku
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 10:00:00 stop = 21/03/2016 10:50:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 21/03/2016 09:35:00 stop = 21/03/2016 10:05:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 10:05:00 stop = 21/03/2016 10:30:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 10:30:00 stop = 21/03/2016 10:55:00 title = Kako sam upoznao vašu majku
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 10:50:00 stop = 21/03/2016 11:40:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 21/03/2016 10:30:00 stop = 21/03/2016 10:55:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 10:55:00 stop = 21/03/2016 11:20:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 11:20:00 stop = 21/03/2016 11:50:00 title = Šaljivi kućni video
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 11:40:00 stop = 21/03/2016 12:10:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 11:20:00 stop = 21/03/2016 11:50:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 21/03/2016 11:50:00 stop = 21/03/2016 12:15:00 title = Seks, droga i rock & roll
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 12:10:00 stop = 21/03/2016 12:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 11:50:00 stop = 21/03/2016 12:15:00 title = Seks, droga i rock & roll
+[  Info  ]       Replaces ----- start = 21/03/2016 12:15:00 stop = 21/03/2016 12:40:00 title = Seks, droga i rock & roll
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 12:35:00 stop = 21/03/2016 14:05:00 title = Moj dečko iz budućnosti
+[  Info  ]       Replaces ----- start = 21/03/2016 12:15:00 stop = 21/03/2016 12:40:00 title = Seks, droga i rock & roll
+[  Info  ]       Replaces ----- start = 21/03/2016 12:40:00 stop = 21/03/2016 13:30:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 21/03/2016 13:30:00 stop = 21/03/2016 14:20:00 title = Nečujno
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 14:05:00 stop = 21/03/2016 14:35:00 title = Šaljivi kućni video
+[  Info  ]       Replaces ----- start = 21/03/2016 13:30:00 stop = 21/03/2016 14:20:00 title = Nečujno
+[  Info  ]       Replaces ----- start = 21/03/2016 14:20:00 stop = 21/03/2016 14:45:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 14:35:00 stop = 21/03/2016 14:55:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21/03/2016 14:20:00 stop = 21/03/2016 14:45:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21/03/2016 14:45:00 stop = 21/03/2016 15:15:00 title = Simpsoni
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 14:55:00 stop = 21/03/2016 15:20:00 title = Moderna obitelj
+[  Info  ]       Replaces ----- start = 21/03/2016 14:45:00 stop = 21/03/2016 15:15:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21/03/2016 15:15:00 stop = 21/03/2016 17:35:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 15:20:00 stop = 21/03/2016 16:15:00 title = Zločinci u odijelima
+[  Info  ]       Replaces ----- start = 21/03/2016 15:15:00 stop = 21/03/2016 17:35:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 16:15:00 stop = 21/03/2016 17:05:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 21/03/2016 15:15:00 stop = 21/03/2016 17:35:00 title = Odjednom agent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 17:05:00 stop = 21/03/2016 18:00:00 title = Crna lista
+[  Info  ]       Replaces ----- start = 21/03/2016 15:15:00 stop = 21/03/2016 17:35:00 title = Odjednom agent
+[  Info  ]       Replaces ----- start = 21/03/2016 17:35:00 stop = 21/03/2016 18:05:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 18:00:00 stop = 21/03/2016 18:30:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 17:35:00 stop = 21/03/2016 18:05:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 18:05:00 stop = 21/03/2016 18:35:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 18:30:00 stop = 21/03/2016 19:00:00 title = Kako sam upoznao vašu majku
+[  Info  ]       Replaces ----- start = 21/03/2016 18:05:00 stop = 21/03/2016 18:35:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 18:35:00 stop = 21/03/2016 19:05:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 19:00:00 stop = 21/03/2016 19:30:00 title = Simpsoni
+[  Info  ]       Replaces ----- start = 21/03/2016 18:35:00 stop = 21/03/2016 19:05:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 19:05:00 stop = 21/03/2016 19:30:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 19:30:00 stop = 21/03/2016 20:00:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 21/03/2016 19:30:00 stop = 21/03/2016 21:00:00 title = Moj dečko iz budućnosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 20:00:00 stop = 21/03/2016 20:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 19:30:00 stop = 21/03/2016 21:00:00 title = Moj dečko iz budućnosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 20:30:00 stop = 21/03/2016 21:00:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 19:30:00 stop = 21/03/2016 21:00:00 title = Moj dečko iz budućnosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 21:00:00 stop = 21/03/2016 22:00:00 title = Navy CIS L. A.
+[  Info  ]       Replaces ----- start = 21/03/2016 21:00:00 stop = 21/03/2016 21:30:00 title = Kontrola bijesa
+[  Info  ]       Replaces ----- start = 21/03/2016 21:30:00 stop = 21/03/2016 22:00:00 title = Kontrola bijesa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 22:00:00 stop = 21/03/2016 22:55:00 title = Živi mrtvaci
+[  Info  ]       Replaces ----- start = 21/03/2016 22:00:00 stop = 21/03/2016 22:55:00 title = Agenti SHIELD-a
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 22:55:00 stop = 21/03/2016 23:50:00 title = Zločinci u odijelima
+[  Info  ]       Replaces ----- start = 21/03/2016 22:55:00 stop = 21/03/2016 23:50:00 title = Narod protiv O. J.-a Simpsona: Američka kriminalistička priča
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 21/03/2016 23:50:00 stop = 22/03/2016 00:45:00 title = Castle
+[  Info  ]       Replaces ----- start = 21/03/2016 23:50:00 stop = 22/03/2016 01:35:00 title = Američki supertalent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 00:45:00 stop = 22/03/2016 01:35:00 title = Laži mi
+[  Info  ]       Replaces ----- start = 21/03/2016 23:50:00 stop = 22/03/2016 01:35:00 title = Američki supertalent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 01:35:00 stop = 22/03/2016 01:55:00 title = Brickleberry
+[  Info  ]       Replaces ----- start = 22/03/2016 01:35:00 stop = 22/03/2016 02:20:00 title = Američki supertalent
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 01:55:00 stop = 22/03/2016 02:40:00 title = Sanjiva dolina
+[  Info  ]       Replaces ----- start = 22/03/2016 01:35:00 stop = 22/03/2016 02:20:00 title = Američki supertalent
+[  Info  ]       Replaces ----- start = 22/03/2016 02:20:00 stop = 22/03/2016 03:05:00 title = Tudori
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 22/03/2016 02:40:00 stop = 22/03/2016 03:25:00 title = Agenti SHIELD-a
+[  Info  ]       Replaces ----- start = 22/03/2016 02:20:00 stop = 22/03/2016 03:05:00 title = Tudori
+[  Info  ]       Replaces ----- start = 22/03/2016 03:05:00 stop = 22/03/2016 03:50:00 title = Nečujno
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  41/54  ) PROGRAMTV.INTERIA.PL -- chan. (xmltv_id=Eska TV) -- mode Incremental
-[  Debug ]    skipped 
+[  Debug ] coming 'Day-Light-Saving-Time' change!
+[  Debug ] time-offset change for all shows after stoptime 20160327030000 +0200
+[  Debug ] starting with show : Hity na czasie at local time 27/03/2016 03:00
+[  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  42/54  ) BNET.HR -- chan. (xmltv_id=RTS 1) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           250
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 250
 [  Info  ]      total after update        250
 [  Debug ] 
 [  Info  ] (  43/54  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode Incremental
 [  Debug ]    skipped show without a title at 23/03/2016 07:05:00
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           176
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 176
 [  Info  ]      total after update        176
 [  Debug ] 
 [  Info  ] (  44/54  ) MOJTV.HR -- chan. (xmltv_id=AMC) -- mode Incremental
@@ -490,6 +1461,18 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped 
 [  Debug ]    skipped 
 [  Debug ]    skipped 
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 04:00:00 stop = 18/03/2016 04:20:00 title = Big Screen 2016 (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 04:00:00 stop = 18/03/2016 04:20:00 title = Big Screen 2016 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 04:15:00 stop = 20/03/2016 04:30:00 title = Big Screen 2016 (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 04:15:00 stop = 20/03/2016 04:30:00 title = Big Screen 2016 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 05:45:00 stop = 21/03/2016 06:00:00 title = Big Screen 2016 (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 05:45:00 stop = 21/03/2016 06:00:00 title = Big Screen 2016 (?)
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -516,6 +1499,146 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped 
 [  Debug ]    skipped 
 [  Debug ]    skipped 
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 02:55:00 stop = 18/03/2016 03:50:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 02:55:00 stop = 18/03/2016 03:50:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 09:30:00 stop = 18/03/2016 12:30:00 title = Crtani filmovi (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 09:30:00 stop = 18/03/2016 12:30:00 title = Crtani filmovi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 12:30:00 stop = 18/03/2016 13:55:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 12:30:00 stop = 18/03/2016 13:55:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 15:00:00 stop = 18/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 15:00:00 stop = 18/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 16:00:00 stop = 18/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 16:00:00 stop = 18/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 16:35:00 stop = 18/03/2016 17:05:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 16:35:00 stop = 18/03/2016 17:05:00 title = Sportski pregled (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 18:00:00 stop = 18/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 18:00:00 stop = 18/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 20:00:00 stop = 18/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 20:00:00 stop = 18/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 08:00:00 stop = 19/03/2016 10:00:00 title = Dobra zemlja (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 08:00:00 stop = 19/03/2016 10:00:00 title = Dobra zemlja (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 10:15:00 stop = 19/03/2016 11:25:00 title = Crtani filmovi (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 10:15:00 stop = 19/03/2016 11:25:00 title = Crtani filmovi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 16:00:00 stop = 19/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 16:00:00 stop = 19/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 16:35:00 stop = 19/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 16:35:00 stop = 19/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 20:00:00 stop = 19/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 20:00:00 stop = 19/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 23:00:00 stop = 20/03/2016 00:00:00 title = Vice na B92 (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 23:00:00 stop = 20/03/2016 00:00:00 title = Vice na B92 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 03:55:00 stop = 20/03/2016 04:30:00 title = Vice na B92 (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 03:55:00 stop = 20/03/2016 04:30:00 title = Vice na B92 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 09:30:00 stop = 20/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 09:30:00 stop = 20/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 15:00:00 stop = 20/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 15:00:00 stop = 20/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 16:00:00 stop = 20/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 16:00:00 stop = 20/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 16:35:00 stop = 20/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 16:35:00 stop = 20/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 18:00:00 stop = 20/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 18:00:00 stop = 20/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 20:00:00 stop = 20/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 20:00:00 stop = 20/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 23:15:00 stop = 21/03/2016 00:15:00 title = 24 minuta sa Zoranom Kesićem (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 23:15:00 stop = 21/03/2016 00:15:00 title = 24 minuta sa Zoranom Kesićem (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 09:30:00 stop = 21/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 09:30:00 stop = 21/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 15:00:00 stop = 21/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 15:00:00 stop = 21/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 16:00:00 stop = 21/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 16:00:00 stop = 21/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 16:35:00 stop = 21/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 16:35:00 stop = 21/03/2016 17:00:00 title = Sportski pregled (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 18:00:00 stop = 21/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 18:00:00 stop = 21/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 20:00:00 stop = 21/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 20:00:00 stop = 21/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 09:30:00 stop = 22/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 09:30:00 stop = 22/03/2016 12:50:00 title = Crtani filmovi (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 15:00:00 stop = 22/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 15:00:00 stop = 22/03/2016 16:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 16:00:00 stop = 22/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 16:00:00 stop = 22/03/2016 16:35:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 16:35:00 stop = 22/03/2016 17:05:00 title = Sportski pregled (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 16:35:00 stop = 22/03/2016 17:05:00 title = Sportski pregled (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 18:00:00 stop = 22/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 18:00:00 stop = 22/03/2016 19:00:00 title = Galileo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 20:00:00 stop = 22/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 20:00:00 stop = 22/03/2016 21:00:00 title = Vesti (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 23/03/2016 03:25:00 stop = 23/03/2016 04:15:00 title = Vesti (?)
+[  Info  ]       Replaces ----- start = 23/03/2016 03:25:00 stop = 23/03/2016 04:15:00 title = Vesti (?)
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -550,6 +1673,242 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped 
 [  Debug ]    skipped 
 [  Debug ]    skipped 
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 06:00:00 stop = 18/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 06:00:00 stop = 18/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 07:00:00 stop = 18/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 07:00:00 stop = 18/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 10:45:00 stop = 18/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 10:45:00 stop = 18/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 11:00:00 stop = 18/03/2016 13:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 11:00:00 stop = 18/03/2016 13:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 13:00:00 stop = 18/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 13:00:00 stop = 18/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 13:20:00 stop = 18/03/2016 15:45:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 13:20:00 stop = 18/03/2016 15:45:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 15:45:00 stop = 18/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 15:45:00 stop = 18/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 16:00:00 stop = 18/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 16:00:00 stop = 18/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 17:00:00 stop = 18/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 17:00:00 stop = 18/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 18:30:00 stop = 18/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 18:30:00 stop = 18/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 21:15:00 stop = 18/03/2016 23:30:00 title = PINKOVE ZVEZDICE (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 21:15:00 stop = 18/03/2016 23:30:00 title = PINKOVE ZVEZDICE (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 18/03/2016 23:30:00 stop = 19/03/2016 06:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]       Replaces ----- start = 18/03/2016 23:30:00 stop = 19/03/2016 06:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 06:00:00 stop = 19/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 06:00:00 stop = 19/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 07:00:00 stop = 19/03/2016 11:00:00 title = DOBRO JUTRO (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 07:00:00 stop = 19/03/2016 11:00:00 title = DOBRO JUTRO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 11:00:00 stop = 19/03/2016 13:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 11:00:00 stop = 19/03/2016 13:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 13:00:00 stop = 19/03/2016 15:30:00 title = PINKOVE ZVEZDE (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 13:00:00 stop = 19/03/2016 15:30:00 title = PINKOVE ZVEZDE (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 15:30:00 stop = 19/03/2016 16:30:00 title = JA TO TAKO (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 15:30:00 stop = 19/03/2016 16:30:00 title = JA TO TAKO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 16:30:00 stop = 19/03/2016 18:30:00 title = NEDELJNO POPODNE LEE KIŠ (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 16:30:00 stop = 19/03/2016 18:30:00 title = NEDELJNO POPODNE LEE KIŠ (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 18:30:00 stop = 19/03/2016 19:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 18:30:00 stop = 19/03/2016 19:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 19/03/2016 22:00:00 stop = 20/03/2016 00:00:00 title = AUDICIJA (?)
+[  Info  ]       Replaces ----- start = 19/03/2016 22:00:00 stop = 20/03/2016 00:00:00 title = AUDICIJA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 00:00:00 stop = 20/03/2016 06:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 00:00:00 stop = 20/03/2016 06:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 06:00:00 stop = 20/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 06:00:00 stop = 20/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 07:00:00 stop = 20/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 07:00:00 stop = 20/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 10:45:00 stop = 20/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 10:45:00 stop = 20/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 11:00:00 stop = 20/03/2016 13:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 11:00:00 stop = 20/03/2016 13:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 13:00:00 stop = 20/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 13:00:00 stop = 20/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 13:20:00 stop = 20/03/2016 16:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 13:20:00 stop = 20/03/2016 16:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 16:00:00 stop = 20/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 16:00:00 stop = 20/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 17:00:00 stop = 20/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 17:00:00 stop = 20/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 18:30:00 stop = 20/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 18:30:00 stop = 20/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 20/03/2016 21:00:00 stop = 21/03/2016 00:00:00 title = FARMA – IZBACIVANJE (?)
+[  Info  ]       Replaces ----- start = 20/03/2016 21:00:00 stop = 21/03/2016 00:00:00 title = FARMA – IZBACIVANJE (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 00:00:00 stop = 21/03/2016 06:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 00:00:00 stop = 21/03/2016 06:00:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 06:00:00 stop = 21/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 06:00:00 stop = 21/03/2016 07:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 07:00:00 stop = 21/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 07:00:00 stop = 21/03/2016 10:45:00 title = DOBRO JUTRO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 10:45:00 stop = 21/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 10:45:00 stop = 21/03/2016 11:00:00 title = PREMIJERA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 11:00:00 stop = 21/03/2016 13:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 11:00:00 stop = 21/03/2016 13:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 13:00:00 stop = 21/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 13:00:00 stop = 21/03/2016 13:20:00 title = PRVI NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 13:20:00 stop = 21/03/2016 15:45:00 title = FARMA - UŽIVO (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 13:20:00 stop = 21/03/2016 15:45:00 title = FARMA - UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 15:45:00 stop = 21/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 15:45:00 stop = 21/03/2016 16:00:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 16:00:00 stop = 21/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 16:00:00 stop = 21/03/2016 17:00:00 title = FARMA – PREGLED DANA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 17:00:00 stop = 21/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 17:00:00 stop = 21/03/2016 18:30:00 title = BAHAR (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 18:30:00 stop = 21/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 18:30:00 stop = 21/03/2016 19:10:00 title = NACIONALNI DNEVNIK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 21/03/2016 21:00:00 stop = 21/03/2016 21:15:00 title = FARMA – IZBOR SLUGA (?)
+[  Info  ]       Replaces ----- start = 21/03/2016 21:00:00 stop = 21/03/2016 21:15:00 title = FARMA – IZBOR SLUGA (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 00:00:00 stop = 22/03/2016 04:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 00:00:00 stop = 22/03/2016 04:00:00 title = FARMA – UŽIVO (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 06:00:00 stop = 22/03/2016 07:00:00 title = Nacionalni dnevnik (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 06:00:00 stop = 22/03/2016 07:00:00 title = Nacionalni dnevnik (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 07:00:00 stop = 22/03/2016 11:02:00 title = Dobro jutro (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 07:00:00 stop = 22/03/2016 11:02:00 title = Dobro jutro (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 11:02:00 stop = 22/03/2016 11:13:00 title = Premijera (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 11:02:00 stop = 22/03/2016 11:13:00 title = Premijera (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 11:13:00 stop = 22/03/2016 13:00:00 title = Farma Uživo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 11:13:00 stop = 22/03/2016 13:00:00 title = Farma Uživo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 13:00:00 stop = 22/03/2016 13:20:00 title = Prvi Nacionalni dnevnik (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 13:00:00 stop = 22/03/2016 13:20:00 title = Prvi Nacionalni dnevnik (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 13:20:00 stop = 22/03/2016 15:30:00 title = Farma Uživo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 13:20:00 stop = 22/03/2016 15:30:00 title = Farma Uživo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 15:30:00 stop = 22/03/2016 16:00:00 title = Nacionalni dnevnik u 16 (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 15:30:00 stop = 22/03/2016 16:00:00 title = Nacionalni dnevnik u 16 (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 16:00:00 stop = 22/03/2016 17:00:00 title = Farma Uživo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 16:00:00 stop = 22/03/2016 17:00:00 title = Farma Uživo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 17:00:00 stop = 22/03/2016 18:29:00 title = Bahar (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 17:00:00 stop = 22/03/2016 18:29:00 title = Bahar (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 21:00:00 stop = 22/03/2016 22:00:00 title = Paparazzo lov (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 21:00:00 stop = 22/03/2016 22:00:00 title = Paparazzo lov (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 22:00:00 stop = 22/03/2016 23:00:00 title = DNK (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 22:00:00 stop = 22/03/2016 23:00:00 title = DNK (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 22/03/2016 23:00:00 stop = 23/03/2016 02:34:00 title = Farma Uživo (?)
+[  Info  ]       Replaces ----- start = 22/03/2016 23:00:00 stop = 23/03/2016 02:34:00 title = Farma Uživo (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 23/03/2016 02:34:00 stop = 23/03/2016 03:06:00 title = Crna hronika (?)
+[  Info  ]       Replaces ----- start = 23/03/2016 02:34:00 stop = 23/03/2016 03:06:00 title = Crna hronika (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 23/03/2016 03:36:00 stop = 23/03/2016 03:46:00 title = Premijera (?)
+[  Info  ]       Replaces ----- start = 23/03/2016 03:36:00 stop = 23/03/2016 03:46:00 title = Premijera (?)
+[  Info  ]    forced update : 
+[  Info  ]  show REPLACED (forced update / overlap or timeorder error in EPG
+[  Info  ]       show with ---- start = 23/03/2016 03:46:00 stop = 23/03/2016 05:14:00 title = Ljubavne munje (?)
+[  Info  ]       Replaces ----- start = 23/03/2016 03:46:00 stop = 23/03/2016 05:14:00 title = Ljubavne munje (?)
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -587,10 +1946,10 @@ Rev. 07:[14/11/2013] - Francis De Paemeleere
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 10065 shows in 54 channels
-[  Debug ] 0 updated shows
-[  Debug ] 10046 new shows added
+[  Debug ] 9361 shows in 54 channels
+[  Debug ] 463 updated shows
+[  Debug ] 517 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 18/03/2016 00:08:36 done in 17m 27s
+[        ] Job finished at 18/03/2016 01:02:33 done in 8m 30s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
