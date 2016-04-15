@@ -32,5 +32,31 @@ namespace libEPG_xml2josn
                s += star;
            return s;
        }
+       public static List<double> GetNumberFromString(string str)
+       {
+           System.Text.RegularExpressions.MatchCollection matches = System.Text.RegularExpressions.Regex.Matches(str, @".*?([-]{0,1} *(\d+.\d+)|\d+)");
+
+           List<double> nums = new List<double>();
+
+           foreach (System.Text.RegularExpressions.Match match in matches)
+           {
+
+               string value = match.Groups[1].Value;
+
+               value = value.Replace(" ", "");
+
+               double num1 = -1;
+               double.TryParse(value, out num1);
+               if (num1 == 0)
+               {
+                   System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Number | System.Globalization.NumberStyles.AllowCurrencySymbol;
+                   System.Globalization.CultureInfo culture = System.Globalization.CultureInfo.CreateSpecificCulture("en-GB");
+                   double.TryParse(value, style, culture, out num1);
+               }
+               nums.Add(num1);
+
+           }
+           return nums;
+       }
     }
 }
