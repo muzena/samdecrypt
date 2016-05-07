@@ -2,7 +2,7 @@
 # Script for EPG grab from WebGrab+Plus  http://www.webgrabplus.com/documentation
 set -x
 
-samdec="$HOME/Snimke/samdecrypt"
+samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
 
 function fixchannelnames_main()
 {
@@ -998,17 +998,17 @@ EOF
 
 
 #######  Generate json config files
-update_Main_grabber
+#update_Main_grabber
 wait $!
 #update_Bnet_grabber
 wait $!
-update_Mojtv_grabber
+#update_Mojtv_grabber
 wait $!
-update_Port_grabber
+#update_Port_grabber
 wait $!
-#update_mtvprofil_grabber
+update_mtvprofil_grabber
 wait $!
 
 ##### Upload to git
-upload_togit
+#upload_togit
 wait $!
