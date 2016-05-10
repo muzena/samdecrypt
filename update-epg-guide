@@ -998,7 +998,7 @@ EOF
 
 
 #######  Generate json config files
-#update_Main_grabber
+update_Main_grabber
 wait $!
 #update_Bnet_grabber
 wait $!
@@ -1006,9 +1006,9 @@ wait $!
 wait $!
 #update_Port_grabber
 wait $!
-update_mtvprofil_grabber
+#update_mtvprofil_grabber
 wait $!
 
 ##### Upload to git
-#upload_togit
+upload_togit
 wait $!
