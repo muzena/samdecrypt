@@ -1,10 +1,23 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten" site="tvprofil.net">
-  <channels>
-    <channel update="i" site="tvprofil.net" site_id="cinestar-action-thriller.hr" xmltv_id="HTV1">Cinestar A&amp;T</channel>
+<!--?xml version="1.0"?-->
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/node/30 -->
+   
+  <filename>../guide-tvprofil.xml</filename>
+  <mode>n</mode>
+  <postprocess run="n" grab="y">mdb</postprocess>
+  <logging>on</logging>
+  <retry time-out="7">4</retry>
+  <timespan>14</timespan>
+  <update>i</update>
+
     <channel update="i" site="tvprofil.net" site_id="htv1.hr" xmltv_id="HTV1">HTV1</channel>
     <channel update="i" site="tvprofil.net" site_id="htv2.hr" xmltv_id="HTV2">HTV2</channel>
-    <channel update="i" site="tvprofil.net" site_id="rtl.hr" xmltv_id="RTL">RTL</channel>
+    <channel update="i" site="tvprofil.net" site_id="cinestar-tv.movie" xmltv_id="CineStar TV">CineStar TV</channel>
+    <channel update="i" site="tvprofil.net" site_id="cinestar-action-thriller.movie" xmltv_id="CineStar A&amp;T">CineStar A&amp;T</channel>
+    <channel update="i" site="tvprofil.net" site_id="cinestar-action-thriller-rs.movie" xmltv_id="CineStar A&amp;T.rs">CineStar A&amp;T.rs</channel>
+    <channel update="i" site="tvprofil.net" site_id="klasiktv.movie" xmltv_id="KlasikTV">KlasikTV</channel>
+    <!--<channel update="i" site="tvprofil.net" site_id="rtl.hr" xmltv_id="RTL">RTL</channel>
     <channel update="i" site="tvprofil.net" site_id="nova.hr" xmltv_id="NOVA TV">NOVA TV</channel>
     <channel update="i" site="tvprofil.net" site_id="htv3.hr" xmltv_id="HTV3">HTV3</channel>
     <channel update="i" site="tvprofil.net" site_id="htv4.hr" xmltv_id="HTV4">HTV4</channel>
@@ -44,6 +57,5 @@
     <channel update="i" site="tvprofil.net" site_id="al-jazeera-balkans.info" xmltv_id="Al Jazeera Balkans">Al Jazeera Balkans</channel>
     <channel update="i" site="tvprofil.net" site_id="cnn.info" xmltv_id="CNN">CNN</channel>
     <channel update="i" site="tvprofil.net" site_id="rtl.de.de" xmltv_id="RTL.de">RTL.de</channel>
-    <channel update="i" site="tvprofil.net" site_id="rai-1.it" xmltv_id="RAI 1">RAI 1</channel>
-  </channels>
-</site>
+    <channel update="i" site="tvprofil.net" site_id="rai-1.it" xmltv_id="RAI 1">RAI 1</channel> -->
+</settings>

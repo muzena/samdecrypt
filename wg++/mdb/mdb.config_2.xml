@@ -44,7 +44,7 @@ examples :
   <!--xmltv file : The xmltv target file in which the mdb data will be merged with the grabbed EPG.
 Because of the incremental nature of the grabbing process this file must be different (name and/or path) from the target file of the grabbing as specified in WebGrab++.Config.xml <filename> !! 
 If omitted here or if by mistake the same file is specified , the file path will be changed to  C:\ProgramData\ServerCare\WebGrab\mdb\ -->
-  <filename>/home/goran/Snimke/grabber/samdecrypt/main.xml</filename>
+  <filename>/home/goran/Snimke/grabber/samdecrypt/guide-main-test.xml</filename>
   
   <!--local MDB data file
 The file that stores the mdb data locally with the intention to re-use already grabbed data which will speed up the grabbing of the mdb data.

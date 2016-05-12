@@ -760,6 +760,34 @@ EOF
 }
 
 
+function fixchannelnames_tvprofil()
+{
+# CineStar TV
+#sed -e 's/"NOVA TV">/"NOVA">/g' guide-mtvprofil.xml > guide-mtvprofil-test.xml
+sed -e 's/"CineStar A&amp;T">/"CineA">/g' guide-tvprofil.xml > guide-tvprofil-test.xml
+sed -i 's/>CineStar A&amp;T</>CineA</g' guide-tvprofil-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar TV">/"Cines">/g' guide-tvprofil-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-tvprofil-test.xml
+# HRT 1
+sed -i 's/"HTV1">/"HRT 1">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV1</>HRT 1</g' guide-tvprofil-test.xml
+# HRT 2
+sed -i 's/"HTV2">/"HRT 2">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV2</>HRT 2</g' guide-tvprofil-test.xml
+# HRT 3
+sed -i 's/"HTV3">/"HRT 3">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV3</>HRT 3</g' guide-tvprofil-test.xml
+# HRT 4
+sed -i 's/"HTV4">/"HRT 4">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV4</>HRT 4</g' guide-tvprofil-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-tvprofil-test.xml
+# Remove unnecessary (?) from title names
+#sed -i 's/ (?)//g' guide-mtvprofil-test.xml
+ <<EOF
+EOF
+}
 
 
 
@@ -970,6 +998,50 @@ EOF
 }
 
 
+
+###   WARNING SEEE ONLY AVIABLE CHANNELS   http://tvprofil.net/xmltv/
+function update_tvprofil_grabber()
+{
+rm ./pharser/libEPG-tvprofil.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from mtvprofil
+cp ./wg++/WebGrab++.config-tvprofil.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names mtvprofil
+fixchannelnames_tvprofil
+wait $!
+#### Generate mtvprofil config file
+cp guide-tvprofil-test.xml ./pharser/guide-tvprofil.xml
+cd pharser
+# generate mtvprofil config file
+##### mtvprofil pharser
+python pharser-tvprofil.py
+wait $!
+rm guide-tvprofil.xml
+cd ..
+wait $!
+#### Generate mtvprofil config file with libEPG_xml2josn
+cp guide-tvprofil-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-tvprofil.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-tvprofil.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-tvprofil-test.xml <<EOF
+EOF
+}
+
+
+
+
 function git_clone()
 {
 git clone https://github.com/muzena/samdecrypt.git
@@ -1008,7 +1080,9 @@ wait $!
 wait $!
 #update_mtvprofil_grabber
 wait $!
+#update_tvprofil_grabber
+wait $!
 
 ##### Upload to git
-upload_togit
+#upload_togit
 wait $!
