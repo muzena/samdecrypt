@@ -2,6 +2,8 @@
 # Script for EPG grab from WebGrab+Plus  http://www.webgrabplus.com/documentation
 set -x
 
+#for i in `grep -rl 2.4.6 . 2> /dev/null`; do sed -i 's/2.4.6/2.4.6.1/' $i; done
+
 samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
 
 function fixchannelnames_main()
