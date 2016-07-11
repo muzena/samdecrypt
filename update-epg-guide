@@ -24,7 +24,7 @@ sed -i 's/>HTV 3</>HRT 3</g' guide-main-test.xml
 sed -i 's/"HTV 4">/"HRT 4">/g' guide-main-test.xml
 sed -i 's/>HTV 4</>HRT 4</g' guide-main-test.xml
 # RTL TELEVIZIJA
-sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-main-test.xml
+sed -i 's/"RTL TELEVIZIJA">/"RTL TV">/g' guide-main-test.xml
 sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-main-test.xml
 # Doma TV
 sed -i 's/"Doma TV">/"Doma">/g' guide-main-test.xml
@@ -56,6 +56,9 @@ sed -i 's/>FOX LIFE</>FoxLi</g' guide-main-test.xml
 # Universal Channel
 sed -i 's/"UNIVERSAL CHANNEL">/"Unive">/g' guide-main-test.xml
 sed -i 's/>UNIVERSAL CHANNEL</>Unive</g' guide-main-test.xml
+# Comedy Central Extra
+sed -i 's/"Comedy Central Extra">/"CExtr">/g' guide-main-test.xml
+sed -i 's/>Comedy Central Extra</>CExtr</g' guide-main-test.xml
 # Discovery Channel
 sed -i 's/"DISCOVERY CHANNEL">/"Disco">/g' guide-main-test.xml
 sed -i 's/>DISCOVERY CHANNEL</>Disco</g' guide-main-test.xml
