@@ -69,6 +69,7 @@ namespace libEPG_xml2josn
                 long num = 0L;
                 bool bconfig = false;
                 bool bzip = false;
+                Dictionary<string, string> CatGroupDic = new Dictionary<string, string>();
                 try
                 {
                     StreamReader streamReader = new StreamReader(thisDir + sl + "config.ini");
@@ -104,12 +105,35 @@ namespace libEPG_xml2josn
                     if (str_libEPG_temp != string.Empty)
                         path_libEPG = str_libEPG_temp;
 
-                    regex = new Regex("message:(?<ans>(\\S)+)");
+                    regex = new Regex("zip:(?<ans>(\\S)+)");
                     match = regex.Match(input);
 
                     bool.TryParse(match.Groups["ans"].Value, out bzip);
 
                     bconfig = true;
+
+                   
+                    int CatID = 0;
+                    while (true)
+                    {
+                        regex = new Regex("categories group " + CatID++.ToString() + ":\"(?<cGroup>([^\"])+)", RegexOptions.IgnoreCase);
+                        match = regex.Match(input);
+                        if (match.Groups["cGroup"].Length < 1)
+                            break;
+                        string[] catGroups = match.Groups["cGroup"].Value.Split(new char[] { ';' });
+                        if (catGroups.Length > 1)
+                        {
+                            for (int i = 1; i < catGroups.Length; i++)
+                            {
+                                if (!CatGroupDic.ContainsKey(catGroups[i]))
+                                {
+                                    CatGroupDic.Add(catGroups[i], catGroups[0]);
+                                }
+                            }
+
+                        }
+                    }
+
                 }
                 catch (Exception exc)
                 {
@@ -149,6 +173,7 @@ namespace libEPG_xml2josn
                     string subtitle = string.Empty;
                     string text10 = string.Empty;
                     string text11 = string.Empty;
+                    string country = string.Empty;
                     string category = string.Empty;
                     string text13 = string.Empty;
                     string text14 = string.Empty;
@@ -223,6 +248,15 @@ namespace libEPG_xml2josn
                                     else
                                     {
                                         category = xmlNode3.InnerText + ",";
+                                        foreach (KeyValuePair<string, string> entry in CatGroupDic)
+                                        {
+                                            if (entry.Key.ToLower() == xmlNode3.InnerText.ToLower())
+                                            {
+                                                category = entry.Value + ",";
+                                                break;
+                                            }
+                                        }
+                                        
                                     }
                                     break;
                                 case "episode-num":
@@ -235,6 +269,12 @@ namespace libEPG_xml2josn
                                     if (text11 == string.Empty)
                                     {
                                         text11 = xmlNode3.InnerText;
+                                    }
+                                    break;
+                                case "country":
+                                    if (country == string.Empty)
+                                    {
+                                        country = xmlNode3.InnerText;
                                     }
                                     break;
                                 case "rating":
@@ -326,6 +366,10 @@ namespace libEPG_xml2josn
                                 text16 = text16.Substring(0, text16.Length - 1);
                             }
                             text16 += " | ";
+                        }
+                        if (country != string.Empty)
+                        {
+                            text16 = text16 + country + " | ";
                         }
                         if (text11 != string.Empty)
                         {
@@ -456,6 +500,7 @@ namespace libEPG_xml2josn
                         text8 = string.Empty;
                         subtitle = string.Empty;
                         text11 = string.Empty;
+                        country = string.Empty;
                         category = string.Empty;
                         text3 = string.Empty;
                         text4 = string.Empty;

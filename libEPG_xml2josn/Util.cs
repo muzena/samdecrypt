@@ -34,6 +34,7 @@ namespace libEPG_xml2josn
        }
        public static List<double> GetNumberFromString(string str)
        {
+           str = str.Replace("/", "per");
            System.Text.RegularExpressions.MatchCollection matches = System.Text.RegularExpressions.Regex.Matches(str, @".*?([-]{0,1} *(\d+.\d+)|\d+)");
 
            List<double> nums = new List<double>();
