@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Text.RegularExpressions;
+
 namespace libEPG_xml2josn
 {
     static class Util
@@ -59,5 +61,61 @@ namespace libEPG_xml2josn
            }
            return nums;
        }
+
+       public static Dictionary<string, string> GetParamDictionary(string input, string sPattern)
+       {
+           Dictionary<string, string> Dic = new Dictionary<string, string>();
+           int CatID = 0;
+           while (true)
+           {
+               Regex regex = new Regex(sPattern + CatID++.ToString() + ":\"(?<cGroup>([^\"])+)", RegexOptions.IgnoreCase);
+               Match match = regex.Match(input);
+               if (match.Groups["cGroup"].Length < 1)
+                   break;
+               string[] catGroups = match.Groups["cGroup"].Value.Split(new char[] { ';' });
+               if (catGroups.Length > 1)
+               {
+                   for (int i = 1; i < catGroups.Length; i++)
+                   {
+                       if (!Dic.ContainsKey(catGroups[i]))
+                       {
+                           Dic.Add(catGroups[i], catGroups[0]);
+                       }
+                   }
+
+               }
+           }
+           return Dic;
+       }
+
+       public class Offset
+       {
+           public TimeSpan Value { get; private set; }
+           public bool Plus { get; private set; }
+
+           public Offset(string input)
+           {
+               this.CreateOffsetFromString(input);
+           }
+           private void CreateOffsetFromString(string input)
+           {
+               try
+               {
+                   this.Plus = true;
+                   if (input.Substring(0, 1) == "-")
+                       this.Plus = false;
+                   int timeZone_Offset_hour = int.Parse(input.Substring(1, 2));
+                   int timeZone_Offset_minute = int.Parse(input.Substring(3, 2));
+                   this.Value = new TimeSpan(timeZone_Offset_hour, timeZone_Offset_minute, 0);
+               }
+               catch (Exception ex)
+               {
+                   Console.WriteLine("Error CreateOffsetFromString: " + ex.Message + "\n" + ex.GetType());
+               }
+
+
+           }
+       }
+
     }
 }

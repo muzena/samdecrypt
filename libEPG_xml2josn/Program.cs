@@ -70,6 +70,10 @@ namespace libEPG_xml2josn
                 bool bconfig = false;
                 bool bzip = false;
                 Dictionary<string, string> CatGroupDic = new Dictionary<string, string>();
+                Dictionary<string, string> TitleShortDic = new Dictionary<string, string>();
+                Dictionary<string, string> CatCreatorViaTitle = new Dictionary<string, string>();
+                Dictionary<string, string> CatCreatorViaDescription = new Dictionary<string, string>();
+                Dictionary<string, string> DiffOffSetForCH = new Dictionary<string, string>();
                 try
                 {
                     StreamReader streamReader = new StreamReader(thisDir + sl + "config.ini");
@@ -112,28 +116,12 @@ namespace libEPG_xml2josn
 
                     bconfig = true;
 
-                   
-                    int CatID = 0;
-                    while (true)
-                    {
-                        regex = new Regex("categories group " + CatID++.ToString() + ":\"(?<cGroup>([^\"])+)", RegexOptions.IgnoreCase);
-                        match = regex.Match(input);
-                        if (match.Groups["cGroup"].Length < 1)
-                            break;
-                        string[] catGroups = match.Groups["cGroup"].Value.Split(new char[] { ';' });
-                        if (catGroups.Length > 1)
-                        {
-                            for (int i = 1; i < catGroups.Length; i++)
-                            {
-                                if (!CatGroupDic.ContainsKey(catGroups[i]))
-                                {
-                                    CatGroupDic.Add(catGroups[i], catGroups[0]);
-                                }
-                            }
-
-                        }
-                    }
-
+                    CatGroupDic = Util.GetParamDictionary(input, "categories group ");
+                    TitleShortDic = Util.GetParamDictionary(input, "title short ");
+                    CatCreatorViaTitle = Util.GetParamDictionary(input, "user categorie via title ");
+                    CatCreatorViaDescription = Util.GetParamDictionary(input, "user categorie via description ");
+                    DiffOffSetForCH = Util.GetParamDictionary(input, "difference of offset for channels ");
+                    
                 }
                 catch (Exception exc)
                 {
@@ -167,7 +155,7 @@ namespace libEPG_xml2josn
                     string text3 = string.Empty;
                     string text4 = string.Empty;
                     string text5 = string.Empty;
-                    string text6 = string.Empty;
+                    string description = string.Empty;
                     string title = string.Empty;
                     string text8 = string.Empty;
                     string subtitle = string.Empty;
@@ -178,6 +166,7 @@ namespace libEPG_xml2josn
                     string text13 = string.Empty;
                     string text14 = string.Empty;
                     string actors = string.Empty;
+                    
                     List<Channel> list = new List<Channel>();
                     Channel channel = new Channel(null);
                     streamWriter.WriteLine("{");
@@ -212,7 +201,14 @@ namespace libEPG_xml2josn
                             text = text2;
                             channel = new Channel(text);
                         }
+                        Util.Offset offsetFromConfig = null;
+                        string diffOffset = null;
+                        DiffOffSetForCH.TryGetValue(channel.Name, out diffOffset);
+                        if (diffOffset != null)
+                            offsetFromConfig = new Util.Offset(diffOffset);
+
                         text3 = xmlNode2.Attributes["start"].Value;
+
                         foreach (XmlNode xmlNode3 in xmlNode2.ChildNodes)
                         {
                             string name = xmlNode3.Name;
@@ -222,6 +218,24 @@ namespace libEPG_xml2josn
                                     if (title == string.Empty)
                                     {
                                         title = xmlNode3.InnerText;
+                                        foreach (KeyValuePair<string, string> entry in CatCreatorViaTitle)
+                                        {
+                                            if (Regex.IsMatch(title, entry.Key.ToLower(), RegexOptions.IgnoreCase))
+                                            {
+                                                category = entry.Value + ",";
+                                                break;
+                                            }
+                                        }
+                                        foreach (KeyValuePair<string, string> entry in TitleShortDic)
+                                        {
+                                            if (Regex.IsMatch(title, entry.Key.ToLower(), RegexOptions.IgnoreCase))
+                                            {
+                                                title = Regex.Replace(title, entry.Key.ToLower(),entry.Value, RegexOptions.IgnoreCase);
+                                                break;
+                                            }
+                                        }
+
+
                                     }
                                     else if (text8 == string.Empty)
                                     {
@@ -235,9 +249,17 @@ namespace libEPG_xml2josn
                                     }
                                     break;
                                 case "desc":
-                                    if (text6 == string.Empty)
+                                    if (description == string.Empty)
                                     {
-                                        text6 = xmlNode3.InnerText;
+                                        description = xmlNode3.InnerText;
+                                        foreach (KeyValuePair<string, string> entry in CatCreatorViaDescription)
+                                        {
+                                            if (Regex.IsMatch(description, entry.Key.ToLower(), RegexOptions.IgnoreCase))
+                                            {
+                                                category = entry.Value + ",";
+                                                break;
+                                            }
+                                        }
                                     }
                                     break;
                                 case "category":
@@ -344,10 +366,14 @@ namespace libEPG_xml2josn
                             }
                         }
                         string s = text3.Substring(0, 14);
-                        //string text15 = text3.Substring(15, 1);
-                        int input2 = int.Parse(text3.Substring(16, 2));
-                        int input3 = int.Parse(text3.Substring(18, 2));
-                        text6 = text6.TrimEnd(new char[]
+                        //string timeZone_Offset = text3.Substring(15, 1);
+                        //int timeZone_Offset_hour = int.Parse(text3.Substring(16, 2));
+                        //int timeZone_Offset_minute = int.Parse(text3.Substring(18, 2));
+                        //TimeSpan offsetFromGuide = new TimeSpan(timeZone_Offset_hour, timeZone_Offset_minute, 0);
+                        
+                        Util.Offset offsetFromGuide = new Util.Offset(text3.Substring(15, 5));
+                        
+                        description = description.TrimEnd(new char[]
 					{
 						'(',
 						'n',
@@ -426,13 +452,13 @@ namespace libEPG_xml2josn
                         {
                             text16 += subtitle + "\r\n";
                         }
-                        if (text6 == ".")
+                        if (description == ".")
                         {
-                            text6 = text16;
+                            description = text16;
                         }
                         else
                         {
-                            text6 = text16 + text6;
+                            description = text16 + description;
                         }
                         if (text14 != string.Empty)
                         {
@@ -440,13 +466,13 @@ namespace libEPG_xml2josn
                             {
                                 text14 = text14.Substring(0, text14.Length - 2);
                             }
-                            if (text6 != string.Empty)
+                            if (description != string.Empty)
                             {
-                                text6 = text6 + "\r\n" + str_writer + ": " + text14 + ". ";
+                                description = description + "\r\n" + str_writer + ": " + text14 + ". ";
                             }
                             else
                             {
-                                text6 = text14;
+                                description = text14;
                             }
                         }
                         if (text13 != string.Empty)
@@ -455,13 +481,13 @@ namespace libEPG_xml2josn
                             {
                                 text13 = text13.Substring(0, text13.Length - 2);
                             }
-                            if (text6 != string.Empty)
+                            if (description != string.Empty)
                             {
-                                text6 = text6 + "\r\n" + str_director + ": " + text13 + ". ";
+                                description = description + "\r\n" + str_director + ": " + text13 + ". ";
                             }
                             else
                             {
-                                text6 = text13;
+                                description = text13;
                             }
                         }
                         if (actors != string.Empty)
@@ -470,31 +496,49 @@ namespace libEPG_xml2josn
                             {
                                 actors = actors.Substring(0, actors.Length - 2);
                             }
-                            if (text6 != string.Empty)
+                            if (description != string.Empty)
                             {
-                                text6 = text6 + "\r\n" + str_actors + ": " + actors + ". ";
+                                description = description + "\r\n" + str_actors + ": " + actors + ". ";
                             }
                             else
                             {
-                                text6 = actors;
+                                description = actors;
                             }
                         }
-                        DateTime dateTime = DateTime.ParseExact(s, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
+                        DateTime dateTime = DateTime.ParseExact(s, "yyyyMMddHHmmss", CultureInfo.CurrentCulture);
 						//TimeSpan timeSpan;// = new TimeSpan(0, 0, 0);
                         //if (!TimeZoneInfo.Local.IsDaylightSavingTime(dateTime))
                         //{
                         //    timeSpan = new TimeSpan(1, 0, 0);
                         //}
                         //TimeSpan t = TimeSpan.ParseExact(input2, "HHmmss", CultureInfo.InvariantCulture);
-                        TimeSpan t = new TimeSpan(input2, input3, 0);
+                        
                         //TimeSpan.TryParseExact(input2,"HHmm", CultureInfo.InvariantCulture, out t);
-                        int time = (int)(dateTime - new DateTime(1970, 1, 1) - t).TotalSeconds;
+                       // TimeZone currentTimeZone = TimeZone.CurrentTimeZone;
+                       // TimeSpan utcOffset = currentTimeZone.GetUtcOffset(DateTime.Now);
+                       // TimeSpan t2 = utcOffset - t;
+                       //double aaa=0;
+                       // if (t2.TotalSeconds != 0)
+                       //     aaa = t2.TotalSeconds;
+
+                        int time = (int)(dateTime - new DateTime(1970, 1, 1) - offsetFromGuide.Value).TotalSeconds;
+                        if (!offsetFromGuide.Plus)
+                            time = (int)(dateTime - new DateTime(1970, 1, 1) + offsetFromGuide.Value).TotalSeconds;
+                        if (offsetFromConfig != null)
+                        {
+                            
+                            if (offsetFromConfig.Plus)
+                                time = time + (int)offsetFromConfig.Value.TotalSeconds;
+                            else
+                                time = time - (int)offsetFromConfig.Value.TotalSeconds;
+                        }
+
                         if (num2++ > 65535)
                             throw new Exception("eventId must be less than 65535!!");
-                        Prog item = new Prog(title, text6, time, num2);
+                        Prog item = new Prog(title, description, time, num2);
                         num += 1L;
                         channel.Programs.Add(item);
-                        text6 = string.Empty;
+                        description = string.Empty;
                         text10 = string.Empty;
                         title = string.Empty;
                         text8 = string.Empty;
