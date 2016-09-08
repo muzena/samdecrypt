@@ -1073,7 +1073,7 @@ EOF
 }
 
 
-notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Generating EPG guide data started"
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Generating EPG guide data started"
 wait $!
 #######  Generate json config files
 update_Main_grabber
@@ -1092,6 +1092,6 @@ sleep 10
 ##### Upload to git
 #upload_togit
 wait $!
-notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
 sleep 5
-notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Restart your Samsung TV for updating new epg data"
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Restart your Samsung TV for updating new epg data"
