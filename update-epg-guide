@@ -1059,11 +1059,8 @@ EOF
 }
 function upload_togit()
 {
-#cd samdecrypt
-sleep 5
 git add -A :/
 wait $!
-sleep 5
 git commit -m update
 wait $!
 git push origin libepg
