@@ -1059,9 +1059,9 @@ EOF
 }
 function upload_togit()
 {
-git add -A :/
+#git add -A :/
 wait $!
-git commit -m update
+git commit -am update
 wait $!
 git push origin libepg
 wait $! <<EOF
