@@ -1086,7 +1086,10 @@ wait $!
 wait $!
 sleep 10
 ##### Upload to git
-upload_togit
+#upload_togit
+git commit -am update
+sleep 3
+git push origin libepg
 wait $!
 #notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
 sleep 5
