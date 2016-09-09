@@ -1087,7 +1087,10 @@ wait $!
 sleep 10
 ##### Upload to git
 #upload_togit
-git commit -am update
+git add --all
+wait $!
+#git commit -am update
+git commit -m update
 sleep 3
 git push origin libepg
 wait $!
