@@ -1087,13 +1087,14 @@ wait $!
 sleep 10
 ##### Upload to git
 #upload_togit
-git add --all
-wait $!
+#git add --all
+#wait $!
 #git commit -am update
-git commit -m update
-sleep 3
-git push origin libepg
-wait $!
+#git commit -m update
+#sleep 3
+#git push origin libepg
+wait $! && git add -A :/ && wait $! && sleep 5 && git commit -m update && wait $! && git push origin libepg && wait $!
+#wait $!
 #notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
 sleep 5
 #notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Restart your Samsung TV for updating new epg data"
