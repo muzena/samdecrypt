@@ -25,7 +25,7 @@ namespace libEPG_xml2josn
         {
             InitializeComponent();
             bool flag = true;
-            
+            StreamReader streamReader=null;
             try
             {
                 thisDir = Path.GetDirectoryName(System.Reflection.Assembly.GetAssembly(typeof(Program)).CodeBase).Substring(6);
@@ -34,8 +34,13 @@ namespace libEPG_xml2josn
                     sl="/";
 					thisDir = Path.GetDirectoryName(System.Reflection.Assembly.GetAssembly(typeof(Program)).CodeBase).Substring(5);
 				}
-                StreamReader streamReader = new StreamReader(thisDir + sl+ "config.ini");
+                streamReader = new StreamReader(thisDir + sl+ "config.ini");
                 string input = streamReader.ReadToEnd();
+                if (streamReader != null)
+                {
+                    streamReader.Close();
+                    streamReader.Dispose();
+                }
                 Regex regex = new Regex("message:(?<ans>(\\S)+)");
                 Match match = regex.Match(input);
 
@@ -43,6 +48,11 @@ namespace libEPG_xml2josn
             }
             catch (Exception exc)
             {
+                if (streamReader != null)
+                {
+                    streamReader.Close();
+                    streamReader.Dispose();
+                }
                 Console.WriteLine("Error 0: " + exc.Message + "\n" + exc.GetType().ToString());
                 //MessageBox.Show(exc.Message + "\nLoad default data", "Settings file error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
@@ -57,7 +67,8 @@ namespace libEPG_xml2josn
         {
             
             try
-            { 
+            {
+                string str_premiere = "Premiere";
                 string str_director = "Director";
                 string str_writer = "Writer";
                 string str_actors = "Actors";
@@ -74,11 +85,17 @@ namespace libEPG_xml2josn
                 Dictionary<string, string> CatCreatorViaTitle = new Dictionary<string, string>();
                 Dictionary<string, string> CatCreatorViaDescription = new Dictionary<string, string>();
                 Dictionary<string, string> DiffOffSetForCH = new Dictionary<string, string>();
+                Dictionary<string, string> DiffOffSetForProvider = new Dictionary<string, string>();
+                StreamReader streamReader = null;
                 try
                 {
-                    StreamReader streamReader = new StreamReader(thisDir + sl + "config.ini");
+                    streamReader = new StreamReader(thisDir + sl + "config.ini");
                     string input = streamReader.ReadToEnd();
-
+                    if (streamReader != null)
+                    {
+                        streamReader.Close();
+                        streamReader.Dispose();
+                    }
                     Regex regex = new Regex("director:(?<director>(\\S)+)");
                     Match match = regex.Match(input);
                     str_director = match.Groups["director"].Value;
@@ -96,6 +113,10 @@ namespace libEPG_xml2josn
                     regex = new Regex("cstarempty:(?<star>(\\S)+)");
                     match = regex.Match(input);
                     str_star_empty = match.Groups["star"].Value;
+
+                    regex = new Regex("premiere:(?<premiere>(\\S)+)");
+                    match = regex.Match(input);
+                    str_premiere = match.Groups["premiere"].Value;
 
                     regex = new Regex("guide.xml path:\"(?<guide>([^\"])+)",RegexOptions.IgnoreCase);
                     match = regex.Match(input);
@@ -121,10 +142,16 @@ namespace libEPG_xml2josn
                     CatCreatorViaTitle = Util.GetParamDictionary(input, "user categorie via title ");
                     CatCreatorViaDescription = Util.GetParamDictionary(input, "user categorie via description ");
                     DiffOffSetForCH = Util.GetParamDictionary(input, "difference of offset for channels ");
+                    DiffOffSetForProvider = Util.GetParamDictionary(input, "difference of offset for provider ");
                     
                 }
                 catch (Exception exc)
                 {
+                    if (streamReader != null)
+                    {
+                        streamReader.Close();
+                        streamReader.Dispose();
+                    }
                     Console.WriteLine(exc.Message + "\nconfig.ini load default params");
                     //MessageBox.Show(exc.Message + "\nLoad default data", "Settings file error", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 }
@@ -142,12 +169,27 @@ namespace libEPG_xml2josn
                     uint num2 = 1u;
                     JavaScriptSerializer javaScriptSerializer = new JavaScriptSerializer();
                     XmlNodeList elementsByTagName = xmlDocument.DocumentElement.GetElementsByTagName("channel");
-                    Dictionary<string, string> dictionary = new Dictionary<string, string>();
+                    Dictionary<string, string[]> dictionary = new Dictionary<string, string[]>();
                     foreach (XmlNode xmlNode in elementsByTagName)
                     {
                         string value = xmlNode.Attributes["id"].Value;
-                        string innerText = xmlNode.ChildNodes[0].InnerText;
-                        dictionary.Add(value, innerText);
+                        string dispName = string.Empty;
+                        string url = string.Empty;
+                        foreach (XmlNode xmlNode_ in xmlNode.ChildNodes)
+                        {
+                            string nameNode = xmlNode_.Name;
+                            switch (nameNode)
+                            {
+                                case "display-name":
+                                    dispName = xmlNode_.InnerText;
+                                    break;
+                                case "url":
+                                    url = xmlNode_.InnerText;
+                                    break;
+                            }
+                        }
+                        
+                        dictionary.Add(value, new string [] {dispName,url});
                     }
                     XmlNodeList elementsByTagName2 = xmlDocument.DocumentElement.GetElementsByTagName("programme");
                     string text = string.Empty;
@@ -166,6 +208,7 @@ namespace libEPG_xml2josn
                     string text13 = string.Empty;
                     string text14 = string.Empty;
                     string actors = string.Empty;
+                    string premiere = string.Empty;
                     
                     List<Channel> list = new List<Channel>();
                     Channel channel = new Channel(null);
@@ -174,7 +217,7 @@ namespace libEPG_xml2josn
                     string value2;
                     foreach (XmlNode xmlNode2 in elementsByTagName2)
                     {
-                        text2 = dictionary[xmlNode2.Attributes["channel"].Value];
+                        text2 = dictionary[xmlNode2.Attributes["channel"].Value][0];
                         if (text != string.Empty)
                         {
                             if (text != text2)
@@ -201,11 +244,17 @@ namespace libEPG_xml2josn
                             text = text2;
                             channel = new Channel(text);
                         }
-                        Util.Offset offsetFromConfig = null;
+                        Util.Offset offsetFromConfigCh = null;
+                        Util.Offset offsetFromConfigProvider = null;
+                        if(DiffOffSetForProvider.ContainsKey(dictionary[xmlNode2.Attributes["channel"].Value][1]))
+                        {
+                            offsetFromConfigProvider = new Util.Offset(DiffOffSetForProvider[dictionary[xmlNode2.Attributes["channel"].Value][1]]);
+                        }
+                        
                         string diffOffset = null;
                         DiffOffSetForCH.TryGetValue(channel.Name, out diffOffset);
                         if (diffOffset != null)
-                            offsetFromConfig = new Util.Offset(diffOffset);
+                            offsetFromConfigCh = new Util.Offset(diffOffset);
 
                         text3 = xmlNode2.Attributes["start"].Value;
 
@@ -363,6 +412,9 @@ namespace libEPG_xml2josn
                                         }
                                     }
                                     break;
+                                case "premiere":
+                                        premiere = str_premiere;
+                                    break;
                             }
                         }
                         string s = text3.Substring(0, 14);
@@ -428,6 +480,11 @@ namespace libEPG_xml2josn
                                text16 = text16 + text4 + " | ";
                            }
                         }
+                        if (premiere != string.Empty)
+                        {
+                            text16 = text16 + premiere + " | ";
+                        }
+                        
                         if (text16 != string.Empty)
                         {
                             if (text16.Substring(text16.Length - 3, 3) == " | ")
@@ -524,13 +581,21 @@ namespace libEPG_xml2josn
                         int time = (int)(dateTime - new DateTime(1970, 1, 1) - offsetFromGuide.Value).TotalSeconds;
                         if (!offsetFromGuide.Plus)
                             time = (int)(dateTime - new DateTime(1970, 1, 1) + offsetFromGuide.Value).TotalSeconds;
-                        if (offsetFromConfig != null)
+                        if (offsetFromConfigProvider != null)
+                        {
+
+                            if (offsetFromConfigProvider.Plus)
+                                time = time + (int)offsetFromConfigProvider.Value.TotalSeconds;
+                            else
+                                time = time - (int)offsetFromConfigProvider.Value.TotalSeconds;
+                        }
+                        if (offsetFromConfigCh != null)
                         {
                             
-                            if (offsetFromConfig.Plus)
-                                time = time + (int)offsetFromConfig.Value.TotalSeconds;
+                            if (offsetFromConfigCh.Plus)
+                                time = time + (int)offsetFromConfigCh.Value.TotalSeconds;
                             else
-                                time = time - (int)offsetFromConfig.Value.TotalSeconds;
+                                time = time - (int)offsetFromConfigCh.Value.TotalSeconds;
                         }
 
                         if (num2++ > 65535)
@@ -552,6 +617,7 @@ namespace libEPG_xml2josn
                         text13 = string.Empty;
                         text14 = string.Empty;
                         actors = string.Empty;
+                        premiere = string.Empty;
                     }
                     list.Add(channel);
                     streamWriter.WriteLine(",");
