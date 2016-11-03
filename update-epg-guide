@@ -170,24 +170,21 @@ function fixchannelnames_port()
 sed -e 's/"NOVA TV">/"NOVA">/g' guide-port.xml > guide-port-test.xml
 sed -i 's/>NOVA TV</>NOVA</g' guide-port-test.xml
 # RTL TELEVIZIJA
-sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-port-test.xml
-sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-port-test.xml
+sed -i 's/"RTL TELEVIZIJA">/"RTL TV">/g' guide-port-test.xml
+sed -i 's/>RTL TELEVIZIJA</>RTL TV</g' guide-port-test.xml
 # Doma TV
-sed -i 's/"Doma TV">/"Doma">/g' guide-port-test.xml
-sed -i 's/>Doma TV</>Doma</g' guide-port-test.xml
-# RTL TELEVIZIJA
 sed -i 's/"Doma TV">/"Doma">/g' guide-port-test.xml
 sed -i 's/>Doma TV</>Doma</g' guide-port-test.xml
 # RTL 2
 sed -i 's/"RTL 2">/"RTL2">/g' guide-port-test.xml
 sed -i 's/>RTL 2</>RTL2</g' guide-port-test.xml
-# RTL Plus
+# RTL Living
 sed -i 's/"RTL Plus">/"RTLli">/g' guide-port-test.xml
 sed -i 's/>RTL Plus</>RTLli</g' guide-port-test.xml
-# CineStar TV
+# CineStar Action&amp;Thriller
 sed -i 's/"CineStar Action&amp;Thriller">/"CineA">/g' guide-port-test.xml
 sed -i 's/>CineStar Action&amp;Thriller</>CineA</g' guide-port-test.xml
-# CineStar Action&amp;Thriller
+# CineStar TV
 sed -i 's/"CineStar TV">/"Cines">/g' guide-port-test.xml
 sed -i 's/>CineStar TV</>Cines</g' guide-port-test.xml
 # TV 1000 Balkan
@@ -202,6 +199,9 @@ sed -i 's/>Fox Life</>FoxLi</g' guide-port-test.xml
 # Universal Channel
 sed -i 's/"Universal Channel">/"Unive">/g' guide-port-test.xml
 sed -i 's/>Universal Channel</>Unive</g' guide-port-test.xml
+# Comedy Central Extra
+sed -i 's/"Comedy Central Extra">/"CExtr">/g' guide-port-test.xml
+sed -i 's/>Comedy Central Extra</>CExtr</g' guide-port-test.xml
 # Discovery Channel
 sed -i 's/"Discovery Channel">/"Disco">/g' guide-port-test.xml
 sed -i 's/>Discovery Channel</>Disco</g' guide-port-test.xml
@@ -217,9 +217,9 @@ sed -i 's/>Animal Planet</>Anima</g' guide-port-test.xml
 # Viasat Explore
 sed -i 's/"Viasat Explore">/"Explo">/g' guide-port-test.xml
 sed -i 's/>Viasat Explore</>Explo</g' guide-port-test.xml
-# Travel Channel
-sed -i 's/"Travel Channel">/"TLC">/g' guide-port-test.xml
-sed -i 's/>Travel Channel</>TLC</g' guide-port-test.xml
+# TLC
+###sed -i 's/"Travel Channel">/"TLC">/g' guide-port-test.xml
+###sed -i 's/>Travel Channel</>TLC</g' guide-port-test.xml
 # MrežaZG
 sed -i 's/"MrežaZG">/"Mreža">/g' guide-port-test.xml
 sed -i 's/>MrežaZG</>Mreža</g' guide-port-test.xml
@@ -236,8 +236,8 @@ sed -i 's/>24 SATA TV</>24sat</g' guide-port-test.xml
 sed -i 's/"CNN International Europe">/"CNN">/g' guide-port-test.xml
 sed -i 's/>CNN International Europe</>CNN</g' guide-port-test.xml
 # Cartoon Network
-sed -i 's/"Cartoon Network">/"CN">/g' guide-port-test.xml
-sed -i 's/>Cartoon Network</>CN</g' guide-port-test.xml
+sed -i 's/"CARTOON NETWORK">/"CN">/g' guide-port-test.xml
+sed -i 's/>CARTOON NETWORK</>CN</g' guide-port-test.xml
 # Nickelodeon
 sed -i 's/"Nickelodeon">/"Nicke">/g' guide-port-test.xml
 sed -i 's/>Nickelodeon</>Nicke</g' guide-port-test.xml
@@ -260,8 +260,8 @@ sed -i 's/>Eurosport</>Euro1</g' guide-port-test.xml
 sed -i 's/"Eurosport 2">/"Euro2">/g' guide-port-test.xml
 sed -i 's/>Eurosport 2</>Euro2</g' guide-port-test.xml
 # SK 1
-sed -i 's/"SK 1">/"SK1">/g' guide-port-test.xml
-sed -i 's/>SK 1</>SK1</g' guide-port-test.xml
+sed -i 's/"Sport Klub 1">/"SK1">/g' guide-port-test.xml
+sed -i 's/>Sport Klub 1</>SK1</g' guide-port-test.xml
 # SK 3
 sed -i 's/"SK 3">/"SK3">/g' guide-port-test.xml
 sed -i 's/>SK 3</>SK3</g' guide-port-test.xml
@@ -269,8 +269,8 @@ sed -i 's/>SK 3</>SK3</g' guide-port-test.xml
 sed -i 's/"MTV Hrvatska">/"MTV">/g' guide-port-test.xml
 sed -i 's/>MTV Hrvatska</>MTV</g' guide-port-test.xml
 # VH1 Europe
-sed -i 's/"VH1 Europe">/"VH1">/g' guide-port-test.xml
-sed -i 's/>VH1 Europe</>VH1</g' guide-port-test.xml
+sed -i 's/"VH1 CLASSIC">/"VH1">/g' guide-port-test.xml
+sed -i 's/>VH1 CLASSIC</>VH1</g' guide-port-test.xml
 # CMC
 sed -i 's/"CMC">/"C M C">/g' guide-port-test.xml
 sed -i 's/>CMC</>C M C</g' guide-port-test.xml
@@ -1072,13 +1072,13 @@ EOF
 #notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Generating EPG guide data started"
 wait $!
 #######  Generate json config files
-update_Main_grabber
+#update_Main_grabber
 wait $!
 #update_Bnet_grabber
 wait $!
 #update_Mojtv_grabber
 wait $!
-#update_Port_grabber
+update_Port_grabber
 wait $!
 #update_mtvprofil_grabber
 wait $!
@@ -1093,7 +1093,7 @@ sleep 10
 #git commit -m update
 #sleep 3
 #git push origin libepg
-wait $! && git add -A :/ && wait $! && sleep 5 && git commit -m update && wait $! && git push origin libepg && wait $!
+#####      wait $! && git add -A :/ && wait $! && sleep 5 && git commit -m update && wait $! && git push origin libepg && wait $!
 #wait $!
 #notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
 sleep 5
