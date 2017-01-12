@@ -7,9 +7,9 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 06/01/2017 21:30:03
+[        ] Job started at 12/01/2017 20:46:14
 [  Debug ] 
-[  Debug ] Running  on: Unix 4.8.0.32
+[  Debug ] Running  on: Unix 4.8.0.34
 [  Debug ] Environment: 4.0.30319.17020
 [  Debug ] Mono version: 4.2.1 (Debian 4.2.1.102+dfsg2-7ubuntu4)
 [  Debug ] 
@@ -20,7 +20,7 @@
 [Warning ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
 [  Info  ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 00
 [  Debug ] xmltv input file - /home/goran/samdecrypt/guide-port.xml - found
-[  Debug ] 5180 superfluous shows removed
+[  Debug ] 998 superfluous shows removed
 [Error   ] Could find existing channel (xmltv_id=HRT 1) in the config file
 [Error   ] Could find existing channel (xmltv_id=HRT 2) in the config file
 [Error   ] Could find existing channel (xmltv_id=HRT 3) in the config file
@@ -286,9 +286,9 @@
 [  Info  ]    Summary for update of       CARTOON NETWORK
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           194
-[  Info  ]      unchanged shows inspected 64
-[  Info  ]      total after update        259
+[  Info  ]      new shows added           250
+[  Info  ]      unchanged shows inspected 41
+[  Info  ]      total after update        292
 [  Debug ] 
 [  Info  ] (   3/41  ) PORT.HR -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
 [Error   ] Unable to update channel Nickelodeon
@@ -303,9 +303,9 @@
 [  Info  ]    Summary for update of       DISNEY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           311
-[  Info  ]      unchanged shows inspected 117
-[  Info  ]      total after update        429
+[  Info  ]      new shows added           379
+[  Info  ]      unchanged shows inspected 65
+[  Info  ]      total after update        445
 [  Debug ] 
 [  Info  ] (   4/41  ) PORT.HR -- chan. (xmltv_id=Mini TV) -- mode Incremental
 [Error   ] Unable to update channel Mini TV
@@ -356,18 +356,11 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (   4/41  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped show without a title at 07/01/2017 01:05:00
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 07/01/2017 19:15:00 stop = 07/01/2017 21:10:00 title = Portugalska liga: Guimaraes - Benfica UŽIVO
-[  Info  ]       Replaces ----- start = 07/01/2017 19:15:00 stop = 07/01/2017 21:10:00 title = Portugalska liga UŽIVO
-[  Debug ]    skipped show without a title at 07/01/2017 23:30:00
-[  Debug ]    skipped show without a title at 08/01/2017 01:20:00
-[  Debug ]    skipped show without a title at 09/01/2017 13:20:00
-[  Debug ]    skipped show without a title at 09/01/2017 17:05:00
-[  Debug ]    skipped show without a title at 10/01/2017 11:30:00
-[  Debug ]    skipped show without a title at 10/01/2017 16:05:00
-[  Debug ]    skipped show without a title at 11/01/2017 14:15:00
+[  Debug ]    skipped show without a title at 15/01/2017 03:05:00
+[  Debug ]    skipped show without a title at 16/01/2017 03:50:00
+[  Debug ]    skipped show without a title at 16/01/2017 16:25:00
+[  Debug ]    skipped show without a title at 17/01/2017 16:15:00
+[  Debug ]    skipped show without a title at 18/01/2017 10:20:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/41  ) PORT.HR -- chan. (xmltv_id=MTV Hrvatska) -- mode Incremental
@@ -397,10 +390,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 1169 shows in 41 channels
-[  Debug ] 3 updated shows
-[  Debug ] 836 new shows added
+[  Debug ] 1214 shows in 41 channels
+[  Debug ] 0 updated shows
+[  Debug ] 1043 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 06/01/2017 21:30:42 done in 39s
+[        ] Job finished at 12/01/2017 20:46:54 done in 39s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
