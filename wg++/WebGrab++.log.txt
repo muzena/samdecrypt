@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 12/01/2017 20:46:14
+[        ] Job started at 12/01/2017 23:23:02
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.8.0.34
 [  Debug ] Environment: 4.0.30319.17020
@@ -20,7 +20,7 @@
 [Warning ] timezone=UTC+01:00 mapped with timezone_id "Europe/Paris"
 [  Info  ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 00
 [  Debug ] xmltv input file - /home/goran/samdecrypt/guide-port.xml - found
-[  Debug ] 998 superfluous shows removed
+[  Debug ] 0 superfluous shows removed
 [Error   ] Could find existing channel (xmltv_id=HRT 1) in the config file
 [Error   ] Could find existing channel (xmltv_id=HRT 2) in the config file
 [Error   ] Could find existing channel (xmltv_id=HRT 3) in the config file
@@ -284,10 +284,8 @@
 [  Info  ] (   2/41  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           250
-[  Info  ]      unchanged shows inspected 41
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 291
 [  Info  ]      total after update        292
 [  Debug ] 
 [  Info  ] (   3/41  ) PORT.HR -- chan. (xmltv_id=Nickelodeon) -- mode Incremental
@@ -301,10 +299,8 @@
 [  Info  ] (   3/41  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           379
-[  Info  ]      unchanged shows inspected 65
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 444
 [  Info  ]      total after update        445
 [  Debug ] 
 [  Info  ] (   4/41  ) PORT.HR -- chan. (xmltv_id=Mini TV) -- mode Incremental
@@ -392,8 +388,8 @@
 [  Debug ] 
 [  Debug ] 1214 shows in 41 channels
 [  Debug ] 0 updated shows
-[  Debug ] 1043 new shows added
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 12/01/2017 20:46:54 done in 39s
+[        ] Job finished at 12/01/2017 23:23:41 done in 39s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
