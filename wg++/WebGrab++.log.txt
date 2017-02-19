@@ -1,5 +1,5 @@
 ﻿[        ] 
-[        ]              WebGrab+Plus/w MDB & REX Postprocess -- version  V1.57             
+[        ]              WebGrab+Plus/w MDB & REX Postprocess -- version  V2.0              
 [        ] 
 [        ]                                 Jan van Straaten                                
 [        ]                              Francis De Paemeleere                              
@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 11/02/2017 16:24:21
+[        ] Job started at 19/02/2017 20:09:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.8.0.36
 [  Debug ] Environment: 4.0.30319.17020
@@ -22,7 +22,7 @@
 [  Info  ] found: /home/goran/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 05
 [  Info  ] found: /home/goran/samdecrypt/wg++/mojtv.hr.ini -- Revision 03
 [  Debug ] xmltv input file - /home/goran/samdecrypt/guide-bnet.xml - found
-[  Debug ] 9798 superfluous shows removed
+[  Debug ] 9637 superfluous shows removed
 [Error   ] Could find existing channel (xmltv_id=HTV 1) in the config file
 [Error   ] Could find existing channel (xmltv_id=HTV 2) in the config file
 [Error   ] Could find existing channel (xmltv_id=HTV 3) in the config file
@@ -87,33 +87,39 @@
 [  Debug ] 
 [  Info  ] (   1/54  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [  Info  ] 
+[  Info  ]    Summary for update of       HTV 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           357
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        357
 [  Debug ] 
 [  Info  ] (   2/54  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           337
+[  Info  ]      new shows added           340
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        337
+[  Info  ]      total after update        340
 [  Debug ] 
 [  Info  ] (   3/54  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 3
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           174
+[  Info  ]      new shows added           188
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        174
+[  Info  ]      total after update        188
 [  Debug ] 
 [  Info  ] (   4/54  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           730
+[  Info  ]      new shows added           736
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        730
+[  Info  ]      total after update        736
 [  Debug ] 
 [  Info  ] (   5/54  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
 [  Info  ] 
@@ -123,54 +129,54 @@
 [  Info  ]    Summary for update of       RTL TELEVIZIJA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           185
+[  Info  ]      new shows added           191
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        185
+[  Info  ]      total after update        191
 [  Debug ] 
 [  Info  ] (   7/54  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       DOMA TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           263
+[  Info  ]      new shows added           261
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        263
+[  Info  ]      total after update        261
 [  Debug ] 
 [  Info  ] (   8/54  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           306
+[  Info  ]      new shows added           298
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        306
+[  Info  ]      total after update        298
 [  Debug ] 
 [  Info  ] (   9/54  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL PLUS
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           182
+[  Info  ]      new shows added           199
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        182
+[  Info  ]      total after update        199
 [  Debug ] 
 [  Info  ] (  10/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           68
+[  Info  ]      new shows added           69
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        68
+[  Info  ]      total after update        69
 [  Debug ] 
 [  Info  ] (  11/54  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           64
+[  Info  ]      new shows added           68
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        64
+[  Info  ]      total after update        68
 [  Debug ] 
 [  Info  ] (  12/54  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
 [  Info  ] 
@@ -186,27 +192,27 @@
 [  Info  ]    Summary for update of       FOX
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           250
+[  Info  ]      new shows added           242
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        250
+[  Info  ]      total after update        242
 [  Debug ] 
 [  Info  ] (  14/54  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           220
+[  Info  ]      new shows added           216
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        220
+[  Info  ]      total after update        216
 [  Debug ] 
 [  Info  ] (  15/54  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       UNIVERSAL CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           141
+[  Info  ]      new shows added           144
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        141
+[  Info  ]      total after update        144
 [  Debug ] 
 [  Info  ] (  16/54  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode Incremental
 [  Info  ] 
@@ -222,36 +228,36 @@
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           233
+[  Info  ]      new shows added           232
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        233
+[  Info  ]      total after update        232
 [  Debug ] 
 [  Info  ] (  18/54  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT HISTORY
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           197
+[  Info  ]      new shows added           198
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        197
+[  Info  ]      total after update        198
 [  Debug ] 
 [  Info  ] (  19/54  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       ANIMAL PLANET
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           235
+[  Info  ]      new shows added           228
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        235
+[  Info  ]      total after update        228
 [  Debug ] 
 [  Info  ] (  20/54  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT EXPLORER
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           206
+[  Info  ]      new shows added           205
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        206
+[  Info  ]      total after update        205
 [  Debug ] 
 [  Info  ] (  21/54  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode Incremental
 [  Info  ] 
@@ -274,9 +280,8 @@
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] (  23/54  ) BNET.HR -- chan. (xmltv_id=Z1) -- mode Incremental
-[  Debug ]    skipped show without a title at 11/02/2017 12:30:00
-[  Debug ]    skipped show without a title at 13/02/2017 11:30:00
-[  Debug ]    skipped show without a title at 17/02/2017 11:35:00
+[  Debug ]    skipped show without a title at 20/02/2017 11:30:00
+[  Debug ]    skipped show without a title at 24/02/2017 11:35:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  24/54  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode Incremental
@@ -284,62 +289,61 @@
 [  Info  ]    Summary for update of       CNN
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           254
+[  Info  ]      new shows added           248
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        254
+[  Info  ]      total after update        248
 [  Debug ] 
 [  Info  ] (  25/54  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           397
+[  Info  ]      new shows added           398
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        397
+[  Info  ]      total after update        398
 [  Debug ] 
 [  Info  ] (  26/54  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       NICKELODEON
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           442
+[  Info  ]      new shows added           430
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        442
+[  Info  ]      total after update        430
 [  Debug ] 
 [  Info  ] (  27/54  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       DISNEY CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           443
+[  Info  ]      new shows added           444
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        443
+[  Info  ]      total after update        444
 [  Debug ] 
 [  Info  ] (  28/54  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       MINI TV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           292
+[  Info  ]      new shows added           287
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        292
+[  Info  ]      total after update        287
 [  Debug ] 
 [  Info  ] (  29/54  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           336
+[  Info  ]      new shows added           333
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        336
+[  Info  ]      total after update        333
 [  Debug ] 
 [  Info  ] (  30/54  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped show without a title at 11/02/2017 10:15:00
-[  Debug ]    skipped show without a title at 12/02/2017 11:15:00
-[  Debug ]    skipped show without a title at 13/02/2017 09:40:00
-[  Debug ]    skipped show without a title at 15/02/2017 18:00:00
-[  Debug ]    skipped show without a title at 16/02/2017 15:10:00
-[  Debug ]    skipped show without a title at 17/02/2017 11:10:00
+[  Debug ]    skipped show without a title at 19/02/2017 11:15:00
+[  Debug ]    skipped show without a title at 20/02/2017 09:40:00
+[  Debug ]    skipped show without a title at 22/02/2017 18:00:00
+[  Debug ]    skipped show without a title at 23/02/2017 15:10:00
+[  Debug ]    skipped show without a title at 24/02/2017 09:55:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/54  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode Incremental
@@ -349,27 +353,29 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  33/54  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
-[  Debug ]    skipped show without a title at 11/02/2017 02:30:00
-[  Debug ]    skipped show without a title at 12/02/2017 01:30:00
-[  Debug ]    skipped show without a title at 13/02/2017 07:00:00
-[  Debug ]    skipped show without a title at 14/02/2017 09:15:00
-[  Debug ]    skipped show without a title at 17/02/2017 05:00:00
+[  Debug ]    skipped show without a title at 21/02/2017 00:45:00
+[  Debug ]    skipped show without a title at 22/02/2017 18:45:00
+[  Debug ]    skipped show without a title at 23/02/2017 06:30:00
+[  Debug ]    skipped show without a title at 23/02/2017 17:10:00
+[  Debug ]    skipped show without a title at 25/02/2017 02:15:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/54  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped show without a title at 11/02/2017 07:10:00
-[  Debug ]    skipped show without a title at 11/02/2017 13:00:00
-[  Debug ]    skipped show without a title at 11/02/2017 18:30:00
-[  Debug ]    skipped show without a title at 12/02/2017 10:05:00
-[  Debug ]    skipped show without a title at 12/02/2017 16:15:00
-[  Debug ]    skipped show without a title at 12/02/2017 18:30:00
-[  Debug ]    skipped show without a title at 13/02/2017 03:55:00
-[  Debug ]    skipped show without a title at 13/02/2017 06:00:00
-[  Debug ]    skipped show without a title at 13/02/2017 11:30:00
-[  Debug ]    skipped show without a title at 14/02/2017 06:20:00
-[  Debug ]    skipped show without a title at 15/02/2017 07:45:00
-[  Debug ]    skipped show without a title at 15/02/2017 16:05:00
-[  Debug ]    skipped show without a title at 16/02/2017 03:35:00
+[  Debug ]    skipped show without a title at 19/02/2017 01:55:00
+[  Debug ]    skipped show without a title at 19/02/2017 09:10:00
+[  Debug ]    skipped show without a title at 20/02/2017 06:05:00
+[  Debug ]    skipped show without a title at 20/02/2017 11:15:00
+[  Debug ]    skipped show without a title at 20/02/2017 14:45:00
+[  Debug ]    skipped show without a title at 21/02/2017 04:50:00
+[  Debug ]    skipped show without a title at 21/02/2017 11:35:00
+[  Debug ]    skipped show without a title at 21/02/2017 13:25:00
+[  Debug ]    skipped show without a title at 22/02/2017 07:00:00
+[  Debug ]    skipped show without a title at 23/02/2017 00:35:00
+[  Debug ]    skipped show without a title at 23/02/2017 02:50:00
+[  Debug ]    skipped show without a title at 23/02/2017 04:20:00
+[  Debug ]    skipped show without a title at 23/02/2017 06:05:00
+[  Debug ]    skipped show without a title at 24/02/2017 11:45:00
+[  Debug ]    skipped show without a title at 25/02/2017 02:30:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  35/54  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode Incremental
@@ -377,9 +383,9 @@
 [  Info  ]    Summary for update of       MTV
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           245
+[  Info  ]      new shows added           242
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        245
+[  Info  ]      total after update        242
 [  Debug ] 
 [  Info  ] (  36/54  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode Incremental
 [  Info  ] 
@@ -389,9 +395,9 @@
 [  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           174
+[  Info  ]      new shows added           146
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        174
+[  Info  ]      total after update        146
 [  Debug ] 
 [  Info  ] (  38/54  ) PORT.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [Error   ] Unable to update channel N1
@@ -418,12 +424,18 @@
 [  Info  ]    Summary for update of       RTS 1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           240
+[  Info  ]      new shows added           272
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        240
+[  Info  ]      total after update        272
 [  Debug ] 
 [  Info  ] (  40/54  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode Incremental
 [  Info  ] 
+[  Info  ]    Summary for update of       RTS 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           239
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        239
 [  Debug ] 
 [  Info  ] (  41/54  ) MOJTV.HR -- chan. (xmltv_id=AMC) -- mode Incremental
 [  Info  ] 
@@ -493,10 +505,10 @@
 [Error   ] unable to update channel, try again later
 [  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Debug ] 9676 shows in 54 channels
-[  Debug ] 0 updated shows
-[  Debug ] 9676 new shows added
+[  Debug ] 9863 shows in 54 channels
+[  Debug ] 2 updated shows
+[  Debug ] 9824 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 11/02/2017 16:36:13 done in 11m 52s
+[        ] Job finished at 19/02/2017 20:20:15 done in 11m 0s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
