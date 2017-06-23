@@ -328,8 +328,8 @@ sed -i 's/>FOX</>Fox</g' guide-bnet-test.xml
 sed -i 's/"FOX LIFE">/"FoxLi">/g' guide-bnet-test.xml
 sed -i 's/>FOX LIFE</>FoxLi</g' guide-bnet-test.xml
 # Universal Channel
-sed -i 's/"UNIVERSAL CHANNEL">/"Unive">/g' guide-bnet-test.xml
-sed -i 's/>UNIVERSAL CHANNEL</>Unive</g' guide-bnet-test.xml
+sed -i 's/"UNIVERSAL CHANNEL">/"Diva">/g' guide-bnet-test.xml
+sed -i 's/>UNIVERSAL CHANNEL</>Diva</g' guide-bnet-test.xml
 # Discovery Channel
 sed -i 's/"DISCOVERY CHANNEL">/"Disco">/g' guide-bnet-test.xml
 sed -i 's/>DISCOVERY CHANNEL</>Disco</g' guide-bnet-test.xml
@@ -352,8 +352,8 @@ sed -i 's/>VIASAT EXPLORER</>Explo</g' guide-bnet-test.xml
 sed -i 's/"MREŽAZG">/"Mreža">/g' guide-bnet-test.xml
 sed -i 's/>MREŽAZG</>Mreža</g' guide-bnet-test.xml
 # Jabuka TV
-sed -i 's/"Jabuka TV">/"Jabuk">/g' guide-bnet-test.xml
-sed -i 's/>Jabuka TV</>Jabuk</g' guide-bnet-test.xml
+sed -i 's/"JABUKA TV">/"Jabuk">/g' guide-bnet-test.xml
+sed -i 's/>JABUKA TV</>Jabuk</g' guide-bnet-test.xml
 # Z1
 sed -i 's/"Z1">/"Z 1">/g' guide-bnet-test.xml
 sed -i 's/>Z1</>Z 1</g' guide-bnet-test.xml
@@ -480,8 +480,8 @@ sed -i 's/>TV1000</>TV100</g' guide-mojtv-test.xml
 sed -i 's/"Fox Life">/"FoxLi">/g' guide-mojtv-test.xml
 sed -i 's/>Fox Life</>FoxLi</g' guide-mojtv-test.xml
 # Universal Channel
-sed -i 's/"Universal Channel">/"Unive">/g' guide-mojtv-test.xml
-sed -i 's/>Universal Channel</>Unive</g' guide-mojtv-test.xml
+sed -i 's/"Universal Channel">/"Diva">/g' guide-mojtv-test.xml
+sed -i 's/>Universal Channel</>Diva</g' guide-mojtv-test.xml
 # Discovery Channel
 sed -i 's/"Discovery Channel">/"Disco">/g' guide-mojtv-test.xml
 sed -i 's/>Discovery Channel</>Disco</g' guide-mojtv-test.xml
@@ -1074,9 +1074,9 @@ wait $!
 #######  Generate json config files
 #update_Main_grabber
 wait $!
-#update_Bnet_grabber
+update_Bnet_grabber
 wait $!
-update_Mojtv_grabber
+#update_Mojtv_grabber
 wait $!
 #update_Port_grabber
 wait $!
