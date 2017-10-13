@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 13/10/2017 17:42:56
+[        ] Job started at 13/10/2017 18:23:23
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.13.0.41300
 [  Debug ] Environment: 4.0.30319.17020
@@ -17,7 +17,6 @@
 [  Debug ] Embedded timezones source: timezone.timezonesdata.txt
 [  Debug ] Reading config file: /home/goran/Glazba/samdecrypt/wg++/WebGrab++.config.xml
 [  Info  ] found: /home/goran/Glazba/samdecrypt/wg++/bnet.hr.ini -- Revision 03
-[  Info  ] found: /home/goran/Glazba/samdecrypt/wg++/programtv.interia.pl.ini -- Revision 05
 [  Debug ] xmltv input file - /home/goran/Glazba/samdecrypt/guide-bnet.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HTV 1) in the config file
@@ -60,19 +59,24 @@
 [  Info  ] Found existing channel (xmltv_id=VH1) in the config file
 [  Info  ] Found existing channel (xmltv_id=CROATIAN MUSIC CHANNEL) in the config file
 [  Info  ] Found existing channel (xmltv_id=N1) in the config file
-[  Info  ] Found existing channel (xmltv_id=Eska TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTS 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTS 2) in the config file
 [  Info  ] Found existing channel (xmltv_id=AMC) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO 2) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO 3) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO HD) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO 2 HD) in the config file
+[  Info  ] Found existing channel (xmltv_id=HBO 3 HD) in the config file
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
 [  Info  ] 
 [  Info  ] 
 [  Info  ] Group (0) :
-[  Info  ] update requested for - 44 - out of - 44 - channels for 11 day(s)
+[  Info  ] update requested for - 49 - out of - 49 - channels for 11 day(s)
 [  Debug ] 
-[  Info  ] (   1/44  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
+[  Info  ] (   1/49  ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:28
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:50
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -147,14 +151,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 20:05:00
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           340
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 340
 [  Info  ]      total after update        340
 
 [  Debug ] 
-[  Info  ] (   2/44  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
+[  Info  ] (   2/49  ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:32
 [Warning ] No episode-num matching
 [Warning ] episode-num unchanged: (1), humoristična serija (10/23)
@@ -485,14 +487,12 @@
 [Warning ] episode-num unchanged: (1), crtana serija (T) (8/13)
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           344
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 344
 [  Info  ]      total after update        344
 
 [  Debug ] 
-[  Info  ] (   3/44  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
+[  Info  ] (   3/49  ) BNET.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:45
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:45
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:28
@@ -557,14 +557,12 @@
 [  Debug ]                                       to 19/10/2017 02:47
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           182
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 182
 [  Info  ]      total after update        182
 
 [  Debug ] 
-[  Info  ] (   4/44  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
+[  Info  ] (   4/49  ) BNET.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:34
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:34
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -762,14 +760,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           758
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 758
 [  Info  ]      total after update        758
 
 [  Debug ] 
-[  Info  ] (   5/44  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
+[  Info  ] (   5/49  ) BNET.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:30
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:25
@@ -815,14 +811,12 @@
 [  Debug ]                                       to 19/10/2017 06:15
 [  Info  ] 
 [  Info  ]    Summary for update of       NOVA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           186
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 186
 [  Info  ]      total after update        186
 
 [  Debug ] 
-[  Info  ] (   6/44  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode Incremental
+[  Info  ] (   6/49  ) BNET.HR -- chan. (xmltv_id=RTL TELEVIZIJA) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:15
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:35
@@ -871,14 +865,12 @@
 [  Debug ]                                       to 19/10/2017 06:10
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL TELEVIZIJA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           202
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 202
 [  Info  ]      total after update        202
 
 [  Debug ] 
-[  Info  ] (   7/44  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
+[  Info  ] (   7/49  ) BNET.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:45
@@ -934,14 +926,12 @@
 [  Debug ]                                       to 19/10/2017 06:05
 [  Info  ] 
 [  Info  ]    Summary for update of       DOMA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           242
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 242
 [  Info  ]      total after update        242
 
 [  Debug ] 
-[  Info  ] (   8/44  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
+[  Info  ] (   8/49  ) BNET.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:35
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:45
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -1014,14 +1004,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           297
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 297
 [  Info  ]      total after update        297
 
 [  Debug ] 
-[  Info  ] (   9/44  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode Incremental
+[  Info  ] (   9/49  ) BNET.HR -- chan. (xmltv_id=RTL PLUS) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:10
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:10
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -1061,14 +1049,12 @@
 [  Debug ]                                       to 19/10/2017 09:10
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL PLUS
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           202
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 202
 [  Info  ]      total after update        202
 
 [  Debug ] 
-[  Info  ] (  10/44  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
+[  Info  ] (  10/49  ) BNET.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:50
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 21:45
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -1094,14 +1080,12 @@
 [  Debug ]                                       to 19/10/2017 03:54
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           70
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 70
 [  Info  ]      total after update        70
 
 [  Debug ] 
-[  Info  ] (  11/44  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
+[  Info  ] (  11/49  ) BNET.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:50
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:50
 [  Debug ]    skipped : fully overlapping show from 14/10/2017 01:10
@@ -1131,14 +1115,12 @@
 [  Debug ]                                       to 19/10/2017 02:55
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           71
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 71
 [  Info  ]      total after update        71
 
 [  Debug ] 
-[  Info  ] (  12/44  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
+[  Info  ] (  12/49  ) BNET.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:25
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:15
@@ -1174,14 +1156,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT TV1000
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           97
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 97
 [  Info  ]      total after update        97
 
 [  Debug ] 
-[  Info  ] (  13/44  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode Incremental
+[  Info  ] (  13/49  ) BNET.HR -- chan. (xmltv_id=FOX) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:05
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -1249,14 +1229,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           211
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 211
 [  Info  ]      total after update        211
 
 [  Debug ] 
-[  Info  ] (  14/44  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
+[  Info  ] (  14/49  ) BNET.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
 [  Debug ]    skipped show without a title at 12/10/2017 23:50:00
 [  Debug ]    skipped show without a title at 13/10/2017 03:15:00
 [  Debug ]    skipped show without a title at 13/10/2017 17:05:00
@@ -1338,14 +1316,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 23:50:00
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           223
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 223
 [  Info  ]      total after update        223
 
 [  Debug ] 
-[  Info  ] (  15/44  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode Incremental
+[  Info  ] (  15/49  ) BNET.HR -- chan. (xmltv_id=UNIVERSAL CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:45
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:10
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:10
@@ -1391,14 +1367,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       UNIVERSAL CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           137
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 137
 [  Info  ]      total after update        137
 
 [  Debug ] 
-[  Info  ] (  16/44  ) BNET.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
+[  Info  ] (  16/49  ) BNET.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:40
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:40
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -1498,14 +1472,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       COMEDY CENTRAL EXTRA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           378
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 378
 [  Info  ]      total after update        378
 
 [  Debug ] 
-[  Info  ] (  17/44  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode Incremental
+[  Info  ] (  17/49  ) BNET.HR -- chan. (xmltv_id=DISCOVERY CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -1570,14 +1542,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       DISCOVERY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           244
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 244
 [  Info  ]      total after update        244
 
 [  Debug ] 
-[  Info  ] (  18/44  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
+[  Info  ] (  18/49  ) BNET.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -1656,14 +1626,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 06:20:00
 [  Info  ] 
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           223
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 223
 [  Info  ]      total after update        223
 
 [  Debug ] 
-[  Info  ] (  19/44  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
+[  Info  ] (  19/49  ) BNET.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:30
 [  Debug ]    skipped show without a title at 13/10/2017 20:10:00
 [  Debug ]    skipped show without a title at 13/10/2017 21:00:00
@@ -1723,14 +1691,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT HISTORY
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           197
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 197
 [  Info  ]      total after update        197
 
 [  Debug ] 
-[  Info  ] (  20/44  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode Incremental
+[  Info  ] (  20/49  ) BNET.HR -- chan. (xmltv_id=ANIMAL PLANET) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:45
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:45
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:40
@@ -1798,14 +1764,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       ANIMAL PLANET
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           232
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 232
 [  Info  ]      total after update        232
 
 [  Debug ] 
-[  Info  ] (  21/44  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode Incremental
+[  Info  ] (  21/49  ) BNET.HR -- chan. (xmltv_id=VIASAT EXPLORER) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:15
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:15
 [  Debug ]    skipped : fully overlapping show from 14/10/2017 05:05
@@ -1828,14 +1792,12 @@
 [  Debug ]                                       to 19/10/2017 06:05
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT EXPLORER
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           191
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 191
 [  Info  ]      total after update        191
 
 [  Debug ] 
-[  Info  ] (  22/44  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode Incremental
+[  Info  ] (  22/49  ) BNET.HR -- chan. (xmltv_id=TLC) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -1913,14 +1875,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       TLC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           199
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 199
 [  Info  ]      total after update        199
 
 [  Debug ] 
-[  Info  ] (  23/44  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
+[  Info  ] (  23/49  ) BNET.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:00
 [  Debug ]    skipped : fully overlapping show from 14/10/2017 02:00
@@ -1933,22 +1893,20 @@
 [  Debug ]                                       to 16/10/2017 03:00
 [  Info  ] 
 [  Info  ]    Summary for update of       MREŽAZG
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           111
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 111
 [  Info  ]      total after update        111
 
 [  Debug ] 
-[  Info  ] (  24/44  ) BNET.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
+[  Info  ] (  24/49  ) BNET.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  25/44  ) BNET.HR -- chan. (xmltv_id=Z1) -- mode Incremental
+[  Info  ] (  25/49  ) BNET.HR -- chan. (xmltv_id=Z1) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  26/44  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode Incremental
+[  Info  ] (  26/49  ) BNET.HR -- chan. (xmltv_id=CNN) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:30
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -2007,14 +1965,12 @@
 [  Debug ]                                       to 17/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       CNN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           240
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 240
 [  Info  ]      total after update        240
 
 [  Debug ] 
-[  Info  ] (  27/44  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
+[  Info  ] (  27/49  ) BNET.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:42
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:41
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -2171,14 +2127,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           742
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 742
 [  Info  ]      total after update        742
 
 [  Debug ] 
-[  Info  ] (  28/44  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
+[  Info  ] (  28/49  ) BNET.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:45
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:45
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -2300,14 +2254,12 @@
 [  Debug ]                                       to 19/10/2017 06:10
 [  Info  ] 
 [  Info  ]    Summary for update of       NICKELODEON
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           439
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 439
 [  Info  ]      total after update        439
 
 [  Debug ] 
-[  Info  ] (  29/44  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
+[  Info  ] (  29/49  ) BNET.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:50
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:50
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:15
@@ -2431,14 +2383,12 @@
 [  Debug ]                                       to 19/10/2017 06:20
 [  Info  ] 
 [  Info  ]    Summary for update of       DISNEY CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           449
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 449
 [  Info  ]      total after update        449
 
 [  Debug ] 
-[  Info  ] (  30/44  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
+[  Info  ] (  30/49  ) BNET.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped show without a title at 13/10/2017 07:50:00
 [  Debug ]    skipped show without a title at 13/10/2017 11:35:00
@@ -2482,14 +2432,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 15:05:00
 [  Info  ] 
 [  Info  ]    Summary for update of       MINI TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           293
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 293
 [  Info  ]      total after update        293
 
 [  Debug ] 
-[  Info  ] (  31/44  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
+[  Info  ] (  31/49  ) BNET.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:05
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:05
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -2562,14 +2510,12 @@
 [  Debug ]                                       to 19/10/2017 06:45
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           353
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 353
 [  Info  ]      total after update        353
 
 [  Debug ] 
-[  Info  ] (  32/44  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
+[  Info  ] (  32/49  ) BNET.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : fully overlapping show from 13/10/2017 23:55
 [  Debug ]                                       to 14/10/2017 07:00
@@ -2603,14 +2549,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 11:10:00
 [  Info  ] 
 [  Info  ]    Summary for update of       SPORTSKA TV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           231
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 231
 [  Info  ]      total after update        231
 
 [  Debug ] 
-[  Info  ] (  33/44  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode Incremental
+[  Info  ] (  33/49  ) BNET.HR -- chan. (xmltv_id=EUROSPORT) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:34
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:56
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:04
@@ -2659,14 +2603,12 @@
 [  Debug ]                                       to 19/10/2017 07:15
 [  Info  ] 
 [  Info  ]    Summary for update of       EUROSPORT
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           151
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 151
 [  Info  ]      total after update        151
 
 [  Debug ] 
-[  Info  ] (  34/44  ) BNET.HR -- chan. (xmltv_id=EUROSPORT 2) -- mode Incremental
+[  Info  ] (  34/49  ) BNET.HR -- chan. (xmltv_id=EUROSPORT 2) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:32
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:32
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 01:10
@@ -2722,14 +2664,12 @@
 [  Debug ]                                       to 19/10/2017 06:45
 [  Info  ] 
 [  Info  ]    Summary for update of       EUROSPORT 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           173
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 173
 [  Info  ]      total after update        173
 
 [  Debug ] 
-[  Info  ] (  35/44  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
+[  Info  ] (  35/49  ) BNET.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:30
 [  Debug ]    skipped show without a title at 14/10/2017 00:00:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:30
@@ -2783,14 +2723,12 @@
 [  Debug ]    skipped show without a title at 19/10/2017 04:30:00
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           109
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 109
 [  Info  ]      total after update        109
 
 [  Debug ] 
-[  Info  ] (  36/44  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
+[  Info  ] (  36/49  ) BNET.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:15
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:50
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 01:40
@@ -2811,36 +2749,14 @@
 [  Debug ]    skipped : show starting before the actual show at16/10/2017 02:30
 [  Debug ]    skipped : fully overlapping show from 16/10/2017 04:20
 [  Debug ]                                       to 17/10/2017 00:10
-[  Debug ]    skipped : show starting before the actual show at16/10/2017 04:20
-[  Debug ]    skipped : show starting before the actual show at17/10/2017 00:10
-[  Debug ]    skipped : show starting before the actual show at17/10/2017 01:45
-[  Debug ]    skipped : show starting before the actual show at17/10/2017 03:30
-[  Debug ]    skipped : fully overlapping show from 17/10/2017 05:00
-[  Debug ]                                       to 17/10/2017 06:30
-[  Debug ]    skipped : show starting before the actual show at17/10/2017 22:35
-[  Debug ]    skipped : show starting before the actual show at18/10/2017 00:30
-[  Debug ]    skipped : show starting before the actual show at18/10/2017 02:15
-[  Debug ]    skipped : show starting before the actual show at18/10/2017 04:00
-[  Debug ]    skipped : fully overlapping show from 18/10/2017 05:30
-[  Debug ]                                       to 18/10/2017 06:15
-[  Debug ]    skipped : show starting before the actual show at18/10/2017 23:10
-[  Debug ]    skipped : show starting before the actual show at19/10/2017 00:45
-[  Debug ]    skipped : show starting before the actual show at19/10/2017 01:15
-[  Debug ]    skipped : show starting before the actual show at19/10/2017 02:00
-[  Debug ]    skipped : show starting before the actual show at19/10/2017 02:30
-[  Debug ]    skipped : show starting before the actual show at19/10/2017 04:00
-[  Debug ]    skipped : fully overlapping show from 19/10/2017 05:00
-[  Debug ]                                       to 19/10/2017 07:05
-[  Info  ] 
-[  Info  ]    Summary for update of       SK 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           110
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        110
-
+[Error   ] Unable to update channel SK 3
+[Critical] See log file for details
+[Critical] Exception.Message: Object reference not set to an instance of an object
+[Critical] Exception.StackTrace:   at WGconsole.Program.UpdateChannel (System.String strIndex, WGconsole.ChannelToUpdate Chan, WGconsole.XmlTarget xTarget) <0x41047000 + 0x04ab7> in <filename unknown>:0 
+  at WGconsole.Program.ConsoleApplication (System.String[] args) <0x40ef4f50 + 0x052fb> in <filename unknown>:0 
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  37/44  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode Incremental
+[  Info  ] (  36/49  ) BNET.HR -- chan. (xmltv_id=MTV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -2874,14 +2790,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       MTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           84
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 84
 [  Info  ]      total after update        84
 
 [  Debug ] 
-[  Info  ] (  38/44  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode Incremental
+[  Info  ] (  37/49  ) BNET.HR -- chan. (xmltv_id=VH1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -2915,14 +2829,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       VH1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           105
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 105
 [  Info  ]      total after update        105
 
 [  Debug ] 
-[  Info  ] (  39/44  ) BNET.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
+[  Info  ] (  38/49  ) BNET.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 21:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -2968,14 +2880,12 @@
 [  Debug ]                                       to 19/10/2017 07:00
 [  Info  ] 
 [  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           180
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 180
 [  Info  ]      total after update        180
 
 [  Debug ] 
-[  Info  ] (  40/44  ) BNET.HR -- chan. (xmltv_id=N1) -- mode Incremental
+[  Info  ] (  39/49  ) BNET.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:30
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:00
@@ -3034,17 +2944,12 @@
 [  Debug ]                                       to 17/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       N1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           240
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 240
 [  Info  ]      total after update        240
 
 [  Debug ] 
-[  Info  ] (  41/44  ) PROGRAMTV.INTERIA.PL -- chan. (xmltv_id=Eska TV) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  42/44  ) BNET.HR -- chan. (xmltv_id=RTS 1) -- mode Incremental
+[  Info  ] (  40/49  ) BNET.HR -- chan. (xmltv_id=RTS 1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:25
 [  Debug ]    skipped show without a title at 13/10/2017 17:20:00
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 22:15
@@ -3125,14 +3030,12 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           285
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 285
 [  Info  ]      total after update        285
 
 [  Debug ] 
-[  Info  ] (  43/44  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode Incremental
+[  Info  ] (  41/49  ) BNET.HR -- chan. (xmltv_id=RTS 2) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:55
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:25
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:20
@@ -3173,14 +3076,12 @@
 [  Debug ]                                       to 19/10/2017 06:25
 [  Info  ] 
 [  Info  ]    Summary for update of       RTS 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           200
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 200
 [  Info  ]      total after update        200
 
 [  Debug ] 
-[  Info  ] (  44/44  ) BNET.HR -- chan. (xmltv_id=AMC) -- mode Incremental
+[  Info  ] (  42/49  ) BNET.HR -- chan. (xmltv_id=AMC) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:05
 [  Debug ]    skipped : show starting before the actual show at13/10/2017 23:00
 [  Debug ]    skipped : show starting before the actual show at14/10/2017 00:05
@@ -3220,17 +3121,188 @@
 [  Debug ]                                       to 19/10/2017 06:00
 [  Info  ] 
 [  Info  ]    Summary for update of       AMC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           113
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 113
 [  Info  ]      total after update        113
 
 [  Debug ] 
-[  Debug ] 10129 shows in 44 channels
+[  Info  ] (  43/49  ) BNET.HR -- chan. (xmltv_id=HBO) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 21:50
+[  Debug ]    skipped : show starting before the actual show at13/10/2017 22:40
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 00:15
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 01:55
+[  Debug ]    skipped : fully overlapping show from 14/10/2017 03:30
+[  Debug ]                                       to 14/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 23:45
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 03:15
+[  Debug ]    skipped : fully overlapping show from 15/10/2017 04:45
+[  Debug ]                                       to 15/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 23:30
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 03:00
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 04:00
+[  Debug ]    skipped : fully overlapping show from 16/10/2017 05:30
+[  Debug ]                                       to 16/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 23:45
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 01:15
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 02:50
+[  Debug ]    skipped : fully overlapping show from 17/10/2017 04:25
+[  Debug ]                                       to 17/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 23:50
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 02:15
+[  Debug ]    skipped : fully overlapping show from 18/10/2017 04:20
+[  Debug ]                                       to 18/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 22:40
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 00:25
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 02:15
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 03:50
+[  Debug ]    skipped : fully overlapping show from 19/10/2017 05:20
+[  Debug ]                                       to 19/10/2017 06:00
+[  Info  ] 
+[  Info  ]    Summary for update of       HBO
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 111
+[  Info  ]      total after update        111
+
+[  Debug ] 
+[  Info  ] (  44/49  ) BNET.HR -- chan. (xmltv_id=HBO 2) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:40
+[Error   ] Unable to update channel HBO 2
+[Critical] See log file for details
+[Critical] Exception.Message: Index was outside the bounds of the array.
+[Critical] Exception.StackTrace:   at WGconsole.Scrub.Cleanup (System.String element, System.String style, System.String[] vals) <0x41065bd0 + 0x02a18> in <filename unknown>:0 
+  at WGconsole.Scrub.Edit (System.String element, System.String[] operation, System.String condition) <0x41061f80 + 0x02bd3> in <filename unknown>:0 
+  at WGconsole.Scrub.ScrubOperations (System.Collections.Generic.Dictionary`2 operations, System.String type, Boolean channelfile, Boolean next) <0x4105c000 + 0x01da3> in <filename unknown>:0 
+  at WGconsole.Scrub.ScrubIndexShowDetails (System.String indexshow, WGconsole.SiteIni scrubstrings, Boolean next) <0x41072440 + 0x00cef> in <filename unknown>:0 
+  at WGconsole.Scrub+Times.GetTimes (Int32 n, System.String[] indexshows, WGconsole.Scrub s, WGconsole.ChannelToUpdate chtu, WGconsole.UpdatedChannel uch) <0x410808b0 + 0x01e8b> in <filename unknown>:0 
+  at WGconsole.Program.UpdateChannel (System.String strIndex, WGconsole.ChannelToUpdate Chan, WGconsole.XmlTarget xTarget) <0x41047000 + 0x0121f> in <filename unknown>:0 
+  at WGconsole.Program.ConsoleApplication (System.String[] args) <0x40ef4f50 + 0x052fb> in <filename unknown>:0 
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (  44/49  ) BNET.HR -- chan. (xmltv_id=HBO 3) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 23:05
+[  Debug ]    skipped : show starting before the actual show at13/10/2017 23:50
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 00:25
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 02:15
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 03:15
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 03:45
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 04:25
+[  Debug ]    skipped : fully overlapping show from 14/10/2017 05:00
+[  Debug ]                                       to 14/10/2017 06:00
+[  Debug ]    skipped show without a title at 14/10/2017 21:00:00
+[  Debug ]    skipped show without a title at 14/10/2017 21:40:00
+[  Debug ]    skipped show without a title at 14/10/2017 22:20:00
+[  Debug ]    skipped show without a title at 14/10/2017 23:00:00
+[  Debug ]    skipped show without a title at 14/10/2017 23:40:00
+[  Debug ]    skipped show without a title at 15/10/2017 00:20:00
+[  Debug ]    skipped show without a title at 15/10/2017 01:05:00
+[  Debug ]    skipped show without a title at 15/10/2017 01:45:00
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 23:40
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 00:20
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 01:05
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 01:45
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 02:35
+[  Debug ]    skipped : fully overlapping show from 15/10/2017 03:55
+[  Debug ]                                       to 15/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 22:45
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 00:45
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 02:15
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 03:00
+[  Debug ]    skipped : fully overlapping show from 16/10/2017 04:30
+[  Debug ]                                       to 16/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 23:10
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 00:35
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 01:35
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 02:10
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 02:45
+[  Debug ]    skipped : fully overlapping show from 17/10/2017 04:25
+[  Debug ]                                       to 17/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 23:00
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 00:45
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 02:15
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 03:15
+[  Debug ]    skipped : fully overlapping show from 18/10/2017 04:15
+[  Debug ]                                       to 18/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 22:40
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 00:30
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 01:00
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 01:55
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 02:45
+[  Debug ]    skipped : fully overlapping show from 19/10/2017 03:40
+[  Debug ]                                       to 19/10/2017 06:00
+[  Info  ] 
+[  Info  ]    Summary for update of       HBO 3
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 151
+[  Info  ]      total after update        151
+
+[  Debug ] 
+[  Info  ] (  45/49  ) BNET.HR -- chan. (xmltv_id=HBO HD) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 21:50
+[  Debug ]    skipped : show starting before the actual show at13/10/2017 22:40
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 00:15
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 01:55
+[  Debug ]    skipped : fully overlapping show from 14/10/2017 03:30
+[  Debug ]                                       to 14/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at14/10/2017 23:45
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 03:15
+[  Debug ]    skipped : fully overlapping show from 15/10/2017 04:45
+[  Debug ]                                       to 15/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at15/10/2017 23:30
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 03:00
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 04:00
+[  Debug ]    skipped : fully overlapping show from 16/10/2017 05:30
+[  Debug ]                                       to 16/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at16/10/2017 23:45
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 01:15
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 02:50
+[  Debug ]    skipped : fully overlapping show from 17/10/2017 04:25
+[  Debug ]                                       to 17/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at17/10/2017 23:50
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 01:30
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 02:15
+[  Debug ]    skipped : fully overlapping show from 18/10/2017 04:20
+[  Debug ]                                       to 18/10/2017 06:00
+[  Debug ]    skipped : show starting before the actual show at18/10/2017 22:40
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 00:25
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 02:15
+[  Debug ]    skipped : show starting before the actual show at19/10/2017 03:50
+[  Debug ]    skipped : fully overlapping show from 19/10/2017 05:20
+[  Debug ]                                       to 19/10/2017 06:00
+[  Info  ] 
+[  Info  ]    Summary for update of       HBO HD
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 111
+[  Info  ]      total after update        111
+
+[  Debug ] 
+[  Info  ] (  46/49  ) BNET.HR -- chan. (xmltv_id=HBO 2 HD) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 12/10/2017 22:40
+[Error   ] Unable to update channel HBO 2 HD
+[Critical] See log file for details
+[Critical] Exception.Message: Index was outside the bounds of the array.
+[Critical] Exception.StackTrace:   at WGconsole.Scrub.Cleanup (System.String element, System.String style, System.String[] vals) <0x41065bd0 + 0x02a18> in <filename unknown>:0 
+  at WGconsole.Scrub.Edit (System.String element, System.String[] operation, System.String condition) <0x41061f80 + 0x02bd3> in <filename unknown>:0 
+  at WGconsole.Scrub.ScrubOperations (System.Collections.Generic.Dictionary`2 operations, System.String type, Boolean channelfile, Boolean next) <0x4105c000 + 0x01da3> in <filename unknown>:0 
+  at WGconsole.Scrub.ScrubIndexShowDetails (System.String indexshow, WGconsole.SiteIni scrubstrings, Boolean next) <0x41072440 + 0x00cef> in <filename unknown>:0 
+  at WGconsole.Scrub+Times.GetTimes (Int32 n, System.String[] indexshows, WGconsole.Scrub s, WGconsole.ChannelToUpdate chtu, WGconsole.UpdatedChannel uch) <0x410808b0 + 0x01e8b> in <filename unknown>:0 
+  at WGconsole.Program.UpdateChannel (System.String strIndex, WGconsole.ChannelToUpdate Chan, WGconsole.XmlTarget xTarget) <0x41047000 + 0x0121f> in <filename unknown>:0 
+  at WGconsole.Program.ConsoleApplication (System.String[] args) <0x40ef4f50 + 0x052fb> in <filename unknown>:0 
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] (  46/49  ) BNET.HR -- chan. (xmltv_id=HBO 3 HD) -- mode Incremental
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Debug ] 
+[  Debug ] 10219 shows in 49 channels
 [  Debug ] 0 updated shows
-[  Debug ] 10129 new shows added
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 13/10/2017 17:55:14 done in 12m 18s
+[        ] Job finished at 13/10/2017 18:29:25 done in 6m 2s
 [  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
