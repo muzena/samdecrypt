@@ -1,5 +1,11 @@
 #!/bin/bash
+
+rm /tmp/guide-bnet.xml
+wget -O /tmp/guide-bnet.xml  https://raw.githubusercontent.com/muzena/samdecrypt/libepg/guide-bnet.xml
+
 xmltv_file_location=/home/goran/Glazba/samdecrypt/guide-bnet.xml
+xmltv_file_location=/tmp/guide-bnet.xml
+
 dflag=
 vflag=
 cflag=
