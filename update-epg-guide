@@ -915,7 +915,7 @@ mono libEPG_xml2josn.exe
 wait $!
 cp libEPG.config libEPG-Mojtv.config
 wait $!
-rm guide.xml
+# guide.xml
 rm libEPG.config
 cd $samdec
 rm guide-mojtv-test.xml <<EOF
