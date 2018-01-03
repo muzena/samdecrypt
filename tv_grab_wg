@@ -1,4 +1,8 @@
 #!/bin/bash
+set -e
+
+#http://www.webgrabplus.com/documentation/interact-your-pvr-software/tvheadend
+#http://www.webgrabplus.com/content/epg-channels#s52
 
 rm /tmp/guide-bnet.xml
 wget -O /tmp/guide-bnet.xml  https://raw.githubusercontent.com/muzena/samdecrypt/libepg/guide-bnet.xml
