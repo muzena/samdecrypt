@@ -433,8 +433,12 @@ sed -i 's/>VH-1</>VH1 sr</g' guide-bnet-test.xml
 # ESKA tv online test tv
 sed -i 's/"Eska TV">/"Eska">/g' guide-bnet-test.xml
 sed -i 's/>Eska TV</>Eska</g' guide-bnet-test.xml
+# Redlight online test tv
+sed -i 's/"(18+) Redlight HD">/"Redlight HD">/g' guide-bnet-test.xml
+sed -i 's/>(18+) Redlight HD</>Redlight HD</g' guide-bnet-test.xml
 # Correct hr language header
 sed -i 's/lang="pl/lang="hr/g' guide-bnet-test.xml
+sed -i 's/lang="nl/lang="hr/g' guide-bnet-test.xml
  <<EOF
 EOF
 }
