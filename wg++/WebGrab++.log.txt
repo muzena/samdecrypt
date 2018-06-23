@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/06/2018 01:14:51
+[        ] Job started at 24/06/2018 01:27:20
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.41500
 [  Debug ] Environment: 4.0.30319.42000
@@ -145,7 +145,7 @@
 [  Info  ]      total after update        332
 
 [  Debug ] 
-[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
+[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 1 hour(s)
 [  Info  ]    Summary for update of       HRT 1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     332
@@ -376,26 +376,24 @@
 [Warning ] episode-num unchanged: (1), crtana serija (23/40)
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           376
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 377
 [  Info  ]      total after update        377
 
 [  Debug ] 
-[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
+[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset -1 hour(s)
 [  Info  ]    Summary for update of       HRT 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     377
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        377
+[  Info  ]      total after update        754
 
 [  Debug ] 
 [  Debug ] 1750 shows in 5 channels
 [  Debug ] 0 updated shows
-[  Debug ] 377 new shows added
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/06/2018 01:15:21 done in 29s
-[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
+[        ] Job finished at 24/06/2018 01:27:50 done in 29s
+[  Debug ] statistics upload error: The operation has timed out.
