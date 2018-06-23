@@ -13,17 +13,10 @@
  
   <!-- replace the next dummy channel entry with the channels you want -->
   <!-- see http://webgrabplus.com/node/94 for the available sites/channels -->
-      <!-- <channel update="i" site="m.tvprofil.net" site_id="htv1" xmltv_id="HTV1">HTV1</channel> -->
-      <!-- <channel update="i" site="m.tvprofil.net" site_id="htv2" xmltv_id="HTV2">HTV2</channel> -->
-    <!-- <channel update="i" site="m.tvprofil.net" site_id="htv1" xmltv_id="HTV1">HTV1</channel>
-    <channel update="i" site="m.tvprofil.net" site_id="htv2" xmltv_id="HTV2">HTV2</channel>
-    <channel update="i" site="m.tvprofil.net" site_id="htv3" xmltv_id="HTV3">HTV3</channel>
-    <channel update="i" site="m.tvprofil.net" site_id="htv4" xmltv_id="HTV4">HTV4</channel> -->
     <!-- HRVATSKI PROGRAMI -->
     <channel update="i" site="bnet.hr" site_id="957" xmltv_id="HTV 1">HTV 1</channel>
     <channel offset="1" same_as="HTV 1" xmltv_id="HRT 1">HRT 1</channel>
-    <channel offset="0" same_as="HTV 1" xmltv_id="HRT1 (L2)">HRT1 (L2)</channel>
     <channel update="i" site="bnet.hr" site_id="958" xmltv_id="HTV 2">HTV 2</channel>
-    <channel offset="-1" same_as="HTV 2" xmltv_id="HRT 2">HRT 2</channel>
+    <channel offset="1" same_as="HTV 2" xmltv_id="HRT 2">HRT 2</channel>
 
 </settings>

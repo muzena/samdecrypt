@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/06/2018 01:27:20
+[        ] Job started at 24/06/2018 01:40:35
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.41500
 [  Debug ] Environment: 4.0.30319.42000
@@ -21,7 +21,6 @@
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HTV 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
-[  Info  ] Found existing channel (xmltv_id=HRT1 (L2)) in the config file
 [  Info  ] Found existing channel (xmltv_id=HTV 2) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 2) in the config file
 [  Info  ] 
@@ -30,9 +29,9 @@
 [  Info  ] 
 [  Info  ] 
 [  Info  ] Group (0) :
-[  Info  ] update requested for - 5 - out of - 5 - channels for 11 day(s)
+[  Info  ] update requested for - 4 - out of - 4 - channels for 11 day(s)
 [  Debug ] 
-[  Info  ] (   1/5   ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
+[  Info  ] (   1/4   ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 22/06/2018 23:22
 [Warning ] No episode-num matching
 [Warning ] episode-num unchanged: (1): Bračni drugovi, vječna vatra (5/12)
@@ -154,16 +153,7 @@
 [  Info  ]      total after update        664
 
 [  Debug ] 
-[  Info  ] channel HRT1 (L2) same as -- HTV 1 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       HRT1 (L2)
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     332
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        664
-
-[  Debug ] 
-[  Info  ] (   4/5   ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
+[  Info  ] (   3/4   ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 22/06/2018 23:14
 [Warning ] No episode-num matching
 [Warning ] episode-num unchanged: (1), serija za djecu (9/26)
@@ -381,7 +371,7 @@
 [  Info  ]      total after update        377
 
 [  Debug ] 
-[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset -1 hour(s)
+[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 1 hour(s)
 [  Info  ]    Summary for update of       HRT 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     377
@@ -390,10 +380,10 @@
 [  Info  ]      total after update        754
 
 [  Debug ] 
-[  Debug ] 1750 shows in 5 channels
+[  Debug ] 1418 shows in 4 channels
 [  Debug ] 0 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/06/2018 01:27:50 done in 29s
-[  Debug ] statistics upload error: The operation has timed out.
+[        ] Job finished at 24/06/2018 01:41:03 done in 27s
+[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
