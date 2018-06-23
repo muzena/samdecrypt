@@ -4,7 +4,7 @@ set -x
 
 #for i in `grep -rl 2.4.6 . 2> /dev/null`; do sed -i 's/2.4.6/2.4.6.1/' $i; done
 
-samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
+#samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
 
 function fixchannelnames_main()
 {
@@ -1102,6 +1102,46 @@ rm guide-tvprofil-test.xml <<EOF
 EOF
 }
 
+########## VIP TV ##################################
+
+
+function update_viptv_grabber()
+{
+#rm ./pharser/libEPG-Viptv.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-viptv.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-viptv.xml ./pharser/guide-viptv.xml
+#cd pharser
+# generate bnet config file
+##### Viptv pharser
+# python pharser-viptv.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-viptv.xml
+#cd ..
+#wait $!
+#### Generate bnet config file with libEPG_xml2josn
+cp guide-viptv.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-Viptv.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Viptv.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
+
 
 
 
@@ -1130,9 +1170,11 @@ wait $!
 #######  Generate json config files
 #update_Main_grabber
 wait $!
-update_Bnet_grabber
+#update_Bnet_grabber
 wait $!
 #update_Bnet_grabber_IPTV
+wait $!
+update_viptv_grabber
 wait $!
 #update_Mojtv_grabber
 wait $!
