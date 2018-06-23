@@ -3,12 +3,12 @@
    
   <!-- for detailed info about the settings see http://webgrabplus.com/node/30 -->
    
-  <filename>../guide-bnet.xml</filename>
+  <filename>../guide-bnet-iptv.xml</filename>
   <mode>n</mode>
   <postprocess run="n" grab="y">mdb</postprocess>
   <logging>on</logging>
   <retry time-out="7">4</retry>
-  <timespan>10</timespan>
+  <timespan>0</timespan>
   <update>i</update>
  
   <!-- replace the next dummy channel entry with the channels you want -->
@@ -19,8 +19,14 @@
     <channel update="i" site="m.tvprofil.net" site_id="htv2" xmltv_id="HTV2">HTV2</channel>
     <channel update="i" site="m.tvprofil.net" site_id="htv3" xmltv_id="HTV3">HTV3</channel>
     <channel update="i" site="m.tvprofil.net" site_id="htv4" xmltv_id="HTV4">HTV4</channel> -->
+    <!-- HRVATSKI PROGRAMI -->
     <channel update="i" site="bnet.hr" site_id="957" xmltv_id="HTV 1">HTV 1</channel>
+    <channel offset="0" same_as="HTV 1" xmltv_id="HRT 1">HRT 1</channel>
+    <channel offset="0" same_as="HTV 1" xmltv_id="HRT1 (L2)">HRT1 (L2)</channel>
     <channel update="i" site="bnet.hr" site_id="958" xmltv_id="HTV 2">HTV 2</channel>
+    <channel offset="0" same_as="HTV 2" xmltv_id="HRT 2">HRT 2</channel>
+    <channel offset="0" same_as="HTV 2" xmltv_id="HRT 2 HD">HRT 2 HD</channel>
+    <channel offset="0" same_as="HTV 2" xmltv_id="HRT2 (L2)">HRT2 (L2)</channel>
     <channel update="i" site="bnet.hr" site_id="953" xmltv_id="HTV 3">HTV 3</channel>
     <channel update="i" site="bnet.hr" site_id="3673" xmltv_id="HTV 4">HTV 4</channel>
     <channel update="i" site="bnet.hr" site_id="960" xmltv_id="NOVA TV">NOVA TV</channel>
@@ -28,47 +34,130 @@
     <channel update="i" site="bnet.hr" site_id="955" xmltv_id="DOMA TV">DOMA TV</channel>
     <channel update="i" site="bnet.hr" site_id="956" xmltv_id="RTL2">RTL2</channel>
     <channel update="i" site="bnet.hr" site_id="173" xmltv_id="RTL PLUS">RTL PLUS</channel>
+    <channel update="i" site="bnet.hr" site_id="970" xmltv_id="MREŽAZG">MREŽAZG</channel>
+    <channel update="i" site="bnet.hr" site_id="987" xmltv_id="JABUKA TV">JABUKA TV</channel>
+    <channel update="i" site="bnet.hr" site_id="986" xmltv_id="Z1">Z1</channel>
+    <!-- DOKUMENTARNI PROGRAMI -->
+    <channel update="i" site="bnet.hr" site_id="910" xmltv_id="DISCOVERY CHANNEL">DISCOVERY CHANNEL</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="908" xmltv_id="NATIONAL GEOGRAPHIC">NATIONAL GEOGRAPHIC</channel>-->
+    <channel update="i" site="vip.hr" site_id="908##national_geographic/8852-4-cro-HR/national_geographic.png" xmltv_id="NATIONAL GEOGRAPHIC">NATIONAL GEOGRAPHIC</channel>
+    <channel update="i" site="bnet.hr" site_id="913" xmltv_id="VIASAT HISTORY">VIASAT HISTORY</channel>
+    <channel update="i" site="bnet.hr" site_id="906" xmltv_id="ANIMAL PLANET">ANIMAL PLANET</channel>
+    <channel update="i" site="bnet.hr" site_id="912" xmltv_id="VIASAT EXPLORER">VIASAT EXPLORER</channel>
+    <channel update="i" site="bnet.hr" site_id="3790" xmltv_id="TLC">TLC</channel>
+    <!-- ANIMIRANI PROGRAMI -->
+    <channel update="i" site="bnet.hr" site_id="918" xmltv_id="CARTOON NETWORK">CARTOON NETWORK</channel>
+    <channel offset="0" same_as="CARTOON NETWORK" xmltv_id="Cartoon Network">Cartoon Network</channel>
+    <channel update="i" site="bnet.hr" site_id="3803" xmltv_id="NICKELODEON">NICKELODEON</channel>
+    <channel update="i" site="bnet.hr" site_id="3505" xmltv_id="DISNEY CHANNEL">DISNEY CHANNEL</channel>
+    <channel offset="0" same_as="DISNEY CHANNEL" xmltv_id="Disney Channel">Disney Channel</channel>
+    <channel update="i" site="bnet.hr" site_id="65" xmltv_id="MINI TV">MINI TV</channel>
+    <channel update="i" site="bnet.hr" site_id="100" xmltv_id="NICK JR.">NICK JR.</channel>
+    <channel offset="0" same_as="NICK JR." xmltv_id="NickJr.">NickJr.</channel>
+    <channel update="i" site="bnet.hr" site_id="97" xmltv_id="DUCK TV">DUCK TV</channel>
+    <channel offset="0" same_as="DUCK TV" xmltv_id="Duck TV">Duck TV</channel>
+    <channel update="i" site="mojtv.hr" site_id="54/boomerang" xmltv_id="Boomerang">Boomerang</channel>
+    <channel update="i" site="vip.hr" site_id="172##jim_jam/1402-4-cro-HR/jim_jam.png" xmltv_id="JIM JAM">JIM JAM</channel>
+    <channel offset="0" same_as="JIM JAM" xmltv_id="JimJam">JimJam</channel>
+    <channel update="i" site="bnet.hr" site_id="4560" xmltv_id="RTL KOCKICA">RTL KOCKICA</channel>
+    <!-- GLAZBENI PROGRAMI -->
+    <channel update="i" site="bnet.hr" site_id="1028" xmltv_id="MTV">MTV</channel>
+    <channel update="i" site="bnet.hr" site_id="1029" xmltv_id="VH1">VH1</channel>
+    <channel update="i" site="bnet.hr" site_id="954" xmltv_id="CROATIAN MUSIC CHANNEL">CROATIAN MUSIC CHANNEL</channel>
+    <channel update="i" site="vip.hr" site_id="3507##rtv_banovina/31833-6-cro-HR/rtv_banovina.png" xmltv_id="RTV Banovina">RTV Banovina</channel>
+    <channel offset="0" same_as="RTV Banovina" xmltv_id="Banovina">Banovina</channel>
+    <!--<channel update="i" site="programtv.interia.pl" site_id="stacja-eska-tv,page,pl-name,cid,20906550" xmltv_id="Eska TV">Eska TV</channel> -->
+    <!-- FILMSKI PROGRAMI -->
     <channel update="i" site="bnet.hr" site_id="926" xmltv_id="CINESTAR ACTION &amp; THRILLER">CINESTAR ACTION &amp; THRILLER</channel>
     <channel update="i" site="bnet.hr" site_id="156" xmltv_id="CINESTAR TV">CINESTAR TV</channel>
     <channel update="i" site="bnet.hr" site_id="925" xmltv_id="VIASAT TV1000">VIASAT TV1000</channel>
     <channel update="i" site="bnet.hr" site_id="3711" xmltv_id="FOX">FOX</channel>
     <channel update="i" site="bnet.hr" site_id="929" xmltv_id="FOX LIFE">FOX LIFE</channel>
-    <channel update="i" site="bnet.hr" site_id="931" xmltv_id="UNIVERSAL CHANNEL">UNIVERSAL CHANNEL</channel>
+    <channel offset="0" same_as="FOX LIFE" xmltv_id="FOX LIFE SLO">FOX LIFE SLO</channel>
+    <channel update="i" site="mojtv.hr" site_id="286/fox-movies" xmltv_id="Fox Movies">Fox Movies</channel>
+    <!--<channel update="i" site="mojtv.hr" site_id="319/fox" xmltv_id="Fox">Fox</channel>
+    <channel update="i" site="mojtv.hr" site_id="69/fox-life" xmltv_id="Fox Life">Fox Life</channel>-->
+    <channel update="i" site="mojtv.hr" site_id="70/fox-crime" xmltv_id="Fox Crime">Fox Crime</channel>
+    <channel offset="0" same_as="Fox Crime" xmltv_id="FOX Crime SLO">FOX Crime SLO</channel>
+    <channel update="i" site="mojtv.hr" site_id="495/filmbox-plus" xmltv_id="FilmBox Plus">FilmBox Plus</channel>
+    <channel offset="0" same_as="FilmBox Plus" xmltv_id="FilmBox Plus SRB">FilmBox Plus SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="496/filmbox-extra-hd" xmltv_id="FilmBox Extra HD">FilmBox Extra HD</channel>
+    <channel offset="0" same_as="FilmBox Extra HD" xmltv_id="FilmBox Extra">FilmBox Extra</channel>
+    <channel update="i" site="bnet.hr" site_id="931" xmltv_id="DIVA">DIVA</channel>
     <channel update="i" site="bnet.hr" site_id="5747" xmltv_id="COMEDY CENTRAL EXTRA">COMEDY CENTRAL EXTRA</channel>
-    <channel update="i" site="bnet.hr" site_id="910" xmltv_id="DISCOVERY CHANNEL">DISCOVERY CHANNEL</channel>
-    <channel update="i" site="bnet.hr" site_id="908" xmltv_id="NATIONAL GEOGRAPHIC">NATIONAL GEOGRAPHIC</channel>
-    <channel update="i" site="bnet.hr" site_id="913" xmltv_id="VIASAT HISTORY">VIASAT HISTORY</channel>
-    <channel update="i" site="bnet.hr" site_id="906" xmltv_id="ANIMAL PLANET">ANIMAL PLANET</channel>
-    <channel update="i" site="bnet.hr" site_id="912" xmltv_id="VIASAT EXPLORER">VIASAT EXPLORER</channel>
-    <channel update="i" site="bnet.hr" site_id="3790" xmltv_id="TLC">TLC</channel>
-    <channel update="i" site="bnet.hr" site_id="970" xmltv_id="MREŽAZG">MREŽAZG</channel>
-    <channel update="i" site="bnet.hr" site_id="987" xmltv_id="JABUKA TV">JABUKA TV</channel>
-    <channel update="i" site="bnet.hr" site_id="986" xmltv_id="Z1">Z1</channel>
-    <channel update="i" site="bnet.hr" site_id="965" xmltv_id="CNN">CNN</channel>
-    <channel update="i" site="bnet.hr" site_id="918" xmltv_id="CARTOON NETWORK">CARTOON NETWORK</channel>
-    <channel update="i" site="bnet.hr" site_id="3803" xmltv_id="NICKELODEON">NICKELODEON</channel>
-    <channel update="i" site="bnet.hr" site_id="3505" xmltv_id="DISNEY CHANNEL">DISNEY CHANNEL</channel>
-    <channel update="i" site="bnet.hr" site_id="65" xmltv_id="MINI TV">MINI TV</channel>
-    <channel update="i" site="bnet.hr" site_id="4560" xmltv_id="RTL KOCKICA">RTL KOCKICA</channel>
-    <channel update="i" site="bnet.hr" site_id="937" xmltv_id="SPORTSKA TV">SPORTSKA TV</channel>
-    <channel update="i" site="bnet.hr" site_id="941" xmltv_id="EUROSPORT">EUROSPORT</channel>
-    <channel update="i" site="bnet.hr" site_id="164" xmltv_id="EUROSPORT 2">EUROSPORT 2</channel>
-    <channel update="i" site="bnet.hr" site_id="945" xmltv_id="SK 1">SK 1</channel>
-    <channel update="i" site="bnet.hr" site_id="3499" xmltv_id="SK 3">SK 3</channel>
-    <channel update="i" site="bnet.hr" site_id="1028" xmltv_id="MTV">MTV</channel>
-    <channel update="i" site="bnet.hr" site_id="1029" xmltv_id="VH1">VH1</channel>
-    <channel update="i" site="bnet.hr" site_id="954" xmltv_id="CROATIAN MUSIC CHANNEL">CROATIAN MUSIC CHANNEL</channel>
-    <channel update="i" site="bnet.hr" site_id="965" xmltv_id="N1">N1</channel>
-    <!--<channel update="i" site="programtv.interia.pl" site_id="stacja-eska-tv,page,pl-name,cid,20906550" xmltv_id="Eska TV">Eska TV</channel> -->
-    <channel update="i" site="bnet.hr" site_id="1016" xmltv_id="RTS 1">RTS 1</channel>
-    <channel update="i" site="bnet.hr" site_id="1021" xmltv_id="RTS 2">RTS 2</channel>
+    <channel update="i" site="bnet.hr" site_id="169" xmltv_id="SCI FI">SCI FI</channel>
+    <channel update="i" site="bnet.hr" site_id="6774" xmltv_id="AXN">AXN</channel>
+    <channel update="i" site="mojtv.hr" site_id="528/axn-spin" xmltv_id="AXN Spin">AXN Spin</channel>
+    <channel offset="0" same_as="AXN Spin" xmltv_id="AXN Spin SRB">AXN Spin SRB</channel>
+    <channel update="i" site="bnet.hr" site_id="4409" xmltv_id="CINESTAR TV PREMIERE 1">CINESTAR TV PREMIERE 1</channel>
+    <channel update="i" site="bnet.hr" site_id="4410" xmltv_id="CINESTAR TV PREMIERE 2">CINESTAR TV PREMIERE 2</channel>
+    <channel update="i" site="bnet.hr" site_id="4413" xmltv_id="CINESTAR TV PREMIERE 1 HD">CINESTAR TV PREMIERE 1 HD</channel>
+    <channel update="i" site="bnet.hr" site_id="4414" xmltv_id="CINESTAR TV PREMIERE 2 HD">CINESTAR TV PREMIERE 2 HD</channel>
+    <channel update="i" site="bnet.hr" site_id="927" xmltv_id="KLASIK TV">KLASIK TV</channel>
+    <channel update="i" site="bnet.hr" site_id="3712" xmltv_id="KINOTV">KINOTV</channel>
     <channel update="i" site="bnet.hr" site_id="6638" xmltv_id="AMC">AMC</channel>
-    <channel update="i" site="bnet.hr" site_id="920" xmltv_id="HBO">HBO</channel>
-    <channel update="i" site="bnet.hr" site_id="930" xmltv_id="HBO 2">HBO 2</channel>
-    <channel update="i" site="bnet.hr" site_id="6364" xmltv_id="HBO 3">HBO 3</channel>
-    <channel update="i" site="bnet.hr" site_id="3667" xmltv_id="HBO HD">HBO HD</channel>
+    <channel update="i" site="vip.hr" site_id="920##hbo/9041-4-cro-HR/hbo.png" xmltv_id="HBO">HBO</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="920" xmltv_id="HBO">HBO</channel>-->
+    <channel offset="0" same_as="HBO" xmltv_id="HBO Adria SLO">HBO Adria SLO</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="930" xmltv_id="HBO 2">HBO 2</channel>
+    <channel update="i" site="bnet.hr" site_id="6364" xmltv_id="HBO 3">HBO 3</channel>-->
+    <channel update="i" site="vip.hr" site_id="930##hbo_2/9176-8-cro-HR/hbo_2.png" xmltv_id="HBO 2">HBO 2</channel>
+    <channel update="i" site="vip.hr" site_id="6364##hbo_3/59622-1-cro-HR/hbo_3.png" xmltv_id="HBO 3">HBO 3</channel>
+    <channel offset="0" same_as="HBO 3" xmltv_id="HBO 3 SLO">HBO 3 SLO</channel>
+    <channel update="i" site="vip.hr" site_id="3667##hbo_hd/33380-7-cro-HR/hbo_hd.png" xmltv_id="HBO HD">HBO HD</channel>
+    <channel update="i" site="vip.hr" site_id="3670##hbo_2_hd/33440-9-cro-HR/hbo_2_hd.png" xmltv_id="HBO 2 HD">HBO 2 HD</channel>
+    <channel update="i" site="vip.hr" site_id="6365##hbo_3_hd/59645-1-cro-HR/hbo_3_hd.png" xmltv_id="HBO 3 HD">HBO 3 HD</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="3667" xmltv_id="HBO HD">HBO HD</channel>
     <channel update="i" site="bnet.hr" site_id="3670" xmltv_id="HBO 2 HD">HBO 2 HD</channel>
-    <channel update="i" site="bnet.hr" site_id="6365" xmltv_id="HBO 3 HD">HBO 3 HD</channel>
+    <channel update="i" site="bnet.hr" site_id="6365" xmltv_id="HBO 3 HD">HBO 3 HD</channel>-->
+    <!-- REGIONALNI PROGRAMI -->
+    <channel update="i" site="vip.hr" site_id="1016##rts_1/10518-4-cro-HR/rts_1.png" xmltv_id="RTS 1">RTS 1</channel>
+    <channel update="i" site="vip.hr" site_id="1021##rts_2/10603-4-cro-HR/rts_2.png" xmltv_id="RTS 2">RTS 2</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="1016" xmltv_id="RTS 1">RTS 1</channel>
+    <channel update="i" site="bnet.hr" site_id="1021" xmltv_id="RTS 2">RTS 2</channel>-->
+    <!-- SPORTSKI PROGRAMI -->
+    <channel update="i" site="bnet.hr" site_id="937" xmltv_id="SPORTSKA TV">SPORTSKA TV</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="945" xmltv_id="SK 1">SK 1</channel>
+    <channel update="i" site="bnet.hr" site_id="3499" xmltv_id="SK 3">SK 3</channel>-->
+    <channel update="i" site="vip.hr" site_id="3499##sk_3/31686-8-cro-HR/sk_3.png" xmltv_id="SK 3">SK 3</channel>
+    <channel offset="0" same_as="SK 3" xmltv_id="SportKlub 3">SportKlub 3</channel>
+    <channel offset="0" same_as="SK 3" xmltv_id="SportKlub 3 SLO">SportKlub 3 SLO</channel>
+    <channel update="i" site="vip.hr" site_id="945##sk_1/9416-6-cro-HR/sk_1.png" xmltv_id="SK 1">SK 1</channel>
+    <channel offset="0" same_as="SK 1" xmltv_id="SportKlub 1">SportKlub 1</channel>
+    <channel offset="0" same_as="SK 1" xmltv_id="SportKlub 1 SLO">SportKlub 1 SLO</channel>
+    <channel update="i" site="vip.hr" site_id="162##sk_2/1232-6-cro-HR/sk_2.png" xmltv_id="SK 2">SK 2</channel>
+    <channel offset="0" same_as="SK 2" xmltv_id="SportKlub 2">SportKlub 2</channel>
+    <channel offset="0" same_as="SK 2" xmltv_id="SportKlub 2 SLO">SportKlub 2 SLO</channel>
+    <channel update="i" site="vip.hr" site_id="938##sk_4/9297-5-cro-HR/sk_4.png" xmltv_id="SK 4">SK 4</channel>
+    <channel offset="0" same_as="SK 4" xmltv_id="SportKlub 4">SportKlub 4</channel>
+    <channel update="i" site="vip.hr" site_id="939##sk_5/9314-5-cro-HR/sk_5.png" xmltv_id="SK 5">SK 5</channel>
+    <channel offset="0" same_as="SK 5" xmltv_id="SportKlub 5">SportKlub 5</channel>
+    <channel update="i" site="vip.hr" site_id="940##sk_6/9331-5-cro-HR/sk_6.png" xmltv_id="SK 6">SK 6</channel>
+    <channel offset="0" same_as="SK 6" xmltv_id="SportKlub 6">SportKlub 6</channel>
+    <channel update="i" site="mojtv.hr" site_id="179/arena-sport-1" xmltv_id="Arena Sport 1">Arena Sport 1</channel>
+    <channel offset="0" same_as="Arena Sport 1" xmltv_id="Arena Sport 1 SRB">Arena Sport 1 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="180/arena-sport-2" xmltv_id="Arena Sport 2">Arena Sport 2</channel>
+    <channel offset="0" same_as="Arena Sport 2" xmltv_id="Arena Sport 2 SRB">Arena Sport 2 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="253/arena-sport-3" xmltv_id="Arena Sport 3">Arena Sport 3</channel>
+    <channel offset="0" same_as="Arena Sport 3" xmltv_id="Arena Sport 3 SRB">Arena Sport 3 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="264/arena-sport-4" xmltv_id="Arena Sport 4">Arena Sport 4</channel>
+    <channel offset="0" same_as="Arena Sport 4" xmltv_id="Arena Sport 4 SRB">Arena Sport 4 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="533/arena-sport-6" xmltv_id="Arena Sport 6">Arena Sport 6</channel>
+    <channel offset="0" same_as="Arena Sport 6" xmltv_id="Arena Sport 6 SRB">Arena Sport 6 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="460/arena-sport-5" xmltv_id="Arena Sport 5">Arena Sport 5</channel>
+    <channel offset="0" same_as="Arena Sport 5" xmltv_id="Arena Sport 5 SRB">Arena Sport 5 SRB</channel>
+    <channel update="i" site="mojtv.hr" site_id="50/eurosport" xmltv_id="Eurosport">Eurosport</channel>
+    <channel offset="0" same_as="Eurosport" xmltv_id="EUROSPORT 1 SR">EUROSPORT 1 SR</channel>
+    <channel update="i" site="mojtv.hr" site_id="51/eurosport-2" xmltv_id="Eurosport 2">Eurosport 2</channel>
+    <channel offset="0" same_as="Eurosport 2" xmltv_id="EUROSPORT 2 SR">EUROSPORT 2 SR</channel>
+    <!-- INFORMATIVNI PROGRAMI -->
+    <channel update="i" site="bnet.hr" site_id="965" xmltv_id="N1">N1</channel>
+    <!--<channel update="i" site="bnet.hr" site_id="965" xmltv_id="CNN">CNN</channel> -->
+
+
+
+
+
  <!--        <channel update="i" site="tv.sms.cz.m" site_id="Redlight+HD" xmltv_id="Redlight HD">Redlight HD</channel> -->
     <channel update="i" site="tvvlaanderen.be" site_id="1791012928" xmltv_id="(18+) Redlight HD">(18+) Redlight HD</channel>
  <!--    <channel update="i" site="mojtv.hr" site_id="31/b92" xmltv_id="B92">B92</channel>

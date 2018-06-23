@@ -885,6 +885,57 @@ rm guide-bnet-test.xml <<EOF
 EOF
 }
 
+
+########## Bnet IPTV ##################################
+
+
+function update_Bnet_grabber_IPTV()
+{
+# rm ./pharser/libEPG-Bnet.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Bnet
+cp ./wg++/WebGrab++.config-bnet-iptv.xml ./wg++/WebGrab++.config.xml
+cp ./wg++/WebGrab++.config.xml ./wg++/iptv-guide.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+# fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-bnet-test.xml ./pharser/guide-bnet.xml
+#cd pharser
+# generate bnet config file
+##### Bnet pharser
+#python pharser-bnet.py
+#wait $!
+#rm guide-bnet.xml
+#cd ..
+#wait $!
+#### Generate bnet config file with libEPG_xml2josn
+#cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+#cd ./libEPG_xml2josn/bin/Debug
+#rm libEPG-Bnet.config
+#wait $!
+#mono libEPG_xml2josn.exe
+#wait $!
+#cp libEPG.config libEPG-Bnet.config
+#wait $!
+#rm guide.xml
+#rm libEPG.config
+#cd $samdec
+#rm guide-bnet-test.xml
+echo "Završeno!" <<EOF
+EOF
+}
+
+
+
+
+
+
+
 ########## Mojtv ##################################
 
 function update_Mojtv_grabber()
@@ -1079,7 +1130,9 @@ wait $!
 #######  Generate json config files
 #update_Main_grabber
 wait $!
-update_Bnet_grabber
+#update_Bnet_grabber
+wait $!
+update_Bnet_grabber_IPTV
 wait $!
 #update_Mojtv_grabber
 wait $!
