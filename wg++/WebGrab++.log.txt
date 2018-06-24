@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/06/2018 02:02:39
+[        ] Job started at 24/06/2018 02:09:04
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.15.0.41500
 [  Debug ] Environment: 4.0.30319.42000
@@ -16,13 +16,14 @@
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: timezone.timezonesdata.txt
 [  Debug ] Reading config file: /home/goran/samdecrypt/wg++/WebGrab++.config.xml
-[  Info  ] found: /home/goran/samdecrypt/wg++/bnet.hr.ini -- Revision 03
+[  Info  ] found: /home/goran/samdecrypt/wg++/vip.hr.ini -- Revision 00
 [  Debug ] xmltv input file - /home/goran/samdecrypt/guide-viptv.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HTV 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=HTV 2) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 2) in the config file
+[  Info  ] time offset change detected for site vip.hr from: +0000 to: +0200
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -31,324 +32,286 @@
 [  Info  ] Group (0) :
 [  Info  ] update requested for - 4 - out of - 4 - channels for 11 day(s)
 [  Debug ] 
-[  Info  ] (   1/4   ) BNET.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
+[  Info  ] (   1/4   ) VIP.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:54
-[  Debug ]    skipped : show starting before the actual show at24/06/2018 23:19
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 01:13
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 02:08
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 03:40
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 03:55
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 04:46
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 04:55
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 05:28
-[  Debug ]    skipped : fully overlapping show from 25/06/2018 05:58
-[  Debug ]                                       to 25/06/2018 06:28
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Sestre (6/12)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Sestre (6/12)
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 23:56
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 00:11
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 00:14
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 00:16
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 00:29
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 01:12
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 01:53
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 03:32
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 03:42
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 03:55
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Sestre (6/12)
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 04:21
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 05:12
-[  Debug ]    skipped : fully overlapping show from 26/06/2018 05:47
-[  Debug ]                                       to 26/06/2018 06:32
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (7/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (7/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Muško - ženska prijateljstva (7/12)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Muško - ženska prijateljstva (7/12)
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 23:47
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 00:00
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 00:45
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 01:26
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 03:05
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Muško - ženska prijateljstva (7/12)
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 03:20
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 04:11
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 05:02
-[  Debug ]    skipped : fully overlapping show from 27/06/2018 05:47
-[  Debug ]                                       to 27/06/2018 06:32
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (8/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (8/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Roditeljstvo - biti Mama? (8/12)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Roditeljstvo - biti Mama? (8/12)
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 23:46
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 00:02
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 00:47
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 01:32
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 03:12
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 03:22
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Roditeljstvo - biti Mama? (8/12)
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 04:12
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 05:02
-[  Debug ]    skipped : fully overlapping show from 28/06/2018 05:47
-[  Debug ]                                       to 28/06/2018 06:39
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (9/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), humoristična serija (9/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Svekrva - mitsko čudovište (9/12)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Svekrva - mitsko čudovište (9/12)
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 23:52
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 00:04
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 00:47
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 01:27
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 03:06
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 03:36
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 03:48
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Svekrva - mitsko čudovište (9/12)
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 04:00
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 04:50
-[  Debug ]    skipped : fully overlapping show from 29/06/2018 05:36
-[  Debug ]                                       to 29/06/2018 06:22
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Prekidi, razvodi, preljubi (10/12)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Prekidi, razvodi, preljubi (10/12)
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 23:40
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 00:25
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 02:05
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 03:50
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1): Prekidi, razvodi, preljubi (10/12)
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 04:15
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 05:05
-[  Debug ]    skipped : fully overlapping show from 30/06/2018 05:50
-[  Debug ]                                       to 30/06/2018 06:35
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 03:35:00 stop = 24/06/2018 04:05:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 03:35:00 stop = 24/06/2018 04:05:00 title = Međimurska zlatarija, emisija pučke i predajne kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 05:35:00 stop = 24/06/2018 06:20:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 05:35:00 stop = 24/06/2018 06:20:00 title = Prizma, multinacionalni magazin
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 15:37:00 stop = 24/06/2018 16:26:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 15:37:00 stop = 24/06/2018 16:26:00 title = Ljudi i kitopsine, dokumentarni film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 06:55:00 stop = 25/06/2018 07:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 06:55:00 stop = 25/06/2018 07:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 07:11:00 stop = 25/06/2018 08:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 07:11:00 stop = 25/06/2018 08:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 08:11:00 stop = 25/06/2018 09:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 08:11:00 stop = 25/06/2018 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 09:11:00 stop = 25/06/2018 10:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 09:11:00 stop = 25/06/2018 10:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 10:10:00 stop = 25/06/2018 10:30:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 10:10:00 stop = 25/06/2018 10:30:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 13:16:00 stop = 25/06/2018 13:59:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 13:16:00 stop = 25/06/2018 13:59:00 title = Dr. Oz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 03:55:00 stop = 26/06/2018 04:21:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 03:55:00 stop = 26/06/2018 04:21:00 title = Markovčani, emisija pučke i predajne kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 04:21:00 stop = 26/06/2018 05:12:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 04:21:00 stop = 26/06/2018 05:12:00 title = Žene, povjerljivo!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 06:55:00 stop = 26/06/2018 07:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 06:55:00 stop = 26/06/2018 07:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 07:11:00 stop = 26/06/2018 08:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 07:11:00 stop = 26/06/2018 08:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 08:11:00 stop = 26/06/2018 09:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 08:11:00 stop = 26/06/2018 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 09:11:00 stop = 26/06/2018 10:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 09:11:00 stop = 26/06/2018 10:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 10:10:00 stop = 26/06/2018 10:22:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 10:10:00 stop = 26/06/2018 10:22:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 13:14:00 stop = 26/06/2018 13:58:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 13:14:00 stop = 26/06/2018 13:58:00 title = Dr. Oz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 03:20:00 stop = 27/06/2018 04:11:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 03:20:00 stop = 27/06/2018 04:11:00 title = Žene, povjerljivo!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 06:55:00 stop = 27/06/2018 07:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 06:55:00 stop = 27/06/2018 07:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 07:10:00 stop = 27/06/2018 08:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 07:10:00 stop = 27/06/2018 08:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 08:10:00 stop = 27/06/2018 09:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 08:10:00 stop = 27/06/2018 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 09:10:00 stop = 27/06/2018 10:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 09:10:00 stop = 27/06/2018 10:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 10:10:00 stop = 27/06/2018 10:20:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 10:10:00 stop = 27/06/2018 10:20:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 13:15:00 stop = 27/06/2018 14:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 13:15:00 stop = 27/06/2018 14:00:00 title = Dr. Oz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 04:12:00 stop = 28/06/2018 05:02:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 04:12:00 stop = 28/06/2018 05:02:00 title = Žene, povjerljivo!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 06:55:00 stop = 28/06/2018 07:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 06:55:00 stop = 28/06/2018 07:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 07:10:00 stop = 28/06/2018 08:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 07:10:00 stop = 28/06/2018 08:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 08:10:00 stop = 28/06/2018 09:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 08:10:00 stop = 28/06/2018 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 09:10:00 stop = 28/06/2018 10:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 09:10:00 stop = 28/06/2018 10:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 10:10:00 stop = 28/06/2018 10:20:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 10:10:00 stop = 28/06/2018 10:20:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 13:17:00 stop = 28/06/2018 14:02:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 13:17:00 stop = 28/06/2018 14:02:00 title = Dr. Oz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 20:40:00 stop = 28/06/2018 22:40:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 20:40:00 stop = 28/06/2018 22:40:00 title = Košarka, Kvalifikacije za SP: Italija - Hrvatska, prijenos
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 04:00:00 stop = 29/06/2018 04:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 04:00:00 stop = 29/06/2018 04:50:00 title = Žene, povjerljivo!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 06:55:00 stop = 29/06/2018 07:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 06:55:00 stop = 29/06/2018 07:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 07:10:00 stop = 29/06/2018 08:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 07:10:00 stop = 29/06/2018 08:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 08:10:00 stop = 29/06/2018 09:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 08:10:00 stop = 29/06/2018 09:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 09:10:00 stop = 29/06/2018 10:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 09:10:00 stop = 29/06/2018 10:00:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 10:10:00 stop = 29/06/2018 10:15:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 10:10:00 stop = 29/06/2018 10:15:00 title = Dobro jutro, Hrvatska
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 13:15:00 stop = 29/06/2018 13:55:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 13:15:00 stop = 29/06/2018 13:55:00 title = Dr. Oz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/06/2018 04:15:00 stop = 30/06/2018 05:05:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 30/06/2018 04:15:00 stop = 30/06/2018 05:05:00 title = Žene, povjerljivo!
 [  Info  ] 
-[  Debug ] 
-[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset -1 hour(s)
-[  Debug ] 
-[  Info  ] (   3/4   ) BNET.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:51
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (11/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (11/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (12/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (12/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (13/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (13/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), crtana serija (13/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (2), crtana serija (13/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (23/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (23/40)
-[  Debug ]    skipped : show starting before the actual show at24/06/2018 23:49
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 01:35
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 02:20
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 03:10
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 04:05
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 04:06
-[  Debug ]    skipped : fully overlapping show from 25/06/2018 05:25
-[  Debug ]                                       to 25/06/2018 06:05
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (14/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (14/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (1/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (1/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (24/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (24/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (10/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (10/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (9/14)
-[  Debug ]    skipped show without a title at 25/06/2018 14:58:00
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (9/14)
-[  Debug ]    skipped : show starting before the actual show at25/06/2018 23:45
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 00:35
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 01:30
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 02:20
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 03:20
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 03:50
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 05:22
-[  Debug ]    skipped : fully overlapping show from 26/06/2018 05:53
-[  Debug ]                                       to 26/06/2018 06:35
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (15/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (15/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (2/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (2/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (25/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (25/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (11/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (11/13)
-[  Debug ]    skipped show without a title at 26/06/2018 14:52:00
-[  Debug ]    skipped : show starting before the actual show at26/06/2018 23:00
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 00:00
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 00:50
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 01:45
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 02:35
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 03:30
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 03:31
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 04:01
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 05:34
-[  Debug ]    skipped : fully overlapping show from 27/06/2018 05:59
-[  Debug ]                                       to 27/06/2018 06:40
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (16/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (16/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (26/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (26/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (12/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (12/13)
-[  Debug ]    skipped show without a title at 27/06/2018 11:46:00
-[  Debug ]    skipped : show starting before the actual show at27/06/2018 23:00
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 00:00
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 00:50
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 01:45
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 02:45
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 03:45
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 04:15
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 05:29
-[  Debug ]    skipped : fully overlapping show from 28/06/2018 05:59
-[  Debug ]                                       to 28/06/2018 06:41
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (17/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (17/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (4/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (4/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (27/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (27/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (13/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (13/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (10/14)
-[  Debug ]    skipped show without a title at 28/06/2018 14:58:00
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (10/14)
-[  Debug ]    skipped : show starting before the actual show at28/06/2018 23:00
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 00:00
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 00:50
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 01:45
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 02:45
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 03:45
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 04:15
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 05:20
-[  Debug ]    skipped : fully overlapping show from 29/06/2018 05:50
-[  Debug ]                                       to 29/06/2018 06:30
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (13/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (13/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (14/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), serija za djecu (14/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (18/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (18/26)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (5/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (5/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (28/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (28/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (1/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (3), crtana serija (1/13)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (11/14)
-[  Debug ]    skipped show without a title at 29/06/2018 15:10:00
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), dokumentarna serija (11/14)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (4), humoristična serija (15/20)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (4), humoristična serija (15/20)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (23/40)
-[Warning ] No episode-num matching
-[Warning ] episode-num unchanged: (1), crtana serija (23/40)
-[  Debug ]    skipped : show starting before the actual show at29/06/2018 23:42
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 01:22
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 02:07
-[  Debug ]    skipped : show starting before the actual show at30/06/2018 05:10
-[  Debug ]    skipped : fully overlapping show from 30/06/2018 05:50
-[  Debug ]                                       to 30/06/2018 06:30
-[  Info  ] 
-[  Info  ]    Summary for update of       HTV 2
+[  Info  ]    Summary for update of       HTV 1
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           4
-[  Info  ]      unchanged shows inspected 316
-[  Info  ]      total after update        320
+[  Info  ]      changed shows updated     47
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 248
+[  Info  ]      total after update        295
 
 [  Debug ] 
-[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset -1 hour(s)
-[  Info  ]    Summary for update of       HRT 2
+[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       HRT 1
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     320
+[  Info  ]      changed shows updated     295
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        639
+[  Info  ]      total after update        590
 
 [  Debug ] 
-[  Debug ] 1230 shows in 4 channels
-[  Debug ] 0 updated shows
-[  Debug ] 10 new shows added
+[  Info  ] (   3/4   ) VIP.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:51
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 04:13:00 stop = 24/06/2018 04:14:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 04:13:00 stop = 24/06/2018 04:14:00 title = Odjavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 12:06:00 stop = 24/06/2018 12:58:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 12:06:00 stop = 24/06/2018 12:58:00 title = Veličanstveni kolači Fione Cairns, dokumentarna serija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 13:49:00 stop = 24/06/2018 13:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 13:49:00 stop = 24/06/2018 13:50:00 title = Najavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 15:50:00 stop = 24/06/2018 15:54:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 15:50:00 stop = 24/06/2018 15:54:00 title = Odjavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 16:49:00 stop = 24/06/2018 16:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 16:49:00 stop = 24/06/2018 16:50:00 title = Najavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 18:50:00 stop = 24/06/2018 18:54:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 18:50:00 stop = 24/06/2018 18:54:00 title = Odjavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/06/2018 23:00:00 stop = 24/06/2018 23:49:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 24/06/2018 23:00:00 stop = 24/06/2018 23:49:00 title = Nogomet - SP, sažeci (3 susreta)
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 04:05:00 stop = 25/06/2018 04:06:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 04:05:00 stop = 25/06/2018 04:06:00 title = Odjavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 25/06/2018 14:58:00 stop = 25/06/2018 15:26:00 title = WG.common.xmltv.Title
+[  Info  ]       Added before - start = 25/06/2018 15:26:00 stop = 25/06/2018 15:49:00 title = Ciglu po ciglu - Bryk preuređuje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 15:49:00 stop = 25/06/2018 15:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 15:49:00 stop = 25/06/2018 15:50:00 title = Najavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 15:49:00 stop = 26/06/2018 15:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 26/06/2018 15:49:00 stop = 26/06/2018 15:50:00 title = Najavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 27/06/2018 03:30:00 stop = 27/06/2018 03:31:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 27/06/2018 03:30:00 stop = 27/06/2018 03:31:00 title = Odjavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 27/06/2018 11:46:00 stop = 27/06/2018 12:14:00 title = WG.common.xmltv.Title
+[  Info  ]       Added before - start = 27/06/2018 12:14:00 stop = 27/06/2018 12:39:00 title = Tragovima istraživačice: Tajne vikinškog blaga, kratki dokumentarni film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 13:25:00 stop = 28/06/2018 14:58:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 13:25:00 stop = 28/06/2018 14:58:00 title = Savršena kći, američki film (2015.)
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 28/06/2018 14:58:00 stop = 28/06/2018 15:26:00 title = WG.common.xmltv.Title
+[  Info  ]       Added before - start = 28/06/2018 15:26:00 stop = 28/06/2018 15:49:00 title = Ciglu po ciglu - Bryk preuređuje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 28/06/2018 15:49:00 stop = 28/06/2018 15:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 28/06/2018 15:49:00 stop = 28/06/2018 15:50:00 title = Najavna špica SP
+[  Info  ]    epg correction : 
+[  Info  ]  MISSING show added,
+[  Info  ]       show with ---- start = 29/06/2018 15:10:00 stop = 29/06/2018 15:35:00 title = WG.common.xmltv.Title
+[  Info  ]       Added before - start = 29/06/2018 15:35:00 stop = 29/06/2018 15:55:00 title = Ciglu po ciglu - Bryk preuređuje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 29/06/2018 21:10:00 stop = 29/06/2018 22:02:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 29/06/2018 21:10:00 stop = 29/06/2018 22:02:00 title = Svjetsko špijunsko prvenstvo, dokumentarni film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 30/06/2018 01:22:00 stop = 30/06/2018 02:07:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 30/06/2018 01:22:00 stop = 30/06/2018 02:07:00 title = Graham Norton i gosti
+[  Info  ] 
+[  Info  ]    Summary for update of       HTV 2
+[  Info  ]      missing shows added       5
+[  Info  ]      changed shows updated     93
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 227
+[  Info  ]      total after update        325
+
+[  Debug ] 
+[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       HRT 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     325
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        645
+
+[  Debug ] 
+[  Debug ] 1240 shows in 4 channels
+[  Debug ] 145 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/06/2018 02:03:04 done in 24s
+[        ] Job finished at 24/06/2018 02:09:35 done in 31s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
