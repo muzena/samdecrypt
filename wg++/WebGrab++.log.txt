@@ -7,11 +7,11 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 24/06/2018 23:16:15
+[        ] Job started at 25/06/2018 13:06:58
 [  Debug ] 
-[  Debug ] Running  on: Unix 4.15.0.41500
+[  Debug ] Running  on: Unix 4.15.0.23
 [  Debug ] Environment: 4.0.30319.42000
-[  Debug ] Mono version: 5.12.0.226 (tarball Thu May  3 09:48:32 UTC 2018)
+[  Debug ] Mono version: 5.12.0.226 (tarball Thu May  3 09:42:09 UTC 2018)
 [  Debug ] 
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: timezone.timezonesdata.txt
@@ -33,6 +33,7 @@
 [  Info  ] Found existing channel (xmltv_id=DOMA TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=DOMA) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTL2) in the config file
+[  Info  ] Found existing channel (xmltv_id=RTL 2) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTL KOCKICA) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTLko) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTL LIVING) in the config file
@@ -42,7 +43,7 @@
 [  Info  ] Found existing channel (xmltv_id=CINESTAR ACTION & THRILLER) in the config file
 [  Info  ] Found existing channel (xmltv_id=CineA) in the config file
 [  Info  ] Found existing channel (xmltv_id=VIASAT TV1000) in the config file
-[  Info  ] Found existing channel (xmltv_id=Tv1000) in the config file
+[  Info  ] Found existing channel (xmltv_id=Tv100) in the config file
 [  Info  ] Found existing channel (xmltv_id=FOX) in the config file
 [  Info  ] Found existing channel (xmltv_id=Fox) in the config file
 [  Info  ] Found existing channel (xmltv_id=FOX LIFE) in the config file
@@ -57,7 +58,7 @@
 [  Info  ] Found existing channel (xmltv_id=VIASAT EXPLORE) in the config file
 [  Info  ] Found existing channel (xmltv_id=Explo) in the config file
 [  Info  ] Found existing channel (xmltv_id=FINE LIVING) in the config file
-[  Info  ] Found existing channel (xmltv_id=FiLiv) in the config file
+[  Info  ] Found existing channel (xmltv_id=FineL) in the config file
 [  Info  ] Found existing channel (xmltv_id=WOMAN) in the config file
 [  Info  ] Found existing channel (xmltv_id=Z1) in the config file
 [  Info  ] Found existing channel (xmltv_id=JABUKA TV) in the config file
@@ -82,290 +83,53 @@
 [  Info  ] Found existing channel (xmltv_id=MTV) in the config file
 [  Info  ] Found existing channel (xmltv_id=VH1) in the config file
 [  Info  ] Found existing channel (xmltv_id=CROATIAN MUSIC CHANNEL) in the config file
-[  Info  ] Found existing channel (xmltv_id=C M C) in the config file
+[  Info  ] Found existing channel (xmltv_id=CMC) in the config file
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
 [  Info  ] 
 [  Info  ] 
 [  Info  ] Group (0) :
-[  Info  ] update requested for - 64 - out of - 64 - channels for 11 day(s)
+[  Info  ] update requested for - 65 - out of - 65 - channels for 11 day(s)
 [  Debug ] 
-[  Info  ] (   1/64  ) VIP.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:54
-[  Debug ]    conflicting stoptime or duration in show starting at 24/06/2018 05:35
-[  Debug ]    stoptime 24/06/2018 06:20               corrected to 24/06/2018 06:19
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 05:35:00 stop = 24/06/2018 06:19:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 05:35:00 stop = 24/06/2018 06:20:00 title = Prizma
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 06:19:00 stop = 24/06/2018 07:29:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 05:35:00 stop = 24/06/2018 06:20:00 title = Prizma
-[  Info  ]       Replaces ----- start = 24/06/2018 06:22:00 stop = 24/06/2018 07:32:00 title = Lijepom našom: Vodice (1.dio)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:36:00 stop = 24/06/2018 07:53:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:38:00 stop = 24/06/2018 07:54:00 title = TV Kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 10:30:00 stop = 24/06/2018 11:33:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 10:30:00 stop = 24/06/2018 11:32:00 title = Zagreb: Misa, prijenos
-[  Info  ]       Replaces ----- start = 24/06/2018 11:32:00 stop = 24/06/2018 11:43:00 title = Bajkovita Hrvatska: Motovun
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:00:00 stop = 24/06/2018 12:14:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 12:00:00 stop = 24/06/2018 12:15:00 title = Dnevnik 1
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:14:00 stop = 24/06/2018 12:18:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 12:00:00 stop = 24/06/2018 12:15:00 title = Dnevnik 1
-[  Info  ]       Replaces ----- start = 24/06/2018 12:15:00 stop = 24/06/2018 12:18:00 title = Sport
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:18:00 stop = 24/06/2018 12:21:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 12:18:00 stop = 24/06/2018 12:20:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 24/06/2018 12:20:00 stop = 24/06/2018 12:30:00 title = HAK - promet info
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:21:00 stop = 24/06/2018 12:32:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 12:20:00 stop = 24/06/2018 12:30:00 title = HAK - promet info
-[  Info  ]       Replaces ----- start = 24/06/2018 12:30:00 stop = 24/06/2018 13:22:00 title = Plodovi zemlje
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:32:00 stop = 24/06/2018 13:24:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 12:30:00 stop = 24/06/2018 13:22:00 title = Plodovi zemlje
-[  Info  ]       Replaces ----- start = 24/06/2018 13:22:00 stop = 24/06/2018 14:00:00 title = Pula: More
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 16:35:00 stop = 24/06/2018 16:44:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 16:34:00 stop = 24/06/2018 16:43:00 title = Bonton: Pune ruke zabave
-[  Info  ]       Replaces ----- start = 24/06/2018 16:43:00 stop = 24/06/2018 17:00:00 title = TV Kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 16:44:00 stop = 24/06/2018 17:00:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 16:43:00 stop = 24/06/2018 17:00:00 title = TV Kalendar
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 17:33:00 stop = 24/06/2018 18:59:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 17:33:00 stop = 24/06/2018 18:58:00 title = Volim Hrvatsku
-[  Info  ]       Replaces ----- start = 24/06/2018 18:58:00 stop = 24/06/2018 19:00:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 18:59:00 stop = 24/06/2018 19:00:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 18:58:00 stop = 24/06/2018 19:00:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 19:00:00 stop = 24/06/2018 19:43:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 19:00:00 stop = 24/06/2018 19:42:00 title = Dnevnik 2
-[  Info  ]       Replaces ----- start = 24/06/2018 19:42:00 stop = 24/06/2018 19:45:00 title = Vrijeme
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 19:43:00 stop = 24/06/2018 19:46:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 19:42:00 stop = 24/06/2018 19:45:00 title = Vrijeme
-[  Info  ]       Replaces ----- start = 24/06/2018 19:45:00 stop = 24/06/2018 20:00:00 title = Tema dana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 19:46:00 stop = 24/06/2018 20:00:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 19:45:00 stop = 24/06/2018 20:00:00 title = Tema dana
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 23:06:00 stop = 24/06/2018 23:20:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 23:06:00 stop = 24/06/2018 23:19:00 title = Vijesti iz kulture
-[  Info  ]       Replaces ----- start = 24/06/2018 23:19:00 stop = 25/06/2018 01:13:00 title = Praznik u Rimu- Zlatno doba Hollywooda (1953.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/06/2018 01:14:00 stop = 25/06/2018 02:09:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 25/06/2018 01:13:00 stop = 25/06/2018 02:08:00 title = Nedjeljom u dva
-[  Info  ]       Replaces ----- start = 25/06/2018 02:08:00 stop = 25/06/2018 03:40:00 title = Bestseler (1987.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/06/2018 03:41:00 stop = 25/06/2018 03:56:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 25/06/2018 03:40:00 stop = 25/06/2018 03:55:00 title = Manjinski mozaik: Čudesne žene - Romkinje iz naselja Parag (2016.)
-[  Info  ]       Replaces ----- start = 25/06/2018 03:55:00 stop = 25/06/2018 04:46:00 title = Leteći fratari predajne kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/06/2018 04:47:00 stop = 25/06/2018 04:56:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 25/06/2018 04:46:00 stop = 25/06/2018 04:55:00 title = Fotografija u Hrvatskoj
-[  Info  ]       Replaces ----- start = 25/06/2018 04:55:00 stop = 25/06/2018 05:28:00 title = Suvremenici - Boris Bućan
+[  Info  ] (   1/65  ) VIP.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:20
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     29
-[  Info  ]      new shows added           43
-[  Info  ]      unchanged shows inspected 266
-[  Info  ]      total after update        338
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 336
+[  Info  ]      total after update        336
 
 [  Debug ] 
 [  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 1
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     338
+[  Info  ]      changed shows updated     336
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        633
+[  Info  ]      total after update        672
 
 [  Debug ] 
-[  Info  ] (   3/64  ) VIP.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:51
-[  Debug ]    conflicting stoptime or duration in show starting at 24/06/2018 04:14
-[  Debug ]    stoptime 24/06/2018 06:13               corrected to 24/06/2018 06:11
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 04:14:00 stop = 24/06/2018 06:11:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 04:14:00 stop = 24/06/2018 06:13:00 title = Noćni glazbeni program - spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 06:11:00 stop = 24/06/2018 06:38:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 04:14:00 stop = 24/06/2018 06:13:00 title = Noćni glazbeni program - spotovi
-[  Info  ]       Replaces ----- start = 24/06/2018 06:14:00 stop = 24/06/2018 06:39:00 title = Regionalni dnevnik
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:05:00 stop = 24/06/2018 07:06:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 06:52:00 stop = 24/06/2018 07:06:00 title = Džepni djedica (1)djecu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:06:00 stop = 24/06/2018 07:08:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:06:00 stop = 24/06/2018 07:07:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/06/2018 07:07:00 stop = 24/06/2018 07:09:00 title = Pjesmice i brojalice: Okoš bokoš
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:13:00 stop = 24/06/2018 07:14:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:09:00 stop = 24/06/2018 07:14:00 title = Dječji planet
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:19:00 stop = 24/06/2018 07:21:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:16:00 stop = 24/06/2018 07:21:00 title = Danica i slon
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:21:00 stop = 24/06/2018 07:22:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:21:00 stop = 24/06/2018 07:22:00 title = Pjesmice i brojalice: En ten tini
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:33:00 stop = 24/06/2018 07:44:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:24:00 stop = 24/06/2018 07:35:00 title = Graditelj Bob
-[  Info  ]       Replaces ----- start = 24/06/2018 07:35:00 stop = 24/06/2018 07:45:00 title = TV vrtić: Zaljubljeni Jura
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:44:00 stop = 24/06/2018 07:45:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:35:00 stop = 24/06/2018 07:45:00 title = TV vrtić: Zaljubljeni Jura
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 07:57:00 stop = 24/06/2018 07:59:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 07:47:00 stop = 24/06/2018 07:58:00 title = Priče iz prašume
-[  Info  ]       Replaces ----- start = 24/06/2018 07:58:00 stop = 24/06/2018 08:00:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 08:04:00 stop = 24/06/2018 08:06:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 08:00:00 stop = 24/06/2018 08:05:00 title = Mišo i Robin: Igra skrivača
-[  Info  ]       Replaces ----- start = 24/06/2018 08:05:00 stop = 24/06/2018 08:08:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 08:12:00 stop = 24/06/2018 08:14:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 08:08:00 stop = 24/06/2018 08:13:00 title = Njama
-[  Info  ]       Replaces ----- start = 24/06/2018 08:13:00 stop = 24/06/2018 08:15:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 08:14:00 stop = 24/06/2018 08:26:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 08:13:00 stop = 24/06/2018 08:15:00 title = Juhuhu
-[  Info  ]       Replaces ----- start = 24/06/2018 08:15:00 stop = 24/06/2018 08:28:00 title = Dječja usta: Glazbenici
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 08:26:00 stop = 24/06/2018 08:29:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 08:15:00 stop = 24/06/2018 08:28:00 title = Dječja usta: Glazbenici
-[  Info  ]       Replaces ----- start = 24/06/2018 08:28:00 stop = 24/06/2018 08:30:00 title = Juhuhu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 09:48:00 stop = 24/06/2018 10:12:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 09:29:00 stop = 24/06/2018 09:50:00 title = Cvjetkov rasadnikza djecu
-[  Info  ]       Replaces ----- start = 24/06/2018 09:50:00 stop = 24/06/2018 10:14:00 title = Luka i prijatelji
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 10:12:00 stop = 24/06/2018 10:23:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 09:50:00 stop = 24/06/2018 10:14:00 title = Luka i prijatelji
-[  Info  ]       Replaces ----- start = 24/06/2018 10:14:00 stop = 24/06/2018 10:24:00 title = Cesarica - hit godine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 11:58:00 stop = 24/06/2018 12:05:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 10:24:00 stop = 24/06/2018 11:59:00 title = Umorstva u Midsomeru
-[  Info  ]       Replaces ----- start = 24/06/2018 11:59:00 stop = 24/06/2018 12:06:00 title = Cesarica - hit godine
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 12:05:00 stop = 24/06/2018 12:57:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 11:59:00 stop = 24/06/2018 12:06:00 title = Cesarica - hit godine
-[  Info  ]       Replaces ----- start = 24/06/2018 12:06:00 stop = 24/06/2018 12:58:00 title = Veličanstveni kolači Fione Cairns
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 13:50:00 stop = 24/06/2018 14:55:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 13:50:00 stop = 24/06/2018 14:45:00 title = N.Novgorod: Nogomet - SP 2018.: Engleska - Panama, prijenos pol.
-[  Info  ]       Replaces ----- start = 24/06/2018 14:45:00 stop = 24/06/2018 14:55:00 title = Glazbeni spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 14:55:00 stop = 24/06/2018 15:03:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 14:55:00 stop = 24/06/2018 15:50:00 title = N.Novgorod: Nogomet - SP 2018.: Engleska - Panama, prijenos pol.
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 15:56:00 stop = 24/06/2018 16:00:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 15:54:00 stop = 24/06/2018 16:49:00 title = Ratovanje u moderno doba: Zrakoplovi, dokumentarna serija
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 16:50:00 stop = 24/06/2018 17:45:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 16:50:00 stop = 24/06/2018 17:44:00 title = Ekaterinburg: Nogomet - SP 2018.: Japan - Senegal, prijenos pol.
-[  Info  ]       Replaces ----- start = 24/06/2018 17:44:00 stop = 24/06/2018 17:55:00 title = Glazbeni spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 17:45:00 stop = 24/06/2018 17:54:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 17:44:00 stop = 24/06/2018 17:55:00 title = Glazbeni spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 17:54:00 stop = 24/06/2018 18:54:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 17:44:00 stop = 24/06/2018 17:55:00 title = Glazbeni spotovi
-[  Info  ]       Replaces ----- start = 24/06/2018 17:55:00 stop = 24/06/2018 18:50:00 title = Ekaterinburg: Nogomet - SP 2018.: Japan - Senegal, prijenos pol.
-[  Info  ]       Replaces ----- start = 24/06/2018 18:50:00 stop = 24/06/2018 18:54:00 title = Odjavna špica SP 2018
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 19:50:00 stop = 24/06/2018 20:41:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 19:50:00 stop = 24/06/2018 20:40:00 title = Kazan: Nogomet - SP 2018.: Poljska - Kolumbija, prijenos pol.
-[  Info  ]       Replaces ----- start = 24/06/2018 20:40:00 stop = 24/06/2018 20:55:00 title = Nogomet - SP 2018. Zabivakapoluvremenu
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 20:56:00 stop = 24/06/2018 21:54:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 20:55:00 stop = 24/06/2018 21:51:00 title = Kazan: Nogomet - SP 2018.: Poljska - Kolumbija, prijenos pol.
-[  Info  ]       Replaces ----- start = 24/06/2018 21:51:00 stop = 24/06/2018 23:00:00 title = Nogomet - SP 2018. Zabivaka
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 24/06/2018 23:01:00 stop = 24/06/2018 23:50:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 24/06/2018 23:00:00 stop = 24/06/2018 23:49:00 title = Nogomet - SP 2018.(3 susreta)
-[  Info  ]       Replaces ----- start = 24/06/2018 23:49:00 stop = 25/06/2018 01:35:00 title = Iznenadna smrt (1995.)
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/06/2018 04:06:00 stop = 25/06/2018 04:07:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 25/06/2018 04:06:00 stop = 25/06/2018 05:25:00 title = Noćni glazbeni program - spotovi
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 25/06/2018 04:07:00 stop = 25/06/2018 05:25:00 title = WG.common.xmltv.Title
-[  Info  ]       Replaces ----- start = 25/06/2018 04:06:00 stop = 25/06/2018 05:25:00 title = Noćni glazbeni program - spotovi
+[  Info  ] (   3/65  ) VIP.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:10
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     54
-[  Info  ]      new shows added           49
-[  Info  ]      unchanged shows inspected 272
-[  Info  ]      total after update        375
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 367
+[  Info  ]      total after update        367
 
 [  Debug ] 
 [  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 2
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     375
+[  Info  ]      changed shows updated     367
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        700
+[  Info  ]      total after update        734
 
 [  Debug ] 
-[  Info  ] (   5/64  ) VIP.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:55
+[  Info  ] (   5/65  ) VIP.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:56
 [  Debug ]    skipped show without a title at 25/06/2018 16:00:00
 [  Debug ]    skipped show without a title at 25/06/2018 21:05:00
 [  Debug ]    skipped show without a title at 26/06/2018 12:45:00
@@ -379,239 +143,465 @@
 [  Debug ] 
 [  Info  ] channel HRT 3 same as -- HTV 3 -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (   7/64  ) VIP.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:52
+[  Info  ] (   7/65  ) VIP.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:58
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           792
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        792
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 775
+[  Info  ]      total after update        775
 
 [  Debug ] 
 [  Info  ] channel HRT 4 same as -- HTV 4 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 4
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     792
+[  Info  ]      changed shows updated     775
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        792
+[  Info  ]      total after update        1550
 
 [  Debug ] 
-[  Info  ] (   9/64  ) VIP.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 21:45
+[  Info  ] (   9/65  ) VIP.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:20
 [  Info  ] 
+[  Info  ]    Summary for update of       NOVA TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 175
+[  Info  ]      total after update        175
+
 [  Debug ] 
 [  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       NOVA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     175
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        350
+
 [  Debug ] 
-[  Info  ] (  11/64  ) VIP.HR -- chan. (xmltv_id=RTL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 22:55
+[  Info  ] (  11/65  ) VIP.HR -- chan. (xmltv_id=RTL) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:35
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 206
+[  Info  ]      total after update        206
+
 [  Debug ] 
-[  Info  ] (  12/64  ) VIP.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:50
+[  Info  ] (  12/65  ) VIP.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:15
 [  Info  ] 
+[  Info  ]    Summary for update of       DOMA TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 259
+[  Info  ]      total after update        259
+
 [  Debug ] 
 [  Info  ] channel DOMA same as -- DOMA TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       DOMA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     259
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        518
+
 [  Debug ] 
-[  Info  ] (  14/64  ) VIP.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:55
+[  Info  ] (  14/65  ) VIP.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 10:45:00 stop = 25/06/2018 11:10:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 10:45:00 stop = 25/06/2018 11:15:00 title = Sudnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 11:10:00 stop = 25/06/2018 11:40:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 10:45:00 stop = 25/06/2018 11:15:00 title = Sudnica
+[  Info  ]       Replaces ----- start = 25/06/2018 11:15:00 stop = 25/06/2018 11:40:00 title = Sudnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/06/2018 19:50:00 stop = 25/06/2018 20:40:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 19:50:00 stop = 25/06/2018 20:35:00 title = Dr. House
+[  Info  ]       Replaces ----- start = 25/06/2018 20:35:00 stop = 25/06/2018 21:35:00 title = Dr. House
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     17
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 287
+[  Info  ]      total after update        304
+
 [  Debug ] 
-[  Info  ] (  15/64  ) VIP.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:50
+[  Info  ] channel RTL 2 same as -- RTL2 -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       RTL 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     304
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        608
+
+[  Debug ] 
+[  Info  ] (  16/65  ) VIP.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 26/06/2018 00:10:00 stop = 26/06/2018 00:50:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 25/06/2018 23:55:00 stop = 26/06/2018 00:25:00 title = M*A*S*H
+[  Info  ]       Replaces ----- start = 26/06/2018 00:25:00 stop = 26/06/2018 01:05:00 title = Walking with Dinosaurs
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL KOCKICA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     12
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 349
+[  Info  ]      total after update        361
+
 [  Debug ] 
 [  Info  ] channel RTLko same as -- RTL KOCKICA -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       RTLko
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     361
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        722
+
 [  Debug ] 
-[  Info  ] (  17/64  ) VIP.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 22:35
+[  Info  ] (  18/65  ) VIP.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:30
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL LIVING
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 227
+[  Info  ]      total after update        227
+
 [  Debug ] 
 [  Info  ] channel RTLli same as -- RTL LIVING -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       RTLli
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     227
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        454
+
 [  Debug ] 
-[  Info  ] (  19/64  ) VIP.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:35
+[  Info  ] (  20/65  ) VIP.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Info  ] 
+[  Info  ]    Summary for update of       CINESTAR TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 75
+[  Info  ]      total after update        75
+
 [  Debug ] 
 [  Info  ] channel Cines same as -- CINESTAR TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Cines
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     75
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        150
+
 [  Debug ] 
-[  Info  ] (  21/64  ) VIP.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:55
+[  Info  ] (  22/65  ) VIP.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:55
 [  Info  ] 
+[  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 73
+[  Info  ]      total after update        73
+
 [  Debug ] 
 [  Info  ] channel CineA same as -- CINESTAR ACTION & THRILLER -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       CineA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     73
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        146
+
 [  Debug ] 
-[  Info  ] (  23/64  ) VIP.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 22:30
+[  Info  ] (  24/65  ) VIP.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:25
 [  Info  ] 
+[  Info  ]    Summary for update of       VIASAT TV1000
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 98
+[  Info  ]      total after update        98
+
 [  Debug ] 
-[  Info  ] channel Tv1000 same as -- VIASAT TV1000 -- time offset 0 hour(s)
+[  Info  ] channel Tv100 same as -- VIASAT TV1000 -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Tv100
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     98
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        196
+
 [  Debug ] 
-[  Info  ] (  25/64  ) VIP.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:55
+[  Info  ] (  26/65  ) VIP.HR -- chan. (xmltv_id=FOX) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 21:00
 [  Info  ] 
+[  Info  ]    Summary for update of       FOX
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 229
+[  Info  ]      total after update        229
+
 [  Debug ] 
 [  Info  ] channel Fox same as -- FOX -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Fox
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     229
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        458
+
 [  Debug ] 
-[  Info  ] (  27/64  ) VIP.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:55
+[  Info  ] (  28/65  ) VIP.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:50
 [  Info  ] 
+[  Info  ]    Summary for update of       FOX LIFE
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 253
+[  Info  ]      total after update        253
+
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       FoxLi
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     253
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        506
+
 [  Debug ] 
-[  Info  ] (  29/64  ) VIP.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:40
+[  Info  ] (  30/65  ) VIP.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:40
 [  Info  ] 
+[  Info  ]    Summary for update of       COMEDY CENTRAL EXTRA
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 337
+[  Info  ]      total after update        337
+
 [  Debug ] 
 [  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Comed
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     337
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        674
+
 [  Debug ] 
-[  Info  ] (  31/64  ) VIP.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:35
+[  Info  ] (  32/65  ) VIP.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:10
 [  Info  ] 
+[  Info  ]    Summary for update of       DIVA
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 140
+[  Info  ]      total after update        140
+
 [  Debug ] 
-[  Info  ] (  32/64  ) VIP.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:00
-[Error   ] Unable to update channel NATIONAL GEOGRAPHIC
-[Critical] Generic syntax exception:
-[Critical]    message: 
-[Error   ] Current culture: en-GB
-[Error   ] time parsing error : String was not recognized as a valid DateTime.
-[Error   ] nextstartdatetime time scrubbed : 
-[Error   ] computer date/time format: 24/06/2018 23:20:57
-[  Info  ] No guide data to restore
+[  Info  ] (  33/65  ) VIP.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:55
+[  Info  ] 
+[  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 225
+[  Info  ]      total after update        225
+
 [  Debug ] 
 [  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       NatGe
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     225
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        450
+
 [  Debug ] 
-[  Info  ] (  33/64  ) VIP.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:45
+[  Info  ] (  35/65  ) VIP.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:35
 [  Info  ] 
+[  Info  ]    Summary for update of       VIASAT HISTORY
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 216
+[  Info  ]      total after update        216
+
 [  Debug ] 
 [  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Histo
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     216
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        432
+
 [  Debug ] 
-[  Info  ] (  35/64  ) VIP.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:10
+[  Info  ] (  37/65  ) VIP.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:25
 [  Info  ] 
+[  Info  ]    Summary for update of       VIASAT EXPLORE
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 188
+[  Info  ]      total after update        188
+
 [  Debug ] 
 [  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Explo
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     188
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        376
+
 [  Debug ] 
-[  Info  ] (  37/64  ) VIP.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
+[  Info  ] (  39/65  ) VIP.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
-[  Info  ] channel FiLiv same as -- FINE LIVING -- time offset 0 hour(s)
+[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  39/64  ) VIP.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:19
+[  Info  ] (  41/65  ) VIP.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:20
 [  Info  ] 
 [  Info  ]    Summary for update of       WOMAN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           254
-[  Info  ]      unchanged shows inspected 0
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 254
 [  Info  ]      total after update        254
 
 [  Debug ] 
-[  Info  ] (  40/64  ) VIP.HR -- chan. (xmltv_id=Z1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:30
+[  Info  ] (  42/65  ) VIP.HR -- chan. (xmltv_id=Z1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Debug ]    skipped show without a title at 28/06/2018 15:30:00
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  41/64  ) VIP.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
+[  Info  ] (  43/65  ) VIP.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Jabuk same as -- JABUKA TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  43/64  ) VIP.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
+[  Info  ] (  45/65  ) VIP.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Mreža same as -- MREŽAZG -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  45/64  ) VIP.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:00
+[  Info  ] (  47/65  ) VIP.HR -- chan. (xmltv_id=N1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Info  ] 
 [  Info  ]    Summary for update of       N1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           241
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        241
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 243
+[  Info  ]      total after update        243
 
 [  Debug ] 
-[  Info  ] (  46/64  ) VIP.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:50
-[  Debug ]    skipped show without a title at 24/06/2018 12:30:00
+[  Info  ] (  48/65  ) VIP.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:50
+[  Debug ]    skipped show without a title at 27/06/2018 18:00:00
+[  Debug ]    skipped show without a title at 28/06/2018 11:10:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  48/64  ) VIP.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
+[  Info  ] (  50/65  ) VIP.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
 [Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Bnet same as -- INFO KANAL -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  50/64  ) VIP.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:00
+[  Info  ] (  52/65  ) VIP.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Info  ] 
+[  Info  ]    Summary for update of       SK 1
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 105
+[  Info  ]      total after update        105
+
 [  Debug ] 
-[  Info  ] (  51/64  ) VIP.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:25
+[  Info  ] (  53/65  ) VIP.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 21:00
 [  Debug ]    skipped show without a title at 26/06/2018 10:00:00
 [  Debug ]    skipped show without a title at 26/06/2018 16:45:00
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  52/64  ) VIP.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:53
+[  Info  ] (  54/65  ) VIP.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:53
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel CN same as -- CARTOON NETWORK -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  54/64  ) VIP.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:50
+[  Info  ] (  56/65  ) VIP.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:50
 [  Info  ] 
+[  Info  ]    Summary for update of       NICKELODEON
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 439
+[  Info  ]      total after update        439
+
 [  Debug ] 
 [  Info  ] channel Nicke same as -- NICKELODEON -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Nicke
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     439
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        878
+
 [  Debug ] 
-[  Info  ] (  56/64  ) VIP.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:40
+[  Info  ] (  58/65  ) VIP.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:40
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Disne same as -- DISNEY CHANNEL -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  58/64  ) VIP.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:25
+[  Info  ] (  60/65  ) VIP.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:55
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Mini same as -- MINI TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  60/64  ) VIP.HR -- chan. (xmltv_id=MTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:00
+[  Info  ] (  62/65  ) VIP.HR -- chan. (xmltv_id=MTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 23:00
 [  Info  ] 
+[  Info  ]    Summary for update of       MTV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 158
+[  Info  ]      total after update        158
+
 [  Debug ] 
-[  Info  ] (  61/64  ) VIP.HR -- chan. (xmltv_id=VH1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 22:30
+[  Info  ] (  63/65  ) VIP.HR -- chan. (xmltv_id=VH1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:00
 [  Info  ] 
 [  Info  ]    Summary for update of       VH1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     0
-[  Info  ]      new shows added           111
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        111
+[  Info  ]      new shows added           14
+[  Info  ]      unchanged shows inspected 96
+[  Info  ]      total after update        110
 
 [  Debug ] 
-[  Info  ] (  62/64  ) VIP.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 23/06/2018 23:00
+[  Info  ] (  64/65  ) VIP.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 24/06/2018 22:00
 [  Info  ] 
+[  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 121
+[  Info  ]      total after update        121
+
 [  Debug ] 
-[  Info  ] channel C M C same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
+[  Info  ] channel CMC same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       CMC
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     121
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        121
+
 [  Debug ] 
-[  Debug ] 15315 shows in 64 channels
-[  Debug ] 83 updated shows
-[  Debug ] 7998 new shows added
+[  Debug ] 15829 shows in 65 channels
+[  Debug ] 136 updated shows
+[  Debug ] 202 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 24/06/2018 23:26:28 done in 10m 12s
+[        ] Job finished at 25/06/2018 13:18:39 done in 11m 40s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
