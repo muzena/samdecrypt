@@ -2,6 +2,29 @@
 # Script for EPG grab from WebGrab+Plus  http://www.webgrabplus.com/documentation
 set -x
 
+#function check_mono_install (){
+#    wich
+#}
+
+# Add mono repository
+function add_mono_ppa (){
+    sudo -i
+    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | tee /etc/apt/sources.list.d/mono-official-stable.list
+    apt update
+    wait $!
+    exit
+}
+
+function install_mono (){
+sudo -i
+apt -y install mono-runtime libmono-system-data4.0-cil libmono-system-web4.0-cil
+apt install -y mono-complete
+wait $!
+exit
+}
+
+
 #for i in `grep -rl 2.4.6 . 2> /dev/null`; do sed -i 's/2.4.6/2.4.6.1/' $i; done
 
 #samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
