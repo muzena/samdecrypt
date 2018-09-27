@@ -1147,7 +1147,7 @@ EOF
 
 function git_clone()
 {
-git clone git@github.com:muzena/samdecrypt.git -b libepg
+git clone --depth 1 git@github.com:muzena/samdecrypt.git -b libepg
 cd samdecrypt
 git status
 cd .. <<EOF
