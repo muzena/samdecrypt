@@ -6,6 +6,7 @@ set -e
 
 #rm /tmp/guide-bnet.xml
 wget -O /home/hts/webgrab/guide.xml  https://raw.githubusercontent.com/muzena/samdecrypt/libepg/guide-bnet.xml
+#git clone --depth 1 git@github.com:muzena/samdecrypt.git -b libepg
 
 xmltv_file_location=/home/hts/webgrab/guide.xml
 
