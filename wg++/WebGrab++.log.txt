@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 11/03/2019 20:30:15
+[        ] Job started at 11/03/2019 20:45:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.18.0.16
 [  Debug ] Environment: 4.0.30319.42000
@@ -18,15 +18,6 @@
 [  Debug ] Reading config file: /tmp/samdecrypt/wg++/WebGrab++.config.xml
 [  Info  ] found: /tmp/samdecrypt/wg++/vip.hr.ini -- Revision 00
 [  Debug ] xmltv input file - /tmp/samdecrypt/guide-viptv.xml - found
-[  Info  ]    Summary for update of       NatGe
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     233
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        466
-
-[  Debug ] 
-[  Info  ] (  37/67  ) VIP.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HTV 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
@@ -95,7 +86,6 @@
 [  Info  ] Found existing channel (xmltv_id=VH1) in the config file
 [  Info  ] Found existing channel (xmltv_id=CROATIAN MUSIC CHANNEL) in the config file
 [  Info  ] Found existing channel (xmltv_id=CMC) in the config file
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:10
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -105,26 +95,8 @@
 [  Info  ] update requested for - 67 - out of - 67 - channels for 11 day(s)
 [  Debug ] 
 [  Info  ] (   1/67  ) VIP.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
-[  Info  ] 
-[  Info  ]    Summary for update of       VIASAT HISTORY
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 217
-[  Info  ]      total after update        217
-
-[  Debug ] 
-[  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:04
-[  Info  ]    Summary for update of       Histo
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     217
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        434
-
-[  Debug ] 
-[  Info  ] (  39/67  ) VIP.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
 [  Debug ]    skipped show without a title at 14/03/2019 20:05:00
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:35
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
 [  Info  ]      no changes, no update necessary !
@@ -133,14 +105,6 @@
 
 [  Debug ] 
 [  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
-[  Info  ] 
-[  Info  ]    Summary for update of       VIASAT EXPLORE
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 259
-[  Info  ]      total after update        259
-
-[  Debug ] 
-[  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 1
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     339
@@ -150,68 +114,29 @@
 
 [  Debug ] 
 [  Info  ] (   3/67  ) VIP.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Info  ]    Summary for update of       Explo
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     259
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        518
-
-[  Debug ] 
-[  Info  ] (  41/67  ) VIP.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:36
 [  Debug ]    skipped show without a title at 11/03/2019 10:27:00
-[Error   ] no shows in indexpage!
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
 [  Debug ]    skipped show without a title at 12/03/2019 10:36:00
-[  Debug ] 
-[  Info  ] (  43/67  ) VIP.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
 [  Debug ]    skipped show without a title at 13/03/2019 05:16:00
 [  Debug ]    skipped show without a title at 14/03/2019 10:31:00
 [  Debug ]    skipped show without a title at 15/03/2019 10:30:00
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:49
-[  Debug ]    skipped : fully overlapping show from 11/03/2019 06:00
-[  Debug ]                                       to 11/03/2019 06:50
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  44/67  ) VIP.HR -- chan. (xmltv_id=Z1) -- mode Incremental
 [  Debug ] 
 [  Info  ] (   5/67  ) VIP.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:10
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:40
 [  Debug ]    skipped show without a title at 11/03/2019 10:55:00
 [  Debug ]    skipped show without a title at 12/03/2019 21:35:00
 [  Debug ]    skipped show without a title at 13/03/2019 12:56:00
-[  Debug ]    skipped show without a title at 14/03/2019 12:00:00
-[  Info  ] 
-[  Debug ] 
-[  Info  ] (  45/67  ) VIP.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
 [  Debug ]    skipped show without a title at 17/03/2019 20:05:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel HRT 3 same as -- HTV 3 -- time offset 0 hour(s)
-[Error   ] no shows in indexpage!
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Jabuk same as -- JABUKA TV -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  47/67  ) VIP.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
 [  Debug ] 
 [  Info  ] (   7/67  ) VIP.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:58
 [  Debug ]    skipped show without a title at 11/03/2019 00:32:00
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Mreža same as -- MREŽAZG -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  49/67  ) VIP.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:45
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
 [  Info  ]      no changes, no update necessary !
@@ -220,17 +145,6 @@
 
 [  Debug ] 
 [  Info  ] channel HRT 4 same as -- HTV 4 -- time offset 0 hour(s)
-[  Info  ] 
-[  Info  ]    Summary for update of       N1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 350
-[  Info  ]      total after update        350
-
-[  Debug ] 
-[  Info  ] (  50/67  ) VIP.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
-[  Debug ]    skipped show without a title at 13/03/2019 17:00:00
-[  Debug ]    skipped show without a title at 15/03/2019 12:10:00
 [  Info  ]    Summary for update of       HRT 4
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     777
@@ -240,30 +154,7 @@
 
 [  Debug ] 
 [  Info  ] (   9/67  ) VIP.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Info  ] 
-[  Info  ]    Summary for update of       SPORTSKA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 151
-[  Info  ]      total after update        151
-
-[  Debug ] 
-[  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       SPTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     151
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        302
-
-[  Debug ] 
-[  Info  ] (  52/67  ) VIP.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:40
-[Error   ] no shows in indexpage!
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Bnet same as -- INFO KANAL -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  54/67  ) VIP.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       NOVA TV
 [  Info  ]      no changes, no update necessary !
@@ -272,7 +163,6 @@
 
 [  Debug ] 
 [  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 19:30
 [  Info  ]    Summary for update of       NOVA
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     201
@@ -282,31 +172,16 @@
 
 [  Debug ] 
 [  Info  ] (  11/67  ) VIP.HR -- chan. (xmltv_id=RTL) -- mode Incremental
-[  Debug ]    skipped show without a title at 18/03/2019 01:15:00
-[  Info  ] 
-[  Info  ]    Summary for update of       SK 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 114
-[  Info  ]      total after update        114
-
-[  Debug ] 
-[  Info  ] (  55/67  ) VIP.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:40
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:10
-[  Debug ]    skipped show without a title at 12/03/2019 06:30:00
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 180
 [  Info  ]      total after update        180
 
-[  Info  ] 
 [  Debug ] 
 [  Info  ] (  12/67  ) VIP.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
-[  Debug ] 
-[  Info  ] (  56/67  ) VIP.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:25
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:51
 [  Info  ] 
 [  Info  ]    Summary for update of       DOMA TV
 [  Info  ]      no changes, no update necessary !
@@ -333,14 +208,6 @@
 
 [  Debug ] 
 [  Info  ] channel RTL 2 same as -- RTL2 -- time offset 0 hour(s)
-[  Info  ] 
-[  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 835
-[  Info  ]      total after update        835
-
-[  Debug ] 
-[  Info  ] channel CN same as -- CARTOON NETWORK -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       RTL 2
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     274
@@ -350,16 +217,6 @@
 
 [  Debug ] 
 [  Info  ] (  16/67  ) VIP.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:50
-[  Info  ]    Summary for update of       CN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     835
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1670
-
-[  Debug ] 
-[  Info  ] (  58/67  ) VIP.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:50
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
@@ -380,14 +237,6 @@
 [  Info  ] (  18/67  ) VIP.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:15
 [  Info  ] 
-[  Info  ]    Summary for update of       NICKELODEON
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 511
-[  Info  ]      total after update        511
-
-[  Debug ] 
-[  Info  ] channel Nicke same as -- NICKELODEON -- time offset 0 hour(s)
-[  Info  ] 
 [  Info  ]    Summary for update of       RTL LIVING
 [  Info  ]      no changes, no update necessary !
 [  Info  ]      unchanged shows inspected 214
@@ -404,22 +253,7 @@
 
 [  Debug ] 
 [  Info  ] (  20/67  ) VIP.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
-[  Info  ]    Summary for update of       Nicke
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     511
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1022
-
-[  Debug ] 
-[  Info  ] (  60/67  ) VIP.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:55
-[Error   ] no shows in indexpage!
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Disne same as -- DISNEY CHANNEL -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  62/67  ) VIP.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
 [  Info  ]      no changes, no update necessary !
@@ -437,7 +271,6 @@
 
 [  Debug ] 
 [  Info  ] (  22/67  ) VIP.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:05
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:20
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
@@ -456,14 +289,6 @@
 
 [  Debug ] 
 [  Info  ] (  24/67  ) VIP.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
-[  Info  ] 
-[  Info  ]    Summary for update of       MINI TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 383
-[  Info  ]      total after update        383
-
-[  Debug ] 
-[  Info  ] channel Mini same as -- MINI TV -- time offset 0 hour(s)
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT TV1000
@@ -482,25 +307,7 @@
 
 [  Debug ] 
 [  Info  ] (  26/67  ) VIP.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[  Info  ]    Summary for update of       Mini
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     383
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        766
-
-[  Debug ] 
-[  Info  ] (  64/67  ) VIP.HR -- chan. (xmltv_id=MTV) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:25
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       MTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 202
-[  Info  ]      total after update        202
-
-[  Debug ] 
-[  Info  ] (  65/67  ) VIP.HR -- chan. (xmltv_id=VH1) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
 [  Info  ]      no changes, no update necessary !
@@ -518,39 +325,7 @@
 
 [  Debug ] 
 [  Info  ] (  28/67  ) VIP.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       VH1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 101
-[  Info  ]      total after update        101
-
-[  Debug ] 
-[  Info  ] (  66/67  ) VIP.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:50
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 86
-[  Info  ]      total after update        86
-
-[  Debug ] 
-[  Info  ] channel CMC same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       CMC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     86
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        172
-
-[  Debug ] 
-[  Debug ] 16236 shows in 67 channels
-[  Debug ] 0 updated shows
-[  Debug ] 0 new shows added
-[  Info  ] 
-[  Info  ] 
-[        ] Job finished at 11/03/2019 20:34:18 done in 9m 3s
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
 [  Info  ]      no changes, no update necessary !
@@ -559,7 +334,6 @@
 
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
-[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
 [  Info  ]    Summary for update of       FoxLi
 [  Info  ]      missing shows added       0
 [  Info  ]      changed shows updated     258
@@ -847,5 +621,5 @@
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 11/03/2019 20:39:09 done in 8m 54s
+[        ] Job finished at 11/03/2019 20:53:47 done in 8m 32s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
