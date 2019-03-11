@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 11/03/2019 18:51:37
+[        ] Job started at 11/03/2019 19:06:34
 [  Debug ] 
 [  Debug ] Running  on: Unix 4.18.0.16
 [  Debug ] Environment: 4.0.30319.42000
@@ -325,53 +325,24 @@
 
 [  Debug ] 
 [  Info  ] (  28/67  ) VIP.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:50
+[Error   ] no shows in indexpage!
 [  Info  ] 
-[  Info  ]    Summary for update of       FOX LIFE
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 258
-[  Info  ]      total after update        258
-
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       FoxLi
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     258
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        516
-
 [  Debug ] 
 [  Info  ] (  30/67  ) VIP.HR -- chan. (xmltv_id=KLASIK TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:25
+[Error   ] no shows in indexpage!
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  31/67  ) VIP.HR -- chan. (xmltv_id=KINOTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:15
+[Error   ] no shows in indexpage!
 [  Info  ] 
-[  Info  ]    Summary for update of       KINOTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 162
-[  Info  ]      total after update        162
-
 [  Debug ] 
 [  Info  ] (  32/67  ) VIP.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:40
+[Error   ] no shows in indexpage!
 [  Info  ] 
-[  Info  ]    Summary for update of       COMEDY CENTRAL EXTRA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 392
-[  Info  ]      total after update        392
-
 [  Debug ] 
 [  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Comed
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     392
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        784
-
 [  Debug ] 
 [  Info  ] (  34/67  ) VIP.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:00
@@ -386,18 +357,20 @@
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:55
 [  Info  ] 
 [  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 231
-[  Info  ]      total after update        231
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     30
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 203
+[  Info  ]      total after update        233
 
 [  Debug ] 
 [  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       NatGe
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     231
+[  Info  ]      changed shows updated     233
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        462
+[  Info  ]      total after update        464
 
 [  Debug ] 
 [  Info  ] (  37/67  ) VIP.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
@@ -444,6 +417,22 @@
 [  Debug ] 
 [  Info  ] (  43/67  ) VIP.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 23:49
+[  Debug ]    skipped : fully overlapping show from 11/03/2019 06:00
+[  Debug ]                                       to 11/03/2019 06:50
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 16/03/2019 05:33:00 stop = 16/03/2019 06:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 16/03/2019 05:33:00 stop = 16/03/2019 05:59:00 title = Rudolphova pekarnica
+[  Info  ]       Replaces ----- start = 16/03/2019 05:59:00 stop = 16/03/2019 06:50:00 title = Kaos prije vjenčanja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/03/2019 17:25:00 stop = 17/03/2019 17:54:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 17/03/2019 17:25:00 stop = 17/03/2019 17:53:00 title = Rudolphova pekarnica
+[  Info  ]       Replaces ----- start = 17/03/2019 17:53:00 stop = 17/03/2019 18:20:00 title = Rudolphova pekarnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 17/03/2019 17:54:00 stop = 17/03/2019 18:20:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 17/03/2019 17:53:00 stop = 17/03/2019 18:20:00 title = Rudolphova pekarnica
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  44/67  ) VIP.HR -- chan. (xmltv_id=Z1) -- mode Incremental
@@ -465,11 +454,26 @@
 [  Debug ] 
 [  Info  ] (  49/67  ) VIP.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 10/03/2019 22:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/03/2019 11:00:00 stop = 11/03/2019 11:05:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 11/03/2019 11:00:00 stop = 11/03/2019 12:00:00 title = N1 Info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/03/2019 11:05:00 stop = 11/03/2019 12:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 11/03/2019 11:00:00 stop = 11/03/2019 12:00:00 title = N1 Info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/03/2019 15:15:00 stop = 11/03/2019 18:00:00 title = WG.common.xmltv.Title
+[  Info  ]       Replaces ----- start = 11/03/2019 15:15:00 stop = 11/03/2019 16:00:00 title = N1 studio
+[  Info  ]       Replaces ----- start = 11/03/2019 16:00:00 stop = 11/03/2019 18:00:00 title = N1 Newsroom
 [  Info  ] 
 [  Info  ]    Summary for update of       N1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 337
-[  Info  ]      total after update        337
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     3
+[  Info  ]      new shows added           13
+[  Info  ]      unchanged shows inspected 334
+[  Info  ]      total after update        350
 
 [  Debug ] 
 [  Info  ] (  50/67  ) VIP.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
@@ -609,10 +613,10 @@
 [  Info  ]      total after update        172
 
 [  Debug ] 
-[  Debug ] 16163 shows in 67 channels
-[  Debug ] 0 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 16180 shows in 67 channels
+[  Debug ] 39 updated shows
+[  Debug ] 13 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 11/03/2019 19:00:06 done in 8m 29s
+[        ] Job finished at 11/03/2019 19:14:47 done in 8m 12s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
