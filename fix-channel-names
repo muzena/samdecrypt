@@ -1,0 +1,166 @@
+#!/bin/sh
+set -x
+
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide.xml > guide-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-test.xml
+
+# RTL TELEVIZIJA
+sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-test.xml
+sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-test.xml
+
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-test.xml
+
+# RTL TELEVIZIJA
+sed -i 's/"Doma TV">/"Doma">/g' guide-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-test.xml
+
+# RTL 2
+sed -i 's/"RTL 2">/"RTL2">/g' guide-test.xml
+sed -i 's/>RTL 2</>RTL2</g' guide-test.xml
+
+# RTL Plus
+sed -i 's/"RTL Plus">/"RTLli">/g' guide-test.xml
+sed -i 's/>RTL Plus</>RTLli</g' guide-test.xml
+
+# CineStar TV
+sed -i 's/"CineStar Action&amp;Thriller">/"CineA">/g' guide-test.xml
+sed -i 's/>CineStar Action&amp;Thriller</>CineA</g' guide-test.xml
+
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar TV">/"Cines">/g' guide-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-test.xml
+
+# TV 1000 Balkan
+sed -i 's/"TV 1000 Balkan">/"TV100">/g' guide-test.xml
+sed -i 's/>TV 1000 Balkan</>TV100</g' guide-test.xml
+
+# Fox TV
+sed -i 's/"Fox TV">/"Fox">/g' guide-test.xml
+sed -i 's/>Fox TV</>Fox</g' guide-test.xml
+
+# Fox Life
+sed -i 's/"Fox Life">/"FoxLi">/g' guide-test.xml
+sed -i 's/>Fox Life</>FoxLi</g' guide-test.xml
+
+# Universal Channel
+sed -i 's/"Universal Channel">/"Unive">/g' guide-test.xml
+sed -i 's/>Universal Channel</>Unive</g' guide-test.xml
+
+# Discovery Channel
+sed -i 's/"Discovery Channel">/"Disco">/g' guide-test.xml
+sed -i 's/>Discovery Channel</>Disco</g' guide-test.xml
+
+# National Geographic Channel
+sed -i 's/"National Geographic Channel">/"NatGe">/g' guide-test.xml
+sed -i 's/>National Geographic Channel</>NatGe</g' guide-test.xml
+
+# Viasat History
+sed -i 's/"Viasat History">/"Histo">/g' guide-test.xml
+sed -i 's/>Viasat History</>Histo</g' guide-test.xml
+
+# Animal Planet
+sed -i 's/"Animal Planet">/"Anima">/g' guide-test.xml
+sed -i 's/>Animal Planet</>Anima</g' guide-test.xml
+
+# Viasat Explore
+sed -i 's/"Viasat Explore">/"Explo">/g' guide-test.xml
+sed -i 's/>Viasat Explore</>Explo</g' guide-test.xml
+
+# Travel Channel
+sed -i 's/"Travel Channel">/"TLC">/g' guide-test.xml
+sed -i 's/>Travel Channel</>TLC</g' guide-test.xml
+
+# MrežaZG
+sed -i 's/"MrežaZG">/"Mreža">/g' guide-test.xml
+sed -i 's/>MrežaZG</>Mreža</g' guide-test.xml
+
+# Jabuka TV
+sed -i 's/"Jabuka TV">/"Jabuk">/g' guide-test.xml
+sed -i 's/>Jabuka TV</>Jabuk</g' guide-test.xml
+
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-test.xml
+
+# 24 SATA TV
+sed -i 's/"24 SATA TV">/"24sat">/g' guide-test.xml
+sed -i 's/>24 SATA TV</>24sat</g' guide-test.xml
+
+# CNN International Europe
+sed -i 's/"CNN International Europe">/"CNN">/g' guide-test.xml
+sed -i 's/>CNN International Europe</>CNN</g' guide-test.xml
+
+# Cartoon Network
+sed -i 's/"Cartoon Network">/"CN">/g' guide-test.xml
+sed -i 's/>Cartoon Network</>CN</g' guide-test.xml
+
+# Nickelodeon
+sed -i 's/"Nickelodeon">/"Nicke">/g' guide-test.xml
+sed -i 's/>Nickelodeon</>Nicke</g' guide-test.xml
+
+# DISNEY CHANNEL
+sed -i 's/"DISNEY CHANNEL">/"Disne">/g' guide-test.xml
+sed -i 's/>DISNEY CHANNEL</>Disne</g' guide-test.xml
+
+# Mini TV
+sed -i 's/"Mini TV">/"Mini">/g' guide-test.xml
+sed -i 's/>Mini TV</>Mini</g' guide-test.xml
+
+# RTL Kockica
+sed -i 's/"RTL Kockica">/"RTLko">/g' guide-test.xml
+sed -i 's/>RTL Kockica</>RTLko</g' guide-test.xml
+
+# Sportska televizija
+sed -i 's/"Sportska televizija">/"SPTV">/g' guide-test.xml
+sed -i 's/>Sportska televizija</>SPTV</g' guide-test.xml
+
+# Eurosport
+sed -i 's/"Eurosport">/"Euro1">/g' guide-test.xml
+sed -i 's/>Eurosport</>Euro1</g' guide-test.xml
+
+# Eurosport 2
+sed -i 's/"Eurosport 2">/"Euro2">/g' guide-test.xml
+sed -i 's/>Eurosport 2</>Euro2</g' guide-test.xml
+
+# SK 1
+sed -i 's/"SK 1">/"SK1">/g' guide-test.xml
+sed -i 's/>SK 1</>SK1</g' guide-test.xml
+
+# SK 3
+sed -i 's/"SK 3">/"SK3">/g' guide-test.xml
+sed -i 's/>SK 3</>SK3</g' guide-test.xml
+
+# MTV Hrvatska
+sed -i 's/"MTV Hrvatska">/"MTV">/g' guide-test.xml
+sed -i 's/>MTV Hrvatska</>MTV</g' guide-test.xml
+
+# VH1 Europe
+sed -i 's/"VH1 Europe">/"VH1">/g' guide-test.xml
+sed -i 's/>VH1 Europe</>VH1</g' guide-test.xml
+
+# CMC
+sed -i 's/"CMC">/"C M C">/g' guide-test.xml
+sed -i 's/>CMC</>C M C</g' guide-test.xml
+
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-test.xml
+sed -i 's/>N1</>N 1</g' guide-test.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
