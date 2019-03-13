@@ -1166,6 +1166,59 @@ EOF
 }
 
 
+function update_a1_grabber()
+{
+#rm ./pharser/libEPG-a1.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-a1.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-a1.xml ./pharser/guide-a1.xml
+#cd pharser
+# generate bnet config file
+##### a1 pharser
+# python pharser-a1.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-a1.xml
+#cd ..
+#wait $!
+#### Generate a1 config file with libEPG_xml2josn
+cp guide-a1.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-a1.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-a1.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function git_clone()
@@ -1198,7 +1251,8 @@ wait $!
 #update_Bnet_grabber_IPTV
 wait $!
 update_viptv_grabber
-
+wait $!
+#update_a1_grabber
 ### http://www.webgrabplus.com/content/tviskonhr-and-viphr 
 ### http://epg.koditvepg.com/
 
