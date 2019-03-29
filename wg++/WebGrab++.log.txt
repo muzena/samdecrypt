@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/03/2019 13:47:16
+[        ] Job started at 29/03/2019 20:14:42
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
@@ -15,10 +15,10 @@
 [  Debug ] 
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: timezone.timezonesdata.txt
-[  Debug ] Reading config file: /home/goran/Glazba/samdecrypt/wg++/WebGrab++.config.xml
+[  Debug ] Reading config file: /tmp/samdecrypt/wg++/WebGrab++.config.xml
 [  Debug ] 
-[  Info  ] found: /home/goran/Glazba/samdecrypt/wg++/tv.iskon.hr.ini -- Revision 01
-[  Debug ] xmltv input file - /home/goran/Glazba/samdecrypt/guide-iskon.xml - found
+[  Info  ] found: /tmp/samdecrypt/wg++/tv.iskon.hr.ini -- Revision 01
+[  Debug ] xmltv input file - /tmp/samdecrypt/guide-iskon.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
 [  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 05:23:00
@@ -33,62 +33,171 @@
 [  Debug ] removed 2 overlapping shows in HRT 3 starting after 01/04/2019 04:15:00
 [  Debug ] removed 2 overlapping shows in HRT 3 starting after 01/04/2019 06:05:00
 [  Info  ] Found existing channel (xmltv_id=HRT 4) in the config file
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 05:56:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:08:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:10:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:52:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:53:00
+[  Debug ] removed 2 overlapping shows in HRT 4 starting after 01/04/2019 06:54:00
 [  Info  ] Found existing channel (xmltv_id=RTL) in the config file
+[  Debug ] removed 2 overlapping shows in RTL starting after 01/04/2019 04:50:00
+[  Debug ] removed 2 overlapping shows in RTL starting after 01/04/2019 06:15:00
 [  Info  ] Found existing channel (xmltv_id=RTL 2) in the config file
+[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 05:50:00
+[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 06:40:00
 [  Info  ] Found existing channel (xmltv_id=NOVA TV) in the config file
+[  Debug ] removed 2 overlapping shows in NOVA TV starting after 30/03/2019 05:05:00
+[  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 05:40:00
+[  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 06:05:00
+[  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 06:27:00
 [  Info  ] Found existing channel (xmltv_id=NOVA) in the config file
+[  Debug ] removed 2 overlapping shows in NOVA starting after 30/03/2019 05:05:00
+[  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 05:40:00
+[  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 06:05:00
+[  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 06:27:00
 [  Info  ] Found existing channel (xmltv_id=Doma TV) in the config file
+[  Debug ] removed 2 overlapping shows in Doma TV starting after 01/04/2019 05:40:00
 [  Info  ] Found existing channel (xmltv_id=DOMA) in the config file
+[  Debug ] removed 2 overlapping shows in DOMA starting after 01/04/2019 05:40:00
 [  Info  ] Found existing channel (xmltv_id=RTL Living) in the config file
 [  Info  ] Found existing channel (xmltv_id=RTLli) in the config file
 [  Info  ] Found existing channel (xmltv_id=Jabuka TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=Jabuk) in the config file
 [  Info  ] Found existing channel (xmltv_id=Z1) in the config file
+[  Debug ] removed 2 overlapping shows in Z1 starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Z1 starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in Z1 starting after 01/04/2019 06:25:00
+[  Debug ] removed 2 overlapping shows in Z1 starting after 01/04/2019 06:40:00
 [  Info  ] Found existing channel (xmltv_id=N1) in the config file
+[  Debug ] removed 2 overlapping shows in N1 starting after 01/04/2019 05:45:00
+[  Debug ] removed 2 overlapping shows in N1 starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Mreža TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=Mreža) in the config file
 [  Info  ] Found existing channel (xmltv_id=NovaTV HD) in the config file
+[  Debug ] removed 2 overlapping shows in NovaTV HD starting after 30/03/2019 05:05:00
+[  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 05:40:00
+[  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 06:05:00
+[  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 06:27:00
 [  Info  ] Found existing channel (xmltv_id=N1 HD) in the config file
+[  Debug ] removed 2 overlapping shows in N1 HD starting after 01/04/2019 05:45:00
+[  Debug ] removed 2 overlapping shows in N1 HD starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Mini TV) in the config file
+[  Debug ] removed 2 overlapping shows in Mini TV starting after 01/04/2019 05:00:00
+[  Debug ] removed 2 overlapping shows in Mini TV starting after 01/04/2019 06:15:00
+[  Debug ] removed 2 overlapping shows in Mini TV starting after 01/04/2019 06:25:00
+[  Debug ] removed 2 overlapping shows in Mini TV starting after 01/04/2019 06:30:00
+[  Debug ] removed 2 overlapping shows in Mini TV starting after 01/04/2019 06:35:00
 [  Info  ] Found existing channel (xmltv_id=Mini) in the config file
+[  Debug ] removed 2 overlapping shows in Mini starting after 01/04/2019 05:00:00
+[  Debug ] removed 2 overlapping shows in Mini starting after 01/04/2019 06:15:00
+[  Debug ] removed 2 overlapping shows in Mini starting after 01/04/2019 06:25:00
+[  Debug ] removed 2 overlapping shows in Mini starting after 01/04/2019 06:30:00
+[  Debug ] removed 2 overlapping shows in Mini starting after 01/04/2019 06:35:00
 [  Info  ] Found existing channel (xmltv_id=RTL Kockica) in the config file
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 01/04/2019 05:50:00
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 01/04/2019 06:05:00
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 01/04/2019 06:10:00
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 01/04/2019 06:15:00
+[  Debug ] removed 2 overlapping shows in RTL Kockica starting after 01/04/2019 06:30:00
 [  Info  ] Found existing channel (xmltv_id=RTLko) in the config file
+[  Debug ] removed 2 overlapping shows in RTLko starting after 01/04/2019 05:50:00
+[  Debug ] removed 2 overlapping shows in RTLko starting after 01/04/2019 06:05:00
+[  Debug ] removed 2 overlapping shows in RTLko starting after 01/04/2019 06:10:00
+[  Debug ] removed 2 overlapping shows in RTLko starting after 01/04/2019 06:15:00
+[  Debug ] removed 2 overlapping shows in RTLko starting after 01/04/2019 06:30:00
 [  Info  ] Found existing channel (xmltv_id=CineStar  TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=Cines) in the config file
 [  Info  ] Found existing channel (xmltv_id=CineStar TV Action) in the config file
 [  Info  ] Found existing channel (xmltv_id=CineA) in the config file
 [  Info  ] Found existing channel (xmltv_id=Comedy Central) in the config file
+[  Debug ] removed 2 overlapping shows in Comedy Central starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Comedy Central starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Comed) in the config file
+[  Debug ] removed 2 overlapping shows in Comed starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Comed starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Fox Life) in the config file
+[  Debug ] removed 2 overlapping shows in Fox Life starting after 01/04/2019 05:15:00
+[  Debug ] removed 2 overlapping shows in Fox Life starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in Fox Life starting after 01/04/2019 06:20:00
 [  Info  ] Found existing channel (xmltv_id=FoxLi) in the config file
+[  Debug ] removed 2 overlapping shows in FoxLi starting after 01/04/2019 05:15:00
+[  Debug ] removed 2 overlapping shows in FoxLi starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in FoxLi starting after 01/04/2019 06:20:00
 [  Info  ] Found existing channel (xmltv_id=Fox Crime) in the config file
+[  Debug ] removed 2 overlapping shows in Fox Crime starting after 01/04/2019 05:15:00
+[  Debug ] removed 2 overlapping shows in Fox Crime starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Fox) in the config file
+[  Debug ] removed 2 overlapping shows in Fox starting after 01/04/2019 05:40:00
+[  Debug ] removed 2 overlapping shows in Fox starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=DIVA) in the config file
+[  Debug ] removed 2 overlapping shows in DIVA starting after 01/04/2019 05:00:00
 [  Info  ] Found existing channel (xmltv_id=TV1000) in the config file
+[  Debug ] removed 2 overlapping shows in TV1000 starting after 01/04/2019 04:15:00
 [  Info  ] Found existing channel (xmltv_id=TV100) in the config file
+[  Debug ] removed 2 overlapping shows in TV100 starting after 01/04/2019 04:15:00
 [  Info  ] Found existing channel (xmltv_id=Epic Drama) in the config file
+[  Debug ] removed 2 overlapping shows in Epic Drama starting after 01/04/2019 05:20:00
 [  Info  ] Found existing channel (xmltv_id=EpicD) in the config file
+[  Debug ] removed 2 overlapping shows in EpicD starting after 01/04/2019 05:20:00
 [  Info  ] Found existing channel (xmltv_id=N. Geographic) in the config file
+[  Debug ] removed 2 overlapping shows in N. Geographic starting after 01/04/2019 05:35:00
+[  Debug ] removed 2 overlapping shows in N. Geographic starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in N. Geographic starting after 01/04/2019 06:25:00
 [  Info  ] Found existing channel (xmltv_id=NatGe) in the config file
+[  Debug ] removed 2 overlapping shows in NatGe starting after 01/04/2019 05:35:00
+[  Debug ] removed 2 overlapping shows in NatGe starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in NatGe starting after 01/04/2019 06:25:00
 [  Info  ] Found existing channel (xmltv_id=Viasat Explore) in the config file
+[  Debug ] removed 2 overlapping shows in Viasat Explore starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Viasat Explore starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Explo) in the config file
+[  Debug ] removed 2 overlapping shows in Explo starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Explo starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Viasat History) in the config file
+[  Debug ] removed 2 overlapping shows in Viasat History starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Viasat History starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Histo) in the config file
+[  Debug ] removed 2 overlapping shows in Histo starting after 01/04/2019 05:30:00
+[  Debug ] removed 2 overlapping shows in Histo starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=Sport Klub 1) in the config file
+[  Debug ] removed 2 overlapping shows in Sport Klub 1 starting after 01/04/2019 04:00:00
 [  Info  ] Found existing channel (xmltv_id=SK 1) in the config file
+[  Debug ] removed 2 overlapping shows in SK 1 starting after 01/04/2019 04:00:00
 [  Info  ] Found existing channel (xmltv_id=Sport Klub 3) in the config file
+[  Debug ] removed 2 overlapping shows in Sport Klub 3 starting after 01/04/2019 04:15:00
 [  Info  ] Found existing channel (xmltv_id=SK 3) in the config file
+[  Debug ] removed 2 overlapping shows in SK 3 starting after 01/04/2019 04:15:00
 [  Info  ] Found existing channel (xmltv_id=Sportska TV) in the config file
+[  Debug ] removed 2 overlapping shows in Sportska TV starting after 01/04/2019 04:10:00
 [  Info  ] Found existing channel (xmltv_id=SPTV) in the config file
+[  Debug ] removed 2 overlapping shows in SPTV starting after 01/04/2019 04:10:00
 [  Info  ] Found existing channel (xmltv_id=Disney Channel) in the config file
 [  Info  ] Found existing channel (xmltv_id=Nickelodeon HR) in the config file
+[  Debug ] removed 2 overlapping shows in Nickelodeon HR starting after 01/04/2019 05:55:00
+[  Debug ] removed 2 overlapping shows in Nickelodeon HR starting after 01/04/2019 06:10:00
+[  Debug ] removed 2 overlapping shows in Nickelodeon HR starting after 01/04/2019 06:20:00
+[  Debug ] removed 2 overlapping shows in Nickelodeon HR starting after 01/04/2019 06:30:00
 [  Info  ] Found existing channel (xmltv_id=Nicke) in the config file
+[  Debug ] removed 2 overlapping shows in Nicke starting after 01/04/2019 05:55:00
+[  Debug ] removed 2 overlapping shows in Nicke starting after 01/04/2019 06:10:00
+[  Debug ] removed 2 overlapping shows in Nicke starting after 01/04/2019 06:20:00
+[  Debug ] removed 2 overlapping shows in Nicke starting after 01/04/2019 06:30:00
 [  Info  ] Found existing channel (xmltv_id=CMC) in the config file
+[  Debug ] removed 2 overlapping shows in CMC starting after 01/04/2019 03:00:00
 [  Info  ] Found existing channel (xmltv_id=VH1) in the config file
 [  Info  ] Found existing channel (xmltv_id=Fine Living) in the config file
+[  Debug ] removed 2 overlapping shows in Fine Living starting after 01/04/2019 05:35:00
+[  Debug ] removed 2 overlapping shows in Fine Living starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in Fine Living starting after 01/04/2019 06:25:00
 [  Info  ] Found existing channel (xmltv_id=FineL) in the config file
+[  Debug ] removed 2 overlapping shows in FineL starting after 01/04/2019 05:35:00
+[  Debug ] removed 2 overlapping shows in FineL starting after 01/04/2019 06:00:00
+[  Debug ] removed 2 overlapping shows in FineL starting after 01/04/2019 06:25:00
 [  Info  ] Found existing channel (xmltv_id=Woman) in the config file
+[  Debug ] removed 2 overlapping shows in Woman starting after 01/04/2019 05:59:00
 [  Info  ] Found existing channel (xmltv_id=WOMAN) in the config file
+[  Debug ] removed 2 overlapping shows in WOMAN starting after 01/04/2019 05:59:00
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -99,8 +208,8 @@
 [  Debug ] 
 [  Info  ] (   1/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20190331041000 +0200
-[  Debug ] starting with show : Usamljenik at local time 31/03/2019 04:10
+[  Debug ] time-offset change for all shows after stoptime 20190331041100 +0200
+[  Debug ] starting with show : Usamljenik at local time 31/03/2019 04:11
 [  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -109,7 +218,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329055000 +0100
 [  Debug ] starting with show : Regionalni dnevnik at local time 29/03/2019 05:50
-[  Debug ]    skipped negative show time! at 01/04/2019 07:48:00
+[  Debug ]    skipped negative show time! at 01/04/2019 07:59:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -146,7 +255,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/60  ) TV.ISKON.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Debug ]    skipped negative show time! at 30/03/2019 05:35:00
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20190331032000 +0200
 [  Debug ] starting with show : Superman: Čovjek od čelika at local time 31/03/2019 03:20
@@ -213,7 +321,6 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190329054000 +0100
 [  Debug ] starting with show : Winx Club: Čarobna avantura at local time 29/03/2019 05:40
-[  Debug ]    skipped negative show time! at 30/03/2019 05:35:00
 [  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -276,9 +383,9 @@
 [  Debug ] 
 [  Info  ] (  31/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Life) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20190331030000 +0200
-[  Debug ] starting with show : Slatke male lažljivice at local time 31/03/2019 03:00
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ] time-offset change for all shows after stoptime 20190331033000 +0200
+[  Debug ] starting with show : Slatke male lažljivice at local time 31/03/2019 03:30
+[  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -294,8 +401,8 @@
 [  Debug ] 
 [  Info  ] (  34/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20190331030000 +0200
-[  Debug ] starting with show : Chance at local time 31/03/2019 03:00
+[  Debug ] time-offset change for all shows after stoptime 20190331032000 +0200
+[  Debug ] starting with show : Prijelaz at local time 31/03/2019 03:20
 [  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -330,8 +437,8 @@
 [  Debug ] 
 [  Info  ] (  40/60  ) TV.ISKON.HR -- chan. (xmltv_id=N. Geographic) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20190331030000 +0200
-[  Debug ] starting with show : Izgubljena blaga Egipta at local time 31/03/2019 03:00
+[  Debug ] time-offset change for all shows after stoptime 20190331032500 +0200
+[  Debug ] starting with show : Izgubljena blaga Egipta at local time 31/03/2019 03:25
 [  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -432,15 +539,17 @@
 [  Debug ] time-offset change for all shows after stoptime 20190331030000 +0200
 [  Debug ] starting with show : Vjenčanje na brzaka at local time 31/03/2019 03:00
 [  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ] multiple entry of a show at 20190402055900 +0200
+[  Debug ] multiple entry of a show at 20190404055900 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
-[  Debug ] 14565 shows in 60 channels
-[  Debug ] 1011 updated shows
-[  Debug ] 4496 new shows added
+[  Debug ] 14542 shows in 60 channels
+[  Debug ] 729 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/03/2019 13:52:57 done in 5m 40s
+[        ] Job finished at 29/03/2019 20:20:10 done in 5m 27s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
