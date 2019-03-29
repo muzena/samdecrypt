@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 29/03/2019 20:14:42
+[        ] Job started at 30/03/2019 00:01:14
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
@@ -21,14 +21,16 @@
 [  Debug ] xmltv input file - /tmp/samdecrypt/guide-iskon.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
-[  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 05:23:00
+[  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 05:22:00
 [  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 06:03:00
-[  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 06:40:00
+[  Debug ] removed 2 overlapping shows in HRT 1 starting after 01/04/2019 06:37:00
 [  Info  ] Found existing channel (xmltv_id=HRT 2) in the config file
-[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 05:00:00
-[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:00:00
-[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:34:00
-[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:35:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 05:58:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:32:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:43:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:54:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:55:00
+[  Debug ] removed 2 overlapping shows in HRT 2 starting after 01/04/2019 06:57:00
 [  Info  ] Found existing channel (xmltv_id=HRT 3) in the config file
 [  Debug ] removed 2 overlapping shows in HRT 3 starting after 01/04/2019 04:15:00
 [  Debug ] removed 2 overlapping shows in HRT 3 starting after 01/04/2019 06:05:00
@@ -47,12 +49,10 @@
 [  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 05:50:00
 [  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 06:40:00
 [  Info  ] Found existing channel (xmltv_id=NOVA TV) in the config file
-[  Debug ] removed 2 overlapping shows in NOVA TV starting after 30/03/2019 05:05:00
 [  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 05:40:00
 [  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 06:05:00
 [  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 06:27:00
 [  Info  ] Found existing channel (xmltv_id=NOVA) in the config file
-[  Debug ] removed 2 overlapping shows in NOVA starting after 30/03/2019 05:05:00
 [  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 05:40:00
 [  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 06:05:00
 [  Debug ] removed 2 overlapping shows in NOVA starting after 01/04/2019 06:27:00
@@ -75,7 +75,6 @@
 [  Info  ] Found existing channel (xmltv_id=Mreža TV) in the config file
 [  Info  ] Found existing channel (xmltv_id=Mreža) in the config file
 [  Info  ] Found existing channel (xmltv_id=NovaTV HD) in the config file
-[  Debug ] removed 2 overlapping shows in NovaTV HD starting after 30/03/2019 05:05:00
 [  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 05:40:00
 [  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 06:05:00
 [  Debug ] removed 2 overlapping shows in NovaTV HD starting after 01/04/2019 06:27:00
@@ -216,24 +215,24 @@
 [  Debug ] 
 [  Info  ] (   2/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329055000 +0100
-[  Debug ] starting with show : Regionalni dnevnik at local time 29/03/2019 05:50
+[  Debug ] time-offset change for all shows after starttime 20190330054600 +0100
+[  Debug ] starting with show : Regionalni dnevnik at local time 30/03/2019 05:46
 [  Debug ]    skipped negative show time! at 01/04/2019 07:59:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 3) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after stoptime 20190331033900 +0200
-[  Debug ] starting with show : POMAK SATA (2.00 = 3.00) at local time 31/03/2019 03:39
+[  Debug ] time-offset change for all shows after stoptime 20190331033700 +0200
+[  Debug ] starting with show : POMAK SATA (2.00 = 3.00) at local time 31/03/2019 03:37
 [  Debug ]    skipped negative show time! at 01/04/2019 07:35:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 4) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329055700 +0100
-[  Debug ] starting with show : Bez komentara at local time 29/03/2019 05:57
+[  Debug ] time-offset change for all shows after starttime 20190330054500 +0100
+[  Debug ] starting with show : Kulturna baština at local time 30/03/2019 05:45
 [  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -248,8 +247,8 @@
 [  Debug ] 
 [  Info  ] (   6/60  ) TV.ISKON.HR -- chan. (xmltv_id=RTL 2) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329054000 +0100
-[  Debug ] starting with show : Krv nije voda at local time 29/03/2019 05:40
+[  Debug ] time-offset change for all shows after starttime 20190330043000 +0100
+[  Debug ] starting with show : Kraj programa at local time 30/03/2019 04:30
 [  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -266,8 +265,8 @@
 [  Debug ] 
 [  Info  ] (   9/60  ) TV.ISKON.HR -- chan. (xmltv_id=Doma TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329053000 +0100
-[  Debug ] starting with show : Zdravlje na kvadrat at local time 29/03/2019 05:30
+[  Debug ] time-offset change for all shows after starttime 20190330055000 +0100
+[  Debug ] starting with show : CoolTurist at local time 30/03/2019 05:50
 [  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -285,8 +284,8 @@
 [  Debug ] 
 [  Info  ] (  13/60  ) TV.ISKON.HR -- chan. (xmltv_id=Jabuka TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329021600 +0100
-[  Debug ] starting with show : Program počinje u 7.00 sati at local time 29/03/2019 02:16
+[  Debug ] time-offset change for all shows after starttime 20190330034600 +0100
+[  Debug ] starting with show : Program počinje u 7.00 sati at local time 30/03/2019 03:46
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -302,8 +301,8 @@
 [  Debug ] 
 [  Info  ] (  16/60  ) TV.ISKON.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329053000 +0100
-[  Debug ] starting with show : N1 Produkcija at local time 29/03/2019 05:30
+[  Debug ] time-offset change for all shows after starttime 20190330054500 +0100
+[  Debug ] starting with show : Horizonti at local time 30/03/2019 05:45
 [  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -319,8 +318,8 @@
 [  Debug ] 
 [  Info  ] (  19/60  ) TV.ISKON.HR -- chan. (xmltv_id=NovaTV HD) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329054000 +0100
-[  Debug ] starting with show : Winx Club: Čarobna avantura at local time 29/03/2019 05:40
+[  Debug ] time-offset change for all shows after starttime 20190330053500 +0100
+[  Debug ] starting with show : Nad lipom 35 at local time 30/03/2019 05:35
 [  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -335,8 +334,8 @@
 [  Debug ] 
 [  Info  ] (  21/60  ) TV.ISKON.HR -- chan. (xmltv_id=Mini TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329050000 +0100
-[  Debug ] starting with show : Mala, velika panda at local time 29/03/2019 05:00
+[  Debug ] time-offset change for all shows after starttime 20190330050000 +0100
+[  Debug ] starting with show : Pobuna letećih majmuna at local time 30/03/2019 05:00
 [  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -355,8 +354,8 @@
 [  Debug ] 
 [  Info  ] (  25/60  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar  TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329030000 +0100
-[  Debug ] starting with show : KOLAŽ PROGRAM at local time 29/03/2019 03:00
+[  Debug ] time-offset change for all shows after starttime 20190330031200 +0100
+[  Debug ] starting with show : KOLAŽ PROGRAM at local time 30/03/2019 03:12
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -373,8 +372,8 @@
 [  Debug ] 
 [  Info  ] (  29/60  ) TV.ISKON.HR -- chan. (xmltv_id=Comedy Central) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329053000 +0100
-[  Debug ] starting with show : Spužva Bob Skockani at local time 29/03/2019 05:30
+[  Debug ] time-offset change for all shows after starttime 20190330053000 +0100
+[  Debug ] starting with show : Spužva Bob Skockani at local time 30/03/2019 05:30
 [  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -393,8 +392,8 @@
 [  Debug ] 
 [  Info  ] (  33/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Crime) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329051500 +0100
-[  Debug ] starting with show : Sherlock i Watson at local time 29/03/2019 05:15
+[  Debug ] time-offset change for all shows after starttime 20190330051500 +0100
+[  Debug ] starting with show : Sherlock i Watson at local time 30/03/2019 05:15
 [  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -409,8 +408,8 @@
 [  Debug ] 
 [  Info  ] (  35/60  ) TV.ISKON.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329050000 +0100
-[  Debug ] starting with show : Detektivke at local time 29/03/2019 05:00
+[  Debug ] time-offset change for all shows after starttime 20190330050500 +0100
+[  Debug ] starting with show : Detektivke at local time 30/03/2019 05:05
 [  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -427,8 +426,8 @@
 [  Debug ] 
 [  Info  ] (  38/60  ) TV.ISKON.HR -- chan. (xmltv_id=Epic Drama) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329052500 +0100
-[  Debug ] starting with show : Restoran at local time 29/03/2019 05:25
+[  Debug ] time-offset change for all shows after starttime 20190330045000 +0100
+[  Debug ] starting with show : Restoran at local time 30/03/2019 04:50
 [  Debug ]    skipped negative show time! at 01/04/2019 07:20:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -439,7 +438,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20190331032500 +0200
 [  Debug ] starting with show : Izgubljena blaga Egipta at local time 31/03/2019 03:25
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -447,8 +446,8 @@
 [  Debug ] 
 [  Info  ] (  42/60  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat Explore) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329053500 +0100
-[  Debug ] starting with show : Luda vozila at local time 29/03/2019 05:35
+[  Debug ] time-offset change for all shows after starttime 20190330052000 +0100
+[  Debug ] starting with show : Luda vozila at local time 30/03/2019 05:20
 [  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -467,8 +466,8 @@
 [  Debug ] 
 [  Info  ] (  46/60  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 1) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329054500 +0100
-[  Debug ] starting with show : SK Mix at local time 29/03/2019 05:45
+[  Debug ] time-offset change for all shows after starttime 20190330043000 +0100
+[  Debug ] starting with show : Miami - Dallas, Košarka, NBA liga at local time 30/03/2019 04:30
 [  Debug ]    skipped negative show time! at 01/04/2019 07:15:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -487,8 +486,8 @@
 [  Debug ] 
 [  Info  ] (  50/60  ) TV.ISKON.HR -- chan. (xmltv_id=Sportska TV) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329002500 +0100
-[  Debug ] starting with show : EP Osijek, Streljaštvo at local time 29/03/2019 00:25
+[  Debug ] time-offset change for all shows after starttime 20190330002500 +0100
+[  Debug ] starting with show : Cape Epic, Biciklizam,  sažetak at local time 30/03/2019 00:25
 [  Debug ]    skipped negative show time! at 01/04/2019 07:10:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -511,8 +510,8 @@
 [  Debug ] 
 [  Info  ] (  55/60  ) TV.ISKON.HR -- chan. (xmltv_id=CMC) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329030000 +0100
-[  Debug ] starting with show : Noćna straža at local time 29/03/2019 03:00
+[  Debug ] time-offset change for all shows after starttime 20190330030000 +0100
+[  Debug ] starting with show : Noćna straža at local time 30/03/2019 03:00
 [  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -526,8 +525,8 @@
 [  Debug ] 
 [  Info  ] (  57/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fine Living) -- mode Incremental
 [  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190329053500 +0100
-[  Debug ] starting with show : Potraga za kućom at local time 29/03/2019 05:35
+[  Debug ] time-offset change for all shows after starttime 20190330053500 +0100
+[  Debug ] starting with show : Potraga za kućom at local time 30/03/2019 05:35
 [  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -539,17 +538,15 @@
 [  Debug ] time-offset change for all shows after stoptime 20190331030000 +0200
 [  Debug ] starting with show : Vjenčanje na brzaka at local time 31/03/2019 03:00
 [  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
-[  Debug ] multiple entry of a show at 20190402055900 +0200
-[  Debug ] multiple entry of a show at 20190404055900 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
-[  Debug ] 14542 shows in 60 channels
-[  Debug ] 729 updated shows
+[  Debug ] 12783 shows in 60 channels
+[  Debug ] 207 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 29/03/2019 20:20:10 done in 5m 27s
+[        ] Job finished at 30/03/2019 00:05:35 done in 4m 21s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
