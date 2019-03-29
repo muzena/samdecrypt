@@ -1165,6 +1165,8 @@ rm libEPG.config <<EOF
 EOF
 }
 
+########## a1 TV ##################################
+
 
 function update_a1_grabber()
 {
@@ -1203,23 +1205,45 @@ rm libEPG.config <<EOF
 EOF
 }
 
+########## Iskon TV ##################################
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function update_iskon_grabber()
+{
+#rm ./pharser/libEPG-iskon.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-iskon.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-iskon.xml ./pharser/guide-iskon.xml
+#cd pharser
+# generate bnet config file
+##### a1 pharser
+# python pharser-iskon.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-iskon.xml
+#cd ..
+#wait $!
+#### Generate a1 config file with libEPG_xml2josn
+cp guide-iskon.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-iskon.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-iskon.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
 
 function git_clone()
 {
@@ -1250,9 +1274,11 @@ wait $!
 wait $!
 #update_Bnet_grabber_IPTV
 wait $!
-update_viptv_grabber
+#update_viptv_grabber
 wait $!
 #update_a1_grabber
+wait $!
+update_iskon_grabber
 ### http://www.webgrabplus.com/content/tviskonhr-and-viphr 
 ### http://epg.koditvepg.com/
 
