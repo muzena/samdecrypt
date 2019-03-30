@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 30/03/2019 13:53:59
+[        ] Job started at 30/03/2019 20:40:20
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
@@ -46,8 +46,8 @@
 [  Debug ] removed 2 overlapping shows in RTL starting after 01/04/2019 04:50:00
 [  Debug ] removed 2 overlapping shows in RTL starting after 01/04/2019 06:15:00
 [  Info  ] Found existing channel (xmltv_id=RTL 2) in the config file
-[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 05:50:00
-[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 06:40:00
+[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 05:35:00
+[  Debug ] removed 2 overlapping shows in RTL 2 starting after 01/04/2019 06:00:00
 [  Info  ] Found existing channel (xmltv_id=NOVA TV) in the config file
 [  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 05:40:00
 [  Debug ] removed 2 overlapping shows in NOVA TV starting after 01/04/2019 06:05:00
@@ -257,6 +257,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after stoptime 20190331032000 +0200
 [  Debug ] starting with show : Superman: Čovjek od čelika at local time 31/03/2019 03:20
+[  Debug ] multiple entry of a show at 20190331064000 +0200
 [  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -320,6 +321,7 @@
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190330053500 +0100
 [  Debug ] starting with show : Nad lipom 35 at local time 30/03/2019 05:35
+[  Debug ] multiple entry of a show at 20190331064000 +0100
 [  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
@@ -371,6 +373,10 @@
 [  Info  ] channel CineA same as -- CineStar TV Action -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  29/60  ) TV.ISKON.HR -- chan. (xmltv_id=Comedy Central) -- mode Incremental
+[Warning ] error downloading page: Error: ConnectFailure (No route to host)
+[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
+[Warning ] error downloading page: Error: ConnectFailure (Network is unreachable)
+[Warning ] pausing 2 of 4 times for 14 seconds before re-try.
 [  Debug ] coming 'Day-Light-Saving-Time' change!
 [  Debug ] time-offset change for all shows after starttime 20190330053000 +0100
 [  Debug ] starting with show : Spužva Bob Skockani at local time 30/03/2019 05:30
@@ -543,10 +549,10 @@
 [  Debug ] 
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
-[  Debug ] 14820 shows in 60 channels
-[  Debug ] 343 updated shows
+[  Debug ] 14823 shows in 60 channels
+[  Debug ] 165 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 30/03/2019 13:59:24 done in 5m 24s
+[        ] Job finished at 30/03/2019 20:46:10 done in 5m 50s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
