@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 31/03/2019 00:01:15
+[        ] Job started at 31/03/2019 12:01:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
@@ -197,6 +197,7 @@
 [  Debug ] removed 2 overlapping shows in Woman starting after 01/04/2019 05:59:00
 [  Info  ] Found existing channel (xmltv_id=WOMAN) in the config file
 [  Debug ] removed 2 overlapping shows in WOMAN starting after 01/04/2019 05:59:00
+[  Info  ] time offset change detected for site tv.iskon.hr from: +0100 to: +0200
 [  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
@@ -206,47 +207,60 @@
 [  Info  ] update requested for - 60 - out of - 60 - channels for 11 day(s)
 [  Debug ] 
 [  Info  ] (   1/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 1) -- mode Incremental
-[  Debug ] coming 'Day-Light-Saving-Time' change!
-[  Debug ] time-offset change for all shows after starttime 20190331064700 +0200
-[  Debug ] starting with show : TV kalendar at local time 31/03/2019 06:47
-[  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   2/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 2) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:59:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:59:00
+[  Debug ] multiple entry of a show at 20190402055100 +0200
+[  Debug ] multiple entry of a show at 20190403055000 +0200
+[  Debug ] multiple entry of a show at 20190404055000 +0200
+[  Debug ] multiple entry of a show at 20190405055000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   3/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 3) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:35:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:35:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   4/60  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 4) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:55:00
+[  Debug ] multiple entry of a show at 20190402054500 +0200
+[  Debug ] multiple entry of a show at 20190403055700 +0200
+[  Debug ] multiple entry of a show at 20190404054500 +0200
+[  Debug ] multiple entry of a show at 20190405055700 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   5/60  ) TV.ISKON.HR -- chan. (xmltv_id=RTL) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   6/60  ) TV.ISKON.HR -- chan. (xmltv_id=RTL 2) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:25:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:25:00
+[  Debug ] multiple entry of a show at 20190402055500 +0200
+[  Debug ] multiple entry of a show at 20190403053500 +0200
+[  Debug ] multiple entry of a show at 20190404055500 +0200
+[  Debug ] multiple entry of a show at 20190405053500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (   7/60  ) TV.ISKON.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (   9/60  ) TV.ISKON.HR -- chan. (xmltv_id=Doma TV) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:30:00
+[  Debug ] multiple entry of a show at 20190402054000 +0200
+[  Debug ] multiple entry of a show at 20190403054000 +0200
+[  Debug ] multiple entry of a show at 20190404054000 +0200
+[  Debug ] multiple entry of a show at 20190405054000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -259,18 +273,26 @@
 [  Info  ] channel RTLli same as -- RTL Living -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  13/60  ) TV.ISKON.HR -- chan. (xmltv_id=Jabuka TV) -- mode Incremental
+[  Debug ] multiple entry of a show at 20190403021600 +0200
+[  Debug ] multiple entry of a show at 20190404021600 +0200
+[  Debug ] multiple entry of a show at 20190405021600 +0200
+[  Debug ] multiple entry of a show at 20190406021600 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Jabuk same as -- Jabuka TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  15/60  ) TV.ISKON.HR -- chan. (xmltv_id=Z1) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  16/60  ) TV.ISKON.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:30:00
+[  Debug ] multiple entry of a show at 20190402053000 +0200
+[  Debug ] multiple entry of a show at 20190403053000 +0200
+[  Debug ] multiple entry of a show at 20190404053000 +0200
+[  Debug ] multiple entry of a show at 20190405053000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -281,30 +303,46 @@
 [  Info  ] channel Mreža same as -- Mreža TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  19/60  ) TV.ISKON.HR -- chan. (xmltv_id=NovaTV HD) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:50:00
+[  Debug ] multiple entry of a show at 20190402054000 +0200
+[  Debug ] multiple entry of a show at 20190403054000 +0200
+[  Debug ] multiple entry of a show at 20190404054000 +0200
+[  Debug ] multiple entry of a show at 20190405054000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  20/60  ) TV.ISKON.HR -- chan. (xmltv_id=N1 HD) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:30:00
+[  Debug ] multiple entry of a show at 20190402053000 +0200
+[  Debug ] multiple entry of a show at 20190403053000 +0200
+[  Debug ] multiple entry of a show at 20190404053000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  21/60  ) TV.ISKON.HR -- chan. (xmltv_id=Mini TV) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:40:00
+[  Debug ] multiple entry of a show at 20190402050000 +0200
+[  Debug ] multiple entry of a show at 20190403050000 +0200
+[  Debug ] multiple entry of a show at 20190404050000 +0200
+[  Debug ] multiple entry of a show at 20190405050000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Mini same as -- Mini TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  23/60  ) TV.ISKON.HR -- chan. (xmltv_id=RTL Kockica) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel RTLko same as -- RTL Kockica -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  25/60  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar  TV) -- mode Incremental
+[  Debug ] multiple entry of a show at 20190401024300 +0200
+[  Debug ] multiple entry of a show at 20190402032100 +0200
+[  Debug ] multiple entry of a show at 20190403034100 +0200
+[  Debug ] multiple entry of a show at 20190404031200 +0200
+[  Debug ] multiple entry of a show at 20190405032600 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -317,85 +355,113 @@
 [  Info  ] channel CineA same as -- CineStar TV Action -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  29/60  ) TV.ISKON.HR -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:30:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:30:00
+[  Debug ] multiple entry of a show at 20190402053000 +0200
+[  Debug ] multiple entry of a show at 20190403053000 +0200
+[  Debug ] multiple entry of a show at 20190404053000 +0200
+[  Debug ] multiple entry of a show at 20190405053000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Comed same as -- Comedy Central -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  31/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Life) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:40:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- Fox Life -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  33/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Crime) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
+[  Debug ] multiple entry of a show at 20190402051000 +0200
+[  Debug ] multiple entry of a show at 20190403051500 +0200
+[  Debug ] multiple entry of a show at 20190404051500 +0200
+[  Debug ] multiple entry of a show at 20190405051500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  34/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fox) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:40:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:40:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  35/60  ) TV.ISKON.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:00:00
+[  Debug ] multiple entry of a show at 20190402050000 +0200
+[  Debug ] multiple entry of a show at 20190403050000 +0200
+[  Debug ] multiple entry of a show at 20190404050000 +0200
+[  Debug ] multiple entry of a show at 20190405050000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  36/60  ) TV.ISKON.HR -- chan. (xmltv_id=TV1000) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel TV100 same as -- TV1000 -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  38/60  ) TV.ISKON.HR -- chan. (xmltv_id=Epic Drama) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:20:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:20:00
+[  Debug ] multiple entry of a show at 20190402052500 +0200
+[  Debug ] multiple entry of a show at 20190403052000 +0200
+[  Debug ] multiple entry of a show at 20190404050500 +0200
+[  Debug ] multiple entry of a show at 20190405050500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel EpicD same as -- Epic Drama -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  40/60  ) TV.ISKON.HR -- chan. (xmltv_id=N. Geographic) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:50:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel NatGe same as -- N. Geographic -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  42/60  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat Explore) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
+[  Debug ] multiple entry of a show at 20190402052500 +0200
+[  Debug ] multiple entry of a show at 20190403052500 +0200
+[  Debug ] multiple entry of a show at 20190404052500 +0200
+[  Debug ] multiple entry of a show at 20190405052500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Explo same as -- Viasat Explore -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  44/60  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat History) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:20:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:20:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Histo same as -- Viasat History -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  46/60  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 1) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:15:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:15:00
+[  Debug ] multiple entry of a show at 20190402040000 +0200
+[  Debug ] multiple entry of a show at 20190403050000 +0200
+[  Debug ] multiple entry of a show at 20190404040500 +0200
+[  Debug ] multiple entry of a show at 20190405040500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SK 1 same as -- Sport Klub 1 -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  48/60  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 3) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:00:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SK 3 same as -- Sport Klub 3 -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  50/60  ) TV.ISKON.HR -- chan. (xmltv_id=Sportska TV) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:10:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:10:00
+[  Debug ] multiple entry of a show at 20190402040500 +0200
+[  Debug ] multiple entry of a show at 20190403054000 +0200
+[  Debug ] multiple entry of a show at 20190404035000 +0200
+[  Debug ] multiple entry of a show at 20190405025000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -406,14 +472,18 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  53/60  ) TV.ISKON.HR -- chan. (xmltv_id=Nickelodeon HR) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:55:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:55:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Nicke same as -- Nickelodeon HR -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  55/60  ) TV.ISKON.HR -- chan. (xmltv_id=CMC) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:00:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:00:00
+[  Debug ] multiple entry of a show at 20190402044500 +0200
+[  Debug ] multiple entry of a show at 20190403044500 +0200
+[  Debug ] multiple entry of a show at 20190404030000 +0200
+[  Debug ] multiple entry of a show at 20190405030000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -422,23 +492,27 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  57/60  ) TV.ISKON.HR -- chan. (xmltv_id=Fine Living) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:50:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:50:00
+[  Debug ] multiple entry of a show at 20190402053500 +0200
+[  Debug ] multiple entry of a show at 20190403053500 +0200
+[  Debug ] multiple entry of a show at 20190404053500 +0200
+[  Debug ] multiple entry of a show at 20190405053500 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel FineL same as -- Fine Living -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  59/60  ) TV.ISKON.HR -- chan. (xmltv_id=Woman) -- mode Incremental
-[  Debug ]    skipped negative show time! at 01/04/2019 07:45:00
+[  Debug ]    skipped negative show time! at 01/04/2019 06:45:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
-[  Debug ] 12767 shows in 60 channels
-[  Debug ] 4264 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 14416 shows in 60 channels
+[  Debug ] 156 updated shows
+[  Debug ] 1129 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 31/03/2019 00:06:41 done in 5m 26s
+[        ] Job finished at 31/03/2019 12:06:21 done in 5m 6s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
