@@ -1,0 +1,1307 @@
+#!/bin/bash
+# Script for EPG grab from WebGrab+Plus  http://www.webgrabplus.com/documentation
+set -x
+
+#function check_mono_install (){
+#    wich
+#}
+
+# Add mono repository
+function add_mono_ppa (){
+    sudo -i
+    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+    echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | tee /etc/apt/sources.list.d/mono-official-stable.list
+    apt update
+    wait $!
+    exit
+}
+
+function install_mono (){
+sudo -i
+apt -y install mono-runtime libmono-system-data4.0-cil libmono-system-web4.0-cil
+apt install -y mono-complete
+wait $!
+exit
+}
+
+
+#for i in `grep -rl 2.4.6 . 2> /dev/null`; do sed -i 's/2.4.6/2.4.6.1/' $i; done
+
+#samdec="$HOME/Snimke/grabber/samdecrypt/pharser"
+
+function fixchannelnames_main()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-main.xml > guide-main-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-main-test.xml
+# HRT 1
+sed -i 's/"HTV 1">/"HRT 1">/g' guide-main-test.xml
+sed -i 's/>HTV 1</>HRT 1</g' guide-main-test.xml
+# HRT 2
+sed -i 's/"HTV 2">/"HRT 2">/g' guide-main-test.xml
+sed -i 's/>HTV 2</>HRT 2</g' guide-main-test.xml
+# HRT 3
+sed -i 's/"HTV 3">/"HRT 3">/g' guide-main-test.xml
+sed -i 's/>HTV 3</>HRT 3</g' guide-main-test.xml
+# HRT 4
+sed -i 's/"HTV 4">/"HRT 4">/g' guide-main-test.xml
+sed -i 's/>HTV 4</>HRT 4</g' guide-main-test.xml
+# RTL TELEVIZIJA
+sed -i 's/"RTL TELEVIZIJA">/"RTL TV">/g' guide-main-test.xml
+sed -i 's/>RTL TELEVIZIJA</>RTL TV</g' guide-main-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-main-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-main-test.xml
+# RTL TELEVIZIJA
+sed -i 's/"DOMA TV">/"Doma">/g' guide-main-test.xml
+sed -i 's/>DOMA TV</>Doma</g' guide-main-test.xml
+# RTL 2
+#sed -i 's/"RTL2">/"RTL2">/g' guide-main-test.xml
+#sed -i 's/>RTL2</>RTL2</g' guide-main-test.xml
+# RTL Plus
+sed -i 's/"RTL PLUS">/"RTLli">/g' guide-main-test.xml
+sed -i 's/>RTL PLUS</>RTLli</g' guide-main-test.xml
+# CineStar TV
+sed -i 's/"CINESTAR ACTION &amp; THRILLER">/"CineA">/g' guide-main-test.xml
+sed -i 's/>CINESTAR ACTION &amp; THRILLER</>CineA</g' guide-main-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CINESTAR TV">/"Cines">/g' guide-main-test.xml
+sed -i 's/>CINESTAR TV</>Cines</g' guide-main-test.xml
+# TV 1000 Balkan
+sed -i 's/"VIASAT TV1000">/"TV100">/g' guide-main-test.xml
+sed -i 's/>VIASAT TV1000</>TV100</g' guide-main-test.xml
+# Fox TV
+sed -i 's/"FOX">/"Fox">/g' guide-main-test.xml
+sed -i 's/>FOX</>Fox</g' guide-main-test.xml
+# Fox Life
+sed -i 's/"FOX LIFE">/"FoxLi">/g' guide-main-test.xml
+sed -i 's/>FOX LIFE</>FoxLi</g' guide-main-test.xml
+# Universal Channel
+sed -i 's/"UNIVERSAL CHANNEL">/"Unive">/g' guide-main-test.xml
+sed -i 's/>UNIVERSAL CHANNEL</>Unive</g' guide-main-test.xml
+# Comedy Central Extra
+sed -i 's/"Comedy Central Extra">/"CExtr">/g' guide-main-test.xml
+sed -i 's/>Comedy Central Extra</>CExtr</g' guide-main-test.xml
+# Discovery Channel
+sed -i 's/"DISCOVERY CHANNEL">/"Disco">/g' guide-main-test.xml
+sed -i 's/>DISCOVERY CHANNEL</>Disco</g' guide-main-test.xml
+# National Geographic Channel
+sed -i 's/"NATIONAL GEOGRAPHIC">/"NatGe">/g' guide-main-test.xml
+sed -i 's/>NATIONAL GEOGRAPHIC</>NatGe</g' guide-main-test.xml
+# Viasat History
+sed -i 's/"VIASAT HISTORY">/"Histo">/g' guide-main-test.xml
+sed -i 's/>VIASAT HISTORY</>Histo</g' guide-main-test.xml
+# Animal Planet
+sed -i 's/"ANIMAL PLANET">/"Anima">/g' guide-main-test.xml
+sed -i 's/>ANIMAL PLANET</>Anima</g' guide-main-test.xml
+# Viasat Explore
+sed -i 's/"VIASAT EXPLORER">/"Explo">/g' guide-main-test.xml
+sed -i 's/>VIASAT EXPLORER</>Explo</g' guide-main-test.xml
+# Travel Channel
+#sed -i 's/"TLC">/"TLC">/g' guide-main-test.xml
+#sed -i 's/>TLC</>TLC</g' guide-main-test.xml
+# MrežaZG
+sed -i 's/"MREŽAZG">/"Mreža">/g' guide-main-test.xml
+sed -i 's/>MREŽAZG</>Mreža</g' guide-main-test.xml
+# Jabuka TV
+sed -i 's/"Jabuka TV">/"Jabuk">/g' guide-main-test.xml
+sed -i 's/>Jabuka TV</>Jabuk</g' guide-main-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-main-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-main-test.xml
+# 24 SATA TV
+sed -i 's/"24 SATA TV">/"24sat">/g' guide-main-test.xml
+sed -i 's/>24 SATA TV</>24sat</g' guide-main-test.xml
+# CNN International Europe
+sed -i 's/"CNN">/"CNN">/g' guide-main-test.xml
+sed -i 's/>CNN</>CNN</g' guide-main-test.xml
+# Cartoon Network
+sed -i 's/"CARTOON NETWORK">/"CN">/g' guide-main-test.xml
+sed -i 's/>CARTOON NETWORK</>CN</g' guide-main-test.xml
+# Nickelodeon
+sed -i 's/"NICKELODEON">/"Nicke">/g' guide-main-test.xml
+sed -i 's/>NICKELODEON</>Nicke</g' guide-main-test.xml
+# DISNEY CHANNEL
+sed -i 's/"DISNEY CHANNEL">/"Disne">/g' guide-main-test.xml
+sed -i 's/>DISNEY CHANNEL</>Disne</g' guide-main-test.xml
+# Mini TV
+sed -i 's/"MINI TV">/"Mini">/g' guide-main-test.xml
+sed -i 's/>MINI TV</>Mini</g' guide-main-test.xml
+# RTL Kockica
+sed -i 's/"RTL KOCKICA">/"RTLko">/g' guide-main-test.xml
+sed -i 's/>RTL KOCKICA</>RTLko</g' guide-main-test.xml
+# Sportska televizija
+sed -i 's/"SPORTSKA TV">/"SPTV">/g' guide-main-test.xml
+sed -i 's/>SPORTSKA TV</>SPTV</g' guide-main-test.xml
+# Eurosport
+sed -i 's/"EUROSPORT">/"Euro1">/g' guide-main-test.xml
+sed -i 's/>EUROSPORT</>Euro1</g' guide-main-test.xml
+# Eurosport 2
+sed -i 's/"EUROSPORT 2">/"Euro2">/g' guide-main-test.xml
+sed -i 's/>EUROSPORT 2</>Euro2</g' guide-main-test.xml
+# SK 1
+sed -i 's/"SK 1">/"SK1">/g' guide-main-test.xml
+sed -i 's/>SK 1</>SK1</g' guide-main-test.xml
+# SK 3
+sed -i 's/"SK 3">/"SK3">/g' guide-main-test.xml
+sed -i 's/>SK 3</>SK3</g' guide-main-test.xml
+# MTV Hrvatska
+sed -i 's/"MTV">/"MTV">/g' guide-main-test.xml
+sed -i 's/>MTV</>MTV</g' guide-main-test.xml
+# VH1 Europe
+sed -i 's/"VH1">/"VH1">/g' guide-main-test.xml
+sed -i 's/>VH1</>VH1</g' guide-main-test.xml
+# CMC
+sed -i 's/"CROATIAN MUSIC CHANNEL">/"C M C">/g' guide-main-test.xml
+sed -i 's/>CROATIAN MUSIC CHANNEL</>C M C</g' guide-main-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-main-test.xml
+sed -i 's/>N1</>N 1</g' guide-main-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX sr">/g' guide-main-test.xml
+sed -i 's/>Fox TV</>FOX sr</g' guide-main-test.xml
+# B92 tv online test tv
+sed -i 's/"B92">/"B92 HD">/g' guide-main-test.xml
+sed -i 's/>B92</>B92 HD</g' guide-main-test.xml
+# FOX Life online test tv
+sed -i 's/"Fox Life">/"FOX Life sr">/g' guide-main-test.xml
+sed -i 's/>Fox Life</>FOX Life sr</g' guide-main-test.xml
+# MTV online test tv
+sed -i 's/"MTV Hrvatska">/"MTV Adria sr">/g' guide-main-test.xml
+sed -i 's/>MTV Hrvatska</>MTV Adria sr</g' guide-main-test.xml
+# Viasat Nature online test tv
+sed -i 's/"Viasat Nature">/"VIASAT NATURE sr">/g' guide-main-test.xml
+sed -i 's/>Viasat Nature</>VIASAT NATURE sr</g' guide-main-test.xml
+# Pink online test tv
+sed -i 's/"PINK">/"PINK sr">/g' guide-main-test.xml
+sed -i 's/>PINK</>PINK sr</g' guide-main-test.xml
+# Vh1 online test tv
+sed -i 's/"VH-1">/"VH1 sr">/g' guide-main-test.xml
+sed -i 's/>VH-1</>VH1 sr</g' guide-main-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska">/g' guide-main-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-main-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-main-test.xml
+ <<EOF
+EOF
+}
+function fixchannelnames_port()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-port.xml > guide-port-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-port-test.xml
+# RTL TELEVIZIJA
+sed -i 's/"RTL TELEVIZIJA">/"RTL TV">/g' guide-port-test.xml
+sed -i 's/>RTL TELEVIZIJA</>RTL TV</g' guide-port-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-port-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-port-test.xml
+# RTL 2
+sed -i 's/"RTL 2">/"RTL2">/g' guide-port-test.xml
+sed -i 's/>RTL 2</>RTL2</g' guide-port-test.xml
+# RTL Living
+sed -i 's/"RTL Plus">/"RTLli">/g' guide-port-test.xml
+sed -i 's/>RTL Plus</>RTLli</g' guide-port-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar Action&amp;Thriller">/"CineA">/g' guide-port-test.xml
+sed -i 's/>CineStar Action&amp;Thriller</>CineA</g' guide-port-test.xml
+# CineStar TV
+sed -i 's/"CineStar TV">/"Cines">/g' guide-port-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-port-test.xml
+# TV 1000 Balkan
+sed -i 's/"TV 1000 Balkan">/"TV100">/g' guide-port-test.xml
+sed -i 's/>TV 1000 Balkan</>TV100</g' guide-port-test.xml
+# Fox TV
+sed -i 's/"Fox TV">/"Fox">/g' guide-port-test.xml
+sed -i 's/>Fox TV</>Fox</g' guide-port-test.xml
+# Fox Life
+sed -i 's/"Fox Life">/"FoxLi">/g' guide-port-test.xml
+sed -i 's/>Fox Life</>FoxLi</g' guide-port-test.xml
+# Universal Channel
+sed -i 's/"Universal Channel">/"Unive">/g' guide-port-test.xml
+sed -i 's/>Universal Channel</>Unive</g' guide-port-test.xml
+# Comedy Central Extra
+sed -i 's/"Comedy Central Extra">/"CExtr">/g' guide-port-test.xml
+sed -i 's/>Comedy Central Extra</>CExtr</g' guide-port-test.xml
+# Discovery Channel
+sed -i 's/"Discovery Channel">/"Disco">/g' guide-port-test.xml
+sed -i 's/>Discovery Channel</>Disco</g' guide-port-test.xml
+# National Geographic Channel
+sed -i 's/"National Geographic Channel">/"NatGe">/g' guide-port-test.xml
+sed -i 's/>National Geographic Channel</>NatGe</g' guide-port-test.xml
+# Viasat History
+sed -i 's/"Viasat History">/"Histo">/g' guide-port-test.xml
+sed -i 's/>Viasat History</>Histo</g' guide-port-test.xml
+# Animal Planet
+sed -i 's/"Animal Planet">/"Anima">/g' guide-port-test.xml
+sed -i 's/>Animal Planet</>Anima</g' guide-port-test.xml
+# Viasat Explore
+sed -i 's/"Viasat Explore">/"Explo">/g' guide-port-test.xml
+sed -i 's/>Viasat Explore</>Explo</g' guide-port-test.xml
+# TLC
+###sed -i 's/"Travel Channel">/"TLC">/g' guide-port-test.xml
+###sed -i 's/>Travel Channel</>TLC</g' guide-port-test.xml
+# MrežaZG
+sed -i 's/"MrežaZG">/"Mreža">/g' guide-port-test.xml
+sed -i 's/>MrežaZG</>Mreža</g' guide-port-test.xml
+# Jabuka TV
+sed -i 's/"Jabuka TV">/"Jabuk">/g' guide-port-test.xml
+sed -i 's/>Jabuka TV</>Jabuk</g' guide-port-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-port-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-port-test.xml
+# 24 SATA TV
+sed -i 's/"24 SATA TV">/"24sat">/g' guide-port-test.xml
+sed -i 's/>24 SATA TV</>24sat</g' guide-port-test.xml
+# CNN International Europe
+sed -i 's/"CNN International Europe">/"CNN">/g' guide-port-test.xml
+sed -i 's/>CNN International Europe</>CNN</g' guide-port-test.xml
+# Cartoon Network
+sed -i 's/"CARTOON NETWORK">/"CN">/g' guide-port-test.xml
+sed -i 's/>CARTOON NETWORK</>CN</g' guide-port-test.xml
+# Nickelodeon
+sed -i 's/"Nickelodeon">/"Nicke">/g' guide-port-test.xml
+sed -i 's/>Nickelodeon</>Nicke</g' guide-port-test.xml
+# DISNEY CHANNEL
+sed -i 's/"DISNEY CHANNEL">/"Disne">/g' guide-port-test.xml
+sed -i 's/>DISNEY CHANNEL</>Disne</g' guide-port-test.xml
+# Mini TV
+sed -i 's/"Mini TV">/"Mini">/g' guide-port-test.xml
+sed -i 's/>Mini TV</>Mini</g' guide-port-test.xml
+# RTL Kockica
+sed -i 's/"RTL Kockica">/"RTLko">/g' guide-port-test.xml
+sed -i 's/>RTL Kockica</>RTLko</g' guide-port-test.xml
+# Sportska televizija
+sed -i 's/"Sportska televizija">/"SPTV">/g' guide-port-test.xml
+sed -i 's/>Sportska televizija</>SPTV</g' guide-port-test.xml
+# Eurosport
+sed -i 's/"Eurosport">/"Euro1">/g' guide-port-test.xml
+sed -i 's/>Eurosport</>Euro1</g' guide-port-test.xml
+# Eurosport 2
+sed -i 's/"Eurosport 2">/"Euro2">/g' guide-port-test.xml
+sed -i 's/>Eurosport 2</>Euro2</g' guide-port-test.xml
+# SK 1
+sed -i 's/"Sport Klub 1">/"SK1">/g' guide-port-test.xml
+sed -i 's/>Sport Klub 1</>SK1</g' guide-port-test.xml
+# SK 3
+sed -i 's/"SK 3">/"SK3">/g' guide-port-test.xml
+sed -i 's/>SK 3</>SK3</g' guide-port-test.xml
+# MTV Hrvatska
+sed -i 's/"MTV Hrvatska">/"MTV">/g' guide-port-test.xml
+sed -i 's/>MTV Hrvatska</>MTV</g' guide-port-test.xml
+# VH1 Europe
+sed -i 's/"VH1 CLASSIC">/"VH1">/g' guide-port-test.xml
+sed -i 's/>VH1 CLASSIC</>VH1</g' guide-port-test.xml
+# CMC
+sed -i 's/"CMC">/"C M C">/g' guide-port-test.xml
+sed -i 's/>CMC</>C M C</g' guide-port-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-port-test.xml
+sed -i 's/>N1</>N 1</g' guide-port-test.xml
+ <<EOF
+EOF
+}
+function fixchannelnames_bnet()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-bnet.xml > guide-bnet-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-bnet-test.xml
+# HRT 1
+sed -i 's/"HTV 1">/"HRT 1">/g' guide-bnet-test.xml
+sed -i 's/>HTV 1</>HRT 1</g' guide-bnet-test.xml
+# HRT 2
+sed -i 's/"HTV 2">/"HRT 2">/g' guide-bnet-test.xml
+sed -i 's/>HTV 2</>HRT 2</g' guide-bnet-test.xml
+# HRT 3
+sed -i 's/"HTV 3">/"HRT 3">/g' guide-bnet-test.xml
+sed -i 's/>HTV 3</>HRT 3</g' guide-bnet-test.xml
+# HRT 4
+sed -i 's/"HTV 4">/"HRT 4">/g' guide-bnet-test.xml
+sed -i 's/>HTV 4</>HRT 4</g' guide-bnet-test.xml
+# RTL TELEVIZIJA
+sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-bnet-test.xml
+sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-bnet-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-bnet-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-bnet-test.xml
+# RTL TELEVIZIJA
+sed -i 's/"DOMA TV">/"Doma">/g' guide-bnet-test.xml
+sed -i 's/>DOMA TV</>Doma</g' guide-bnet-test.xml
+# RTL 2
+#sed -i 's/"RTL2">/"RTL2">/g' guide-bnet-test.xml
+#sed -i 's/>RTL2</>RTL2</g' guide-bnet-test.xml
+# RTL Plus
+sed -i 's/"RTL PLUS">/"RTLli">/g' guide-bnet-test.xml
+sed -i 's/>RTL PLUS</>RTLli</g' guide-bnet-test.xml
+# CineStar TV
+sed -i 's/"CINESTAR ACTION &amp; THRILLER">/"CineA">/g' guide-bnet-test.xml
+sed -i 's/>CINESTAR ACTION &amp; THRILLER</>CineA</g' guide-bnet-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CINESTAR TV">/"Cines">/g' guide-bnet-test.xml
+sed -i 's/>CINESTAR TV</>Cines</g' guide-bnet-test.xml
+# TV 1000 Balkan
+sed -i 's/"VIASAT TV1000">/"TV100">/g' guide-bnet-test.xml
+sed -i 's/>VIASAT TV1000</>TV100</g' guide-bnet-test.xml
+# Fox TV
+sed -i 's/"FOX">/"Fox">/g' guide-bnet-test.xml
+sed -i 's/>FOX</>Fox</g' guide-bnet-test.xml
+# Fox Life
+sed -i 's/"FOX LIFE">/"FoxLi">/g' guide-bnet-test.xml
+sed -i 's/>FOX LIFE</>FoxLi</g' guide-bnet-test.xml
+# Comedy Central Channel
+sed -i 's/"COMEDY CENTRAL EXTRA">/"Comed">/g' guide-bnet-test.xml
+sed -i 's/>COMEDY CENTRAL EXTRA</>Comed</g' guide-bnet-test.xml
+# Universal Channel
+sed -i 's/"UNIVERSAL CHANNEL">/"DIVA">/g' guide-bnet-test.xml
+sed -i 's/>UNIVERSAL CHANNEL</>DIVA</g' guide-bnet-test.xml
+# Discovery Channel
+sed -i 's/"DISCOVERY CHANNEL">/"Disco">/g' guide-bnet-test.xml
+sed -i 's/>DISCOVERY CHANNEL</>Disco</g' guide-bnet-test.xml
+# National Geographic Channel
+sed -i 's/"NATIONAL GEOGRAPHIC">/"NatGe">/g' guide-bnet-test.xml
+sed -i 's/>NATIONAL GEOGRAPHIC</>NatGe</g' guide-bnet-test.xml
+# Viasat History
+sed -i 's/"VIASAT HISTORY">/"Histo">/g' guide-bnet-test.xml
+sed -i 's/>VIASAT HISTORY</>Histo</g' guide-bnet-test.xml
+# Animal Planet
+sed -i 's/"ANIMAL PLANET">/"Anima">/g' guide-bnet-test.xml
+sed -i 's/>ANIMAL PLANET</>Anima</g' guide-bnet-test.xml
+# Viasat Explore
+sed -i 's/"VIASAT EXPLORER">/"Explo">/g' guide-bnet-test.xml
+sed -i 's/>VIASAT EXPLORER</>Explo</g' guide-bnet-test.xml
+# Travel Channel
+#sed -i 's/"TLC">/"TLC">/g' guide-bnet-test.xml
+#sed -i 's/>TLC</>TLC</g' guide-bnet-test.xml
+# MrežaZG
+sed -i 's/"MREŽAZG">/"Mreža">/g' guide-bnet-test.xml
+sed -i 's/>MREŽAZG</>Mreža</g' guide-bnet-test.xml
+# Jabuka TV
+sed -i 's/"JABUKA TV">/"Jabuk">/g' guide-bnet-test.xml
+sed -i 's/>JABUKA TV</>Jabuk</g' guide-bnet-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-bnet-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-bnet-test.xml
+# 24 SATA TV
+sed -i 's/"24 SATA TV">/"24sat">/g' guide-bnet-test.xml
+sed -i 's/>24 SATA TV</>24sat</g' guide-bnet-test.xml
+# CNN International Europe
+sed -i 's/"CNN">/"CNN">/g' guide-bnet-test.xml
+sed -i 's/>CNN</>CNN</g' guide-bnet-test.xml
+# Cartoon Network
+sed -i 's/"CARTOON NETWORK">/"CN">/g' guide-bnet-test.xml
+sed -i 's/>CARTOON NETWORK</>CN</g' guide-bnet-test.xml
+# Nickelodeon
+sed -i 's/"NICKELODEON">/"Nicke">/g' guide-bnet-test.xml
+sed -i 's/>NICKELODEON</>Nicke</g' guide-bnet-test.xml
+# DISNEY CHANNEL
+sed -i 's/"DISNEY CHANNEL">/"Disne">/g' guide-bnet-test.xml
+sed -i 's/>DISNEY CHANNEL</>Disne</g' guide-bnet-test.xml
+# Mini TV
+sed -i 's/"MINI TV">/"Mini">/g' guide-bnet-test.xml
+sed -i 's/>MINI TV</>Mini</g' guide-bnet-test.xml
+# RTL Kockica
+sed -i 's/"RTL KOCKICA">/"RTLko">/g' guide-bnet-test.xml
+sed -i 's/>RTL KOCKICA</>RTLko</g' guide-bnet-test.xml
+# Sportska televizija
+sed -i 's/"SPORTSKA TV">/"SPTV">/g' guide-bnet-test.xml
+sed -i 's/>SPORTSKA TV</>SPTV</g' guide-bnet-test.xml
+# Eurosport
+sed -i 's/"EUROSPORT">/"Euro1">/g' guide-bnet-test.xml
+sed -i 's/>EUROSPORT</>Euro1</g' guide-bnet-test.xml
+# Eurosport 2
+sed -i 's/"EUROSPORT 2">/"Euro2">/g' guide-bnet-test.xml
+sed -i 's/>EUROSPORT 2</>Euro2</g' guide-bnet-test.xml
+# SK 1
+sed -i 's/"SK 1">/"SK1">/g' guide-bnet-test.xml
+sed -i 's/>SK 1</>SK1</g' guide-bnet-test.xml
+# SK 3
+sed -i 's/"SK 3">/"SK3">/g' guide-bnet-test.xml
+sed -i 's/>SK 3</>SK3</g' guide-bnet-test.xml
+# MTV Hrvatska
+sed -i 's/"MTV">/"MTV">/g' guide-bnet-test.xml
+sed -i 's/>MTV</>MTV</g' guide-bnet-test.xml
+# VH1 Europe
+sed -i 's/"VH1">/"VH1">/g' guide-bnet-test.xml
+sed -i 's/>VH1</>VH1</g' guide-bnet-test.xml
+# CMC
+sed -i 's/"CROATIAN MUSIC CHANNEL">/"C M C">/g' guide-bnet-test.xml
+sed -i 's/>CROATIAN MUSIC CHANNEL</>C M C</g' guide-bnet-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-bnet-test.xml
+sed -i 's/>N1</>N 1</g' guide-bnet-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX sr">/g' guide-bnet-test.xml
+sed -i 's/>Fox TV</>FOX sr</g' guide-bnet-test.xml
+# B92 tv online test tv
+sed -i 's/"B92">/"B92 HD">/g' guide-bnet-test.xml
+sed -i 's/>B92</>B92 HD</g' guide-bnet-test.xml
+# FOX Life online test tv
+sed -i 's/"Fox Life">/"FOX Life sr">/g' guide-bnet-test.xml
+sed -i 's/>Fox Life</>FOX Life sr</g' guide-bnet-test.xml
+# MTV online test tv
+sed -i 's/"MTV Hrvatska">/"MTV Adria sr">/g' guide-bnet-test.xml
+sed -i 's/>MTV Hrvatska</>MTV Adria sr</g' guide-bnet-test.xml
+# Viasat Nature online test tv
+sed -i 's/"Viasat Nature">/"VIASAT NATURE sr">/g' guide-bnet-test.xml
+sed -i 's/>Viasat Nature</>VIASAT NATURE sr</g' guide-bnet-test.xml
+# Pink online test tv
+sed -i 's/"PINK">/"PINK sr">/g' guide-bnet-test.xml
+sed -i 's/>PINK</>PINK sr</g' guide-bnet-test.xml
+# Vh1 online test tv
+sed -i 's/"VH-1">/"VH1 sr">/g' guide-bnet-test.xml
+sed -i 's/>VH-1</>VH1 sr</g' guide-bnet-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska">/g' guide-bnet-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-bnet-test.xml
+# Redlight online test tv
+sed -i 's/"(18+) Redlight HD">/"Redlight HD">/g' guide-bnet-test.xml
+sed -i 's/>(18+) Redlight HD</>Redlight HD</g' guide-bnet-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-bnet-test.xml
+sed -i 's/lang="nl/lang="hr/g' guide-bnet-test.xml
+ <<EOF
+EOF
+}
+function fixchannelnames_mojtv()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-mojtv.xml > guide-mojtv-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-mojtv-test.xml
+# HRT 1
+sed -i 's/"HTV1">/"HRT 1">/g' guide-mojtv-test.xml
+sed -i 's/>HTV1</>HRT 1</g' guide-mojtv-test.xml
+# HRT 2
+sed -i 's/"HTV2">/"HRT 2">/g' guide-mojtv-test.xml
+sed -i 's/>HTV2</>HRT 2</g' guide-mojtv-test.xml
+# HRT 3
+sed -i 's/"HTV3">/"HRT 3">/g' guide-mojtv-test.xml
+sed -i 's/>HTV3</>HRT 3</g' guide-mojtv-test.xml
+# HRT 4
+sed -i 's/"HTV4">/"HRT 4">/g' guide-mojtv-test.xml
+sed -i 's/>HTV4</>HRT 4</g' guide-mojtv-test.xml
+# RTL TELEVIZIJA
+#sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-mojtv-test.xml
+#sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-mojtv-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-mojtv-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-mojtv-test.xml
+# RTL 2
+#sed -i 's/"RTL2">/"RTL2">/g' guide-mojtv-test.xml
+#sed -i 's/>RTL2</>RTL2</g' guide-mojtv-test.xml
+# RTL Plus
+sed -i 's/"RTL Living">/"RTLli">/g' guide-mojtv-test.xml
+sed -i 's/>RTL Living</>RTLli</g' guide-mojtv-test.xml
+# CineStar TV
+sed -i 's/"Cinestar Action &amp;Thriller">/"CineA">/g' guide-mojtv-test.xml
+sed -i 's/>Cinestar Action &amp;Thriller</>CineA</g' guide-mojtv-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"Cinestar TV">/"Cines">/g' guide-mojtv-test.xml
+sed -i 's/>Cinestar TV</>Cines</g' guide-mojtv-test.xml
+# TV 1000 Balkan
+sed -i 's/"TV1000">/"TV100">/g' guide-mojtv-test.xml
+sed -i 's/>TV1000</>TV100</g' guide-mojtv-test.xml
+# Fox TV
+#sed -i 's/"FOX">/"Fox">/g' guide-mojtv-test.xml
+#sed -i 's/>FOX</>Fox</g' guide-mojtv-test.xml
+# Fox Life
+sed -i 's/"Fox Life">/"FoxLi">/g' guide-mojtv-test.xml
+sed -i 's/>Fox Life</>FoxLi</g' guide-mojtv-test.xml
+# Universal Channel
+sed -i 's/"Universal Channel">/"Diva">/g' guide-mojtv-test.xml
+sed -i 's/>Universal Channel</>Diva</g' guide-mojtv-test.xml
+# Discovery Channel
+sed -i 's/"Discovery Channel">/"Disco">/g' guide-mojtv-test.xml
+sed -i 's/>Discovery Channel</>Disco</g' guide-mojtv-test.xml
+# National Geographic Channel
+sed -i 's/"National Geographic">/"NatGe">/g' guide-mojtv-test.xml
+sed -i 's/>National Geographic</>NatGe</g' guide-mojtv-test.xml
+# Viasat History
+sed -i 's/"Viasat History">/"Histo">/g' guide-mojtv-test.xml
+sed -i 's/>Viasat History</>Histo</g' guide-mojtv-test.xml
+# Animal Planet
+sed -i 's/"Animal Planet">/"Anima">/g' guide-mojtv-test.xml
+sed -i 's/>Animal Planet</>Anima</g' guide-mojtv-test.xml
+# Viasat Explore
+sed -i 's/"Viasat Explorer">/"Explo">/g' guide-mojtv-test.xml
+sed -i 's/>Viasat Explorer</>Explo</g' guide-mojtv-test.xml
+# Travel Channel
+#sed -i 's/"TLC">/"TLC">/g' guide-mojtv-test.xml
+#sed -i 's/>TLC</>TLC</g' guide-mojtv-test.xml
+# MrežaZG
+sed -i 's/"MrežaZG">/"Mreža">/g' guide-mojtv-test.xml
+sed -i 's/>MrežaZG</>Mreža</g' guide-mojtv-test.xml
+# Jabuka TV
+sed -i 's/"Jabuka TV">/"Jabuk">/g' guide-mojtv-test.xml
+sed -i 's/>Jabuka TV</>Jabuk</g' guide-mojtv-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-mojtv-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-mojtv-test.xml
+# 24 SATA TV
+sed -i 's/"24 SATA TV">/"24sat">/g' guide-mojtv-test.xml
+sed -i 's/>24 SATA TV</>24sat</g' guide-mojtv-test.xml
+# CNN International Europe
+#sed -i 's/"CNN">/"CNN">/g' guide-mojtv-test.xml
+#sed -i 's/>CNN</>CNN</g' guide-mojtv-test.xml
+# Cartoon Network
+sed -i 's/"Cartoon Network RSE">/"CN">/g' guide-mojtv-test.xml
+sed -i 's/>Cartoon Network RSE</>CN</g' guide-mojtv-test.xml
+# TCM - Cartoon Network
+#sed -i 's#"TCM/Cartoon">#"CN">#g' guide-mojtv-test.xml
+#sed -i 's#>TCM/Cartoon<#>CN<#g' guide-mojtv-test.xml
+# Nickelodeon
+sed -i 's/"Nickelodeon">/"Nicke">/g' guide-mojtv-test.xml
+sed -i 's/>Nickelodeon</>Nicke</g' guide-mojtv-test.xml
+# DISNEY CHANNEL
+sed -i 's/"Disney Channel">/"Disne">/g' guide-mojtv-test.xml
+sed -i 's/>Disney Channel</>Disne</g' guide-mojtv-test.xml
+# Mini TV
+sed -i 's/"Mini TV">/"Mini">/g' guide-mojtv-test.xml
+sed -i 's/>Mini TV</>Mini</g' guide-mojtv-test.xml
+# RTL Kockica
+sed -i 's/"RTL Kockica">/"RTLko">/g' guide-mojtv-test.xml
+sed -i 's/>RTL Kockica</>RTLko</g' guide-mojtv-test.xml
+# Sportska televizija
+sed -i 's/"Sportska Televizija">/"SPTV">/g' guide-mojtv-test.xml
+sed -i 's/>Sportska Televizija</>SPTV</g' guide-mojtv-test.xml
+# Eurosport
+sed -i 's/"Eurosport">/"Euro1">/g' guide-mojtv-test.xml
+sed -i 's/>Eurosport</>Euro1</g' guide-mojtv-test.xml
+# Eurosport 2
+sed -i 's/"Eurosport 2">/"Euro2">/g' guide-mojtv-test.xml
+sed -i 's/>Eurosport 2</>Euro2</g' guide-mojtv-test.xml
+# SK 1
+#sed -i 's/"SK 1">/"SK1">/g' guide-mojtv-test.xml
+#sed -i 's/>SK 1</>SK1</g' guide-mojtv-test.xml
+# SK 3
+#sed -i 's/"SK 3">/"SK3">/g' guide-mojtv-test.xml
+#sed -i 's/>SK 3</>SK3</g' guide-mojtv-test.xml
+# MTV Hrvatska
+#sed -i 's/"MTV">/"MTV">/g' guide-mojtv-test.xml
+#sed -i 's/>MTV</>MTV</g' guide-mojtv-test.xml
+# VH1 Europe
+sed -i 's/"VH-1">/"VH1">/g' guide-mojtv-test.xml
+sed -i 's/>VH-1</>VH1</g' guide-mojtv-test.xml
+# CMC
+sed -i 's/"CMC">/"C M C">/g' guide-mojtv-test.xml
+sed -i 's/>CMC</>C M C</g' guide-mojtv-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-mojtv-test.xml
+sed -i 's/>N1</>N 1</g' guide-mojtv-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX sr">/g' guide-mojtv-test.xml
+sed -i 's/>Fox TV</>FOX sr</g' guide-mojtv-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS1">/"RTS 1">/g' guide-mojtv-test.xml
+sed -i 's/>RTS1</>RTS 1</g' guide-mojtv-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS2">/"RTS 2">/g' guide-mojtv-test.xml
+sed -i 's/>RTS2</>RTS 2</g' guide-mojtv-test.xml
+# B92 tv online test tv
+sed -i 's/"B92">/"B92 HD">/g' guide-mojtv-test.xml
+sed -i 's/>B92</>B92 HD</g' guide-mojtv-test.xml
+# FOX Life online test tv
+sed -i 's/"Fox Life">/"FOX Life sr">/g' guide-mojtv-test.xml
+sed -i 's/>Fox Life</>FOX Life sr</g' guide-mojtv-test.xml
+# MTV online test tv
+sed -i 's/"MTV Hrvatska">/"MTV Adria sr">/g' guide-mojtv-test.xml
+sed -i 's/>MTV Hrvatska</>MTV Adria sr</g' guide-mojtv-test.xml
+# Viasat Nature online test tv
+sed -i 's/"Viasat Nature">/"VIASAT NATURE sr">/g' guide-mojtv-test.xml
+sed -i 's/>Viasat Nature</>VIASAT NATURE sr</g' guide-mojtv-test.xml
+# Pink online test tv
+sed -i 's/"PINK">/"PINK sr">/g' guide-mojtv-test.xml
+sed -i 's/>PINK</>PINK sr</g' guide-mojtv-test.xml
+# Vh1 online test tv
+sed -i 's/"VH1 Europe">/"VH1 sr">/g' guide-mojtv-test.xml
+sed -i 's/>VH1 Europe</>VH1 sr</g' guide-mojtv-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska">/g' guide-mojtv-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-mojtv-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-mojtv-test.xml
+ <<EOF
+EOF
+}
+
+
+
+
+function fixchannelnames_mtvprofil()
+{
+# Nova TV
+sed -e 's/"NOVA TV">/"NOVA">/g' guide-mtvprofil.xml > guide-mtvprofil-test.xml
+sed -i 's/>NOVA TV</>NOVA</g' guide-mtvprofil-test.xml
+# HRT 1
+sed -i 's/"HTV1">/"HRT 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV1</>HRT 1</g' guide-mtvprofil-test.xml
+# HRT 2
+sed -i 's/"HTV2">/"HRT 2">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV2</>HRT 2</g' guide-mtvprofil-test.xml
+# HRT 3
+sed -i 's/"HTV3">/"HRT 3">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV3</>HRT 3</g' guide-mtvprofil-test.xml
+# HRT 4
+sed -i 's/"HTV4">/"HRT 4">/g' guide-mtvprofil-test.xml
+sed -i 's/>HTV4</>HRT 4</g' guide-mtvprofil-test.xml
+# RTL TELEVIZIJA
+#sed -i 's/"RTL TELEVIZIJA">/"RTL">/g' guide-mtvprofil-test.xml
+#sed -i 's/>RTL TELEVIZIJA</>RTL</g' guide-mtvprofil-test.xml
+# Doma TV
+sed -i 's/"Doma TV">/"Doma">/g' guide-mtvprofil-test.xml
+sed -i 's/>Doma TV</>Doma</g' guide-mtvprofil-test.xml
+# RTL 2
+sed -i 's/"RTL2">/"RTL2">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL2</>RTL2</g' guide-mtvprofil-test.xml
+# RTL Plus
+sed -i 's/"RTL Living">/"RTLli">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL Living</>RTLli</g' guide-mtvprofil-test.xml
+# CineStar TV
+sed -i 's/"CineStar A&amp;T">/"CineA">/g' guide-mtvprofil-test.xml
+sed -i 's/>CineStar A&amp;T</>CineA</g' guide-mtvprofil-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar TV">/"Cines">/g' guide-mtvprofil-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-mtvprofil-test.xml
+# TV 1000 Balkan
+sed -i 's/"TV 1000">/"TV100">/g' guide-mtvprofil-test.xml
+sed -i 's/>TV 1000</>TV100</g' guide-mtvprofil-test.xml
+# Fox TV
+#sed -i 's/"FOX">/"Fox">/g' guide-mtvprofil-test.xml
+#sed -i 's/>FOX</>Fox</g' guide-mtvprofil-test.xml
+# Fox Life
+sed -i 's/"FOX Life">/"FoxLi">/g' guide-mtvprofil-test.xml
+sed -i 's/>FOX Life</>FoxLi</g' guide-mtvprofil-test.xml
+# Universal Channel
+sed -i 's/"Universal">/"Unive">/g' guide-mtvprofil-test.xml
+sed -i 's/>Universal</>Unive</g' guide-mtvprofil-test.xml
+# Discovery Channel
+sed -i 's/"Discovery Channel">/"Disco">/g' guide-mtvprofil-test.xml
+sed -i 's/>Discovery Channel</>Disco</g' guide-mtvprofil-test.xml
+# National Geographic Channel
+sed -i 's/"National Geo">/"NatGe">/g' guide-mtvprofil-test.xml
+sed -i 's/>National Geo</>NatGe</g' guide-mtvprofil-test.xml
+# Viasat History
+sed -i 's/"Viasat History">/"Histo">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat History</>Histo</g' guide-mtvprofil-test.xml
+# Animal Planet
+sed -i 's/"Animal Planet">/"Anima">/g' guide-mtvprofil-test.xml
+sed -i 's/>Animal Planet</>Anima</g' guide-mtvprofil-test.xml
+# Viasat Explore
+sed -i 's/"Viasat Explorer">/"Explo">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat Explorer</>Explo</g' guide-mtvprofil-test.xml
+# Travel Channel
+sed -i 's/"Discovery TLC">/"TLC">/g' guide-mtvprofil-test.xml
+sed -i 's/>Discovery TLC</>TLC</g' guide-mtvprofil-test.xml
+# MrežaZG
+sed -i 's/"MrežaZG">/"Mreža">/g' guide-mtvprofil-test.xml
+sed -i 's/>MrežaZG</>Mreža</g' guide-mtvprofil-test.xml
+# Jabuka TV
+sed -i 's/"JabukaTV">/"Jabuk">/g' guide-mtvprofil-test.xml
+sed -i 's/>JabukaTV</>Jabuk</g' guide-mtvprofil-test.xml
+# Z1
+sed -i 's/"Z1">/"Z 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>Z1</>Z 1</g' guide-mtvprofil-test.xml
+# 24 SATA TV
+sed -i 's/"24 Sata">/"24sat">/g' guide-mtvprofil-test.xml
+sed -i 's/>24 Sata</>24sat</g' guide-mtvprofil-test.xml
+# CNN International Europe
+#sed -i 's/"CNN">/"CNN">/g' guide-mtvprofil-test.xml
+#sed -i 's/>CNN</>CNN</g' guide-mtvprofil-test.xml
+# Cartoon Network
+sed -i 's/"Cartoon Network">/"CN">/g' guide-mtvprofil-test.xml
+sed -i 's/>Cartoon Network</>CN</g' guide-mtvprofil-test.xml
+# TCM - Cartoon Network
+#sed -i 's#"TCM/Cartoon">#"CN">#g' guide-mtvprofil-test.xml
+#sed -i 's#>TCM/Cartoon<#>CN<#g' guide-mtvprofil-test.xml
+# Nickelodeon
+sed -i 's/"Nickelodeon">/"Nicke">/g' guide-mtvprofil-test.xml
+sed -i 's/>Nickelodeon</>Nicke</g' guide-mtvprofil-test.xml
+# DISNEY CHANNEL
+sed -i 's/"Disney">/"Disne">/g' guide-mtvprofil-test.xml
+sed -i 's/>Disney</>Disne</g' guide-mtvprofil-test.xml
+# Mini TV
+sed -i 's/"MiniTV">/"Mini">/g' guide-mtvprofil-test.xml
+sed -i 's/>MiniTV</>Mini</g' guide-mtvprofil-test.xml
+# RTL Kockica
+sed -i 's/"RTL Kockica">/"RTLko">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTL Kockica</>RTLko</g' guide-mtvprofil-test.xml
+# Sportska televizija
+#sed -i 's/"SPTV">/"SPTV">/g' guide-mtvprofil-test.xml
+#sed -i 's/>SPTV</>SPTV</g' guide-mtvprofil-test.xml
+# Eurosport
+sed -i 's/"Eurosport">/"Euro1">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eurosport</>Euro1</g' guide-mtvprofil-test.xml
+# Eurosport 2
+sed -i 's/"Eurosport 2">/"Euro2">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eurosport 2</>Euro2</g' guide-mtvprofil-test.xml
+# SK 1
+sed -i 's/"SK1.hr">/"SK1">/g' guide-mtvprofil-test.xml
+sed -i 's/>SK1.hr</>SK1</g' guide-mtvprofil-test.xml
+# SK 3
+#sed -i 's/"SK3.hr">/"SK3">/g' guide-mtvprofil-test.xml
+#sed -i 's/>SK3.hr</>SK3</g' guide-mtvprofil-test.xml
+# MTV Hrvatska
+sed -i 's/"MTV Adria">/"MTV">/g' guide-mtvprofil-test.xml
+sed -i 's/>MTV Adria</>MTV</g' guide-mtvprofil-test.xml
+# VH1 Europe
+sed -i 's/"VH1 Europe">/"VH1">/g' guide-mtvprofil-test.xml
+sed -i 's/>VH1 Europe</>VH1</g' guide-mtvprofil-test.xml
+# CMC
+sed -i 's/"CMC">/"C M C">/g' guide-mtvprofil-test.xml
+sed -i 's/>CMC</>C M C</g' guide-mtvprofil-test.xml
+# N1
+sed -i 's/"N1">/"N 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>N1</>N 1</g' guide-mtvprofil-test.xml
+######################################################
+# FOX tv online test tv
+sed -i 's/"Fox TV">/"FOX sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Fox TV</>FOX sr</g' guide-mtvprofil-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS1">/"RTS 1">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTS1</>RTS 1</g' guide-mtvprofil-test.xml
+# RTS 1 online test tv
+sed -i 's/"RTS2">/"RTS 2">/g' guide-mtvprofil-test.xml
+sed -i 's/>RTS2</>RTS 2</g' guide-mtvprofil-test.xml
+# B92 tv online test tv
+sed -i 's/"B92">/"B92 HD">/g' guide-mtvprofil-test.xml
+sed -i 's/>B92</>B92 HD</g' guide-mtvprofil-test.xml
+# FOX Life online test tv
+sed -i 's/"Fox Life">/"FOX Life sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Fox Life</>FOX Life sr</g' guide-mtvprofil-test.xml
+# MTV online test tv
+sed -i 's/"MTV Hrvatska">/"MTV Adria sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>MTV Hrvatska</>MTV Adria sr</g' guide-mtvprofil-test.xml
+# Viasat Nature online test tv
+sed -i 's/"Viasat Nature">/"VIASAT NATURE sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>Viasat Nature</>VIASAT NATURE sr</g' guide-mtvprofil-test.xml
+# Pink online test tv
+sed -i 's/"PINK">/"PINK sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>PINK</>PINK sr</g' guide-mtvprofil-test.xml
+# Vh1 online test tv
+sed -i 's/"VH1 Europe">/"VH1 sr">/g' guide-mtvprofil-test.xml
+sed -i 's/>VH1 Europe</>VH1 sr</g' guide-mtvprofil-test.xml
+# ESKA tv online test tv
+sed -i 's/"Eska TV">/"Eska">/g' guide-mtvprofil-test.xml
+sed -i 's/>Eska TV</>Eska</g' guide-mtvprofil-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-mtvprofil-test.xml
+# Remove unnecessary (?) from title names
+#sed -i 's/ (?)//g' guide-mtvprofil-test.xml
+ <<EOF
+EOF
+}
+
+
+function fixchannelnames_tvprofil()
+{
+# CineStar TV
+#sed -e 's/"NOVA TV">/"NOVA">/g' guide-mtvprofil.xml > guide-mtvprofil-test.xml
+sed -e 's/"CineStar A&amp;T">/"CineA">/g' guide-tvprofil.xml > guide-tvprofil-test.xml
+sed -i 's/>CineStar A&amp;T</>CineA</g' guide-tvprofil-test.xml
+# CineStar Action&amp;Thriller
+sed -i 's/"CineStar TV">/"Cines">/g' guide-tvprofil-test.xml
+sed -i 's/>CineStar TV</>Cines</g' guide-tvprofil-test.xml
+# HRT 1
+sed -i 's/"HTV1">/"HRT 1">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV1</>HRT 1</g' guide-tvprofil-test.xml
+# HRT 2
+sed -i 's/"HTV2">/"HRT 2">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV2</>HRT 2</g' guide-tvprofil-test.xml
+# HRT 3
+sed -i 's/"HTV3">/"HRT 3">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV3</>HRT 3</g' guide-tvprofil-test.xml
+# HRT 4
+sed -i 's/"HTV4">/"HRT 4">/g' guide-tvprofil-test.xml
+sed -i 's/>HTV4</>HRT 4</g' guide-tvprofil-test.xml
+# Correct hr language header
+sed -i 's/lang="pl/lang="hr/g' guide-tvprofil-test.xml
+# Remove unnecessary (?) from title names
+#sed -i 's/ (?)//g' guide-mtvprofil-test.xml
+ <<EOF
+EOF
+}
+
+
+
+
+function update_Main_grabber()
+{
+rm ./pharser/libEPG-main.config
+rm ./wg++/WebGrab++.config.xml
+#### Main EPG from Bnet Port
+cp ./wg++/WebGrab++.config-main.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names main
+fixchannelnames_main
+wait $!
+#### Generate bnet config file with python script
+cp guide-main-test.xml ./pharser/guide-main.xml
+cd pharser
+# generate main config file
+##### Main pharser
+python pharser-main.py
+wait $!
+rm guide-main.xml
+cd ..
+wait $!
+#### Generate main config file with libEPG_xml2josn
+cp guide-main-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-main.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-main.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-main-test.xml <<EOF
+EOF
+}
+
+########## Bnet ##################################
+
+
+function update_Bnet_grabber()
+{
+rm ./pharser/libEPG-Bnet.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Bnet
+cp ./wg++/WebGrab++.config-bnet.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+cp guide-bnet-test.xml ./pharser/guide-bnet.xml
+cd pharser
+# generate bnet config file
+##### Bnet pharser
+python pharser-bnet.py
+wait $!
+rm guide-bnet.xml
+cd ..
+wait $!
+#### Generate bnet config file with libEPG_xml2josn
+cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-Bnet.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Bnet.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-bnet-test.xml <<EOF
+EOF
+}
+
+
+########## Bnet IPTV ##################################
+
+
+function update_Bnet_grabber_IPTV()
+{
+# rm ./pharser/libEPG-Bnet.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Bnet
+cp ./wg++/WebGrab++.config-bnet-iptv.xml ./wg++/WebGrab++.config.xml
+cp ./wg++/WebGrab++.config.xml ./wg++/iptv-guide.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+# fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-bnet-test.xml ./pharser/guide-bnet.xml
+#cd pharser
+# generate bnet config file
+##### Bnet pharser
+#python pharser-bnet.py
+#wait $!
+#rm guide-bnet.xml
+#cd ..
+#wait $!
+#### Generate bnet config file with libEPG_xml2josn
+#cp guide-bnet-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+#cd ./libEPG_xml2josn/bin/Debug
+#rm libEPG-Bnet.config
+#wait $!
+#mono libEPG_xml2josn.exe
+#wait $!
+#cp libEPG.config libEPG-Bnet.config
+#wait $!
+#rm guide.xml
+#rm libEPG.config
+#cd $samdec
+#rm guide-bnet-test.xml
+echo "Završeno!" <<EOF
+EOF
+}
+
+
+
+
+
+
+
+########## Mojtv ##################################
+
+function update_Mojtv_grabber()
+{
+rm ./pharser/libEPG-Mojtv.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Mojtv
+cp ./wg++/WebGrab++.config-mojtv.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names mojtv
+fixchannelnames_mojtv
+wait $!
+#### Generate mojtv config file
+cp guide-mojtv-test.xml ./pharser/guide-mojtv.xml
+cd pharser
+# generate mojtv config file
+##### mojtv pharser
+python pharser-mojtv.py
+wait $!
+rm guide-mojtv.xml
+cd ..
+wait $!
+#### Generate mojtv config file with libEPG_xml2josn
+cp guide-mojtv-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-Mojtv.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Mojtv.config
+wait $!
+# guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-mojtv-test.xml <<EOF
+EOF
+}
+
+
+########## Port ##################################
+
+function update_Port_grabber()
+{
+rm ./pharser/libEPG-Port.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Port
+cp ./wg++/WebGrab++.config-port.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names port
+fixchannelnames_port
+wait $!
+#### Generate port config file
+cp guide-port-test.xml ./pharser/guide-port.xml
+cd pharser
+# generate port config file
+##### port pharser
+python pharser-port.py
+wait $!
+rm guide-port.xml
+cd ..
+wait $!
+#### Generate port config file with libEPG_xml2josn
+cp guide-port-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-Port.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Port.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-port-test.xml <<EOF
+EOF
+}
+
+########## mtvprofil ##################################
+
+function update_mtvprofil_grabber()
+{
+rm ./pharser/libEPG-mtvprofil.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from mtvprofil
+cp ./wg++/WebGrab++.config-mtvprofil.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names mtvprofil
+fixchannelnames_mtvprofil
+wait $!
+#### Generate mtvprofil config file
+cp guide-mtvprofil-test.xml ./pharser/guide-mtvprofil.xml
+cd pharser
+# generate mtvprofil config file
+##### mtvprofil pharser
+python pharser-mtvprofil.py
+wait $!
+rm guide-mtvprofil.xml
+cd ..
+wait $!
+#### Generate mtvprofil config file with libEPG_xml2josn
+cp guide-mtvprofil-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-mtvprofil.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-mtvprofil.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-mtvprofil-test.xml <<EOF
+EOF
+}
+
+
+
+###   WARNING SEEE ONLY AVIABLE CHANNELS   http://tvprofil.net/xmltv/
+function update_tvprofil_grabber()
+{
+rm ./pharser/libEPG-tvprofil.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from mtvprofil
+cp ./wg++/WebGrab++.config-tvprofil.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names mtvprofil
+fixchannelnames_tvprofil
+wait $!
+#### Generate mtvprofil config file
+cp guide-tvprofil-test.xml ./pharser/guide-tvprofil.xml
+cd pharser
+# generate mtvprofil config file
+##### mtvprofil pharser
+python pharser-tvprofil.py
+wait $!
+rm guide-tvprofil.xml
+cd ..
+wait $!
+#### Generate mtvprofil config file with libEPG_xml2josn
+cp guide-tvprofil-test.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-tvprofil.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-tvprofil.config
+wait $!
+rm guide.xml
+rm libEPG.config
+cd $samdec
+rm guide-tvprofil-test.xml <<EOF
+EOF
+}
+
+########## VIP TV ##################################
+
+
+function update_viptv_grabber()
+{
+#rm ./pharser/libEPG-Viptv.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-viptv.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-viptv.xml ./pharser/guide-viptv.xml
+#cd pharser
+# generate bnet config file
+##### Viptv pharser
+# python pharser-viptv.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-viptv.xml
+#cd ..
+#wait $!
+#### Generate bnet config file with libEPG_xml2josn
+cp guide-viptv.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-Viptv.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-Viptv.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
+
+########## a1 TV ##################################
+
+
+function update_a1_grabber()
+{
+#rm ./pharser/libEPG-a1.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-a1.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-a1.xml ./pharser/guide-a1.xml
+#cd pharser
+# generate bnet config file
+##### a1 pharser
+# python pharser-a1.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-a1.xml
+#cd ..
+#wait $!
+#### Generate a1 config file with libEPG_xml2josn
+cp guide-a1.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-a1.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-a1.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
+
+########## Iskon TV ##################################
+
+
+function update_iskon_grabber()
+{
+#rm ./pharser/libEPG-iskon.config
+rm ./wg++/WebGrab++.config.xml
+#### EPG from Viptv
+cp ./wg++/WebGrab++.config-iskon.xml ./wg++/WebGrab++.config.xml
+cd wg++
+mono WebGrab+Plus.exe "$(pwd)"
+wait $!
+cd ..
+####### Fix channel names bnet
+#fixchannelnames_bnet
+wait $!
+#### Generate bnet config file with python script
+#cp guide-iskon.xml ./pharser/guide-iskon.xml
+#cd pharser
+# generate bnet config file
+##### a1 pharser
+# python pharser-iskon.py      Ne postoji !!!!!!!
+#wait $!
+#rm guide-iskon.xml
+#cd ..
+#wait $!
+#### Generate a1 config file with libEPG_xml2josn
+cp guide-iskon.xml ./libEPG_xml2josn/bin/Debug/guide.xml
+cd ./libEPG_xml2josn/bin/Debug
+rm libEPG-iskon.config
+wait $!
+mono libEPG_xml2josn.exe
+wait $!
+cp libEPG.config libEPG-iskon.config
+wait $!
+rm guide.xml
+rm libEPG.config <<EOF
+EOF
+}
+
+function git_clone()
+{
+git clone --depth 1 git@github.com:muzena/samdecrypt.git -b libepg
+cd samdecrypt
+git status
+cd .. <<EOF
+EOF
+}
+function upload_togit()
+{
+#git add -A :/
+wait $!
+git commit -am update
+wait $!
+git push origin libepg
+wait $! <<EOF
+EOF
+}
+
+
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Generating EPG guide data started"
+wait $!
+#######  Generate json config files
+#update_Main_grabber
+wait $!
+#update_Bnet_grabber
+wait $!
+#update_Bnet_grabber_IPTV
+wait $!
+#update_viptv_grabber
+wait $!
+#update_a1_grabber
+wait $!
+update_iskon_grabber
+### http://www.webgrabplus.com/content/tviskonhr-and-viphr 
+### http://epg.koditvepg.com/
+
+wait $!
+#update_Mojtv_grabber
+wait $!
+#update_Port_grabber
+wait $!
+#update_mtvprofil_grabber
+wait $!
+#update_tvprofil_grabber
+wait $!
+#sleep 10
+##### Upload to git
+#upload_togit
+#git add --all
+#wait $!
+#git commit -am update
+#git commit -m update
+#sleep 3
+#git push origin libepg
+#####      wait $! && git add -A :/ && wait $! && sleep 5 && git commit -m update && wait $! && git push origin libepg && wait $!
+#wait $!
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "EPG guide data generated and uploaded"
+#sleep 5
+#notify-send --app-name="Samdecrypt" --expire-time="9000" --icon="/usr/share/pixmaps/samdecrypt.png" "Restart your Samsung TV for updating new epg data"
