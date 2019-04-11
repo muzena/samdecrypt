@@ -7,11 +7,11 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 11/04/2019 17:20:44
+[        ] Job started at 12/04/2019 00:01:16
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
-[  Debug ] Mono version: 5.18.1.3 (tarball Tue Apr  9 16:16:30 UTC 2019)
+[  Debug ] Mono version: 5.20.1.19 (tarball Thu Apr 11 09:02:17 UTC 2019)
 [  Debug ] 
 [  Debug ] Loading timezone data
 [  Debug ] Embedded timezones source: timezone.timezonesdata.txt
@@ -23,6 +23,7 @@
 [  Debug ] xmltv input file - /tmp/samdecrypt/guide-iskon.xml - found
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
+[  Debug ] removed 2 overlapping shows in HRT 1 starting after 13/04/2019 05:36:00
 [  Info  ] Found existing channel (xmltv_id=HRT 2) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 3) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 4) in the config file
@@ -97,7 +98,6 @@
 [  Info  ] update requested for - 66 - out of - 66 - channels for 11 day(s)
 [  Debug ] 
 [  Info  ] (   1/66  ) TV.ISKON.HR -- chan. (xmltv_id=HRT 1) -- mode Incremental
-[  Debug ]    skipped negative show time! at 13/04/2019 05:47:00
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -174,6 +174,8 @@
 [  Info  ] channel Mini same as -- Mini TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  23/66  ) TV.ISKON.HR -- chan. (xmltv_id=RTL Kockica) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -290,7 +292,7 @@
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  60/66  ) MOJTV.HR -- chan. (xmltv_id=Doku TV) -- mode Incremental
-[        ] Job finished at 11/04/2019 17:26:16 done in 5m 31s
+[        ] Job finished at 12/04/2019 00:07:03 done in 5m 46s
 [Critical] Unhandled Exception
 [Critical] 
 Index was outside the bounds of the array.
