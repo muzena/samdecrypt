@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 28/04/2019 14:25:11
+[        ] Job started at 28/04/2019 20:49:05
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.0.4.50004
 [  Debug ] Environment: 4.0.30319.42000
@@ -173,122 +173,134 @@
 [  Info  ] channel Mini same as -- Mini TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  23/66  ) TV.ISKON.HR -- chan. (xmltv_id=RTL Kockica) -- mode Incremental
-[  Debug ]    skipped  : last show, no next startime to use as stop
-[  Info  ] 
+[Warning ] error downloading page: Error: ConnectFailure (Network is unreachable)
+[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
+[Warning ] error downloading page: Error: ConnectFailure (Network is unreachable)
+[Warning ] pausing 2 of 4 times for 14 seconds before re-try.
+[Warning ] error downloading page: The operation has timed out. (21sec)
+[Warning ] Retry 3 of 4 times
+[Warning ] error downloading page: Error: ConnectFailure (No route to host)
+[Warning ] pausing 4 of 4 times for 28 seconds before re-try.
+[Error   ] Unable to update channel RTL Kockica
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from RTL Kockica
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] channel RTLko same as -- RTL Kockica -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  25/66  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar  TV) -- mode Incremental
+[  Info  ] (  24/66  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar  TV) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Cines same as -- CineStar  TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  27/66  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar TV Action) -- mode Incremental
+[  Info  ] (  26/66  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar TV Action) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel CineA same as -- CineStar TV Action -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  29/66  ) TV.ISKON.HR -- chan. (xmltv_id=Comedy Central) -- mode Incremental
+[  Info  ] (  28/66  ) TV.ISKON.HR -- chan. (xmltv_id=Comedy Central) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Comed same as -- Comedy Central -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  31/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Life) -- mode Incremental
+[  Info  ] (  30/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Life) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- Fox Life -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  33/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Crime) -- mode Incremental
+[  Info  ] (  32/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox Crime) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  34/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox) -- mode Incremental
+[  Info  ] (  33/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fox) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  35/66  ) TV.ISKON.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
+[  Info  ] (  34/66  ) TV.ISKON.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  36/66  ) TV.ISKON.HR -- chan. (xmltv_id=TV1000) -- mode Incremental
+[  Info  ] (  35/66  ) TV.ISKON.HR -- chan. (xmltv_id=TV1000) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel TV100 same as -- TV1000 -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  38/66  ) TV.ISKON.HR -- chan. (xmltv_id=Epic Drama) -- mode Incremental
+[  Info  ] (  37/66  ) TV.ISKON.HR -- chan. (xmltv_id=Epic Drama) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel EpicD same as -- Epic Drama -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  40/66  ) TV.ISKON.HR -- chan. (xmltv_id=N. Geographic) -- mode Incremental
+[  Info  ] (  39/66  ) TV.ISKON.HR -- chan. (xmltv_id=N. Geographic) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel NatGe same as -- N. Geographic -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  42/66  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat Explore) -- mode Incremental
+[  Info  ] (  41/66  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat Explore) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Explo same as -- Viasat Explore -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  44/66  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat History) -- mode Incremental
+[  Info  ] (  43/66  ) TV.ISKON.HR -- chan. (xmltv_id=Viasat History) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Histo same as -- Viasat History -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  46/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 1) -- mode Incremental
+[  Info  ] (  45/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 1) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SK 1 same as -- Sport Klub 1 -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  48/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 3) -- mode Incremental
+[  Info  ] (  47/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 3) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SK 3 same as -- Sport Klub 3 -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  50/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sportska TV) -- mode Incremental
+[  Info  ] (  49/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sportska TV) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel SPTV same as -- Sportska TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  52/66  ) TV.ISKON.HR -- chan. (xmltv_id=Nickelodeon HR) -- mode Incremental
+[  Info  ] (  51/66  ) TV.ISKON.HR -- chan. (xmltv_id=Nickelodeon HR) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Nicke same as -- Nickelodeon HR -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  54/66  ) TV.ISKON.HR -- chan. (xmltv_id=CMC) -- mode Incremental
+[  Info  ] (  53/66  ) TV.ISKON.HR -- chan. (xmltv_id=CMC) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  55/66  ) TV.ISKON.HR -- chan. (xmltv_id=VH1) -- mode Incremental
+[  Info  ] (  54/66  ) TV.ISKON.HR -- chan. (xmltv_id=VH1) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
-[  Info  ] (  56/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fine Living) -- mode Incremental
+[  Info  ] (  55/66  ) TV.ISKON.HR -- chan. (xmltv_id=Fine Living) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel FineL same as -- Fine Living -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  58/66  ) TV.ISKON.HR -- chan. (xmltv_id=Woman) -- mode Incremental
+[  Info  ] (  57/66  ) TV.ISKON.HR -- chan. (xmltv_id=Woman) -- mode Incremental
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  60/66  ) MOJTV.HR -- chan. (xmltv_id=Doku TV) -- mode Incremental
+[  Info  ] (  59/66  ) MOJTV.HR -- chan. (xmltv_id=Doku TV) -- mode Incremental
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 29/04/2019 04:00:00
 [  Debug ]    skipped show without a title at 29/04/2019 04:00:00
@@ -640,7 +652,7 @@
 [  Debug ] 
 [  Info  ] channel DokTV same as -- Doku TV -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  62/66  ) MOJTV.HR -- chan. (xmltv_id=Cartoon Network RSE) -- mode Incremental
+[  Info  ] (  61/66  ) MOJTV.HR -- chan. (xmltv_id=Cartoon Network RSE) -- mode Incremental
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 29/04/2019 05:27:00
 [  Debug ]    skipped show without a title at 29/04/2019 05:27:00
@@ -855,7 +867,27 @@
 [  Debug ]    skipped show without a title at 02/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 02/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:25:00
 [  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:25:00
@@ -900,7 +932,7 @@
 [  Debug ] 
 [  Info  ] channel CN same as -- Cartoon Network RSE -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  64/66  ) MOJTV.HR -- chan. (xmltv_id=Disney Channel) -- mode Incremental
+[  Info  ] (  63/66  ) MOJTV.HR -- chan. (xmltv_id=Disney Channel) -- mode Incremental
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 29/04/2019 05:20:00
 [  Debug ]    skipped show without a title at 29/04/2019 05:20:00
@@ -1115,7 +1147,27 @@
 [  Debug ]    skipped show without a title at 02/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 02/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 02/05/2019 05:20:00
 [  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 03/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 03/05/2019 05:20:00
@@ -1160,7 +1212,7 @@
 [  Debug ] 
 [  Info  ] channel Disne same as -- Disney Channel -- time offset 0 hour(s)
 [  Debug ] 
-[  Info  ] (  66/66  ) MOJTV.HR -- chan. (xmltv_id=MTV) -- mode Incremental
+[  Info  ] (  65/66  ) MOJTV.HR -- chan. (xmltv_id=MTV) -- mode Incremental
 [  Debug ]    skipped show without a title at 28/04/2019 11:30:00
 [  Debug ]    suspicious      title in index page
 [  Debug ] Can't match any (sub)detail title(s) with any index title(s):
@@ -1175,20 +1227,6 @@
 [  Debug ]  (sub)detail title(s):
 [  Debug ]                        "Bivši na plaži"
 [  Debug ]    skipped : no value for next starttime
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
-[  Debug ]    skipped show without a title at 29/04/2019 02:30:00
 [  Debug ]    skipped show without a title at 29/04/2019 02:30:00
 [  Debug ]    skipped show without a title at 29/04/2019 02:30:00
 [  Debug ]    skipped show without a title at 29/04/2019 02:30:00
@@ -1560,9 +1598,9 @@
 [  Info  ] 
 [  Debug ] 
 [  Debug ] 16723 shows in 66 channels
-[  Debug ] 234 updated shows
-[  Debug ] 104 new shows added
+[  Debug ] 23 updated shows
+[  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 28/04/2019 14:33:55 done in 8m 44s
+[        ] Job finished at 28/04/2019 20:57:56 done in 8m 50s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
