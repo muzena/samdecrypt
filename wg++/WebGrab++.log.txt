@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 10/05/2019 23:01:38
+[        ] Job started at 11/05/2019 00:01:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.1.0.50100
 [  Debug ] Environment: 4.0.30319.42000
@@ -251,7 +251,6 @@
 [  Info  ] channel SK 1 same as -- Sport Klub 1 -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  48/66  ) TV.ISKON.HR -- chan. (xmltv_id=Sport Klub 3) -- mode Incremental
-[  Debug ] multiple entry of a show at 20190512050000 +0200
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -274,6 +273,7 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/66  ) TV.ISKON.HR -- chan. (xmltv_id=VH1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 10/05/2019 23:35
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -290,7 +290,7 @@
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  60/66  ) MOJTV.HR -- chan. (xmltv_id=Doku TV) -- mode Incremental
-[        ] Job finished at 10/05/2019 23:08:35 done in 6m 56s
+[        ] Job finished at 11/05/2019 00:06:52 done in 5m 36s
 [Critical] Unhandled Exception
 [Critical] 
 Index was outside the bounds of the array.
