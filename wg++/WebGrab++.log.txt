@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 12/05/2019 19:49:38
+[        ] Job started at 13/05/2019 00:01:14
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.1.0.50100
 [  Debug ] Environment: 4.0.30319.42000
@@ -179,6 +179,8 @@
 [  Info  ] channel RTLko same as -- RTL Kockica -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  25/66  ) TV.ISKON.HR -- chan. (xmltv_id=CineStar  TV) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -273,7 +275,6 @@
 [  Info  ] 
 [  Debug ] 
 [  Info  ] (  55/66  ) TV.ISKON.HR -- chan. (xmltv_id=VH1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 11/05/2019 23:35
 [  Debug ]    skipped  : last show, no next startime to use as stop
 [  Info  ] 
 [  Debug ] 
@@ -290,6 +291,27 @@
 [  Info  ] channel WOMAN same as -- Woman -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  60/66  ) MOJTV.HR -- chan. (xmltv_id=Doku TV) -- mode Incremental
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 12/05/2019 differs from 'today'
+[  Debug ] date of first show = 12/05/2019
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:05
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:31
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:01
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:31
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:01
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:10
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 13/05/2019 04:00:00
 [  Debug ]    skipped show without a title at 13/05/2019 04:00:00
@@ -343,14 +365,6 @@
 [  Debug ]    skipped show without a title at 13/05/2019 04:00:00
 [  Debug ]    skipped show without a title at 13/05/2019 04:00:00
 [  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
-[  Debug ]    skipped show without a title at 13/05/2019 04:00:00
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 14/05/2019 04:01:00
 [  Debug ]    skipped show without a title at 14/05/2019 04:01:00
@@ -413,66 +427,66 @@
 [  Debug ]    skipped show without a title at 14/05/2019 04:01:00
 [  Debug ]    skipped show without a title at 14/05/2019 04:01:00
 [  Debug ]    skipped : no value for next starttime
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
-[  Debug ]    skipped show without a title at 15/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
+[  Debug ]    skipped show without a title at 15/05/2019 04:02:00
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 16/05/2019 04:02:00
 [  Debug ]    skipped show without a title at 16/05/2019 04:02:00
@@ -534,67 +548,6 @@
 [  Debug ]    skipped show without a title at 16/05/2019 04:02:00
 [  Debug ]    skipped show without a title at 16/05/2019 04:02:00
 [  Debug ]    skipped show without a title at 16/05/2019 04:02:00
-[  Debug ]    skipped : no value for next starttime
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
-[  Debug ]    skipped show without a title at 17/05/2019 04:02:00
 [  Debug ]    suspicious      title in index page
 [  Debug ] Can't match any (sub)detail title(s) with any index title(s):
 [  Debug ]        index title(s):
@@ -613,11 +566,227 @@
 [  Debug ]                        "Sportski detektivi"
 [  Debug ]  (sub)detail title(s):
 [  Debug ]                        "Istražitelji sportskih blaga"
+[  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped show without a title at 17/05/2019 04:03:00
+[  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
+[  Debug ]    skipped show without a title at 18/05/2019 04:01:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel DokTV same as -- Doku TV -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  62/66  ) MOJTV.HR -- chan. (xmltv_id=Cartoon Network RSE) -- mode Incremental
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 12/05/2019 differs from 'today'
+[  Debug ] date of first show = 12/05/2019
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:44
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:11
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:21
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:59
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:36
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:47
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:05
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:18
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:28
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:42
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:53
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:12
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:22
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:33
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:48
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:58
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:12
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:22
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:32
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:46
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:04
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:14
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:39
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:04
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:19
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:34
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:44
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:53
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:03
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:12
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:40
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:05
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:19
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:29
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:09
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:36
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:46
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:31
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:36
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:41
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:51
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:16
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:26
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:40
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:51
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:02
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:13
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:36
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:47
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:58
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:33
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:43
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:54
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:05
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:16
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:27
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:39
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:50
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 13/05/2019 05:27:00
 [  Debug ]    skipped show without a title at 13/05/2019 05:27:00
@@ -893,11 +1062,118 @@
 [  Debug ]    skipped show without a title at 17/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 17/05/2019 05:25:00
 [  Debug ]    skipped show without a title at 17/05/2019 05:25:00
+[  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:27:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel CN same as -- Cartoon Network RSE -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  64/66  ) MOJTV.HR -- chan. (xmltv_id=Disney Channel) -- mode Incremental
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 12/05/2019 differs from 'today'
+[  Debug ] date of first show = 12/05/2019
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:50
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:15
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:40
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 10:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 11:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:50
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:15
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:40
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:50
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:15
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:40
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:05
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:55
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:20
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:45
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:50
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:10
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:35
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:25
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:50
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:15
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:40
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 13/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 13/05/2019 05:20:00
@@ -1173,35 +1449,96 @@
 [  Debug ]    skipped show without a title at 17/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 17/05/2019 05:20:00
 [  Debug ]    skipped show without a title at 17/05/2019 05:20:00
+[  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
+[  Debug ]    skipped show without a title at 18/05/2019 05:20:00
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Disne same as -- Disney Channel -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  66/66  ) MOJTV.HR -- chan. (xmltv_id=MTV) -- mode Incremental
+[  Debug ] index_date 'force' option detected
+[  Debug ] date in index 12/05/2019 differs from 'today'
+[  Debug ] date of first show = 12/05/2019
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 06:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 07:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 08:30
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 09:00
 [  Debug ]    skipped show without a title at 12/05/2019 11:00:00
 [  Debug ]    skipped show without a title at 12/05/2019 11:30:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 12:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 13:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 14:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 15:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 16:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 17:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 18:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 19:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 20:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 21:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 22:00
+[  Debug ]    skipped : show that happened before 'today' @ 12/05/2019 23:00
 [  Debug ]    skipped : no value for next starttime
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
-[  Debug ]    skipped show without a title at 13/05/2019 02:30:00
 [  Debug ]    skipped show without a title at 13/05/2019 02:30:00
 [  Debug ]    skipped show without a title at 13/05/2019 02:30:00
 [  Debug ]    skipped show without a title at 13/05/2019 02:30:00
@@ -1313,18 +1650,6 @@
 [  Debug ]    suspicious      title in index page
 [  Debug ] Can't match any (sub)detail title(s) with any index title(s):
 [  Debug ]        index title(s):
-[  Debug ]                        "Teen Mom 2"
-[  Debug ]  (sub)detail title(s):
-[  Debug ]                        "Teen Mom"
-[  Debug ]    suspicious      title in index page
-[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
-[  Debug ]        index title(s):
-[  Debug ]                        "Teen Mom 2"
-[  Debug ]  (sub)detail title(s):
-[  Debug ]                        "Teen Mom"
-[  Debug ]    suspicious      title in index page
-[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
-[  Debug ]        index title(s):
 [  Debug ]                        "Ex on the Beach"
 [  Debug ]  (sub)detail title(s):
 [  Debug ]                        "Bivši na plaži"
@@ -1468,18 +1793,7 @@
 [  Debug ]    skipped show without a title at 16/05/2019 02:00:00
 [  Debug ]    skipped show without a title at 16/05/2019 02:00:00
 [  Debug ]    skipped show without a title at 16/05/2019 02:00:00
-[  Debug ]    suspicious      title in index page
-[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
-[  Debug ]        index title(s):
-[  Debug ]                        "Ex on the Beach"
-[  Debug ]  (sub)detail title(s):
-[  Debug ]                        "Bivši na plaži"
-[  Debug ]    suspicious      title in index page
-[  Debug ] Can't match any (sub)detail title(s) with any index title(s):
-[  Debug ]        index title(s):
-[  Debug ]                        "Ex on the Beach"
-[  Debug ]  (sub)detail title(s):
-[  Debug ]                        "Bivši na plaži"
+[  Debug ]    skipped show without a title at 16/05/2019 17:30:00
 [  Debug ]    skipped : no value for next starttime
 [  Debug ]    skipped show without a title at 17/05/2019 02:00:00
 [  Debug ]    skipped show without a title at 17/05/2019 02:00:00
@@ -1541,13 +1855,75 @@
 [  Debug ]    skipped show without a title at 17/05/2019 02:00:00
 [  Debug ]    skipped show without a title at 17/05/2019 02:00:00
 [  Debug ]    skipped show without a title at 17/05/2019 02:00:00
-[  Debug ]    skipped show without a title at 17/05/2019 17:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:00:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped : no value for next starttime
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
+[  Debug ]    skipped show without a title at 18/05/2019 02:30:00
 [  Info  ] 
 [  Debug ] 
-[  Debug ] 16951 shows in 66 channels
-[  Debug ] 15 updated shows
-[  Debug ] 0 new shows added
+[  Debug ] 15109 shows in 66 channels
+[  Debug ] 364 updated shows
+[  Debug ] 294 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 12/05/2019 19:57:32 done in 7m 54s
+[        ] Job finished at 13/05/2019 00:10:23 done in 9m 9s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
