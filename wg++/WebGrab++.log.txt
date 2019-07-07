@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 07/07/2019 16:37:54
+[        ] Job started at 07/07/2019 16:59:32
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.1.0.50100
 [  Debug ] Environment: 4.0.30319.42000
@@ -578,154 +578,19 @@
 
 [  Debug ] 
 [  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 22:45
-[  Info  ] 
-[  Info  ]    Summary for update of       N1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 340
-[  Info  ]      total after update        340
-
+[Error   ] Unable to update channel N1
+[Critical] See log file for details
+[Critical] Exception.Message: Object reference not set to an instance of an object
+[Critical] Exception.StackTrace:   at (wrapper managed-to-native) System.Object.__icall_wrapper_ves_icall_object_new_specific(intptr)
+  at System.Text.RegularExpressions.Regex.InitializeReferences () [0x00025] in <e8eb3d7a311640f484845e45cbec8973>:0 
+  at System.Text.RegularExpressions.Regex..ctor (System.String pattern, System.Text.RegularExpressions.RegexOptions options, System.TimeSpan matchTimeout, System.Boolean addToCache) [0x000ea] in <e8eb3d7a311640f484845e45cbec8973>:0 
+  at System.Text.RegularExpressions.Regex..ctor (System.String pattern, System.Text.RegularExpressions.RegexOptions options) [0x00000] in <e8eb3d7a311640f484845e45cbec8973>:0 
+  at WGconsole.J.IndicesAndRegexOperations (System.String 0, System.String 1, System.String 2, WGconsole.J+K 3, WGconsole.J+L 4, System.Boolean 5) [0x000fe] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+  at WGconsole.J.1 (System.String 0) [0x00138] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+  at WGconsole.J.ScrubOperations (System.Collections.Generic.Dictionary`2[TKey,TValue] 0, System.String 1, System.Boolean 2, System.Boolean 3) [0x00c44] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+  at WGconsole.J.ScrubIndexShowDetails (System.String 0, WGconsole.P 1, System.Boolean 2) [0x00332] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+  at WGconsole.F.5 (System.String 0, WGconsole.V 1, WGconsole.S 2) [0x001b6] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+  at WGconsole.F.1 (System.String[] 0) [0x0162d] in <d57dc592ea51454fbfd2d98702ecaf66>:0 
+[  Info  ] Existing guide data restored!
 [  Debug ] 
-[  Info  ] (  56/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       SPORTSKA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 179
-[  Info  ]      total after update        179
-
-[  Debug ] 
-[  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       SPTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     179
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        358
-
-[  Debug ] 
-[  Info  ] (  58/73  ) A1.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Bnet same as -- INFO KANAL -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  60/73  ) A1.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:30
-[  Info  ] 
-[  Info  ]    Summary for update of       SK 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 80
-[  Info  ]      total after update        80
-
-[  Debug ] 
-[  Info  ] (  61/73  ) A1.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       SK 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 131
-[  Info  ]      total after update        131
-
-[  Debug ] 
-[  Info  ] (  62/73  ) A1.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:52
-[  Info  ] 
-[  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 854
-[  Info  ]      total after update        854
-
-[  Debug ] 
-[  Info  ] channel CN same as -- CARTOON NETWORK -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       CN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     854
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1708
-
-[  Debug ] 
-[  Info  ] (  64/73  ) A1.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:50
-[  Info  ] 
-[  Info  ]    Summary for update of       NICKELODEON
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 503
-[  Info  ]      total after update        503
-
-[  Debug ] 
-[  Info  ] channel Nicke same as -- NICKELODEON -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Nicke
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     503
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1006
-
-[  Debug ] 
-[  Info  ] (  66/73  ) A1.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Disne same as -- DISNEY CHANNEL -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  68/73  ) A1.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:20
-[  Info  ] 
-[  Info  ]    Summary for update of       MINI TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 329
-[  Info  ]      total after update        329
-
-[  Debug ] 
-[  Info  ] channel Mini same as -- MINI TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Mini
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     329
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        658
-
-[  Debug ] 
-[  Info  ] (  70/73  ) A1.HR -- chan. (xmltv_id=MTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:30
-[  Info  ] 
-[  Info  ]    Summary for update of       MTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 156
-[  Info  ]      total after update        156
-
-[  Debug ] 
-[  Info  ] (  71/73  ) A1.HR -- chan. (xmltv_id=VH1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       VH1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 96
-[  Info  ]      total after update        96
-
-[  Debug ] 
-[  Info  ] (  72/73  ) A1.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 06/07/2019 22:00
-[  Info  ] 
-[  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 118
-[  Info  ]      total after update        118
-
-[  Debug ] 
-[  Info  ] channel CMC same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       CMC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     118
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        236
-
-[  Debug ] 
-[  Debug ] 15894 shows in 73 channels
-[  Debug ] 0 updated shows
-[  Debug ] 0 new shows added
-[  Info  ] 
-[  Info  ] 
-[        ] Job finished at 07/07/2019 16:47:00 done in 9m 6s
-[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
+[  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
