@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 05/09/2019 22:47:49
+[        ] Job started at 06/09/2019 00:03:57
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.3.0.50300
 [  Debug ] Environment: 4.0.30319.42000
@@ -20,6 +20,7 @@
 [  Info  ] found: /tmp/samdecrypt/wg++/a1.hr.ini -- Revision 00
 [  Info  ] encrypted with userkey and expiry date
 [  Debug ] xmltv input file - /tmp/samdecrypt/guide-a1.xml - found
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:30
 [  Debug ] 0 superfluous shows removed
 [  Info  ] Found existing channel (xmltv_id=HTV 1) in the config file
 [  Info  ] Found existing channel (xmltv_id=HRT 1) in the config file
@@ -95,6 +96,16 @@
 [  Info  ] Found existing channel (xmltv_id=CROATIAN MUSIC CHANNEL) in the config file
 [  Info  ] Found existing channel (xmltv_id=CMC) in the config file
 [  Info  ] 
+[  Info  ]    Summary for update of       RTL KOCKICA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           13
+[  Info  ]      unchanged shows inspected 346
+[  Info  ]      total after update        359
+
+[  Debug ] 
+[  Info  ] channel RTLko same as -- RTL KOCKICA -- time offset 0 hour(s)
+[  Info  ] 
 [  Info  ] 
 [  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
 [  Info  ] 
@@ -105,185 +116,36 @@
 [  Info  ] (   1/73  ) A1.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [Warning ] no robots data found
 [Warning ] skipped robots check
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:35
-[  Info  ] 
-[  Info  ]    Summary for update of       HTV 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 331
-[  Info  ]      total after update        331
-
-[  Debug ] 
-[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       HRT 1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     331
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        662
-
-[  Debug ] 
-[  Info  ] (   3/73  ) A1.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 22:51
-[  Info  ] 
-[  Info  ]    Summary for update of       HTV 2
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 350
-[  Info  ]      total after update        350
-
-[  Debug ] 
-[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       HRT 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     350
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        700
-
-[  Debug ] 
-[  Info  ] (   5/73  ) A1.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:34
-[  Info  ] 
-[  Info  ]    Summary for update of       HTV 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 244
-[  Info  ]      total after update        244
-
-[  Debug ] 
-[  Info  ] channel HRT 3 same as -- HTV 3 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       HRT 3
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     244
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        488
-
-[  Debug ] 
-[  Info  ] (   7/73  ) A1.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:56
-[  Info  ] 
-[  Info  ]    Summary for update of       HTV 4
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 695
-[  Info  ]      total after update        695
-
-[  Debug ] 
-[  Info  ] channel HRT 4 same as -- HTV 4 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       HRT 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     695
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1390
-
-[  Debug ] 
-[  Info  ] (   9/73  ) A1.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:20
-[  Info  ] 
-[  Info  ]    Summary for update of       NOVA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 225
-[  Info  ]      total after update        225
-
-[  Debug ] 
-[  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       NOVA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     225
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        450
-
-[  Debug ] 
-[  Info  ] (  11/73  ) A1.HR -- chan. (xmltv_id=RTL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:30
-[  Info  ] 
-[  Info  ]    Summary for update of       RTL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 180
-[  Info  ]      total after update        180
-
-[  Debug ] 
-[  Info  ] (  12/73  ) A1.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:25
-[  Info  ] 
-[  Info  ]    Summary for update of       DOMA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 278
-[  Info  ]      total after update        278
-
-[  Debug ] 
-[  Info  ] channel Doma same as -- DOMA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Doma
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     278
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        556
-
-[  Debug ] 
-[  Info  ] (  14/73  ) A1.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:50
-[  Info  ] 
-[  Info  ]    Summary for update of       RTL2
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 278
-[  Info  ]      total after update        278
-
-[  Debug ] 
-[  Info  ] channel RTL 2 same as -- RTL2 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       RTL 2
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     278
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        556
-
-[  Debug ] 
-[  Info  ] (  16/73  ) A1.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:50
-[  Info  ] 
-[  Info  ]    Summary for update of       RTL KOCKICA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 402
-[  Info  ]      total after update        402
-
-[  Debug ] 
-[  Info  ] channel RTLko same as -- RTL KOCKICA -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       RTLko
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     402
+[  Info  ]      changed shows updated     359
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        804
+[  Info  ]      total after update        705
 
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:33
 [  Debug ] 
 [  Info  ] (  18/73  ) A1.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:50
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:05
 [  Info  ] 
-[  Info  ]    Summary for update of       RTL LIVING
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 233
-[  Info  ]      total after update        233
-
+[  Debug ] 
+[  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel RTLli same as -- RTL LIVING -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       RTLli
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     233
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        466
-
+[  Debug ] 
+[  Info  ] (   3/73  ) A1.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
 [  Debug ] 
 [  Info  ] (  20/73  ) A1.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:15
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:49
 [Error   ] Unable to update channel CINESTAR TV
 [Critical] Generic syntax exception:
 [Critical]    message: 
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstartdatetime time scrubbed : 
-[Error   ] computer date/time format: 05/09/2019 22:51:19
+[Error   ] computer date/time format: 06/09/2019 00:04:33
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] channel Cines same as -- CINESTAR TV -- time offset 0 hour(s)
@@ -294,425 +156,571 @@
 
 [  Debug ] 
 [  Info  ] (  21/73  ) A1.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:15
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 21:40
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 81
-[  Info  ]      total after update        81
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 70
+[  Info  ]      total after update        72
 
 [  Debug ] 
 [  Info  ] channel CineA same as -- CINESTAR ACTION & THRILLER -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       CineA
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     81
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        162
-
-[  Debug ] 
-[  Info  ] (  23/73  ) A1.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 22:50
-[  Info  ] 
-[  Info  ]    Summary for update of       VIASAT TV1000
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 92
-[  Info  ]      total after update        92
-
-[  Debug ] 
-[  Info  ] channel Tv100 same as -- VIASAT TV1000 -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Tv100
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     92
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        184
-
-[  Debug ] 
-[  Info  ] (  25/73  ) A1.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:55
-[  Info  ] 
-[  Info  ]    Summary for update of       FOX
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 237
-[  Info  ]      total after update        237
-
-[  Debug ] 
-[  Info  ] channel Fox same as -- FOX -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Fox
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     237
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        474
-
-[  Debug ] 
-[  Info  ] (  27/73  ) A1.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:50
-[  Info  ] 
-[  Info  ]    Summary for update of       FOX LIFE
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 265
-[  Info  ]      total after update        265
-
-[  Debug ] 
-[  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       FoxLi
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     265
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        530
-
-[  Debug ] 
-[  Info  ] (  29/73  ) A1.HR -- chan. (xmltv_id=EPIC DRAMA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:30
-[  Info  ] 
-[  Info  ]    Summary for update of       EPIC DRAMA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 197
-[  Info  ]      total after update        197
-
-[  Debug ] 
-[  Info  ] channel EpicD same as -- EPIC DRAMA -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       EpicD
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     197
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        394
-
-[  Debug ] 
-[  Info  ] (  31/73  ) A1.HR -- chan. (xmltv_id=KLASIK TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:39
-[  Info  ] 
-[  Info  ]    Summary for update of       KLASIK TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 166
-[  Info  ]      total after update        166
-
-[  Debug ] 
-[  Info  ] (  32/73  ) A1.HR -- chan. (xmltv_id=KINOTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:58
-[  Info  ] 
-[  Info  ]    Summary for update of       KINOTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 138
-[  Info  ]      total after update        138
-
-[  Debug ] 
-[  Info  ] (  33/73  ) A1.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:40
-[  Info  ] 
-[  Info  ]    Summary for update of       COMEDY CENTRAL EXTRA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 378
-[  Info  ]      total after update        378
-
-[  Debug ] 
-[  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Comed
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     378
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        756
-
-[  Debug ] 
-[  Info  ] (  35/73  ) A1.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:10
-[  Info  ] 
-[  Info  ]    Summary for update of       DIVA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 157
-[  Info  ]      total after update        157
-
-[  Debug ] 
-[  Info  ] (  36/73  ) A1.HR -- chan. (xmltv_id=DOKUTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:31
-[  Info  ] 
-[  Info  ]    Summary for update of       DOKUTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 166
-[  Info  ]      total after update        166
-
-[  Debug ] 
-[  Info  ] channel DokTV same as -- DOKUTV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       DokTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     166
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        332
-
-[  Debug ] 
-[  Info  ] (  38/73  ) A1.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:55
-[  Info  ] 
-[  Info  ]    Summary for update of       NATIONAL GEOGRAPHIC
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 220
-[  Info  ]      total after update        220
-
-[  Debug ] 
-[  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       NatGe
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     220
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        440
-
-[  Debug ] 
-[  Info  ] (  40/73  ) A1.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:55
-[  Info  ] 
-[  Info  ]    Summary for update of       VIASAT HISTORY
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 186
-[  Info  ]      total after update        186
-
-[  Debug ] 
-[  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Histo
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     186
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        372
-
-[  Debug ] 
-[  Info  ] (  42/73  ) A1.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:25
-[  Info  ] 
-[  Info  ]    Summary for update of       VIASAT EXPLORE
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 247
-[  Info  ]      total after update        247
-
-[  Debug ] 
-[  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Explo
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     247
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        494
-
-[  Debug ] 
-[  Info  ] (  44/73  ) A1.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  46/73  ) A1.HR -- chan. (xmltv_id=WNESS TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 22:00
-[  Info  ] 
-[  Info  ]    Summary for update of       WNESS TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 175
-[  Info  ]      total after update        175
-
-[  Debug ] 
-[  Info  ] channel Wness same as -- WNESS TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Wness
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     175
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        350
-
-[  Debug ] 
-[  Info  ] (  48/73  ) A1.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:45
-[  Info  ] 
-[  Info  ]    Summary for update of       WOMAN
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 269
-[  Info  ]      total after update        269
-
-[  Debug ] 
-[  Info  ] (  49/73  ) A1.HR -- chan. (xmltv_id=Z1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:10
-[  Info  ] 
-[  Info  ]    Summary for update of       Z1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 313
-[  Info  ]      total after update        313
-
-[  Debug ] 
-[  Info  ] (  50/73  ) A1.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
-[  Info  ] 
-[  Debug ] 
-[  Info  ] channel Jabuk same as -- JABUKA TV -- time offset 0 hour(s)
-[  Debug ] 
-[  Info  ] (  52/73  ) A1.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:00
-[  Info  ] 
-[  Info  ]    Summary for update of       MREŽAZG
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 143
-[  Info  ]      total after update        143
-
-[  Debug ] 
-[  Info  ] channel Mreža same as -- MREŽAZG -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Mreža
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     143
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        286
-
-[  Debug ] 
-[  Info  ] (  54/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 22:30
-[  Info  ] 
-[  Info  ]    Summary for update of       N1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 341
-[  Info  ]      total after update        341
-
-[  Debug ] 
-[  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:55
-[  Info  ] 
-[  Info  ]    Summary for update of       SPORTSKA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 71
-[  Info  ]      total after update        71
-
-[  Debug ] 
-[  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       SPTV
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     71
+[  Info  ]      changed shows updated     72
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
 [  Info  ]      total after update        142
 
 [  Debug ] 
+[  Info  ] (  23/73  ) A1.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       HTV 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 303
+[  Info  ]      total after update        308
+
+[  Debug ] 
+[  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:15
+[  Info  ] 
+[  Info  ]    Summary for update of       HRT 2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     308
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        611
+
+[  Debug ] 
+[  Info  ] channel Tv100 same as -- VIASAT TV1000 -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (   5/73  ) A1.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
+[  Debug ] 
+[  Info  ] (  25/73  ) A1.HR -- chan. (xmltv_id=FOX) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       HTV 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           10
+[  Info  ]      unchanged shows inspected 212
+[  Info  ]      total after update        222
+
+[  Debug ] 
+[  Info  ] channel HRT 3 same as -- HTV 3 -- time offset 0 hour(s)
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Fox same as -- FOX -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       HRT 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     222
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        434
+
+[  Debug ] 
+[  Info  ] (   7/73  ) A1.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
+[  Debug ] 
+[  Info  ] (  27/73  ) A1.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:50
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:56
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  29/73  ) A1.HR -- chan. (xmltv_id=EPIC DRAMA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:25
+[  Info  ] 
+[  Info  ]    Summary for update of       HTV 4
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           23
+[  Info  ]      unchanged shows inspected 601
+[  Info  ]      total after update        624
+
+[  Debug ] 
+[  Info  ] channel HRT 4 same as -- HTV 4 -- time offset 0 hour(s)
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel EpicD same as -- EPIC DRAMA -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  31/73  ) A1.HR -- chan. (xmltv_id=KLASIK TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:39
+[  Info  ]    Summary for update of       HRT 4
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     624
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        1225
+
+[  Debug ] 
+[  Info  ] (   9/73  ) A1.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       KLASIK TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 135
+[  Info  ]      total after update        135
+
+[  Debug ] 
+[  Info  ] (  32/73  ) A1.HR -- chan. (xmltv_id=KINOTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:05
+[  Info  ] 
+[  Info  ]    Summary for update of       NOVA TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 192
+[  Info  ]      total after update        192
+
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  33/73  ) A1.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
+[  Info  ]    Summary for update of       NOVA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     192
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        384
+
+[  Debug ] 
+[  Info  ] (  11/73  ) A1.HR -- chan. (xmltv_id=RTL) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:30
+[  Info  ] 
+[  Info  ]    Summary for update of       RTL
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 152
+[  Info  ]      total after update        157
+
+[  Debug ] 
+[  Info  ] (  12/73  ) A1.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:30
+[  Debug ] 
+[  Info  ] (  35/73  ) A1.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       DOMA TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 236
+[  Info  ]      total after update        236
+
+[  Debug ] 
+[  Info  ] channel Doma same as -- DOMA TV -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ]    Summary for update of       Doma
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     236
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        472
+
+[  Debug ] 
+[  Info  ] (  14/73  ) A1.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  36/73  ) A1.HR -- chan. (xmltv_id=DOKUTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:01
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:35
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel DokTV same as -- DOKUTV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  38/73  ) A1.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel RTL 2 same as -- RTL2 -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:55
+[  Debug ] 
+[  Info  ] (  16/73  ) A1.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:30
+[  Debug ] 
+[  Info  ] (  40/73  ) A1.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ] 
+[  Info  ]    Summary for update of       RTL KOCKICA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           13
+[  Info  ]      unchanged shows inspected 346
+[  Info  ]      total after update        359
+
+[  Debug ] 
+[  Info  ] channel RTLko same as -- RTL KOCKICA -- time offset 0 hour(s)
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  42/73  ) A1.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
+[  Info  ]    Summary for update of       RTLko
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     359
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        705
+
+[  Debug ] 
+[  Info  ] (  18/73  ) A1.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:25
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:05
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel RTLli same as -- RTL LIVING -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  44/73  ) A1.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
+[  Debug ] 
+[  Info  ] (  20/73  ) A1.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:40
+[  Debug ] 
+[  Info  ] (  46/73  ) A1.HR -- chan. (xmltv_id=WNESS TV) -- mode Incremental
+[Error   ] Unable to update channel CINESTAR TV
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] Current culture: en-GB
+[Error   ] time parsing error : String was not recognized as a valid DateTime.
+[Error   ] nextstartdatetime time scrubbed : 
+[Error   ] computer date/time format: 06/09/2019 00:07:10
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] channel Cines same as -- CINESTAR TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Cines
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  21/73  ) A1.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:30
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 21:40
+[  Info  ] 
+[  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 70
+[  Info  ]      total after update        72
+
+[  Debug ] 
+[  Info  ] channel CineA same as -- CINESTAR ACTION & THRILLER -- time offset 0 hour(s)
+[  Info  ] 
+[  Info  ]    Summary for update of       WNESS TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 148
+[  Info  ]      total after update        150
+
+[  Debug ] 
+[  Info  ] channel Wness same as -- WNESS TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       CineA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     72
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        142
+
+[  Debug ] 
+[  Info  ] (  23/73  ) A1.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
+[  Info  ]    Summary for update of       Wness
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     150
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        298
+
+[  Debug ] 
+[  Info  ] (  48/73  ) A1.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:15
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:45
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Tv100 same as -- VIASAT TV1000 -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  25/73  ) A1.HR -- chan. (xmltv_id=FOX) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       WOMAN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           8
+[  Info  ]      unchanged shows inspected 233
+[  Info  ]      total after update        241
+
+[  Debug ] 
+[  Info  ] (  49/73  ) A1.HR -- chan. (xmltv_id=Z1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:10
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Fox same as -- FOX -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  27/73  ) A1.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       Z1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           6
+[  Info  ]      unchanged shows inspected 266
+[  Info  ]      total after update        272
+
+[  Debug ] 
+[  Info  ] (  50/73  ) A1.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:50
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Jabuk same as -- JABUKA TV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  52/73  ) A1.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
+[  Info  ] 
+[  Info  ]    Summary for update of       MREŽAZG
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 106
+[  Info  ]      total after update        106
+
+[  Debug ] 
+[  Info  ] channel Mreža same as -- MREŽAZG -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Mreža
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     106
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        212
+
+[  Debug ] 
+[  Info  ] (  29/73  ) A1.HR -- chan. (xmltv_id=EPIC DRAMA) -- mode Incremental
+[  Debug ] 
+[  Info  ] (  54/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:25
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel EpicD same as -- EPIC DRAMA -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  31/73  ) A1.HR -- chan. (xmltv_id=KLASIK TV) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       N1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           12
+[  Info  ]      unchanged shows inspected 297
+[  Info  ]      total after update        309
+
+[  Debug ] 
+[  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:39
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       SPORTSKA TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 40
+[  Info  ]      total after update        40
+
+[  Debug ] 
+[  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       SPTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     40
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        80
+
+[  Debug ] 
 [  Info  ] (  57/73  ) A1.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
+[  Info  ] 
+[  Info  ]    Summary for update of       KLASIK TV
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 135
+[  Info  ]      total after update        135
+
+[  Debug ] 
+[  Info  ] (  32/73  ) A1.HR -- chan. (xmltv_id=KINOTV) -- mode Incremental
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Bnet same as -- INFO KANAL -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  59/73  ) A1.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:30
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:05
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:25
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  33/73  ) A1.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 129
-[  Info  ]      total after update        129
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 111
+[  Info  ]      total after update        116
 
 [  Debug ] 
 [  Info  ] (  60/73  ) A1.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 22:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:10
 [  Info  ] 
 [  Info  ]    Summary for update of       SK 3
 [  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 79
-[  Info  ]      total after update        79
+[  Info  ]      unchanged shows inspected 57
+[  Info  ]      total after update        57
 
 [  Debug ] 
 [  Info  ] (  61/73  ) A1.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:52
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:53
 [  Info  ] 
-[  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 773
-[  Info  ]      total after update        773
-
+[  Debug ] 
+[  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  35/73  ) A1.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  36/73  ) A1.HR -- chan. (xmltv_id=DOKUTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:01
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel CN same as -- CARTOON NETWORK -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       CN
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     773
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1546
-
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel DokTV same as -- DOKUTV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  38/73  ) A1.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:55
 [  Debug ] 
 [  Info  ] (  63/73  ) A1.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:45
 [  Info  ] 
-[  Info  ]    Summary for update of       NICKELODEON
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 493
-[  Info  ]      total after update        493
-
+[  Debug ] 
+[  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:45
+[  Debug ] 
+[  Info  ] (  40/73  ) A1.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  42/73  ) A1.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
+[  Info  ] 
 [  Debug ] 
 [  Info  ] channel Nicke same as -- NICKELODEON -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Nicke
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     493
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        986
-
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:25
 [  Debug ] 
 [  Info  ] (  65/73  ) A1.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
 [  Info  ] 
 [  Debug ] 
 [  Info  ] channel Disne same as -- DISNEY CHANNEL -- time offset 0 hour(s)
 [  Debug ] 
 [  Info  ] (  67/73  ) A1.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:20
+[  Debug ] 
+[  Info  ] (  44/73  ) A1.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:10
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  46/73  ) A1.HR -- chan. (xmltv_id=WNESS TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:30
 [  Info  ] 
 [  Info  ]    Summary for update of       MINI TV
 [  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 315
-[  Info  ]      total after update        315
+[  Info  ]      unchanged shows inspected 270
+[  Info  ]      total after update        270
 
 [  Debug ] 
 [  Info  ] channel Mini same as -- MINI TV -- time offset 0 hour(s)
+[  Info  ] 
+[  Info  ]    Summary for update of       WNESS TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           2
+[  Info  ]      unchanged shows inspected 148
+[  Info  ]      total after update        150
+
+[  Debug ] 
+[  Info  ] channel Wness same as -- WNESS TV -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       Mini
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     315
+[  Info  ]      changed shows updated     270
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        630
+[  Info  ]      total after update        540
 
 [  Debug ] 
 [  Info  ] (  69/73  ) A1.HR -- chan. (xmltv_id=MTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:00
+[  Info  ]    Summary for update of       Wness
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     150
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        298
+
+[  Debug ] 
+[  Info  ] (  48/73  ) A1.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:45
 [  Info  ] 
 [  Info  ]    Summary for update of       MTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 165
-[  Info  ]      total after update        165
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           5
+[  Info  ]      unchanged shows inspected 142
+[  Info  ]      total after update        147
 
 [  Debug ] 
 [  Info  ] (  70/73  ) A1.HR -- chan. (xmltv_id=VH1) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:35
+[  Info  ] 
+[  Info  ]    Summary for update of       WOMAN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           8
+[  Info  ]      unchanged shows inspected 233
+[  Info  ]      total after update        241
+
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:00
+[  Debug ] 
+[  Info  ] (  49/73  ) A1.HR -- chan. (xmltv_id=Z1) -- mode Incremental
 [  Info  ] 
 [  Info  ]    Summary for update of       VH1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 100
-[  Info  ]      total after update        100
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           3
+[  Info  ]      unchanged shows inspected 86
+[  Info  ]      total after update        89
 
 [  Debug ] 
 [  Info  ] (  71/73  ) A1.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 04/09/2019 23:00
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 23:10
+[  Debug ]    skipped : show that happened before 'today' @ 05/09/2019 22:00
 [  Info  ] 
-[  Info  ]    Summary for update of       CROATIAN MUSIC CHANNEL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 132
-[  Info  ]      total after update        132
-
 [  Debug ] 
 [  Info  ] channel CMC same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       CMC
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     132
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        264
-
 [  Debug ] 
-[  Debug ] 16451 shows in 73 channels
+[  Debug ] 14442 shows in 73 channels
 [  Debug ] 0 updated shows
-[  Debug ] 29 new shows added
+[  Debug ] 269 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 05/09/2019 22:57:21 done in 9m 32s
+[        ] Job finished at 06/09/2019 00:10:15 done in 9m 0s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
