@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 09/09/2019 12:01:14
+[        ] Job started at 09/09/2019 15:29:27
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.3.0.50300
 [  Debug ] Environment: 4.0.30319.42000
@@ -437,6 +437,8 @@
 
 [  Debug ] 
 [  Info  ] (  37/73  ) A1.HR -- chan. (xmltv_id=DOKUTV) -- mode Incremental
+[Warning ] error downloading page: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped : show that happened before 'today' @ 08/09/2019 23:01
 [  Info  ] 
 [  Info  ]    Summary for update of       DOKUTV
@@ -574,11 +576,18 @@
 [  Debug ] 
 [  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 08/09/2019 22:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 09/09/2019 07:00:00 stop = 09/09/2019 08:00:00 title = Sport Klub Info
+[  Info  ]       Replaces ----- start = 09/09/2019 07:00:00 stop = 09/09/2019 07:30:00 title = Sport Klub Info
+[  Info  ]       Replaces ----- start = 09/09/2019 07:30:00 stop = 09/09/2019 08:00:00 title = Dnevnik
 [  Info  ] 
 [  Info  ]    Summary for update of       N1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 341
-[  Info  ]      total after update        341
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     1
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 339
+[  Info  ]      total after update        340
 
 [  Debug ] 
 [  Info  ] (  56/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
@@ -624,10 +633,31 @@
 [  Debug ] 
 [  Info  ] (  62/73  ) A1.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 08/09/2019 23:50
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/09/2019 09:47:00 stop = 11/09/2019 09:57:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 09:45:00 stop = 11/09/2019 09:55:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 09:55:00 stop = 11/09/2019 10:15:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/09/2019 09:57:00 stop = 11/09/2019 10:14:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 09:55:00 stop = 11/09/2019 10:15:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/09/2019 15:44:00 stop = 11/09/2019 15:55:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 15:25:00 stop = 11/09/2019 15:45:00 title = Summer Camp Island
+[  Info  ]       Replaces ----- start = 11/09/2019 15:45:00 stop = 11/09/2019 15:55:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 11/09/2019 15:55:00 stop = 11/09/2019 16:12:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 15:55:00 stop = 11/09/2019 16:10:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 11/09/2019 16:10:00 stop = 11/09/2019 16:20:00 title = Unikitty
 [  Info  ] 
 [  Info  ]    Summary for update of       CARTOON NETWORK
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 773
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     100
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 673
 [  Info  ]      total after update        773
 
 [  Debug ] 
@@ -714,13 +744,13 @@
 [  Info  ]      changed shows updated     105
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        188
+[  Info  ]      total after update        210
 
 [  Debug ] 
-[  Debug ] 17015 shows in 73 channels
-[  Debug ] 0 updated shows
+[  Debug ] 17014 shows in 73 channels
+[  Debug ] 101 updated shows
 [  Debug ] 0 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 09/09/2019 12:11:01 done in 9m 47s
+[        ] Job finished at 09/09/2019 15:39:41 done in 10m 14s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
