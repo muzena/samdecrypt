@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 18/09/2019 16:26:17
+[        ] Job started at 24/09/2019 09:56:15
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.3.0.50300
 [  Debug ] Environment: 4.0.30319.42000
@@ -105,182 +105,837 @@
 [  Info  ] (   1/73  ) A1.HR -- chan. (xmltv_id=HTV 1) -- mode Incremental
 [Warning ] no robots data found
 [Warning ] skipped robots check
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:24
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:25
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:20:00 stop = 24/09/2019 02:01:00 title = Dr. Oz (8) Show
+[  Info  ]       Replaces ----- start = 24/09/2019 01:20:00 stop = 24/09/2019 02:00:00 title = Dr. Oz (8) Show
+[  Info  ]       Replaces ----- start = 24/09/2019 02:00:00 stop = 24/09/2019 02:15:00 title = Dnevnik 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:01:00 stop = 24/09/2019 02:16:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 02:00:00 stop = 24/09/2019 02:15:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 02:15:00 stop = 24/09/2019 02:18:00 title = Sport
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:16:00 stop = 24/09/2019 02:19:00 title = Sport
+[  Info  ]       Replaces ----- start = 24/09/2019 02:15:00 stop = 24/09/2019 02:18:00 title = Sport
+[  Info  ]       Replaces ----- start = 24/09/2019 02:18:00 stop = 24/09/2019 02:26:00 title = Vijesti Iz Kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:19:00 stop = 24/09/2019 02:27:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 02:18:00 stop = 24/09/2019 02:26:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 02:26:00 stop = 24/09/2019 03:16:00 title = Divlja Priroda Baltičkog Mora: Između Danske I Latvije
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:42:00 stop = 24/09/2019 04:58:00 title = Skica Za Portret
+[  Info  ]       Replaces ----- start = 24/09/2019 04:01:00 stop = 24/09/2019 04:46:00 title = Voli Me Zauvijek
+[  Info  ]       Replaces ----- start = 24/09/2019 04:46:00 stop = 24/09/2019 05:01:00 title = Skica Za Portret
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:04:00 stop = 24/09/2019 05:46:00 title = Dnevnik 2
+[  Info  ]       Replaces ----- start = 24/09/2019 05:01:00 stop = 24/09/2019 05:43:00 title = Dnevnik 2
+[  Info  ]       Replaces ----- start = 24/09/2019 05:43:00 stop = 24/09/2019 06:28:00 title = Karipski Cvijet
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:35:00 stop = 24/09/2019 06:55:00 title = Tv Kalendar
+[  Info  ]       Replaces ----- start = 24/09/2019 06:40:00 stop = 24/09/2019 06:52:00 title = Tv Kalendar
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:00:00 stop = 24/09/2019 07:11:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 07:00:00 stop = 24/09/2019 07:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 07:10:00 stop = 24/09/2019 08:00:00 title = Dobro Jutro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:00:00 stop = 24/09/2019 08:11:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 08:00:00 stop = 24/09/2019 08:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 08:10:00 stop = 24/09/2019 09:00:00 title = Dobro Jutro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 09:00:00 stop = 24/09/2019 09:11:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 09:00:00 stop = 24/09/2019 09:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 09:10:00 stop = 24/09/2019 09:17:00 title = Dobro Jutro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:10:00 stop = 24/09/2019 11:39:00 title = Glas Domovine
+[  Info  ]       Replaces ----- start = 24/09/2019 11:10:00 stop = 24/09/2019 11:35:00 title = Glas Domovine
+[  Info  ]       Replaces ----- start = 24/09/2019 11:35:00 stop = 24/09/2019 11:40:00 title = Informativka
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:39:00 stop = 24/09/2019 12:00:00 title = Tv Kalendar
+[  Info  ]       Replaces ----- start = 24/09/2019 11:35:00 stop = 24/09/2019 11:40:00 title = Informativka
+[  Info  ]       Replaces ----- start = 24/09/2019 11:42:00 stop = 24/09/2019 11:54:00 title = Tv Kalendar
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:18:00 stop = 24/09/2019 12:27:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 24/09/2019 12:18:00 stop = 24/09/2019 12:20:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 24/09/2019 12:25:00 stop = 24/09/2019 13:10:00 title = Karipski Cvijet
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 13:15:00 stop = 24/09/2019 14:03:00 title = Dr. Oz (8) Show
+[  Info  ]       Replaces ----- start = 24/09/2019 13:15:00 stop = 24/09/2019 14:00:00 title = Dr. Oz (8) Show
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 14:03:00 stop = 24/09/2019 14:31:00 title = Znanstveni Krugovi
+[  Info  ]       Replaces ----- start = 24/09/2019 14:05:00 stop = 24/09/2019 14:30:00 title = Znanstveni Krugovi
+[  Info  ]       Replaces ----- start = 24/09/2019 14:30:00 stop = 24/09/2019 14:55:00 title = Zdrav Život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 14:31:00 stop = 24/09/2019 15:00:00 title = Zdrav Život
+[  Info  ]       Replaces ----- start = 24/09/2019 14:30:00 stop = 24/09/2019 14:55:00 title = Zdrav Život
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:43:00 stop = 24/09/2019 17:00:00 title = Tv Kalendar
+[  Info  ]       Replaces ----- start = 24/09/2019 16:43:00 stop = 24/09/2019 16:55:00 title = Tv Kalendar
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 17:15:00 stop = 24/09/2019 17:19:00 title = Hak Promet Info
+[  Info  ]       Replaces ----- start = 24/09/2019 17:15:00 stop = 24/09/2019 17:16:00 title = Hak Promet Info
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:07:00 stop = 24/09/2019 18:58:00 title = Potjera
+[  Info  ]       Replaces ----- start = 24/09/2019 18:10:00 stop = 24/09/2019 18:57:00 title = Potjera
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:58:00 stop = 24/09/2019 19:00:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 24/09/2019 18:59:00 stop = 24/09/2019 19:00:00 title = Vrijeme
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:00:00 stop = 24/09/2019 19:44:00 title = Dnevnik 2
+[  Info  ]       Replaces ----- start = 24/09/2019 19:00:00 stop = 24/09/2019 19:42:00 title = Dnevnik 2
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:47:00 stop = 24/09/2019 20:05:00 title = Tema Dana
+[  Info  ]       Replaces ----- start = 24/09/2019 19:47:00 stop = 24/09/2019 20:00:00 title = Tema Dana
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:01:00 stop = 24/09/2019 22:00:00 title = Klub 7
+[  Info  ]       Replaces ----- start = 24/09/2019 21:00:00 stop = 24/09/2019 21:55:00 title = Klub 7
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 22:00:00 stop = 24/09/2019 22:51:00 title = Otvoreno
+[  Info  ]       Replaces ----- start = 24/09/2019 22:00:00 stop = 24/09/2019 22:45:00 title = Otvoreno
+[  Info  ]       Replaces ----- start = 24/09/2019 22:50:00 stop = 24/09/2019 23:05:00 title = Dnevnik 3
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 22:51:00 stop = 24/09/2019 23:06:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 22:50:00 stop = 24/09/2019 23:05:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 23:05:00 stop = 24/09/2019 23:08:00 title = Sport
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 23:06:00 stop = 24/09/2019 23:12:00 title = Sport
+[  Info  ]       Replaces ----- start = 24/09/2019 23:05:00 stop = 24/09/2019 23:08:00 title = Sport
+[  Info  ]       Replaces ----- start = 24/09/2019 23:09:00 stop = 24/09/2019 23:11:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 24/09/2019 23:11:00 stop = 24/09/2019 23:19:00 title = Vijesti Iz Kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 23:12:00 stop = 24/09/2019 23:14:00 title = Vrijeme
+[  Info  ]       Replaces ----- start = 24/09/2019 23:11:00 stop = 24/09/2019 23:19:00 title = Vijesti Iz Kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 23:14:00 stop = 24/09/2019 23:25:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 23:11:00 stop = 24/09/2019 23:19:00 title = Vijesti Iz Kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 23:25:00 stop = 25/09/2019 00:19:00 title = Hrvatska Za 5
+[  Info  ]       Replaces ----- start = 24/09/2019 23:25:00 stop = 25/09/2019 00:15:00 title = Hrvatska Za 5
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 1
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 342
-[  Info  ]      total after update        342
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     46
+[  Info  ]      new shows added           299
+[  Info  ]      unchanged shows inspected 7
+[  Info  ]      total after update        352
 
 [  Debug ] 
 [  Info  ] channel HRT 1 same as -- HTV 1 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 1
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     342
+[  Info  ]      changed shows updated     352
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        684
+[  Info  ]      total after update        405
 
 [  Debug ] 
 [  Info  ] (   3/73  ) A1.HR -- chan. (xmltv_id=HTV 2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:57
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:07:00 stop = 24/09/2019 05:12:00 title = Noćni Glazbeni Program Spotovi
+[  Info  ]       Replaces ----- start = 24/09/2019 01:45:00 stop = 24/09/2019 04:50:00 title = Noćni Glazbeni Program Spotovi
+[  Info  ]       Replaces ----- start = 24/09/2019 04:50:00 stop = 24/09/2019 05:05:00 title = Noćni Glazbeni Program Glazbene Emisije
+[  Info  ]       Replaces ----- start = 24/09/2019 05:05:00 stop = 24/09/2019 05:50:00 title = Izvan Formata
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:01:00 stop = 24/09/2019 06:44:00 title = Regionalni Dnevnik
+[  Info  ]       Replaces ----- start = 24/09/2019 05:50:00 stop = 24/09/2019 06:30:00 title = Regionalni Dnevnik
+[  Info  ]       Replaces ----- start = 24/09/2019 06:34:00 stop = 24/09/2019 06:35:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 06:35:00 stop = 24/09/2019 06:47:00 title = Teletubbyji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:08:00 stop = 24/09/2019 07:10:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 07:04:00 stop = 24/09/2019 07:12:00 title = Miru Miru
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:10:00 stop = 24/09/2019 07:11:00 title = Pjesmice I Brojalice: Ringe Ringe Raja
+[  Info  ]       Replaces ----- start = 24/09/2019 07:04:00 stop = 24/09/2019 07:12:00 title = Miru Miru
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:11:00 stop = 24/09/2019 07:14:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 07:04:00 stop = 24/09/2019 07:12:00 title = Miru Miru
+[  Info  ]       Replaces ----- start = 24/09/2019 07:12:00 stop = 24/09/2019 07:19:00 title = Miru Miru
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:24:00 stop = 24/09/2019 07:26:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 07:21:00 stop = 24/09/2019 07:30:00 title = Zvrko Ide U Čudosvijet
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:37:00 stop = 24/09/2019 07:44:00 title = Ninin Kutak Za Male: Morska Priča
+[  Info  ]       Replaces ----- start = 24/09/2019 07:37:00 stop = 24/09/2019 07:47:00 title = Tv Vrtić: Zvono
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:44:00 stop = 24/09/2019 07:55:00 title = Tv Vrtić: Zvono
+[  Info  ]       Replaces ----- start = 24/09/2019 07:37:00 stop = 24/09/2019 07:47:00 title = Tv Vrtić: Zvono
+[  Info  ]       Replaces ----- start = 24/09/2019 07:47:00 stop = 24/09/2019 07:49:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 07:49:00 stop = 24/09/2019 08:00:00 title = Tomica I Prijatelji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:55:00 stop = 24/09/2019 07:57:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 07:49:00 stop = 24/09/2019 08:00:00 title = Tomica I Prijatelji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:08:00 stop = 24/09/2019 08:10:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 08:08:00 stop = 24/09/2019 08:13:00 title = Njama: Rajčica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:20:00 stop = 24/09/2019 08:22:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 08:14:00 stop = 24/09/2019 08:21:00 title = Vedranovi Velikani: Stipe I Klara Janković
+[  Info  ]       Replaces ----- start = 24/09/2019 08:21:00 stop = 24/09/2019 08:22:00 title = Juhuhu
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:22:00 stop = 24/09/2019 08:32:00 title = Vedranovi Velikani: Stipe I Klara Janković
+[  Info  ]       Replaces ----- start = 24/09/2019 08:22:00 stop = 24/09/2019 08:29:00 title = Laboratorij Na Kraju Svemira: Naopaka Voda
+[  Info  ]       Replaces ----- start = 24/09/2019 08:29:00 stop = 24/09/2019 08:30:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 08:30:00 stop = 24/09/2019 08:43:00 title = Gradski Heroji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:32:00 stop = 24/09/2019 08:34:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 08:30:00 stop = 24/09/2019 08:43:00 title = Gradski Heroji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:43:00 stop = 24/09/2019 08:54:00 title = Gradski Heroji
+[  Info  ]       Replaces ----- start = 24/09/2019 08:43:00 stop = 24/09/2019 08:44:00 title = Juhuhu
+[  Info  ]       Replaces ----- start = 24/09/2019 08:44:00 stop = 24/09/2019 08:54:00 title = Naprijed!
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:08:00 stop = 24/09/2019 11:40:00 title = (re)kreativac: Veslanje
+[  Info  ]       Replaces ----- start = 24/09/2019 11:05:00 stop = 24/09/2019 11:30:00 title = (re)kreativac
+[  Info  ]       Replaces ----- start = 24/09/2019 11:35:00 stop = 24/09/2019 12:25:00 title = Dr. Bergmann Serija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 13:22:00 stop = 24/09/2019 13:33:00 title = Istina Ili Mit: Dojenje Je Pouzdano Kontracepcijsko Sredstvo
+[  Info  ]       Replaces ----- start = 24/09/2019 13:20:00 stop = 24/09/2019 13:30:00 title = Kratki Dokumentarni Film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 14:56:00 stop = 24/09/2019 15:48:00 title = Svjetski Biseri (6): Svete Planine Wudanga
+[  Info  ]       Replaces ----- start = 24/09/2019 15:00:00 stop = 24/09/2019 15:55:00 title = Svjetski Biseri (6): Svete Planine Wudanga(52'')
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:00:00 stop = 24/09/2019 16:43:00 title = Regionalni Dnevnik
+[  Info  ]       Replaces ----- start = 24/09/2019 16:00:00 stop = 24/09/2019 16:40:00 title = Regionalni Dnevnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:30:00 stop = 24/09/2019 20:05:00 title = Poprock.hr
+[  Info  ]       Replaces ----- start = 24/09/2019 19:30:00 stop = 24/09/2019 20:00:00 title = Poprock.hr
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:11:00 stop = 24/09/2019 22:45:00 title = Dodjela Nagrade Emmy
+[  Info  ]       Replaces ----- start = 24/09/2019 21:00:00 stop = 24/09/2019 22:30:00 title = Dodjela Nagrade Emmy
+[  Info  ]       Replaces ----- start = 24/09/2019 22:35:00 stop = 24/09/2019 23:25:00 title = McMafija
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 2
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 371
-[  Info  ]      total after update        372
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     50
+[  Info  ]      new shows added           327
+[  Info  ]      unchanged shows inspected 1
+[  Info  ]      total after update        378
 
 [  Debug ] 
 [  Info  ] channel HRT 2 same as -- HTV 2 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 2
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     372
+[  Info  ]      changed shows updated     378
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        744
+[  Info  ]      total after update        436
 
 [  Debug ] 
 [  Info  ] (   5/73  ) A1.HR -- chan. (xmltv_id=HTV 3) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:04
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:10:00 stop = 24/09/2019 01:20:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 01:10:00 stop = 24/09/2019 01:18:00 title = Vijesti Iz Kulture
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:04:00 stop = 24/09/2019 04:16:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 02:50:00 stop = 24/09/2019 04:05:00 title = Koncerti Narodne Tradicijske I Etno Glazbe
+[  Info  ]       Replaces ----- start = 24/09/2019 04:05:00 stop = 24/09/2019 04:13:00 title = Vijesti Iz Kulture
+[  Info  ]       Replaces ----- start = 24/09/2019 04:15:00 stop = 24/09/2019 06:00:00 title = Noć Svetog Lovre(103')
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:24:00 stop = 24/09/2019 09:10:00 title = Podrijetlo Povijest Čovječanstva: Prevariti Smrt
+[  Info  ]       Replaces ----- start = 24/09/2019 08:05:00 stop = 24/09/2019 08:25:00 title = Brooklyn 99
+[  Info  ]       Replaces ----- start = 24/09/2019 08:25:00 stop = 24/09/2019 09:10:00 title = Podrijetlo Povijest Čovječanstva: Prevariti Smrt(44'56")
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 10:39:00 stop = 24/09/2019 11:14:00 title = 2020 Za Rijekukulture
+[  Info  ]       Replaces ----- start = 24/09/2019 10:20:00 stop = 24/09/2019 10:50:00 title = Velikani U Sjeni: David Schwartz Strast Prema Letenju
+[  Info  ]       Replaces ----- start = 24/09/2019 10:50:00 stop = 24/09/2019 11:20:00 title = Epk Za Početnike
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:29:00 stop = 24/09/2019 13:20:00 title = Na Rubu Znanosti: Kontrakulturaračunala
+[  Info  ]       Replaces ----- start = 24/09/2019 11:20:00 stop = 24/09/2019 12:40:00 title = Koncerti Narodne Tradicijske I Etno Glazbe
+[  Info  ]       Replaces ----- start = 24/09/2019 12:40:00 stop = 24/09/2019 13:30:00 title = Na Rubu Znanosti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 17:03:00 stop = 24/09/2019 17:53:00 title = Podrijetlo Povijest Čovječanstva: Moć Novca
+[  Info  ]       Replaces ----- start = 24/09/2019 16:15:00 stop = 24/09/2019 17:10:00 title = Antologija Dramskog Programa
+[  Info  ]       Replaces ----- start = 24/09/2019 17:10:00 stop = 24/09/2019 18:00:00 title = Podrijetlo Povijest Čovječanstva: Moć Novca(46'28")
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:42:00 stop = 24/09/2019 19:00:00 title = Kulturna Baština: Košljun
+[  Info  ]       Replaces ----- start = 24/09/2019 18:00:00 stop = 24/09/2019 18:50:00 title = Miris Baruta
+[  Info  ]       Replaces ----- start = 24/09/2019 18:50:00 stop = 24/09/2019 20:05:00 title = Vrijeme Je Za Jazz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:00:00 stop = 24/09/2019 19:54:00 title = Vrijeme Je Za Jazz: Nove Skladbe Za Jazz Orkestar Hrt A Msu.12. (2. Dio)
+[  Info  ]       Replaces ----- start = 24/09/2019 18:50:00 stop = 24/09/2019 20:05:00 title = Vrijeme Je Za Jazz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:54:00 stop = 24/09/2019 20:05:00 title = Fotografija U Hrvatskoj: Fotografija U Splitu U 19. Stoljeću
+[  Info  ]       Replaces ----- start = 24/09/2019 18:50:00 stop = 24/09/2019 20:05:00 title = Vrijeme Je Za Jazz
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:05:00 stop = 24/09/2019 21:34:00 title = Knjiga Ili Život
+[  Info  ]       Replaces ----- start = 24/09/2019 21:00:00 stop = 24/09/2019 21:30:00 title = Knjiga Ili Život
+[  Info  ]       Replaces ----- start = 24/09/2019 21:30:00 stop = 24/09/2019 22:20:00 title = Animatik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:34:00 stop = 24/09/2019 22:24:00 title = Animatik: Osvrt Na Animafest (1.dio)
+[  Info  ]       Replaces ----- start = 24/09/2019 21:30:00 stop = 24/09/2019 22:20:00 title = Animatik
+[  Info  ]       Replaces ----- start = 24/09/2019 22:20:00 stop = 24/09/2019 22:45:00 title = Glazbeni Specijal
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 22:24:00 stop = 24/09/2019 23:00:00 title = Glazbeni Specijal: Pearl Jam + Paul McCartney
+[  Info  ]       Replaces ----- start = 24/09/2019 22:20:00 stop = 24/09/2019 22:45:00 title = Glazbeni Specijal
+[  Info  ]       Replaces ----- start = 24/09/2019 22:50:00 stop = 25/09/2019 00:30:00 title = Bez Ljubavi Francusko Njemačko Belgijski Film (15) 127
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 3
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 219
-[  Info  ]      total after update        220
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     32
+[  Info  ]      new shows added           180
+[  Info  ]      unchanged shows inspected 2
+[  Info  ]      total after update        214
 
 [  Debug ] 
 [  Info  ] channel HRT 3 same as -- HTV 3 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 3
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     220
+[  Info  ]      changed shows updated     214
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        440
+[  Info  ]      total after update        246
 
 [  Debug ] 
 [  Info  ] (   7/73  ) A1.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:57
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:35
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:00:00 stop = 24/09/2019 00:08:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 00:00:00 stop = 24/09/2019 00:10:00 title = Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:08:00 stop = 24/09/2019 00:58:00 title = Poslovni Tjedan
+[  Info  ]       Replaces ----- start = 24/09/2019 00:00:00 stop = 24/09/2019 00:10:00 title = Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 00:10:00 stop = 24/09/2019 01:00:00 title = Poslovni Tjedan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:58:00 stop = 24/09/2019 01:00:00 title = Bez Komentara Njemačka
+[  Info  ]       Replaces ----- start = 24/09/2019 00:10:00 stop = 24/09/2019 01:00:00 title = Poslovni Tjedan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:13:00 stop = 24/09/2019 01:15:00 title = Bez Komentara Sadza Izvanzemaljcima
+[  Info  ]       Replaces ----- start = 24/09/2019 01:13:00 stop = 24/09/2019 01:15:00 title = Bez Komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:30:00 stop = 24/09/2019 01:46:00 title = Županijska Panorama Zadar
+[  Info  ]       Replaces ----- start = 24/09/2019 01:30:00 stop = 24/09/2019 01:45:00 title = Županijska Panorama
+[  Info  ]       Replaces ----- start = 24/09/2019 01:45:00 stop = 24/09/2019 02:00:00 title = Županijska Panorama Osijek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:46:00 stop = 24/09/2019 02:00:00 title = Županijska Panorama Osijek
+[  Info  ]       Replaces ----- start = 24/09/2019 01:45:00 stop = 24/09/2019 02:00:00 title = Županijska Panorama Osijek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:00:00 stop = 24/09/2019 02:16:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 02:00:00 stop = 24/09/2019 02:15:00 title = Dnevnik 3
+[  Info  ]       Replaces ----- start = 24/09/2019 02:15:00 stop = 24/09/2019 02:30:00 title = Županijska Panorama Split
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:16:00 stop = 24/09/2019 02:31:00 title = Županijska Panorama Split
+[  Info  ]       Replaces ----- start = 24/09/2019 02:15:00 stop = 24/09/2019 02:30:00 title = Županijska Panorama Split
+[  Info  ]       Replaces ----- start = 24/09/2019 02:30:00 stop = 24/09/2019 02:45:00 title = Zagrebačka Panorama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:31:00 stop = 24/09/2019 02:47:00 title = Zagrebačka Panorama
+[  Info  ]       Replaces ----- start = 24/09/2019 02:30:00 stop = 24/09/2019 02:45:00 title = Zagrebačka Panorama
+[  Info  ]       Replaces ----- start = 24/09/2019 02:45:00 stop = 24/09/2019 03:00:00 title = Županijska Panorama Ri Pu Gs
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:47:00 stop = 24/09/2019 03:02:00 title = Županijska Panorama Ri Pu Gs
+[  Info  ]       Replaces ----- start = 24/09/2019 02:45:00 stop = 24/09/2019 03:00:00 title = Županijska Panorama Ri Pu Gs
+[  Info  ]       Replaces ----- start = 24/09/2019 03:00:00 stop = 24/09/2019 03:05:00 title = Vijesti Flash
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:02:00 stop = 24/09/2019 03:07:00 title = Vijesti Flash
+[  Info  ]       Replaces ----- start = 24/09/2019 03:00:00 stop = 24/09/2019 03:05:00 title = Vijesti Flash
+[  Info  ]       Replaces ----- start = 24/09/2019 03:05:00 stop = 24/09/2019 03:10:00 title = Vijesti Iz Svijeta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:07:00 stop = 24/09/2019 03:11:00 title = Vijesti Iz Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 03:05:00 stop = 24/09/2019 03:10:00 title = Vijesti Iz Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 03:10:00 stop = 24/09/2019 04:00:00 title = Poslovni Tjedan
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:11:00 stop = 24/09/2019 04:01:00 title = Poslovni Tjedan
+[  Info  ]       Replaces ----- start = 24/09/2019 03:10:00 stop = 24/09/2019 04:00:00 title = Poslovni Tjedan
+[  Info  ]       Replaces ----- start = 24/09/2019 04:00:00 stop = 24/09/2019 04:05:00 title = Vijesti Flash
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:01:00 stop = 24/09/2019 04:06:00 title = Vijesti Flash
+[  Info  ]       Replaces ----- start = 24/09/2019 04:00:00 stop = 24/09/2019 04:05:00 title = Vijesti Flash
+[  Info  ]       Replaces ----- start = 24/09/2019 04:05:00 stop = 24/09/2019 04:10:00 title = Vijesti Iz Svijeta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:06:00 stop = 24/09/2019 04:34:00 title = Mir I Dobro
+[  Info  ]       Replaces ----- start = 24/09/2019 04:05:00 stop = 24/09/2019 04:10:00 title = Vijesti Iz Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 04:10:00 stop = 24/09/2019 04:35:00 title = Mir I Dobro
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:34:00 stop = 24/09/2019 05:00:00 title = Istrage Prometnih Nesreća
+[  Info  ]       Replaces ----- start = 24/09/2019 04:10:00 stop = 24/09/2019 04:35:00 title = Mir I Dobro
+[  Info  ]       Replaces ----- start = 24/09/2019 04:35:00 stop = 24/09/2019 05:00:00 title = Istrage Prometnih Nesreća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:05:00 stop = 24/09/2019 05:44:00 title = Regionalni Dnevnik
+[  Info  ]       Replaces ----- start = 24/09/2019 05:05:00 stop = 24/09/2019 05:45:00 title = Regionalni Dnevnik
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:44:00 stop = 24/09/2019 05:59:00 title = Kulturna Baština: Drugo Lice Plitvičkih Jezera
+[  Info  ]       Replaces ----- start = 24/09/2019 05:05:00 stop = 24/09/2019 05:45:00 title = Regionalni Dnevnik
+[  Info  ]       Replaces ----- start = 24/09/2019 05:45:00 stop = 24/09/2019 06:00:00 title = Kulturna Baština
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:59:00 stop = 24/09/2019 06:06:00 title = Vijesti Na Engleskom Jeziku
+[  Info  ]       Replaces ----- start = 24/09/2019 05:45:00 stop = 24/09/2019 06:00:00 title = Kulturna Baština
+[  Info  ]       Replaces ----- start = 24/09/2019 06:00:00 stop = 24/09/2019 06:08:00 title = Vijesti Na Engleskom Jeziku
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:06:00 stop = 24/09/2019 06:10:00 title = Bez Komentara Iran
+[  Info  ]       Replaces ----- start = 24/09/2019 06:00:00 stop = 24/09/2019 06:08:00 title = Vijesti Na Engleskom Jeziku
+[  Info  ]       Replaces ----- start = 24/09/2019 06:08:00 stop = 24/09/2019 06:10:00 title = Bez Komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:55:00 stop = 24/09/2019 06:58:00 title = Bez Komentara Sadza Izvanzemaljcima
+[  Info  ]       Replaces ----- start = 24/09/2019 06:55:00 stop = 24/09/2019 06:59:00 title = Bez Komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:40:00 stop = 24/09/2019 16:57:00 title = Kulturna Baština: Đakovačka Katedrala
+[  Info  ]       Replaces ----- start = 24/09/2019 16:40:00 stop = 24/09/2019 16:55:00 title = Kulturna Baština
+[  Info  ]       Replaces ----- start = 24/09/2019 16:55:00 stop = 24/09/2019 17:00:00 title = Dokumentarna Reportaža Domaća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:57:00 stop = 24/09/2019 17:00:00 title = Bez Komentara
+[  Info  ]       Replaces ----- start = 24/09/2019 16:55:00 stop = 24/09/2019 17:00:00 title = Dokumentarna Reportaža Domaća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 17:30:00 stop = 24/09/2019 17:45:00 title = Županijska Panorama Zadar
+[  Info  ]       Replaces ----- start = 24/09/2019 17:30:00 stop = 24/09/2019 17:45:00 title = Županijska Panorama
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:00:00 stop = 24/09/2019 19:43:00 title = Dnevnik 2
+[  Info  ]       Replaces ----- start = 24/09/2019 19:00:00 stop = 24/09/2019 19:42:00 title = Dnevnik 2
+[  Info  ]       Replaces ----- start = 24/09/2019 19:42:00 stop = 24/09/2019 19:43:00 title = Vrijeme Rh Sutra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:43:00 stop = 24/09/2019 19:44:00 title = Vrijeme Rh Sutra
+[  Info  ]       Replaces ----- start = 24/09/2019 19:43:00 stop = 24/09/2019 19:44:00 title = Vrijeme Europa Sutra
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:44:00 stop = 24/09/2019 19:45:00 title = Vrijeme Europa Sutra
+[  Info  ]       Replaces ----- start = 24/09/2019 19:44:00 stop = 24/09/2019 19:47:00 title = Bez Komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:45:00 stop = 24/09/2019 19:47:00 title = Bez Komentara
+[  Info  ]       Replaces ----- start = 24/09/2019 19:44:00 stop = 24/09/2019 19:47:00 title = Bez Komentara
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 19:59:00 stop = 24/09/2019 20:02:00 title = Hak Promet Info
+[  Info  ]       Replaces ----- start = 24/09/2019 19:59:00 stop = 24/09/2019 20:00:00 title = Hak Promet Info
+[  Info  ]       Replaces ----- start = 24/09/2019 20:00:00 stop = 24/09/2019 20:05:00 title = Dokumentarna Reportaža Domaća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 20:02:00 stop = 24/09/2019 20:05:00 title = Bez Komentara
+[  Info  ]       Replaces ----- start = 24/09/2019 20:00:00 stop = 24/09/2019 20:05:00 title = Dokumentarna Reportaža Domaća
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 20:58:00 stop = 24/09/2019 21:00:00 title = Bez Komentara
+[  Info  ]       Replaces ----- start = 24/09/2019 20:05:00 stop = 24/09/2019 21:00:00 title = Kurdi Pleme Protiv Države
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:35:00 stop = 24/09/2019 21:47:00 title = Dw: Shift
+[  Info  ]       Replaces ----- start = 24/09/2019 21:35:00 stop = 24/09/2019 22:00:00 title = Dokumentarni Film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:47:00 stop = 24/09/2019 21:57:00 title = Reportaže Iz Djh
+[  Info  ]       Replaces ----- start = 24/09/2019 21:35:00 stop = 24/09/2019 22:00:00 title = Dokumentarni Film
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:57:00 stop = 24/09/2019 22:00:00 title = Bez Komentara
+[  Info  ]       Replaces ----- start = 24/09/2019 21:35:00 stop = 24/09/2019 22:00:00 title = Dokumentarni Film
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 693
-[  Info  ]      total after update        693
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     35
+[  Info  ]      new shows added           592
+[  Info  ]      unchanged shows inspected 60
+[  Info  ]      total after update        687
 
 [  Debug ] 
 [  Info  ] channel HRT 4 same as -- HTV 4 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       HRT 4
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     693
+[  Info  ]      changed shows updated     687
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        1386
+[  Info  ]      total after update        779
 
 [  Debug ] 
 [  Info  ] (   9/73  ) A1.HR -- chan. (xmltv_id=NOVA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:25:00 stop = 24/09/2019 05:20:00 title = Astro Savjetnik
+[  Info  ]       Replaces ----- start = 24/09/2019 04:05:00 stop = 24/09/2019 05:05:00 title = Astro Savjetnik
+[  Info  ]       Replaces ----- start = 24/09/2019 05:05:00 stop = 24/09/2019 05:15:00 title = Kraj Programa
+[  Info  ]       Replaces ----- start = 24/09/2019 05:15:00 stop = 24/09/2019 06:10:00 title = Dnevnik Nove Tv
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:20:00 stop = 24/09/2019 05:25:00 title = Kraj Programa
+[  Info  ]       Replaces ----- start = 24/09/2019 05:15:00 stop = 24/09/2019 06:10:00 title = Dnevnik Nove Tv
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:25:00 stop = 24/09/2019 06:05:00 title = Dnevnik Nove Tv
+[  Info  ]       Replaces ----- start = 24/09/2019 05:15:00 stop = 24/09/2019 06:10:00 title = Dnevnik Nove Tv
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:10:00 stop = 24/09/2019 08:15:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 08:05:00 stop = 24/09/2019 08:20:00 title = Ekipa Malih Maca
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 23:20:00 stop = 24/09/2019 23:45:00 title = Večernje Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 23:15:00 stop = 24/09/2019 23:40:00 title = Večernje Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 23:40:00 stop = 25/09/2019 01:45:00 title = Već Mi Nedostaješ
 [  Info  ] 
-[  Info  ]    Summary for update of       NOVA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 239
-[  Info  ]      total after update        239
-
 [  Debug ] 
 [  Info  ] channel NOVA same as -- NOVA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       NOVA
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     239
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        478
-
 [  Debug ] 
 [  Info  ] (  11/73  ) A1.HR -- chan. (xmltv_id=RTL) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:25
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:20
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 02:20:00 stop = 24/09/2019 03:20:00 title = Astro Show
+[  Info  ]       Replaces ----- start = 24/09/2019 02:00:00 stop = 24/09/2019 03:00:00 title = Astro Show
+[  Info  ]       Replaces ----- start = 24/09/2019 03:00:00 stop = 24/09/2019 05:45:00 title = Rtl Danas
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:50:00 stop = 24/09/2019 06:30:00 title = Rtl Direkt
+[  Info  ]       Replaces ----- start = 24/09/2019 05:45:00 stop = 24/09/2019 06:20:00 title = Rtl Direkt
+[  Info  ]       Replaces ----- start = 24/09/2019 06:20:00 stop = 24/09/2019 06:50:00 title = Infinity Nado
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 07:25:00 stop = 24/09/2019 07:40:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 07:20:00 stop = 24/09/2019 07:35:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 07:35:00 stop = 24/09/2019 08:40:00 title = Lovci Na Nekretnine
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 08:35:00 stop = 24/09/2019 08:50:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 07:35:00 stop = 24/09/2019 08:40:00 title = Lovci Na Nekretnine
+[  Info  ]       Replaces ----- start = 24/09/2019 08:40:00 stop = 24/09/2019 08:55:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:30:00 stop = 24/09/2019 16:50:00 title = Rtl Vijesti
+[  Info  ]       Replaces ----- start = 24/09/2019 16:30:00 stop = 24/09/2019 17:00:00 title = Rtl Vijesti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 17:05:00 stop = 24/09/2019 18:30:00 title = Ljubav Je Na Selu Međunarodna Sezona
+[  Info  ]       Replaces ----- start = 24/09/2019 17:00:00 stop = 24/09/2019 18:30:00 title = Ljubav Je Na Selu Međunarodna Sezona
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 22:55:00 stop = 24/09/2019 23:20:00 title = Ljubav Je Na Selu Međunarodna Sezona
+[  Info  ]       Replaces ----- start = 24/09/2019 22:55:00 stop = 24/09/2019 23:15:00 title = Ljubav Je Na Selu Međunarodna Sezona
+[  Info  ]       Replaces ----- start = 24/09/2019 23:15:00 stop = 25/09/2019 00:00:00 title = Kriza
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 179
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     20
+[  Info  ]      new shows added           152
+[  Info  ]      unchanged shows inspected 7
 [  Info  ]      total after update        179
 
 [  Debug ] 
 [  Info  ] (  12/73  ) A1.HR -- chan. (xmltv_id=DOMA TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:55
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:15
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 04:50:00 stop = 24/09/2019 04:55:00 title = Kraj Programa
+[  Info  ]       Replaces ----- start = 24/09/2019 04:40:00 stop = 24/09/2019 05:10:00 title = Navy Cis New Orleans
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 10:55:00 stop = 24/09/2019 11:20:00 title = Winx Club
+[  Info  ]       Replaces ----- start = 24/09/2019 10:45:00 stop = 24/09/2019 11:10:00 title = Shaggy I Scooby Doo
+[  Info  ]       Replaces ----- start = 24/09/2019 11:10:00 stop = 24/09/2019 11:25:00 title = Tv Izlog
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:20:00 stop = 24/09/2019 11:40:00 title = Winx Club
+[  Info  ]       Replaces ----- start = 24/09/2019 11:10:00 stop = 24/09/2019 11:25:00 title = Tv Izlog
+[  Info  ]       Replaces ----- start = 24/09/2019 11:25:00 stop = 24/09/2019 11:50:00 title = Winx Club
 [  Info  ] 
-[  Info  ]    Summary for update of       DOMA TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 275
-[  Info  ]      total after update        275
-
 [  Debug ] 
 [  Info  ] channel Doma same as -- DOMA TV -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       Doma
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     275
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        550
-
 [  Debug ] 
 [  Info  ] (  14/73  ) A1.HR -- chan. (xmltv_id=RTL2) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:55
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:30
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:50:00 stop = 24/09/2019 04:40:00 title = Sudnica
+[  Info  ]       Replaces ----- start = 24/09/2019 03:30:00 stop = 24/09/2019 04:15:00 title = Sudnica
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL2
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 239
-[  Info  ]      total after update        239
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     8
+[  Info  ]      new shows added           261
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        269
 
 [  Debug ] 
 [  Info  ] channel RTL 2 same as -- RTL2 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       RTL 2
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     239
+[  Info  ]      changed shows updated     269
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        478
+[  Info  ]      total after update        276
 
 [  Debug ] 
 [  Info  ] (  16/73  ) A1.HR -- chan. (xmltv_id=RTL KOCKICA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:35
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:50
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:00:00 stop = 24/09/2019 03:15:00 title = Sportske Igre Mladih
+[  Info  ]       Replaces ----- start = 24/09/2019 02:50:00 stop = 24/09/2019 03:05:00 title = Sportske Igre Mladih
+[  Info  ]       Replaces ----- start = 24/09/2019 03:05:00 stop = 24/09/2019 03:20:00 title = Sportske Igre Mladih
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:15:00 stop = 24/09/2019 03:30:00 title = Sportske Igre Mladih
+[  Info  ]       Replaces ----- start = 24/09/2019 03:05:00 stop = 24/09/2019 03:20:00 title = Sportske Igre Mladih
+[  Info  ]       Replaces ----- start = 24/09/2019 03:20:00 stop = 24/09/2019 05:15:00 title = Sportske Igre Mladih
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 03:30:00 stop = 24/09/2019 05:10:00 title = Sportske Igre Mladih
+[  Info  ]       Replaces ----- start = 24/09/2019 03:20:00 stop = 24/09/2019 05:15:00 title = Sportske Igre Mladih
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:10:00 stop = 24/09/2019 09:00:00 title = Kockići
+[  Info  ]       Replaces ----- start = 24/09/2019 06:10:00 stop = 24/09/2019 08:45:00 title = Kockići
+[  Info  ]       Replaces ----- start = 24/09/2019 08:45:00 stop = 24/09/2019 08:50:00 title = Crtež Dana
+[  Info  ]       Replaces ----- start = 24/09/2019 08:50:00 stop = 24/09/2019 09:00:00 title = Jezikoslovci
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 09:00:00 stop = 24/09/2019 09:05:00 title = Crtež Dana
+[  Info  ]       Replaces ----- start = 24/09/2019 09:00:00 stop = 24/09/2019 09:25:00 title = Mickey Mouse Clubhouse
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:35:00 stop = 24/09/2019 12:45:00 title = Vremeplov
+[  Info  ]       Replaces ----- start = 24/09/2019 12:30:00 stop = 24/09/2019 12:55:00 title = Tobot
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:45:00 stop = 24/09/2019 13:05:00 title = Tobot
+[  Info  ]       Replaces ----- start = 24/09/2019 12:30:00 stop = 24/09/2019 12:55:00 title = Tobot
+[  Info  ]       Replaces ----- start = 24/09/2019 12:55:00 stop = 24/09/2019 13:05:00 title = Mala Sportska Akademija
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 13:05:00 stop = 24/09/2019 13:20:00 title = Mala Sportska Akademija
+[  Info  ]       Replaces ----- start = 24/09/2019 13:05:00 stop = 24/09/2019 13:20:00 title = Pčelica Maja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 14:40:00 stop = 24/09/2019 15:00:00 title = Zak Storm
+[  Info  ]       Replaces ----- start = 24/09/2019 14:25:00 stop = 24/09/2019 14:50:00 title = Zak Storm
+[  Info  ]       Replaces ----- start = 24/09/2019 14:50:00 stop = 24/09/2019 15:05:00 title = Robo Vlakovi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:55:00 stop = 24/09/2019 16:10:00 title = Wissper
+[  Info  ]       Replaces ----- start = 24/09/2019 15:45:00 stop = 24/09/2019 16:00:00 title = Wissper
+[  Info  ]       Replaces ----- start = 24/09/2019 16:00:00 stop = 24/09/2019 16:10:00 title = Jezikoslovci
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:30:00 stop = 24/09/2019 16:40:00 title = Gormiti
+[  Info  ]       Replaces ----- start = 24/09/2019 16:30:00 stop = 24/09/2019 16:45:00 title = Gormiti
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:40:00 stop = 24/09/2019 16:50:00 title = Gormiti
+[  Info  ]       Replaces ----- start = 24/09/2019 16:30:00 stop = 24/09/2019 16:45:00 title = Gormiti
+[  Info  ]       Replaces ----- start = 24/09/2019 16:45:00 stop = 24/09/2019 17:10:00 title = Mickey Mouse Clubhouse
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:55:00 stop = 24/09/2019 19:00:00 title = Crtež Dana
+[  Info  ]       Replaces ----- start = 24/09/2019 18:55:00 stop = 24/09/2019 19:05:00 title = Baka Priča Najljepše Priče
 [  Info  ] 
 [  Info  ]    Summary for update of       RTL KOCKICA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 405
-[  Info  ]      total after update        405
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     50
+[  Info  ]      new shows added           352
+[  Info  ]      unchanged shows inspected 10
+[  Info  ]      total after update        412
 
 [  Debug ] 
 [  Info  ] channel RTLko same as -- RTL KOCKICA -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       RTLko
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     405
+[  Info  ]      changed shows updated     412
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        810
+[  Info  ]      total after update        472
 
 [  Debug ] 
 [  Info  ] (  18/73  ) A1.HR -- chan. (xmltv_id=RTL LIVING) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:20
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:05
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:05:00 stop = 24/09/2019 00:45:00 title = Rtl Direkt
+[  Info  ]       Replaces ----- start = 24/09/2019 00:20:00 stop = 24/09/2019 01:00:00 title = Rtl Direkt
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:45:00 stop = 24/09/2019 01:05:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 00:20:00 stop = 24/09/2019 01:00:00 title = Rtl Direkt
+[  Info  ]       Replaces ----- start = 24/09/2019 01:00:00 stop = 24/09/2019 01:20:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:05:00 stop = 24/09/2019 01:25:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 01:00:00 stop = 24/09/2019 01:20:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 01:20:00 stop = 24/09/2019 01:40:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 01:25:00 stop = 24/09/2019 01:45:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 01:20:00 stop = 24/09/2019 01:40:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 01:40:00 stop = 24/09/2019 02:00:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 09:35:00 stop = 24/09/2019 10:15:00 title = Kućice Iz Snova: Stil Života
+[  Info  ]       Replaces ----- start = 24/09/2019 09:20:00 stop = 24/09/2019 10:00:00 title = Kućice Iz Snova: Stil Života
+[  Info  ]       Replaces ----- start = 24/09/2019 10:00:00 stop = 24/09/2019 10:50:00 title = Spašavanje Vrta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 10:15:00 stop = 24/09/2019 11:05:00 title = Spašavanje Vrta
+[  Info  ]       Replaces ----- start = 24/09/2019 10:00:00 stop = 24/09/2019 10:50:00 title = Spašavanje Vrta
+[  Info  ]       Replaces ----- start = 24/09/2019 10:50:00 stop = 24/09/2019 11:05:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:05:00 stop = 24/09/2019 11:20:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 11:05:00 stop = 24/09/2019 11:35:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:20:00 stop = 24/09/2019 11:45:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 11:05:00 stop = 24/09/2019 11:35:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 11:35:00 stop = 24/09/2019 12:05:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:45:00 stop = 24/09/2019 12:10:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 11:35:00 stop = 24/09/2019 12:05:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 12:05:00 stop = 24/09/2019 12:20:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:10:00 stop = 24/09/2019 12:25:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 12:05:00 stop = 24/09/2019 12:20:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 12:20:00 stop = 24/09/2019 12:50:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:25:00 stop = 24/09/2019 12:50:00 title = Bitka Za Skladište
+[  Info  ]       Replaces ----- start = 24/09/2019 12:20:00 stop = 24/09/2019 12:50:00 title = Bitka Za Skladište
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 12:50:00 stop = 24/09/2019 13:25:00 title = Kućice Iz Snova: Stil Života
+[  Info  ]       Replaces ----- start = 24/09/2019 12:50:00 stop = 24/09/2019 13:40:00 title = Kućice Iz Snova: Stil Života
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 13:25:00 stop = 24/09/2019 13:40:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 12:50:00 stop = 24/09/2019 13:40:00 title = Kućice Iz Snova: Stil Života
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 14:30:00 stop = 24/09/2019 14:45:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 13:55:00 stop = 24/09/2019 14:45:00 title = Lovci Na Nekretnine
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:40:00 stop = 24/09/2019 15:55:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 15:00:00 stop = 24/09/2019 15:50:00 title = Lovci Na Nekretnine
+[  Info  ]       Replaces ----- start = 24/09/2019 15:50:00 stop = 24/09/2019 16:05:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:55:00 stop = 24/09/2019 16:50:00 title = Spašavanje Vrta
+[  Info  ]       Replaces ----- start = 24/09/2019 15:50:00 stop = 24/09/2019 16:05:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 16:05:00 stop = 24/09/2019 16:55:00 title = Spašavanje Vrta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 16:50:00 stop = 24/09/2019 17:05:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 16:05:00 stop = 24/09/2019 16:55:00 title = Spašavanje Vrta
+[  Info  ]       Replaces ----- start = 24/09/2019 16:55:00 stop = 24/09/2019 17:10:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 17:55:00 stop = 24/09/2019 18:10:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 17:35:00 stop = 24/09/2019 18:00:00 title = Borba Čovjeka I Hrane
+[  Info  ]       Replaces ----- start = 24/09/2019 18:00:00 stop = 24/09/2019 18:15:00 title = Tv Prodaja
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:10:00 stop = 24/09/2019 18:35:00 title = Vjenčanica Iz Snova: Kanada
+[  Info  ]       Replaces ----- start = 24/09/2019 18:00:00 stop = 24/09/2019 18:15:00 title = Tv Prodaja
+[  Info  ]       Replaces ----- start = 24/09/2019 18:15:00 stop = 24/09/2019 18:45:00 title = Vjenčanica Iz Snova: Kanada
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:35:00 stop = 24/09/2019 20:15:00 title = Život Na Vagi
+[  Info  ]       Replaces ----- start = 24/09/2019 18:15:00 stop = 24/09/2019 18:45:00 title = Vjenčanica Iz Snova: Kanada
+[  Info  ]       Replaces ----- start = 24/09/2019 18:45:00 stop = 24/09/2019 20:15:00 title = Život Na Vagi
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 21:45:00 stop = 24/09/2019 22:15:00 title = Vjenčanica Iz Snova: Kanada
+[  Info  ]       Replaces ----- start = 24/09/2019 20:15:00 stop = 24/09/2019 21:50:00 title = Rtl Danas
+[  Info  ]       Replaces ----- start = 24/09/2019 21:50:00 stop = 24/09/2019 22:20:00 title = Vjenčanica Iz Snova: Kanada
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/09/2019 00:05:00 stop = 25/09/2019 00:45:00 title = Rtl Direkt
+[  Info  ]       Replaces ----- start = 24/09/2019 23:20:00 stop = 25/09/2019 00:20:00 title = Gola Privlačnost
 [  Info  ] 
-[  Info  ]    Summary for update of       RTL LIVING
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 221
-[  Info  ]      total after update        221
-
 [  Debug ] 
 [  Info  ] channel RTLli same as -- RTL LIVING -- time offset 0 hour(s)
-[  Info  ]    Summary for update of       RTLli
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     221
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        442
-
 [  Debug ] 
 [  Info  ] (  20/73  ) A1.HR -- chan. (xmltv_id=CINESTAR TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:10
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:20
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 78
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           67
+[  Info  ]      unchanged shows inspected 11
 [  Info  ]      total after update        78
 
 [  Debug ] 
@@ -290,116 +945,535 @@
 [  Info  ]      changed shows updated     78
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        156
+[  Info  ]      total after update        89
 
 [  Debug ] 
 [  Info  ] (  22/73  ) A1.HR -- chan. (xmltv_id=CINESTAR ACTION & THRILLER) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:20
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:20
 [  Info  ] 
 [  Info  ]    Summary for update of       CINESTAR ACTION & THRILLER
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 80
-[  Info  ]      total after update        80
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           66
+[  Info  ]      unchanged shows inspected 11
+[  Info  ]      total after update        77
 
 [  Debug ] 
 [  Info  ] channel CineA same as -- CINESTAR ACTION & THRILLER -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       CineA
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     80
+[  Info  ]      changed shows updated     77
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        160
+[  Info  ]      total after update        88
 
 [  Debug ] 
 [  Info  ] (  24/73  ) A1.HR -- chan. (xmltv_id=VIASAT TV1000) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:30
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:10
 [  Info  ] 
 [  Info  ]    Summary for update of       VIASAT TV1000
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 90
-[  Info  ]      total after update        90
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           82
+[  Info  ]      unchanged shows inspected 13
+[  Info  ]      total after update        95
 
 [  Debug ] 
 [  Info  ] channel Tv100 same as -- VIASAT TV1000 -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       Tv100
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     90
+[  Info  ]      changed shows updated     95
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        180
+[  Info  ]      total after update        108
 
 [  Debug ] 
 [  Info  ] (  26/73  ) A1.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:55
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 231
-[  Info  ]      total after update        231
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     13
+[  Info  ]      new shows added           189
+[  Info  ]      unchanged shows inspected 21
+[  Info  ]      total after update        223
 
 [  Debug ] 
 [  Info  ] channel Fox same as -- FOX -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       Fox
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     231
+[  Info  ]      changed shows updated     223
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        462
+[  Info  ]      total after update        257
 
 [  Debug ] 
 [  Info  ] (  28/73  ) A1.HR -- chan. (xmltv_id=FOX LIFE) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:55
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:50
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX LIFE
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 273
-[  Info  ]      total after update        273
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     22
+[  Info  ]      new shows added           227
+[  Info  ]      unchanged shows inspected 16
+[  Info  ]      total after update        265
 
 [  Debug ] 
 [  Info  ] channel FoxLi same as -- FOX LIFE -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       FoxLi
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     273
+[  Info  ]      changed shows updated     265
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        546
+[  Info  ]      total after update        303
 
 [  Debug ] 
 [  Info  ] (  30/73  ) A1.HR -- chan. (xmltv_id=EPIC DRAMA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:25
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:25
 [  Info  ] 
 [  Info  ]    Summary for update of       EPIC DRAMA
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 201
-[  Info  ]      total after update        201
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           170
+[  Info  ]      unchanged shows inspected 32
+[  Info  ]      total after update        202
 
 [  Debug ] 
 [  Info  ] channel EpicD same as -- EPIC DRAMA -- time offset 0 hour(s)
 [  Info  ]    Summary for update of       EpicD
 [  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     201
+[  Info  ]      changed shows updated     202
 [  Info  ]      new shows added           0
 [  Info  ]      unchanged shows inspected 0
-[  Info  ]      total after update        402
+[  Info  ]      total after update        234
 
 [  Debug ] 
 [  Info  ] (  32/73  ) A1.HR -- chan. (xmltv_id=KLASIK TV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 22:30
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:45
 [  Info  ] 
-[  Info  ]    Summary for update of       KLASIK TV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 181
-[  Info  ]      total after update        181
-
 [  Debug ] 
 [  Info  ] (  33/73  ) A1.HR -- chan. (xmltv_id=KINOTV) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:51
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:50
 [  Info  ] 
 [  Info  ]    Summary for update of       KINOTV
-[  Info  ]      no changes, no update necessary !
-[  Info  ]      unchanged shows inspected 189
-[  Info  ]      total after update        189
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           158
+[  Info  ]      unchanged shows inspected 30
+[  Info  ]      total after update        188
 
 [  Debug ] 
 [  Info  ] (  34/73  ) A1.HR -- chan. (xmltv_id=COMEDY CENTRAL EXTRA) -- mode Incremental
-[  Debug ]    skipped : show that happened before 'today' @ 17/09/2019 23:40
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:40
+[  Info  ] 
+[  Info  ]    Summary for update of       COMEDY CENTRAL EXTRA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           324
+[  Info  ]      unchanged shows inspected 54
+[  Info  ]      total after update        378
+
+[  Debug ] 
+[  Info  ] channel Comed same as -- COMEDY CENTRAL EXTRA -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Comed
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     378
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        432
+
+[  Debug ] 
+[  Info  ] (  36/73  ) A1.HR -- chan. (xmltv_id=DIVA) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[  Info  ] 
+[  Info  ]    Summary for update of       DIVA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           125
+[  Info  ]      unchanged shows inspected 21
+[  Info  ]      total after update        146
+
+[  Debug ] 
+[  Info  ] (  37/73  ) A1.HR -- chan. (xmltv_id=DOKUTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:31
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 10:01:00 stop = 24/09/2019 11:01:00 title = Romantični Gradovi Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 08:34:00 stop = 24/09/2019 10:04:00 title = Kuda Gospođice
+[  Info  ]       Replaces ----- start = 24/09/2019 10:04:00 stop = 24/09/2019 11:05:00 title = Romantični Gradovi Svijeta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 18:01:00 stop = 24/09/2019 19:02:00 title = Romantični Gradovi Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 17:04:00 stop = 24/09/2019 18:04:00 title = Tajna Strana Superheroja
+[  Info  ]       Replaces ----- start = 24/09/2019 18:04:00 stop = 24/09/2019 19:05:00 title = Romantični Gradovi Svijeta
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 25/09/2019 00:01:00 stop = 25/09/2019 01:01:00 title = Romantični Gradovi Svijeta
+[  Info  ]       Replaces ----- start = 24/09/2019 23:04:00 stop = 25/09/2019 00:04:00 title = Uspon Perzijskog Zaljeva
+[  Info  ] 
+[  Info  ]    Summary for update of       DOKUTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     24
+[  Info  ]      new shows added           145
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        169
+
+[  Debug ] 
+[  Info  ] channel DokTV same as -- DOKUTV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       DokTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     169
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        192
+
+[  Debug ] 
+[  Info  ] (  39/73  ) A1.HR -- chan. (xmltv_id=NATIONAL GEOGRAPHIC) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[Error   ] Unable to update channel NATIONAL GEOGRAPHIC
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] Current culture: en-GB
+[Error   ] time parsing error : String was not recognized as a valid DateTime.
+[Error   ] nextstartdatetime time scrubbed : 
+[Error   ] computer date/time format: 24/09/2019 10:01:24
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Info  ] channel NatGe same as -- NATIONAL GEOGRAPHIC -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       NatGe
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        0
+
+[  Debug ] 
+[  Info  ] (  40/73  ) A1.HR -- chan. (xmltv_id=VIASAT HISTORY) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       VIASAT HISTORY
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           150
+[  Info  ]      unchanged shows inspected 24
+[  Info  ]      total after update        174
+
+[  Debug ] 
+[  Info  ] channel Histo same as -- VIASAT HISTORY -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Histo
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     174
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        198
+
+[  Debug ] 
+[  Info  ] (  42/73  ) A1.HR -- chan. (xmltv_id=VIASAT EXPLORE) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       VIASAT EXPLORE
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           204
+[  Info  ]      unchanged shows inspected 34
+[  Info  ]      total after update        238
+
+[  Debug ] 
+[  Info  ] channel Explo same as -- VIASAT EXPLORE -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Explo
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     238
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        272
+
+[  Debug ] 
+[  Info  ] (  44/73  ) A1.HR -- chan. (xmltv_id=FINE LIVING) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel FineL same as -- FINE LIVING -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  46/73  ) A1.HR -- chan. (xmltv_id=WNESS TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 22:00
+[  Info  ] 
+[  Info  ]    Summary for update of       WNESS TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           159
+[  Info  ]      unchanged shows inspected 26
+[  Info  ]      total after update        185
+
+[  Debug ] 
+[  Info  ] channel Wness same as -- WNESS TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Wness
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     185
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        211
+
+[  Debug ] 
+[  Info  ] (  48/73  ) A1.HR -- chan. (xmltv_id=WOMAN) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:45
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 13:50:00 stop = 24/09/2019 14:15:00 title = Prestižna Vjenčanja
+[  Info  ]       Replaces ----- start = 24/09/2019 13:50:00 stop = 24/09/2019 14:14:00 title = Prestižna Vjenčanja
+[  Info  ]       Replaces ----- start = 24/09/2019 14:14:00 stop = 24/09/2019 15:05:00 title = Mary Mary S03
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:05:00 stop = 24/09/2019 15:30:00 title = Uzbudljivo Putovanje
+[  Info  ]       Replaces ----- start = 24/09/2019 15:05:00 stop = 24/09/2019 15:29:00 title = Uzbudljivo Putovanje
+[  Info  ]       Replaces ----- start = 24/09/2019 15:29:00 stop = 24/09/2019 15:55:00 title = Uzbudljivo Putovanje
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:30:00 stop = 24/09/2019 15:55:00 title = Uzbudljivo Putovanje
+[  Info  ]       Replaces ----- start = 24/09/2019 15:29:00 stop = 24/09/2019 15:55:00 title = Uzbudljivo Putovanje
+[  Info  ] 
+[  Info  ]    Summary for update of       WOMAN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     4
+[  Info  ]      new shows added           227
+[  Info  ]      unchanged shows inspected 35
+[  Info  ]      total after update        266
+
+[  Debug ] 
+[  Info  ] (  49/73  ) A1.HR -- chan. (xmltv_id=Z1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:10
+[  Info  ] 
+[  Info  ]    Summary for update of       Z1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           196
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        196
+
+[  Debug ] 
+[  Info  ] (  50/73  ) A1.HR -- chan. (xmltv_id=JABUKA TV) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Jabuk same as -- JABUKA TV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  52/73  ) A1.HR -- chan. (xmltv_id=MREŽAZG) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[  Info  ] 
+[  Info  ]    Summary for update of       MREŽAZG
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           222
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        222
+
+[  Debug ] 
+[  Info  ] channel Mreža same as -- MREŽAZG -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Mreža
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     222
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        222
+
+[  Debug ] 
+[  Info  ] (  54/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 22:30
+[  Info  ] 
+[  Info  ]    Summary for update of       N1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           296
+[  Info  ]      unchanged shows inspected 46
+[  Info  ]      total after update        342
+
+[  Debug ] 
+[  Info  ] (  55/73  ) A1.HR -- chan. (xmltv_id=SPORTSKA TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       SPORTSKA TV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           134
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        134
+
+[  Debug ] 
+[  Info  ] channel SPTV same as -- SPORTSKA TV -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       SPTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     134
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        134
+
+[  Debug ] 
+[  Info  ] (  57/73  ) A1.HR -- chan. (xmltv_id=INFO KANAL) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Bnet same as -- INFO KANAL -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  59/73  ) A1.HR -- chan. (xmltv_id=SK 1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:55
+[  Info  ] 
+[  Info  ]    Summary for update of       SK 1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           92
+[  Info  ]      unchanged shows inspected 17
+[  Info  ]      total after update        109
+
+[  Debug ] 
+[  Info  ] (  60/73  ) A1.HR -- chan. (xmltv_id=SK 3) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:10
+[  Info  ] 
+[  Info  ]    Summary for update of       SK 3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           122
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        122
+
+[  Debug ] 
+[  Info  ] (  61/73  ) A1.HR -- chan. (xmltv_id=CARTOON NETWORK) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:51
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 09:46:00 stop = 24/09/2019 09:57:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 09:45:00 stop = 24/09/2019 09:55:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 09:55:00 stop = 24/09/2019 10:15:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 09:57:00 stop = 24/09/2019 10:14:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 09:55:00 stop = 24/09/2019 10:15:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:44:00 stop = 24/09/2019 15:55:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 15:26:00 stop = 24/09/2019 15:45:00 title = Summer Camp Island
+[  Info  ]       Replaces ----- start = 24/09/2019 15:45:00 stop = 24/09/2019 15:55:00 title = Craig Of The Creek
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:55:00 stop = 24/09/2019 16:12:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 15:55:00 stop = 24/09/2019 16:10:00 title = Craig Of The Creek
+[  Info  ]       Replaces ----- start = 24/09/2019 16:10:00 stop = 24/09/2019 16:20:00 title = Unikitty
+[  Info  ] 
+[  Info  ]    Summary for update of       CARTOON NETWORK
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     92
+[  Info  ]      new shows added           662
+[  Info  ]      unchanged shows inspected 21
+[  Info  ]      total after update        775
+
+[  Debug ] 
+[  Info  ] channel CN same as -- CARTOON NETWORK -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       CN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     775
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        888
+
+[  Debug ] 
+[  Info  ] (  63/73  ) A1.HR -- chan. (xmltv_id=NICKELODEON) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:45
+[  Info  ] 
+[  Info  ]    Summary for update of       NICKELODEON
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           423
+[  Info  ]      unchanged shows inspected 73
+[  Info  ]      total after update        496
+
+[  Debug ] 
+[  Info  ] channel Nicke same as -- NICKELODEON -- time offset 0 hour(s)
+[  Info  ]    Summary for update of       Nicke
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     496
+[  Info  ]      new shows added           0
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        569
+
+[  Debug ] 
+[  Info  ] (  65/73  ) A1.HR -- chan. (xmltv_id=DISNEY CHANNEL) -- mode Incremental
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Disne same as -- DISNEY CHANNEL -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  67/73  ) A1.HR -- chan. (xmltv_id=MINI TV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 22:55
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 00:55:00 stop = 24/09/2019 04:35:00 title = Kraj Programa
+[  Info  ]       Replaces ----- start = 24/09/2019 00:40:00 stop = 24/09/2019 05:00:00 title = Kraj Programa
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 05:55:00 stop = 24/09/2019 06:15:00 title = Talking Tom I Prijatelji
+[  Info  ]       Replaces ----- start = 24/09/2019 05:00:00 stop = 24/09/2019 06:15:00 title = Legenda O Sarili
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 06:15:00 stop = 24/09/2019 06:25:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 06:15:00 stop = 24/09/2019 06:25:00 title = Talking Tom I Prijatelji
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 10:40:00 stop = 24/09/2019 11:00:00 title = Talking Tom I Prijatelji
+[  Info  ]       Replaces ----- start = 24/09/2019 09:55:00 stop = 24/09/2019 10:45:00 title = Maggie I Bianca
+[  Info  ]       Replaces ----- start = 24/09/2019 10:45:00 stop = 24/09/2019 10:55:00 title = Talking Tom I Prijatelji
+[  Info  ]       Replaces ----- start = 24/09/2019 10:55:00 stop = 24/09/2019 11:00:00 title = Jump With Joey
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 11:00:00 stop = 24/09/2019 11:10:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 11:00:00 stop = 24/09/2019 11:10:00 title = Poppixie
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:25:00 stop = 24/09/2019 15:50:00 title = Talking Tom I Prijatelji
+[  Info  ]       Replaces ----- start = 24/09/2019 15:25:00 stop = 24/09/2019 15:30:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 15:30:00 stop = 24/09/2019 15:40:00 title = Poppixie
+[  Info  ]       Replaces ----- start = 24/09/2019 15:40:00 stop = 24/09/2019 15:45:00 title = Tegljač Tom
+[  Info  ]       Replaces ----- start = 24/09/2019 15:45:00 stop = 24/09/2019 15:50:00 title = Tomova Autolakirnica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 15:50:00 stop = 24/09/2019 15:55:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 15:50:00 stop = 24/09/2019 15:55:00 title = Tomova Autopraonica
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 20:10:00 stop = 24/09/2019 20:35:00 title = Talking Tom I Prijatelji
+[  Info  ]       Replaces ----- start = 24/09/2019 20:10:00 stop = 24/09/2019 20:15:00 title = Auto Patrola
+[  Info  ]       Replaces ----- start = 24/09/2019 20:15:00 stop = 24/09/2019 20:55:00 title = Robocar Poli
+[  Info  ]    epg correction : 
+[  Info  ]  CHANGED show corrected,
+[  Info  ]       show with ---- start = 24/09/2019 20:35:00 stop = 24/09/2019 20:40:00 title = Jump With Joey
+[  Info  ]       Replaces ----- start = 24/09/2019 20:15:00 stop = 24/09/2019 20:55:00 title = Robocar Poli
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel Mini same as -- MINI TV -- time offset 0 hour(s)
+[  Debug ] 
+[  Info  ] (  69/73  ) A1.HR -- chan. (xmltv_id=MTV) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[  Info  ] 
+[  Info  ]    Summary for update of       MTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           141
+[  Info  ]      unchanged shows inspected 25
+[  Info  ]      total after update        166
+
+[  Debug ] 
+[  Info  ] (  70/73  ) A1.HR -- chan. (xmltv_id=VH1) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:35
+[  Info  ] 
+[  Info  ]    Summary for update of       VH1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           86
+[  Info  ]      unchanged shows inspected 14
+[  Info  ]      total after update        100
+
+[  Debug ] 
+[  Info  ] (  71/73  ) A1.HR -- chan. (xmltv_id=CROATIAN MUSIC CHANNEL) -- mode Incremental
+[  Debug ]    skipped : show that happened before 'today' @ 23/09/2019 23:00
+[  Info  ] 
+[  Debug ] 
+[  Info  ] channel CMC same as -- CROATIAN MUSIC CHANNEL -- time offset 0 hour(s)
+[  Debug ] 
+[  Debug ] 16257 shows in 73 channels
+[  Debug ] 544 updated shows
+[  Debug ] 8129 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 24/09/2019 10:05:52 done in 9m 36s
+[  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
