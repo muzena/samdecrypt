@@ -7,7 +7,7 @@
 [        ]             thanks to Paul Weterings and all the contributing users             
 [        ] --------------------------------------------------------------------------------
 [        ] 
-[        ] Job started at 14/11/2019 15:16:17
+[        ] Job started at 14/11/2019 15:32:58
 [  Debug ] 
 [  Debug ] Running  on: Unix 5.4.0.50400
 [  Debug ] Environment: 4.0.30319.42000
@@ -160,30 +160,10 @@
 [  Debug ] 
 [  Info  ] (   7/73  ) A1.HR -- chan. (xmltv_id=HTV 4) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 13/11/2019 12:46
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2019 07:00:00 stop = 14/11/2019 07:09:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 14/11/2019 07:00:00 stop = 14/11/2019 07:10:00 title = Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2019 07:09:00 stop = 14/11/2019 07:13:00 title = Poslovne Vijesti
-[  Info  ]       Replaces ----- start = 14/11/2019 07:00:00 stop = 14/11/2019 07:10:00 title = Vijesti
-[  Info  ]       Replaces ----- start = 14/11/2019 07:10:00 stop = 14/11/2019 07:13:00 title = Poslovne Vijesti
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2019 07:13:00 stop = 14/11/2019 07:15:00 title = Bez Komentara: Čile
-[  Info  ]       Replaces ----- start = 14/11/2019 07:13:00 stop = 14/11/2019 07:23:00 title = Vijesti Iz Kulture
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2019 07:15:00 stop = 14/11/2019 07:25:00 title = Vijesti Iz Kulture
-[  Info  ]       Replaces ----- start = 14/11/2019 07:13:00 stop = 14/11/2019 07:23:00 title = Vijesti Iz Kulture
-[  Info  ]       Replaces ----- start = 14/11/2019 07:23:00 stop = 14/11/2019 07:25:00 title = Bez Komentara
 [  Info  ] 
 [  Info  ]    Summary for update of       HTV 4
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     4
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 690
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 694
 [  Info  ]      total after update        694
 
 [  Debug ] 
@@ -305,7 +285,7 @@
 [Error   ] Current culture: en-GB
 [Error   ] time parsing error : String was not recognized as a valid DateTime.
 [Error   ] nextstartdatetime time scrubbed : 
-[Error   ] computer date/time format: 14/11/2019 15:19:47
+[Error   ] computer date/time format: 14/11/2019 15:36:15
 [  Info  ] Existing guide data restored!
 [  Debug ] 
 [  Info  ] channel Cines same as -- CINESTAR TV -- time offset 0 hour(s)
@@ -352,8 +332,6 @@
 
 [  Debug ] 
 [  Info  ] (  25/73  ) A1.HR -- chan. (xmltv_id=FOX) -- mode Incremental
-[Warning ] error downloading page: Error getting response stream (ReadDoneAsync2): ReceiveFailure
-[Warning ] pausing 1 of 4 times for 7 seconds before re-try.
 [  Debug ]    skipped : show that happened before 'today' @ 13/11/2019 23:55
 [  Info  ] 
 [  Info  ]    Summary for update of       FOX
@@ -603,17 +581,10 @@
 [  Debug ] 
 [  Info  ] (  54/73  ) A1.HR -- chan. (xmltv_id=N1) -- mode Incremental
 [  Debug ]    skipped : show that happened before 'today' @ 13/11/2019 22:30
-[  Info  ]    epg correction : 
-[  Info  ]  CHANGED show corrected,
-[  Info  ]       show with ---- start = 14/11/2019 06:45:00 stop = 14/11/2019 07:30:00 title = Dw Shift
-[  Info  ]       Replaces ----- start = 14/11/2019 06:45:00 stop = 14/11/2019 07:00:00 title = Dw Shift
-[  Info  ]       Replaces ----- start = 14/11/2019 07:00:00 stop = 14/11/2019 07:30:00 title = Sport Klub Info
 [  Info  ] 
 [  Info  ]    Summary for update of       N1
-[  Info  ]      missing shows added       0
-[  Info  ]      changed shows updated     1
-[  Info  ]      new shows added           0
-[  Info  ]      unchanged shows inspected 339
+[  Info  ]      no changes, no update necessary !
+[  Info  ]      unchanged shows inspected 340
 [  Info  ]      total after update        340
 
 [  Debug ] 
@@ -755,9 +726,9 @@
 
 [  Debug ] 
 [  Debug ] 16458 shows in 73 channels
-[  Debug ] 5 updated shows
+[  Debug ] 0 updated shows
 [  Debug ] 22 new shows added
 [  Info  ] 
 [  Info  ] 
-[        ] Job finished at 14/11/2019 15:25:51 done in 9m 34s
+[        ] Job finished at 14/11/2019 15:41:56 done in 8m 57s
 [  Debug ] statistics upload error: The remote server returned an error: (404) Not Found.
