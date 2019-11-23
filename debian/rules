@@ -91,12 +91,12 @@ install: build
 	cp -r $(CURDIR)/download-decrypt-hub-widgets.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/sam-help.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/samdecrypt_help $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Help file
-	cp -p $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/           # Copy tools
-	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
-	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
-	cp -r $(CURDIR)/tools/tools1/decryptwidget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
-	cp -r $(CURDIR)/tools/tools1/libSPMdecrypt.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
-	cp -r $(CURDIR)/tools/tools1/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	#cp -p $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/           # Copy tools
+	#cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	#cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	#cp -r $(CURDIR)/tools/tools1/decryptwidget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	#cp -r $(CURDIR)/tools/tools1/libSPMdecrypt.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	#cp -r $(CURDIR)/tools/tools1/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
 	cp -r $(CURDIR)/Samdecrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/applications                # Copy shortcut files
 	cp -r $(CURDIR)/1decrypt-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles   # Copy desktop files
 	cp -r $(CURDIR)/2widget-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
@@ -138,7 +138,7 @@ binary-arch: build install
 	dh_installchangelogs 
 #	dh_installdocs
 	dh_installexamples
-#	dh_install
+	dh_install cp -p $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
 #	dh_installmenu
 	dh_installdebconf	
 #	dh_installlogrotate
