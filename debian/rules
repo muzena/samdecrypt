@@ -91,7 +91,7 @@ install: build
 	cp -r $(CURDIR)/download-decrypt-hub-widgets.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/sam-help.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/samdecrypt_help $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Help file
-	cp -f $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/           # Copy tools
+	cp -p $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/           # Copy tools
 	cp -r $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
 	cp -r $(CURDIR)/tools/tools1/decryptwidget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
