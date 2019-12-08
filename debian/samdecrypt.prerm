@@ -1,0 +1,11 @@
+#!/bin/sh
+set -x
+#set -e 
+
+
+if [ -d "/tmp/samdecrypt-gui" ]; then
+	echo "samdecrypt-gui dir exist, removing dir"
+	rm -rf /tmp/samdecrypt-gui
+fi
+
+exit 0
