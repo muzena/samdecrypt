@@ -3,7 +3,7 @@ set -x
 #set -e 
 
 if [ -d "usr/share/samdecrypt" ]; then
-	echo "samdecrypt-gui dir exist, removing dir"
+	echo "samdecrypt dir exist, removing dir"
 	rm -rf /usr/share/samdecrypt/
 	#rm -rf /usr/share/samdecrypt/tools
 	#rm -f /usr/share/samdecrypt/.decrypt_userdata
