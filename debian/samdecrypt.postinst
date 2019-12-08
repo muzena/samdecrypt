@@ -35,5 +35,10 @@ widgetpath="'$WIDGETPATH'"' > /usr/share/samdecrypt/.decrypt_userdata
 
 
 #dpkg-reconfigure samdecrypt
+cd /tmp
+git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
+cp -rf ./samdecrypt-gui/tools /usr/share/samdecrypt/
+
+exit 0
 
 
