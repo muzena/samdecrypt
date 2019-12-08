@@ -1,0 +1,31 @@
+Source: samtoolbox
+Section: utils
+Priority: extra
+Maintainer: gogo <trebelnik2@gmail.com>
+Uploaders: <trebelnik2@gmail.com>
+Build-Depends: debhelper (>= 7), cdbs, autoconf
+Standards-Version: 3.9.1
+Homepage: http://www.ullrich.es/job/sendersortierung/samsung-%E2%80%93-samtoolbox-en/
+
+Package: samtoolbox
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, ia32-libs [amd64]
+Description: SamToolBox is a powerful Channel Editor for the Samsung TV. This is an open-source software.
+ It provides following features:
+ .
+ SCM archive file support for all TV Set generation (B-Series to D-Series)
+ .
+ Stand-alone channel map file support
+ .
+ Channel map sorting based on a reference channel list
+ .
+ Easy channel filtering
+ .
+ Display various database (Transponder, Satellite, Service Provider)
+ .
+ Edit capability (Cut, Copy, Paste, Delete, Swap Channel, Add Channel, Channel number increment and decrement) with multi row selection support
+ .
+ Easy build of Favorite channel lists using Cut&Paste
+ .
+ Export of opened maps (CSV format, Reference channel list for Channel sort function)
+ 

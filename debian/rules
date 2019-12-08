@@ -1,0 +1,74 @@
+#!/usr/bin/make -f
+
+#%:
+#	dh  $@
+
+#override_dh_shlibdeps:
+
+#build:
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_prep 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep -k 
+	dh_installdirs
+	
+	mkdir -p $(CURDIR)/debian/samtoolbox
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr/bin
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/applications
+	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/pixmaps
+	cp -r $(CURDIR)/samtoolbox $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox/
+	cp -r $(CURDIR)/samtoolbox.png $(CURDIR)/debian/samtoolbox/usr/share/pixmaps/
+	cp -r $(CURDIR)/samtoolbox.desktop $(CURDIR)/debian/samtoolbox/usr/share/applications/
+
+override_dh_shlibdeps:
+
+#override_dh_strip:
+#	debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
+
+# Build architecture-independent files here.
+binary-indep: build install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+#	dh_installdocs
+#	dh_installexamples
+#	dh_install
+#	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_python
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+#	dh_installman
+	dh_link /usr/share/samtoolbox/samtoolbox /usr/bin/samtoolbox
+	dh_strip
+#	dh_strip --exclude=libPVRdumpkeys.so
+	dh_compress 
+	dh_fixperms
+#	dh_perl
+#	dh_makeshlibs
+	dh_installdeb
+#	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure
