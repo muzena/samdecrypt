@@ -117,6 +117,7 @@ install: build
 	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 
 #override_dh_auto_install:
+	#dh_auto_install
 	#install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
 
 #override_dh_shlibdeps:
@@ -128,7 +129,8 @@ install: build
 # Build architecture-independent files here.
 binary-indep: build install
 # We have nothing to do by default.
-#override_dh_auto_install:
+override_dh_auto_install:
+	#dh_auto_install
 	install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
 	
 # Build architecture-dependent files here.
