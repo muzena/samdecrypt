@@ -2,6 +2,21 @@
 set -x
 #set -e 
 
+
+if [ -d "/tmp/samdecrypt-gui" ]; then
+	echo "samdecrypt-gui dir exist, removing dir"
+	rm -rf /tmp/samdecrypt-gui
+fi
+wait $!
+cd /tmp
+wait $!
+#git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
+git clone https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
+
+wait $!
+cp -rf /tmp/samdecrypt-gui/tools /usr/share/samdecrypt/
+wait $!
+
 # Source debconf library.
 . /usr/share/debconf/confmodule
 
@@ -34,18 +49,6 @@ widgetpath="'$WIDGETPATH'"' > /usr/share/samdecrypt/.decrypt_userdata
 #bash samadduser.sh
 
 #dpkg-reconfigure samdecrypt
-
-if [ -d "/tmp/samdecrypt-gui" ]; then
-	echo "samdecrypt-gui dir exist, removing dir"
-	rm -rf /tmp/samdecrypt-gui
-fi
-wait $!
-cd /tmp
-wait $!
-git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
-wait $!
-cp -rf /tmp/samdecrypt-gui/tools /usr/share/samdecrypt/
-wait $!
 
 exit 0
 
