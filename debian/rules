@@ -1,0 +1,182 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+CFLAGS = -Wall -g
+
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -O0
+else
+	CFLAGS += -O2
+endif
+
+build:
+	$(CC) -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -c aes.c -o aes.o
+	$(CC) -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -c drmdecrypt.c -o drmdecrypt.o
+	$(CC) -o drmdecrypt aes.o drmdecrypt.o
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_prep 
+
+override_dh_auto_configure:
+	dh_auto_configure -- ${AUTOBUILD_CONFIGURE_EXTRA} ${JOBSARGS}
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_prep -k 
+	dh_installdirs
+	# Make directories
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/bin
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/applications
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
+	#install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
+	cp -r $(CURDIR)/aes.o $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Copy scripts
+	cp -r $(CURDIR)/drmdecrypt.o $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/drmdecrypt $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/backup-widget.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/copy-widget-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt-shut-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt-shut-tv-shut-comp.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypting-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/decrypt-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/download-keys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/list.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/list-widget-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/ping-tv-test $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/play-decoded-video.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/put-tools-in-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/read-options.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/reboot-tv $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/remove-tools-from-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/remove-widget-from-tv.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samconfigure $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samdecrypt-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samdumpkeys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samremovekeys.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samsettings.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/settings-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/tools-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/widget-gui.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/widget-gui-add.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/copy-widget-in-tv-from-web.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/export-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/import-TV-configuration.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/poweroff-tv $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/widget-backup-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-gui $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-shel $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-startstop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/web-interface-filemanager $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/terminal-acess.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/download-decrypt-hub-widgets.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/sam-help.sh $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
+	cp -r $(CURDIR)/samdecrypt_help $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Help file
+	#install -Dm755 $(CURDIR)/tools/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	#cp -r $(CURDIR)/tools/widget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools
+	#cp -r $(CURDIR)/tools/tools1/decryptwidget $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	#cp -r $(CURDIR)/tools/tools1/libSPMdecrypt.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	#cp -r $(CURDIR)/tools/tools1/samyGOso $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/tools1
+	cp -r $(CURDIR)/Samdecrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/applications                # Copy shortcut files
+	cp -r $(CURDIR)/1decrypt-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles   # Copy desktop files
+	cp -r $(CURDIR)/2widget-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/3tools-gui.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/samconfigure-main.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles
+	cp -r $(CURDIR)/1decrypt.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1      # Copy desktop1 files
+	cp -r $(CURDIR)/2generate-keys.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
+	cp -r $(CURDIR)/3download-keys.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
+	cp -r $(CURDIR)/4remove-keys.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
+	cp -r $(CURDIR)/5title-list.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles1
+	cp -r $(CURDIR)/20add-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2     # Copy desktop2 files
+	cp -r $(CURDIR)/21backup-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
+	cp -r $(CURDIR)/22remove-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
+	cp -r $(CURDIR)/23list-widget.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
+	cp -r $(CURDIR)/10put-tools-in-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3     # Copy desktop3 files
+	cp -r $(CURDIR)/11remove-tools-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/1export-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/2import-channels-from-tv.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/11web-acess.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/12terminal-access.desktop $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
+	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps       # png icons
+	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
+	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
+
+#override_dh_auto_install:
+	#dh_auto_install
+	#install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
+
+#override_dh_shlibdeps:
+
+#override_dh_strip:
+	#debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
+	#debian/drmdecrypt/usr/share/drmdecrypt/tools/tools1/libSPMdecrypt.so
+
+# Build architecture-independent files here.
+binary-indep: build install
+# We have nothing to do by default.
+#override_dh_auto_install:
+	#dh_auto_install
+	#install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
+	
+# Build architecture-dependent files here.
+binary-arch: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	#dh_installdocs
+	dh_installexamples
+	#dh_install cp -p $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
+	#dh_installmenu
+	dh_installdebconf	
+	#dh_installlogrotate
+	#dh_installemacsen
+	#dh_installpam
+	#dh_installmime
+	#dh_python
+	#dh_installinit
+	#dh_installcron
+	#dh_installinfo
+	dh_installman
+	dh_link /usr/share/samdecrypt/drmdecrypt /usr/bin/decrypt
+	dh_link /usr/share/samdecrypt/decrypt.sh /usr/bin/samdecrypt
+	dh_link /usr/share/samdecrypt/samdumpkeys.sh /usr/bin/samdumpkeys
+	dh_link /usr/share/samdecrypt/samremovekeys.sh /usr/bin/samremovekeys
+	dh_link /usr/share/samdecrypt/put-tools-in-tv.sh /usr/bin/samtvtools
+	dh_link /usr/share/samdecrypt/samdecrypt-gui /usr/bin/samdecrypt-gui
+	dh_link /usr/share/samdecrypt/copy-widget-in-tv.sh /usr/bin/addwidget
+	dh_link /usr/share/samdecrypt/samconfigure /usr/bin/samconfigure
+	dh_link /usr/share/samdecrypt/remove-widget-from-tv.sh /usr/bin/removewidget
+	dh_link /usr/share/samdecrypt/list-widget-in-tv.sh /usr/bin/listwidget
+	dh_link /usr/share/samdecrypt/ping-tv-test /usr/bin/checktv
+	dh_link /usr/share/samdecrypt/settings-gui.sh /usr/bin/samsettingsgui
+	dh_link /usr/share/samdecrypt/download-keys.sh /usr/bin/samdownloadkeys
+	#override_dh_strip debian/drmdecrypt/usr/share/drmdecrypt/tools/libPVRdumpkeys.so
+	#dh_strip --exclude=libPVRdumpkeys.so
+	#dh_strip --exclude=libSPMdecrypt.so
+	dh_compress 
+	dh_fixperms
+	#dh_perl
+	#dh_makeshlibs
+	dh_installdeb
+	#dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure
