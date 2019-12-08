@@ -40,9 +40,9 @@ if [ -d "/tmp/samdecrypt-gui" ]; then
 	rm -rf /tmp/samdecrypt-gui
 fi
 wait $!
-#cd /tmp
+cd /tmp
 wait $!
-git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui /tmp/samdecrypt-gui
+git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
 wait $!
 cp -rf /tmp/samdecrypt-gui/tools /usr/share/samdecrypt/
 wait $!
