@@ -17,17 +17,13 @@ install: build
 	dh_testroot
 	dh_prep -k 
 	dh_installdirs
-	
-	mkdir -p $(CURDIR)/debian/samtoolbox
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr/bin
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/applications
-	mkdir -p $(CURDIR)/debian/samtoolbox/usr/share/pixmaps
-	cp -r $(CURDIR)/samtoolbox $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox/
-	cp -r $(CURDIR)/samtoolbox.png $(CURDIR)/debian/samtoolbox/usr/share/pixmaps/
-	cp -r $(CURDIR)/samtoolbox.desktop $(CURDIR)/debian/samtoolbox/usr/share/applications/
+	install -pdm755 $(CURDIR)/debian/samtoolbox/usr/bin
+	install -pdm755 $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox
+	install -pdm755 $(CURDIR)/debian/samtoolbox/usr/share/applications
+	install -pdm755 $(CURDIR)/debian/samtoolbox/usr/share/pixmaps
+	install -Dm755 $(CURDIR)/samtoolbox $(CURDIR)/debian/samtoolbox/usr/share/samtoolbox/
+	install -Dm644 $(CURDIR)/samtoolbox.png $(CURDIR)/debian/samtoolbox/usr/share/pixmaps/
+	install -Dm644 $(CURDIR)/samtoolbox.desktop $(CURDIR)/debian/samtoolbox/usr/share/applications/
 
 override_dh_shlibdeps:
 
