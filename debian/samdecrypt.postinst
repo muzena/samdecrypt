@@ -14,7 +14,7 @@ git clone --depth 1 https://github.com/muzena/samdecrypt.git -b samdecrypt-gui s
 #git clone https://github.com/muzena/samdecrypt.git -b samdecrypt-gui samdecrypt-gui
 
 wait $!
-cp -rf /tmp/samdecrypt-gui/tools /usr/share/samdecrypt/
+cp -rf /tmp/samdecrypt-gui/tools /usr/share/samdecrypt/tools
 wait $!
 
 # Source debconf library.
