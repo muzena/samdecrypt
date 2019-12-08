@@ -44,7 +44,7 @@ install: build
 	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles2
 	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/desktopfiles3
 	install -pdm755 $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
-	install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
+	#install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
 	cp -r $(CURDIR)/aes.o $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/                         # Copy scripts
 	cp -r $(CURDIR)/drmdecrypt.o $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
 	cp -r $(CURDIR)/drmdecrypt $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/
@@ -115,6 +115,9 @@ install: build
 	cp -r $(CURDIR)/samdecrypt.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps       # png icons
 	cp -r $(CURDIR)/samdecrypt-24.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
 	cp -r $(CURDIR)/samdecrypt-84.png $(CURDIR)/debian/samdecrypt/usr/share/pixmaps
+
+override_dh_auto_install:
+	install -Dm755  $(CURDIR)/tools/libPVRdumpkeys.so $(CURDIR)/debian/samdecrypt/usr/share/samdecrypt/tools/
 
 #override_dh_shlibdeps:
 
